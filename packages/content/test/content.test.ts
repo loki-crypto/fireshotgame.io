@@ -2,9 +2,10 @@ import { describe, expect, it } from "vitest";
 import Ajv2020 from "ajv/dist/2020";
 import {
   applyEffects, applyTerminalResult, checkAnswer, createWorld, exitRequirementsMet, generateQuestion, openDoor,
-  type Cell, type Question, type World,
+  type Cell, type World,
 } from "@fireshot/sim";
 import { registry, phases, pools } from "../index";
+import { canonicalAnswer } from "./canonical";
 import phaseSchema from "../schemas/phase.schema.json";
 import enemySchema from "../schemas/enemy.schema.json";
 import weaponSchema from "../schemas/weapon.schema.json";
@@ -21,17 +22,6 @@ function validate(schema: object, data: unknown, label: string): void {
   const v = ajv.compile(schema);
   const ok = v(data);
   if (!ok) throw new Error(`${label}: ${ajv.errorsText(v.errors, { separator: "\n" })}`);
-}
-
-/** Resposta canônica de uma questão (usada para verificar que o gabarito é aceito). */
-export function canonicalAnswer(q: Question): unknown {
-  switch (q.kind) {
-    case "mc": return q.answer;
-    case "match":
-    case "classify": return q.answer;
-    case "numeric": return q.answer;
-    case "rules": return { defaultPolicy: "deny", rules: q.answer.allowed.map((port) => ({ port, action: "allow" })) };
-  }
 }
 
 function bfs(w: World, start: Cell): Set<number> {

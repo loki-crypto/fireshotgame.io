@@ -2,9 +2,9 @@ import { signal } from "@preact/signals";
 import { PointerLockControls } from "three/examples/jsm/controls/PointerLockControls.js";
 import * as THREE from "three";
 import {
-  FIXED_DT, applyTerminalResult, checkAnswer, createWorld, findWeaponDef, generateQuestion, mulberry32, phaseSummary,
-  questionSeed, respawn, stepWorld, tamperQuestion, terminalAccess,
-  type AnswerValue, type CheckResult, type ContentRegistry, type EnemyDef, type PhaseSummary, type Question, type SimEvent,
+  FIXED_DT, applyEffects, applyTerminalResult, checkAnswer, createWorld, damagePlayer, findWeaponDef, generateQuestion, killEnemy, mulberry32, openDoor,
+  phaseSummary, questionSeed, respawn, stepWorld, tamperQuestion, terminalAccess,
+  type AnswerValue, type CheckResult, type ContentRegistry, type EnemyDef, type PhaseSummary, type Question, type RulesAnswer, type SimEvent,
   type Tampered, type World,
 } from "@fireshot/sim";
 import type { Settings } from "../app/settings";
@@ -13,7 +13,7 @@ import { attachInput, InputManager } from "./input/InputManager";
 import { Renderer } from "./render/Renderer";
 import { Hud } from "./hud/Hud";
 import { sfx, type SoundName } from "./audio/Sfx";
-import type { BadgeAward, CompleteResult, SessionBackend, TimedEvent } from "./backend";
+import type { AnswerRequest, BadgeAward, CompleteResult, SessionBackend, TimedEvent } from "./backend";
 import { createMessageFactory } from "./messages";
 
 export type GameMode = "loading" | "briefing" | "playing" | "paused" | "terminal" | "dead" | "debrief" | "error";
@@ -89,6 +89,9 @@ export class GameSession {
   private acc = 0;
   private disposed = false;
   private eventBuffer: TimedEvent[] = [];
+  private inflight: Promise<boolean> | null = null;
+  private answerQueue: AnswerRequest[] = [];
+  private answersFlight: Promise<boolean> | null = null;
   private flushTimer = 0;
   private stepTimer = 0;
   private humTimer = 0;
@@ -140,11 +143,16 @@ export class GameSession {
     this.controls = new PointerLockControls(new THREE.PerspectiveCamera(), canvas);
     this.controls.enabled = false; // o giro da câmera é feito pelo InputManager (sensibilidade/inversão)
     this.controls.addEventListener("lock", () => {
-      this.input.locked = true;
+      // a captura é assíncrona: se o jogo saiu de "playing" enquanto ela era concedida (morte, terminal), devolve o ponteiro
+      if (this.mode.value !== "playing") {
+        this.controls?.unlock();
+        return;
+      }
+      this.input.setLocked(true);
       this.pointerLocked.value = true;
     });
     this.controls.addEventListener("unlock", () => {
-      this.input.locked = false;
+      this.input.setLocked(false);
       this.pointerLocked.value = false;
       this.input.releaseAll();
       if (this.mode.value === "playing") this.pause();
@@ -170,7 +178,7 @@ export class GameSession {
 
   /** Permite jogar sem Pointer Lock (ambiente de teste automatizado). */
   forceLockedForTests(): void {
-    this.input.locked = true;
+    this.input.setLocked(true);
     this.pointerLocked.value = true;
   }
 
@@ -334,16 +342,35 @@ export class GameSession {
     }
   }
 
-  private flushEvents(): void {
+  /** Envia um lote (no máximo um em trânsito por vez). Resolve com false se o envio falhou. */
+  private flushEvents(): Promise<boolean> {
     this.flushTimer = 0;
-    if (this.eventBuffer.length === 0) return;
+    if (this.answerQueue.length > 0) void this.flushAnswers();
+    if (this.inflight) return this.inflight;
+    if (this.eventBuffer.length === 0) return Promise.resolve(true);
     const batch = this.eventBuffer.splice(0, 100);
-    this.opts.backend.sendEvents(this.sessionId, batch).then((r) => {
-      if (r.newBadges.length > 0) this.announceBadges(r.newBadges);
-    }).catch(() => {
-      // devolve para a fila e tenta de novo no próximo ciclo
-      this.eventBuffer.unshift(...batch);
-    });
+    this.inflight = this.opts.backend.sendEvents(this.sessionId, batch)
+      .then((r) => {
+        if (r.newBadges.length > 0) this.announceBadges(r.newBadges);
+        return true;
+      })
+      .catch(() => {
+        // devolve para a fila e tenta de novo no próximo ciclo
+        this.eventBuffer.unshift(...batch);
+        return false;
+      })
+      .finally(() => { this.inflight = null; });
+    return this.inflight;
+  }
+
+  /** Espera a fila de eventos esvaziar (usado antes da conclusão, que depende deles). */
+  private async drainEvents(): Promise<void> {
+    if (!(await this.flushAnswers())) throw new Error(t("errors.network"));
+    for (let round = 0; round < 50; round++) {
+      if (this.inflight) { await this.inflight; continue; }
+      if (this.eventBuffer.length === 0) return;
+      if (!(await this.flushEvents())) throw new Error(t("errors.network"));
+    }
   }
 
   private announceBadges(list: BadgeAward[]): void {
@@ -392,6 +419,8 @@ export class GameSession {
     if (!st || st.result || st.pending) return;
     const sent = st.tampered ? st.tampered.transit(answer) : answer;
     const local = checkAnswer(st.question, sent);
+    // o efeito applyFirewallRules do terminal usa as regras que o jogador escreveu
+    if (st.question.kind === "rules" && local.correct) this.world.pendingFirewall = sent as RulesAnswer;
     const outcome = applyTerminalResult(this.world, st.terminalId, local.correct, st.tampered !== null);
     this.processEvents();
     sfx.play(local.correct ? "terminalOk" : "terminalFail");
@@ -405,9 +434,10 @@ export class GameSession {
       serverMismatch: false,
     };
     this.terminal.value = { ...st, result, pending: this.opts.backend.online };
-    this.flushEvents();
+    void this.flushEvents();
+    const req: AnswerRequest = { terminalId: st.terminalId, challengeIndex: st.challengeIndex, attemptNo: st.attemptNo, answer: sent, tampered: st.tampered !== null };
     this.opts.backend
-      .answer(this.sessionId, { terminalId: st.terminalId, challengeIndex: st.challengeIndex, attemptNo: st.attemptNo, answer: sent, tampered: st.tampered !== null })
+      .answer(this.sessionId, req)
       .then((r) => {
         const cur = this.terminal.value;
         if (r.newBadges.length > 0) this.announceBadges(r.newBadges);
@@ -419,9 +449,30 @@ export class GameSession {
         };
       })
       .catch(() => {
+        // o servidor precisa registrar a resposta para validar a conclusão: reenvia depois
+        this.answerQueue.push(req);
         const cur = this.terminal.value;
         if (cur && cur.attemptNo === st.attemptNo) this.terminal.value = { ...cur, pending: false };
       });
+  }
+
+  /** Reenvia respostas que falharam, em ordem (uma rodada por vez). Resolve com false se alguma ainda falhar. */
+  private flushAnswers(): Promise<boolean> {
+    if (this.answersFlight) return this.answersFlight;
+    this.answersFlight = (async () => {
+      while (this.answerQueue.length > 0) {
+        const req = this.answerQueue[0]!;
+        try {
+          const r = await this.opts.backend.answer(this.sessionId, req);
+          if (r.newBadges.length > 0) this.announceBadges(r.newBadges);
+        } catch {
+          return false;
+        }
+        this.answerQueue.shift();
+      }
+      return true;
+    })().finally(() => { this.answersFlight = null; });
+    return this.answersFlight;
   }
 
   /** Após ver o resultado: próximo desafio, nova tentativa ou sair (se resolvido). */
@@ -487,11 +538,10 @@ export class GameSession {
     this.hud.setVisible(false);
     const summary = phaseSummary(this.world);
     this.debrief.value = { summary, elapsed: this.elapsed, result: null, error: null };
-    this.flushEvents();
     try {
-      // garante que eventos pendentes cheguem antes da conclusão
-      if (this.eventBuffer.length > 0) await this.opts.backend.sendEvents(this.sessionId, this.eventBuffer.splice(0));
-      const result = await this.opts.backend.complete(this.sessionId, summary);
+      // a validação da conclusão usa os eventos (abates, chefe): eles precisam chegar antes
+      await this.drainEvents();
+      const result = await this.opts.backend.complete(this.sessionId, summary, this.elapsed);
       this.debrief.value = { summary, elapsed: this.elapsed, result, error: null };
       if (result.newBadges.length > 0) this.newBadges.value = [...this.newBadges.value, ...result.newBadges];
     } catch (err) {
@@ -513,12 +563,40 @@ export class GameSession {
       terminal: () => this.terminal.value,
       forceLock: () => this.forceLockedForTests(),
       solveAll: () => {
-        for (const term of this.world.terminals) while (!term.solved) applyTerminalResult(this.world, term.id, true, false);
+        for (const term of this.world.terminals) {
+          while (!term.solved) {
+            const acc = terminalAccess(this.world, term.id);
+            if (acc.ok) {
+              const q = generateQuestion(term.def.generator, term.def.params, questionSeed(this.seed, term.id, acc.challengeIndex, acc.attemptNo), this.world.reg.pools);
+              if (q.kind === "rules") this.world.pendingFirewall = { defaultPolicy: "deny", rules: q.answer.allowed.map((port) => ({ port, action: "allow" as const })) };
+            }
+            term.corrupted = false;
+            applyTerminalResult(this.world, term.id, true, false);
+          }
+        }
         this.processEvents();
       },
       clearArenas: () => {
-        for (const e of this.world.enemies) e.alive = false;
-        for (const a of this.world.arenas) if (a.state === "idle") a.state = "cleared";
+        const w = this.world;
+        for (const e of w.enemies) if (e.alive && e.behavior !== "ransomware") e.alive = false;
+        for (const a of w.arenas) {
+          if (a.state === "cleared") continue;
+          a.pending = [];
+          a.state = "cleared";
+          for (const d of a.def.lockDoors ?? []) openDoor(w, d);
+          applyEffects(w, a.def.onClear);
+        }
+        this.processEvents();
+      },
+      hurt: (amount: number, source: string | null = null) => {
+        this.world.player.invuln = 0;
+        damagePlayer(this.world, amount, null, source, "effect");
+        this.processEvents();
+      },
+      defeatBoss: () => {
+        const boss = this.world.enemies.find((e) => e.id === this.world.bossId && e.alive);
+        if (boss) killEnemy(this.world, boss, "patch_pistol", "neutral", false);
+        this.processEvents();
       },
       finish: () => {
         const exit = this.world.zones.find((z) => z.type === "exit");

@@ -27,8 +27,8 @@ export class RemoteBackend implements SessionBackend {
     return { correct: r.correct, xpDelta: r.xpDelta, bytesDelta: r.bytesDelta, newBadges: r.newBadges };
   }
 
-  async complete(sessionId: string, summary: PhaseSummary): Promise<CompleteResult> {
-    const r = await api.complete(sessionId, summary);
+  async complete(sessionId: string, summary: PhaseSummary, elapsedS: number): Promise<CompleteResult> {
+    const r = await api.complete(sessionId, summary, elapsedS);
     return { ...r, offline: false };
   }
 }

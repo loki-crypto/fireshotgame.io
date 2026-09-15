@@ -55,7 +55,7 @@ export function MatchView({ q, locked, items, onSubmit }: { q: MatchQuestion; lo
       </div>
       {!locked && (
         <div class="row">
-          <Button variant="ghost" small onClick={() => { setPairs(q.left.map(() => null)); setActive(0); }}>{t("settings.reset")}</Button>
+          <Button variant="ghost" small onClick={() => { setPairs(q.left.map(() => null)); setActive(0); }}>{t("terminal.clear")}</Button>
           <Button disabled={!complete} onClick={() => onSubmit(pairs.map((p) => p ?? -1))}>{t("terminal.submit")}</Button>
         </div>
       )}

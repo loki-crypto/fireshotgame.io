@@ -1,0 +1,3571 @@
+{
+ "source": "01-lan/t3",
+ "generator": "switch_table_match",
+ "params": {
+  "count": 4
+ },
+ "seeds": [
+  {
+   "seed": 2654435761,
+   "sha256": "4d501d5db6eeee7102ac69347a7193a6f5ce38bf5b656e1a5ca4ab1bf0de7e6e"
+  },
+  {
+   "seed": 1013904226,
+   "sha256": "45cb18de1617b6d6cc5213ffc7f662c2fa3bf14cac1f08d8dbfe2fec601c6ec6"
+  },
+  {
+   "seed": 3668339987,
+   "sha256": "24a997725cc413278a763bd2b5ff6be00d2b0e03c8e5c092671984b73055b1fa"
+  },
+  {
+   "seed": 2027808452,
+   "sha256": "6f2d6df648b7e4323e38e2dd8eb5a600c28c43372acf3c49bc2d19a96d0446fc"
+  },
+  {
+   "seed": 387276917,
+   "sha256": "9e5f052de9dc79127b88f8b36b99970dc9db9cec098f7d166bcde656dafd96d5"
+  },
+  {
+   "seed": 3041712678,
+   "sha256": "f6eeca33c2866d91c88bb2637fd1c0937a5b8cf5ea7d2efed223b1516481c908"
+  },
+  {
+   "seed": 1401181143,
+   "sha256": "5ab9d08b8073a13708c18cddfb0d07afa2441ba62dd1b2f869fa8ddae7282f1c"
+  },
+  {
+   "seed": 4055616904,
+   "sha256": "cbe4d7a73aedd1ac5b4164afbe2a1360446990727e0936e8f32bad458f742dd8"
+  },
+  {
+   "seed": 2415085369,
+   "sha256": "f0a40031ede11a12b155ad3ad7ecd4d3c85074572419c61fc36de070795f9704"
+  },
+  {
+   "seed": 774553834,
+   "sha256": "7ab2e674549adba0e6fd91085b4bc7bf428677496d1407090c582aecc2a06ab0"
+  },
+  {
+   "seed": 3428989595,
+   "sha256": "037ca606c5717ec5cfdcccff7d7e10251055cf03e0d914dcc3a45702c388ea0e"
+  },
+  {
+   "seed": 1788458060,
+   "sha256": "bffbb131848771c270d91399b733a7f885acb23bfbf54c71fae4b63109cb6925"
+  },
+  {
+   "seed": 147926525,
+   "sha256": "3b89fcabbca67a4453cc1c6dabb28d44839561e97d93cdefdd9388b6deaf423d"
+  },
+  {
+   "seed": 2802362286,
+   "sha256": "eae9823e295f88e7a0eb985458163880f3f323e4324153603d8b96dfba6437fa"
+  },
+  {
+   "seed": 1161830751,
+   "sha256": "e60bd773630068d2a3a7934de42a18d8281f8e2b198372fecb791cdd95021cca"
+  },
+  {
+   "seed": 3816266512,
+   "sha256": "a51019a4d7e3900eb3f4a63340bf4dbae829d717e564d471fe1fcd65c0a44a2b"
+  },
+  {
+   "seed": 2175734977,
+   "sha256": "6160d97a75f16ad145e0bba88a2a66f4ac3df56c39ed74c9d458864594c69f9c"
+  },
+  {
+   "seed": 535203442,
+   "sha256": "78a8ed13ac3612515e7dccfe378d543e5e5d0c8d6886ee3de63c075a7b4dc93c"
+  },
+  {
+   "seed": 3189639203,
+   "sha256": "7a9d69402132568a90560070f3d5d386e988e7d63807f0a537f0c641224e3753"
+  },
+  {
+   "seed": 1549107668,
+   "sha256": "59316e92ebf4088bd9780b92dc839134d58efdd0b39fb8aef0129dd105ee18cc"
+  },
+  {
+   "seed": 4203543429,
+   "sha256": "0c69995de780d313c031ba9bf771686e839c38afd63cdac8fa91cb6a009f805c"
+  },
+  {
+   "seed": 2563011894,
+   "sha256": "7180052ab43ab9dd167000b95c51e91feab8261fdcfbf72bdf46130b20f5fd78"
+  },
+  {
+   "seed": 922480359,
+   "sha256": "ce4e916a4561c7e6748f02ac893ce069589b3fe5d7d6e79b2749fc1cc36d407d"
+  },
+  {
+   "seed": 3576916120,
+   "sha256": "d64b0768bbce3536cac3abdc12d268f8b31b9c2bb13374380c56f0af4a6e8667"
+  },
+  {
+   "seed": 1936384585,
+   "sha256": "fe71e45f74e50f9bbaadba40a31e5a5a681ce504da508a1048fb745a31c103cf"
+  },
+  {
+   "seed": 295853050,
+   "sha256": "0ffe5bf990ec0e611c56fe9384afc6fbe3d5b4d1890fa631d7ea311650d03549"
+  },
+  {
+   "seed": 2950288811,
+   "sha256": "dff622e3ec76610023038f02cc10ad30dd96ca6b57e5ca06865359124d170f69"
+  },
+  {
+   "seed": 1309757276,
+   "sha256": "fbdacb95cdcc2796f88640c063cdef1331b105bf2606b445df03cabbfe20e09d"
+  },
+  {
+   "seed": 3964193037,
+   "sha256": "b899f58b7b759ba920f5294b252e396b089d8871c7c4d42c19f53b0a341df661"
+  },
+  {
+   "seed": 2323661502,
+   "sha256": "6819f58a5f79b13f3eb59799350c877bcd01d3c9a522660eeff7ea0e4dfc81f2"
+  },
+  {
+   "seed": 683129967,
+   "sha256": "b2b25e315882745e62afe06dfb56790b75f6d11dced11e03e438ac83d48b6ff9"
+  },
+  {
+   "seed": 3337565728,
+   "sha256": "2ba5c76f4b7e0b2541e998f685ba10d612635b243fedf4f7ca595d4cddba3314"
+  },
+  {
+   "seed": 1697034193,
+   "sha256": "d0548ee4f8449b977e2e36735bdbfbb844c8353fa4352fba20c052894354083e"
+  },
+  {
+   "seed": 56502658,
+   "sha256": "f17e10f3c3520019446bf3775537f91d704139b018ba3dd2988a9aad3dd02cb6"
+  },
+  {
+   "seed": 2710938419,
+   "sha256": "aefe15b863976d972f1e38cda182a7b3cfd8bf63367ee771377f78336c492343"
+  },
+  {
+   "seed": 1070406884,
+   "sha256": "e49bb6b5a45a233bf1565829235be03b929a8cf9dbcd56c0e5525fa875fba999"
+  },
+  {
+   "seed": 3724842645,
+   "sha256": "c8d38679ad6d5237f57d6e0e08dc0e656ccf2d1a7c4156f4e0445a83a318f63f"
+  },
+  {
+   "seed": 2084311110,
+   "sha256": "e740ef454d9712533114f3e75dbc525ed4d1ac1988dc0f2560a2c7e5316c60f2"
+  },
+  {
+   "seed": 443779575,
+   "sha256": "1d391efb884ca9d234e3060912f8396496d8650c22f7f0041e8cb6f9eae8e4a4"
+  },
+  {
+   "seed": 3098215336,
+   "sha256": "8959670d66d8d63c7467cff6897f2999f1fcf559b6dc6fd9ee9565db8d0966a2"
+  },
+  {
+   "seed": 1457683801,
+   "sha256": "0b130fa2fd3406b1dcd5d4fdd29bf55c15a3cc417d665996ef86df4e238bed71"
+  },
+  {
+   "seed": 4112119562,
+   "sha256": "74da145b406a54347b93c7b2378f92a81594af1375015aaff57e3fede84208b3"
+  },
+  {
+   "seed": 2471588027,
+   "sha256": "350453e99f887bf6aed427d0452d008c3daed2669f85614e9c9c22452165b8ca"
+  },
+  {
+   "seed": 831056492,
+   "sha256": "5ea701b44eb1e0ceeef4b50756068c8a3554359b45324121b2e19acb7ebab850"
+  },
+  {
+   "seed": 3485492253,
+   "sha256": "923c27bccfb016e9d8633010200ed8e8eb01f5c96dad947eb030a529b7a50269"
+  },
+  {
+   "seed": 1844960718,
+   "sha256": "fcff1671d44d7e6557bbda9b83c5861aaf7b68493620b6508b115dd968fd8bcf"
+  },
+  {
+   "seed": 204429183,
+   "sha256": "1f64665cb658bb8b40c9b6d4aa7abd393568076d28d28d3a416b18a4316b94c8"
+  },
+  {
+   "seed": 2858864944,
+   "sha256": "121ce5cb2aaa3512915a69ae28903fb0d9fb4618c4eca4ea5b08b76d2bdba0a6"
+  },
+  {
+   "seed": 1218333409,
+   "sha256": "1bb35232c251ac214bed03137c4dc729cba326fdb8ba9ee0d1ccd5c17c21b362"
+  },
+  {
+   "seed": 3872769170,
+   "sha256": "82cf0c25133f54ddbc50b8c607c99c8f16d0feac69f5b7d93d847ee1ef0272b1"
+  },
+  {
+   "seed": 2232237635,
+   "sha256": "aee1346f339aa8d33110980b8f285fba6330ceeb918357ec97734d5d1d4476df"
+  },
+  {
+   "seed": 591706100,
+   "sha256": "527455e254ef12ac829bea6c47f030f23952b509a30a635441d273ed0c4542ee"
+  },
+  {
+   "seed": 3246141861,
+   "sha256": "fec7338aa7dda8f23e94b9757034983459e30e5711dc3ddc4d934fc6dbd3b789"
+  },
+  {
+   "seed": 1605610326,
+   "sha256": "f651bd0efb0e9c505e2cf604477a3d7db71aede0a4f1b1597b40806ca10b1f2d"
+  },
+  {
+   "seed": 4260046087,
+   "sha256": "3488c2aa9b6c4880cd6333515159bff7058705b556dfd0ad9bf3dc953f3f3a8d"
+  },
+  {
+   "seed": 2619514552,
+   "sha256": "b25d78c33fb08128919e1508fc627367cb21b62aa67209ba67973c1522810c35"
+  },
+  {
+   "seed": 978983017,
+   "sha256": "a429c2acad69e94911e5a59079ae550aa6cecd98f77e35474cd662a84ee9d1b3"
+  },
+  {
+   "seed": 3633418778,
+   "sha256": "7d98d1018ea7f5c1ad079efaf613e0743a2b277f3fcb4e8dcfb9152cc2d92643"
+  },
+  {
+   "seed": 1992887243,
+   "sha256": "f34ff0662c948f3e33ed2cfba7a44c27ecd7b63bc835858742310836b5fab075"
+  },
+  {
+   "seed": 352355708,
+   "sha256": "82326ae78f367955829b4cef07ae75e9e7b07c6f031c9b563125d1d291fa7c2e"
+  },
+  {
+   "seed": 3006791469,
+   "sha256": "032c0b737908137782496e4e3d586b865dc8186a44001818d9c5676dd6a476db"
+  },
+  {
+   "seed": 1366259934,
+   "sha256": "f8476681502d3d8133fe26c239c0cccd452ed651eacdf8a4fecb1dcf63b419b6"
+  },
+  {
+   "seed": 4020695695,
+   "sha256": "2416596c1a2975233463ab3f2c7db6db28895eac07481428f4e654c057e52d75"
+  },
+  {
+   "seed": 2380164160,
+   "sha256": "5808b9a63ef5875384a59ebd39103b38ea2dc6ed3895c2c668ff1dfd75ebae4c"
+  },
+  {
+   "seed": 739632625,
+   "sha256": "1d9bee807dfda3b03aac1ec6a2e22248d03ec20ba28b0d43856741b375a15c72"
+  },
+  {
+   "seed": 3394068386,
+   "sha256": "f0041fb6ef62503bb65a6f92662203e0316a62033fc5b087768540e6d36c2a7b"
+  },
+  {
+   "seed": 1753536851,
+   "sha256": "94b3bf1ff75d1ea4cb80b6f8a0f99425e86485c9fefa56526634a0f2c2903deb"
+  },
+  {
+   "seed": 113005316,
+   "sha256": "1d050419f5c837a7a03d72af0a869fe4131016e8a83885150b2685288eb5cfb6"
+  },
+  {
+   "seed": 2767441077,
+   "sha256": "ec1629cccf5f5c27ec3060220cca94b13c3c55fe916a414082b963b848c9288e"
+  },
+  {
+   "seed": 1126909542,
+   "sha256": "79d1bfe63ac02a8e6b0af7d0913321f0dfa88c5ea9dc2777bd612c2ea3c6a80a"
+  },
+  {
+   "seed": 3781345303,
+   "sha256": "9cfcfbacf2a27d8d67e13679b60fed0818fd1bfb7e852cba3b74404846c3809c"
+  },
+  {
+   "seed": 2140813768,
+   "sha256": "1247044381cb512898981c443a92b79e70c6ee850f4ceb391af08fff79aae196"
+  },
+  {
+   "seed": 500282233,
+   "sha256": "97e1b1514f2493eb108592acc8737fc39573a35a3395fabe242fa25870574a73"
+  },
+  {
+   "seed": 3154717994,
+   "sha256": "66b4d1974820248c712669f7672e73f5fa678a729bc80c79ba743bf6d330d75b"
+  },
+  {
+   "seed": 1514186459,
+   "sha256": "59be8a1309bd94095c20cd236702124fd58a45967eab4b84f3c3420ed0e854eb"
+  },
+  {
+   "seed": 4168622220,
+   "sha256": "0d5f10dfaa38c6cb600d27278aae28611d1ae45fbf175ecee647bfecf1068226"
+  },
+  {
+   "seed": 2528090685,
+   "sha256": "11be452eae141bb200c9bd3e491638f87a3bd194b17e98bb38091c4de7b7ba3a"
+  },
+  {
+   "seed": 887559150,
+   "sha256": "9bfb3f66a894a85f426fb8734c6b9ae4680fcc794276b9e172cfca951c113a2b"
+  },
+  {
+   "seed": 3541994911,
+   "sha256": "25e60544e5b258f111fcca743db7427e2be159cc84a56f86ce24896d0a428d6d"
+  },
+  {
+   "seed": 1901463376,
+   "sha256": "57541e78185d8204c5554b829996751538f3f0e4747fefe813f0ab8b23235626"
+  },
+  {
+   "seed": 260931841,
+   "sha256": "ce1f12de12d4fa883c22138644fadb987cf2307b45959c63a69be5730384723f"
+  },
+  {
+   "seed": 2915367602,
+   "sha256": "3bef13d78c81f7513170d390e7c857c14ad564451ff7da24c27536057aa96dce"
+  },
+  {
+   "seed": 1274836067,
+   "sha256": "337d24db1c1ef8301b5915b5bf2ae23cc985bce949028512587f96a63cca3d47"
+  },
+  {
+   "seed": 3929271828,
+   "sha256": "752a296cc7ca89b35fbdca222b660f84f4a3ba0b546c06a9553eec2e4286dd1a"
+  },
+  {
+   "seed": 2288740293,
+   "sha256": "66d0d48d118304ddebc79074b85f28644294da0560a4ea6e8c9132fb6988da10"
+  },
+  {
+   "seed": 648208758,
+   "sha256": "ec3b1e9c128f3d708e3c7dd4dd65be10ec6e7025ef5e6128d21e6706fb71c01f"
+  },
+  {
+   "seed": 3302644519,
+   "sha256": "9a9e0e8a615304223aff5a9115a36fb4eb6e7713545276872ce18632845dc164"
+  },
+  {
+   "seed": 1662112984,
+   "sha256": "26689ff7df2a167b12e28ed4861bd151f2a6f8163cede996990c0b12794d1930"
+  },
+  {
+   "seed": 21581449,
+   "sha256": "35b31fe1f8ac1c33addedde74aa619fea8183adad722db1731e26159a2209d86"
+  },
+  {
+   "seed": 2676017210,
+   "sha256": "d073531486062ba5ab68374b9edd8dc19cdced6f059023cd9350b024fb70844f"
+  },
+  {
+   "seed": 1035485675,
+   "sha256": "5c7b19bef2653b160003150ac38d2e5d4e54d1e5cfb0566084ce19918b2eb1a4"
+  },
+  {
+   "seed": 3689921436,
+   "sha256": "77fd094d2c3efb37c1836a5d57af965f9f9d50bf580adbfe6c0b54230be2f3dc"
+  },
+  {
+   "seed": 2049389901,
+   "sha256": "67bfa7aeb62cac94d0fe025a47c4bd1286937b1f01e9b1ec62d9130918407907"
+  },
+  {
+   "seed": 408858366,
+   "sha256": "f3917ca9187c9acdb51a3d09b18c0c5123229cf7c975aa2c6167ed2d7902d901"
+  },
+  {
+   "seed": 3063294127,
+   "sha256": "0a27d4fb897e8f4828e0a211c1167688d5a71e44976620bb42b82067854f2f1f"
+  },
+  {
+   "seed": 1422762592,
+   "sha256": "0fa7c374a1b5e7087a78595fec64e139f35486e8a521f4cd363be33e57e8298f"
+  },
+  {
+   "seed": 4077198353,
+   "sha256": "fa70c96ce76695c167ab95919586201362a569f03a010a965f569d9fbdce9a47"
+  },
+  {
+   "seed": 2436666818,
+   "sha256": "05d1e5867f0baed689d51b5f4550f93a369940f87a8b349bce9e78645cd7fe39"
+  },
+  {
+   "seed": 796135283,
+   "sha256": "7df1638c7b553141dc36d29c27ed9d267ed6385d5d116f1fb0e4ca0dd75eb9dd"
+  },
+  {
+   "seed": 3450571044,
+   "sha256": "9c12e27a95f978c95bf62590d20692bde4cab42fb1576575e9aeaa5e0ec1836d"
+  },
+  {
+   "seed": 1810039509,
+   "sha256": "da753d3c8011b7c0c594a617c9c8ab6b2dcb9f05beb000be3829d9f6b7203d62"
+  },
+  {
+   "seed": 169507974,
+   "sha256": "a2f8cd6a0432c266e80c8e02d95d70adc7baeb1d90665332ea8fb5fb41e7bd71"
+  },
+  {
+   "seed": 2823943735,
+   "sha256": "e748a7e5e77ccdfa2781313039aaaf7ef9f7b25d4214c350f255121b807507f2"
+  },
+  {
+   "seed": 1183412200,
+   "sha256": "28c685ea5a1d8bf4ec0ccb4fb6b525244a003141a213cb1ed093abd339b21b5d"
+  },
+  {
+   "seed": 3837847961,
+   "sha256": "37d7b551994a2b3233585962bdeae1a4d5768dc6c01c10656e59606b1b66e80c"
+  },
+  {
+   "seed": 2197316426,
+   "sha256": "47a2881621c380bf25ee654a3295cd5321eed27ac39738ca9b5f2f393f60fc5a"
+  },
+  {
+   "seed": 556784891,
+   "sha256": "40df9d9666e44b957d74b5f7485ae7ac68150818a9c20487ea6f5c95d8bf6ae0"
+  },
+  {
+   "seed": 3211220652,
+   "sha256": "4a9948cbf1cc17a9df31090b139af3d684013705c2cc695a195e1f10ae256535"
+  },
+  {
+   "seed": 1570689117,
+   "sha256": "d421e3fa5a8e674c3537c7521cff51a2edca929911ed91cc875655075826920a"
+  },
+  {
+   "seed": 4225124878,
+   "sha256": "a71382289a4b8dde384352b78eee088f190efdf5c077cde177155bea0774984b"
+  },
+  {
+   "seed": 2584593343,
+   "sha256": "0ff14713612296034e558edad882d31c2ba1d7e84c8b5210412f975f3097acb1"
+  },
+  {
+   "seed": 944061808,
+   "sha256": "415165f1118f437d61beaad688d53564e99a3bec506d8519e90a6111c3bdeedf"
+  },
+  {
+   "seed": 3598497569,
+   "sha256": "7ecd64b1a745645fe4ece7a1c0160b3d9384c163614ceaa63cf02a970ae50d57"
+  },
+  {
+   "seed": 1957966034,
+   "sha256": "d35339a90f02394a052b1129940a606b8bae7c4632ee553c61f4f1978236caa6"
+  },
+  {
+   "seed": 317434499,
+   "sha256": "e98feacc14323df33286f4b5a46f644ea3c8df2cf797428fa9456fcf856ce14e"
+  },
+  {
+   "seed": 2971870260,
+   "sha256": "b2c865c48e2789310d2fcb1f7ddf705428f4ae822df136ea23d8f12c64c19944"
+  },
+  {
+   "seed": 1331338725,
+   "sha256": "9575709dfc096a4725ee908a172752e481939f729fae529b0622a47da37fe6d7"
+  },
+  {
+   "seed": 3985774486,
+   "sha256": "0443d6c7c02ec29c0f6d70851893aaa6dc29413892658fd9e929b01e2a49d6b8"
+  },
+  {
+   "seed": 2345242951,
+   "sha256": "0e4c691222a1c5c356259f7db94b0ebf243e302cc2a0d5798791b70a042527bd"
+  },
+  {
+   "seed": 704711416,
+   "sha256": "72cd0831b63aec8b77c97965de49d1288dbc564c0cf2b5ae6c4a562cfdf54ef8"
+  },
+  {
+   "seed": 3359147177,
+   "sha256": "0fe1834c37c02e3ad88d318d1c56011fb08f5f7a7ad416b5346626d1f6513226"
+  },
+  {
+   "seed": 1718615642,
+   "sha256": "09f22710ad481a4b0c38d234bf6f5500e8298ee31208c5b81cea8fc8d588ec51"
+  },
+  {
+   "seed": 78084107,
+   "sha256": "08e7846eac9cfb52371662c7e5293807a3a6de1e7b296dbe06d15f2f83e13984"
+  },
+  {
+   "seed": 2732519868,
+   "sha256": "fdde090f8f121f2beead7a953db9922654e4995c6cde40f3e24fc04d4744a2d0"
+  },
+  {
+   "seed": 1091988333,
+   "sha256": "fd5853da761504370318402e339a7e5d7312b0ca8df11598da59f61ef7b372e7"
+  },
+  {
+   "seed": 3746424094,
+   "sha256": "27a22bd39b0ec906854e32df2baa2299e45a6602771313c267c90c25f23fdf5f"
+  },
+  {
+   "seed": 2105892559,
+   "sha256": "2579c806f3bc4408e912002df537d586c24e81d8aa4fc4296331e1f7d0f36026"
+  },
+  {
+   "seed": 465361024,
+   "sha256": "229845147bbc1e5011f1817c61aee79cb442a10ad354fae3c81cca1d11a99d7f"
+  },
+  {
+   "seed": 3119796785,
+   "sha256": "16f3fba681398cef0669cbf8078464b7c19441921e4c5969385e84f0629bac76"
+  },
+  {
+   "seed": 1479265250,
+   "sha256": "693052003237660cde033cfcdec52435e4dc72656547f628e4a38f06d33e0889"
+  },
+  {
+   "seed": 4133701011,
+   "sha256": "a9b1f3859a30e529c779a49423695ae7ab07ea86a6d86a3603f943fd62d85b7e"
+  },
+  {
+   "seed": 2493169476,
+   "sha256": "c1875e5fc15cba274e17ba8c7105f1a957a80b9f95bb0d5ae9b5ab39e3bb9abf"
+  },
+  {
+   "seed": 852637941,
+   "sha256": "4d3df2fc3c3c818c1cfb3fe6925b4255cf732ee6b46af741351205d56ed17b4d"
+  },
+  {
+   "seed": 3507073702,
+   "sha256": "a91368c6e9347a18cb35bcba00c86cde35e178823bbe4800404fc72dc8b51d0e"
+  },
+  {
+   "seed": 1866542167,
+   "sha256": "b711cbc16f1a38eb1fead26ca29bb0337d0c9b96f5ed81f8fc1d8f8b00e11865"
+  },
+  {
+   "seed": 226010632,
+   "sha256": "5d84555dd18ae3de378c6531674b6b935250221222363a07a31d99663c07203e"
+  },
+  {
+   "seed": 2880446393,
+   "sha256": "1a4dc3fa91394dca89c013e6e909f7a82c40eebb938062be12c1c1f52454adde"
+  },
+  {
+   "seed": 1239914858,
+   "sha256": "883f2b18c900ac41ce81ce6fd3cfab764c9e245a15882f33eecad0c1a1aa6014"
+  },
+  {
+   "seed": 3894350619,
+   "sha256": "f97755ddea9924312fdff3834e746e0837fa272846c8d9a9c219c6e469115c63"
+  },
+  {
+   "seed": 2253819084,
+   "sha256": "f11d03422fc2f420eee446a759b5481130256d68aa0d73b320d73c3b8d116f8e"
+  },
+  {
+   "seed": 613287549,
+   "sha256": "dc3ea8e81dc81fe9a37ad4a20cb048c6a5648f8bf3cdcf59b73475084b920382"
+  },
+  {
+   "seed": 3267723310,
+   "sha256": "05cf384cedf256769fd7f87af3d52cd470b4e3abe2f022a6d3e5a8a28bee49e7"
+  },
+  {
+   "seed": 1627191775,
+   "sha256": "eca5088cad3ce1ff10c420b64b7261063baa3d2d58a86c5eb02607c74ac1335e"
+  },
+  {
+   "seed": 4281627536,
+   "sha256": "d0f10596b3a9538e336475745fea3ceb22e90103a685e1a77964d17871f57197"
+  },
+  {
+   "seed": 2641096001,
+   "sha256": "c386918f6975629e2e35a394066257dca43c22293ce58619b526c0507e267f98"
+  },
+  {
+   "seed": 1000564466,
+   "sha256": "1ac9ecd56699f8b568c62dceda40a9921d1a97097937f10082fac9fc8ff7876a"
+  },
+  {
+   "seed": 3655000227,
+   "sha256": "11290404f059baabfd0d9f19d8d9264a84dadee359c64025c6e2ecadbed9cc1b"
+  },
+  {
+   "seed": 2014468692,
+   "sha256": "3a9a5626bac55468a1b2edc81e6f620a144477c1680f98c021efc533a21bea42"
+  },
+  {
+   "seed": 373937157,
+   "sha256": "505743fed516dd52ceaa4bad03b1eb1e0005d5c98911b5374cd36223f6c9a11a"
+  },
+  {
+   "seed": 3028372918,
+   "sha256": "64b0f98cfae990b8cfab1e963c87994cd3404188484ba8165ed0160ccb230ed4"
+  },
+  {
+   "seed": 1387841383,
+   "sha256": "ecab5552d6522fec0d025b89258f2eb63e982fafba566f1a4e44214ac1b0b412"
+  },
+  {
+   "seed": 4042277144,
+   "sha256": "307e7c1bb2887b6c1601d1fb1722c3c557f36f72040e44cd6c89eca81258ca49"
+  },
+  {
+   "seed": 2401745609,
+   "sha256": "c09e27a37c4e4b89388bf77bae7dc85a6cbf4e7564523e28d2146fffb43425de"
+  },
+  {
+   "seed": 761214074,
+   "sha256": "c6d023782f03d5b01cc82b04d4c90ebfe2f5f38f5d406b2962d598df8538a217"
+  },
+  {
+   "seed": 3415649835,
+   "sha256": "02d3aee2be2c7f3c942e3f19aec492b62c95b0e77c468c0ec511ed7572b1c55f"
+  },
+  {
+   "seed": 1775118300,
+   "sha256": "51418967479dde3bd0d39ee97867fb3272564c1d8672a83efb2475ec1035afb2"
+  },
+  {
+   "seed": 134586765,
+   "sha256": "2d79d09e86e05396bf02d83f9e06344eea4791c31f1fb6a5256ceb729a3848d1"
+  },
+  {
+   "seed": 2789022526,
+   "sha256": "c17788b410a72649610f027b2e7aa088c86d37585c3e1c760b84c9e29214bc99"
+  },
+  {
+   "seed": 1148490991,
+   "sha256": "403225e943e6a3b41c54949c60e281a7ed80acd5543f58cae044ffb11b5ec44c"
+  },
+  {
+   "seed": 3802926752,
+   "sha256": "82990c33fe2397f16f6b3fb30448ff95068d63e60584da41545b6767b0d259fe"
+  },
+  {
+   "seed": 2162395217,
+   "sha256": "c0c80d2134ad123dee41b4b483fc3a9ce7ae750b4d5c195b2ee93ff611bff69e"
+  },
+  {
+   "seed": 521863682,
+   "sha256": "98e1649c0506320243d2f49522fcb4ca2bcc1e51beddf30c9b2e58edaa332ee4"
+  },
+  {
+   "seed": 3176299443,
+   "sha256": "202bceb29bc475f07091ed1f1d0589e0d6830159b14da5c07c27cd001bc01a53"
+  },
+  {
+   "seed": 1535767908,
+   "sha256": "b6d17bc2927417acc8354641f84d800f5787c941982a2d3f9e4fa0c383f95ebf"
+  },
+  {
+   "seed": 4190203669,
+   "sha256": "f11bf24fd97b063d6ba1424bb237cbfa03dfb9315a6f42d3d393a1aa5de6affc"
+  },
+  {
+   "seed": 2549672134,
+   "sha256": "158050b280c3219cda1835f4cfd745580492800a3ab8063f0f4b5fa362134a67"
+  },
+  {
+   "seed": 909140599,
+   "sha256": "f253c8c802e56be2f075b5cad00b99d21665dd23e6c8764d0d93ab2d0614b1a4"
+  },
+  {
+   "seed": 3563576360,
+   "sha256": "4e2808cf0f466986c5be8d934fa81d0efc757807ccd026820794cc66b6d2e8a7"
+  },
+  {
+   "seed": 1923044825,
+   "sha256": "92cc0d85704e4e2a9c442910d9b697ea23e97e14ec8515a49eaa169cbb455343"
+  },
+  {
+   "seed": 282513290,
+   "sha256": "91a3bc11984934b1d0a02369e1815a169396bc5895373b79d341a5c7ca27f34a"
+  },
+  {
+   "seed": 2936949051,
+   "sha256": "7935a699a8cc73e26bce6c488f134a74c5bee6e05054fcdd1316a7fa2e28c410"
+  },
+  {
+   "seed": 1296417516,
+   "sha256": "7b6e0ca1699a014d33f0df591aa78bc3d111bdde15f789c133ba1e67d2924d3f"
+  },
+  {
+   "seed": 3950853277,
+   "sha256": "311d6e8c90181a2165829b79e91fec026b1b0a53ad0c53bd1dc5837d6f0d64a5"
+  },
+  {
+   "seed": 2310321742,
+   "sha256": "d6717e7bc6eb591359445f84133a64a05614f26038192d90161ff8991955a5d6"
+  },
+  {
+   "seed": 669790207,
+   "sha256": "7137ba536d9552d53687d2ffad6deac01e793577fda953602f714dcab0eb7467"
+  },
+  {
+   "seed": 3324225968,
+   "sha256": "b113a4a3280b78dc7939b55b84e03ec2c839a82554a64763b3759bf70e241034"
+  },
+  {
+   "seed": 1683694433,
+   "sha256": "9be29d4f36171ddea4ade3ee4eeb5ceaaf742684d4fa21adc84bddb349b812c0"
+  },
+  {
+   "seed": 43162898,
+   "sha256": "845e29905b2bdb50e0183161c8818fede51cf824f64ebc23732d88316b4f26b2"
+  },
+  {
+   "seed": 2697598659,
+   "sha256": "1fed31dd86ad8b4cd670b042b4813fc205b0aa13c3de0f7bc405f9f36a67aeca"
+  },
+  {
+   "seed": 1057067124,
+   "sha256": "1f0631077f35539f116a4b6abd733be444de07daeb38eb8038526eafb8ae1096"
+  },
+  {
+   "seed": 3711502885,
+   "sha256": "7ede6e0e9d5f3f2951b71f4667caa915808a6e7fdad61a34eced0b48810b3851"
+  },
+  {
+   "seed": 2070971350,
+   "sha256": "81dfb8a9386057a70103074b381ca85daa5bbee1d076649477f51f5a3285d9ad"
+  },
+  {
+   "seed": 430439815,
+   "sha256": "38af1de0d004b89c12293f5dc2d8265831dedf8e168aea0fbf67822900efe2b0"
+  },
+  {
+   "seed": 3084875576,
+   "sha256": "87b215499603fe16993cdc95ec9cca3241bb5b7328db108d2886b84308a0819a"
+  },
+  {
+   "seed": 1444344041,
+   "sha256": "5c006280d63643ed06772f7746d6b54573c83c3e67fa51a5687c1f5041bad303"
+  },
+  {
+   "seed": 4098779802,
+   "sha256": "d5bd3039229b9eca1108e43daf9d8222c1403c468d216fd0da7b7f6476235b59"
+  },
+  {
+   "seed": 2458248267,
+   "sha256": "730a5d8caeb6f629b9ed0d11fa79c44e63cdcfc6dba7da4d6d6a92e603a01925"
+  },
+  {
+   "seed": 817716732,
+   "sha256": "353eb8b3291465571218d68023e07d6fc13fdaf23ad6757ff0a8d3cc3818399d"
+  },
+  {
+   "seed": 3472152493,
+   "sha256": "e1427b2ebe2835254fef43ac1d19e2c2503604a76a0f92117e34ed8ff15de2f7"
+  },
+  {
+   "seed": 1831620958,
+   "sha256": "5103fb80f52ad792ac7eef97df21498dbb0a9dfb37d2ba809096d7dd95ff5bde"
+  },
+  {
+   "seed": 191089423,
+   "sha256": "4c04ee57b286f72772a3ddb88e7420bc2535a86124dbfd573c4073e970dc2c58"
+  },
+  {
+   "seed": 2845525184,
+   "sha256": "ee6a476945bd5ca580bc943fc16469272cae27a1ba75aff3eeee78dcfc57aa4e"
+  },
+  {
+   "seed": 1204993649,
+   "sha256": "a0f8224e6615c86d8a23e216801bede6a736faca8d5aa65295c366d1cb7d322f"
+  },
+  {
+   "seed": 3859429410,
+   "sha256": "5d33b1871fdbe0a430a4e66a7d94102ce6cad9548a8aad080e309f7e817fcd10"
+  },
+  {
+   "seed": 2218897875,
+   "sha256": "3167cc2af5e0b1bbdb6602088d7b3284ca5e89fb99cf7c8729769caec88e560a"
+  },
+  {
+   "seed": 578366340,
+   "sha256": "e9023e8c706dcb8db8d229ea47e73bc355ec84cd4c6ca179a5202c3d2140a9f9"
+  },
+  {
+   "seed": 3232802101,
+   "sha256": "f93a3f1d5b2427bb1b864fe65bf613c966837de90270b39f4ce87844105841d9"
+  },
+  {
+   "seed": 1592270566,
+   "sha256": "ec2c4711aa75d1ddf97ab2cd504f07481b77daa09e58621b872aa1e96ff41aaf"
+  },
+  {
+   "seed": 4246706327,
+   "sha256": "aaddb6addb40f9f9714a9bd81f29d6f5fe453c286ef99d586a642e33335be877"
+  },
+  {
+   "seed": 2606174792,
+   "sha256": "54e69bc9ef3c802d56d441760555f8652e8153a5b79810922982c1fea1645966"
+  }
+ ],
+ "samples": [
+  {
+   "seed": 2654435761,
+   "question": {
+    "generator": "switch_table_match",
+    "seed": 2654435761,
+    "context": [
+     {
+      "type": "table",
+      "title": "Inventário",
+      "headers": [
+       "Dispositivo",
+       "IP"
+      ],
+      "rows": [
+       [
+        "Telefone-Recepção",
+        "192.168.17.137"
+       ],
+       [
+        "Notebook-RH",
+        "192.168.17.9"
+       ],
+       [
+        "Notebook-TI",
+        "192.168.17.59"
+       ],
+       [
+        "Servidor-Arquivos",
+        "192.168.17.35"
+       ]
+      ]
+     },
+     {
+      "type": "table",
+      "title": "Tabela ARP (IP → MAC)",
+      "headers": [
+       "IP",
+       "MAC"
+      ],
+      "rows": [
+       [
+        "192.168.17.9",
+        "2E:8D:80:A6:F0:E1"
+       ],
+       [
+        "192.168.17.137",
+        "32:85:B2:86:A9:4B"
+       ],
+       [
+        "192.168.17.59",
+        "96:A2:25:21:BF:86"
+       ],
+       [
+        "192.168.17.35",
+        "44:45:B7:D1:F1:17"
+       ]
+      ]
+     },
+     {
+      "type": "table",
+      "title": "Tabela MAC do switch (porta → MAC)",
+      "headers": [
+       "Porta",
+       "MAC"
+      ],
+      "rows": [
+       [
+        "Porta 7",
+        "2E:8D:80:A6:F0:E1"
+       ],
+       [
+        "Porta 3",
+        "44:45:B7:D1:F1:17"
+       ],
+       [
+        "Porta 8",
+        "96:A2:25:21:BF:86"
+       ],
+       [
+        "Porta 5",
+        "32:85:B2:86:A9:4B"
+       ]
+      ]
+     }
+    ],
+    "tags": [],
+    "kind": "match",
+    "prompt": "O inventário lista o IP de cada dispositivo. Cruze a tabela ARP com a tabela MAC do switch e descubra em que porta cada um está conectado.",
+    "left": [
+     "Telefone-Recepção",
+     "Notebook-RH",
+     "Notebook-TI",
+     "Servidor-Arquivos"
+    ],
+    "right": [
+     "Porta 3",
+     "Porta 5",
+     "Porta 7",
+     "Porta 8"
+    ],
+    "answer": [
+     1,
+     2,
+     3,
+     0
+    ],
+    "explanation": "O switch trabalha com endereços MAC: ele sabe em que porta cada MAC está. Para localizar um dispositivo pelo IP, descubra o MAC dele na tabela ARP (IP → MAC) e depois procure esse MAC na tabela do switch.",
+    "hint": "IP → (ARP) → MAC → (tabela do switch) → porta."
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      2,
+      3,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      3,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      3,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      2,
+      3,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1013904226,
+   "question": {
+    "generator": "switch_table_match",
+    "seed": 1013904226,
+    "context": [
+     {
+      "type": "table",
+      "title": "Inventário",
+      "headers": [
+       "Dispositivo",
+       "IP"
+      ],
+      "rows": [
+       [
+        "Servidor-Arquivos",
+        "192.168.26.66"
+       ],
+       [
+        "Notebook-RH",
+        "192.168.26.100"
+       ],
+       [
+        "Access-Point-3",
+        "192.168.26.3"
+       ],
+       [
+        "Impressora-2A",
+        "192.168.26.33"
+       ]
+      ]
+     },
+     {
+      "type": "table",
+      "title": "Tabela ARP (IP → MAC)",
+      "headers": [
+       "IP",
+       "MAC"
+      ],
+      "rows": [
+       [
+        "192.168.26.66",
+        "92:C9:C8:67:7D:54"
+       ],
+       [
+        "192.168.26.33",
+        "E6:08:57:DC:48:CF"
+       ],
+       [
+        "192.168.26.100",
+        "F6:C9:53:10:1B:45"
+       ],
+       [
+        "192.168.26.3",
+        "D6:28:EF:7B:05:33"
+       ]
+      ]
+     },
+     {
+      "type": "table",
+      "title": "Tabela MAC do switch (porta → MAC)",
+      "headers": [
+       "Porta",
+       "MAC"
+      ],
+      "rows": [
+       [
+        "Porta 6",
+        "D6:28:EF:7B:05:33"
+       ],
+       [
+        "Porta 5",
+        "E6:08:57:DC:48:CF"
+       ],
+       [
+        "Porta 2",
+        "F6:C9:53:10:1B:45"
+       ],
+       [
+        "Porta 4",
+        "92:C9:C8:67:7D:54"
+       ]
+      ]
+     }
+    ],
+    "tags": [],
+    "kind": "match",
+    "prompt": "O inventário lista o IP de cada dispositivo. Cruze a tabela ARP com a tabela MAC do switch e descubra em que porta cada um está conectado.",
+    "left": [
+     "Servidor-Arquivos",
+     "Notebook-RH",
+     "Access-Point-3",
+     "Impressora-2A"
+    ],
+    "right": [
+     "Porta 2",
+     "Porta 4",
+     "Porta 5",
+     "Porta 6"
+    ],
+    "answer": [
+     1,
+     0,
+     3,
+     2
+    ],
+    "explanation": "O switch trabalha com endereços MAC: ele sabe em que porta cada MAC está. Para localizar um dispositivo pelo IP, descubra o MAC dele na tabela ARP (IP → MAC) e depois procure esse MAC na tabela do switch.",
+    "hint": "IP → (ARP) → MAC → (tabela do switch) → porta."
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      0,
+      3,
+      2
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      1,
+      0,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      3,
+      2,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      3,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3668339987,
+   "question": {
+    "generator": "switch_table_match",
+    "seed": 3668339987,
+    "context": [
+     {
+      "type": "table",
+      "title": "Inventário",
+      "headers": [
+       "Dispositivo",
+       "IP"
+      ],
+      "rows": [
+       [
+        "Notebook-TI",
+        "192.168.8.37"
+       ],
+       [
+        "Telefone-Recepção",
+        "192.168.8.145"
+       ],
+       [
+        "Impressora-2A",
+        "192.168.8.32"
+       ],
+       [
+        "PC-Financeiro",
+        "192.168.8.94"
+       ]
+      ]
+     },
+     {
+      "type": "table",
+      "title": "Tabela ARP (IP → MAC)",
+      "headers": [
+       "IP",
+       "MAC"
+      ],
+      "rows": [
+       [
+        "192.168.8.145",
+        "24:B4:D0:A6:4F:52"
+       ],
+       [
+        "192.168.8.32",
+        "9A:4F:07:9F:1E:E1"
+       ],
+       [
+        "192.168.8.94",
+        "AA:1C:53:09:30:D0"
+       ],
+       [
+        "192.168.8.37",
+        "88:6B:9D:47:4F:0F"
+       ]
+      ]
+     },
+     {
+      "type": "table",
+      "title": "Tabela MAC do switch (porta → MAC)",
+      "headers": [
+       "Porta",
+       "MAC"
+      ],
+      "rows": [
+       [
+        "Porta 3",
+        "AA:1C:53:09:30:D0"
+       ],
+       [
+        "Porta 1",
+        "24:B4:D0:A6:4F:52"
+       ],
+       [
+        "Porta 2",
+        "9A:4F:07:9F:1E:E1"
+       ],
+       [
+        "Porta 5",
+        "88:6B:9D:47:4F:0F"
+       ]
+      ]
+     }
+    ],
+    "tags": [],
+    "kind": "match",
+    "prompt": "O inventário lista o IP de cada dispositivo. Cruze a tabela ARP com a tabela MAC do switch e descubra em que porta cada um está conectado.",
+    "left": [
+     "Notebook-TI",
+     "Telefone-Recepção",
+     "Impressora-2A",
+     "PC-Financeiro"
+    ],
+    "right": [
+     "Porta 1",
+     "Porta 2",
+     "Porta 3",
+     "Porta 5"
+    ],
+    "answer": [
+     3,
+     0,
+     1,
+     2
+    ],
+    "explanation": "O switch trabalha com endereços MAC: ele sabe em que porta cada MAC está. Para localizar um dispositivo pelo IP, descubra o MAC dele na tabela ARP (IP → MAC) e depois procure esse MAC na tabela do switch.",
+    "hint": "IP → (ARP) → MAC → (tabela do switch) → porta."
+   },
+   "checks": [
+    {
+     "answer": [
+      3,
+      0,
+      1,
+      2
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      1,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2027808452,
+   "question": {
+    "generator": "switch_table_match",
+    "seed": 2027808452,
+    "context": [
+     {
+      "type": "table",
+      "title": "Inventário",
+      "headers": [
+       "Dispositivo",
+       "IP"
+      ],
+      "rows": [
+       [
+        "Servidor-Arquivos",
+        "192.168.24.176"
+       ],
+       [
+        "PC-Financeiro",
+        "192.168.24.25"
+       ],
+       [
+        "Notebook-RH",
+        "192.168.24.76"
+       ],
+       [
+        "Câmera-Portaria",
+        "192.168.24.164"
+       ]
+      ]
+     },
+     {
+      "type": "table",
+      "title": "Tabela ARP (IP → MAC)",
+      "headers": [
+       "IP",
+       "MAC"
+      ],
+      "rows": [
+       [
+        "192.168.24.76",
+        "38:7B:08:DE:CD:65"
+       ],
+       [
+        "192.168.24.25",
+        "26:11:B0:39:96:F1"
+       ],
+       [
+        "192.168.24.176",
+        "70:92:19:FA:8E:41"
+       ],
+       [
+        "192.168.24.164",
+        "AE:6B:42:93:3A:3B"
+       ]
+      ]
+     },
+     {
+      "type": "table",
+      "title": "Tabela MAC do switch (porta → MAC)",
+      "headers": [
+       "Porta",
+       "MAC"
+      ],
+      "rows": [
+       [
+        "Porta 7",
+        "38:7B:08:DE:CD:65"
+       ],
+       [
+        "Porta 2",
+        "26:11:B0:39:96:F1"
+       ],
+       [
+        "Porta 3",
+        "AE:6B:42:93:3A:3B"
+       ],
+       [
+        "Porta 4",
+        "70:92:19:FA:8E:41"
+       ]
+      ]
+     }
+    ],
+    "tags": [],
+    "kind": "match",
+    "prompt": "O inventário lista o IP de cada dispositivo. Cruze a tabela ARP com a tabela MAC do switch e descubra em que porta cada um está conectado.",
+    "left": [
+     "Servidor-Arquivos",
+     "PC-Financeiro",
+     "Notebook-RH",
+     "Câmera-Portaria"
+    ],
+    "right": [
+     "Porta 2",
+     "Porta 3",
+     "Porta 4",
+     "Porta 7"
+    ],
+    "answer": [
+     2,
+     0,
+     3,
+     1
+    ],
+    "explanation": "O switch trabalha com endereços MAC: ele sabe em que porta cada MAC está. Para localizar um dispositivo pelo IP, descubra o MAC dele na tabela ARP (IP → MAC) e depois procure esse MAC na tabela do switch.",
+    "hint": "IP → (ARP) → MAC → (tabela do switch) → porta."
+   },
+   "checks": [
+    {
+     "answer": [
+      2,
+      0,
+      3,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      3,
+      1,
+      0,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      3,
+      1,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      3,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 387276917,
+   "question": {
+    "generator": "switch_table_match",
+    "seed": 387276917,
+    "context": [
+     {
+      "type": "table",
+      "title": "Inventário",
+      "headers": [
+       "Dispositivo",
+       "IP"
+      ],
+      "rows": [
+       [
+        "Impressora-2A",
+        "192.168.7.62"
+       ],
+       [
+        "Notebook-TI",
+        "192.168.7.55"
+       ],
+       [
+        "Câmera-Portaria",
+        "192.168.7.12"
+       ],
+       [
+        "PC-Financeiro",
+        "192.168.7.89"
+       ]
+      ]
+     },
+     {
+      "type": "table",
+      "title": "Tabela ARP (IP → MAC)",
+      "headers": [
+       "IP",
+       "MAC"
+      ],
+      "rows": [
+       [
+        "192.168.7.62",
+        "E4:D4:7F:7C:1F:27"
+       ],
+       [
+        "192.168.7.12",
+        "90:B4:AD:4A:FD:20"
+       ],
+       [
+        "192.168.7.55",
+        "10:A7:30:F2:F2:F8"
+       ],
+       [
+        "192.168.7.89",
+        "E0:56:E5:16:5D:96"
+       ]
+      ]
+     },
+     {
+      "type": "table",
+      "title": "Tabela MAC do switch (porta → MAC)",
+      "headers": [
+       "Porta",
+       "MAC"
+      ],
+      "rows": [
+       [
+        "Porta 8",
+        "90:B4:AD:4A:FD:20"
+       ],
+       [
+        "Porta 5",
+        "10:A7:30:F2:F2:F8"
+       ],
+       [
+        "Porta 6",
+        "E4:D4:7F:7C:1F:27"
+       ],
+       [
+        "Porta 2",
+        "E0:56:E5:16:5D:96"
+       ]
+      ]
+     }
+    ],
+    "tags": [],
+    "kind": "match",
+    "prompt": "O inventário lista o IP de cada dispositivo. Cruze a tabela ARP com a tabela MAC do switch e descubra em que porta cada um está conectado.",
+    "left": [
+     "Impressora-2A",
+     "Notebook-TI",
+     "Câmera-Portaria",
+     "PC-Financeiro"
+    ],
+    "right": [
+     "Porta 2",
+     "Porta 5",
+     "Porta 6",
+     "Porta 8"
+    ],
+    "answer": [
+     2,
+     1,
+     3,
+     0
+    ],
+    "explanation": "O switch trabalha com endereços MAC: ele sabe em que porta cada MAC está. Para localizar um dispositivo pelo IP, descubra o MAC dele na tabela ARP (IP → MAC) e depois procure esse MAC na tabela do switch.",
+    "hint": "IP → (ARP) → MAC → (tabela do switch) → porta."
+   },
+   "checks": [
+    {
+     "answer": [
+      2,
+      1,
+      3,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      3,
+      2,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      3,
+      0,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      3,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3041712678,
+   "question": {
+    "generator": "switch_table_match",
+    "seed": 3041712678,
+    "context": [
+     {
+      "type": "table",
+      "title": "Inventário",
+      "headers": [
+       "Dispositivo",
+       "IP"
+      ],
+      "rows": [
+       [
+        "Impressora-2A",
+        "192.168.6.4"
+       ],
+       [
+        "Servidor-Arquivos",
+        "192.168.6.127"
+       ],
+       [
+        "Access-Point-3",
+        "192.168.6.121"
+       ],
+       [
+        "Telefone-Recepção",
+        "192.168.6.91"
+       ]
+      ]
+     },
+     {
+      "type": "table",
+      "title": "Tabela ARP (IP → MAC)",
+      "headers": [
+       "IP",
+       "MAC"
+      ],
+      "rows": [
+       [
+        "192.168.6.127",
+        "38:2A:AD:DC:00:AF"
+       ],
+       [
+        "192.168.6.91",
+        "BC:72:7E:B1:61:35"
+       ],
+       [
+        "192.168.6.4",
+        "A2:FC:DF:33:A1:F5"
+       ],
+       [
+        "192.168.6.121",
+        "50:7F:D5:75:DA:02"
+       ]
+      ]
+     },
+     {
+      "type": "table",
+      "title": "Tabela MAC do switch (porta → MAC)",
+      "headers": [
+       "Porta",
+       "MAC"
+      ],
+      "rows": [
+       [
+        "Porta 6",
+        "50:7F:D5:75:DA:02"
+       ],
+       [
+        "Porta 1",
+        "BC:72:7E:B1:61:35"
+       ],
+       [
+        "Porta 2",
+        "A2:FC:DF:33:A1:F5"
+       ],
+       [
+        "Porta 8",
+        "38:2A:AD:DC:00:AF"
+       ]
+      ]
+     }
+    ],
+    "tags": [],
+    "kind": "match",
+    "prompt": "O inventário lista o IP de cada dispositivo. Cruze a tabela ARP com a tabela MAC do switch e descubra em que porta cada um está conectado.",
+    "left": [
+     "Impressora-2A",
+     "Servidor-Arquivos",
+     "Access-Point-3",
+     "Telefone-Recepção"
+    ],
+    "right": [
+     "Porta 1",
+     "Porta 2",
+     "Porta 6",
+     "Porta 8"
+    ],
+    "answer": [
+     1,
+     3,
+     2,
+     0
+    ],
+    "explanation": "O switch trabalha com endereços MAC: ele sabe em que porta cada MAC está. Para localizar um dispositivo pelo IP, descubra o MAC dele na tabela ARP (IP → MAC) e depois procure esse MAC na tabela do switch.",
+    "hint": "IP → (ARP) → MAC → (tabela do switch) → porta."
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      3,
+      2,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      0,
+      3,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      3,
+      2,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      3,
+      2,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1401181143,
+   "question": {
+    "generator": "switch_table_match",
+    "seed": 1401181143,
+    "context": [
+     {
+      "type": "table",
+      "title": "Inventário",
+      "headers": [
+       "Dispositivo",
+       "IP"
+      ],
+      "rows": [
+       [
+        "Telefone-Recepção",
+        "192.168.27.173"
+       ],
+       [
+        "Servidor-Arquivos",
+        "192.168.27.10"
+       ],
+       [
+        "Notebook-TI",
+        "192.168.27.18"
+       ],
+       [
+        "Access-Point-3",
+        "192.168.27.50"
+       ]
+      ]
+     },
+     {
+      "type": "table",
+      "title": "Tabela ARP (IP → MAC)",
+      "headers": [
+       "IP",
+       "MAC"
+      ],
+      "rows": [
+       [
+        "192.168.27.50",
+        "60:27:4D:E7:CE:2C"
+       ],
+       [
+        "192.168.27.173",
+        "66:7B:B1:B5:27:61"
+       ],
+       [
+        "192.168.27.10",
+        "60:25:EC:85:F9:50"
+       ],
+       [
+        "192.168.27.18",
+        "3A:EB:E4:4C:C8:30"
+       ]
+      ]
+     },
+     {
+      "type": "table",
+      "title": "Tabela MAC do switch (porta → MAC)",
+      "headers": [
+       "Porta",
+       "MAC"
+      ],
+      "rows": [
+       [
+        "Porta 2",
+        "3A:EB:E4:4C:C8:30"
+       ],
+       [
+        "Porta 5",
+        "60:27:4D:E7:CE:2C"
+       ],
+       [
+        "Porta 6",
+        "60:25:EC:85:F9:50"
+       ],
+       [
+        "Porta 8",
+        "66:7B:B1:B5:27:61"
+       ]
+      ]
+     }
+    ],
+    "tags": [],
+    "kind": "match",
+    "prompt": "O inventário lista o IP de cada dispositivo. Cruze a tabela ARP com a tabela MAC do switch e descubra em que porta cada um está conectado.",
+    "left": [
+     "Telefone-Recepção",
+     "Servidor-Arquivos",
+     "Notebook-TI",
+     "Access-Point-3"
+    ],
+    "right": [
+     "Porta 2",
+     "Porta 5",
+     "Porta 6",
+     "Porta 8"
+    ],
+    "answer": [
+     3,
+     2,
+     0,
+     1
+    ],
+    "explanation": "O switch trabalha com endereços MAC: ele sabe em que porta cada MAC está. Para localizar um dispositivo pelo IP, descubra o MAC dele na tabela ARP (IP → MAC) e depois procure esse MAC na tabela do switch.",
+    "hint": "IP → (ARP) → MAC → (tabela do switch) → porta."
+   },
+   "checks": [
+    {
+     "answer": [
+      3,
+      2,
+      0,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      3,
+      1,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      0,
+      1,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      2,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 4055616904,
+   "question": {
+    "generator": "switch_table_match",
+    "seed": 4055616904,
+    "context": [
+     {
+      "type": "table",
+      "title": "Inventário",
+      "headers": [
+       "Dispositivo",
+       "IP"
+      ],
+      "rows": [
+       [
+        "Servidor-Arquivos",
+        "192.168.22.21"
+       ],
+       [
+        "Access-Point-3",
+        "192.168.22.142"
+       ],
+       [
+        "Notebook-RH",
+        "192.168.22.198"
+       ],
+       [
+        "Notebook-TI",
+        "192.168.22.170"
+       ]
+      ]
+     },
+     {
+      "type": "table",
+      "title": "Tabela ARP (IP → MAC)",
+      "headers": [
+       "IP",
+       "MAC"
+      ],
+      "rows": [
+       [
+        "192.168.22.142",
+        "7E:19:0B:FD:61:24"
+       ],
+       [
+        "192.168.22.21",
+        "D8:C8:27:14:57:4F"
+       ],
+       [
+        "192.168.22.170",
+        "FE:AD:1A:FD:71:72"
+       ],
+       [
+        "192.168.22.198",
+        "14:90:98:DF:42:8D"
+       ]
+      ]
+     },
+     {
+      "type": "table",
+      "title": "Tabela MAC do switch (porta → MAC)",
+      "headers": [
+       "Porta",
+       "MAC"
+      ],
+      "rows": [
+       [
+        "Porta 1",
+        "D8:C8:27:14:57:4F"
+       ],
+       [
+        "Porta 5",
+        "14:90:98:DF:42:8D"
+       ],
+       [
+        "Porta 8",
+        "FE:AD:1A:FD:71:72"
+       ],
+       [
+        "Porta 7",
+        "7E:19:0B:FD:61:24"
+       ]
+      ]
+     }
+    ],
+    "tags": [],
+    "kind": "match",
+    "prompt": "O inventário lista o IP de cada dispositivo. Cruze a tabela ARP com a tabela MAC do switch e descubra em que porta cada um está conectado.",
+    "left": [
+     "Servidor-Arquivos",
+     "Access-Point-3",
+     "Notebook-RH",
+     "Notebook-TI"
+    ],
+    "right": [
+     "Porta 1",
+     "Porta 5",
+     "Porta 7",
+     "Porta 8"
+    ],
+    "answer": [
+     0,
+     2,
+     1,
+     3
+    ],
+    "explanation": "O switch trabalha com endereços MAC: ele sabe em que porta cada MAC está. Para localizar um dispositivo pelo IP, descubra o MAC dele na tabela ARP (IP → MAC) e depois procure esse MAC na tabela do switch.",
+    "hint": "IP → (ARP) → MAC → (tabela do switch) → porta."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      2,
+      1,
+      3
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      3,
+      2,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      1,
+      3,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      2,
+      1,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2415085369,
+   "question": {
+    "generator": "switch_table_match",
+    "seed": 2415085369,
+    "context": [
+     {
+      "type": "table",
+      "title": "Inventário",
+      "headers": [
+       "Dispositivo",
+       "IP"
+      ],
+      "rows": [
+       [
+        "Access-Point-3",
+        "192.168.21.143"
+       ],
+       [
+        "Impressora-2A",
+        "192.168.21.74"
+       ],
+       [
+        "Servidor-Arquivos",
+        "192.168.21.75"
+       ],
+       [
+        "Notebook-RH",
+        "192.168.21.158"
+       ]
+      ]
+     },
+     {
+      "type": "table",
+      "title": "Tabela ARP (IP → MAC)",
+      "headers": [
+       "IP",
+       "MAC"
+      ],
+      "rows": [
+       [
+        "192.168.21.158",
+        "32:96:EC:61:AE:80"
+       ],
+       [
+        "192.168.21.75",
+        "5E:DA:63:2C:6C:19"
+       ],
+       [
+        "192.168.21.143",
+        "C8:03:83:17:C8:D5"
+       ],
+       [
+        "192.168.21.74",
+        "D4:A9:50:05:56:D4"
+       ]
+      ]
+     },
+     {
+      "type": "table",
+      "title": "Tabela MAC do switch (porta → MAC)",
+      "headers": [
+       "Porta",
+       "MAC"
+      ],
+      "rows": [
+       [
+        "Porta 5",
+        "D4:A9:50:05:56:D4"
+       ],
+       [
+        "Porta 7",
+        "32:96:EC:61:AE:80"
+       ],
+       [
+        "Porta 6",
+        "5E:DA:63:2C:6C:19"
+       ],
+       [
+        "Porta 1",
+        "C8:03:83:17:C8:D5"
+       ]
+      ]
+     }
+    ],
+    "tags": [],
+    "kind": "match",
+    "prompt": "O inventário lista o IP de cada dispositivo. Cruze a tabela ARP com a tabela MAC do switch e descubra em que porta cada um está conectado.",
+    "left": [
+     "Access-Point-3",
+     "Impressora-2A",
+     "Servidor-Arquivos",
+     "Notebook-RH"
+    ],
+    "right": [
+     "Porta 1",
+     "Porta 5",
+     "Porta 6",
+     "Porta 7"
+    ],
+    "answer": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "explanation": "O switch trabalha com endereços MAC: ele sabe em que porta cada MAC está. Para localizar um dispositivo pelo IP, descubra o MAC dele na tabela ARP (IP → MAC) e depois procure esse MAC na tabela do switch.",
+    "hint": "IP → (ARP) → MAC → (tabela do switch) → porta."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      2,
+      3,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      2,
+      3,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      2,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 774553834,
+   "question": {
+    "generator": "switch_table_match",
+    "seed": 774553834,
+    "context": [
+     {
+      "type": "table",
+      "title": "Inventário",
+      "headers": [
+       "Dispositivo",
+       "IP"
+      ],
+      "rows": [
+       [
+        "Notebook-RH",
+        "192.168.24.127"
+       ],
+       [
+        "Access-Point-3",
+        "192.168.24.102"
+       ],
+       [
+        "PC-Financeiro",
+        "192.168.24.36"
+       ],
+       [
+        "Notebook-TI",
+        "192.168.24.78"
+       ]
+      ]
+     },
+     {
+      "type": "table",
+      "title": "Tabela ARP (IP → MAC)",
+      "headers": [
+       "IP",
+       "MAC"
+      ],
+      "rows": [
+       [
+        "192.168.24.127",
+        "6E:33:3D:E3:DB:5B"
+       ],
+       [
+        "192.168.24.102",
+        "B8:C5:3B:D2:B9:17"
+       ],
+       [
+        "192.168.24.78",
+        "F2:E3:7A:60:62:B0"
+       ],
+       [
+        "192.168.24.36",
+        "D6:A0:6C:BF:5D:78"
+       ]
+      ]
+     },
+     {
+      "type": "table",
+      "title": "Tabela MAC do switch (porta → MAC)",
+      "headers": [
+       "Porta",
+       "MAC"
+      ],
+      "rows": [
+       [
+        "Porta 5",
+        "B8:C5:3B:D2:B9:17"
+       ],
+       [
+        "Porta 1",
+        "F2:E3:7A:60:62:B0"
+       ],
+       [
+        "Porta 6",
+        "6E:33:3D:E3:DB:5B"
+       ],
+       [
+        "Porta 3",
+        "D6:A0:6C:BF:5D:78"
+       ]
+      ]
+     }
+    ],
+    "tags": [],
+    "kind": "match",
+    "prompt": "O inventário lista o IP de cada dispositivo. Cruze a tabela ARP com a tabela MAC do switch e descubra em que porta cada um está conectado.",
+    "left": [
+     "Notebook-RH",
+     "Access-Point-3",
+     "PC-Financeiro",
+     "Notebook-TI"
+    ],
+    "right": [
+     "Porta 1",
+     "Porta 3",
+     "Porta 5",
+     "Porta 6"
+    ],
+    "answer": [
+     3,
+     2,
+     1,
+     0
+    ],
+    "explanation": "O switch trabalha com endereços MAC: ele sabe em que porta cada MAC está. Para localizar um dispositivo pelo IP, descubra o MAC dele na tabela ARP (IP → MAC) e depois procure esse MAC na tabela do switch.",
+    "hint": "IP → (ARP) → MAC → (tabela do switch) → porta."
+   },
+   "checks": [
+    {
+     "answer": [
+      3,
+      2,
+      1,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      3,
+      2,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      1,
+      0,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      2,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3428989595,
+   "question": {
+    "generator": "switch_table_match",
+    "seed": 3428989595,
+    "context": [
+     {
+      "type": "table",
+      "title": "Inventário",
+      "headers": [
+       "Dispositivo",
+       "IP"
+      ],
+      "rows": [
+       [
+        "Notebook-TI",
+        "192.168.28.99"
+       ],
+       [
+        "Notebook-RH",
+        "192.168.28.57"
+       ],
+       [
+        "Servidor-Arquivos",
+        "192.168.28.103"
+       ],
+       [
+        "Access-Point-3",
+        "192.168.28.2"
+       ]
+      ]
+     },
+     {
+      "type": "table",
+      "title": "Tabela ARP (IP → MAC)",
+      "headers": [
+       "IP",
+       "MAC"
+      ],
+      "rows": [
+       [
+        "192.168.28.2",
+        "AC:93:EB:61:83:3E"
+       ],
+       [
+        "192.168.28.99",
+        "FA:56:A1:C8:97:B1"
+       ],
+       [
+        "192.168.28.57",
+        "AA:13:A3:F5:98:AD"
+       ],
+       [
+        "192.168.28.103",
+        "24:C6:18:25:4B:E0"
+       ]
+      ]
+     },
+     {
+      "type": "table",
+      "title": "Tabela MAC do switch (porta → MAC)",
+      "headers": [
+       "Porta",
+       "MAC"
+      ],
+      "rows": [
+       [
+        "Porta 3",
+        "FA:56:A1:C8:97:B1"
+       ],
+       [
+        "Porta 4",
+        "AA:13:A3:F5:98:AD"
+       ],
+       [
+        "Porta 7",
+        "24:C6:18:25:4B:E0"
+       ],
+       [
+        "Porta 6",
+        "AC:93:EB:61:83:3E"
+       ]
+      ]
+     }
+    ],
+    "tags": [],
+    "kind": "match",
+    "prompt": "O inventário lista o IP de cada dispositivo. Cruze a tabela ARP com a tabela MAC do switch e descubra em que porta cada um está conectado.",
+    "left": [
+     "Notebook-TI",
+     "Notebook-RH",
+     "Servidor-Arquivos",
+     "Access-Point-3"
+    ],
+    "right": [
+     "Porta 3",
+     "Porta 4",
+     "Porta 6",
+     "Porta 7"
+    ],
+    "answer": [
+     0,
+     1,
+     3,
+     2
+    ],
+    "explanation": "O switch trabalha com endereços MAC: ele sabe em que porta cada MAC está. Para localizar um dispositivo pelo IP, descubra o MAC dele na tabela ARP (IP → MAC) e depois procure esse MAC na tabela do switch.",
+    "hint": "IP → (ARP) → MAC → (tabela do switch) → porta."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      1,
+      3,
+      2
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      2,
+      0,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      3,
+      2,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      3,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1788458060,
+   "question": {
+    "generator": "switch_table_match",
+    "seed": 1788458060,
+    "context": [
+     {
+      "type": "table",
+      "title": "Inventário",
+      "headers": [
+       "Dispositivo",
+       "IP"
+      ],
+      "rows": [
+       [
+        "Notebook-RH",
+        "192.168.7.142"
+       ],
+       [
+        "Telefone-Recepção",
+        "192.168.7.68"
+       ],
+       [
+        "PC-Financeiro",
+        "192.168.7.35"
+       ],
+       [
+        "Impressora-2A",
+        "192.168.7.51"
+       ]
+      ]
+     },
+     {
+      "type": "table",
+      "title": "Tabela ARP (IP → MAC)",
+      "headers": [
+       "IP",
+       "MAC"
+      ],
+      "rows": [
+       [
+        "192.168.7.51",
+        "04:5F:C1:9C:37:F4"
+       ],
+       [
+        "192.168.7.68",
+        "34:CF:65:44:5F:AF"
+       ],
+       [
+        "192.168.7.35",
+        "6A:10:6A:1A:D6:8F"
+       ],
+       [
+        "192.168.7.142",
+        "AC:A2:81:9F:2A:44"
+       ]
+      ]
+     },
+     {
+      "type": "table",
+      "title": "Tabela MAC do switch (porta → MAC)",
+      "headers": [
+       "Porta",
+       "MAC"
+      ],
+      "rows": [
+       [
+        "Porta 4",
+        "34:CF:65:44:5F:AF"
+       ],
+       [
+        "Porta 5",
+        "6A:10:6A:1A:D6:8F"
+       ],
+       [
+        "Porta 7",
+        "04:5F:C1:9C:37:F4"
+       ],
+       [
+        "Porta 1",
+        "AC:A2:81:9F:2A:44"
+       ]
+      ]
+     }
+    ],
+    "tags": [],
+    "kind": "match",
+    "prompt": "O inventário lista o IP de cada dispositivo. Cruze a tabela ARP com a tabela MAC do switch e descubra em que porta cada um está conectado.",
+    "left": [
+     "Notebook-RH",
+     "Telefone-Recepção",
+     "PC-Financeiro",
+     "Impressora-2A"
+    ],
+    "right": [
+     "Porta 1",
+     "Porta 4",
+     "Porta 5",
+     "Porta 7"
+    ],
+    "answer": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "explanation": "O switch trabalha com endereços MAC: ele sabe em que porta cada MAC está. Para localizar um dispositivo pelo IP, descubra o MAC dele na tabela ARP (IP → MAC) e depois procure esse MAC na tabela do switch.",
+    "hint": "IP → (ARP) → MAC → (tabela do switch) → porta."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      2,
+      3,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      2,
+      3,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      2,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,2628 @@
+{
+ "source": "01-lan/t1",
+ "generator": "address_format_match",
+ "params": {
+  "types": [
+   "ipv4",
+   "mac",
+   "port",
+   "domain"
+  ]
+ },
+ "seeds": [
+  {
+   "seed": 2654435761,
+   "sha256": "83de558b0f808eabc1711dbf2ebca0d100566654dfb3449e434edcc9e6626ea9"
+  },
+  {
+   "seed": 1013904226,
+   "sha256": "37cd98a99b04669387a743ec8c261d13d05b57581458ff3075f5275a90fdbbac"
+  },
+  {
+   "seed": 3668339987,
+   "sha256": "937bdbef6a10825b4b9447fcefc36b63ee2de1eff53ad589903567ba7c65f631"
+  },
+  {
+   "seed": 2027808452,
+   "sha256": "a99d51ebeef521989c0960dacc7b325591a5ab79bb9fe1bf437f63ffe71d586c"
+  },
+  {
+   "seed": 387276917,
+   "sha256": "b632df903374cbb90342417ef60dc3bc36917fd0e66b9df9ff7a6024c6e4d5f6"
+  },
+  {
+   "seed": 3041712678,
+   "sha256": "3acd74c306d4c688e7c905cf083e19e2dce4a764e91bc3723af5eea312b75607"
+  },
+  {
+   "seed": 1401181143,
+   "sha256": "649c00cb19e61b1885284155ec08953ee522fd36ae37801c5fe20e118ac0a211"
+  },
+  {
+   "seed": 4055616904,
+   "sha256": "c2abaa6234e5b24c5b6b8e9cb8e0fe33f15c021aeda06eb8e80f542693c22738"
+  },
+  {
+   "seed": 2415085369,
+   "sha256": "6cb187441ca7fe5ad28a7281e2ed2e7c82fbc6853fa1bdbbea870fe3a27c29a5"
+  },
+  {
+   "seed": 774553834,
+   "sha256": "c9b216c0e908c180a5a7133f4f6d173be54fb9db6a6135bd553ac496017554d5"
+  },
+  {
+   "seed": 3428989595,
+   "sha256": "20c98ce0732177a0cdf80e32773137de7c8c02ff8e0dfcf7cb7668a90bf1405c"
+  },
+  {
+   "seed": 1788458060,
+   "sha256": "594efb893b0dbac7e8705f49c99a768084ad2756439ec6148d82401593d9c5e9"
+  },
+  {
+   "seed": 147926525,
+   "sha256": "0b5b0b198ea8fbd5f2d856c5239602c9d44b7d8af64da2f715ac404e8b04790d"
+  },
+  {
+   "seed": 2802362286,
+   "sha256": "7e6be848872ac050eba5e63aae07b8fd32e0a4665531b0e1bb93f8590c403244"
+  },
+  {
+   "seed": 1161830751,
+   "sha256": "0a0f5080f2ffc4f3e19820a2dcdace98b2540b5a45565e0b62e44d7d09b2c1fa"
+  },
+  {
+   "seed": 3816266512,
+   "sha256": "b47ef2b6e13429bfb2a8b5af3cc009c3a6975440e09d988dece4f9a14bf4a787"
+  },
+  {
+   "seed": 2175734977,
+   "sha256": "bfbdbbae909917b605c92a10278177bde4bd8ece54db7750dfe6ff6bd9dcd060"
+  },
+  {
+   "seed": 535203442,
+   "sha256": "e420a950587b58dcf9a88cfb9a6e7872eee1db248d891f4110db104dd423553a"
+  },
+  {
+   "seed": 3189639203,
+   "sha256": "daf5f85b3f0d5b755ef48dafcdba1cd6b97448d410cb1d17efbae581d585f642"
+  },
+  {
+   "seed": 1549107668,
+   "sha256": "54ba8c9c32bda81b8e9cbd0b233dbbe62e2d786fd700d9f7b60417dc99ee8a98"
+  },
+  {
+   "seed": 4203543429,
+   "sha256": "b4851d3544a2f3bc75cb01c3198a95d23b08b3a72620deb688770c234e041ddf"
+  },
+  {
+   "seed": 2563011894,
+   "sha256": "f19fbf67903c3d36e57443b825ca7eedcc71dc903936d396e800ba088ebd74a1"
+  },
+  {
+   "seed": 922480359,
+   "sha256": "bd671336d46995eeea79ae3d1c473ec6ed2993735b3142b09e1af159644e8108"
+  },
+  {
+   "seed": 3576916120,
+   "sha256": "e183b3ea63cad9b02b7e9b186e8a4e9c53f23d69835ed6dddde55a93bbf24af4"
+  },
+  {
+   "seed": 1936384585,
+   "sha256": "a0cc0f3a63e43d3e060078fb42222c40e7c85acb6ae80a5cfee43487fe0e2f56"
+  },
+  {
+   "seed": 295853050,
+   "sha256": "7289dd68e9dfe322f58a56f74f488504883bb63d45d32818a36aefe126d9cf30"
+  },
+  {
+   "seed": 2950288811,
+   "sha256": "29ceea81ecf6d43de48f796ccbb30145c788286351f7770df684f474c4eb7e71"
+  },
+  {
+   "seed": 1309757276,
+   "sha256": "68f6010307b0bbe3cf5f93b381ef3880c0510439b4bffb2fb2486b665b8696e3"
+  },
+  {
+   "seed": 3964193037,
+   "sha256": "e426e522b5a504075039e481ae169c9a33f3d8b008a126c07f8dcd2954a78828"
+  },
+  {
+   "seed": 2323661502,
+   "sha256": "4e0ed4c1a2fc3b433747b725ec39c5b42e31ffbbaa15adf7e37c05d81a489d27"
+  },
+  {
+   "seed": 683129967,
+   "sha256": "0c5b9934de3c5438afedfca01e05ca87e7e0913924310b01a82f404fc74b6fe3"
+  },
+  {
+   "seed": 3337565728,
+   "sha256": "99e1e7252311f13698289c4d1eeda0c0eaf17ed642ddafac28ebd9e16a18e78f"
+  },
+  {
+   "seed": 1697034193,
+   "sha256": "85fdb76118b5b43dd1d8f1a2f292f7e2a40da4a15a15cb915629e2440c33fb19"
+  },
+  {
+   "seed": 56502658,
+   "sha256": "5b3dffab59afbff4142a0a7715e13768c5d19a2d9433135863edc346abb5446d"
+  },
+  {
+   "seed": 2710938419,
+   "sha256": "773d86b5a9cb5e75ce3909b71198b71977be1758893894bbce4ff5ad91e9edf6"
+  },
+  {
+   "seed": 1070406884,
+   "sha256": "6012dff1861d78e73eb933a2a2bdf049de439a09db91be7ff229c47d6aff76c7"
+  },
+  {
+   "seed": 3724842645,
+   "sha256": "b2584caaaca30b0cd34ceb8eb2ea2839c3145797f6105b4e0b81d1d162a9780b"
+  },
+  {
+   "seed": 2084311110,
+   "sha256": "e6a573e8661d7280ae6ab71261fa6810d26bdf1f4a4f18a0221884d8025b9dca"
+  },
+  {
+   "seed": 443779575,
+   "sha256": "17bd6d03e40fa2da9575354b15cf83b10fdb5cd6d8f173c702b971879d1fda9c"
+  },
+  {
+   "seed": 3098215336,
+   "sha256": "f264adcb0cb362dc6db612943938114f27fe1aa95fb63cbaf4283913c0dbfddc"
+  },
+  {
+   "seed": 1457683801,
+   "sha256": "2b9ba95e114bcafd5ba7ce9f5c1ebde61a089736d677059901101dccbd8a20d8"
+  },
+  {
+   "seed": 4112119562,
+   "sha256": "2bc3594048019676757801daae32fe979033049ca094c23dd64390b099d91758"
+  },
+  {
+   "seed": 2471588027,
+   "sha256": "e0fc092d917ea1b932ee5ea9ee243db4582b3462f073f8cbf95d76a108bb012b"
+  },
+  {
+   "seed": 831056492,
+   "sha256": "8342de6e0b38f5e0e5ae859b851a95cec2b37565e59e2cbfb7b933589ba85d15"
+  },
+  {
+   "seed": 3485492253,
+   "sha256": "6444b4700156b2b6ecb028236942fd730e4710a8dc83f66217be4930b93ff4f3"
+  },
+  {
+   "seed": 1844960718,
+   "sha256": "09d92b258776c3c8ba3cacd407c39fda4c59b6444159682e2aad7083b36756fa"
+  },
+  {
+   "seed": 204429183,
+   "sha256": "540699f4df39ddfb867a5d387739de0e67bc24112eda1e4ca1f4759396ed4108"
+  },
+  {
+   "seed": 2858864944,
+   "sha256": "140045ab68461df14158bfe09ffa08ab4167de01f701227de901940c60c7b7ae"
+  },
+  {
+   "seed": 1218333409,
+   "sha256": "20c9e0c59bea7065e95141383eca26adf1368eaefa01c24c2fa850e40886dbfe"
+  },
+  {
+   "seed": 3872769170,
+   "sha256": "a31c8c1ff04f436c444a000e47e70373b02f8fbf12403f8d18029b7b778ebf9b"
+  },
+  {
+   "seed": 2232237635,
+   "sha256": "61a7fbf80c1cf0822bff481d1c1c573a14ea177ebbcaa8cb9bf4ca8b5d6c06d1"
+  },
+  {
+   "seed": 591706100,
+   "sha256": "b6a8dfbe034dd8759b8f133afd1041eaa5a8c5739e8f8721de9df0b2d6a949bc"
+  },
+  {
+   "seed": 3246141861,
+   "sha256": "43e50fb2de8b8ca49d78421f795e09f812ecd94bb0bb173df4b971a4a5584190"
+  },
+  {
+   "seed": 1605610326,
+   "sha256": "c409fdab749ab0aa20a19e9e94e822f59f55dacd39ec103efa2d0a5f7248e0e3"
+  },
+  {
+   "seed": 4260046087,
+   "sha256": "46dc8704a0a1c1add0f6246200b4214bb32b3a0b3d1465d53c4df48f7069ef97"
+  },
+  {
+   "seed": 2619514552,
+   "sha256": "e9302ab8d146a6ebc8522bb32f72827790cc047f78e711c14b6d43bad9c8defd"
+  },
+  {
+   "seed": 978983017,
+   "sha256": "98ea5b8033bb4eb8ed27d0806144b783e658b042ad87ed771a0208ed137f3798"
+  },
+  {
+   "seed": 3633418778,
+   "sha256": "cf62d6a4cb37bb128512ffdf0eb1dcb707f8d0719316e06e38cd2dc7005948ce"
+  },
+  {
+   "seed": 1992887243,
+   "sha256": "772a64f3e1ec65a8df966637d01c2c7027faaa01ddb292e59f2ead6c8bf38eaa"
+  },
+  {
+   "seed": 352355708,
+   "sha256": "593e57f4278447068206f704e92a1f440dc900e75b361919ae5d145f7062ca3e"
+  },
+  {
+   "seed": 3006791469,
+   "sha256": "b336e69cf08876a8c31625e57e05f87d4ad7980f5aaafae1092b7a95936044dc"
+  },
+  {
+   "seed": 1366259934,
+   "sha256": "e280d28504747edb014789f2e57374e34e526414cee84b65050919d4c6df826a"
+  },
+  {
+   "seed": 4020695695,
+   "sha256": "c9b11ac0aa8fcd9a8120366308c763f888b8647e74d9cd07ad70303bbbdfcf91"
+  },
+  {
+   "seed": 2380164160,
+   "sha256": "7fc12592ab92dbc0c7d99b7113b29eaef6531f1db6f0af7f268b104802edf837"
+  },
+  {
+   "seed": 739632625,
+   "sha256": "860b3299b41f2537d74bf28ea25d37bf23de535a5675f8f675f90a11a3c781e0"
+  },
+  {
+   "seed": 3394068386,
+   "sha256": "9a44670558a973b30117b10d9208fafc8a854331df775377dddf8593faaf6df0"
+  },
+  {
+   "seed": 1753536851,
+   "sha256": "9ee21728b90b5b6b2db21314dd526564bc04c1c70959a2bb064143bfbb93673c"
+  },
+  {
+   "seed": 113005316,
+   "sha256": "4b2cabc7df43195a6e9568a93d42bb66aab6c5bf605eba878919a8466324a688"
+  },
+  {
+   "seed": 2767441077,
+   "sha256": "dc5ca4119eeb24cc70fe4e7e82cbef600292229d149801916253195fc694bb01"
+  },
+  {
+   "seed": 1126909542,
+   "sha256": "c944a107473ab0eb7fec1857758ebeb1a0ceef6b380ad2189ce60ace2b9c8d6c"
+  },
+  {
+   "seed": 3781345303,
+   "sha256": "baf5da3f7d6ded54b2d2344d0ced46c172ee27b8cf311b57d9da540cf3566104"
+  },
+  {
+   "seed": 2140813768,
+   "sha256": "138949425ee566379507fb8634d17fc578646b89e812982f4bcc6e167e07c437"
+  },
+  {
+   "seed": 500282233,
+   "sha256": "f57b45118e10864f8e3d68b558d389a6de4dad105e221364e1fed57e38b98fc9"
+  },
+  {
+   "seed": 3154717994,
+   "sha256": "f2b1fd716037df55390beafc20562c098aff0d907486064af41d3eaabbc005ce"
+  },
+  {
+   "seed": 1514186459,
+   "sha256": "45117510a914a028533e4f67ccf7707d72dbf5cbcc3c8b1e2fcca037536fe14b"
+  },
+  {
+   "seed": 4168622220,
+   "sha256": "296742b43997ee3e8e8a2a03b98b2e0ecfc8ee23a9df3f6dbba0d070682278f6"
+  },
+  {
+   "seed": 2528090685,
+   "sha256": "dd8a163a7e9aeec3aa3a0a3b585d987424db7217503c68dbdaeec8708aa70e29"
+  },
+  {
+   "seed": 887559150,
+   "sha256": "e7104a42599684e1d8b6bb02bb65d5676d7c9963e402949d980eaf7d2a9103d7"
+  },
+  {
+   "seed": 3541994911,
+   "sha256": "f18aa62c0975a2f1eabf774f876bdddc8c39625a225d1fab1ba58ea9f7ac1477"
+  },
+  {
+   "seed": 1901463376,
+   "sha256": "646e239e7424ef8af50e4583acac044e90601be545930cb6ea4362f63863d47e"
+  },
+  {
+   "seed": 260931841,
+   "sha256": "32cd61aa5cba1944b564229810ce6223e41bcd12f9bd1ba1fa5a91925a6a1c2f"
+  },
+  {
+   "seed": 2915367602,
+   "sha256": "56ec32c5a64fd54722664a1c5641ce8b810a32776a2f449ec1c97589fe82d397"
+  },
+  {
+   "seed": 1274836067,
+   "sha256": "bcda4c508f7a28bf18fce22688347a53ac5d780848c5c85c0e7ea9e61f7ac846"
+  },
+  {
+   "seed": 3929271828,
+   "sha256": "0522d2c6908cddb224973a0338599f621d8a7303d2fc78f6fe530c91e5b09e63"
+  },
+  {
+   "seed": 2288740293,
+   "sha256": "794c27a5a9f63a2175be2eb05781f530504096761006fc6e31f8ee1a49039b82"
+  },
+  {
+   "seed": 648208758,
+   "sha256": "d684e921e6e192ba469fc8b2fa1a3331cb3709eaef2b293ea0bde898a57c78a0"
+  },
+  {
+   "seed": 3302644519,
+   "sha256": "680c54f5a54ea06a69014e95cf73e301dbc2e498ba577eb8c2f1c093c589085d"
+  },
+  {
+   "seed": 1662112984,
+   "sha256": "53ec7b49ec97e608dfd9498be864feeede51581762d1d241410ae63383d8567e"
+  },
+  {
+   "seed": 21581449,
+   "sha256": "db2059584ff291316e989277b800dd8769f900ca68af8e5a6d3137115d4f66b2"
+  },
+  {
+   "seed": 2676017210,
+   "sha256": "1a0a97846ce29a66112ddd73f94afabfb2f39de78d5b3dd1032a31e902095139"
+  },
+  {
+   "seed": 1035485675,
+   "sha256": "7dd84857853cc353907b6964251cc0fb3b6be251da9ff790fa49dedc620e07a9"
+  },
+  {
+   "seed": 3689921436,
+   "sha256": "7e5f5555a1c29e41c2c04aa0abb7e319d1fbcbfaa9c97dbb41022f0ebe7470dc"
+  },
+  {
+   "seed": 2049389901,
+   "sha256": "96fef2d5de70739401d46414fe66ffd9f30a1b066e974b69b8acb74a7dc4c2f5"
+  },
+  {
+   "seed": 408858366,
+   "sha256": "4b4b55a7124aea80631bd1f6d5bd916236897333578f0b00eefd30d316117f59"
+  },
+  {
+   "seed": 3063294127,
+   "sha256": "228c5761c2eb2fe5707c53c6ba282aece04b96022b8f0bd75624b6bebb0c5d3e"
+  },
+  {
+   "seed": 1422762592,
+   "sha256": "5cc9c41f4507d1f97d7e94f5fa7c27fe6d98a20f6ae23af669204c9112911a7e"
+  },
+  {
+   "seed": 4077198353,
+   "sha256": "eb6735df91f73b9e510010c4dfa0a94d272dd22792576b70ceee99bd052c124c"
+  },
+  {
+   "seed": 2436666818,
+   "sha256": "0149ee1f3b5da0e7671bb38dc658bc00fe99486b0974e49ae8879737fdcca35d"
+  },
+  {
+   "seed": 796135283,
+   "sha256": "fa85d3c5e35ef9bebd67f71f82e153a62d4d68f39d3471d959d13a1b54ecfa06"
+  },
+  {
+   "seed": 3450571044,
+   "sha256": "029cac9a14b06e667819bb2b314dbcef1687a3d27af75fa447d7f8a4f5b7533e"
+  },
+  {
+   "seed": 1810039509,
+   "sha256": "7c0093881dd4a5fae83a05e70a8032d557500a575414bdba538264c058d01dd3"
+  },
+  {
+   "seed": 169507974,
+   "sha256": "d5c0a6cdc8c343ca0c139300a2e70ce6312190e73f74f9c72ea0b039dd05c177"
+  },
+  {
+   "seed": 2823943735,
+   "sha256": "393ab8683cb03559dff90a4b4d559396baa72556c510c1b26201af1d1b2624f8"
+  },
+  {
+   "seed": 1183412200,
+   "sha256": "65b2f86e47038f41c735d35caec679afb313f2fc67991141fcdc04895b6224bd"
+  },
+  {
+   "seed": 3837847961,
+   "sha256": "3831de64ee12a53a2c004e18a6da6d12e5d20865af478d0852641a412a9ca32b"
+  },
+  {
+   "seed": 2197316426,
+   "sha256": "02c28a3311018b24e95c913caa941dec1591512422dac906acf3b918d5f97d78"
+  },
+  {
+   "seed": 556784891,
+   "sha256": "a18483ab8b1f1e3357b660ccfd45f2040e76eb9572ce39b3c3ee16e2d2c9b69f"
+  },
+  {
+   "seed": 3211220652,
+   "sha256": "dd84f1d8846353d1c4bd9f11d36ea7ddf7b7bb90f0afb33c659f21e668090fed"
+  },
+  {
+   "seed": 1570689117,
+   "sha256": "b2c3520ac24c3f75a02d30e213f72e5c0d0dc7c3d0db71f01629610df03eebe8"
+  },
+  {
+   "seed": 4225124878,
+   "sha256": "bab32970991dfafae9969946b0c66d69432a38f17a3e1edf23351e2105826c41"
+  },
+  {
+   "seed": 2584593343,
+   "sha256": "539b6c6111a27b69caa275d39bea2232c2fb07dfb913b13665f0d8f6d98e81df"
+  },
+  {
+   "seed": 944061808,
+   "sha256": "41d68296b8b2519bfda1926fca0fa9371775c0aec3486bb37f76a7d6e9308f9c"
+  },
+  {
+   "seed": 3598497569,
+   "sha256": "c4e021597cafe50a7b53762432d958b578c4c7659e111248797075841f08e891"
+  },
+  {
+   "seed": 1957966034,
+   "sha256": "a88fd65a8d6db4c5d05f59e12889ec534243862c6a0f9c0c1f0b896fef5cb143"
+  },
+  {
+   "seed": 317434499,
+   "sha256": "2d5e5057552d59daf62780496946b72d684171330e9526b9f18bb30868afa15e"
+  },
+  {
+   "seed": 2971870260,
+   "sha256": "6a8050588104ff45b0e811687527d1ad55ca39605b6c65945dc3677f25cad88f"
+  },
+  {
+   "seed": 1331338725,
+   "sha256": "90e9303469dc49f79823224ace99e3375d8a3937c71b6eb17d466530fba0b325"
+  },
+  {
+   "seed": 3985774486,
+   "sha256": "e7f70067f00c3bfd0053b3229ea26e8cf1605d748fb4aa7c396094420d1c9525"
+  },
+  {
+   "seed": 2345242951,
+   "sha256": "0f922cbea3106219c57eb62e69104caf04604308f9ddad1f7853d672522ee870"
+  },
+  {
+   "seed": 704711416,
+   "sha256": "b8a4ddfaeed606291449e1983919775f31829ebc3c70527b92ccabb839faee1e"
+  },
+  {
+   "seed": 3359147177,
+   "sha256": "c4e077f13d647becbeb3f760b33a9a92917ca8745479e31d50e393537642afa9"
+  },
+  {
+   "seed": 1718615642,
+   "sha256": "592313b3ef1a951feda8318fe7709f9a827d13aeb3bac0a4d80fc1de3f3a5df4"
+  },
+  {
+   "seed": 78084107,
+   "sha256": "18198fc631a43170c1bb2ecdc36a3a2e4be155fdebde0db5600feffc22654bc7"
+  },
+  {
+   "seed": 2732519868,
+   "sha256": "77061b531ffb7d727cfc62c10f2dd64019a68719667ad143f81188a12f78f5f4"
+  },
+  {
+   "seed": 1091988333,
+   "sha256": "8aba0e940e67261c7fb814121c8711b40a617100b829e22a4f97432ad7368cd5"
+  },
+  {
+   "seed": 3746424094,
+   "sha256": "e96940b700ef414db4f8fe8a11f4c7985345309643a18618e453b5752d523356"
+  },
+  {
+   "seed": 2105892559,
+   "sha256": "410c7e02555f8efcdd9893eb0f002db6da84776b7513bb07436b3e9eeef37403"
+  },
+  {
+   "seed": 465361024,
+   "sha256": "d59f95b751e23122fb40b5bca6a21013ec39967b61abc17465a9b3d94c00eaf1"
+  },
+  {
+   "seed": 3119796785,
+   "sha256": "86ebdde396888312e06576aa999cd8c2687fbb7aa38fd890acd648e19de40325"
+  },
+  {
+   "seed": 1479265250,
+   "sha256": "1c9a8c53fa8445cedc4afb41cb9d78fd152cf738cc974a7a1ca5047b8a660315"
+  },
+  {
+   "seed": 4133701011,
+   "sha256": "24db7fa0f531738a8da499516b871a3f246073783cd672c8ccb54646b1395bcd"
+  },
+  {
+   "seed": 2493169476,
+   "sha256": "25e40ae04920a9767c0bfb42d1a835c3aef5ae020ddd4d67a79ce6a1e7287225"
+  },
+  {
+   "seed": 852637941,
+   "sha256": "c15a44e40acc644005b2b3c2c430957583663d3ca2753a629462ffec72b4cce9"
+  },
+  {
+   "seed": 3507073702,
+   "sha256": "283efd40dc66b9f7a23d9ca05bba9b249d00ff8e88e2293ed376ff27f6788f22"
+  },
+  {
+   "seed": 1866542167,
+   "sha256": "0cf894c4e14178f20addb32c20c326eb0f57d26a1fb20851b59b01c627b465bb"
+  },
+  {
+   "seed": 226010632,
+   "sha256": "545cee7a5f26c3181ed170154e45dd463faa26c99640592759cfc2e3d761c3c8"
+  },
+  {
+   "seed": 2880446393,
+   "sha256": "b25e1ac3af518488806e3ed9e2444e8105da23a7abdd240e6a4e007f41ef622c"
+  },
+  {
+   "seed": 1239914858,
+   "sha256": "21cf3a81e0b0e73c8f06752592dc1e6ccbe767d48f77e49107ae78dae024e129"
+  },
+  {
+   "seed": 3894350619,
+   "sha256": "43108835e85e54c7a32dd177ff48426ed2e6c809f65e64054bd4cae4678d3242"
+  },
+  {
+   "seed": 2253819084,
+   "sha256": "efefe563488384e5b01c70d1b51680114c22610870bfd480ad2e183b722fa352"
+  },
+  {
+   "seed": 613287549,
+   "sha256": "35cf10c3d8fae3b69e6821007e9a48108f2532a5de56fcaae0833946cb8b522e"
+  },
+  {
+   "seed": 3267723310,
+   "sha256": "6c5f23876fc6cf06695013b6040ace1b3b557559f7bdd4e47f97c14424401ab0"
+  },
+  {
+   "seed": 1627191775,
+   "sha256": "252223950f7ed35eaa375b212650f32e458aa7197942e1ff5f3bcd08b2ba0c17"
+  },
+  {
+   "seed": 4281627536,
+   "sha256": "7dc8b96df66afcc97a09d67283acad182f18396a5c64f8dc616a69496e64c25b"
+  },
+  {
+   "seed": 2641096001,
+   "sha256": "b3a9bf031f623bae20dd18bc437418d214449cec2f00b97313ad60993dcfb135"
+  },
+  {
+   "seed": 1000564466,
+   "sha256": "7ee3925b538062f1883297ad46c2b15ef6d8a45e92d703b3aff0993370e5b3a9"
+  },
+  {
+   "seed": 3655000227,
+   "sha256": "68e2d6839cb65601a838ed3e4cf3d4641ed8f15842f97e455b0e9832e5b25976"
+  },
+  {
+   "seed": 2014468692,
+   "sha256": "08ab971f99767fbd0fd367fd3eb9501d6ac7a15df672eb10d1505dd9f2756077"
+  },
+  {
+   "seed": 373937157,
+   "sha256": "54b1933f52ee7d917c16ac497c95dcea50c28a009b9b131d84c0ccb24afd5057"
+  },
+  {
+   "seed": 3028372918,
+   "sha256": "3175f72f39cdb16d6c0839922724859317ad1be9c93de6c7e6cb1fc6fe9443c9"
+  },
+  {
+   "seed": 1387841383,
+   "sha256": "2d7bd0e18c5bc4d67c84dfbb4467c999012aae5ca49f2ac4c3d16e1242d05b59"
+  },
+  {
+   "seed": 4042277144,
+   "sha256": "b2ce6e98026d77552ebd928d12b3ad8558756bd1ca277741e95cd2426ad62523"
+  },
+  {
+   "seed": 2401745609,
+   "sha256": "09e0fcd2fcd58d2cab2194862b2e897f071152d958e0fefb544c720e1e56c399"
+  },
+  {
+   "seed": 761214074,
+   "sha256": "154229697e83e715670d1f90e7395a3caba36bc4a27ede48f7274f9504099f50"
+  },
+  {
+   "seed": 3415649835,
+   "sha256": "4e9e101c5dfde3c32c83324b3dae0bf1b404fff20d46e535e992180abe90126d"
+  },
+  {
+   "seed": 1775118300,
+   "sha256": "b113dcdb8448f260e1b5c2378e23169a33791811fcd001905685a8c40822873b"
+  },
+  {
+   "seed": 134586765,
+   "sha256": "003c3359be3296cc3768ece0482ba95bc87b4c4ae11d718b711d1176ab2260b1"
+  },
+  {
+   "seed": 2789022526,
+   "sha256": "94ff1925f337c8a350fa8e098714bfb4b26cb90fe099053620a0a16a9c72db48"
+  },
+  {
+   "seed": 1148490991,
+   "sha256": "44d05a9bb2e684532303b006bbd200b253c8d242c937cdd7cbdb7be9cacbb8ee"
+  },
+  {
+   "seed": 3802926752,
+   "sha256": "288ec55320981d493724a68e74831bd0dc019aa0f8b5ed1503cf9bbb9b33260d"
+  },
+  {
+   "seed": 2162395217,
+   "sha256": "e204e4189c71f927064c79cdd2f4591c868185fe37e36ea32d7bd15d081e100f"
+  },
+  {
+   "seed": 521863682,
+   "sha256": "273d93b49b0bafc0d400b934d9b2ad6ca3380a95a9d5e67ad3b52af9a3efa2c9"
+  },
+  {
+   "seed": 3176299443,
+   "sha256": "1a07ca7f6e5e728acacf2108738bc97d463c5bffb9032e2118472f3abcaffd5f"
+  },
+  {
+   "seed": 1535767908,
+   "sha256": "a22821a35a26b63d98eed4b339402e46721c42bec53af368ae665af6261a771b"
+  },
+  {
+   "seed": 4190203669,
+   "sha256": "7d971d75a7248765521f2819c859b52998d285ae07a9cd5bcd825b825b0e7b4d"
+  },
+  {
+   "seed": 2549672134,
+   "sha256": "ee8174b2f01058303f2c09b47ef4cc62121df0a0281a9ee4d0c17d357dc3e008"
+  },
+  {
+   "seed": 909140599,
+   "sha256": "e11b0a1fa6ce221ecf75bae97cd7317dad96776eb7646a665f39ccf0e8ca3301"
+  },
+  {
+   "seed": 3563576360,
+   "sha256": "67da3aeac1e68563673f4c4b72a679068f5f0d71e1aa1f89cfb8706b153b7a90"
+  },
+  {
+   "seed": 1923044825,
+   "sha256": "6fd1bcc10c5cc46038f72b0d6f3e48f88ffa77207a14f41e99b3e7bd7a091a06"
+  },
+  {
+   "seed": 282513290,
+   "sha256": "c94536ee8fd5c9049cb68531acaccc21eed9d704672949072a0a38a057c71a20"
+  },
+  {
+   "seed": 2936949051,
+   "sha256": "94c87f6bfab76578f6948c04e133ec4e84314526c304ace582f828022c3d61d0"
+  },
+  {
+   "seed": 1296417516,
+   "sha256": "977473f3688a41871e13ec9c0c1e9d456ac7f29919309e886f5a0e59d92b0f9e"
+  },
+  {
+   "seed": 3950853277,
+   "sha256": "502b4c7cb3abc71a2d6533d34409ccaf0f596c4865e5104f3e3adefef959d484"
+  },
+  {
+   "seed": 2310321742,
+   "sha256": "6ea75619c1547c344b7f24b8777b61f2b642fe8df75565fea3ed61eed53ed473"
+  },
+  {
+   "seed": 669790207,
+   "sha256": "cabc2df16ececa2a67ce0590d83e2803965c6458e27d08400aba576ff005c12c"
+  },
+  {
+   "seed": 3324225968,
+   "sha256": "db67acb730f2c8f0ee0c413a10563846705089960699a732d8bbd9a9fbd84e85"
+  },
+  {
+   "seed": 1683694433,
+   "sha256": "21bc3db3c5f2eb9597e4e95055de781b8cb5712b24a19aee04c275b0bafe1926"
+  },
+  {
+   "seed": 43162898,
+   "sha256": "3f7c9105967b16e2b546fdd45cf5cf76a3e02950ab17f56f9fdb235120ec9e4b"
+  },
+  {
+   "seed": 2697598659,
+   "sha256": "5a9b082f39f768f17fadcbe2222ab65f6d497b029dee13c14a11477bac5a7aa8"
+  },
+  {
+   "seed": 1057067124,
+   "sha256": "2fb643a0c002de5e2fcaf08eebde2003f80f635b8cd5c506ef9f92138c16440f"
+  },
+  {
+   "seed": 3711502885,
+   "sha256": "56f841f219de9d64213dffd86e5bad2b7c97510874a525d9d4946b4ae8ed1b45"
+  },
+  {
+   "seed": 2070971350,
+   "sha256": "b16b3170e3c715221b149a50c8630e006e0282d23ba60037d3cb9fa919f641d4"
+  },
+  {
+   "seed": 430439815,
+   "sha256": "4c7b2bad4ef70c5bc506df02e2fb4fd204782e37686d93ac0d1f08edb7d90fcb"
+  },
+  {
+   "seed": 3084875576,
+   "sha256": "19afb0979872695cffb15790d7b8b1804b9a032d47ab447bf7aee223c20f3712"
+  },
+  {
+   "seed": 1444344041,
+   "sha256": "c48653907eb9f87bf6b07d8b0be763f50197d4ddb60bc7578e27c8e9905e5af3"
+  },
+  {
+   "seed": 4098779802,
+   "sha256": "a87ff039c6fa2d636f6e71f7fa5575c9d12c3cbd5ef1157712f2af0a4df37c80"
+  },
+  {
+   "seed": 2458248267,
+   "sha256": "43b91e0763775aa6ede7fb1148c194deea36afa3211f3a491c41d92a67ca42d6"
+  },
+  {
+   "seed": 817716732,
+   "sha256": "2d81ba798ce5ed298dffc884f97cb81c150be24e6b1d4f6d5a5fad4276a2b864"
+  },
+  {
+   "seed": 3472152493,
+   "sha256": "a7bf33031e050903ca2b9def57d61f162386964ba040f93cc2e56961d49c9abb"
+  },
+  {
+   "seed": 1831620958,
+   "sha256": "46772b9681aa76cdc3f07de1ea5a7550621ff5ebcdc524386b06a9337ea4cac0"
+  },
+  {
+   "seed": 191089423,
+   "sha256": "348b26b56d13bda80830d7590774d39bd78f111dd1936642db6d44c285606896"
+  },
+  {
+   "seed": 2845525184,
+   "sha256": "e46dbfcb03e1358e7689cdacf1919c68d4d558475b4e9d1dc25ee781e69b3cdf"
+  },
+  {
+   "seed": 1204993649,
+   "sha256": "d5113e6938503f39cc802cca0359c09025a99a69da283e477675c0b45f5f30e2"
+  },
+  {
+   "seed": 3859429410,
+   "sha256": "245ef8bf40154433b329bb553fdbf4658631923ba91f7b9c709eb97dbc356429"
+  },
+  {
+   "seed": 2218897875,
+   "sha256": "785423212d282038770622ef8c00dfd40e85254d58d693c82cc00fe16e443efa"
+  },
+  {
+   "seed": 578366340,
+   "sha256": "658ce8074b85cd9ea4920ca6a9958a387dc662292d541f580135bfb1734ecc70"
+  },
+  {
+   "seed": 3232802101,
+   "sha256": "0490a4065db00f025379ea5181cbd8f7d68256a8554520568981f6792a09f983"
+  },
+  {
+   "seed": 1592270566,
+   "sha256": "8e5239fe03b56174e70e9632490d910e359bd4386328093a99881e4b1cd597a4"
+  },
+  {
+   "seed": 4246706327,
+   "sha256": "8dca9f60b6368ab01d6c3d800465c3bc2241aab20ce262e37b066c640ec00705"
+  },
+  {
+   "seed": 2606174792,
+   "sha256": "a61175424fa78d02634b109b54d8d7e0c956405aebd0262a8abad4142a757918"
+  }
+ ],
+ "samples": [
+  {
+   "seed": 2654435761,
+   "question": {
+    "generator": "address_format_match",
+    "seed": 2654435761,
+    "context": [],
+    "tags": [],
+    "kind": "match",
+    "prompt": "Associe cada valor ao tipo de identificador que ele representa.",
+    "left": [
+     "3389",
+     "portal.escola.edu.br",
+     "3E:84:E3:B3:6C:78",
+     "192.168.11.118"
+    ],
+    "right": [
+     "Endereço IPv4",
+     "Endereço MAC",
+     "Nome de domínio",
+     "Número de porta"
+    ],
+    "answer": [
+     3,
+     2,
+     1,
+     0
+    ],
+    "explanation": "IPv4: quatro números de 0 a 255 separados por pontos (endereço lógico). MAC: seis pares hexadecimais separados por dois-pontos (endereço físico da placa). Porta: número de 0 a 65535 que identifica o serviço. Domínio: nome legível que o DNS traduz para IP. IPv6: grupos hexadecimais separados por dois-pontos, com :: abreviando zeros.",
+    "hint": "Conte as partes e observe os separadores: pontos, dois-pontos ou nenhum."
+   },
+   "checks": [
+    {
+     "answer": [
+      3,
+      2,
+      1,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      3,
+      2,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      1,
+      0,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      2,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1013904226,
+   "question": {
+    "generator": "address_format_match",
+    "seed": 1013904226,
+    "context": [],
+    "tags": [],
+    "kind": "match",
+    "prompt": "Associe cada valor ao tipo de identificador que ele representa.",
+    "left": [
+     "mail.redecorp.com.br",
+     "192.168.17.140",
+     "C0:88:AD:5F:5E:58",
+     "22"
+    ],
+    "right": [
+     "Número de porta",
+     "Nome de domínio",
+     "Endereço IPv4",
+     "Endereço MAC"
+    ],
+    "answer": [
+     1,
+     2,
+     3,
+     0
+    ],
+    "explanation": "IPv4: quatro números de 0 a 255 separados por pontos (endereço lógico). MAC: seis pares hexadecimais separados por dois-pontos (endereço físico da placa). Porta: número de 0 a 65535 que identifica o serviço. Domínio: nome legível que o DNS traduz para IP. IPv6: grupos hexadecimais separados por dois-pontos, com :: abreviando zeros.",
+    "hint": "Conte as partes e observe os separadores: pontos, dois-pontos ou nenhum."
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      2,
+      3,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      3,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      3,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      2,
+      3,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3668339987,
+   "question": {
+    "generator": "address_format_match",
+    "seed": 3668339987,
+    "context": [],
+    "tags": [],
+    "kind": "match",
+    "prompt": "Associe cada valor ao tipo de identificador que ele representa.",
+    "left": [
+     "80",
+     "192.168.5.104",
+     "wiki.redecorp.com.br",
+     "76:7C:2E:00:98:CC"
+    ],
+    "right": [
+     "Endereço MAC",
+     "Endereço IPv4",
+     "Nome de domínio",
+     "Número de porta"
+    ],
+    "answer": [
+     3,
+     1,
+     2,
+     0
+    ],
+    "explanation": "IPv4: quatro números de 0 a 255 separados por pontos (endereço lógico). MAC: seis pares hexadecimais separados por dois-pontos (endereço físico da placa). Porta: número de 0 a 65535 que identifica o serviço. Domínio: nome legível que o DNS traduz para IP. IPv6: grupos hexadecimais separados por dois-pontos, com :: abreviando zeros.",
+    "hint": "Conte as partes e observe os separadores: pontos, dois-pontos ou nenhum."
+   },
+   "checks": [
+    {
+     "answer": [
+      3,
+      1,
+      2,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      2,
+      3,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      2,
+      0,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      2,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2027808452,
+   "question": {
+    "generator": "address_format_match",
+    "seed": 2027808452,
+    "context": [],
+    "tags": [],
+    "kind": "match",
+    "prompt": "Associe cada valor ao tipo de identificador que ele representa.",
+    "left": [
+     "192.168.16.194",
+     "22",
+     "FE:34:3D:E2:4A:89",
+     "wiki.redecorp.com.br"
+    ],
+    "right": [
+     "Endereço IPv4",
+     "Endereço MAC",
+     "Nome de domínio",
+     "Número de porta"
+    ],
+    "answer": [
+     0,
+     3,
+     1,
+     2
+    ],
+    "explanation": "IPv4: quatro números de 0 a 255 separados por pontos (endereço lógico). MAC: seis pares hexadecimais separados por dois-pontos (endereço físico da placa). Porta: número de 0 a 65535 que identifica o serviço. Domínio: nome legível que o DNS traduz para IP. IPv6: grupos hexadecimais separados por dois-pontos, com :: abreviando zeros.",
+    "hint": "Conte as partes e observe os separadores: pontos, dois-pontos ou nenhum."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      3,
+      1,
+      2
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      2,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      3,
+      1,
+      2,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      3,
+      1,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 387276917,
+   "question": {
+    "generator": "address_format_match",
+    "seed": 387276917,
+    "context": [],
+    "tags": [],
+    "kind": "match",
+    "prompt": "Associe cada valor ao tipo de identificador que ele representa.",
+    "left": [
+     "192.168.4.225",
+     "5A:0B:1D:00:51:1B",
+     "3389",
+     "vpn.redecorp.com.br"
+    ],
+    "right": [
+     "Endereço IPv4",
+     "Número de porta",
+     "Endereço MAC",
+     "Nome de domínio"
+    ],
+    "answer": [
+     0,
+     2,
+     1,
+     3
+    ],
+    "explanation": "IPv4: quatro números de 0 a 255 separados por pontos (endereço lógico). MAC: seis pares hexadecimais separados por dois-pontos (endereço físico da placa). Porta: número de 0 a 65535 que identifica o serviço. Domínio: nome legível que o DNS traduz para IP. IPv6: grupos hexadecimais separados por dois-pontos, com :: abreviando zeros.",
+    "hint": "Conte as partes e observe os separadores: pontos, dois-pontos ou nenhum."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      2,
+      1,
+      3
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      3,
+      2,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      1,
+      3,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      2,
+      1,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3041712678,
+   "question": {
+    "generator": "address_format_match",
+    "seed": 3041712678,
+    "context": [],
+    "tags": [],
+    "kind": "match",
+    "prompt": "Associe cada valor ao tipo de identificador que ele representa.",
+    "left": [
+     "192.168.3.106",
+     "A0:1F:FB:19:07:6C",
+     "443",
+     "vpn.redecorp.com.br"
+    ],
+    "right": [
+     "Endereço MAC",
+     "Número de porta",
+     "Nome de domínio",
+     "Endereço IPv4"
+    ],
+    "answer": [
+     3,
+     0,
+     1,
+     2
+    ],
+    "explanation": "IPv4: quatro números de 0 a 255 separados por pontos (endereço lógico). MAC: seis pares hexadecimais separados por dois-pontos (endereço físico da placa). Porta: número de 0 a 65535 que identifica o serviço. Domínio: nome legível que o DNS traduz para IP. IPv6: grupos hexadecimais separados por dois-pontos, com :: abreviando zeros.",
+    "hint": "Conte as partes e observe os separadores: pontos, dois-pontos ou nenhum."
+   },
+   "checks": [
+    {
+     "answer": [
+      3,
+      0,
+      1,
+      2
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      1,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1401181143,
+   "question": {
+    "generator": "address_format_match",
+    "seed": 1401181143,
+    "context": [],
+    "tags": [],
+    "kind": "match",
+    "prompt": "Associe cada valor ao tipo de identificador que ele representa.",
+    "left": [
+     "22",
+     "88:3A:D9:09:05:6F",
+     "vpn.redecorp.com.br",
+     "192.168.18.11"
+    ],
+    "right": [
+     "Número de porta",
+     "Nome de domínio",
+     "Endereço IPv4",
+     "Endereço MAC"
+    ],
+    "answer": [
+     0,
+     3,
+     1,
+     2
+    ],
+    "explanation": "IPv4: quatro números de 0 a 255 separados por pontos (endereço lógico). MAC: seis pares hexadecimais separados por dois-pontos (endereço físico da placa). Porta: número de 0 a 65535 que identifica o serviço. Domínio: nome legível que o DNS traduz para IP. IPv6: grupos hexadecimais separados por dois-pontos, com :: abreviando zeros.",
+    "hint": "Conte as partes e observe os separadores: pontos, dois-pontos ou nenhum."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      3,
+      1,
+      2
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      2,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      3,
+      1,
+      2,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      3,
+      1,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 4055616904,
+   "question": {
+    "generator": "address_format_match",
+    "seed": 4055616904,
+    "context": [],
+    "tags": [],
+    "kind": "match",
+    "prompt": "Associe cada valor ao tipo de identificador que ele representa.",
+    "left": [
+     "wiki.redecorp.com.br",
+     "192.168.15.43",
+     "53",
+     "C6:81:DF:CC:24:D7"
+    ],
+    "right": [
+     "Nome de domínio",
+     "Número de porta",
+     "Endereço IPv4",
+     "Endereço MAC"
+    ],
+    "answer": [
+     0,
+     2,
+     1,
+     3
+    ],
+    "explanation": "IPv4: quatro números de 0 a 255 separados por pontos (endereço lógico). MAC: seis pares hexadecimais separados por dois-pontos (endereço físico da placa). Porta: número de 0 a 65535 que identifica o serviço. Domínio: nome legível que o DNS traduz para IP. IPv6: grupos hexadecimais separados por dois-pontos, com :: abreviando zeros.",
+    "hint": "Conte as partes e observe os separadores: pontos, dois-pontos ou nenhum."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      2,
+      1,
+      3
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      3,
+      2,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      1,
+      3,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      2,
+      1,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2415085369,
+   "question": {
+    "generator": "address_format_match",
+    "seed": 2415085369,
+    "context": [],
+    "tags": [],
+    "kind": "match",
+    "prompt": "Associe cada valor ao tipo de identificador que ele representa.",
+    "left": [
+     "8080",
+     "192.168.14.189",
+     "AA:86:D7:2A:D0:E9",
+     "portal.escola.edu.br"
+    ],
+    "right": [
+     "Número de porta",
+     "Endereço MAC",
+     "Endereço IPv4",
+     "Nome de domínio"
+    ],
+    "answer": [
+     0,
+     2,
+     1,
+     3
+    ],
+    "explanation": "IPv4: quatro números de 0 a 255 separados por pontos (endereço lógico). MAC: seis pares hexadecimais separados por dois-pontos (endereço físico da placa). Porta: número de 0 a 65535 que identifica o serviço. Domínio: nome legível que o DNS traduz para IP. IPv6: grupos hexadecimais separados por dois-pontos, com :: abreviando zeros.",
+    "hint": "Conte as partes e observe os separadores: pontos, dois-pontos ou nenhum."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      2,
+      1,
+      3
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      3,
+      2,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      1,
+      3,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      2,
+      1,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 774553834,
+   "question": {
+    "generator": "address_format_match",
+    "seed": 774553834,
+    "context": [],
+    "tags": [],
+    "kind": "match",
+    "prompt": "Associe cada valor ao tipo de identificador que ele representa.",
+    "left": [
+     "8080",
+     "54:FB:C7:B8:D6:F3",
+     "intranet.redecorp.com.br",
+     "192.168.16.40"
+    ],
+    "right": [
+     "Endereço MAC",
+     "Número de porta",
+     "Nome de domínio",
+     "Endereço IPv4"
+    ],
+    "answer": [
+     1,
+     0,
+     2,
+     3
+    ],
+    "explanation": "IPv4: quatro números de 0 a 255 separados por pontos (endereço lógico). MAC: seis pares hexadecimais separados por dois-pontos (endereço físico da placa). Porta: número de 0 a 65535 que identifica o serviço. Domínio: nome legível que o DNS traduz para IP. IPv6: grupos hexadecimais separados por dois-pontos, com :: abreviando zeros.",
+    "hint": "Conte as partes e observe os separadores: pontos, dois-pontos ou nenhum."
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      0,
+      2,
+      3
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      1,
+      3,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      2,
+      3,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      2,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3428989595,
+   "question": {
+    "generator": "address_format_match",
+    "seed": 3428989595,
+    "context": [],
+    "tags": [],
+    "kind": "match",
+    "prompt": "Associe cada valor ao tipo de identificador que ele representa.",
+    "left": [
+     "3389",
+     "intranet.redecorp.com.br",
+     "192.168.19.55",
+     "98:DD:CB:51:F7:11"
+    ],
+    "right": [
+     "Endereço IPv4",
+     "Número de porta",
+     "Nome de domínio",
+     "Endereço MAC"
+    ],
+    "answer": [
+     1,
+     2,
+     0,
+     3
+    ],
+    "explanation": "IPv4: quatro números de 0 a 255 separados por pontos (endereço lógico). MAC: seis pares hexadecimais separados por dois-pontos (endereço físico da placa). Porta: número de 0 a 65535 que identifica o serviço. Domínio: nome legível que o DNS traduz para IP. IPv6: grupos hexadecimais separados por dois-pontos, com :: abreviando zeros.",
+    "hint": "Conte as partes e observe os separadores: pontos, dois-pontos ou nenhum."
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      2,
+      0,
+      3
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      3,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      0,
+      3,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      2,
+      0,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1788458060,
+   "question": {
+    "generator": "address_format_match",
+    "seed": 1788458060,
+    "context": [],
+    "tags": [],
+    "kind": "match",
+    "prompt": "Associe cada valor ao tipo de identificador que ele representa.",
+    "left": [
+     "192.168.4.76",
+     "80:85:84:7C:DB:B1",
+     "portal.escola.edu.br",
+     "80"
+    ],
+    "right": [
+     "Nome de domínio",
+     "Endereço MAC",
+     "Endereço IPv4",
+     "Número de porta"
+    ],
+    "answer": [
+     2,
+     1,
+     0,
+     3
+    ],
+    "explanation": "IPv4: quatro números de 0 a 255 separados por pontos (endereço lógico). MAC: seis pares hexadecimais separados por dois-pontos (endereço físico da placa). Porta: número de 0 a 65535 que identifica o serviço. Domínio: nome legível que o DNS traduz para IP. IPv6: grupos hexadecimais separados por dois-pontos, com :: abreviando zeros.",
+    "hint": "Conte as partes e observe os separadores: pontos, dois-pontos ou nenhum."
+   },
+   "checks": [
+    {
+     "answer": [
+      2,
+      1,
+      0,
+      3
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      3,
+      2,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      3,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      0,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

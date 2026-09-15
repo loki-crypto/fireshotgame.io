@@ -56,7 +56,8 @@ export interface SessionBackend {
   start(phaseId: string): Promise<StartResult>;
   sendEvents(sessionId: string, events: TimedEvent[]): Promise<{ xpDelta: number; newBadges: BadgeAward[] }>;
   answer(sessionId: string, req: AnswerRequest): Promise<AnswerResult>;
-  complete(sessionId: string, summary: PhaseSummary): Promise<CompleteResult>;
+  /** `elapsedS`: tempo de jogo da tentativa (sem pausas e briefing), limitado pelo servidor ao tempo real da sessão */
+  complete(sessionId: string, summary: PhaseSummary, elapsedS: number): Promise<CompleteResult>;
 }
 
 /** Backend local (sem conta / laboratório): seed aleatória, nada é persistido. */

@@ -1,0 +1,1776 @@
+{
+ "source": "00-tutorial/t1",
+ "generator": "mc_pool",
+ "params": {
+  "pool": "network_basics",
+  "tags": [
+   "host",
+   "packet",
+   "network"
+  ]
+ },
+ "seeds": [
+  {
+   "seed": 2654435761,
+   "sha256": "7688c13d1a2202e419a8000f85065e30d4c4d2c1dbd3a34d316b32622f6d69c1"
+  },
+  {
+   "seed": 1013904226,
+   "sha256": "43ee2df0da2446e977e537e5e2a43f14a0cabaf1b60d8ee95401cd3f6136b9ca"
+  },
+  {
+   "seed": 3668339987,
+   "sha256": "34be47b582f6a20fbe708b70933f222fc847825a5bc479d69dbdb224a60f68bf"
+  },
+  {
+   "seed": 2027808452,
+   "sha256": "99c94a8fd58649025e28abb7eaf4f588e917774e27b165ed1fd676f361582a1a"
+  },
+  {
+   "seed": 387276917,
+   "sha256": "7a88ae5dd64158af813a9ef978c0405a8cd5c4fb780be5c5245eab564509fd10"
+  },
+  {
+   "seed": 3041712678,
+   "sha256": "fe7e9ae34e7f3881cee48cf184c92bc94acf55808016c2beece8a8c029aa5753"
+  },
+  {
+   "seed": 1401181143,
+   "sha256": "6fe0fec720a9b099ed1562bab67c43e7b8191675a761cd6e4e6ae12bfe4b3213"
+  },
+  {
+   "seed": 4055616904,
+   "sha256": "10d1be9530c12fb231374050df542c5316be4bc6d4990dc4b758e2733b7228a6"
+  },
+  {
+   "seed": 2415085369,
+   "sha256": "e5f8255005f5f8061db4afe902ecceca1981c99e757ae3f28a3df714c869fc8f"
+  },
+  {
+   "seed": 774553834,
+   "sha256": "27511af9b6c38e9c5b367f77034f59f5891895d53e501045a6273d5d50fc5b9f"
+  },
+  {
+   "seed": 3428989595,
+   "sha256": "23be4834b8b0c6652ddfb1d240fd9dcef3b8bf96c67d01704fc9b9bfd165937e"
+  },
+  {
+   "seed": 1788458060,
+   "sha256": "913943300a9d1d0f5f5f22e78480e0b09783055a7ce77396e4597774b592a7de"
+  },
+  {
+   "seed": 147926525,
+   "sha256": "9d86aefd3454b621623bbf97926a2de3af546b9a1c9f42b4a6709e42cdf1d1f6"
+  },
+  {
+   "seed": 2802362286,
+   "sha256": "2bc113c71f4a93720895c69bc42e35656b2e527a772301676484243910e28a54"
+  },
+  {
+   "seed": 1161830751,
+   "sha256": "a69c5d40a34b768eb33b20f7a88b375095bd019cb77555691958c9a5ad151bc5"
+  },
+  {
+   "seed": 3816266512,
+   "sha256": "7730130fcea62a922985da89e6f2bda624c25710ffbcfb453ec1237fcdabb68c"
+  },
+  {
+   "seed": 2175734977,
+   "sha256": "b7342a3f1a542b481081e5e671cf09bf70ddb6cc349f82813e28a7c3ad63c378"
+  },
+  {
+   "seed": 535203442,
+   "sha256": "d41f42aa6e7d829b23d3d55104941f514b2e0bfb0dc8c50d97fe2768cb5adaff"
+  },
+  {
+   "seed": 3189639203,
+   "sha256": "ccb0dce41fa63cc6a76f5b9ab9269fbdb0ab065d8191cfb1fb27893e9431c2d3"
+  },
+  {
+   "seed": 1549107668,
+   "sha256": "2d40bc179dfab100e50351eb305c2d725436b7fb52f390bc36195fa8973731b1"
+  },
+  {
+   "seed": 4203543429,
+   "sha256": "215c5c6a0f3941b77cccc37140283a746e16144f2df1e88951c2a36137ddad0b"
+  },
+  {
+   "seed": 2563011894,
+   "sha256": "2a7a29dc7c23a7ca5aa6968b8d96fe961d464ae643356554e4af66472df216fa"
+  },
+  {
+   "seed": 922480359,
+   "sha256": "884860242f96fba2364740ca5462db8266a95b82a2199ac5b1d73e3f907d29bd"
+  },
+  {
+   "seed": 3576916120,
+   "sha256": "7258dec632c4416092a3c21a673d9018fc578e11a229c4ccfe4254750caceed9"
+  },
+  {
+   "seed": 1936384585,
+   "sha256": "0bf196eba24610316de9938c0ae692659e0a8772ea01c8211a601dd9f59879d0"
+  },
+  {
+   "seed": 295853050,
+   "sha256": "05516878342c662120b3b8e0dcec42f58eaea98e937e1ee0963bb142df869d5d"
+  },
+  {
+   "seed": 2950288811,
+   "sha256": "2a1efed886702dd955ec29573eddf75a9e21f44d7ae6910b57ff2bb9e66ad57c"
+  },
+  {
+   "seed": 1309757276,
+   "sha256": "975fc83ce2eaa3473dead817288197d4061ffad8b83c2489778e01a789e5bed3"
+  },
+  {
+   "seed": 3964193037,
+   "sha256": "d0d4421ba9a4280e500172d905ebb980b196a7d14719b40545373340094de0d9"
+  },
+  {
+   "seed": 2323661502,
+   "sha256": "bd7467cb95579cb72f455c720c97562d144aa4f3098a9ec217c6682c87530548"
+  },
+  {
+   "seed": 683129967,
+   "sha256": "017a478ab03a6fc501634e402673f5bbea4626de9d2f4bc8eb5c88d9c9df7f3f"
+  },
+  {
+   "seed": 3337565728,
+   "sha256": "de8538d4150ee86f61a7e6875e5bd1735136956ec58592a411f26b9978e6b43b"
+  },
+  {
+   "seed": 1697034193,
+   "sha256": "28deb985106a3980cd54377cd10f361575ebf9d4ae75229fffd5c5240f415afe"
+  },
+  {
+   "seed": 56502658,
+   "sha256": "07d5d2749825cd58583f87390ec57511904eb9766463f61f26ac273eac753f77"
+  },
+  {
+   "seed": 2710938419,
+   "sha256": "27aa24c6521daff4169b754d5e18c83d239939129ed89f43720b1d25cf661cad"
+  },
+  {
+   "seed": 1070406884,
+   "sha256": "f0b2279a3daa70ea4b9e71b47498ae512ba3162f8f87175667ef159c03c34ca0"
+  },
+  {
+   "seed": 3724842645,
+   "sha256": "61117319aadaef6d2d4a4f4281ee2b917b9fc509c804b3a78fa8ab42514c8cf4"
+  },
+  {
+   "seed": 2084311110,
+   "sha256": "0726f63165316b0f2e386215270886f7d37aafd1a412695c19806173e150e1e5"
+  },
+  {
+   "seed": 443779575,
+   "sha256": "2d5d8b24dd0f54914a0779eb57d871d85061e8598b2ddd95be308cc7c70ca251"
+  },
+  {
+   "seed": 3098215336,
+   "sha256": "17b642b5e62a23798ec86e2f7f9654493ee16dba08161f0618df04a08b132a81"
+  },
+  {
+   "seed": 1457683801,
+   "sha256": "2426bde75833d619d6e5a8f7b3425afc3f131b01d7f6fa8f66e9f7d8c433af99"
+  },
+  {
+   "seed": 4112119562,
+   "sha256": "72aac1c4ac8bac2052f415c4e030ab6b56013adecc2f162f9be4e6c9625b17a7"
+  },
+  {
+   "seed": 2471588027,
+   "sha256": "a40a925a5afe67bc7750dbdd7e87d08034c23bf711d6794b3da53d2dd8ddd37d"
+  },
+  {
+   "seed": 831056492,
+   "sha256": "a897c7d30f3d86af2e25dd93f56cb6d0def987a83d70a0b956fb44847dc3d2fb"
+  },
+  {
+   "seed": 3485492253,
+   "sha256": "57c7c5aa54eb236bb2208e72d7692bd0ae28189d915349df2616f428da7624f8"
+  },
+  {
+   "seed": 1844960718,
+   "sha256": "46936f45b99ffcec90e3d8bf5f7e11104486c42620f52e7706c9177821aaaef7"
+  },
+  {
+   "seed": 204429183,
+   "sha256": "35f524b3aec0f3440f66d8656a081a9b7c45455334df2eef54734b222c4ed014"
+  },
+  {
+   "seed": 2858864944,
+   "sha256": "ead002e1e044370219981fa2b6bf5f3af3f938983fee515a1992a506b572d896"
+  },
+  {
+   "seed": 1218333409,
+   "sha256": "52d4017c824a485673c64c337174305ac7d2e348058911dee2df28661c4fe77b"
+  },
+  {
+   "seed": 3872769170,
+   "sha256": "fb6b2d8b0210eb74a5e96c09420ea987ab7c2bc516d9c95d62a509601d9e51e8"
+  },
+  {
+   "seed": 2232237635,
+   "sha256": "a4c007cca07eeb19ef9b383dd3b170cef063d0868bf2be995a9e5f883636e21c"
+  },
+  {
+   "seed": 591706100,
+   "sha256": "01a01a8ef8fd6b4883cb507691d55271fc32d2e089bc8a4f2f07cf499f99d1ce"
+  },
+  {
+   "seed": 3246141861,
+   "sha256": "9c05c19ed69f64bfac534a5bbcb143b7053664306061c308c34b2edff9903180"
+  },
+  {
+   "seed": 1605610326,
+   "sha256": "f0d2c9e030a3299506a9b858b878820ce6ebbc254530dbf97f5828d5cd86417c"
+  },
+  {
+   "seed": 4260046087,
+   "sha256": "33f589113a41e269bd1ddb4fbeb2944aec87e07b540b574ec1f9daceef8c0266"
+  },
+  {
+   "seed": 2619514552,
+   "sha256": "1d2e401ae1d1d7323eaa930eae731b95352b3850825abcee943a9548f3297639"
+  },
+  {
+   "seed": 978983017,
+   "sha256": "c1895f6ca834767a6268b57f7801126a7d765e1c8f67a2ec5af1059ac21fd25c"
+  },
+  {
+   "seed": 3633418778,
+   "sha256": "52ae4456535e6c0bbcb926b8d0eac880745e24b246af26e9fae5b9b6618c0bf6"
+  },
+  {
+   "seed": 1992887243,
+   "sha256": "0360ce0418f0598607e1dcb8716941fed8bc1ea60b8268648e2dda01a86e474e"
+  },
+  {
+   "seed": 352355708,
+   "sha256": "9bc5afb765a12cf8c8ffbb9ee11409366d6ea68b1b0a532c8772c46224e74e79"
+  },
+  {
+   "seed": 3006791469,
+   "sha256": "d3ddf4653a98ee573ec200dd32fcb09ffa4a62fa60f7470d23103b755c0eb082"
+  },
+  {
+   "seed": 1366259934,
+   "sha256": "548a35ae46f5f89c13a5a43e7222f553c0d40f4443b251fcca7692cb04e764d8"
+  },
+  {
+   "seed": 4020695695,
+   "sha256": "9959f47484b04fa28301f72d22d2d4cdb0a6ab7f199e9d814744824dad6bca90"
+  },
+  {
+   "seed": 2380164160,
+   "sha256": "74f5249f22ba9a2f6657be264e51808f0d637d2c7ee661ef9a9755298efdb46d"
+  },
+  {
+   "seed": 739632625,
+   "sha256": "22dba1924c3132e7c3beeed6911d5483335756c859164fb10e249f742c8f9f2e"
+  },
+  {
+   "seed": 3394068386,
+   "sha256": "7fbefafcae920634e1fdc6f81db661784d3ffeb25162164ce158818193440d20"
+  },
+  {
+   "seed": 1753536851,
+   "sha256": "693ce2e26334d01803d4e5ac976fcf4bdb5f9536884e74b072be37d1b9058bf0"
+  },
+  {
+   "seed": 113005316,
+   "sha256": "830d2aa52b6121a56e4c43c48851e1c61616712719e17b37d5c7b9c0783f2af2"
+  },
+  {
+   "seed": 2767441077,
+   "sha256": "31dee4fdd5ba609a488601c570df78fb68dd58998b403bcc0b980946a1f0cff2"
+  },
+  {
+   "seed": 1126909542,
+   "sha256": "902d7a7986f711b751fd680746c3250c596f608e7efd793edeb053c335465b10"
+  },
+  {
+   "seed": 3781345303,
+   "sha256": "73e0ecac036291bf9988d50148f4b4e2c9afed710efd1c86400b81137ff6366e"
+  },
+  {
+   "seed": 2140813768,
+   "sha256": "3f05e0f887e728faea84a812d48ccc63779981d7631bfc3fe0492bb1bae04d4c"
+  },
+  {
+   "seed": 500282233,
+   "sha256": "a429d9083e9c87537555e35e20db4a79a1d1e01adc1e2a2ce80795ae5ba901a0"
+  },
+  {
+   "seed": 3154717994,
+   "sha256": "6cf0e30571e24ee256bab8dc38d7e0f15c662fd5e75667f69a85dddd583ff482"
+  },
+  {
+   "seed": 1514186459,
+   "sha256": "3175cd71de7e59186e87731633fb0f4313fa7b94eadf1125bb2a12fe94c355f9"
+  },
+  {
+   "seed": 4168622220,
+   "sha256": "7e1538de38408ce78cadb79d7f24e17527a86e99a86e3e58f4b6bc333b19d0b1"
+  },
+  {
+   "seed": 2528090685,
+   "sha256": "341fb02bcd356d4d5e7dcc4265df11c4a8c745376fb495770a33c7ce5bc4fffa"
+  },
+  {
+   "seed": 887559150,
+   "sha256": "3928643dce2ed6c8f01124da65ebe6aade022ad3083b01922420182326ec18ed"
+  },
+  {
+   "seed": 3541994911,
+   "sha256": "b41cb4589a233787bd8cfbfc5e954b38ed980da1ced795bdb976949d64655fb3"
+  },
+  {
+   "seed": 1901463376,
+   "sha256": "b55ed998f89aedc9382de456af364ce3d9396a828f3279d27d110913aa914e46"
+  },
+  {
+   "seed": 260931841,
+   "sha256": "a69615b6fa84fb152566880965ae15b9e8894e11dd21d607642d8d92225c2cbe"
+  },
+  {
+   "seed": 2915367602,
+   "sha256": "0b62d6e512ac613f124d53a33169496927cfe4f5514a6805ff332ae127797150"
+  },
+  {
+   "seed": 1274836067,
+   "sha256": "28ac1cc3f8afe29aa7903e641bed20e679f83f82bab3a2596a59f0a299233eee"
+  },
+  {
+   "seed": 3929271828,
+   "sha256": "a6458b0731906e9898f4d782371926ce58be330a049ae446e91a0acc128182f0"
+  },
+  {
+   "seed": 2288740293,
+   "sha256": "91ccf7bb8c759ff8a133228a1360ed0e9491dba19d42e098cd33d2fe18a3d3ed"
+  },
+  {
+   "seed": 648208758,
+   "sha256": "d36b531fda3ee722627b875b4f06f13a8cf75b4e6c31f9d897105195efc40c0d"
+  },
+  {
+   "seed": 3302644519,
+   "sha256": "b66cfc31ecb5a803c2e7c844edd95363ca97af0e8f9f8c6d64e5e5a4abf27a44"
+  },
+  {
+   "seed": 1662112984,
+   "sha256": "d7ab4a66d7e242b1981f5712e8dd27abefb3884730689006695ead4bd98c705c"
+  },
+  {
+   "seed": 21581449,
+   "sha256": "66f56d07c1dae3d3c3b8d44de8bcbb46e6de23e019bc09b47448d56007e77ef5"
+  },
+  {
+   "seed": 2676017210,
+   "sha256": "8885a74c728d8827bad97d93d7d74423d513e7ec9f5953ac6efa3fc09a0a5da6"
+  },
+  {
+   "seed": 1035485675,
+   "sha256": "187b0a189bec32ca6038bec0cde8086d61b09d9feeb44913d216f22011d7f459"
+  },
+  {
+   "seed": 3689921436,
+   "sha256": "677cee644266e955ed518dc1b0895d5388abaf0b108a810ffc5660463bc112cb"
+  },
+  {
+   "seed": 2049389901,
+   "sha256": "64b00b0d116d5a7de3d328f1d015c6166416a2226f6b1fb2b63f61936e59aed9"
+  },
+  {
+   "seed": 408858366,
+   "sha256": "b091daca242d9b1c5a9bd80dbc3baba761c1a959635ef8e65c3a85170d863e1f"
+  },
+  {
+   "seed": 3063294127,
+   "sha256": "58c5b94718a524e501b4035f98f469a318ad612d99cef86456d8b6287be68d60"
+  },
+  {
+   "seed": 1422762592,
+   "sha256": "1b01bf99ddf2740df8e2b100d82a9bfa9ce00d014738e8061aee03309e931b64"
+  },
+  {
+   "seed": 4077198353,
+   "sha256": "2aae6f142e98978c9d401dba5df660bd48244e297c509f1c663c6f203107e29e"
+  },
+  {
+   "seed": 2436666818,
+   "sha256": "cd97d6c8c695993834c9b014c223bed1dfb7b031ce7e24b8ce46e0ce6bb8f0c7"
+  },
+  {
+   "seed": 796135283,
+   "sha256": "2c3b2aaaa9b73d9d3fd8280531396924aa618a6c4b0151b5dadadbf49da1a797"
+  },
+  {
+   "seed": 3450571044,
+   "sha256": "763bcfacf3c02fed0b5d4e1a5e8f74a9ab46f87c562eba1ef46134ed087f1946"
+  },
+  {
+   "seed": 1810039509,
+   "sha256": "c23b5ad0de5a739be21119f7e5b8948a5a127d3af14cf90b69049c249cf5566a"
+  },
+  {
+   "seed": 169507974,
+   "sha256": "468f7b79ec826a22842e5f5c78e85b6f694d1b6d6af6a2f3fe3cc3c33166f149"
+  },
+  {
+   "seed": 2823943735,
+   "sha256": "ec50e97b71145aefcec68d3cd8e37bac9fab94750ff6b20ea39069fdc2d6b723"
+  },
+  {
+   "seed": 1183412200,
+   "sha256": "ee91cf3fc17fc69d6ffab38e084568ac537dda38699e487e7bf4613cc0c9daf4"
+  },
+  {
+   "seed": 3837847961,
+   "sha256": "5844ce5f8c946e8df1163a40551653a958dc7af8be271f96041df9bf24de6912"
+  },
+  {
+   "seed": 2197316426,
+   "sha256": "52560b0afdd5388745d23c189f8828a986e83c684ec266f877f441c0d7e37dda"
+  },
+  {
+   "seed": 556784891,
+   "sha256": "ab8e650c40ba993ff498fde505bcf60b69295b2d8c2427d715eb3d2beed2abcf"
+  },
+  {
+   "seed": 3211220652,
+   "sha256": "da9ee9b38290349a4ebe026baef33db18c3d1c74676f81b74878fd237fdf8932"
+  },
+  {
+   "seed": 1570689117,
+   "sha256": "bc580b8e24dc6509794760a61a343f3de577cd9e0de90654e5e22cecdc25bbe9"
+  },
+  {
+   "seed": 4225124878,
+   "sha256": "78c6f608a2b9bbb828dfba220976124fd3c45c92165b80c4a9a8723549e9970b"
+  },
+  {
+   "seed": 2584593343,
+   "sha256": "9d50b9a69115240d7a760062bfb2999f15dd042fc1c8fd798fee33d1be0d5aa4"
+  },
+  {
+   "seed": 944061808,
+   "sha256": "189c758c280d870b2da2d093673e3d31af910a0135a83808af6382204d179cb4"
+  },
+  {
+   "seed": 3598497569,
+   "sha256": "521112ffda995cb5d683d35098c6f5b8260c4423ff2710bccbf4f2564db84820"
+  },
+  {
+   "seed": 1957966034,
+   "sha256": "b3e69e3f1406395eeb994c58971d50f145017603da30095f71ebc9e32fec2c45"
+  },
+  {
+   "seed": 317434499,
+   "sha256": "746bf2e3811bc30a4c3469e8392b373a438b711572d29dc551b6e7e6ec355a01"
+  },
+  {
+   "seed": 2971870260,
+   "sha256": "98b21c5420f0bb5ea83bf792f103a7908db5871851f75958b9982956a7dd66f7"
+  },
+  {
+   "seed": 1331338725,
+   "sha256": "9c374eeda924f58fcb307378468629d2ebab591508258cbe96b6077c55682523"
+  },
+  {
+   "seed": 3985774486,
+   "sha256": "248444263126be827729c67400f9e73a9816db91fa1700ac34c4e1d463bde623"
+  },
+  {
+   "seed": 2345242951,
+   "sha256": "06ebb96c7093dd994d41e9dc16c667e48403b188254ca03423333aa5208ef7b4"
+  },
+  {
+   "seed": 704711416,
+   "sha256": "361a683bb5ba99398f04bf65e578c2a4bb0e358aa05972ccb7b2a1d5754839a8"
+  },
+  {
+   "seed": 3359147177,
+   "sha256": "aeaf4fd1d27dfa7344889c682dffe9414e28d4f00ef4e125ac49e9438b5e9c99"
+  },
+  {
+   "seed": 1718615642,
+   "sha256": "7bb7cb4f9915333e6e54cb16e4c7c7cdb2f782ddbd5c9340cc6c91b116487962"
+  },
+  {
+   "seed": 78084107,
+   "sha256": "a667b026bcd4741c1e8e722a41183e43aab3d1df15c234c5a61143eff068433d"
+  },
+  {
+   "seed": 2732519868,
+   "sha256": "8fac6196a06f679d43bb80207f0a42a48a9cd729ac7a9c25426670ff8ef2c97b"
+  },
+  {
+   "seed": 1091988333,
+   "sha256": "7093938215bbfb3e5da8a9b20eae8fda9a037d1f31f80e0fba820f719e7d1637"
+  },
+  {
+   "seed": 3746424094,
+   "sha256": "a84105aba215f7deac7f1d6f7908ab1d6b725a4ecde3d99e16ac9f8477969504"
+  },
+  {
+   "seed": 2105892559,
+   "sha256": "2c8ea8b19d6c97ada2d4f030851d246f3db3c50bba8a59f3b1f2a3d06ad0b64e"
+  },
+  {
+   "seed": 465361024,
+   "sha256": "435984256920998e220ebdf807a13b654394e1bdb35f2e027d178c1f72d24dbf"
+  },
+  {
+   "seed": 3119796785,
+   "sha256": "f350dc19987451feb013c136643961b29527171c3dc7dd1a72a2f58c9f867090"
+  },
+  {
+   "seed": 1479265250,
+   "sha256": "6936f0d491ef9af18a2065d590b99cd538a8ca491667a8c79fd0b1f476c7ad18"
+  },
+  {
+   "seed": 4133701011,
+   "sha256": "ffa20b6d1f2c2300ab471943bce52e212450737d4507820a9aa4563a96b3af75"
+  },
+  {
+   "seed": 2493169476,
+   "sha256": "95a8fb43c36c8e3d83fbb9f85ce813e73222bf6ab5b3477ae53e0a3890de7932"
+  },
+  {
+   "seed": 852637941,
+   "sha256": "694cf672a8e3fc754e1905c4e0cb7e20fd76aaa2bc5f4c72d7d7c48867a5ed1d"
+  },
+  {
+   "seed": 3507073702,
+   "sha256": "919d3c78c7a438dc902c3a607e26d2d048b095d25dc6cae93a7b293f42182785"
+  },
+  {
+   "seed": 1866542167,
+   "sha256": "ca3a9a3ad8fe92d3c306b476d8047d4681278fb8a531ae72a1a76883823bff46"
+  },
+  {
+   "seed": 226010632,
+   "sha256": "acc5145f23db23f1f66c279dbf4bf37981715c422d4a8d202915bead77cf5ae5"
+  },
+  {
+   "seed": 2880446393,
+   "sha256": "86104abababfe5715544c3e1e7a9f3cbca22910fb8b14cb47d5cb3cd229f6b47"
+  },
+  {
+   "seed": 1239914858,
+   "sha256": "ce27c1f0724abd817dd2d5e61ba29ba18c1acb61adfb0ffdbc89200a71a18d23"
+  },
+  {
+   "seed": 3894350619,
+   "sha256": "0c42ef31d67c32ce1a1f0f43a66379a4073c73bdcacdb2bad1403563a6b354d4"
+  },
+  {
+   "seed": 2253819084,
+   "sha256": "09e8d7e001470b924afe126592efc6d4791066b16da39f2745520af689240410"
+  },
+  {
+   "seed": 613287549,
+   "sha256": "97c21f996b6fb8b554f0e73105c5de9a42de9db6bf5e2e09d5954a44e490119d"
+  },
+  {
+   "seed": 3267723310,
+   "sha256": "32ca719c6b44fb35c076e4b4c914a552eb31295fbb8b45b25604a342f33a54fa"
+  },
+  {
+   "seed": 1627191775,
+   "sha256": "8c271b08188944d373b0c28dbf738e006b1f020428201f58f182b9c07c77dde1"
+  },
+  {
+   "seed": 4281627536,
+   "sha256": "c3a659047c8dfdf4d1ec0ea1d7f1022a5a43b156e92f9b048f828fec755e0d06"
+  },
+  {
+   "seed": 2641096001,
+   "sha256": "26afcbe91cda4081fcdf03b7b3f5ed7507abf000666981fae9280280b583a1f7"
+  },
+  {
+   "seed": 1000564466,
+   "sha256": "a2b42b89f82d43996af5f0e56e856bac54328811ddb69b4fdefcb861ecf42c55"
+  },
+  {
+   "seed": 3655000227,
+   "sha256": "022bac0b802e99db7965c40fe6a35d62b4ca851ca209c8954263000cc87a416a"
+  },
+  {
+   "seed": 2014468692,
+   "sha256": "6b994501cf79b5553031462105bc1cd1f385769cbc6253d6ceddbe091f47cd8e"
+  },
+  {
+   "seed": 373937157,
+   "sha256": "555f59dc14be4f3c6727e705fb2be418904e9af93797e90dc0f7cdbeb88d61fd"
+  },
+  {
+   "seed": 3028372918,
+   "sha256": "a325a75d7d4a7c3ac41631617e65e4a9dccb7d1bcaf10b3d1528a6c93cc5a94e"
+  },
+  {
+   "seed": 1387841383,
+   "sha256": "62c977cb097d58fb8a10547daddca7cd5a729316148e8c401d9b54865245643f"
+  },
+  {
+   "seed": 4042277144,
+   "sha256": "7db95ff65e451585d02b0bcbb9dca31608933e31953fc8dbcc794e18ad5d69e1"
+  },
+  {
+   "seed": 2401745609,
+   "sha256": "b5df41642b1d59b4cedd7b4f31326b8208e206d1f2ed489228303fc1c14521f5"
+  },
+  {
+   "seed": 761214074,
+   "sha256": "1f38ae7826815f1e3862070e4baa2da2f16cff5fe6434b0ebcd5599e24d78c20"
+  },
+  {
+   "seed": 3415649835,
+   "sha256": "faeff05a08078969464870d3168938c804e8e36cd44dc80ea786b0b37a6e1bd0"
+  },
+  {
+   "seed": 1775118300,
+   "sha256": "9bf317bcdc7189e50150747f9233c640dbad2bb667a38ee7396a71d0dd185141"
+  },
+  {
+   "seed": 134586765,
+   "sha256": "3c97d133a9372762fe38103d89c5003204997a05c472a57500701fc93d86cc48"
+  },
+  {
+   "seed": 2789022526,
+   "sha256": "f7c7b0bf704100479d1f2c357555a3c326112fd30156f4057e9fc47c16291e3c"
+  },
+  {
+   "seed": 1148490991,
+   "sha256": "29a5a1bea97f0bcb429a4ec9114f5a195639864c5ba472a8cf81ad5e3f7cdef1"
+  },
+  {
+   "seed": 3802926752,
+   "sha256": "c47540c4e6dab84ed87fcfa4a9184e22e8dd7a71837c455bd6c6071c86f4148e"
+  },
+  {
+   "seed": 2162395217,
+   "sha256": "6829d890df3cf45e80745a4728115e700decce9c975671168835e1a303ed01ed"
+  },
+  {
+   "seed": 521863682,
+   "sha256": "c0e124b691d148938fb1be997d9f6d50d494876abe70ccc6dda9d64ca01f4fcb"
+  },
+  {
+   "seed": 3176299443,
+   "sha256": "2c158ef4139f027a4d0d968c9fa91d39ceab26082ef5ee013a21c9f74fdf580d"
+  },
+  {
+   "seed": 1535767908,
+   "sha256": "48d72ed0ab41fc01793f6fe5e06785207bc5a66a7ccb0c72d13ee88f3d1c6fae"
+  },
+  {
+   "seed": 4190203669,
+   "sha256": "7e20de50b62dfdc5af7c70bd2c2abcfe8c7a76ad3e3114be4a358dbaf5f70040"
+  },
+  {
+   "seed": 2549672134,
+   "sha256": "671995c119a90eeb069fa4fd5c14b07f59142a164cb2d224bf8afcda3b2f6a7d"
+  },
+  {
+   "seed": 909140599,
+   "sha256": "9dc4ad6c94905452988ce80641de082459302b00951aab09bfce6487b1b379cd"
+  },
+  {
+   "seed": 3563576360,
+   "sha256": "37f6e0b6d6aa6dd700e4b2a605056274beae18ae22b9d217c3d4885f485b915b"
+  },
+  {
+   "seed": 1923044825,
+   "sha256": "1517fdd00d1b953bc6ffd6be9756d1f33556da35ae7eb452d56f61cddeb857ec"
+  },
+  {
+   "seed": 282513290,
+   "sha256": "fcb3e8e6c610b82efc8da910307dbef65e0c66bdbcef91cb0322c3ee2628dde1"
+  },
+  {
+   "seed": 2936949051,
+   "sha256": "3f96d4b13ba1491fea04d36b0dc77a7a2c6d1cd98647c406f0b1e0b1aa698efe"
+  },
+  {
+   "seed": 1296417516,
+   "sha256": "546b2985449d821ed1a768cd99712c56b5c9fc03cbee1a12f81af3998274924f"
+  },
+  {
+   "seed": 3950853277,
+   "sha256": "32cfe75ca812cfa958ca1a6d2d99bdd64b5fe51cb0c90ecc320a48692baf2b9d"
+  },
+  {
+   "seed": 2310321742,
+   "sha256": "e9c2698650c2f26bf75b6f009069a7b96876240fce081a62898fd9d0f1ebfe06"
+  },
+  {
+   "seed": 669790207,
+   "sha256": "0346457927bbe2a7ab5390d9596fa0842512d285b549dfae7d8bbbf2fd55f64b"
+  },
+  {
+   "seed": 3324225968,
+   "sha256": "e511f1beda9422465d3ec5977f328317db81b76ae562af2f84ded1ff21a3a959"
+  },
+  {
+   "seed": 1683694433,
+   "sha256": "5c9543dcb26f981aecbc8f87ee680c855fc75d2aeb3f040f80661ab98d507562"
+  },
+  {
+   "seed": 43162898,
+   "sha256": "e5980396a0ed5d63dd2298e1495e05bf237c46cea4cdff7b3afff1ea7eaa2069"
+  },
+  {
+   "seed": 2697598659,
+   "sha256": "59b64b7bfb3165e05ba2172520d0d367488567aa2f9bc6a2e1319f42b0620d88"
+  },
+  {
+   "seed": 1057067124,
+   "sha256": "b8d6529831c5e37cda7ecc21a8d6cc7c0bb8349387468671ef2d982f918fd222"
+  },
+  {
+   "seed": 3711502885,
+   "sha256": "19fb7e503d5443bf464b5f9c375cb0fbed23704cb07777ce6fff52e7ad9f8048"
+  },
+  {
+   "seed": 2070971350,
+   "sha256": "6fda4addb66af169f7b3b748e47d280516f9e045b1349e3e30ec45882a97154c"
+  },
+  {
+   "seed": 430439815,
+   "sha256": "a1b0409341ac71f114ed4f7919ab5cdfcf53725d21d6587eebb1b8901eb71ae7"
+  },
+  {
+   "seed": 3084875576,
+   "sha256": "a308941794b553ecd5056f04dd5714658932988c8b7e9735dfef057d67df9c3b"
+  },
+  {
+   "seed": 1444344041,
+   "sha256": "abdb923f42f534c2c224175c7fd8ad9edc3ca600436046eefe509c40c0f7784e"
+  },
+  {
+   "seed": 4098779802,
+   "sha256": "ce86e75bc6f34b171e842cb10868fd10b6d050936f710443e4caa5983bf4fe7b"
+  },
+  {
+   "seed": 2458248267,
+   "sha256": "f1f8ccfe0f701943c96eb4681c24abe4da1e848ed24f8736d1efda8d1ce2e8a4"
+  },
+  {
+   "seed": 817716732,
+   "sha256": "4e1bd3c2ecd9dd8db63b2f2dd0affdbec0ee5e29679723e8ee52ce8a69d8bd8f"
+  },
+  {
+   "seed": 3472152493,
+   "sha256": "bc593c5df2c2dc4148efafe976bd6026dd13ed45edff9adb50b9a6dc00814d8e"
+  },
+  {
+   "seed": 1831620958,
+   "sha256": "4a7ff9e63febd2378cdf02fad940db42357ee26cda0fc345ebe57dccc59111e5"
+  },
+  {
+   "seed": 191089423,
+   "sha256": "ab5fab562a3082dfc57d9eb4b1610314a0f095c415af053bb39cf93a4bef6158"
+  },
+  {
+   "seed": 2845525184,
+   "sha256": "d30ca2113e9b79a32497afe1d517cf7cc232f7829baace09ddbfecad324b6763"
+  },
+  {
+   "seed": 1204993649,
+   "sha256": "f5413a8570265567175f4cdfb4439fb200d57a0ff72613eddcc07dcaaf40cbe9"
+  },
+  {
+   "seed": 3859429410,
+   "sha256": "0f8e7150256102825e8e535b669f9b4548e28b0c5ed3e540ebf12aef46af4bce"
+  },
+  {
+   "seed": 2218897875,
+   "sha256": "e729353a2e93bd50049a4e7e08b5f90ea90eeafb2b3ad67235727614aa5fb3ec"
+  },
+  {
+   "seed": 578366340,
+   "sha256": "95037d9feb3ce48b629057289b53b8f65de59dfeb262385999893f91d7b26f35"
+  },
+  {
+   "seed": 3232802101,
+   "sha256": "9dca92f5c5c8c18e5dab3f35701bd981cc1013ddf303f0eeab3bad426a88a7b1"
+  },
+  {
+   "seed": 1592270566,
+   "sha256": "e93c1c2ff6bd504c1864b12d7ee3ec1b24f07d432e38fe3a74196e282d1a7b16"
+  },
+  {
+   "seed": 4246706327,
+   "sha256": "ccc5637e350942e6ae3285eab604b23faec5fe82478cef6c4b63a077c81325b3"
+  },
+  {
+   "seed": 2606174792,
+   "sha256": "200e124a35a9a1b88877a7b9bb4fde923bc0765958b8e9e3ef15956adcfb8e4a"
+  }
+ ],
+ "samples": [
+  {
+   "seed": 2654435761,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 2654435761,
+    "context": [],
+    "tags": [],
+    "kind": "mc",
+    "prompt": "O que define uma rede de computadores?",
+    "options": [
+     "Dispositivos interligados que trocam dados seguindo regras comuns (protocolos)",
+     "Um site da internet",
+     "Qualquer conjunto de cabos, mesmo desligados",
+     "Um único computador muito potente"
+    ],
+    "answer": 0,
+    "explanation": "Rede é a interligação de dispositivos que conseguem trocar dados porque seguem os mesmos protocolos.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 0,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1013904226,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 1013904226,
+    "context": [],
+    "tags": [],
+    "kind": "mc",
+    "prompt": "Qual a diferença entre uma LAN e a internet?",
+    "options": [
+     "LAN é mais rápida porque não usa cabos",
+     "LAN é a rede local (casa, escola, empresa); a internet interliga muitas redes pelo mundo",
+     "Não há diferença: são nomes para a mesma coisa",
+     "A internet é apenas a rede sem fio"
+    ],
+    "answer": 1,
+    "explanation": "LAN (Local Area Network) cobre um espaço limitado. A internet é a rede de redes: conecta milhões de LANs por roteadores.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3668339987,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 3668339987,
+    "context": [],
+    "tags": [],
+    "kind": "mc",
+    "prompt": "Por que os dados viajam pela rede em pacotes, e não como um bloco único?",
+    "options": [
+     "Porque cada pacote é enviado para todos os computadores do mundo",
+     "Porque a rede só aceita dados criptografados",
+     "Pedaços menores podem seguir caminhos diferentes, ser reenviados se perdidos e dividir a rede com outros usuários",
+     "Porque pacotes são mais pesados e por isso mais seguros"
+    ],
+    "answer": 2,
+    "explanation": "Dividir em pacotes permite compartilhar os links entre muitas conversas, reenviar apenas o que se perdeu e usar rotas diferentes.",
+    "hint": "O que acontece se um arquivo enorme se perder no meio do caminho?"
+   },
+   "checks": [
+    {
+     "answer": 2,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2027808452,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 2027808452,
+    "context": [],
+    "tags": [],
+    "kind": "mc",
+    "prompt": "Qual a diferença entre uma LAN e a internet?",
+    "options": [
+     "Não há diferença: são nomes para a mesma coisa",
+     "LAN é mais rápida porque não usa cabos",
+     "A internet é apenas a rede sem fio",
+     "LAN é a rede local (casa, escola, empresa); a internet interliga muitas redes pelo mundo"
+    ],
+    "answer": 3,
+    "explanation": "LAN (Local Area Network) cobre um espaço limitado. A internet é a rede de redes: conecta milhões de LANs por roteadores.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 387276917,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 387276917,
+    "context": [],
+    "tags": [],
+    "kind": "mc",
+    "prompt": "Por que os dados viajam pela rede em pacotes, e não como um bloco único?",
+    "options": [
+     "Porque cada pacote é enviado para todos os computadores do mundo",
+     "Porque a rede só aceita dados criptografados",
+     "Porque pacotes são mais pesados e por isso mais seguros",
+     "Pedaços menores podem seguir caminhos diferentes, ser reenviados se perdidos e dividir a rede com outros usuários"
+    ],
+    "answer": 3,
+    "explanation": "Dividir em pacotes permite compartilhar os links entre muitas conversas, reenviar apenas o que se perdeu e usar rotas diferentes.",
+    "hint": "O que acontece se um arquivo enorme se perder no meio do caminho?"
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3041712678,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 3041712678,
+    "context": [],
+    "tags": [],
+    "kind": "mc",
+    "prompt": "Por que os dados viajam pela rede em pacotes, e não como um bloco único?",
+    "options": [
+     "Porque a rede só aceita dados criptografados",
+     "Porque cada pacote é enviado para todos os computadores do mundo",
+     "Porque pacotes são mais pesados e por isso mais seguros",
+     "Pedaços menores podem seguir caminhos diferentes, ser reenviados se perdidos e dividir a rede com outros usuários"
+    ],
+    "answer": 3,
+    "explanation": "Dividir em pacotes permite compartilhar os links entre muitas conversas, reenviar apenas o que se perdeu e usar rotas diferentes.",
+    "hint": "O que acontece se um arquivo enorme se perder no meio do caminho?"
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1401181143,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 1401181143,
+    "context": [],
+    "tags": [],
+    "kind": "mc",
+    "prompt": "Quando você abre um site, quem é o cliente e quem é o servidor?",
+    "options": [
+     "O servidor é quem pede a página",
+     "O roteador é o cliente e o celular é o servidor",
+     "Os dois são servidores",
+     "Seu navegador é o cliente que pede a página; o computador do site é o servidor que responde"
+    ],
+    "answer": 3,
+    "explanation": "No modelo cliente-servidor, o cliente faz a requisição e o servidor oferece o serviço e responde.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 4055616904,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 4055616904,
+    "context": [],
+    "tags": [],
+    "kind": "mc",
+    "prompt": "Qual a diferença entre uma LAN e a internet?",
+    "options": [
+     "LAN é a rede local (casa, escola, empresa); a internet interliga muitas redes pelo mundo",
+     "A internet é apenas a rede sem fio",
+     "LAN é mais rápida porque não usa cabos",
+     "Não há diferença: são nomes para a mesma coisa"
+    ],
+    "answer": 0,
+    "explanation": "LAN (Local Area Network) cobre um espaço limitado. A internet é a rede de redes: conecta milhões de LANs por roteadores.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 0,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2415085369,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 2415085369,
+    "context": [],
+    "tags": [],
+    "kind": "mc",
+    "prompt": "O que é um protocolo de rede?",
+    "options": [
+     "Um tipo de cabo de alta velocidade",
+     "Um conjunto de regras que define como os dispositivos se comunicam",
+     "A senha do roteador",
+     "Um vírus que se espalha pela rede"
+    ],
+    "answer": 1,
+    "explanation": "Protocolos são como um idioma combinado: definem formato das mensagens, ordem e o que fazer em caso de erro.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 774553834,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 774553834,
+    "context": [],
+    "tags": [],
+    "kind": "mc",
+    "prompt": "Qual a diferença entre uma LAN e a internet?",
+    "options": [
+     "LAN é a rede local (casa, escola, empresa); a internet interliga muitas redes pelo mundo",
+     "Não há diferença: são nomes para a mesma coisa",
+     "A internet é apenas a rede sem fio",
+     "LAN é mais rápida porque não usa cabos"
+    ],
+    "answer": 0,
+    "explanation": "LAN (Local Area Network) cobre um espaço limitado. A internet é a rede de redes: conecta milhões de LANs por roteadores.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 0,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3428989595,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 3428989595,
+    "context": [],
+    "tags": [],
+    "kind": "mc",
+    "prompt": "Quando você abre um site, quem é o cliente e quem é o servidor?",
+    "options": [
+     "O servidor é quem pede a página",
+     "Seu navegador é o cliente que pede a página; o computador do site é o servidor que responde",
+     "Os dois são servidores",
+     "O roteador é o cliente e o celular é o servidor"
+    ],
+    "answer": 1,
+    "explanation": "No modelo cliente-servidor, o cliente faz a requisição e o servidor oferece o serviço e responde.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1788458060,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 1788458060,
+    "context": [],
+    "tags": [],
+    "kind": "mc",
+    "prompt": "Por que os dados viajam pela rede em pacotes, e não como um bloco único?",
+    "options": [
+     "Porque a rede só aceita dados criptografados",
+     "Pedaços menores podem seguir caminhos diferentes, ser reenviados se perdidos e dividir a rede com outros usuários",
+     "Porque pacotes são mais pesados e por isso mais seguros",
+     "Porque cada pacote é enviado para todos os computadores do mundo"
+    ],
+    "answer": 1,
+    "explanation": "Dividir em pacotes permite compartilhar os links entre muitas conversas, reenviar apenas o que se perdeu e usar rotas diferentes.",
+    "hint": "O que acontece se um arquivo enorme se perder no meio do caminho?"
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  }
+ ]
+}

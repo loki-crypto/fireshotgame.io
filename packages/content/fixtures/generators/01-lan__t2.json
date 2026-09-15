@@ -1,0 +1,1771 @@
+{
+ "source": "01-lan/t2",
+ "generator": "mc_pool",
+ "params": {
+  "pool": "lan"
+ },
+ "seeds": [
+  {
+   "seed": 2654435761,
+   "sha256": "5ebf8ad0cd1d1a697304ca9f255db3fc962004150caaa642bcb5360ee60d037b"
+  },
+  {
+   "seed": 1013904226,
+   "sha256": "cacaf150374c41f28fee3e6395de28ff62ddc8e30bbeb2355485115285879456"
+  },
+  {
+   "seed": 3668339987,
+   "sha256": "3c7f0cb6a927c91bc815f5be23375466456088d9a4a61f932389ab2e235f489a"
+  },
+  {
+   "seed": 2027808452,
+   "sha256": "6ba0608499d0ed306105db396dbc3f828493c50e424cb467c08805d5d0d79b05"
+  },
+  {
+   "seed": 387276917,
+   "sha256": "8a6ce3a0e1fcfe7ad8fbb1142dd199792db54a941a864de3244fddb43f2ec288"
+  },
+  {
+   "seed": 3041712678,
+   "sha256": "a9b827b5eb56dacb0952fe3efc53f6119642e982049b0d152f285315909e4cfe"
+  },
+  {
+   "seed": 1401181143,
+   "sha256": "e6d9bd2621c8e8e09181073569834a01317a61af9d82a2f4d26afc7a3522dd1e"
+  },
+  {
+   "seed": 4055616904,
+   "sha256": "d9dfc583dc4e94ed073a48db09f8bd5f7b6bc0701d2f58c86c1a343f572da71a"
+  },
+  {
+   "seed": 2415085369,
+   "sha256": "30af12a5f9d6839c4b5c1a681703ad4c0c2f6eee5dba8e1529e833e8e5a22466"
+  },
+  {
+   "seed": 774553834,
+   "sha256": "b91688db158f79db14f0aa0c9bf71ec5ae189670aaa2224dba93386f4c2e585c"
+  },
+  {
+   "seed": 3428989595,
+   "sha256": "c38a3f86e1cc6f66ee4636f1adf1ff3f4735e77eaae68aea8ed30ea611419c1e"
+  },
+  {
+   "seed": 1788458060,
+   "sha256": "257614b2be2d384829589d532f86d035471a64240aa036faa688264443d0968f"
+  },
+  {
+   "seed": 147926525,
+   "sha256": "61a054efd7e9c4f5f0c7f076303f2db36eb3a7bdcf36264cf5dd48b371af575d"
+  },
+  {
+   "seed": 2802362286,
+   "sha256": "d0d1b5ddc7133595b6b07c06700682d8e27c1927dece3717c39650508f38aaca"
+  },
+  {
+   "seed": 1161830751,
+   "sha256": "8b16eabf211f6e17eb729d0250b106d6ee2b52995c3d66b93d7f665b796291f4"
+  },
+  {
+   "seed": 3816266512,
+   "sha256": "253fec960b15613ea8333f6fdc6833b7d18ddb9905245a485b04b77cd94f9800"
+  },
+  {
+   "seed": 2175734977,
+   "sha256": "9310a4bb4070d6a2ca63bab51bdacc16d2c62a71a9d1e3d3775dd7203cfce93b"
+  },
+  {
+   "seed": 535203442,
+   "sha256": "6e05b22badd0834fbde6862f0e84025e7f5cb1fc8622d3845addcd8845deea61"
+  },
+  {
+   "seed": 3189639203,
+   "sha256": "4bc41c46ae206f69b9a581c2b8ea17a2dbff4ad8c3ca0fc8c69903ea17f0771e"
+  },
+  {
+   "seed": 1549107668,
+   "sha256": "26b4303e8eb97cf0a718b28c5bff0bc5ef835c6953c9720ef2898281f3632f27"
+  },
+  {
+   "seed": 4203543429,
+   "sha256": "84b6f067f96cf8a0a983674506dbd0f6b980ac7bfa2ae84e5e82faafaee0cf1d"
+  },
+  {
+   "seed": 2563011894,
+   "sha256": "f909d03c1cacff21fd939376bff29135e7d4b0b7411e3ab9a70ddbbf85c8f6e7"
+  },
+  {
+   "seed": 922480359,
+   "sha256": "a686ebc1d44190c142dd37ef19ae31c46e8e12a867a9979ba3dc8a979a82bbf6"
+  },
+  {
+   "seed": 3576916120,
+   "sha256": "3a0c7e16ec198fc0b7e814525b0d7f6ba8c72e0ef21ab805820e44a483faef45"
+  },
+  {
+   "seed": 1936384585,
+   "sha256": "d754618e07a005f0fb8dbd9b755481f0e929c0c6302d63ae8b6901670b696236"
+  },
+  {
+   "seed": 295853050,
+   "sha256": "4803bdd2676706c7b448f0dea9ff27ef61af40568e58638bf5d219cd7ef0c774"
+  },
+  {
+   "seed": 2950288811,
+   "sha256": "14aa26923cb71949ca43290befbd3e1c2113c68a8e146650754b390058f42ae5"
+  },
+  {
+   "seed": 1309757276,
+   "sha256": "69bffc40ac48027242bb185eb92f7a0bfd85e7304f9c4472ab9a088863cc8343"
+  },
+  {
+   "seed": 3964193037,
+   "sha256": "777455453bc557a90b9fe2408e253993ccbb4638a0133907f3704778a615705f"
+  },
+  {
+   "seed": 2323661502,
+   "sha256": "5daf2026bf95507a6956bb454fdbc2ab905832bc571463554075f61c91db2986"
+  },
+  {
+   "seed": 683129967,
+   "sha256": "f20bd839657b496643f894df1b4500560398fd7ffd7c68a64297b49638fee5a6"
+  },
+  {
+   "seed": 3337565728,
+   "sha256": "6fbbe75ae72f2d6fb41db0574192115c87e052f5edb1e515480eb56025f53229"
+  },
+  {
+   "seed": 1697034193,
+   "sha256": "69fa7721215ef3615f1551f68f5f49bc792ad2ed53d9c181878fb95620ef2824"
+  },
+  {
+   "seed": 56502658,
+   "sha256": "79c7e71f7a428feb682165cebc0d89a0289fbca80a6ab57f7d5b23a9db817369"
+  },
+  {
+   "seed": 2710938419,
+   "sha256": "4d20c10723c980e1f8eadac9227dcedcd304f912f9b04edd55d97b9134ea6e5a"
+  },
+  {
+   "seed": 1070406884,
+   "sha256": "5ee5b83b66ddf1ec769a01d1f20642369da0aacb9898b670faaa5d5bbdb5499a"
+  },
+  {
+   "seed": 3724842645,
+   "sha256": "83cbabb6a257f68eaa250c8bdf0089607857713601a80f5a03bdb5b1f222ba00"
+  },
+  {
+   "seed": 2084311110,
+   "sha256": "67d3acf281fabcbee52e555b254c272a564d0e933f1d72a506b7a971c378fc3c"
+  },
+  {
+   "seed": 443779575,
+   "sha256": "bb20278e2715139917d28b6e0e1ce599b6c4e061698c72d9b42d6ce517723069"
+  },
+  {
+   "seed": 3098215336,
+   "sha256": "1d7b4679673d0a95704a41db0a8cddaabc065c281b6a8ddcc45d4751d3aee1fe"
+  },
+  {
+   "seed": 1457683801,
+   "sha256": "5a84a905bb85203a3302437a6728e1555dd9343a1f866af84d326973b51cf34b"
+  },
+  {
+   "seed": 4112119562,
+   "sha256": "c7cef11bd6742b00927b461a0243a3c14c78a3a4c3d66109f6096b1a6dcd41f5"
+  },
+  {
+   "seed": 2471588027,
+   "sha256": "5798fa441277dc9c33e45ea8cbf454cb49dfd773c0da10531f8b3e540319c919"
+  },
+  {
+   "seed": 831056492,
+   "sha256": "2fc39a723c7fdedf961c296be7a6116904025d19efdda09dbdd3c2c78980445e"
+  },
+  {
+   "seed": 3485492253,
+   "sha256": "62ac42991b1298f96dbf225cf1d9d9446ec1d52992d0c0c0d5eded1b574b94a7"
+  },
+  {
+   "seed": 1844960718,
+   "sha256": "9fd059aaa52fe29f8aadc7df3a8886d87d9403551ed0f2d9e0e30ca2009044a6"
+  },
+  {
+   "seed": 204429183,
+   "sha256": "e7aea96b52a450141567b52457cf95dcd9f8a6316471236f7521e7d57278bda8"
+  },
+  {
+   "seed": 2858864944,
+   "sha256": "ed7e730c9ccc2aa1225b048ebc841cc5bd2fe964f49ae25ad756e347f6e879c2"
+  },
+  {
+   "seed": 1218333409,
+   "sha256": "1a35dede53173779e347888da84f147eab8edcb808c3d5d127496c5b9972ddff"
+  },
+  {
+   "seed": 3872769170,
+   "sha256": "4ad5f462a31c4f77f5b36a7180c9bee6484eacc69fcee59688e896ace5451732"
+  },
+  {
+   "seed": 2232237635,
+   "sha256": "f95b73eed62525b8d3131609bec82b234b5186d2c69dc9cd27ff9d6ecea56069"
+  },
+  {
+   "seed": 591706100,
+   "sha256": "f39e87314f37a97d255464d3e4cc33a8d7cd669b0d7ef2e57486cdaf2953005b"
+  },
+  {
+   "seed": 3246141861,
+   "sha256": "fca3a406ebff6b63f99d53d71d38b34989a97269888aaa707a0c120d71c43383"
+  },
+  {
+   "seed": 1605610326,
+   "sha256": "0c2f46fd51f3bc8dceb6c22245a1fa58b8b56bc9ba488c51a744c238075cb157"
+  },
+  {
+   "seed": 4260046087,
+   "sha256": "b5ed66630b0e856936466cd1a18d542e41892b2b3583835021f8cbbb297a68ac"
+  },
+  {
+   "seed": 2619514552,
+   "sha256": "fb8f01017cceda090511bed71ba8638eb2a9ad093e41bfd9eec2db3df9eed633"
+  },
+  {
+   "seed": 978983017,
+   "sha256": "9b161e64fd17a7e3ca55869e05dc68bb4f7b2b9b9bfea69a36496c7aa30b4bef"
+  },
+  {
+   "seed": 3633418778,
+   "sha256": "2a5c94dfe87c1d32cce96a7a134e1560780b8bed381c240e9e03a7fef405d4c6"
+  },
+  {
+   "seed": 1992887243,
+   "sha256": "fd4547ae108bfb84208faf38895fe7a260e50fc9adde6d0f62be4a3ac4577921"
+  },
+  {
+   "seed": 352355708,
+   "sha256": "87f7acd021b1c3c9aefb591abfe4708d802f582005c5bcf055b693efbbdc0f52"
+  },
+  {
+   "seed": 3006791469,
+   "sha256": "f36fffab4f79fdd9a7513d578797c0e06da49145a4836b41c8518031b48535fa"
+  },
+  {
+   "seed": 1366259934,
+   "sha256": "11e32d368b2f2ec5c752de4b466938be2f304b1db1178338a03e0c82f849ddbc"
+  },
+  {
+   "seed": 4020695695,
+   "sha256": "2875d415c2260d7b5c7f30733f4bfd54c553ec82bc1cb55949a9bf276bb595cb"
+  },
+  {
+   "seed": 2380164160,
+   "sha256": "4be3cbbaa6fb8104c5aef0e36c72b2291132fe788b4128bc320e9e6b2e2920f2"
+  },
+  {
+   "seed": 739632625,
+   "sha256": "471db99a2d6d13db5c59f96832eefa3f15f4fed4fd508916ee8a1f2873ef5bb5"
+  },
+  {
+   "seed": 3394068386,
+   "sha256": "44d7b38235948d28b5062ce8539a57c835799500006af69812744847868ae92d"
+  },
+  {
+   "seed": 1753536851,
+   "sha256": "3aa5229b7a2fd1dde0ef07f98b6a893048a9cc3649096d8def8e812d0485776d"
+  },
+  {
+   "seed": 113005316,
+   "sha256": "dca995fee0d9695486a7b9bfffd9271f0b83fab3f8d31ce0b3bb208d3fee1643"
+  },
+  {
+   "seed": 2767441077,
+   "sha256": "7d9f12d67adfb90df2188b48a1a540874c93cda714f3e396c085db9f2ce29e97"
+  },
+  {
+   "seed": 1126909542,
+   "sha256": "06861d6c324e8a3c8c5e83bf3f55a81da1b21f974d84fc5a940b9aab53eece2e"
+  },
+  {
+   "seed": 3781345303,
+   "sha256": "9eccdb50450f0f6472229ff10e54b78a50055739344b5c8251a0da4d4027f3f4"
+  },
+  {
+   "seed": 2140813768,
+   "sha256": "cb4503319eebf9fd074ce673adf7bd52d76a798a1c0ac1dd7f8c180b9805ae27"
+  },
+  {
+   "seed": 500282233,
+   "sha256": "836ed26f31d89fbdbd4743b13be8087f79467b38ca5b9fb4ab947c79bc019c3b"
+  },
+  {
+   "seed": 3154717994,
+   "sha256": "926e0069554899b19f40286d28b8d8c1ad350972e8a033755e5b9c3509269b93"
+  },
+  {
+   "seed": 1514186459,
+   "sha256": "bf4eb62394134e226c04da8796025c2dcf404a4beba7e4b7374aee74d184dda0"
+  },
+  {
+   "seed": 4168622220,
+   "sha256": "4e269bed0198deb34b5eeb4926d607f30d51a471d4c629db3ef38ae5edc90b35"
+  },
+  {
+   "seed": 2528090685,
+   "sha256": "84ec9f64c2896cca40e2185025cfda98ad48d7d7bb04aba2cda8418026042251"
+  },
+  {
+   "seed": 887559150,
+   "sha256": "c24501538426702e2e5c48b670a12bb8d2b0fbe6da0de03919f1d130e98cc6e9"
+  },
+  {
+   "seed": 3541994911,
+   "sha256": "cb092970c1c965cb356102c83f0ceea1529902313c6f067651213498cda22f6a"
+  },
+  {
+   "seed": 1901463376,
+   "sha256": "cb1541df20808eca0759996fe76f4f866d341753a28c2aa4918f375d50a975fc"
+  },
+  {
+   "seed": 260931841,
+   "sha256": "bedd5d63353eafff5f46f5e0f86a965486320306be248bff415d3d86ae37c835"
+  },
+  {
+   "seed": 2915367602,
+   "sha256": "200fb1774afe050ea8d7c5e5a2f0a902cb4ba751654e7c32fa97da94eb463e40"
+  },
+  {
+   "seed": 1274836067,
+   "sha256": "b329f22223c23a423fb2af3f7b8155f5601b2d485b90111768dad309ca4bc6b0"
+  },
+  {
+   "seed": 3929271828,
+   "sha256": "64af0b663107ff9b9fa8cb11d45ec49f8961e0974454a193c233ac580185bdf0"
+  },
+  {
+   "seed": 2288740293,
+   "sha256": "874d262b9f89fa97e5f9c5551ab0ec11e3dde3cff33f21d6f7ca452946d3e0ef"
+  },
+  {
+   "seed": 648208758,
+   "sha256": "b3bd8768401c30d853d9b6fe71789f5e0b1bf4b80c9ebbb041951c133220c343"
+  },
+  {
+   "seed": 3302644519,
+   "sha256": "17d14ee86cab3c9117ee60a5f24daab614ce6a5b9058cff03c933c5096ebacde"
+  },
+  {
+   "seed": 1662112984,
+   "sha256": "974232930e9e8863418fb96834551df5ebcfb3f4b76a29df0d790dc70af3dba3"
+  },
+  {
+   "seed": 21581449,
+   "sha256": "28ce95c5ed156670f1dab4164347e938c9169f8e1c5697cde6df2e1ccb404e08"
+  },
+  {
+   "seed": 2676017210,
+   "sha256": "2a9385b62769d9904ba3bb8505e438aee1bdf96dbfb9c3cda0bc3cdc3a567236"
+  },
+  {
+   "seed": 1035485675,
+   "sha256": "c691d154f8d54b1655140fbb49cbc0e7a7ef04ca158fa58d0e39cdec27c9c2c2"
+  },
+  {
+   "seed": 3689921436,
+   "sha256": "88bc56395d11a27d874869adc62761aa6a39a393c08d3d6735e2b66be1c67cd8"
+  },
+  {
+   "seed": 2049389901,
+   "sha256": "ef813882f488522d266bbc786e139951bde81d7d77257513ef31ac26a6925d21"
+  },
+  {
+   "seed": 408858366,
+   "sha256": "7d5fe7060d455b983793210e52c498cce562182ea6d45e736e43dbe5df37cc56"
+  },
+  {
+   "seed": 3063294127,
+   "sha256": "397e22172ac84a4634963ab90185ac9adbba577951881e37af2fbe4076d457f5"
+  },
+  {
+   "seed": 1422762592,
+   "sha256": "a697be700a4ac2aa0527c3b5ae48ccb084a734efabc29bc5bb24c67f5dad219f"
+  },
+  {
+   "seed": 4077198353,
+   "sha256": "69bd966f13c4500d76f6b32eaff12e2ea2a26f4e2658022263cb46bdc1258e59"
+  },
+  {
+   "seed": 2436666818,
+   "sha256": "e99ddffebc37cb756f2e706d6f7ccedafb9a4e6239b16e4b0e1948683a712e56"
+  },
+  {
+   "seed": 796135283,
+   "sha256": "c7ad517c95524fab89e46881696bd416bf20fc69a4d2f1b2409d5cd47f8c9bf0"
+  },
+  {
+   "seed": 3450571044,
+   "sha256": "7242bbd4dc8402f4043dacac27c920eebdea111d5f88f3e2b7983961de2b4aa1"
+  },
+  {
+   "seed": 1810039509,
+   "sha256": "6395fb76452af397d0a8e5681012cb1b9410a62ef6698beb07dbd873cde6a6e8"
+  },
+  {
+   "seed": 169507974,
+   "sha256": "5d622dda4d8b6cac4320295adf92e444fbda75234dd5abcba97e6d5a5da476ff"
+  },
+  {
+   "seed": 2823943735,
+   "sha256": "927009b36506b9e4d48a9d066f8972340549235416cec35ff8091ee3259ea4c4"
+  },
+  {
+   "seed": 1183412200,
+   "sha256": "0218b05a190a7be59e5a60c8d3d554405fb125f0759f55a2229b0d06e86a5cdc"
+  },
+  {
+   "seed": 3837847961,
+   "sha256": "155dc04afb1b9dfe1591edc7d7d26742d9e974f0f265ac5041bb245a4a45d80d"
+  },
+  {
+   "seed": 2197316426,
+   "sha256": "565e6faa273b9f3d25b330202a348d674fbd92c2cbd9d64943498ba40b061e45"
+  },
+  {
+   "seed": 556784891,
+   "sha256": "10aa72f788d75bcfd4704ed4dc7eafa339ba4c592ab7eadc8cebfb233488f9d4"
+  },
+  {
+   "seed": 3211220652,
+   "sha256": "0666c6019e3f9d161b0b4fe8e814ab5cd17e536e0ede27217becf1f0450bba03"
+  },
+  {
+   "seed": 1570689117,
+   "sha256": "5ac10df38e1d237ed60b81118f85450a0ba08c388bbe1ec361e3ec229608ff61"
+  },
+  {
+   "seed": 4225124878,
+   "sha256": "2b6418ba34272da99d588b27979aece25843fb37996bb267f401335a591b52e7"
+  },
+  {
+   "seed": 2584593343,
+   "sha256": "06065e2ee0353e80e9d0bdaac8e85ca547e7abb2d274bb0d4b50b7234ad54783"
+  },
+  {
+   "seed": 944061808,
+   "sha256": "ec5545d5134b106f883a31e1985e2cc9c7d1187a390304ffa6ebce87a233c753"
+  },
+  {
+   "seed": 3598497569,
+   "sha256": "1a13ea5b8ca760c09a149a82809df656e194795990b857df7ce444b0ce5e2ced"
+  },
+  {
+   "seed": 1957966034,
+   "sha256": "63ad07d7100e0dc663e474fe00a18d58966570aa10d09417340a639bd4007f0d"
+  },
+  {
+   "seed": 317434499,
+   "sha256": "da2cafaeb16402abdde7f553a1d693837c933ca44a4f745f79c8289872f98596"
+  },
+  {
+   "seed": 2971870260,
+   "sha256": "59f15a8319feeb912080e4b5173ff62b9c4c25b27f31a31a9c4ea640e2a433fa"
+  },
+  {
+   "seed": 1331338725,
+   "sha256": "31ac3b15d95592f90f81ee19ff0d53df7eee27c4f1d20dfca56f94e821f245f9"
+  },
+  {
+   "seed": 3985774486,
+   "sha256": "844449566779947a0afdae0bf26f5b4c9f76217c2eca27a007022ba62d7d59ad"
+  },
+  {
+   "seed": 2345242951,
+   "sha256": "1faeebfda493dc539d56e84bc903859dc85b2ec15af56887742071e0fa997a9f"
+  },
+  {
+   "seed": 704711416,
+   "sha256": "df8a8beb0cf87869503d0fb964965e952152241308d57d3a5f6cbc3b9a8efd61"
+  },
+  {
+   "seed": 3359147177,
+   "sha256": "55228202e942402bc0a963b867f5421856825e2716e21939db01406b065f385d"
+  },
+  {
+   "seed": 1718615642,
+   "sha256": "1dc60668ad74baa376e87623ad33d95f1e58f0371e7fb3c1304e23a0f0deb921"
+  },
+  {
+   "seed": 78084107,
+   "sha256": "a3297e8634c94fb768321a4b0b689d92e989e5bac80fd66a8a0164ed9cd86743"
+  },
+  {
+   "seed": 2732519868,
+   "sha256": "5083dcf8d7aecc81d42546052a27294622b55f546ec3cce1d9d8f05b706a4a61"
+  },
+  {
+   "seed": 1091988333,
+   "sha256": "4fcd6570621b8ec354627f921668ea4be0f2990a81cadd3b9902a825e9ebf7b2"
+  },
+  {
+   "seed": 3746424094,
+   "sha256": "e96a3a525caf93a1adb6fb67820625b8c2fdb353e3760dc96a044843c24c672a"
+  },
+  {
+   "seed": 2105892559,
+   "sha256": "f518cc40af668b2dd98a573a212ff508483c007348519c05504c44ecebe9c234"
+  },
+  {
+   "seed": 465361024,
+   "sha256": "c783d0e12fb9bcb0042b155d66df75603288ac8f4e1bb60ea3e58bf4c3b5bab5"
+  },
+  {
+   "seed": 3119796785,
+   "sha256": "8ec787276ba610bc1f595cae8f3f3b5a78c78e08fd0521fe5fa4907becd02c11"
+  },
+  {
+   "seed": 1479265250,
+   "sha256": "92664329e0c0a46a73421746849dae0a89f14b9de51dcb7df25ab9ba6bc201fe"
+  },
+  {
+   "seed": 4133701011,
+   "sha256": "166a2ee7bd9dec262815f5ede0116567a4a8daa8aeaf1260ba1e7466d94afd03"
+  },
+  {
+   "seed": 2493169476,
+   "sha256": "87b95752933d75d6ebd3b0ca893c6610b1b45c03cdec04dfe7900268ba507a64"
+  },
+  {
+   "seed": 852637941,
+   "sha256": "7baa0a5a91d9efe156a5ed78f002586bf6ca51ab852219fbc1bf10ec138ab099"
+  },
+  {
+   "seed": 3507073702,
+   "sha256": "e7e3411fbf1e18558e66c1d54393736be202ee1470f692cf734e2306e3cef9a5"
+  },
+  {
+   "seed": 1866542167,
+   "sha256": "0dae80ddf4e6b620d3d49e83efee18235a85cb348b88065bc65cabe6dbaee633"
+  },
+  {
+   "seed": 226010632,
+   "sha256": "10ec4ff5c12399dd7b5c012d4e3350e9e2edbd48540abb94054a00c732f531a6"
+  },
+  {
+   "seed": 2880446393,
+   "sha256": "b1b89940fd50a0e6c7339f1fa98a97b7e5916ecf5c74f0799bf38cc763eb7488"
+  },
+  {
+   "seed": 1239914858,
+   "sha256": "82bc1b3cc863eaf32bef0f9b27a1a2a78a453d2a3c17e38b2608b8237c062eb5"
+  },
+  {
+   "seed": 3894350619,
+   "sha256": "d31d276c055eba87f719d8cae707a65ba8635cde61a14c93f1ef1b04f6a1de65"
+  },
+  {
+   "seed": 2253819084,
+   "sha256": "b52d9bef01684a1ac09dc97c72e6b3fd89a63571e84995633f3b33e1593dbfa0"
+  },
+  {
+   "seed": 613287549,
+   "sha256": "76b90177d523cbcf0cfb92179b5e9fbf9fbe81447a2a4f4845f4dde9a3e4c9d7"
+  },
+  {
+   "seed": 3267723310,
+   "sha256": "c6ac1104d7da494bc46d37bcf92913ef2ee8a064674db6240f9735838ee8cc80"
+  },
+  {
+   "seed": 1627191775,
+   "sha256": "fc2108086a674dcb7528d30f0bd9de337dca59c2cefab24f936635c6cd59cba2"
+  },
+  {
+   "seed": 4281627536,
+   "sha256": "4a8f2f8d05774feed5d2b0f00e017918c73eea1c15dd98785bfb0976d86e35c8"
+  },
+  {
+   "seed": 2641096001,
+   "sha256": "71eb7e06ec591c50b2fe59e614c06ae2a24b9b59ede38b68a0ae0e4ba154c65b"
+  },
+  {
+   "seed": 1000564466,
+   "sha256": "967fe18a393e3e2db9df3b5875762e938e96868d11f08bfcaf661a1740fe85ca"
+  },
+  {
+   "seed": 3655000227,
+   "sha256": "c3e3a15dbaeb5d4651ae43894aa1821616ec033622ed483457b5b5271de4e1fe"
+  },
+  {
+   "seed": 2014468692,
+   "sha256": "23fbba11d65468ee90e9526af089ccba8483a8792b04b13a82656ac28b52efbe"
+  },
+  {
+   "seed": 373937157,
+   "sha256": "be425cb780bc4e556e92adfd09901076fd823ae3195fa03471178e53bba4721e"
+  },
+  {
+   "seed": 3028372918,
+   "sha256": "858adc944c73b34d96d74211b9396cc7c16efd89347cad9afb8bd17bbebc19cb"
+  },
+  {
+   "seed": 1387841383,
+   "sha256": "a1c6de0642a2a621b9f27caff80a62275bc16d369ed7e74514427151d23d0ee8"
+  },
+  {
+   "seed": 4042277144,
+   "sha256": "da1de3890c20e3fcf5d3ec55ce0fa4e9652d8cfcc01e5803b21195f6a26ef9a2"
+  },
+  {
+   "seed": 2401745609,
+   "sha256": "24833051c82f0796ff98ab9abe893043174c38cb75963fad197000b9cfbd8820"
+  },
+  {
+   "seed": 761214074,
+   "sha256": "df66e0d67f8a8dd9355c0ac8f7d457418ca8c478e11a19a88e6a8244fd416497"
+  },
+  {
+   "seed": 3415649835,
+   "sha256": "93566c2e8b1e129750d1471b3cc84c8a3ea11434542521dc54f1cc86a9c81fca"
+  },
+  {
+   "seed": 1775118300,
+   "sha256": "ccd9aa61162b9d666fee443fc583a37ec476f93e36f532dc616e82cb5f52bf0b"
+  },
+  {
+   "seed": 134586765,
+   "sha256": "e6faea9fa3f0d45553bf6608ed8b34eda8164262484abb1a7bda603b21b52860"
+  },
+  {
+   "seed": 2789022526,
+   "sha256": "a84c3c1d3fc711df3d555dcbbe2faa0f85b4a8f679ff13bce26c21ea31986e85"
+  },
+  {
+   "seed": 1148490991,
+   "sha256": "cf69bf21ec6b5403358241e9a3e6b7ca937352bc955d149afc123427694c288a"
+  },
+  {
+   "seed": 3802926752,
+   "sha256": "72246b357e84ae83dcbac6d9fe011c2357e558d2449ec50e4f55f75f3273c07b"
+  },
+  {
+   "seed": 2162395217,
+   "sha256": "9daabfc5eec8ecf5b191ef59c4fceb81e2d634cc699d40cf557ab53d8b163ab1"
+  },
+  {
+   "seed": 521863682,
+   "sha256": "eb63ebd7b4412e269098d7c8b5bd139d97d6425199fbba2ca272a207684f0fc9"
+  },
+  {
+   "seed": 3176299443,
+   "sha256": "2febb11032fc2290fd7fd6e0fd01feb4630e39073c2f4219dcbf732c704dd7c5"
+  },
+  {
+   "seed": 1535767908,
+   "sha256": "b4875335cbdd03bb10ef353150a522fb3985a7e756cc65ad8dd101a78684d5e2"
+  },
+  {
+   "seed": 4190203669,
+   "sha256": "fea96a2aa241e25bbed3058d6a8ef537b3e74738227351221e7f598968c7d51c"
+  },
+  {
+   "seed": 2549672134,
+   "sha256": "374b36affb12c80d7ffbf3a7a2bb088f93642c99574359a040afd4bffbf01c2f"
+  },
+  {
+   "seed": 909140599,
+   "sha256": "470cce288d624225fab97634e355c5c7974289355d05266b8d818c53a7113b9e"
+  },
+  {
+   "seed": 3563576360,
+   "sha256": "0e8550eb92bf18b5a7e5ac27b5a1ebc701c8a3232c838a5d7f7a2ffbe8125f81"
+  },
+  {
+   "seed": 1923044825,
+   "sha256": "f1303d734898db804fc7b2d2b8057f70781ee0112c44fbdc76da850d48cb0701"
+  },
+  {
+   "seed": 282513290,
+   "sha256": "00ec16d929d8f10fcb33978db2bfc1f4203792cbc8e1ac20f58d70a3a59ee620"
+  },
+  {
+   "seed": 2936949051,
+   "sha256": "0c4daa0700583f7f02ac48cfdc62a549a28c0a0a5322130735f74f48b52362c3"
+  },
+  {
+   "seed": 1296417516,
+   "sha256": "53b458b95813492c5becd290469864395732644a8f11148c9c135b2309fb2c81"
+  },
+  {
+   "seed": 3950853277,
+   "sha256": "647a1d40b2c150fdcbb6bcb4128312846ea6ef84f325d63dcfc92b80ee01910a"
+  },
+  {
+   "seed": 2310321742,
+   "sha256": "e3abbd44b0d4fb9b5a4998cf0ec6eb2170ca5d0a44208716a8a2dd4b3031f825"
+  },
+  {
+   "seed": 669790207,
+   "sha256": "a4d4b36288611d75d5c20da4393813fdbb565a85b605150955dc65097ffea37e"
+  },
+  {
+   "seed": 3324225968,
+   "sha256": "ab59e22b8b5651894e1a8f355572794963694b53bad6cc215ab74781df29884f"
+  },
+  {
+   "seed": 1683694433,
+   "sha256": "3fcb8ea05f4274adf8e9cf1571a98691ecfc9581b3bcb2449fd473aad1664490"
+  },
+  {
+   "seed": 43162898,
+   "sha256": "3e3c2c0d4f76cca3e01f5429076e2780d6397667dfeee17cfcbb98b4da302da0"
+  },
+  {
+   "seed": 2697598659,
+   "sha256": "d4434a9c9bf7f50b6f9a6e56183720445800f400c61b7c16be0050fe1940fbb3"
+  },
+  {
+   "seed": 1057067124,
+   "sha256": "011ba629070d5aa4b439870c93d4feb479c6cd8febf1b69803ad4b2ed3a3f491"
+  },
+  {
+   "seed": 3711502885,
+   "sha256": "64310032bd9803b74d32c68a29fd899279a0ae1d8c972d7eba74240bc98b3783"
+  },
+  {
+   "seed": 2070971350,
+   "sha256": "2d8bd40719c6ca3dae9364b065046e023aee45cb9951afb5716f022d59f77010"
+  },
+  {
+   "seed": 430439815,
+   "sha256": "7a983398feee32df21affeb349d445439ee667e6e4d689906baf81c04102a63b"
+  },
+  {
+   "seed": 3084875576,
+   "sha256": "37c2cd5bf140ea75ab7e7fe03c1b412b950edbd38a2ce8389137256148b91ed2"
+  },
+  {
+   "seed": 1444344041,
+   "sha256": "322ef20b20dbea4c359e8eb63539de4dd49793f85017da6df9d413d43aa8d63f"
+  },
+  {
+   "seed": 4098779802,
+   "sha256": "4b3c631bd89a755e43348dbd00f8451e9c99e9bc8566f9123d0397103abc6fb8"
+  },
+  {
+   "seed": 2458248267,
+   "sha256": "4d65793fa3b3d8ba8a780cde19c80910515ec660488843832e686fc39c1cd36c"
+  },
+  {
+   "seed": 817716732,
+   "sha256": "c334aa6e7f859d548f8dd5d7aa747e5dc0bff776011c97cdbcb4d61194ba1a49"
+  },
+  {
+   "seed": 3472152493,
+   "sha256": "336132c1de85ddb5b20ce176ae17e02bc4ba33e5839a09e4389860287ff85596"
+  },
+  {
+   "seed": 1831620958,
+   "sha256": "a31e1ef68b1c0057d359722d2acb05fab46be1f5d9541ddc416eca28dead0008"
+  },
+  {
+   "seed": 191089423,
+   "sha256": "0177c175603774e3bef45b09890c301fb21fec28453407c599f384e05b2325af"
+  },
+  {
+   "seed": 2845525184,
+   "sha256": "f9f1735bd0d5109f3577d2e845499b8b1fa5f3a3d76c580b0af83877c28d96bf"
+  },
+  {
+   "seed": 1204993649,
+   "sha256": "cf5c787e42ee03512e5333f990071e7552381ddde2c142ad31ca1d1da7c43add"
+  },
+  {
+   "seed": 3859429410,
+   "sha256": "fd3d982c433318c3275b7664239708dc7e6eb022b74d5f481210657aca40a6f0"
+  },
+  {
+   "seed": 2218897875,
+   "sha256": "5f7acf0039b7d7771a75beece3596d0dabdaca36aff024397b92777ba705e16b"
+  },
+  {
+   "seed": 578366340,
+   "sha256": "7e9f0c4d1809e57c8173b890b35491f43c87fbeba26a35fc232105e5de66a36f"
+  },
+  {
+   "seed": 3232802101,
+   "sha256": "a42e00ebf048b1d1693d868f22354d31cfa540d6f7a3e6d989e099b3401fbef1"
+  },
+  {
+   "seed": 1592270566,
+   "sha256": "917d6b79630179e517b49a5fa0fb9ba45fb1b723e8bc2d38fb9b7ba45f62ca08"
+  },
+  {
+   "seed": 4246706327,
+   "sha256": "a942a20cc21fc34b895ee3edd5f9f72ff1b60287650a642d2186223bccc9f87b"
+  },
+  {
+   "seed": 2606174792,
+   "sha256": "f64ccd11efc64556b75a5663c524b928a045299cdcdac1c830a80df059fb92d4"
+  }
+ ],
+ "samples": [
+  {
+   "seed": 2654435761,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 2654435761,
+    "context": [],
+    "tags": [],
+    "kind": "mc",
+    "prompt": "Para que serve o protocolo ARP em uma LAN IPv4?",
+    "options": [
+     "Descobrir qual MAC corresponde a um IP na rede local",
+     "Criptografar a comunicação",
+     "Atribuir IPs automaticamente aos dispositivos",
+     "Traduzir nomes de sites em endereços IP"
+    ],
+    "answer": 0,
+    "explanation": "Para entregar um quadro na LAN é preciso o MAC do destino. O ARP pergunta \"quem tem este IP?\" e o dono responde com seu MAC.",
+    "hint": "Liga o endereço lógico ao físico."
+   },
+   "checks": [
+    {
+     "answer": 0,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1013904226,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 1013904226,
+    "context": [],
+    "tags": [],
+    "kind": "mc",
+    "prompt": "Um switch recebe um quadro para um MAC que ainda não está na sua tabela. O que ele faz?",
+    "options": [
+     "Descarta o quadro imediatamente",
+     "Envia o quadro por todas as portas, exceto a de origem, e aprende a porta quando o destino responder",
+     "Envia apenas para o roteador",
+     "Pergunta ao servidor DNS"
+    ],
+    "answer": 1,
+    "explanation": "Sem saber a porta, o switch \"inunda\" (flooding). Quando o destino responde, ele registra o MAC daquela porta e passa a entregar direto.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3668339987,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 3668339987,
+    "context": [],
+    "tags": [],
+    "kind": "mc",
+    "prompt": "Que equipamento conecta vários dispositivos da mesma rede local e encaminha quadros pelo endereço MAC?",
+    "options": [
+     "Modem",
+     "Roteador",
+     "Switch",
+     "Servidor DNS"
+    ],
+    "answer": 2,
+    "explanation": "O switch aprende em que porta está cada MAC e entrega o quadro só na porta certa. O roteador liga redes diferentes usando IP.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 2,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2027808452,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 2027808452,
+    "context": [],
+    "tags": [],
+    "kind": "mc",
+    "prompt": "Um switch recebe um quadro para um MAC que ainda não está na sua tabela. O que ele faz?",
+    "options": [
+     "Envia apenas para o roteador",
+     "Descarta o quadro imediatamente",
+     "Pergunta ao servidor DNS",
+     "Envia o quadro por todas as portas, exceto a de origem, e aprende a porta quando o destino responder"
+    ],
+    "answer": 3,
+    "explanation": "Sem saber a porta, o switch \"inunda\" (flooding). Quando o destino responde, ele registra o MAC daquela porta e passa a entregar direto.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 387276917,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 387276917,
+    "context": [],
+    "tags": [],
+    "kind": "mc",
+    "prompt": "Que equipamento conecta vários dispositivos da mesma rede local e encaminha quadros pelo endereço MAC?",
+    "options": [
+     "Modem",
+     "Roteador",
+     "Servidor DNS",
+     "Switch"
+    ],
+    "answer": 3,
+    "explanation": "O switch aprende em que porta está cada MAC e entrega o quadro só na porta certa. O roteador liga redes diferentes usando IP.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3041712678,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 3041712678,
+    "context": [],
+    "tags": [],
+    "kind": "mc",
+    "prompt": "Que equipamento conecta vários dispositivos da mesma rede local e encaminha quadros pelo endereço MAC?",
+    "options": [
+     "Roteador",
+     "Modem",
+     "Servidor DNS",
+     "Switch"
+    ],
+    "answer": 3,
+    "explanation": "O switch aprende em que porta está cada MAC e entrega o quadro só na porta certa. O roteador liga redes diferentes usando IP.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1401181143,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 1401181143,
+    "context": [],
+    "tags": [],
+    "kind": "mc",
+    "prompt": "Por que um worm se espalha tão rápido em uma LAN sem segmentação?",
+    "options": [
+     "Porque redes locais não usam cabos",
+     "Porque o switch cria cópias do worm",
+     "Porque o MAC do worm é invisível",
+     "Todos os hosts se alcançam diretamente, então cada máquina infectada pode atingir muitas outras"
+    ],
+    "answer": 3,
+    "explanation": "Worms se replicam sozinhos buscando alvos alcançáveis. Numa rede plana, todos se alcançam; segmentar e aplicar correções reduz a propagação.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 4055616904,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 4055616904,
+    "context": [],
+    "tags": [],
+    "kind": "mc",
+    "prompt": "Um switch recebe um quadro para um MAC que ainda não está na sua tabela. O que ele faz?",
+    "options": [
+     "Envia o quadro por todas as portas, exceto a de origem, e aprende a porta quando o destino responder",
+     "Pergunta ao servidor DNS",
+     "Descarta o quadro imediatamente",
+     "Envia apenas para o roteador"
+    ],
+    "answer": 0,
+    "explanation": "Sem saber a porta, o switch \"inunda\" (flooding). Quando o destino responde, ele registra o MAC daquela porta e passa a entregar direto.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 0,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2415085369,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 2415085369,
+    "context": [],
+    "tags": [],
+    "kind": "mc",
+    "prompt": "Como é formado um endereço MAC?",
+    "options": [
+     "32 bits, escritos como 4 números de 0 a 255",
+     "48 bits, escritos como 6 pares hexadecimais (ex.: 3C:52:82:1A:9F:04)",
+     "8 bits, um único número de 0 a 255",
+     "128 bits, escritos em grupos separados por pontos"
+    ],
+    "answer": 1,
+    "explanation": "MAC: 48 bits em hexadecimal. IPv4: 32 bits em quatro números decimais. IPv6: 128 bits em grupos hexadecimais.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 774553834,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 774553834,
+    "context": [],
+    "tags": [],
+    "kind": "mc",
+    "prompt": "Um switch recebe um quadro para um MAC que ainda não está na sua tabela. O que ele faz?",
+    "options": [
+     "Envia o quadro por todas as portas, exceto a de origem, e aprende a porta quando o destino responder",
+     "Envia apenas para o roteador",
+     "Pergunta ao servidor DNS",
+     "Descarta o quadro imediatamente"
+    ],
+    "answer": 0,
+    "explanation": "Sem saber a porta, o switch \"inunda\" (flooding). Quando o destino responde, ele registra o MAC daquela porta e passa a entregar direto.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 0,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3428989595,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 3428989595,
+    "context": [],
+    "tags": [],
+    "kind": "mc",
+    "prompt": "Por que um worm se espalha tão rápido em uma LAN sem segmentação?",
+    "options": [
+     "Porque redes locais não usam cabos",
+     "Todos os hosts se alcançam diretamente, então cada máquina infectada pode atingir muitas outras",
+     "Porque o MAC do worm é invisível",
+     "Porque o switch cria cópias do worm"
+    ],
+    "answer": 1,
+    "explanation": "Worms se replicam sozinhos buscando alvos alcançáveis. Numa rede plana, todos se alcançam; segmentar e aplicar correções reduz a propagação.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1788458060,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 1788458060,
+    "context": [],
+    "tags": [],
+    "kind": "mc",
+    "prompt": "Que equipamento conecta vários dispositivos da mesma rede local e encaminha quadros pelo endereço MAC?",
+    "options": [
+     "Roteador",
+     "Switch",
+     "Servidor DNS",
+     "Modem"
+    ],
+    "answer": 1,
+    "explanation": "O switch aprende em que porta está cada MAC e entrega o quadro só na porta certa. O roteador liga redes diferentes usando IP.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  }
+ ]
+}

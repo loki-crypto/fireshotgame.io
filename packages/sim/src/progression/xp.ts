@@ -5,9 +5,13 @@
 export const XP_RULES = {
   kill: 5,
   killStrongBonus: 3,
+  /** terminal resolvido com todos os desafios na primeira tentativa */
   terminalFirstTry: 60,
   terminalLater: 20,
-  phaseComplete: 150,
+  /** toda conclusão aceita */
+  phaseComplete: 50,
+  /** extra na primeira conclusão da fase (primeira vez: 150 XP no total) */
+  firstCompletion: 100,
   noDeathBonus: 50,
   parTimeBonus: 50,
   phishReported: 10,
@@ -15,7 +19,9 @@ export const XP_RULES = {
 
 export const BYTES_RULES = {
   terminalFirstTry: 10,
-  phaseComplete: 50,
+  phaseComplete: 10,
+  /** primeira vez: 50 bytes no total */
+  firstCompletion: 40,
 } as const;
 
 /** XP necessário para subir do nível n para n+1: floor(100 · n^1.5). */

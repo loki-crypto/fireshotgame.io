@@ -55,7 +55,7 @@ export type SimEvent =
 
 /** Eventos persistentes enviados ao servidor (via fila do cliente). `t` = segundos desde o início da fase. */
 export type GameEvent =
-  | { type: "enemy_killed"; t: number; enemyType: string; weapon: string; counter: "strong" | "neutral" | "weak" }
+  | { type: "enemy_killed"; t: number; enemyType: string; weapon: string; counter: "strong" | "neutral" | "weak"; revealed: boolean }
   | { type: "pickup_collected"; t: number; kind: string; amount: number; fake: boolean }
   | { type: "player_died"; t: number; cause: string | null }
   | { type: "weapon_used"; t: number; weapon: string }

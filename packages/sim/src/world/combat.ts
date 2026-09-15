@@ -115,7 +115,7 @@ export function killEnemy(w: World, e: Enemy, weaponId: string, counter: Counter
   if (counter === "weak") st.killsWeak++;
   if (wasRevealed) st.revealedKills[e.type] = (st.revealedKills[e.type] ?? 0) + 1;
   emit(w, { type: "enemy_killed", enemyId: e.id, enemyType: e.type, weaponId, counter, pos: { ...e.pos } });
-  record(w, { type: "enemy_killed", t: w.time, enemyType: e.type, weapon: weaponId, counter });
+  record(w, { type: "enemy_killed", t: w.time, enemyType: e.type, weapon: weaponId, counter, revealed: wasRevealed });
   const drops = e.def.drops;
   if (drops && w.rng.chance(drops.bytesChance)) {
     const amount = w.rng.int(drops.bytesMin, drops.bytesMax);

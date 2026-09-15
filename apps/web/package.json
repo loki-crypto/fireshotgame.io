@@ -19,7 +19,7 @@
     "three": "^0.186.0"
   },
   "devDependencies": {
-    "@playwright/test": "^1.63.0",
+    "@playwright/test": "1.62.1",
     "@preact/preset-vite": "^2.10.6",
     "@types/node": "^22",
     "@types/three": "^0.186.0",

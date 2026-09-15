@@ -2,12 +2,17 @@ import { emptyInput, type PlayerInput } from "@fireshot/sim";
 import type { Action, Settings } from "../../app/settings";
 
 const LOOK_SCALE = 0.0022;
+/** Deltas maiores que isto num único evento são saltos espúrios do navegador, não movimento real. */
+export const MAX_LOOK_DELTA = 280;
+/** Ignora o movimento logo após capturar o ponteiro (o Chromium reporta um salto no primeiro evento). */
+export const LOCK_SETTLE_MS = 120;
 
 /** Converte teclado/mouse em PlayerInput respeitando o mapeamento de teclas configurado. */
 export class InputManager {
   private down = new Set<string>();
   private pressed = new Set<string>();
   private wheel = 0;
+  private lockedAt = -Infinity;
   yaw = 0;
   pitch = 0;
   lastInputAt = 0;
@@ -15,6 +20,11 @@ export class InputManager {
   locked = false;
 
   constructor(private getSettings: () => Settings, private now: () => number = () => performance.now()) {}
+
+  setLocked(locked: boolean): void {
+    if (locked && !this.locked) this.lockedAt = this.now();
+    this.locked = locked;
+  }
 
   private codes(action: Action): string[] {
     return this.getSettings().bindings[action] ?? [];
@@ -55,6 +65,8 @@ export class InputManager {
   mouseMove(dx: number, dy: number): void {
     this.lastInputAt = this.now();
     if (!this.enabled || !this.locked) return;
+    if (this.now() - this.lockedAt < LOCK_SETTLE_MS) return;
+    if (Math.abs(dx) > MAX_LOOK_DELTA || Math.abs(dy) > MAX_LOOK_DELTA) return;
     const s = this.getSettings();
     const k = LOOK_SCALE * s.sensitivity;
     this.yaw -= dx * k;

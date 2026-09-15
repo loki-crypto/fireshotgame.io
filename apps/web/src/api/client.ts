@@ -107,11 +107,11 @@ export const api = {
     request<{ accepted: number; rejected: { index: number; reason: string }[]; xpDelta: number; bytesDelta: number; newBadges: { id: string; name: string }[] }>("POST", `/sessions/${sessionId}/events`, { events }),
   answer: (sessionId: string, terminalId: string, b: { challengeIndex: number; attemptNo: number; answer: unknown; tampered: boolean }) =>
     request<{ correct: boolean; items: boolean[]; xpDelta: number; bytesDelta: number; newBadges: { id: string; name: string }[] }>("POST", `/sessions/${sessionId}/terminals/${encodeURIComponent(terminalId)}/answer`, b),
-  complete: (sessionId: string, summary: PhaseSummary) =>
+  complete: (sessionId: string, summary: PhaseSummary, elapsedS: number) =>
     request<{
       accepted: boolean; reasons: string[]; xpDelta: number; bytesDelta: number; xp: number; level: number; leveledUp: boolean;
       newBadges: { id: string; name: string }[]; breakdown: { key: string; xp: number; bytes: number }[];
-    }>("POST", `/sessions/${sessionId}/complete`, { clientTs: new Date().toISOString(), stats: summary }),
+    }>("POST", `/sessions/${sessionId}/complete`, { clientTs: new Date().toISOString(), elapsedS, stats: summary }),
   heartbeat: (b: { phaseId: string | null; clientTs: string }) => request<void>("POST", "/heartbeat", b),
   upgrades: () => request<{ owned: string[]; loadout: string[]; slots: number; bytes: number }>("GET", "/upgrades"),
   buyUpgrade: (id: string) => request<{ owned: string[]; loadout: string[]; slots: number; bytes: number }>("POST", `/upgrades/${encodeURIComponent(id)}/buy`),

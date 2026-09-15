@@ -277,6 +277,7 @@
     "interceptedTip": "Um MITM está entre você e o terminal. Saia, erga a VPN Shield (3) ou elimine o MITM antes de responder.",
     "tamperedExplain": "Um MITM alterou os dados em trânsito: o que você viu não era o que o servidor enviou.",
     "dragHint": "Clique em um item da esquerda e depois no par correspondente da direita.",
+    "clear": "Limpar associações",
     "numericHint": "Digite a resposta e pressione Enter.",
     "classifyHint": "Classifique cada item.",
     "rulesHint": "Defina a ação para cada porta e a política padrão.",

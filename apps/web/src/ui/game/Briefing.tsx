@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "preact/hooks";
+import { useEffect, useMemo, useRef, useState } from "preact/hooks";
 import type { ContentRegistry, PhaseDef } from "@fireshot/sim";
 import { t } from "../../i18n/t";
 import { settings } from "../../app/settings";
@@ -24,11 +24,18 @@ export function Briefing({ phase, reg, onStart, onQuit }: { phase: PhaseDef; reg
   const lines = phase.briefing.lines;
   const [idx, setIdx] = useState(0);
   const [chars, setChars] = useState(0);
+  const skipped = useRef(false);
   const s = settings.value;
   const line = lines[Math.min(idx, lines.length - 1)]!;
   const done = idx >= lines.length - 1 && chars >= line.text.length;
 
   useEffect(() => {
+    if (skipped.current) {
+      // "Pular" mostra a última fala inteira, sem digitá-la de novo
+      skipped.current = false;
+      setChars(line.text.length);
+      return;
+    }
     setChars(0);
     if (s.narration) speak(line.text);
     const speed = 28 / Math.max(0.25, s.captionSpeed);
@@ -109,7 +116,7 @@ export function Briefing({ phase, reg, onStart, onQuit }: { phase: PhaseDef; reg
         </div>
         <div class="briefing-actions">
           <Button variant="ghost" onClick={onQuit}>{t("app.back")}</Button>
-          {!done && <Button variant="ghost" onClick={() => { setIdx(lines.length - 1); setChars(lines[lines.length - 1]!.text.length); }}>{t("briefing.skip")}</Button>}
+          {!done && <Button variant="ghost" onClick={() => { skipped.current = idx !== lines.length - 1; setIdx(lines.length - 1); setChars(lines[lines.length - 1]!.text.length); }}>{t("briefing.skip")}</Button>}
           {!done && <Button onClick={next}>{t("briefing.next")}</Button>}
           {done && <Button onClick={onStart} autoFocus>{t("briefing.start")}</Button>}
         </div>
