@@ -1,0 +1,40 @@
+{
+  "id": "lab", "version": 1, "order": 100,
+  "title": "Laboratório de Treino", "subtitle": "Sala de teste da engine",
+  "concepts": ["Controles", "Armas", "IA"],
+  "learningObjectives": ["Praticar movimento, tiro e recarga", "Observar a máquina de estados de um inimigo (patrulha, alerta, perseguição, ataque)"],
+  "briefing": { "lines": [
+    { "speaker": "SOC", "text": "Sala isolada para testes. Nada aqui afeta a rede de produção." },
+    { "speaker": "SOC", "text": "Um Worm de laboratório patrulha a sala. Observe como ele reage quando te vê." }
+  ] },
+  "debriefing": { "summary": ["Você praticou os controles básicos e observou um inimigo com IA de patrulha, alerta, perseguição e ataque."] },
+  "parTime": 300, "minTime": 5,
+  "limits": { "maxKills": 60, "maxBytes": 200 },
+  "tags": ["practice"],
+  "weaponsAvailable": ["patch_pistol"],
+  "layout": { "cellSize": 2, "wallHeight": 3.2, "rows": [
+    "##################",
+    "#P...............#",
+    "#................#",
+    "#...##......##...#",
+    "#...##......##...#",
+    "#................#",
+    "#........w.......#",
+    "#................#",
+    "#...##......##...#",
+    "#...##......##...#",
+    "#.........a......#",
+    "#.h............X.#",
+    "##################"
+  ] },
+  "legend": {
+    "P": { "type": "player" },
+    "w": { "type": "enemy", "enemy": "worm", "route": "loop" },
+    "a": { "type": "pickup", "kind": "ammo" },
+    "h": { "type": "pickup", "kind": "health" },
+    "X": { "type": "exit" }
+  },
+  "routes": { "loop": [[3, 6], [14, 6], [14, 10], [3, 10]] },
+  "terminals": [],
+  "exit": { "requires": {} }
+}

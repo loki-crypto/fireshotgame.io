@@ -1,0 +1,20 @@
+{
+  "name": "@fireshot/content",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "index.ts",
+  "types": "index.ts",
+  "scripts": {
+    "validate": "vitest run",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@fireshot/sim": "workspace:*",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "vite": "^6.0.0",
+    "vitest": "^3.0.0",
+    "typescript": "^5.6.0"
+  }
+}

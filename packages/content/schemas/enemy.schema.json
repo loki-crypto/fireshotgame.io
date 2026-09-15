@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "enemy.schema.json",
+  "title": "Inimigos",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "enemies"],
+  "properties": {
+    "version": { "type": "integer", "minimum": 1 },
+    "enemies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "name", "concept", "description", "behavior", "shape", "color", "hp", "radius", "height", "speed", "attack", "fsm", "counters", "xp", "explain"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z_]+$" },
+          "name": { "type": "string" },
+          "concept": { "type": "string" },
+          "description": { "type": "string" },
+          "behavior": { "enum": ["worm", "rootkit", "trojan", "swarm", "mitm", "bruteforcer", "phisher", "injector", "ransomware", "basic"] },
+          "shape": { "type": "string" },
+          "color": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
+          "hp": { "type": "number", "exclusiveMinimum": 0 },
+          "radius": { "type": "number", "exclusiveMinimum": 0, "maximum": 1.9 },
+          "height": { "type": "number", "exclusiveMinimum": 0 },
+          "hover": { "type": "number", "minimum": 0 },
+          "speed": { "type": "number", "minimum": 0 },
+          "attack": {
+            "oneOf": [
+              { "type": "object", "additionalProperties": false, "required": ["type", "damage", "range", "cooldown"], "properties": { "type": { "const": "melee" }, "damage": { "type": "number" }, "range": { "type": "number" }, "cooldown": { "type": "number" } } },
+              { "type": "object", "additionalProperties": false, "required": ["type", "damage", "range", "cooldown", "projectileSpeed", "projectileRadius"], "properties": { "type": { "const": "ranged" }, "damage": { "type": "number" }, "range": { "type": "number" }, "cooldown": { "type": "number" }, "projectileSpeed": { "type": "number" }, "projectileRadius": { "type": "number" }, "keepDistance": { "type": "number" } } }
+            ]
+          },
+          "fsm": { "type": "object", "additionalProperties": false, "required": ["alertRadius", "alertSeconds", "chaseRadius", "loseRadius"], "properties": { "alertRadius": { "type": "number" }, "alertSeconds": { "type": "number" }, "chaseRadius": { "type": "number" }, "loseRadius": { "type": "number" } } },
+          "counters": {
+            "type": "object", "additionalProperties": false, "required": ["strong"],
+            "properties": {
+              "strong": { "type": "array", "items": { "type": "string" } },
+              "strongWhen": { "type": "array", "items": { "enum": ["hidden", "revealed", "disguised", "locked_out", "exposed", "armored"] } },
+              "weakWhen": { "type": "array", "items": { "enum": ["hidden", "revealed", "disguised", "locked_out", "exposed", "armored"] } },
+              "anyWeaponNeutral": { "type": "boolean" }
+            }
+          },
+          "traffic": { "type": "integer", "minimum": 0, "maximum": 65535 },
+          "drops": { "type": "object", "additionalProperties": false, "required": ["bytesChance", "bytesMin", "bytesMax"], "properties": { "bytesChance": { "type": "number", "minimum": 0, "maximum": 1 }, "bytesMin": { "type": "integer" }, "bytesMax": { "type": "integer" } } },
+          "xp": { "type": "integer", "minimum": 0 },
+          "special": { "type": "object", "additionalProperties": { "type": ["number", "string", "boolean"] } },
+          "explain": { "type": "object", "additionalProperties": false, "required": ["death", "tip"], "properties": { "death": { "type": "string", "minLength": 1 }, "tip": { "type": "string", "minLength": 1 } } }
+        }
+      }
+    }
+  }
+}

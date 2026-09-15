@@ -1,0 +1,118 @@
+{
+  "id": "00-tutorial",
+  "version": 1,
+  "order": 0,
+  "title": "Primeiro Contato",
+  "subtitle": "O que é uma rede: hosts e pacotes",
+  "concepts": ["Rede", "Host", "Pacote", "Cliente e servidor"],
+  "learningObjectives": [
+    "Entender o que é uma rede, um host e um pacote",
+    "Diferenciar cliente e servidor",
+    "Dominar os controles: mover, mirar, atirar, recarregar e interagir"
+  ],
+  "briefing": {
+    "lines": [
+      { "speaker": "SOC", "text": "Bem-vindo(a) ao SOC, agente. Você acaba de ser conectado à rede da RedeCorp." },
+      { "speaker": "SOC", "text": "Uma rede é um conjunto de dispositivos, os hosts, trocando dados em pequenos pedaços chamados pacotes." },
+      { "speaker": "SOC", "text": "Cada pacote carrega origem e destino, como um envelope. É assim que ele chega ao lugar certo." },
+      { "speaker": "SOC", "text": "Aqui as ameaças são programas maliciosos e suas armas são contramedidas. Nenhum alvo é uma pessoa." },
+      { "speaker": "SOC", "text": "Aprenda os controles, resolva os terminais e chegue ao portal de saída." }
+    ]
+  },
+  "debriefing": {
+    "summary": [
+      "Rede: dispositivos (hosts) interligados que trocam dados seguindo regras comuns, os protocolos.",
+      "Pacotes: os dados viajam em pedaços com endereço de origem e de destino.",
+      "Cliente pede, servidor responde: é assim que você acessa um site."
+    ]
+  },
+  "parTime": 420,
+  "minTime": 45,
+  "limits": { "maxKills": 40, "maxBytes": 120 },
+  "tags": [],
+  "weaponsAvailable": ["patch_pistol"],
+  "introducesEnemies": ["worm"],
+  "ambient": { "accent": "#39d0ff", "fogDensity": 0.024 },
+  "layout": {
+    "cellSize": 2,
+    "wallHeight": 3.2,
+    "rows": [
+      "############################",
+      "#..........#...............#",
+      "#.P....1...#...........y...#",
+      "#..........#.......X.......#",
+      "#..........#...............#",
+      "#....2.....#.......5.......#",
+      "#..........#...............#",
+      "#####..#############bb######",
+      "#####..#############..######",
+      "#..........#...............#",
+      "#....3.....#..AAAAAAAAAAA..#",
+      "#..........a..AAAAAAAAAAA.s#",
+      "#..........a..AAAAAAAAAAA..#",
+      "#..h.......#..AAAAAAAAAAA..#",
+      "#....T.....#....4....U....y#",
+      "############################"
+    ]
+  },
+  "legend": {
+    "P": { "type": "player" },
+    "1": { "type": "sign", "text": "W A S D para andar, mouse para olhar. Shift corre, Espaço pula." },
+    "2": { "type": "sign", "text": "Você está dentro de uma rede: cada dispositivo conectado é um host." },
+    "3": { "type": "sign", "text": "Terminais ensinam e testam conceitos. Chegue perto e pressione E." },
+    "4": { "type": "sign", "text": "Clique para disparar. R recarrega. ×2.5 verde = contramedida certa; ×0.5 vermelho = errada." },
+    "5": { "type": "sign", "text": "Portal verde: saída liberada. Entre nele para concluir a fase." },
+    "T": { "type": "terminal", "id": "t1" },
+    "U": { "type": "terminal", "id": "t2" },
+    "a": { "type": "door", "id": "d1" },
+    "b": { "type": "door", "id": "d2" },
+    "A": { "type": "arena", "id": "a1" },
+    "s": { "type": "spawner", "id": "s1" },
+    "h": { "type": "pickup", "kind": "health" },
+    "y": { "type": "pickup", "kind": "bytes", "amount": 10 },
+    "X": { "type": "exit" }
+  },
+  "terminals": [
+    {
+      "id": "t1",
+      "title": "Fundamentos",
+      "concept": "Hosts e pacotes",
+      "generator": "mc_pool",
+      "params": { "pool": "network_basics", "tags": ["host", "packet", "network"] },
+      "challenges": 2,
+      "required": true,
+      "onSolve": [
+        { "type": "openDoor", "door": "d1" },
+        { "type": "message", "text": "Porta liberada. Próximo setor: prática de contramedidas.", "tone": "success" }
+      ],
+      "hint": "Host é qualquer dispositivo que troca dados; pacote é um pedaço de dados com origem e destino."
+    },
+    {
+      "id": "t2",
+      "title": "Vocabulário",
+      "concept": "Termos essenciais de rede",
+      "generator": "match_pool",
+      "params": { "pool": "network_basics", "count": 4 },
+      "challenges": 1,
+      "required": true,
+      "onSolve": [
+        { "type": "openDoor", "door": "d2" },
+        { "type": "message", "text": "Acesso ao setor de saída liberado.", "tone": "success" }
+      ]
+    }
+  ],
+  "spawners": [{ "id": "s1", "traffic": 445 }],
+  "arenas": [
+    {
+      "id": "a1",
+      "title": "Primeiros pacotes maliciosos",
+      "lockDoors": ["d1"],
+      "waves": [
+        { "spawns": [{ "spawner": "s1", "enemy": "worm", "count": 2, "interval": 1.5 }], "delayAfter": 2, "message": "Worms detectados! Eles se replicam: elimine-os rápido." },
+        { "spawns": [{ "spawner": "s1", "enemy": "worm", "count": 3, "interval": 1.0 }] }
+      ],
+      "onClear": [{ "type": "message", "text": "Setor limpo. Resolva o terminal para seguir.", "tone": "success" }]
+    }
+  ],
+  "exit": { "requires": { "terminals": ["t1", "t2"], "arenas": ["a1"] } }
+}

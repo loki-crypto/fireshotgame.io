@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "badge.schema.json",
+  "title": "Badges",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "badges"],
+  "properties": {
+    "version": { "type": "integer" },
+    "badges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "name", "description", "icon", "criterion"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+          "name": { "type": "string" },
+          "description": { "type": "string" },
+          "icon": { "type": "object", "additionalProperties": false, "required": ["shape", "color"], "properties": { "shape": { "type": "string" }, "color": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" } } },
+          "criterion": {
+            "oneOf": [
+              { "type": "object", "additionalProperties": false, "required": ["type", "phase"], "properties": { "type": { "const": "phase_completed" }, "phase": { "type": "string" } } },
+              { "type": "object", "additionalProperties": false, "required": ["type", "counter", "count"], "properties": { "type": { "const": "streak" }, "counter": { "type": "string" }, "count": { "type": "integer", "minimum": 1 } } },
+              { "type": "object", "additionalProperties": false, "required": ["type", "counter", "count"], "properties": { "type": { "const": "counter" }, "counter": { "type": "string" }, "count": { "type": "integer", "minimum": 1 } } },
+              { "type": "object", "additionalProperties": false, "required": ["type", "flag"], "properties": { "type": { "const": "phase_flag" }, "flag": { "enum": ["noDeath", "onlyBaseWeapon", "noFakePickups", "noMitmInterference"] }, "phase": { "type": "string" }, "requiresTag": { "type": "string" }, "minWeapons": { "type": "integer", "minimum": 1 } } }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

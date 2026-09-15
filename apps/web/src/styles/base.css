@@ -1,0 +1,62 @@
+:root {
+  --bg: #04060c;
+  --bg2: #070d18;
+  --panel: rgba(8, 16, 28, 0.9);
+  --panel-solid: #0a1422;
+  --line: #173049;
+  --line2: #21405f;
+  --text: #d8e6f5;
+  --muted: #7d93ad;
+  --accent: #39d0ff;
+  --accent2: #3dffc5;
+  --ok: #3dff8a;
+  --warn: #ffb13d;
+  --danger: #ff3d5a;
+  --corrupt: #ff3df0;
+  --radius: 10px;
+  --mono: ui-monospace, "JetBrains Mono", "Cascadia Code", "SFMono-Regular", Consolas, monospace;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color-scheme: dark;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  min-height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background:
+    radial-gradient(1200px 600px at 80% -10%, rgba(57, 208, 255, 0.08), transparent 60%),
+    radial-gradient(900px 500px at -10% 110%, rgba(61, 255, 197, 0.06), transparent 60%),
+    linear-gradient(rgba(23, 48, 73, 0.18) 1px, transparent 1px) 0 0 / 40px 40px,
+    linear-gradient(90deg, rgba(23, 48, 73, 0.18) 1px, transparent 1px) 0 0 / 40px 40px,
+    var(--bg);
+}
+
+h1, h2, h3 { font-family: var(--mono); letter-spacing: 0.02em; line-height: 1.2; margin: 0 0 0.5em; }
+h1 { font-size: clamp(1.5rem, 2.6vw, 2.2rem); }
+h2 { font-size: 1.15rem; }
+h3 { font-size: 0.95rem; color: var(--accent); text-transform: uppercase; letter-spacing: 0.08em; margin-top: 1.2em; }
+p { margin: 0 0 0.8em; }
+a { color: var(--accent); }
+code { font-family: var(--mono); background: rgba(57, 208, 255, 0.08); padding: 0 4px; border-radius: 4px; }
+small, .small { font-size: 0.85rem; }
+.muted { color: var(--muted); }
+.ok { color: var(--ok); }
+.warn { color: var(--warn); }
+.eyebrow { font-family: var(--mono); font-size: 0.75rem; color: var(--accent); text-transform: uppercase; letter-spacing: 0.14em; }
+.subtitle { color: var(--muted); font-size: 1.05rem; }
+
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+}

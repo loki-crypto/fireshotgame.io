@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "upgrades": [
+    { "id": "off_damage_1", "branch": "offense", "tier": 1, "name": "Patch Otimizado", "description": "+10% de dano com todas as armas.", "costBytes": 60, "requiresLevel": 1, "requires": [], "effects": [{ "stat": "damageMult", "op": "mul", "value": 1.1 }] },
+    { "id": "off_magazine_1", "branch": "offense", "tier": 2, "name": "Buffer Ampliado", "description": "+25% de capacidade de munição por pente.", "costBytes": 80, "requiresLevel": 2, "requires": ["off_damage_1"], "effects": [{ "stat": "magazineMult", "op": "mul", "value": 1.25 }] },
+    { "id": "off_reload_1", "branch": "offense", "tier": 2, "name": "Deploy Contínuo", "description": "Recarga 20% mais rápida.", "costBytes": 80, "requiresLevel": 2, "requires": ["off_damage_1"], "effects": [{ "stat": "reloadMult", "op": "mul", "value": 0.8 }] },
+    { "id": "off_damage_2", "branch": "offense", "tier": 3, "name": "Hotfix Crítico", "description": "+15% de dano adicional.", "costBytes": 160, "requiresLevel": 4, "requires": ["off_magazine_1"], "effects": [{ "stat": "damageMult", "op": "mul", "value": 1.15 }] },
+
+    { "id": "def_integrity_1", "branch": "defense", "tier": 1, "name": "Hardening", "description": "+20 de Integridade máxima.", "costBytes": 60, "requiresLevel": 1, "requires": [], "effects": [{ "stat": "maxHp", "op": "add", "value": 20 }] },
+    { "id": "def_shield_1", "branch": "defense", "tier": 2, "name": "Criptografia em Repouso", "description": "+25 de Escudo máximo.", "costBytes": 80, "requiresLevel": 2, "requires": ["def_integrity_1"], "effects": [{ "stat": "maxShield", "op": "add", "value": 25 }] },
+    { "id": "def_regen_1", "branch": "defense", "tier": 3, "name": "Autocorreção", "description": "Escudo regenera 3/s após 4 s sem sofrer dano.", "costBytes": 130, "requiresLevel": 3, "requires": ["def_shield_1"], "effects": [{ "stat": "shieldRegen", "op": "add", "value": 3 }] },
+    { "id": "def_mfa", "branch": "defense", "tier": 3, "name": "MFA", "description": "Autenticação em dois fatores: uma segunda chance por fase ao chegar a zero de Integridade.", "costBytes": 180, "requiresLevel": 4, "requires": ["def_shield_1"], "effects": [{ "flag": "mfa" }] },
+
+    { "id": "ana_scanner_1", "branch": "analysis", "tier": 1, "name": "Varredura Profunda", "description": "+50% de duração da revelação do Scanner.", "costBytes": 60, "requiresLevel": 1, "requires": [], "effects": [{ "stat": "scannerDurationMult", "op": "mul", "value": 1.5 }] },
+    { "id": "ana_hints", "branch": "analysis", "tier": 2, "name": "Base de Conhecimento", "description": "Mostra dicas conceituais nos terminais.", "costBytes": 70, "requiresLevel": 2, "requires": ["ana_scanner_1"], "effects": [{ "flag": "hints" }] },
+    { "id": "ana_radar", "branch": "analysis", "tier": 2, "name": "Radar de Tráfego", "description": "Radar no HUD com ameaças próximas (exceto ocultas).", "costBytes": 100, "requiresLevel": 3, "requires": ["ana_scanner_1"], "effects": [{ "flag": "radar" }] },
+    { "id": "ana_backup", "branch": "analysis", "tier": 3, "name": "Backup", "description": "Crie um checkpoint extra por fase (tecla B).", "costBytes": 140, "requiresLevel": 3, "requires": ["ana_hints"], "effects": [{ "flag": "backup" }] }
+  ]
+}

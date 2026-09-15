@@ -1,0 +1,144 @@
+{
+  "id": "01-lan",
+  "version": 1,
+  "order": 1,
+  "title": "Rede Local",
+  "subtitle": "IP, MAC e switch",
+  "concepts": ["Endereço IP", "Endereço MAC", "Switch", "ARP"],
+  "learningObjectives": [
+    "Diferenciar endereço IP (lógico) de endereço MAC (físico)",
+    "Entender como o switch encaminha quadros pela tabela de MACs",
+    "Relacionar IP e MAC com o ARP",
+    "Reconhecer por que worms se espalham rápido em redes sem segmentação"
+  ],
+  "briefing": {
+    "lines": [
+      { "speaker": "SOC", "text": "Setor de escritórios, rede local (LAN). Detectamos Worms se espalhando entre as máquinas." },
+      { "speaker": "SOC", "text": "Cada host tem dois endereços: o IP, lógico, dado pela rede, e o MAC, físico, gravado na placa de rede." },
+      { "speaker": "SOC", "text": "O switch conecta os hosts da LAN e entrega cada quadro na porta certa usando os endereços MAC." },
+      { "speaker": "SOC", "text": "Worms se autorreplicam: cada cópia viva gera outra. Qualquer arma serve, mas priorize-os." },
+      { "speaker": "SOC", "text": "Resolva os terminais para isolar o foco de infecção e alcançar o data center." }
+    ]
+  },
+  "debriefing": {
+    "summary": [
+      "IP identifica o host logicamente e muda conforme a rede; o MAC identifica a placa e acompanha o aparelho.",
+      "O switch aprende em que porta está cada MAC e entrega os quadros só onde precisa.",
+      "O ARP descobre qual MAC corresponde a um IP na rede local.",
+      "Worms se espalham sozinhos: agir rápido e segmentar a rede limita a propagação."
+    ]
+  },
+  "parTime": 600,
+  "minTime": 75,
+  "limits": { "maxKills": 90, "maxBytes": 220 },
+  "tags": [],
+  "weaponsAvailable": ["patch_pistol"],
+  "introducesEnemies": ["worm"],
+  "ambient": { "accent": "#5dffa8", "fogDensity": 0.026 },
+  "layout": {
+    "cellSize": 2,
+    "wallHeight": 3.2,
+    "rows": [
+      "##################################",
+      "#.........#.y.......#............#",
+      "#..P......#....w....#............#",
+      "#.....1...#.........#......X.....#",
+      "#.........a....2....#............#",
+      "#.........a.........#............#",
+      "#.........#.........#..........y.#",
+      "#...T.....#......U..#............#",
+      "###########bb########dd###########",
+      "#...............#.e..............#",
+      "#..w........s...#...AAAAAAAAAA...#",
+      "#...............c...AAAAAAAAAA..z#",
+      "#.....3.........c...AAAAAAAAAA...#",
+      "#.h.............#...AAAAAAAAAA...#",
+      "#..........V....#.......4........#",
+      "##################################"
+    ]
+  },
+  "legend": {
+    "P": { "type": "player" },
+    "1": { "type": "sign", "text": "IP = endereço lógico (muda com a rede). MAC = endereço físico da placa." },
+    "2": { "type": "sign", "text": "Worms se replicam a cada poucos segundos. Não deixe cópias vivas para trás." },
+    "3": { "type": "sign", "text": "Este spawner simula máquinas infectadas. Isolar o segmento o desliga." },
+    "4": { "type": "sign", "text": "Data center: a porta 445 (compartilhamento de arquivos) é a porta de entrada dos worms." },
+    "T": { "type": "terminal", "id": "t1" },
+    "U": { "type": "terminal", "id": "t2" },
+    "V": { "type": "terminal", "id": "t3" },
+    "a": { "type": "door", "id": "d1" },
+    "b": { "type": "door", "id": "d2" },
+    "c": { "type": "door", "id": "d3" },
+    "d": { "type": "door", "id": "d4" },
+    "w": { "type": "enemy", "enemy": "worm", "route": "office" },
+    "s": { "type": "spawner", "id": "s1" },
+    "z": { "type": "spawner", "id": "s2" },
+    "A": { "type": "arena", "id": "a1" },
+    "h": { "type": "pickup", "kind": "health" },
+    "e": { "type": "pickup", "kind": "shield" },
+    "y": { "type": "pickup", "kind": "bytes", "amount": 10 },
+    "X": { "type": "exit" }
+  },
+  "routes": {
+    "office": [[12, 2], [18, 2], [18, 6], [12, 6]]
+  },
+  "terminals": [
+    {
+      "id": "t1",
+      "title": "Identificadores",
+      "concept": "IP, MAC, porta e domínio",
+      "generator": "address_format_match",
+      "params": { "types": ["ipv4", "mac", "port", "domain"] },
+      "challenges": 1,
+      "required": true,
+      "onSolve": [{ "type": "openDoor", "door": "d1" }],
+      "hint": "IPv4 usa pontos e números até 255; MAC usa dois-pontos e hexadecimal."
+    },
+    {
+      "id": "t2",
+      "title": "Rede local",
+      "concept": "IP × MAC, switch e ARP",
+      "generator": "mc_pool",
+      "params": { "pool": "lan" },
+      "challenges": 2,
+      "required": true,
+      "onSolve": [{ "type": "openDoor", "door": "d2" }],
+      "hint": "Switch = MAC (dentro da LAN). Roteador = IP (entre redes)."
+    },
+    {
+      "id": "t3",
+      "title": "Tabela do switch",
+      "concept": "Localizar hosts pela tabela MAC",
+      "generator": "switch_table_match",
+      "params": { "count": 4 },
+      "challenges": 1,
+      "required": true,
+      "onSolve": [
+        { "type": "disableSpawner", "spawner": "s1" },
+        { "type": "openDoor", "door": "d3" },
+        { "type": "message", "text": "Segmento isolado: as máquinas infectadas deste setor foram desconectadas.", "tone": "success" }
+      ],
+      "hint": "Nome → IP (inventário) → MAC (ARP) → porta (tabela do switch)."
+    }
+  ],
+  "spawners": [
+    { "id": "s1", "enemy": "worm", "every": 18, "max": 2, "active": true, "traffic": 445 },
+    { "id": "s2", "traffic": 445 }
+  ],
+  "arenas": [
+    {
+      "id": "a1",
+      "title": "Surto de Worms",
+      "lockDoors": ["d3"],
+      "waves": [
+        { "spawns": [{ "spawner": "s2", "enemy": "worm", "count": 3, "interval": 1.2 }], "delayAfter": 2.5, "message": "Worms entrando pela porta 445!" },
+        { "spawns": [{ "spawner": "s2", "enemy": "worm", "count": 4, "interval": 0.9 }] }
+      ],
+      "onClear": [
+        { "type": "openDoor", "door": "d4" },
+        { "type": "message", "text": "Surto contido. Siga para a saída.", "tone": "success" }
+      ]
+    }
+  ],
+  "exit": { "requires": { "terminals": ["t1", "t2", "t3"], "arenas": ["a1"] } }
+}

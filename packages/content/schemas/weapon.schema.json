@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "weapon.schema.json",
+  "title": "Armas",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "weapons"],
+  "$defs": {
+    "common": {
+      "type": "object",
+      "required": ["id", "name", "slot", "kind", "color", "description"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z_]+$" },
+        "name": { "type": "string" },
+        "slot": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "base": { "type": "boolean" },
+        "color": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" },
+        "description": { "type": "string" }
+      }
+    },
+    "ammo": {
+      "type": "object",
+      "required": ["damage", "rof", "magazine", "reserveMax", "reloadSeconds", "range"],
+      "properties": {
+        "damage": { "type": "number", "exclusiveMinimum": 0 },
+        "rof": { "type": "number", "exclusiveMinimum": 0 },
+        "magazine": { "type": "integer", "minimum": 1 },
+        "reserveMax": { "type": ["integer", "null"], "minimum": 0 },
+        "reserveStart": { "type": "integer", "minimum": 0 },
+        "reloadSeconds": { "type": "number", "minimum": 0 },
+        "range": { "type": "number", "exclusiveMinimum": 0 }
+      }
+    }
+  },
+  "properties": {
+    "version": { "type": "integer" },
+    "weapons": {
+      "type": "array",
+      "items": {
+        "allOf": [{ "$ref": "#/$defs/common" }],
+        "oneOf": [
+          { "allOf": [{ "$ref": "#/$defs/ammo" }], "properties": { "kind": { "const": "hitscan" }, "spread": { "type": "number", "minimum": 0 } }, "required": ["spread"] },
+          { "allOf": [{ "$ref": "#/$defs/ammo" }], "properties": { "kind": { "const": "beam" }, "cleanRate": { "type": "number", "minimum": 0 } }, "required": ["cleanRate"] },
+          { "allOf": [{ "$ref": "#/$defs/ammo" }], "properties": { "kind": { "const": "projectile" }, "projectileSpeed": { "type": "number" }, "splashRadius": { "type": "number" }, "barrier": { "type": "object", "required": ["width", "height", "seconds", "throttleSeconds"] } }, "required": ["projectileSpeed", "splashRadius"] },
+          { "properties": { "kind": { "const": "scanner" } }, "required": ["energyMax", "energyCost", "energyRegen", "cooldown", "radius", "revealSeconds"] },
+          { "properties": { "kind": { "const": "shield" } }, "required": ["energyMax", "energyDrain", "energyRegen", "coneDeg", "tunnelLinger", "pulseDamage", "pulseInterval", "pulseRange"] }
+        ]
+      }
+    }
+  }
+}

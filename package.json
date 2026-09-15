@@ -1,0 +1,16 @@
+{
+  "name": "fireshotgame",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@9.15.5",
+  "scripts": {
+    "dev": "pnpm --filter @fireshot/web dev",
+    "build": "pnpm -r build",
+    "test": "pnpm -r --if-present test",
+    "typecheck": "pnpm -r --if-present typecheck",
+    "e2e": "pnpm --filter @fireshot/web e2e"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "weapons": [
+    {
+      "id": "patch_pistol", "name": "Patch Pistol", "slot": 1, "base": true, "kind": "hitscan", "color": "#39d0ff",
+      "description": "Aplica correções pontuais. Munição infinita, cadência baixa. Dano ×1 contra qualquer ameaça.",
+      "damage": 12, "rof": 3, "magazine": 12, "reserveMax": null, "reloadSeconds": 1.2, "spread": 0.004, "range": 60
+    },
+    {
+      "id": "scanner", "name": "Scanner", "slot": 2, "kind": "scanner", "color": "#b8ff3d",
+      "description": "Varredura de rede: não causa dano, mas revela ameaças ocultas e disfarçadas por alguns segundos.",
+      "energyMax": 100, "energyCost": 34, "energyRegen": 9, "cooldown": 0.9, "radius": 16, "revealSeconds": 6
+    },
+    {
+      "id": "vpn_shield", "name": "VPN Shield", "slot": 3, "kind": "shield", "color": "#3dffc5",
+      "description": "Túnel cifrado direcional. Enquanto erguido, bloqueia projéteis frontais e anula a interceptação de MITMs.",
+      "energyMax": 100, "energyDrain": 20, "energyRegen": 12, "coneDeg": 110, "tunnelLinger": 8,
+      "pulseDamage": 10, "pulseInterval": 0.5, "pulseRange": 11
+    },
+    {
+      "id": "firewall_cannon", "name": "Firewall Cannon", "slot": 4, "kind": "projectile", "color": "#ff9f1c",
+      "description": "Dano em área e barreira temporária. A barreira bloqueia o tráfego negado pelas regras e limita a vazão do permitido.",
+      "damage": 22, "rof": 1.1, "magazine": 4, "reserveMax": 24, "reserveStart": 12, "reloadSeconds": 2.0,
+      "projectileSpeed": 24, "splashRadius": 3.5, "range": 45,
+      "barrier": { "width": 6, "height": 3, "seconds": 7, "throttleSeconds": 1.5 }
+    },
+    {
+      "id": "sanitizer", "name": "Sanitizer", "slot": 5, "kind": "beam", "color": "#ff3df0",
+      "description": "Feixe de validação de entrada. Eficaz contra Injectors e limpa terminais corrompidos.",
+      "damage": 4, "rof": 12, "magazine": 60, "reserveMax": 240, "reserveStart": 120, "reloadSeconds": 1.6, "range": 18, "cleanRate": 0.35
+    }
+  ]
+}

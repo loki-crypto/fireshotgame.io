@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "badges": [
+    { "id": "primeiro_pacote", "name": "Primeiro Pacote", "description": "Concluir o tutorial.", "icon": { "shape": "packet", "color": "#39d0ff" }, "criterion": { "type": "phase_completed", "phase": "00-tutorial" } },
+    { "id": "subnetter", "name": "Subnetter", "description": "10 cálculos de sub-rede corretos seguidos.", "icon": { "shape": "grid", "color": "#b8ff3d" }, "criterion": { "type": "streak", "counter": "subnet", "count": 10 } },
+    { "id": "olho_clinico", "name": "Olho Clínico", "description": "Classificar 20 mensagens seguidas sem erro.", "icon": { "shape": "eye", "color": "#3da5ff" }, "criterion": { "type": "streak", "counter": "phishing_items", "count": 20 } },
+    { "id": "zero_trust", "name": "Zero Trust", "description": "Concluir a fase 3 sem sofrer interferência de MITM.", "icon": { "shape": "lock", "color": "#3dffc5" }, "criterion": { "type": "phase_flag", "flag": "noMitmInterference", "phase": "03-dns-https" } },
+    { "id": "patch_only", "name": "Patch Only", "description": "Concluir uma fase com mais de uma arma disponível usando apenas a Patch Pistol.", "icon": { "shape": "pistol", "color": "#ffd23d" }, "criterion": { "type": "phase_flag", "flag": "onlyBaseWeapon", "minWeapons": 2 } },
+    { "id": "nao_cliquei", "name": "Não Cliquei", "description": "Concluir uma fase com iscas sem pegar nenhum pickup falso.", "icon": { "shape": "hook", "color": "#ff7a3d" }, "criterion": { "type": "phase_flag", "flag": "noFakePickups", "requiresTag": "fake_pickups" } },
+    { "id": "cacador_rootkits", "name": "Caçador de Rootkits", "description": "Revelar e eliminar 25 Rootkits.", "icon": { "shape": "octa", "color": "#b45cff" }, "criterion": { "type": "counter", "counter": "revealed_kill:rootkit", "count": 25 } },
+    { "id": "incident_responder", "name": "Incident Responder", "description": "Derrotar o Ransomware na fase final.", "icon": { "shape": "shield", "color": "#ff2a2a" }, "criterion": { "type": "counter", "counter": "boss_defeated:ransomware", "count": 1 } },
+    { "id": "sem_quedas", "name": "Uptime 100%", "description": "Concluir uma fase sem cair nenhuma vez.", "icon": { "shape": "pulse", "color": "#3dffc5" }, "criterion": { "type": "phase_flag", "flag": "noDeath" } },
+    { "id": "denunciante", "name": "Reporte Sempre", "description": "Denunciar 10 mensagens de phishing.", "icon": { "shape": "flag", "color": "#3da5ff" }, "criterion": { "type": "counter", "counter": "phish_reported", "count": 10 } }
+  ]
+}

@@ -1,0 +1,87 @@
+.hud { position: absolute; inset: 0; pointer-events: none; z-index: 10; font-family: var(--mono); color: #e8f4ff; text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8); user-select: none; }
+.hud-float { position: absolute; inset: 0; overflow: hidden; }
+.float-text { position: absolute; left: 0; top: 0; font-weight: 700; font-size: 1.05rem; white-space: nowrap; will-change: transform; }
+.ft-strong { color: var(--ok); font-size: 1.3rem; }
+.ft-weak { color: var(--danger); }
+.ft-neutral { color: #cfe6ff; font-size: 0.85rem; }
+.ft-block { color: var(--warn); font-size: 0.9rem; }
+
+.hud-vignette { position: absolute; inset: 0; opacity: 0; background: radial-gradient(ellipse at center, transparent 55%, rgba(255, 30, 60, 0.55) 100%); transition: opacity 0.1s; }
+.hud-top { position: absolute; top: 14px; left: 16px; right: 16px; display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+.hud-objective { background: rgba(3, 8, 14, 0.62); border: 1px solid rgba(57, 208, 255, 0.35); border-left: 3px solid var(--accent); padding: 6px 12px; border-radius: 6px; font-size: 0.92rem; max-width: 60vw; }
+.hud-timer { background: rgba(3, 8, 14, 0.62); padding: 6px 10px; border-radius: 6px; font-size: 0.9rem; }
+.hud-timer.over { color: var(--warn); }
+.hud-fps { position: absolute; top: 52px; right: 16px; font-size: 0.75rem; color: var(--muted); }
+
+.hud-crosshair { position: absolute; left: 50%; top: 50%; width: 0; height: 0; }
+.hud-crosshair .ch { position: absolute; background: rgba(230, 250, 255, 0.9); box-shadow: 0 0 3px rgba(0, 0, 0, 0.9); }
+.ch-0 { width: 2px; height: 8px; left: -1px; top: -13px; }
+.ch-1 { width: 2px; height: 8px; left: -1px; top: 5px; }
+.ch-2 { width: 8px; height: 2px; left: -13px; top: -1px; }
+.ch-3 { width: 8px; height: 2px; left: 5px; top: -1px; }
+.hud-hitmark { position: absolute; left: 50%; top: 50%; width: 26px; height: 26px; transform: translate(-50%, -50%) rotate(45deg); opacity: 0; }
+.hud-hitmark::before, .hud-hitmark::after { content: ""; position: absolute; background: #fff; }
+.hud-hitmark::before { left: 12px; top: 0; width: 2px; height: 26px; clip-path: polygon(0 0, 100% 0, 100% 35%, 0 35%, 0 65%, 100% 65%, 100% 100%, 0 100%); }
+.hud-hitmark::after { top: 12px; left: 0; height: 2px; width: 26px; clip-path: polygon(0 0, 35% 0, 35% 100%, 0 100%, 0 0, 65% 0, 100% 0, 100% 100%, 65% 100%); }
+.hud-hitmark.show { opacity: 1; }
+.hud-hitmark.hm-strong::before, .hud-hitmark.hm-strong::after { background: var(--ok); }
+.hud-hitmark.hm-weak::before, .hud-hitmark.hm-weak::after { background: var(--danger); }
+.hud-hitmark.hm-kill { width: 34px; height: 34px; }
+.hud-hitmark.hm-kill::before { left: 16px; height: 34px; background: var(--warn); }
+.hud-hitmark.hm-kill::after { top: 16px; width: 34px; background: var(--warn); }
+.hud-dmgdir { position: absolute; left: 50%; top: 50%; width: 180px; height: 180px; opacity: 0; transform: translate(-50%, -50%); }
+.hud-dmgdir::before { content: ""; position: absolute; left: 50%; top: 0; transform: translateX(-50%); width: 60px; height: 14px; border-radius: 50% 50% 0 0; background: rgba(255, 50, 80, 0.85); box-shadow: 0 0 12px rgba(255, 50, 80, 0.8); }
+
+.hud-prompt { position: absolute; left: 50%; top: 60%; transform: translateX(-50%); background: rgba(3, 8, 14, 0.78); border: 1px solid var(--accent); padding: 8px 16px; border-radius: 8px; font-size: 0.95rem; opacity: 0; transition: opacity 0.15s; max-width: 80vw; text-align: center; }
+.hud-prompt.show { opacity: 1; }
+.hud-toasts { position: absolute; top: 64px; left: 50%; transform: translateX(-50%); display: flex; flex-direction: column; gap: 6px; align-items: center; width: min(640px, 90vw); }
+.hud-toast { background: rgba(3, 8, 14, 0.85); border: 1px solid var(--line2); border-left: 4px solid var(--accent); padding: 7px 14px; border-radius: 6px; font-size: 0.9rem; font-family: var(--sans); animation: toast-in 0.2s ease-out; transition: opacity 0.4s; text-align: center; }
+.hud-toast.out { opacity: 0; }
+.hud-toast.tone-success { border-left-color: var(--ok); }
+.hud-toast.tone-warn { border-left-color: var(--warn); }
+.hud-toast.tone-danger { border-left-color: var(--danger); }
+@keyframes toast-in { from { transform: translateY(-8px); opacity: 0; } }
+
+.hud-vitals { position: absolute; left: 16px; bottom: 16px; width: 280px; background: rgba(3, 8, 14, 0.62); border: 1px solid rgba(57, 208, 255, 0.25); border-radius: 8px; padding: 10px 12px; }
+.hud-bar { display: grid; grid-template-columns: 90px 1fr 34px; gap: 8px; align-items: center; margin-bottom: 6px; font-size: 0.78rem; text-transform: uppercase; }
+.hud-bar-track { height: 10px; background: rgba(255, 255, 255, 0.08); border-radius: 3px; overflow: hidden; }
+.hud-bar-fill { height: 100%; transition: width 0.12s; }
+.bar-hp .hud-bar-fill { background: linear-gradient(90deg, #2bd97a, #3dff8a); }
+.bar-hp .hud-bar-fill.low { background: linear-gradient(90deg, #ff3d5a, #ff7a3d); }
+.bar-shield .hud-bar-fill { background: linear-gradient(90deg, #2d7dff, #3da5ff); }
+.hud-bar-value { text-align: right; font-size: 0.85rem; }
+.hud-stamina { height: 4px; background: rgba(255, 255, 255, 0.08); border-radius: 2px; overflow: hidden; margin: 2px 0 6px; }
+.hud-stamina-fill { height: 100%; background: #ffd23d; }
+.hud-stamina-fill.exhausted { background: var(--danger); }
+.hud-bytes { font-size: 0.85rem; color: var(--accent); }
+.hud-chips { position: absolute; left: 16px; bottom: 132px; display: flex; flex-direction: column; gap: 4px; align-items: flex-start; }
+.hud-chips .chip { font-size: 0.78rem; background: rgba(3, 8, 14, 0.75); }
+.chip-vpn { border-color: var(--accent2) !important; color: var(--accent2) !important; }
+.chip-danger { border-color: var(--danger) !important; color: #ffc2cc !important; }
+.chip-warn { border-color: var(--warn) !important; color: var(--warn) !important; }
+.chip-ok { border-color: var(--ok) !important; color: var(--ok) !important; }
+.blink { animation: blink 0.5s steps(1) infinite; }
+
+.hud-weapon { position: absolute; right: 16px; bottom: 16px; min-width: 280px; background: rgba(3, 8, 14, 0.62); border: 1px solid rgba(57, 208, 255, 0.25); border-radius: 8px; padding: 10px 12px; text-align: right; }
+.hud-weapon-name { font-size: 1rem; font-weight: 700; letter-spacing: 0.06em; }
+.hud-ammo { font-size: 1.8rem; line-height: 1.1; }
+.hud-ammo.locked { color: var(--danger); text-decoration: line-through; }
+.hud-energy { height: 8px; background: rgba(255, 255, 255, 0.08); border-radius: 3px; overflow: hidden; margin: 6px 0; }
+.hud-energy-fill { height: 100%; background: linear-gradient(90deg, #7bdc2a, #b8ff3d); }
+.hud-slots { display: flex; gap: 4px; justify-content: flex-end; margin-top: 8px; }
+.hud-slot { border: 1px solid rgba(255, 255, 255, 0.18); border-radius: 5px; padding: 2px 6px; font-size: 0.66rem; display: flex; flex-direction: column; align-items: center; min-width: 44px; opacity: 0.7; }
+.hud-slot.active { border-color: var(--slot-color, var(--accent)); opacity: 1; box-shadow: 0 0 10px color-mix(in srgb, var(--slot-color, #39d0ff) 45%, transparent); }
+.hud-slot.empty { opacity: 0.25; }
+.hud-slot.locked { border-color: var(--danger); color: var(--danger); }
+.hud-slot-n { font-size: 0.85rem; font-weight: 700; }
+.hud-slot-name { max-width: 60px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+.hud-inbox { position: absolute; right: 16px; top: 56px; width: 320px; display: flex; flex-direction: column; gap: 6px; }
+.hud-inbox-title { font-size: 0.75rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.12em; }
+.hud-mail { background: rgba(6, 12, 22, 0.88); border: 1px solid var(--line2); border-left: 3px solid #3da5ff; border-radius: 6px; padding: 8px 10px; font-family: var(--sans); animation: toast-in 0.25s; }
+.hud-mail.mail-ransom { border-left-color: var(--danger); background: rgba(40, 4, 10, 0.9); }
+.mail-from { font-size: 0.78rem; color: #9fc4ea; font-family: var(--mono); word-break: break-all; }
+.mail-subject { font-weight: 700; font-size: 0.9rem; }
+.mail-body { font-size: 0.82rem; color: #c8d8ea; }
+.mail-action { margin-top: 4px; font-size: 0.75rem; color: var(--warn); font-family: var(--mono); }
+.hud-radar { position: absolute; left: 16px; top: 64px; width: 150px; height: 150px; }

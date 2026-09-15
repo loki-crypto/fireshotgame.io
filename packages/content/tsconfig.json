@@ -1,0 +1,5 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": { "noEmit": true, "types": ["node", "vite/client"], "lib": ["ES2022", "DOM"] },
+  "include": ["*.ts", "test", "scripts"]
+}

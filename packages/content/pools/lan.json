@@ -1,0 +1,91 @@
+{
+  "mc": [
+    {
+      "id": "lan-mac",
+      "prompt": "Qual endereço identifica fisicamente a placa de rede de um dispositivo?",
+      "correct": "Endereço MAC",
+      "wrong": ["Endereço IP", "Nome de domínio", "Número de porta"],
+      "explanation": "O MAC é gravado na placa de rede (48 bits, escrito em 6 pares hexadecimais) e é usado dentro da rede local. O IP é lógico e muda conforme a rede.",
+      "hint": "Um deles vem de fábrica, gravado no hardware.",
+      "tags": ["mac"]
+    },
+    {
+      "id": "lan-switch",
+      "prompt": "Que equipamento conecta vários dispositivos da mesma rede local e encaminha quadros pelo endereço MAC?",
+      "correct": "Switch",
+      "wrong": ["Roteador", "Modem", "Servidor DNS"],
+      "explanation": "O switch aprende em que porta está cada MAC e entrega o quadro só na porta certa. O roteador liga redes diferentes usando IP.",
+      "tags": ["switch"]
+    },
+    {
+      "id": "lan-change",
+      "prompt": "Um notebook sai da rede da escola e se conecta à rede de casa. O que normalmente muda?",
+      "correct": "O endereço IP; o MAC continua o mesmo",
+      "wrong": ["O MAC; o IP continua o mesmo", "Os dois mudam sempre", "Nenhum dos dois muda"],
+      "explanation": "O IP é atribuído pela rede em que o dispositivo está (lógico). O MAC pertence à placa de rede e acompanha o aparelho.",
+      "tags": ["ip", "mac"]
+    },
+    {
+      "id": "lan-arp",
+      "prompt": "Para que serve o protocolo ARP em uma LAN IPv4?",
+      "correct": "Descobrir qual MAC corresponde a um IP na rede local",
+      "wrong": ["Traduzir nomes de sites em endereços IP", "Atribuir IPs automaticamente aos dispositivos", "Criptografar a comunicação"],
+      "explanation": "Para entregar um quadro na LAN é preciso o MAC do destino. O ARP pergunta \"quem tem este IP?\" e o dono responde com seu MAC.",
+      "hint": "Liga o endereço lógico ao físico.",
+      "tags": ["arp"]
+    },
+    {
+      "id": "lan-bits",
+      "prompt": "Como é formado um endereço MAC?",
+      "correct": "48 bits, escritos como 6 pares hexadecimais (ex.: 3C:52:82:1A:9F:04)",
+      "wrong": ["32 bits, escritos como 4 números de 0 a 255", "128 bits, escritos em grupos separados por pontos", "8 bits, um único número de 0 a 255"],
+      "explanation": "MAC: 48 bits em hexadecimal. IPv4: 32 bits em quatro números decimais. IPv6: 128 bits em grupos hexadecimais.",
+      "tags": ["mac"]
+    },
+    {
+      "id": "lan-flood",
+      "prompt": "Um switch recebe um quadro para um MAC que ainda não está na sua tabela. O que ele faz?",
+      "correct": "Envia o quadro por todas as portas, exceto a de origem, e aprende a porta quando o destino responder",
+      "wrong": ["Descarta o quadro imediatamente", "Envia apenas para o roteador", "Pergunta ao servidor DNS"],
+      "explanation": "Sem saber a porta, o switch \"inunda\" (flooding). Quando o destino responde, ele registra o MAC daquela porta e passa a entregar direto.",
+      "tags": ["switch"]
+    },
+    {
+      "id": "lan-worm",
+      "prompt": "Por que um worm se espalha tão rápido em uma LAN sem segmentação?",
+      "correct": "Todos os hosts se alcançam diretamente, então cada máquina infectada pode atingir muitas outras",
+      "wrong": ["Porque o switch cria cópias do worm", "Porque o MAC do worm é invisível", "Porque redes locais não usam cabos"],
+      "explanation": "Worms se replicam sozinhos buscando alvos alcançáveis. Numa rede plana, todos se alcançam; segmentar e aplicar correções reduz a propagação.",
+      "tags": ["worm"]
+    }
+  ],
+  "pairsPrompt": "Associe cada termo à sua função na rede local.",
+  "pairsHint": "Pense em lógico (IP) versus físico (MAC).",
+  "pairs": [
+    { "left": "Endereço IP", "right": "Endereço lógico do host, atribuído pela rede e que pode mudar" },
+    { "left": "Endereço MAC", "right": "Endereço físico gravado na placa de rede" },
+    { "left": "Switch", "right": "Encaminha quadros dentro da LAN usando a tabela de MACs" },
+    { "left": "Roteador", "right": "Encaminha pacotes entre redes diferentes" },
+    { "left": "ARP", "right": "Descobre o MAC a partir do IP" },
+    { "left": "Placa de rede (NIC)", "right": "Hardware que conecta o dispositivo à rede" }
+  ],
+  "address_format": {
+    "prompt": "Associe cada valor ao tipo de identificador que ele representa.",
+    "types": { "ipv4": "Endereço IPv4", "mac": "Endereço MAC", "port": "Número de porta", "domain": "Nome de domínio", "ipv6": "Endereço IPv6" },
+    "domains": ["intranet.redecorp.com.br", "mail.redecorp.com.br", "portal.escola.edu.br", "wiki.redecorp.com.br", "vpn.redecorp.com.br"],
+    "ports": [22, 53, 80, 443, 3389, 8080],
+    "explanation": "IPv4: quatro números de 0 a 255 separados por pontos (endereço lógico). MAC: seis pares hexadecimais separados por dois-pontos (endereço físico da placa). Porta: número de 0 a 65535 que identifica o serviço. Domínio: nome legível que o DNS traduz para IP. IPv6: grupos hexadecimais separados por dois-pontos, com :: abreviando zeros.",
+    "hint": "Conte as partes e observe os separadores: pontos, dois-pontos ou nenhum."
+  },
+  "switch_table": {
+    "prompt": "O inventário lista o IP de cada dispositivo. Cruze a tabela ARP com a tabela MAC do switch e descubra em que porta cada um está conectado.",
+    "devices": ["Notebook-RH", "Impressora-2A", "Servidor-Arquivos", "Câmera-Portaria", "PC-Financeiro", "Telefone-Recepção", "Notebook-TI", "Access-Point-3"],
+    "inventoryTitle": "Inventário",
+    "arpTitle": "Tabela ARP (IP → MAC)",
+    "camTitle": "Tabela MAC do switch (porta → MAC)",
+    "headers": { "inventory": ["Dispositivo", "IP"], "arp": ["IP", "MAC"], "cam": ["Porta", "MAC"] },
+    "portLabel": "Porta {n}",
+    "explanation": "O switch trabalha com endereços MAC: ele sabe em que porta cada MAC está. Para localizar um dispositivo pelo IP, descubra o MAC dele na tabela ARP (IP → MAC) e depois procure esse MAC na tabela do switch.",
+    "hint": "IP → (ARP) → MAC → (tabela do switch) → porta."
+  }
+}

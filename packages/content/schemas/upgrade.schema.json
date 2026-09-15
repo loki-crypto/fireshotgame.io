@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "upgrade.schema.json",
+  "title": "Upgrades",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "upgrades"],
+  "properties": {
+    "version": { "type": "integer" },
+    "upgrades": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "branch", "tier", "name", "description", "costBytes", "requiresLevel", "requires", "effects"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+          "branch": { "enum": ["offense", "defense", "analysis"] },
+          "tier": { "type": "integer", "minimum": 1, "maximum": 5 },
+          "name": { "type": "string" },
+          "description": { "type": "string" },
+          "costBytes": { "type": "integer", "minimum": 0 },
+          "requiresLevel": { "type": "integer", "minimum": 1 },
+          "requires": { "type": "array", "items": { "type": "string" } },
+          "effects": {
+            "type": "array", "minItems": 1,
+            "items": {
+              "oneOf": [
+                { "type": "object", "additionalProperties": false, "required": ["stat", "op", "value"], "properties": { "stat": { "enum": ["damageMult", "magazineMult", "reloadMult", "scannerDurationMult"] }, "op": { "const": "mul" }, "value": { "type": "number", "exclusiveMinimum": 0 } } },
+                { "type": "object", "additionalProperties": false, "required": ["stat", "op", "value"], "properties": { "stat": { "enum": ["maxHp", "maxShield", "shieldRegen"] }, "op": { "const": "add" }, "value": { "type": "number" } } },
+                { "type": "object", "additionalProperties": false, "required": ["flag"], "properties": { "flag": { "enum": ["mfa", "hints", "radar", "backup"] } } }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

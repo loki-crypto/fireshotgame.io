@@ -1,0 +1,153 @@
+{
+  "version": 1,
+  "enemies": [
+    {
+      "id": "worm", "name": "Worm", "concept": "Autorreplicação",
+      "description": "Programa que se copia sozinho pela rede, sem precisar de um usuário. Cada cópia viva gera outra.",
+      "behavior": "worm", "shape": "worm", "color": "#ff7a3d",
+      "hp": 30, "radius": 0.45, "height": 0.9, "speed": 3.4,
+      "attack": { "type": "melee", "damage": 7, "range": 1.5, "cooldown": 0.9 },
+      "fsm": { "alertRadius": 11, "alertSeconds": 0.5, "chaseRadius": 18, "loseRadius": 26 },
+      "counters": { "strong": [], "anyWeaponNeutral": true },
+      "traffic": 445,
+      "drops": { "bytesChance": 0.5, "bytesMin": 1, "bytesMax": 2 },
+      "xp": 5,
+      "special": { "replicateEvery": 12, "replicaCap": 8 },
+      "explain": {
+        "death": "Worms se replicam a cada poucos segundos. Quanto mais tempo vivos, mais cópias existem.",
+        "tip": "Qualquer arma funciona contra Worms: o segredo é prioridade. Elimine-os assim que aparecerem."
+      }
+    },
+    {
+      "id": "rootkit", "name": "Rootkit", "concept": "Ocultação",
+      "description": "Malware que se esconde do sistema para agir sem ser notado. Só aparece com ferramentas de varredura.",
+      "behavior": "rootkit", "shape": "rootkit", "color": "#b45cff",
+      "hp": 60, "radius": 0.5, "height": 1.5, "speed": 3.0,
+      "attack": { "type": "melee", "damage": 12, "range": 1.6, "cooldown": 1.2 },
+      "fsm": { "alertRadius": 9, "alertSeconds": 0.4, "chaseRadius": 16, "loseRadius": 22 },
+      "counters": { "strong": [], "strongWhen": ["revealed"], "weakWhen": ["hidden"] },
+      "drops": { "bytesChance": 0.7, "bytesMin": 2, "bytesMax": 4 },
+      "xp": 8,
+      "explain": {
+        "death": "Um Rootkit oculto atacou você. Sem varredura, o dano parece não ter origem.",
+        "tip": "Use o Scanner (2) para revelar Rootkits. Revelados, recebem dano ×2.5; ocultos, só ×0.5."
+      }
+    },
+    {
+      "id": "trojan", "name": "Trojan", "concept": "Disfarce",
+      "description": "Programa malicioso disfarçado de algo útil. Parece um item legítimo até você chegar perto demais.",
+      "behavior": "trojan", "shape": "trojan", "color": "#ffd23d",
+      "hp": 45, "radius": 0.5, "height": 1.1, "speed": 3.8,
+      "attack": { "type": "melee", "damage": 10, "range": 1.6, "cooldown": 1.0 },
+      "fsm": { "alertRadius": 10, "alertSeconds": 0.3, "chaseRadius": 18, "loseRadius": 24 },
+      "counters": { "strong": [], "strongWhen": ["revealed"] },
+      "drops": { "bytesChance": 0.6, "bytesMin": 2, "bytesMax": 3 },
+      "xp": 8,
+      "special": { "ambushRadius": 2.2, "ambushDamage": 20, "disguiseAs": "health" },
+      "explain": {
+        "death": "Um Trojan se passou por item legítimo e atacou quando você se aproximou.",
+        "tip": "Desconfie de itens fáceis demais. Varra com o Scanner (2) antes de pegar: revelado, o Trojan recebe ×2.5."
+      }
+    },
+    {
+      "id": "botnet_drone", "name": "Drone de Botnet", "concept": "Ataque volumétrico (DDoS)",
+      "description": "Dispositivo infectado controlado remotamente. Sozinho é fraco; em enxame satura a banda e derruba serviços.",
+      "behavior": "swarm", "shape": "drone", "color": "#ff3d6e",
+      "hp": 12, "radius": 0.3, "height": 0.5, "hover": 1.1, "speed": 5.0,
+      "attack": { "type": "melee", "damage": 3, "range": 1.3, "cooldown": 0.6 },
+      "fsm": { "alertRadius": 16, "alertSeconds": 0.1, "chaseRadius": 30, "loseRadius": 40 },
+      "counters": { "strong": ["firewall_cannon"] },
+      "traffic": 80,
+      "drops": { "bytesChance": 0.15, "bytesMin": 1, "bytesMax": 1 },
+      "xp": 2,
+      "special": { "saturateCount": 5 },
+      "explain": {
+        "death": "Um enxame de drones saturou sua banda: volume, não força, derrubou você.",
+        "tip": "Contra DDoS, filtre e limite o tráfego: o Firewall Cannon (4) causa dano em área (×2.5) e ergue barreiras."
+      }
+    },
+    {
+      "id": "mitm", "name": "MITM", "concept": "Interceptação (homem no meio)",
+      "description": "Intercepta a comunicação entre você e um terminal e altera o que você vê, sem que perceba.",
+      "behavior": "mitm", "shape": "mitm", "color": "#3dffc5",
+      "hp": 90, "radius": 0.6, "height": 1.2, "hover": 0.8, "speed": 3.6,
+      "attack": { "type": "ranged", "damage": 6, "range": 16, "cooldown": 1.4, "projectileSpeed": 13, "projectileRadius": 0.18, "keepDistance": 8 },
+      "fsm": { "alertRadius": 14, "alertSeconds": 0.4, "chaseRadius": 20, "loseRadius": 28 },
+      "counters": { "strong": ["vpn_shield"] },
+      "traffic": 443,
+      "drops": { "bytesChance": 0.8, "bytesMin": 2, "bytesMax": 4 },
+      "xp": 10,
+      "special": { "interceptRadius": 14, "mitmRange": 7 },
+      "explain": {
+        "death": "O MITM manteve distância e atacou enquanto interceptava sua conexão.",
+        "tip": "A VPN Shield (3) cria um túnel cifrado: anula a interceptação, bloqueia projéteis frontais e causa ×2.5 no MITM."
+      }
+    },
+    {
+      "id": "bruteforcer", "name": "Brute Forcer", "concept": "Força bruta",
+      "description": "Tenta senhas uma após a outra, sem parar. Sem limite de tentativas, cedo ou tarde acerta.",
+      "behavior": "bruteforcer", "shape": "bruteforcer", "color": "#ff9f1c",
+      "hp": 220, "radius": 0.7, "height": 1.8, "speed": 2.4,
+      "attack": { "type": "melee", "damage": 18, "range": 1.9, "cooldown": 1.5 },
+      "fsm": { "alertRadius": 7, "alertSeconds": 0.6, "chaseRadius": 12, "loseRadius": 16 },
+      "counters": { "strong": [], "strongWhen": ["locked_out"] },
+      "traffic": 22,
+      "drops": { "bytesChance": 1, "bytesMin": 5, "bytesMax": 8 },
+      "xp": 15,
+      "special": { "attemptInterval": 1.1, "lockoutAfter": 5, "lockoutSeconds": 7, "aggroRadius": 5 },
+      "explain": {
+        "death": "O Brute Forcer é blindado: enfrentá-lo sem travar suas tentativas custa caro.",
+        "tip": "Ative o bloqueio por tentativas no terminal de autenticação. Travado (locked out), ele recebe ×2.5."
+      }
+    },
+    {
+      "id": "phisher", "name": "Phisher", "concept": "Engenharia social",
+      "description": "Engana pessoas com mensagens falsas: urgência, remetente parecido e ofertas boas demais.",
+      "behavior": "phisher", "shape": "phisher", "color": "#3da5ff",
+      "hp": 40, "radius": 0.45, "height": 1.0, "hover": 1.4, "speed": 3.2,
+      "attack": { "type": "ranged", "damage": 5, "range": 18, "cooldown": 2.0, "projectileSpeed": 11, "projectileRadius": 0.16, "keepDistance": 11 },
+      "fsm": { "alertRadius": 16, "alertSeconds": 0.5, "chaseRadius": 22, "loseRadius": 30 },
+      "counters": { "strong": [], "anyWeaponNeutral": true },
+      "drops": { "bytesChance": 0.7, "bytesMin": 2, "bytesMax": 4 },
+      "xp": 8,
+      "special": { "messageEvery": 16, "firstMessageAfter": 6, "maxOpenMessages": 3 },
+      "explain": {
+        "death": "Enquanto você seguia mensagens, os Phishers atacaram de longe.",
+        "tip": "Leia remetente, domínio e tom antes de agir. Denuncie mensagens suspeitas com F: a isca some e a origem é marcada."
+      }
+    },
+    {
+      "id": "injector", "name": "Injector", "concept": "Injeção (SQLi/XSS)",
+      "description": "Envia entradas maliciosas que o sistema confunde com comandos, corrompendo terminais.",
+      "behavior": "injector", "shape": "injector", "color": "#ff3df0",
+      "hp": 55, "radius": 0.45, "height": 1.4, "speed": 3.3,
+      "attack": { "type": "ranged", "damage": 7, "range": 14, "cooldown": 1.5, "projectileSpeed": 14, "projectileRadius": 0.18, "keepDistance": 7 },
+      "fsm": { "alertRadius": 10, "alertSeconds": 0.4, "chaseRadius": 16, "loseRadius": 22 },
+      "counters": { "strong": ["sanitizer"] },
+      "traffic": 443,
+      "drops": { "bytesChance": 0.7, "bytesMin": 2, "bytesMax": 4 },
+      "xp": 10,
+      "special": { "injectSeconds": 4.5, "aggroRadius": 4.5 },
+      "explain": {
+        "death": "Injectors atacam de média distância enquanto corrompem terminais.",
+        "tip": "O Sanitizer (5) valida e limpa entradas: ×2.5 contra Injectors e remove a corrupção dos terminais."
+      }
+    },
+    {
+      "id": "ransomware", "name": "Ransomware", "concept": "Sequestro de dados",
+      "description": "Criptografa dados e exige resgate. Pagar não garante nada; backups íntegros e resposta a incidente sim.",
+      "behavior": "ransomware", "shape": "ransomware", "color": "#ff2a2a",
+      "hp": 1400, "radius": 1.6, "height": 2.4, "hover": 0.3, "speed": 1.2,
+      "attack": { "type": "ranged", "damage": 12, "range": 30, "cooldown": 2.4, "projectileSpeed": 15, "projectileRadius": 0.3 },
+      "fsm": { "alertRadius": 40, "alertSeconds": 0, "chaseRadius": 60, "loseRadius": 80 },
+      "counters": { "strong": [], "strongWhen": ["exposed"], "weakWhen": ["hidden"] },
+      "drops": { "bytesChance": 1, "bytesMin": 40, "bytesMax": 40 },
+      "xp": 100,
+      "special": { "armor": 0.8, "encryptEvery": 20, "encryptSeconds": 22, "summonEvery": 22, "summonEnemy": "worm", "summonCount": 2 },
+      "explain": {
+        "death": "O Ransomware só é vencido seguindo o ciclo de resposta: identificar, conter, erradicar, recuperar.",
+        "tip": "Resolva os terminais em ordem. Criptografado? Pegue um Backup em vez de pagar o resgate."
+      }
+    }
+  ]
+}

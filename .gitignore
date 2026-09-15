@@ -1,0 +1,10 @@
+node_modules/
+dist/
+coverage/
+.env
+*.log
+test-results/
+playwright-report/
+apps/web/e2e/.cache/
+__pycache__/
+.venv/

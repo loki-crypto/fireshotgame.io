@@ -1,0 +1,73 @@
+{
+  "mc": [
+    {
+      "id": "nb-host",
+      "prompt": "Em uma rede, o que é um host?",
+      "correct": "Qualquer dispositivo conectado que envia ou recebe dados, como computador, celular ou impressora",
+      "wrong": ["O cabo que liga dois computadores", "Apenas o servidor principal da empresa", "O programa que exibe páginas da web", "A senha usada para entrar na rede"],
+      "explanation": "Host é todo dispositivo com endereço na rede que troca dados. O cabo é só o meio físico, e um servidor é apenas um tipo de host.",
+      "hint": "Pense em tudo que tem um endereço e conversa na rede.",
+      "tags": ["host"]
+    },
+    {
+      "id": "nb-packet",
+      "prompt": "Por que os dados viajam pela rede em pacotes, e não como um bloco único?",
+      "correct": "Pedaços menores podem seguir caminhos diferentes, ser reenviados se perdidos e dividir a rede com outros usuários",
+      "wrong": ["Porque a rede só aceita dados criptografados", "Porque cada pacote é enviado para todos os computadores do mundo", "Porque pacotes são mais pesados e por isso mais seguros"],
+      "explanation": "Dividir em pacotes permite compartilhar os links entre muitas conversas, reenviar apenas o que se perdeu e usar rotas diferentes.",
+      "hint": "O que acontece se um arquivo enorme se perder no meio do caminho?",
+      "tags": ["packet"]
+    },
+    {
+      "id": "nb-header",
+      "prompt": "Além dos dados, o que um pacote precisa carregar para chegar ao destino certo?",
+      "correct": "O endereço de origem e o endereço de destino",
+      "wrong": ["A senha do usuário que o enviou", "Uma cópia de todos os pacotes anteriores", "O nome do fabricante do computador"],
+      "explanation": "O cabeçalho do pacote leva origem e destino, como o envelope de uma carta. É isso que os equipamentos leem para encaminhá-lo.",
+      "hint": "Pense no envelope de uma carta.",
+      "tags": ["packet"]
+    },
+    {
+      "id": "nb-network",
+      "prompt": "O que define uma rede de computadores?",
+      "correct": "Dispositivos interligados que trocam dados seguindo regras comuns (protocolos)",
+      "wrong": ["Um único computador muito potente", "Qualquer conjunto de cabos, mesmo desligados", "Um site da internet"],
+      "explanation": "Rede é a interligação de dispositivos que conseguem trocar dados porque seguem os mesmos protocolos.",
+      "tags": ["network"]
+    },
+    {
+      "id": "nb-protocol",
+      "prompt": "O que é um protocolo de rede?",
+      "correct": "Um conjunto de regras que define como os dispositivos se comunicam",
+      "wrong": ["Um tipo de cabo de alta velocidade", "Um vírus que se espalha pela rede", "A senha do roteador"],
+      "explanation": "Protocolos são como um idioma combinado: definem formato das mensagens, ordem e o que fazer em caso de erro.",
+      "tags": ["network"]
+    },
+    {
+      "id": "nb-lan",
+      "prompt": "Qual a diferença entre uma LAN e a internet?",
+      "correct": "LAN é a rede local (casa, escola, empresa); a internet interliga muitas redes pelo mundo",
+      "wrong": ["LAN é mais rápida porque não usa cabos", "Não há diferença: são nomes para a mesma coisa", "A internet é apenas a rede sem fio"],
+      "explanation": "LAN (Local Area Network) cobre um espaço limitado. A internet é a rede de redes: conecta milhões de LANs por roteadores.",
+      "tags": ["network"]
+    },
+    {
+      "id": "nb-client",
+      "prompt": "Quando você abre um site, quem é o cliente e quem é o servidor?",
+      "correct": "Seu navegador é o cliente que pede a página; o computador do site é o servidor que responde",
+      "wrong": ["O roteador é o cliente e o celular é o servidor", "Os dois são servidores", "O servidor é quem pede a página"],
+      "explanation": "No modelo cliente-servidor, o cliente faz a requisição e o servidor oferece o serviço e responde.",
+      "tags": ["host"]
+    }
+  ],
+  "pairsPrompt": "Associe cada termo à sua definição.",
+  "pairsHint": "Comece pelos termos que você tem certeza e elimine as opções.",
+  "pairs": [
+    { "left": "Host", "right": "Dispositivo que envia ou recebe dados na rede" },
+    { "left": "Pacote", "right": "Pedaço de dados com endereço de origem e destino" },
+    { "left": "Protocolo", "right": "Conjunto de regras de comunicação" },
+    { "left": "Roteador", "right": "Encaminha pacotes entre redes diferentes" },
+    { "left": "Servidor", "right": "Host que oferece um serviço a outros" },
+    { "left": "Cliente", "right": "Host que solicita um serviço" }
+  ]
+}
