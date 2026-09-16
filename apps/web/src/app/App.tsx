@@ -49,7 +49,7 @@ export function App() {
     case "menu":
       return <MenuScreen />;
     case "auth":
-      return <AuthScreen mode={r.mode} />;
+      return <AuthScreen mode={r.mode} avatar={r.avatar} />;
     case "legal":
       return <LegalPage doc={r.doc} onBack={() => navigate(r.back)} />;
     case "settings":

@@ -2,20 +2,38 @@
 
 from __future__ import annotations
 
+import secrets
 import uuid
-from datetime import UTC, datetime
+from datetime import UTC, datetime, timedelta
 
-from sqlalchemy import func, select, update
+from sqlalchemy import case, delete, func, select, update
+from sqlalchemy.dialects.postgresql import insert
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from ..config import get_settings
 from ..errors import ApiError
-from ..models import RefreshToken, User
+from ..models import LoginThrottle, RefreshToken, User
 from ..schemas import USERNAME_RE
+from ..security.common_passwords import is_common_password
 from ..security.passwords import hash_password, needs_rehash, verify_password
 from ..security.tokens import create_access_token, hash_refresh_token, new_refresh_token
 from .content import Content, get_content
+
+#: nomes que se passariam pela equipe do jogo no rank público
+RESERVED_USERNAMES = frozenset(
+    {"admin", "administrador", "administrator", "root", "sistema", "system", "suporte", "support", "staff",
+     "moderador", "moderator", "oficial", "official", "equipe", "team", "seguranca", "security", "null", "undefined"}
+)
+RESERVED_PREFIXES = ("fireshot", "admin", "suporte", "support")
+
+#: hash de uma senha aleatória: login com e-mail inexistente gasta o mesmo argon2 que um real
+_DUMMY_HASH = hash_password(secrets.token_urlsafe(24))
+
+
+def is_reserved_username(username: str) -> bool:
+    name = username.strip().lower()
+    return name in RESERVED_USERNAMES or name.startswith(RESERVED_PREFIXES)
 
 
 async def register(
@@ -34,8 +52,12 @@ async def register(
         raise ApiError("terms_required")
     if len(password) < s.min_password_length:
         raise ApiError("weak_password")
-    if not USERNAME_RE.match(username.strip()):
+    if not USERNAME_RE.fullmatch(username.strip()):
         raise ApiError("invalid_username")
+    if is_reserved_username(username):
+        raise ApiError("username_taken")
+    if is_common_password(password, identifiers=(email.split("@")[0], username, name)):
+        raise ApiError("common_password")
     user = User(
         email=email.strip(),
         username=username.strip(),
@@ -57,6 +79,17 @@ async def register(
     return user
 
 
+async def username_status(db: AsyncSession, username: str) -> dict[str, bool]:
+    """Formato válido e disponibilidade (sem diferenciar maiúsculas, como o índice citext)."""
+    name = username.strip()
+    if not USERNAME_RE.fullmatch(name):
+        return {"valid": False, "available": False}
+    if is_reserved_username(name):
+        return {"valid": True, "available": False}
+    taken = (await db.execute(select(User.id).where(User.username == name))).first() is not None
+    return {"valid": True, "available": not taken}
+
+
 def resolve_avatar(avatar: str | None, content: Content | None) -> str:
     """Aceita só ids do catálogo; qualquer outra coisa cai no avatar padrão."""
     c = content or get_content()
@@ -76,13 +109,65 @@ async def set_avatar(db: AsyncSession, user: User, avatar: str, content: Content
 
 
 async def authenticate(db: AsyncSession, *, email: str, password: str) -> User:
-    user = (await db.execute(select(User).where(User.email == email.strip()))).scalars().first()
-    if user is None or not verify_password(user.password_hash, password):
+    email = email.strip()
+    await _ensure_not_locked(db, email)
+    user = (await db.execute(select(User).where(User.email == email))).scalars().first()
+    # sempre roda o argon2: sem isto, a resposta mais rápida entregaria quais e-mails existem
+    ok = verify_password(user.password_hash if user else _DUMMY_HASH, password)
+    if user is None or not ok:
+        await _record_login_failure(db, email)
+        await db.commit()  # a requisição termina em erro (rollback): a falha precisa ficar gravada
         raise ApiError("invalid_credentials")
+    await db.execute(delete(LoginThrottle).where(LoginThrottle.email == email))
     if needs_rehash(user.password_hash):
         user.password_hash = hash_password(password)
         await db.flush()
     return user
+
+
+async def _ensure_not_locked(db: AsyncSession, email: str) -> None:
+    row = await db.get(LoginThrottle, email)
+    now = datetime.now(UTC)
+    if row is not None and row.locked_until is not None and row.locked_until > now:
+        raise ApiError("too_many_attempts", details={"retryAfterS": int((row.locked_until - now).total_seconds()) + 1})
+
+
+async def _record_login_failure(db: AsyncSession, email: str) -> None:
+    """Conta a falha numa janela; ao chegar no limite, trava o e-mail por alguns minutos.
+
+    Upsert atômico: tentativas paralelas não perdem contagem.
+    """
+    s = get_settings()
+    now = datetime.now(UTC)
+    window_start = now - timedelta(minutes=s.login_window_minutes)
+    table = LoginThrottle.__table__
+    expired = table.c.window_started_at < window_start
+    stmt = (
+        insert(LoginThrottle)
+        .values(email=email, failures=1, window_started_at=now)
+        .on_conflict_do_update(
+            index_elements=[table.c.email],
+            set_={
+                "failures": case((expired, 1), else_=table.c.failures + 1),
+                "window_started_at": case((expired, now), else_=table.c.window_started_at),
+            },
+        )
+        .returning(table.c.failures)
+    )
+    failures = (await db.execute(stmt)).scalar_one()
+    if failures >= s.login_max_failures:
+        await db.execute(
+            update(LoginThrottle)
+            .where(LoginThrottle.email == email)
+            .values(failures=0, window_started_at=now, locked_until=now + timedelta(minutes=s.login_lock_minutes))
+        )
+    if secrets.randbelow(50) == 0:  # faxina ocasional de e-mails que ninguém mais tenta
+        await db.execute(
+            delete(LoginThrottle).where(
+                LoginThrottle.window_started_at < now - timedelta(days=1),
+                func.coalesce(LoginThrottle.locked_until, LoginThrottle.window_started_at) < now,
+            )
+        )
 
 
 async def issue_tokens(db: AsyncSession, user: User, *, family: uuid.UUID | None = None) -> tuple[str, int, str, int]:

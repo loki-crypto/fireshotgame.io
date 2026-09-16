@@ -1,0 +1,303 @@
+{
+ "version": 1,
+ "icons": [
+  {
+   "id": "off_damage_1",
+   "palette": {
+    "o": "#060b14",
+    "y": "#ffd23d",
+    "Y": "#ff9a3d",
+    "w": "#fff6c8"
+   },
+   "rows": [
+    "......oooo..",
+    ".....oyyyyo.",
+    "....oyyyyo..",
+    "...oywyyo...",
+    "..oywyyooo..",
+    ".oyyyyyyyyo.",
+    "..ooooyyYo..",
+    "....oyyYo...",
+    "...oyyYo....",
+    "..oyYYo.....",
+    ".oYYoo......",
+    "..oo........"
+   ]
+  },
+  {
+   "id": "off_magazine_1",
+   "palette": {
+    "o": "#060b14",
+    "t": "#ffe7b0",
+    "b": "#ffb13d",
+    "B": "#c9812a",
+    "m": "#5d7390",
+    "M": "#3a4a60",
+    "w": "#c9d6e3",
+    "a": "#ff7a3d"
+   },
+   "rows": [
+    "....oo...o..",
+    "...otto.oao.",
+    "...obBooaaao",
+    "..ommmmmooao",
+    "..owmmmMo.o.",
+    "..omwmmMo...",
+    "..ommmmMo...",
+    "...ommmmMo..",
+    "...ommmmMo..",
+    "...omwmmMo..",
+    "....ommmMo..",
+    ".....oooo..."
+   ]
+  },
+  {
+   "id": "off_reload_1",
+   "palette": {
+    "o": "#060b14",
+    "r": "#eaf2ff",
+    "R": "#9fb3c8",
+    "a": "#39d0ff",
+    "e": "#ff7a3d",
+    "E": "#c4521f",
+    "f": "#ffd23d",
+    "F": "#ff7a3d"
+   },
+   "rows": [
+    ".....oo.....",
+    "....orRo....",
+    "...orrRRo...",
+    "...oraaRo...",
+    "...oraaRo...",
+    "...orrrRo...",
+    "..oerrrREo..",
+    ".oeerrrREEo.",
+    ".oeeoRRoEEo.",
+    "..ooofFooo..",
+    "....oFfo....",
+    ".....oo....."
+   ]
+  },
+  {
+   "id": "off_damage_2",
+   "palette": {
+    "o": "#060b14",
+    "f": "#ffb13d",
+    "F": "#ff5a3d",
+    "w": "#fff2c0"
+   },
+   "rows": [
+    ".....o......",
+    "....oFo.....",
+    "....oFFo.o..",
+    "...oFFFooFo.",
+    "..ooFfFFoFo.",
+    ".oFoFffFFFo.",
+    ".oFFffffFFo.",
+    ".oFfffwffFo.",
+    ".oFfffwwfFo.",
+    ".oFffwwwfFo.",
+    "..oFfwwfFo..",
+    "...oooooo..."
+   ]
+  },
+  {
+   "id": "def_integrity_1",
+   "palette": {
+    "o": "#060b14",
+    "h": "#3dff8a",
+    "H": "#23b862",
+    "w": "#f0fff6"
+   },
+   "rows": [
+    "............",
+    "..oo...oo...",
+    ".ohho.ohho..",
+    "ohhhhohhhho.",
+    "ohhhhwhhhHo.",
+    "ohhhwwwhhHo.",
+    "ohhhhwhhhHo.",
+    ".ohhhhhhHo..",
+    "..ohhhhHo...",
+    "...ohhHo....",
+    "....oHo.....",
+    ".....o......"
+   ]
+  },
+  {
+   "id": "def_shield_1",
+   "palette": {
+    "o": "#060b14",
+    "s": "#c9d6e3",
+    "S": "#6c8098",
+    "b": "#3da5ff",
+    "B": "#2461c4",
+    "w": "#d6ecff"
+   },
+   "rows": [
+    "...oooooo...",
+    "..osssssso..",
+    ".osSooooSso.",
+    ".osso..osso.",
+    ".ossoooosso.",
+    "obbbbbbbbbbo",
+    "obwbbbbbbbBo",
+    "obbbboobbbBo",
+    "obbbboobbbBo",
+    "obbbbbbbbbBo",
+    "oBBBBBBBBBBo",
+    ".oooooooooo."
+   ]
+  },
+  {
+   "id": "def_regen_1",
+   "palette": {
+    "o": "#060b14",
+    "c": "#3da5ff",
+    "C": "#2461c4",
+    "w": "#eaf6ff"
+   },
+   "rows": [
+    ".oooooooooo.",
+    "occcccccccco",
+    "occccwwcccCo",
+    "occccwwcccCo",
+    "occwwwwwwcCo",
+    "occwwwwwwcCo",
+    "occccwwcccCo",
+    ".occcwwccCo.",
+    ".occccccCCo.",
+    "..occccCCo..",
+    "...ocCCCo...",
+    "....oooo...."
+   ]
+  },
+  {
+   "id": "def_mfa",
+   "palette": {
+    "o": "#060b14",
+    "p": "#5d7390",
+    "P": "#3a4a60",
+    "s": "#0d2b26",
+    "w": "#3dffc5",
+    "k": "#9fb3c8"
+   },
+   "rows": [
+    "..oooooooo..",
+    ".oppppppppo.",
+    ".opsssssspo.",
+    ".opssssswpo.",
+    ".opsssswspo.",
+    ".opwsswsspo.",
+    ".opswwssspo.",
+    ".opsssssspo.",
+    ".oppppppppo.",
+    ".opppkkpppo.",
+    ".oPPPPPPPPo.",
+    "..oooooooo.."
+   ]
+  },
+  {
+   "id": "ana_scanner_1",
+   "palette": {
+    "o": "#060b14",
+    "r": "#c9d6e3",
+    "l": "#b8ff3d",
+    "L": "#7fb82a",
+    "w": "#f4ffe0",
+    "h": "#8a6a4a",
+    "H": "#5c4430"
+   },
+   "rows": [
+    "...ooo......",
+    "..orrro.....",
+    ".orlllro....",
+    "orlwllLro...",
+    "orlwllLro...",
+    "orlllLLro...",
+    ".orLLLro....",
+    "..orrrhho...",
+    "...oooohHo..",
+    ".......ohHo.",
+    "........ohHo",
+    ".........oo."
+   ]
+  },
+  {
+   "id": "ana_hints",
+   "palette": {
+    "o": "#060b14",
+    "y": "#fff27a",
+    "Y": "#e6c63d",
+    "w": "#ffffff",
+    "b": "#9fb3c8",
+    "B": "#6c8098"
+   },
+   "rows": [
+    "....oooo....",
+    "...oyyyyo...",
+    "..oyyyyyyo..",
+    ".oywyyyyyYo.",
+    ".oywyyyyyYo.",
+    ".oyyyyyyyYo.",
+    "..oyyyyyYo..",
+    "...oyyyYo...",
+    "...obbbBo...",
+    "...oBbbBo...",
+    "....oBBo....",
+    ".....oo....."
+   ]
+  },
+  {
+   "id": "ana_radar",
+   "palette": {
+    "o": "#060b14",
+    "g": "#123a1c",
+    "S": "#5f9a2a",
+    "s": "#b8ff3d",
+    "d": "#ff3d5a"
+   },
+   "rows": [
+    "....oooo....",
+    "..ooggggoo..",
+    ".oggggggSso.",
+    "ogggdggSsggo",
+    "ogggggSsgggo",
+    "oggggssggggo",
+    "oggggggggggo",
+    "ogggggggdggo",
+    "oggggggggggo",
+    ".oggggggggo.",
+    "..ooggggoo..",
+    "....oooo...."
+   ]
+  },
+  {
+   "id": "ana_backup",
+   "palette": {
+    "o": "#060b14",
+    "f": "#3e6a9e",
+    "F": "#2c4a6e",
+    "m": "#c9d6e3",
+    "M": "#6c8098",
+    "l": "#eaf2ff",
+    "L": "#b9c7d6",
+    "a": "#b8ff3d"
+   },
+   "rows": [
+    ".ooooooooo..",
+    "offmmmmmffo.",
+    "offmmMMmfffo",
+    "offmmMMmfffo",
+    "offffffffffo",
+    "offffffffffo",
+    "ofaaaaaaaafo",
+    "ofllllllllfo",
+    "oflLLLLLLlfo",
+    "ofllllllllfo",
+    "oFFFFFFFFFFo",
+    ".oooooooooo."
+   ]
+  }
+ ]
+}

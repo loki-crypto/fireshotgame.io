@@ -10,7 +10,7 @@ from sqlalchemy.ext.asyncio import create_async_engine
 
 from alembic import context
 from app import models  # noqa: F401  (registra as tabelas no metadata)
-from app.config import get_settings
+from app.config import get_settings, ssl_connect_args
 from app.db import Base
 
 config = context.config
@@ -34,7 +34,8 @@ def do_run_migrations(connection: Connection) -> None:
 
 
 async def run_async_migrations() -> None:
-    engine = create_async_engine(DATABASE_URL, pool_pre_ping=True)
+    url, connect_args = ssl_connect_args(DATABASE_URL, verify=get_settings().database_ssl_verify)
+    engine = create_async_engine(url, pool_pre_ping=True, connect_args=connect_args)
     async with engine.connect() as connection:
         await connection.run_sync(do_run_migrations)
     await engine.dispose()

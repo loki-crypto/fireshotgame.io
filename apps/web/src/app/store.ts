@@ -1,11 +1,11 @@
 import { signal, computed } from "@preact/signals";
 import { api, ApiError, type Profile, type ProgressResponse } from "../api/client";
 
-export type HubTab = "map" | "shop" | "profile" | "badges" | "certificate" | "settings";
+export type HubTab = "map" | "rank" | "shop" | "profile" | "badges" | "certificate" | "settings";
 
 export type Route =
   | { name: "menu" }
-  | { name: "auth"; mode: "login" | "register" }
+  | { name: "auth"; mode: "login" | "register"; avatar?: string }
   | { name: "hub"; tab: HubTab }
   | { name: "game"; phaseId: string; guest: boolean; nonce: number }
   | { name: "settings" }

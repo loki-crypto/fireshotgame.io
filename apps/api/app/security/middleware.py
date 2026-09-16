@@ -1,4 +1,4 @@
-"""Middlewares: CSRF por header (com SameSite) e rate limit."""
+"""Middlewares: CSRF por header (com SameSite), rate limit, tamanho de corpo e cabeçalhos de segurança."""
 
 from __future__ import annotations
 
@@ -8,6 +8,7 @@ from collections.abc import Awaitable, Callable
 from starlette.middleware.base import BaseHTTPMiddleware
 from starlette.requests import Request
 from starlette.responses import Response
+from starlette.types import ASGIApp, Message, Receive, Scope, Send
 
 from ..config import get_settings
 from ..errors import ApiError
@@ -49,3 +50,62 @@ class RateLimitMiddleware(BaseHTTPMiddleware):
             if not ok:
                 return ApiError("rate_limited").response()
         return await call_next(request)
+
+
+#: cabeçalhos de toda resposta da API (JSON não é página: nada de framing, sniffing ou referer)
+SECURITY_HEADERS = {
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "Referrer-Policy": "no-referrer",
+    "Cross-Origin-Resource-Policy": "same-origin",
+}
+#: a CSP restritiva não vai no PDF: o visualizador embutido do navegador precisa renderizá-lo
+JSON_CSP = "default-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'none'"
+PUBLIC_CACHE_PATHS = ("/.well-known/certificate-public-key",)
+
+
+class SecurityHeadersMiddleware(BaseHTTPMiddleware):
+    """Cabeçalhos defensivos e `Cache-Control: no-store` (respostas trazem dados pessoais)."""
+
+    async def dispatch(self, request: Request, call_next: Callable[[Request], Awaitable[Response]]) -> Response:
+        response = await call_next(request)
+        for name, value in SECURITY_HEADERS.items():
+            response.headers.setdefault(name, value)
+        if not response.headers.get("content-type", "").startswith("application/pdf"):
+            response.headers.setdefault("Content-Security-Policy", JSON_CSP)
+        if request.url.path.startswith(PUBLIC_CACHE_PATHS):
+            response.headers["Cache-Control"] = "public, max-age=3600"
+        else:
+            response.headers["Cache-Control"] = "no-store"
+        return response
+
+
+class BodySizeLimitMiddleware:
+    """Recusa corpos acima de `MAX_BODY_BYTES` antes de o JSON ser lido para a memória."""
+
+    def __init__(self, app: ASGIApp) -> None:
+        self.app = app
+
+    async def __call__(self, scope: Scope, receive: Receive, send: Send) -> None:
+        if scope["type"] != "http":
+            await self.app(scope, receive, send)
+            return
+        limit = get_settings().max_body_bytes
+        declared = dict(scope.get("headers") or []).get(b"content-length")
+        if declared is not None and (not declared.isdigit() or int(declared) > limit):
+            await ApiError("payload_too_large").response()(scope, receive, send)
+            return
+
+        received = 0
+
+        async def limited_receive() -> Message:
+            nonlocal received
+            message = await receive()
+            if message["type"] == "http.request":
+                received += len(message.get("body", b""))
+                if received > limit:
+                    # corpo sem Content-Length (chunked) que passou do limite: encerra a leitura
+                    return {"type": "http.disconnect"}
+            return message
+
+        await self.app(scope, limited_receive, send)

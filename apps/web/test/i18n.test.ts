@@ -41,7 +41,10 @@ describe("i18n pt-BR", () => {
       ...ACTIONS.map((a) => `settings.action.${a}`),
       ...["phaseComplete", "noDeath", "parTime", "kills", "terminals", "bytes", "firstCompletion"].map((k) => `rewards.${k}`),
       ...["phases", "accuracy", "activeTime"].map((k) => `certificate.req.${k}`),
-      ...["map", "shop", "badges", "profile", "certificate", "settings"].map((k) => `hub.${k}`),
+      ...["map", "rank", "shop", "badges", "profile", "certificate", "settings"].map((k) => `hub.${k}`),
+      ...["phases", "upgrades", "badges", "slots"].map((k) => `hub.unlock.${k}`),
+      ...["empty", "invalid", "checking", "available", "taken", "unknown"].map((k) => `auth.usernameState.${k}`),
+      ...["global", "phase"].map((k) => `rank.${k}`),
       ...["offense", "defense", "analysis"].map((k) => `shop.branch.${k}`),
       ...["allow", "deny"].map((k) => `terminal.${k}`),
     ];
@@ -49,8 +52,8 @@ describe("i18n pt-BR", () => {
   });
 
   it("todo código de erro da API tem mensagem", () => {
-    const authCodes = ["invalid_credentials", "email_taken", "terms_required", "weak_password", "rate_limited", "validation"];
-    const codes = ["session_expired", "not_found", "forbidden", "phase_locked", "insufficient_bytes", "requirements_not_met", "no_slots", "not_eligible", "already_issued", "network", "unknown"];
+    const authCodes = ["invalid_credentials", "email_taken", "username_taken", "invalid_username", "terms_required", "weak_password", "common_password", "too_many_attempts", "rate_limited", "validation"];
+    const codes = ["session_expired", "not_found", "forbidden", "phase_locked", "insufficient_bytes", "requirements_not_met", "no_slots", "not_eligible", "already_issued", "payload_too_large", "network", "unknown"];
     expect(authCodes.filter((c) => lookup(`auth.errors.${c}`, dict) === undefined)).toEqual([]);
     expect(codes.filter((c) => lookup(`errors.${c}`, dict) === undefined)).toEqual([]);
   });

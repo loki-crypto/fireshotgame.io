@@ -12,7 +12,7 @@ from .config import get_settings
 from .db import dispose_engine
 from .errors import install_error_handlers
 from .routers import auth, badges, certificates, heartbeat, leaderboard, me, sessions, upgrades
-from .security.middleware import CsrfMiddleware, RateLimitMiddleware
+from .security.middleware import BodySizeLimitMiddleware, CsrfMiddleware, RateLimitMiddleware, SecurityHeadersMiddleware
 from .services.content import get_content
 
 log = logging.getLogger("fireshot")
@@ -28,19 +28,30 @@ async def lifespan(app: FastAPI) -> AsyncIterator[None]:
     await dispose_engine()
 
 
+class InsecureConfiguration(RuntimeError):
+    """Produção com configuração que exporia usuários: melhor não subir do que subir assim."""
+
+
 def create_app() -> FastAPI:
     settings = get_settings()
+    problems = settings.insecure_reasons()
+    if problems:
+        raise InsecureConfiguration("configuração insegura para produção: " + "; ".join(problems))
+    docs = settings.docs_enabled
     app = FastAPI(
         title="Fireshot: Defesa de Rede — API",
         version="0.1.0",
-        docs_url="/api/docs",
+        docs_url="/api/docs" if docs else None,
         redoc_url=None,
-        openapi_url="/api/openapi.json",
+        openapi_url="/api/openapi.json" if docs else None,
         lifespan=lifespan,
     )
     install_error_handlers(app)
+    # a ordem de add_middleware é invertida na execução: o último adicionado roda primeiro
     app.add_middleware(CsrfMiddleware)
     app.add_middleware(RateLimitMiddleware)
+    app.add_middleware(SecurityHeadersMiddleware)
+    app.add_middleware(BodySizeLimitMiddleware)
 
     v1 = APIRouter(prefix=API_PREFIX)
     v1.include_router(auth.router)

@@ -5,6 +5,7 @@ import { api, errorMessage } from "../../api/client";
 import { navigate, progress, user } from "../../app/store";
 import { t, formatHours } from "../../i18n/t";
 import { Button, Panel } from "../components/ui";
+import { AvatarPicker } from "../components/AvatarPicker";
 
 export function ProfileTab({ reg }: { reg: ContentRegistry }) {
   void reg;
@@ -16,6 +17,21 @@ export function ProfileTab({ reg }: { reg: ContentRegistry }) {
   const [password, setPassword] = useState("");
   const [anon, setAnon] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [avatarMsg, setAvatarMsg] = useState<string | null>(null);
+  const [avatarBusy, setAvatarBusy] = useState(false);
+
+  const changeAvatar = async (id: string): Promise<void> => {
+    setAvatarBusy(true);
+    setAvatarMsg(null);
+    try {
+      user.value = await api.setAvatar(id); // a API devolve o perfil inteiro
+      setAvatarMsg(t("avatar.saved"));
+    } catch (err) {
+      setAvatarMsg(errorMessage(err, t));
+    } finally {
+      setAvatarBusy(false);
+    }
+  };
 
   const del = async (): Promise<void> => {
     setError(null);
@@ -34,6 +50,7 @@ export function ProfileTab({ reg }: { reg: ContentRegistry }) {
       <Panel title={t("profile.title")}>
         <dl class="stats">
           <dt>{t("auth.name")}</dt><dd>{u.name}</dd>
+          <dt>{t("profile.username")}</dt><dd>@{u.username}</dd>
           <dt>{t("auth.email")}</dt><dd>{u.email}</dd>
           <dt>{t("hub.level", { level: "" }).trim()}</dt><dd>{u.level} ({u.xp} XP)</dd>
           <dt>{t("profile.phasesDone")}</dt><dd>{done} / {phases.length}</dd>
@@ -42,6 +59,12 @@ export function ProfileTab({ reg }: { reg: ContentRegistry }) {
           <dt>{t("badges.title")}</dt><dd>{u.badges.length}</dd>
         </dl>
         <p class="muted">{t("profile.memberSince", { date: new Date(u.createdAt).toLocaleDateString("pt-BR") })}</p>
+      </Panel>
+      <Panel title={t("avatar.change")} class="avatar-panel">
+        <fieldset class="avatar-fieldset" disabled={avatarBusy}>
+          <AvatarPicker value={u.avatar} onChange={(id) => void changeAvatar(id)} size={64} name="profile-avatar" />
+        </fieldset>
+        {avatarMsg && <p class="notice" role="status">{avatarMsg}</p>}
       </Panel>
       <Panel title={t("profile.deleteTitle")} class="danger-zone">
         <p>{t("profile.deleteText")}</p>

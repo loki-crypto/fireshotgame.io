@@ -7,7 +7,7 @@ from collections.abc import AsyncIterator
 from sqlalchemy.ext.asyncio import AsyncEngine, AsyncSession, async_sessionmaker, create_async_engine
 from sqlalchemy.orm import DeclarativeBase
 
-from .config import get_settings
+from .config import get_settings, ssl_connect_args
 
 
 class Base(DeclarativeBase):
@@ -22,7 +22,8 @@ def engine() -> AsyncEngine:
     global _engine
     if _engine is None:
         s = get_settings()
-        _engine = create_async_engine(s.sqlalchemy_url, echo=s.db_echo, pool_pre_ping=True)
+        url, connect_args = ssl_connect_args(s.sqlalchemy_url, verify=s.database_ssl_verify)
+        _engine = create_async_engine(url, echo=s.db_echo, pool_pre_ping=True, connect_args=connect_args)
     return _engine
 
 

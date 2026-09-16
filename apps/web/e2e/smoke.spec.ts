@@ -1,4 +1,4 @@
-import { expect, test } from "@playwright/test";
+import { devices, expect, test } from "@playwright/test";
 import { collectErrors, expectMode, startMission } from "./helpers";
 
 test("menu carrega com as opções principais", async ({ page }) => {
@@ -7,6 +7,13 @@ test("menu carrega com as opções principais", async ({ page }) => {
   await expect(page.getByText("FIRESHOT")).toBeVisible();
   await expect(page.getByRole("button", { name: /Experimentar o tutorial/ })).toBeVisible();
   await expect(page.getByRole("button", { name: /Laboratório de treino/ })).toBeVisible();
+  // tela de título: escolha de agente e a campanha inteira
+  await expect(page.getByRole("radiogroup", { name: "Escolha seu agente" }).getByRole("radio")).toHaveCount(8);
+  await page.getByRole("radio", { name: /Androide/ }).click();
+  await expect(page.getByRole("img", { name: "Androide" })).toBeVisible();
+  await expect(page.locator(".campaign-stop")).toHaveCount(10);
+  await expect(page.getByRole("note")).toHaveCount(0); // computador: sem aviso de celular
+  await expect(page.getByRole("link", { name: "Contato" })).toHaveAttribute("href", "mailto:fireshotIO@gmail.com");
   expect(errors).toEqual([]);
 });
 
@@ -65,4 +72,19 @@ test("página pública de verificação carrega", async ({ page }) => {
   await page.goto("/verificar.html");
   await expect(page.getByRole("heading", { name: "Verificação de certificado" })).toBeVisible();
   await expect(page.getByLabel("Código do certificado")).toBeVisible();
+});
+
+test.describe("celular", () => {
+  const { defaultBrowserType: _ignored, ...pixel } = devices["Pixel 7"];
+  test.use(pixel);
+
+  test("aparelho só de toque vê o aviso de jogar no computador", async ({ page }) => {
+    await page.goto("/");
+    await expect(page.getByRole("note")).toContainText("Jogue no computador");
+    await expect(page.getByRole("note")).toContainText("teclado e mouse");
+    // o menu continua usável na largura do celular
+    await expect(page.getByRole("button", { name: /Criar conta e jogar/ })).toBeVisible();
+    const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
+    expect(overflow).toBeLessThanOrEqual(0);
+  });
 });

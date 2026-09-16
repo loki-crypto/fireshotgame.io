@@ -31,7 +31,7 @@ async def test_register_requires_terms_and_strong_password(client: AsyncClient) 
 
 async def test_duplicate_email(client: AsyncClient) -> None:
     await register(client)
-    res = await client.post("/api/v1/auth/register", json={**USER, "email": "JOGADOR@exemplo.com"})
+    res = await client.post("/api/v1/auth/register", json={**USER, "email": "JOGADOR@exemplo.com", "username": "outro"})
     assert res.status_code == 409 and res.json()["error"]["code"] == "email_taken"
 
 

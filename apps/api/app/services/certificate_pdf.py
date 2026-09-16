@@ -3,11 +3,13 @@
 from __future__ import annotations
 
 import base64
+import html
 import io
 from datetime import datetime
 
 import qrcode
 from weasyprint import HTML
+from weasyprint.urls import URLFetcher
 
 from ..config import get_settings
 from ..models import Certificate
@@ -110,17 +112,27 @@ def _fmt_date(dt: datetime) -> str:
     return f"{dt.day} de {months[dt.month - 1]} de {dt.year}"
 
 
+def offline_url_fetcher() -> URLFetcher:
+    """Fetcher do WeasyPrint que só aceita `data:` (o QR code), sem redirecionamento.
+
+    Sem isto, qualquer `<img src>`, `<link rel=attachment>` ou `@import` que chegasse ao HTML
+    faria o servidor buscar URLs internas (SSRF) ou anexar arquivos locais ao PDF.
+    """
+    return URLFetcher(allowed_protocols={"data"}, allow_redirects=False, timeout=5)
+
+
 def render_pdf(cert: Certificate) -> bytes:
     url = verify_url(cert.code)
     hours = f"{float(cert.active_hours):.1f}".replace(".", ",")
-    html = TEMPLATE.format(
-        code=cert.code,
-        holder=cert.full_name or "Titular anonimizado",
-        issuer=get_settings().issuer_name,
-        hours=hours,
-        modules="".join(f"<li>{m}</li>" for m in cert.modules),
-        issued=_fmt_date(cert.issued_at),
-        verify_url=url.replace("https://", "").replace("http://", ""),
+    e = html.escape  # nome do titular é texto digitado pelo usuário: nunca vira HTML
+    document = TEMPLATE.format(
+        code=e(cert.code),
+        holder=e(cert.full_name or "Titular anonimizado"),
+        issuer=e(get_settings().issuer_name),
+        hours=e(hours),
+        modules="".join(f"<li>{e(m)}</li>" for m in cert.modules),
+        issued=e(_fmt_date(cert.issued_at)),
+        verify_url=e(url.replace("https://", "").replace("http://", "")),
         qr=_qr_data_uri(url),
     )
-    return HTML(string=html).write_pdf()
+    return HTML(string=document, url_fetcher=offline_url_fetcher()).write_pdf()

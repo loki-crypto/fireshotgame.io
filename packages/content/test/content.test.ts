@@ -4,7 +4,7 @@ import {
   applyEffects, applyTerminalResult, checkAnswer, createWorld, exitRequirementsMet, generateQuestion, openDoor,
   type Cell, type World,
 } from "@fireshot/sim";
-import { registry, phases, pools } from "../index";
+import { avatarById, avatars, defaultAvatar, registry, phases, pools, upgradeIcons, type PixelSprite } from "../index";
 import { canonicalAnswer } from "./canonical";
 import phaseSchema from "../schemas/phase.schema.json";
 import enemySchema from "../schemas/enemy.schema.json";
@@ -198,4 +198,40 @@ describe("terminais: geradores produzem questões válidas", () => {
       });
     }
   }
+});
+
+describe("pixel art (avatares e ícones da loja)", () => {
+  const SIZE = 12;
+  const HEX = /^#[0-9a-f]{6}$/i;
+
+  function checkSprite(s: PixelSprite, label: string): void {
+    expect(s.rows, `${label}: ${SIZE} fileiras`).toHaveLength(SIZE);
+    s.rows.forEach((row, i) => expect(row.length, `${label}: fileira ${i}`).toBe(SIZE));
+    const used = new Set(s.rows.join("").replace(/\./g, ""));
+    for (const ch of used) expect(Object.keys(s.palette), `${label}: '${ch}' sem cor na paleta`).toContain(ch);
+    for (const [ch, color] of Object.entries(s.palette)) {
+      expect(ch, `${label}: chave de paleta com um caractere`).toHaveLength(1);
+      expect(ch, `${label}: '.' é reservado para transparente`).not.toBe(".");
+      expect(color, `${label}: cor '${ch}'`).toMatch(HEX);
+    }
+    expect(used.size, `${label}: arte vazia`).toBeGreaterThan(2);
+  }
+
+  it("avatares: 12×12, paleta completa, ids únicos e válidos para o banco (≤ 24)", () => {
+    expect(avatars.length).toBeGreaterThanOrEqual(8);
+    const ids = avatars.map((a) => a.id);
+    expect(new Set(ids).size).toBe(ids.length);
+    for (const a of avatars) {
+      expect(a.id).toMatch(/^[a-z0-9_-]{1,24}$/);
+      expect(a.name.length).toBeGreaterThan(1);
+      checkSprite(a, a.id);
+    }
+    expect(avatarById("nao-existe").id).toBe(defaultAvatar);
+  });
+
+  it("todo upgrade tem ícone e todo ícone é de um upgrade", () => {
+    const upgradeIds = registry.upgrades.map((u) => u.id).sort();
+    expect(Object.keys(upgradeIcons).sort()).toEqual(upgradeIds);
+    for (const [id, icon] of Object.entries(upgradeIcons)) checkSprite(icon, id);
+  });
 });

@@ -2,8 +2,10 @@
 
 from __future__ import annotations
 
+import ssl
 from functools import lru_cache
 from pathlib import Path
+from typing import Any
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 from pydantic import Field
@@ -58,15 +60,40 @@ def normalize_database_url(raw: str) -> str:
     return urlunsplit(("postgresql+asyncpg", parts.netloc, parts.path, urlencode(query), parts.fragment))
 
 
+#: valores de `ssl=` que pedem criptografia (os demais, como `disable`, ficam como estão)
+_SSL_ON = {"require", "verify-ca", "verify-full", "prefer", "allow", "true"}
+DEFAULT_JWT_SECRET = "dev-secret-trocar-em-producao"
+MIN_JWT_SECRET_LENGTH = 32
+
+
+def ssl_connect_args(url: str, *, verify: bool = True) -> tuple[str, dict[str, Any]]:
+    """Troca `ssl=require` por um SSLContext que confere certificado e hostname.
+
+    No asyncpg, `ssl=require` criptografa mas **não** valida o certificado do servidor (um
+    intermediário na rede poderia se passar pelo banco), e `verify-full` como texto exige um
+    `~/.postgresql/root.crt`. Um `ssl.create_default_context()` usa as CAs do sistema, que
+    validam os certificados públicos de Neon, Supabase e afins.
+    """
+    parts = urlsplit(url)
+    query = parse_qsl(parts.query, keep_blank_values=True)
+    mode = next((v for k, v in query if k == "ssl"), None)
+    if not verify or mode is None or mode.lower() not in _SSL_ON:
+        return url, {}
+    rest = [(k, v) for k, v in query if k != "ssl"]
+    return urlunsplit((parts.scheme, parts.netloc, parts.path, urlencode(rest), parts.fragment)), {"ssl": ssl.create_default_context()}
+
+
 class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file=(REPO_ROOT / ".env"), extra="ignore", case_sensitive=False)
 
     # ── banco ─────────────────────────────────────────────────────────────
     database_url: str = "postgresql+asyncpg://fireshot:fireshot@localhost:5432/fireshot"
     db_echo: bool = False
+    database_ssl_verify: bool = True
+    """Com TLS ligado, confere o certificado e o hostname do banco (ver `ssl_connect_args`)."""
 
     # ── autenticação ──────────────────────────────────────────────────────
-    jwt_secret: str = "dev-secret-trocar-em-producao"
+    jwt_secret: str = DEFAULT_JWT_SECRET
     access_ttl_minutes: int = 15
     refresh_ttl_days: int = 7
     cookie_secure: bool = True
@@ -78,11 +105,20 @@ class Settings(BaseSettings):
     Reuso dentro desta janela é tratado como corrida de rede (novo par, mesma família);
     depois dela, é reuso de token roubado e revoga a família inteira."""
 
+    login_max_failures: int = 10
+    """Senhas erradas seguidas para o mesmo e-mail antes de travar o login (vale entre instâncias)."""
+    login_window_minutes: int = 15
+    login_lock_minutes: int = 15
+
     # ── limites ───────────────────────────────────────────────────────────
     rate_limit_enabled: bool = True
     auth_rate_limit: int = 10       # por minuto, por IP
     api_rate_limit: int = 120       # por minuto, por usuário/IP
     trust_proxy: bool = False
+    max_body_bytes: int = 512 * 1024
+    """Corpo máximo aceito na API (o maior uso legítimo, um lote de eventos, fica bem abaixo)."""
+    api_docs: bool = False
+    """Swagger em /api/docs. Fica sempre ligado fora de produção (COOKIE_SECURE=false)."""
 
     # ── conteúdo do jogo ──────────────────────────────────────────────────
     content_dir: Path = REPO_ROOT / "packages" / "content"
@@ -108,6 +144,26 @@ class Settings(BaseSettings):
     """Escala aplicada ao `minTime` das fases. 0 desliga a checagem — só para testes
     automatizados (o E2E conclui uma fase em segundos); nunca use em produção."""
     max_events_per_batch: int = Field(default=100, ge=1, le=500)
+
+    @property
+    def is_production(self) -> bool:
+        """Cookies `Secure` só fazem sentido atrás de HTTPS: é o sinal de ambiente publicado."""
+        return self.cookie_secure
+
+    @property
+    def docs_enabled(self) -> bool:
+        return self.api_docs or not self.is_production
+
+    def insecure_reasons(self) -> list[str]:
+        """Configurações que deixariam usuários expostos em produção (a API se recusa a subir)."""
+        if not self.is_production:
+            return []
+        reasons: list[str] = []
+        if self.jwt_secret == DEFAULT_JWT_SECRET or len(self.jwt_secret) < MIN_JWT_SECRET_LENGTH:
+            reasons.append(f"JWT_SECRET ausente, padrão ou com menos de {MIN_JWT_SECRET_LENGTH} caracteres")
+        if self.min_time_scale < 1:
+            reasons.append("MIN_TIME_SCALE < 1 (só para testes automatizados)")
+        return reasons
 
     @property
     def content_path(self) -> Path:

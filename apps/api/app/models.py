@@ -69,6 +69,22 @@ class RefreshToken(Base):
     created_at: Mapped[datetime] = mapped_column(TS, server_default=func.now(), nullable=False)
 
 
+class LoginThrottle(Base):
+    """Falhas de login por e-mail, guardadas no banco para valer entre instâncias da API.
+
+    O rate limit em memória é por instância; em serverless um ataque distribuído escala
+    instâncias e escapa dele. Aqui a trava acompanha a conta — exista ela ou não, para não
+    revelar quais e-mails estão cadastrados.
+    """
+
+    __tablename__ = "login_throttle"
+
+    email: Mapped[str] = mapped_column(CITEXT, primary_key=True)
+    failures: Mapped[int] = mapped_column(Integer, default=0, nullable=False)
+    window_started_at: Mapped[datetime] = mapped_column(TS, server_default=func.now(), nullable=False)
+    locked_until: Mapped[datetime | None] = mapped_column(TS, nullable=True)
+
+
 class PhaseSession(Base):
     __tablename__ = "phase_sessions"
 

@@ -1,9 +1,11 @@
 import { useState } from "preact/hooks";
 import type { ContentRegistry, UpgradeDef } from "@fireshot/sim";
+import { upgradeIcons } from "@fireshot/content";
 import { api, errorMessage } from "../../api/client";
 import { refreshUser, user } from "../../app/store";
 import { t } from "../../i18n/t";
 import { Button, Panel } from "../components/ui";
+import { PixelArt } from "../components/PixelArt";
 
 const BRANCHES = ["offense", "defense", "analysis"] as const;
 const BRANCH_COLOR = { offense: "#ff7a3d", defense: "#3dffc5", analysis: "#b8ff3d" } as const;
@@ -58,9 +60,14 @@ export function Shop({ reg }: { reg: ContentRegistry }) {
                 const isOwned = owned.has(d.id);
                 const equipped = loadout.has(d.id);
                 return (
-                  <article key={d.id} class={`upgrade ${isOwned ? "owned" : ""} ${equipped ? "equipped" : ""}`} data-upgrade={d.id}>
-                    <header><span class="tier">T{d.tier}</span><strong>{d.name}</strong></header>
-                    <p>{d.description}</p>
+                  <article key={d.id} class={`upgrade ${isOwned ? "owned" : ""} ${equipped ? "equipped" : ""} ${!isOwned && !st.canBuy ? "unavailable" : ""}`} data-upgrade={d.id}>
+                    <div class="upgrade-head">
+                      {upgradeIcons[d.id] && <PixelArt sprite={upgradeIcons[d.id]!} size={48} class="upgrade-icon" />}
+                      <div>
+                        <header><span class="tier">T{d.tier}</span><strong>{d.name}</strong></header>
+                        <p>{d.description}</p>
+                      </div>
+                    </div>
                     {st.reason && <small class="muted">{st.reason}</small>}
                     <div class="row">
                       {!isOwned && <Button small disabled={!st.canBuy || busy} onClick={() => void run(() => api.buyUpgrade(d.id))}>{t("shop.buy", { cost: d.costBytes })}</Button>}

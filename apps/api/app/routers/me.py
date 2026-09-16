@@ -5,6 +5,7 @@ from __future__ import annotations
 from fastapi import APIRouter
 
 from ..deps import Ct, CurrentUser, Db
+from ..services.auth import username_status
 from ..services.users import profile, progress_response
 
 router = APIRouter(tags=["perfil"])
@@ -29,3 +30,9 @@ async def content_version(content: Ct) -> dict:
 async def avatars(content: Ct) -> dict:
     """Catálogo de avatares (o cliente desenha a arte a partir do id)."""
     return {"avatars": content.avatars}
+
+
+@router.get("/usernames/{username}")
+async def username_available(username: str, db: Db) -> dict:
+    """Usado pelo cadastro para avisar "já em uso" enquanto a pessoa digita (usernames já são públicos no rank)."""
+    return {"username": username.strip(), **await username_status(db, username)}

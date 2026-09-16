@@ -55,3 +55,20 @@ export async function mode(page: Page): Promise<string> {
 export async function expectMode(page: Page, expected: string): Promise<void> {
   await expect.poll(() => mode(page)).toBe(expected);
 }
+
+/** Cadastro pela UI: menu → "Criar conta e jogar" → formulário. Devolve o username usado. */
+export async function registerViaUi(page: Page, opts: { name: string; email: string; password: string; avatar?: string }): Promise<string> {
+  const username = `e2e-${Date.now().toString(36)}`.slice(0, 16);
+  await page.goto("/");
+  if (opts.avatar) await page.locator(`.agent-card [data-avatar="${opts.avatar}"]`).click();
+  await page.getByRole("button", { name: /Criar conta e jogar/ }).click();
+  await page.locator("input[name=name]").fill(opts.name);
+  await page.locator("input[name=username]").fill(username);
+  await expect(page.getByText("Disponível")).toBeVisible();
+  await page.locator("input[name=email]").fill(opts.email);
+  await page.locator("input[name=password]").fill(opts.password);
+  await page.locator("input[name=terms]").check();
+  await page.getByRole("button", { name: "Criar conta", exact: true }).click();
+  await expect(page.getByRole("tab", { name: "Mapa da rede" })).toBeVisible();
+  return username;
+}

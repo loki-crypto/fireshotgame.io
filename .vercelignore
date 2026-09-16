@@ -1,0 +1,17 @@
+# Nunca enviar segredos locais no upload do `vercel deploy` (o build não precisa deles:
+# em produção as variáveis vêm do painel da Vercel).
+.env
+.env.*
+!.env.example
+infra/*.pem
+**/*.pem
+
+# artefatos locais
+**/node_modules
+**/.venv
+**/__pycache__
+**/.pytest_cache
+**/test-results
+**/playwright-report
+apps/web/dist
+.git

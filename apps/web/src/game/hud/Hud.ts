@@ -225,16 +225,19 @@ export class Hud {
     b.text(this.prompt, prompt);
     b.cls(this.prompt, "show", prompt !== "");
 
-    // chips de estado
-    const chips: string[] = [];
-    if (w.vpnTunnelUntil > w.time) chips.push(`<span class="chip chip-vpn">${t("hud.vpn")}</span>`);
-    if (p.saturated) chips.push(`<span class="chip chip-danger">${t("hud.saturated")}</span>`);
-    if (w.encryptedUntil > w.time) chips.push(`<span class="chip chip-danger">${t("hud.encrypted", { s: Math.ceil(w.encryptedUntil - w.time) })}</span>`);
-    if (w.encryptWarnUntil > w.time) chips.push(`<span class="chip chip-warn blink">${t("hud.encryptWarn")}</span>`);
-    if (w.mods.backup && w.backupAvailable) chips.push(`<span class="chip">${t("hud.backupReady", { key: keyLabel(s.bindings.backup[0] ?? "KeyB") })}</span>`);
-    if (w.mods.mfa && w.mfaAvailable) chips.push(`<span class="chip chip-ok">${t("hud.mfaReady")}</span>`);
-    const chipHtml = chips.join("");
-    if (this.chips.dataset.html !== chipHtml) { this.chips.innerHTML = chipHtml; this.chips.dataset.html = chipHtml; }
+    // chips de estado (montados como texto: nada aqui vira HTML, nem o rótulo de tecla salvo nas configurações)
+    const chips: [cls: string, text: string][] = [];
+    if (w.vpnTunnelUntil > w.time) chips.push(["chip chip-vpn", t("hud.vpn")]);
+    if (p.saturated) chips.push(["chip chip-danger", t("hud.saturated")]);
+    if (w.encryptedUntil > w.time) chips.push(["chip chip-danger", t("hud.encrypted", { s: Math.ceil(w.encryptedUntil - w.time) })]);
+    if (w.encryptWarnUntil > w.time) chips.push(["chip chip-warn blink", t("hud.encryptWarn")]);
+    if (w.mods.backup && w.backupAvailable) chips.push(["chip", t("hud.backupReady", { key: keyLabel(s.bindings.backup[0] ?? "KeyB") })]);
+    if (w.mods.mfa && w.mfaAvailable) chips.push(["chip chip-ok", t("hud.mfaReady")]);
+    const chipKey = JSON.stringify(chips);
+    if (this.chips.dataset.key !== chipKey) {
+      this.chips.replaceChildren(...chips.map(([cls, text]) => el("span", cls, undefined, text)));
+      this.chips.dataset.key = chipKey;
+    }
 
     this.updateInbox(w, s);
 
@@ -269,7 +272,7 @@ export class Hud {
     const key = open.map((m) => m.id).join(",");
     if (key === this.inboxKey) return;
     this.inboxKey = key;
-    this.inbox.innerHTML = "";
+    this.inbox.replaceChildren();
     if (open.length === 0) return;
     el("div", "hud-inbox-title", this.inbox, t("hud.inboxTitle"));
     open.forEach((m, i) => {

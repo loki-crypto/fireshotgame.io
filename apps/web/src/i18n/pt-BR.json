@@ -25,14 +25,20 @@
     "terms": "Termos de uso",
     "privacy": "Política de privacidade",
     "intro": "Você é um agente de defesa dentro de uma rede corporativa. Cada setor esconde um conceito de redes ou segurança: use a contramedida certa contra a ameaça certa.",
-    "guestNote": "Sem conta, o progresso não é salvo e não conta para o certificado."
+    "guestNote": "Sem conta, o progresso não é salvo e não conta para o certificado.",
+    "headline": "Proteja a rede, setor por setor.",
+    "registerPlay": "Criar conta e jogar",
+    "playAs": "Começar como {name}",
+    "campaign": "A campanha",
+    "campaignNote": "{n} fases, do primeiro pacote ao ransomware.",
+    "contact": "Contato"
   },
   "auth": {
     "email": "E-mail",
     "password": "Senha",
     "name": "Nome",
     "namePlaceholder": "Como quer ser chamado no jogo",
-    "passwordHint": "Mínimo de 8 caracteres.",
+    "passwordHint": "Mínimo de 8 caracteres. Senhas muito comuns são recusadas.",
     "acceptTerms": "Li e aceito os {terms} e a {privacy}.",
     "termsLink": "Termos de uso",
     "privacyLink": "Política de privacidade",
@@ -47,7 +53,21 @@
       "terms_required": "É preciso aceitar os termos para criar a conta.",
       "weak_password": "A senha precisa ter pelo menos 8 caracteres.",
       "rate_limited": "Muitas tentativas. Aguarde um minuto e tente de novo.",
-      "validation": "Verifique os campos preenchidos."
+      "validation": "Verifique os campos preenchidos.",
+      "username_taken": "Este nome de jogador já está em uso. Escolha outro.",
+      "invalid_username": "Nome de jogador inválido: use de 3 a 16 caracteres (letras, números, ponto, hífen ou _).",
+      "common_password": "Essa senha é muito comum ou fácil de adivinhar (como 12345678 ou seu nome seguido de números). Escolha outra.",
+      "too_many_attempts": "Muitas tentativas erradas para esta conta. Por segurança, o login fica bloqueado por 15 minutos."
+    },
+    "registerTitle": "Criar seu agente",
+    "username": "Nome de jogador (aparece no rank)",
+    "usernameState": {
+      "empty": "De 3 a 16 caracteres: letras, números, ponto, hífen ou _.",
+      "invalid": "Use de 3 a 16 caracteres: letras, números, ponto, hífen ou _, começando com letra ou número.",
+      "checking": "Verificando…",
+      "available": "✔ Disponível.",
+      "taken": "Este nome de jogador já está em uso.",
+      "unknown": "Não deu para verificar agora; confirmamos ao criar a conta."
     }
   },
   "hub": {
@@ -68,7 +88,7 @@
     "lockedHint": "Conclua a fase anterior para liberar.",
     "completed": "Concluída",
     "available": "Disponível",
-    "start": "Iniciar",
+    "start": "Iniciar fase",
     "replay": "Jogar de novo",
     "bestTime": "Melhor tempo: {time}",
     "objectives": "Você vai aprender",
@@ -76,7 +96,18 @@
     "weapons": "Arsenal",
     "practice": "Treino livre",
     "welcome": "Bem-vindo(a), {name}.",
-    "progress": "{done} de {total} fases concluídas"
+    "progress": "{done} de {total} fases concluídas",
+    "rank": "Rank",
+    "levelShort": "Nível",
+    "unlocks": "Desbloqueios",
+    "unlock": {
+      "phases": "fases",
+      "upgrades": "upgrades",
+      "badges": "conquistas",
+      "slots": "slots em uso"
+    },
+    "nextUnlock": "No nível {level}:",
+    "unlockSlot": "+1 slot de upgrade"
   },
   "shop": {
     "title": "Árvore de upgrades",
@@ -116,7 +147,8 @@
     "deleteAnonymize": "Também anonimizar o nome nos certificados emitidos",
     "deleteConfirm": "Digite sua senha para confirmar",
     "deleteButton": "Excluir definitivamente",
-    "deleted": "Conta excluída."
+    "deleted": "Conta excluída.",
+    "username": "Nome de jogador"
   },
   "certificate": {
     "title": "Certificado de conclusão",
@@ -331,7 +363,8 @@
     "no_slots": "Sem slots de upgrade livres.",
     "not_eligible": "Critérios do certificado ainda não atendidos.",
     "already_issued": "Certificado já emitido.",
-    "unknown": "Erro inesperado."
+    "unknown": "Erro inesperado.",
+    "payload_too_large": "Requisição grande demais."
   },
   "rewards": {
     "phaseComplete": "Fase concluída",
@@ -341,5 +374,33 @@
     "terminals": "Terminais",
     "bytes": "Bytes coletados",
     "firstCompletion": "Primeira conclusão"
+  },
+  "avatar": {
+    "choose": "Escolha seu agente",
+    "changeLater": "Dá para trocar depois, no perfil.",
+    "change": "Trocar agente",
+    "saved": "Agente atualizado."
+  },
+  "rank": {
+    "title": "Rank",
+    "scope": "Tipo de rank",
+    "global": "Geral",
+    "phase": "Por fase",
+    "phaseLabel": "Fase do rank",
+    "ruleGlobal": "Quem concluiu mais fases fica à frente; no empate, vence a menor soma dos melhores tempos.",
+    "rulePhase": "Melhor tempo de conclusão da fase; no empate, fica à frente quem concluiu primeiro.",
+    "podium": "Pódio",
+    "placeLabel": "{position}º lugar: @{username}, {time}",
+    "you": "você",
+    "phases": "{n} fases",
+    "emptyGlobal": "Ninguém concluiu uma fase ainda. A primeira posição está livre.",
+    "emptyPhase": "Ninguém concluiu esta fase ainda. A primeira posição está livre.",
+    "goPlay": "Ir para o mapa",
+    "notRanked": "Conclua uma fase para aparecer no rank.",
+    "total": "{total} jogadores no rank."
+  },
+  "device": {
+    "title": "Jogue no computador",
+    "text": "O Fireshot é um jogo de tiro em primeira pessoa e precisa de teclado e mouse. Neste aparelho dá para criar a conta e ver o rank, mas as fases não funcionam com toque."
   }
 }

@@ -108,10 +108,19 @@ def content():
 
 # ── auxiliares ────────────────────────────────────────────────────────────────
 
-USER = {"email": "jogador@exemplo.com", "password": "senha-forte-123", "name": "Jogador", "acceptedTerms": True}
+USER = {
+    "email": "jogador@exemplo.com",
+    "username": "jogador",
+    "password": "senha-forte-123",
+    "name": "Jogador",
+    "acceptedTerms": True,
+}
 
 
 async def register(client: AsyncClient, **overrides) -> dict:
+    """Registra uma conta. Trocar só o e-mail deriva um username novo (o username também é único)."""
+    if "email" in overrides and "username" not in overrides:
+        overrides["username"] = overrides["email"].split("@")[0][:16]
     body = {**USER, **overrides}
     res = await client.post("/api/v1/auth/register", json=body)
     assert res.status_code == 201, res.text

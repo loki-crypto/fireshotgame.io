@@ -95,8 +95,8 @@ salva progresso.
 ## Testes
 
 ```bash
-pnpm -r test                     # sim (95) + content (97) + web (29)
-cd apps/api && uv run pytest -q  # 69 testes (conformidade TS↔Python, auth, sessão, loja, certificado)
+pnpm -r test                     # sim (101) + content (99) + web (34)
+cd apps/api && uv run pytest -q  # 110 testes (conformidade TS↔Python, auth, sessão, loja, certificado, rank, segurança)
 cd apps/api && uv run ruff check .
 
 cd apps/web && npx playwright test                 # E2E sem backend
@@ -105,11 +105,15 @@ E2E_API=1 npx playwright test e2e/api.spec.ts      # E2E com a API no ar
 
 O E2E com backend precisa da API no ar com dois ajustes, porque uma partida automatizada dura
 segundos: `MIN_TIME_SCALE=0` (desliga o tempo mínimo por fase) e `CERT_MIN_ACTIVE_HOURS=0`
-(deixa o certificado elegível sem horas de heartbeat):
+(deixa o certificado elegível sem horas de heartbeat).
+
+Fora do Docker, aponte também `CERT_PRIVATE_KEY_FILE` para `infra/cert-key.pem`: o `.env` da raiz usa
+o caminho do segredo dentro do container (`/run/secrets/…`), e sem o ajuste a emissão do
+certificado responde 500:
 
 ```bash
 cd apps/api && DATABASE_URL=… COOKIE_SECURE=false MIN_TIME_SCALE=0 CERT_MIN_ACTIVE_HOURS=0 \
-  uv run uvicorn app.main:app --port 8000
+  CERT_PRIVATE_KEY_FILE=$PWD/../../infra/cert-key.pem uv run uvicorn app.main:app --port 8000
 cd apps/web && E2E_API=1 npx playwright test
 ```
 
@@ -149,6 +153,27 @@ isca de phishing × comunicado legítimo (com denúncia e falso positivo), Troja
 pelo Scanner, Injector corrompendo terminal e Sanitizer limpando, e o chefe passando de oculto a
 contido e exposto conforme o ciclo identificar → conter → erradicar.
 
+## Segurança
+
+| Risco | Proteção |
+|---|---|
+| Senha fraca ou vazada | argon2id; mínimo de 8 caracteres; senhas do topo dos vazamentos, repetições (`aaaaaaaa`) e nome/e-mail + números são recusados (`common_password`) |
+| Força bruta distribuída | além do rate limit por IP (em memória, por instância), a tabela `login_throttle` trava o login do e-mail por 15 min após 10 erros em 15 min — vale entre instâncias e também para e-mails inexistentes |
+| Descobrir quais e-mails têm conta pelo login | a resposta é a mesma e o argon2 roda mesmo sem conta (hash fictício), então o tempo não entrega nada |
+| Roubo de sessão / CSRF | JWT curto e refresh rotativo em cookies `HttpOnly; Secure; SameSite=Lax`; mutações exigem `X-Requested-With: fetch`; sem CORS |
+| XSS e clickjacking | CSP sem script inline (`script-src 'self'`), `frame-ancestors 'none'`, `nosniff`, `Referrer-Policy`, `Permissions-Policy` e COOP no `vercel.json` e no nginx; a UI não usa `innerHTML` com dados |
+| Injeção no PDF do certificado | nome e módulos passam por `html.escape` e o WeasyPrint só aceita `data:` — sem SSRF nem arquivo local anexado ao PDF |
+| Personificação no rank | nomes reservados (`admin`, `suporte`, `fireshot…`) não podem ser usados |
+| Abuso de armazenamento e memória | corpo máximo de 512 KB; teto por item no JSON gravado (evento 1 KB, resposta 8 KB, resumo 4 KB); o rate limit descarta IPs ociosos |
+| Dados pessoais em cache | toda resposta da API sai com `Cache-Control: no-store` |
+| Configuração esquecida | com `COOKIE_SECURE=true` a API **não sobe** se `JWT_SECRET` for o padrão ou tiver menos de 32 caracteres, nem com `MIN_TIME_SCALE < 1`; o Swagger só fica ligado fora de produção |
+| Intermediário entre API e banco | TLS com verificação de certificado e hostname (`ssl.create_default_context()`), não só criptografia |
+| IP forjado para escapar do limite | `X-Real-IP` primeiro; do `X-Forwarded-For` vale o último salto; o nginx sobrescreve o cabeçalho |
+| Segredos no upload do deploy | `.vercelignore` exclui `.env*` e chaves `.pem` |
+
+`pnpm audit` e `pip-audit` (dependências de produção da API) sem vulnerabilidades conhecidas em
+2026-09-16. Os testes de regressão estão em `apps/api/tests/test_security.py`.
+
 ## Como o anti-cheat funciona
 
 O gerador roda no cliente (para dar feedback imediato, o bundle sabe o gabarito), mas **o servidor
@@ -156,6 +181,21 @@ regenera a questão a partir da seed da sessão** e revalida cada resposta; XP e
 que ele aceitou. Eventos de jogo (abates, coletas, mortes) passam por checagens de plausibilidade
 (armas disponíveis na fase, tetos de abates e bytes, taxa de abates, tempo) e a conclusão exige
 tempo mínimo, terminais obrigatórios resolvidos e relógio do cliente coerente.
+
+## Agentes e rank
+
+No cadastro a pessoa escolhe um **agente** (8 bonequinhos em pixel art 12×12) e um **nome de
+jogador** único, que é o que aparece no rank — o e-mail nunca é exposto. A arte vive em
+`packages/content/avatars.json` e `upgrade-icons.json` (um ícone por upgrade da loja): uma string
+por fileira, um caractere por pixel e uma paleta por desenho. O cliente desenha em SVG
+(`PixelArt.tsx`); o servidor só valida o id do agente.
+
+O rank é público (`GET /api/v1/leaderboard` e `/leaderboard/{fase}`) e devolve o top 20 mais a
+posição de quem está logado, mesmo fora do top:
+
+- **por fase**: melhor tempo; no empate, quem concluiu primeiro;
+- **geral**: mais fases concluídas; no empate, a menor soma dos melhores tempos — assim repetir só
+  a fase mais fácil não sobe ninguém no rank.
 
 ## Certificado
 

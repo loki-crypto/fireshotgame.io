@@ -11,6 +11,10 @@ export interface LevelInfo { level: number; intoLevel: number; needed: number }
 export interface Profile {
   id: string;
   name: string;
+  /** nome público no rank (único, sem diferenciar maiúsculas) */
+  username: string;
+  /** id do bonequinho em packages/content/avatars.json */
+  avatar: string;
   email: string;
   xp: number;
   level: number;
@@ -43,6 +47,30 @@ export interface BadgeEarned { id: string; earnedAt: string }
 
 export interface EligibilityRequirement { key: "phases" | "accuracy" | "activeTime"; met: boolean; current: number; required: number }
 export interface Eligibility { eligible: boolean; requirements: EligibilityRequirement[]; certificate: { code: string; issuedAt: string; fullName: string; activeHours: number } | null }
+
+export interface LeaderboardEntry {
+  position: number;
+  username: string;
+  avatar: string;
+  level: number;
+  xp: number;
+  phasesCompleted: number;
+  totalTimeS: number;
+  /** só no rank por fase */
+  bestTimeS?: number;
+  completions?: number;
+}
+
+export interface Leaderboard {
+  scope: "global" | "phase";
+  phaseId: string | null;
+  total: number;
+  entries: LeaderboardEntry[];
+  /** posição do próprio jogador (mesmo fora do top), se houver sessão e conclusão */
+  me: LeaderboardEntry | null;
+}
+
+export interface UsernameStatus { username: string; valid: boolean; available: boolean }
 
 export interface VerifyResponse {
   valid: boolean;
@@ -97,10 +125,13 @@ export async function request<T>(method: string, path: string, body?: unknown, r
 }
 
 export const api = {
-  register: (b: { email: string; password: string; name: string; acceptedTerms: boolean }) => request<{ user: Profile }>("POST", "/auth/register", b),
+  register: (b: { email: string; username: string; password: string; name: string; avatar: string; acceptedTerms: boolean }) => request<{ user: Profile }>("POST", "/auth/register", b),
   login: (b: { email: string; password: string }) => request<{ user: Profile }>("POST", "/auth/login", b),
   logout: () => request<void>("POST", "/auth/logout"),
   me: () => request<Profile>("GET", "/me"),
+  setAvatar: (avatar: string) => request<Profile>("PUT", "/me/avatar", { avatar }),
+  usernameStatus: (username: string) => request<UsernameStatus>("GET", `/usernames/${encodeURIComponent(username)}`),
+  leaderboard: (phaseId?: string | null) => request<Leaderboard>("GET", phaseId ? `/leaderboard/${encodeURIComponent(phaseId)}` : "/leaderboard"),
   progress: () => request<ProgressResponse>("GET", "/progress"),
   startPhase: (phaseId: string) => request<{ sessionId: string; seed: number; equippedUpgrades: string[] }>("POST", `/phases/${encodeURIComponent(phaseId)}/start`),
   sendEvents: (sessionId: string, events: { type: string; clientTs: string; payload: Omit<GameEvent, "type"> }[]) =>

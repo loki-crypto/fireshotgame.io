@@ -4,6 +4,7 @@ import { curriculum } from "@fireshot/content";
 import { t, formatTime } from "../../i18n/t";
 import { navigate, progress } from "../../app/store";
 import { Button, Panel, ShapeIcon } from "../components/ui";
+import { DesktopNotice } from "../components/DesktopNotice";
 
 export function PhaseMap({ reg }: { reg: ContentRegistry }) {
   const phases = curriculum();
@@ -53,6 +54,17 @@ export function PhaseMap({ reg }: { reg: ContentRegistry }) {
       </Panel>
       <Panel title={<>{t("hub.phase", { n: sel.order })} · {sel.title}</>} class="phase-detail">
         <p class="subtitle">{sel.subtitle}</p>
+        <div class="start-zone">
+          <DesktopNotice compact />
+          {selInfo?.unlocked ? (
+            <Button class="btn-big btn-start" onClick={() => navigate({ name: "game", phaseId: sel.id, guest: false, nonce: Date.now() })}>
+              <span aria-hidden="true">▶</span> {selInfo.completed ? t("hub.replay") : t("hub.start")}
+            </Button>
+          ) : (
+            <p class="locked-note">🔒 {t("hub.lockedHint")}</p>
+          )}
+          {selInfo?.bestTimeS !== null && selInfo?.bestTimeS !== undefined && <p class="muted small">{t("hub.bestTime", { time: formatTime(selInfo.bestTimeS) })}</p>}
+        </div>
         <div class="chips">{sel.concepts.map((c) => <span key={c} class="chip">{c}</span>)}</div>
         <h3>{t("hub.objectives")}</h3>
         <ul class="objectives">{sel.learningObjectives.map((o) => <li key={o}>{o}</li>)}</ul>
@@ -71,14 +83,8 @@ export function PhaseMap({ reg }: { reg: ContentRegistry }) {
         )}
         <h3>{t("hub.weapons")}</h3>
         <div class="chips">{sel.weaponsAvailable.map((id) => reg.weapons.find((w) => w.id === id)).map((w) => <span key={w!.id} class="chip" style={{ borderColor: w!.color, color: w!.color }}>{w!.slot} · {w!.name}</span>)}</div>
-        {selInfo?.bestTimeS !== null && selInfo?.bestTimeS !== undefined && <p class="muted">{t("hub.bestTime", { time: formatTime(selInfo.bestTimeS) })}</p>}
         <div class="row">
-          {selInfo?.unlocked ? (
-            <Button onClick={() => navigate({ name: "game", phaseId: sel.id, guest: false, nonce: Date.now() })}>{selInfo.completed ? t("hub.replay") : t("hub.start")}</Button>
-          ) : (
-            <p class="muted">{t("hub.lockedHint")}</p>
-          )}
-          <Button variant="ghost" onClick={() => navigate({ name: "game", phaseId: "lab", guest: false, nonce: Date.now() })}>{t("hub.practice")}</Button>
+          <Button variant="ghost" small onClick={() => navigate({ name: "game", phaseId: "lab", guest: false, nonce: Date.now() })}>{t("hub.practice")}</Button>
         </div>
       </Panel>
     </div>

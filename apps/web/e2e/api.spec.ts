@@ -1,5 +1,5 @@
 import { expect, test } from "@playwright/test";
-import { collectErrors, expectMode, startMission } from "./helpers";
+import { collectErrors, expectMode, registerViaUi, startMission } from "./helpers";
 
 /**
  * Fluxo com backend real: registro → tutorial → conclusão → XP no hub.
@@ -16,19 +16,11 @@ test.describe("com backend", () => {
     const errors = await collectErrors(page);
     const email = `e2e-${Date.now()}@exemplo.com`;
 
-    await page.goto("/");
-    await page.getByRole("button", { name: "Criar conta", exact: true }).click();
-    await page.locator("input[name=name]").fill("Agente E2E");
-    await page.locator("input[name=email]").fill(email);
-    await page.locator("input[name=password]").fill(password);
-    await page.locator("input[name=terms]").check();
-    await page.getByRole("button", { name: "Criar conta", exact: true }).click();
-
-    await expect(page.getByRole("tab", { name: "Mapa da rede" })).toBeVisible();
-    await expect(page.getByText("Nível 1")).toBeVisible();
+    await registerViaUi(page, { name: "Agente E2E", email, password });
+    await expect(page.getByLabel("Nível 1", { exact: true })).toBeVisible();
 
     // fase 0: a única desbloqueada no começo
-    await page.getByRole("button", { name: "Iniciar", exact: true }).click();
+    await page.getByRole("button", { name: "Iniciar fase" }).click();
     await startMission(page);
 
     await page.evaluate(() => window.__fireshot!.answerAll());
@@ -56,18 +48,61 @@ test.describe("com backend", () => {
 
   test("login recupera a sessão e o certificado exige os requisitos", async ({ page }) => {
     const email = `e2e-cert-${Date.now()}@exemplo.com`;
-    await page.goto("/");
-    await page.getByRole("button", { name: "Criar conta", exact: true }).click();
-    await page.locator("input[name=name]").fill("Agente Cert");
-    await page.locator("input[name=email]").fill(email);
-    await page.locator("input[name=password]").fill(password);
-    await page.locator("input[name=terms]").check();
-    await page.getByRole("button", { name: "Criar conta", exact: true }).click();
-    await expect(page.getByRole("tab", { name: "Mapa da rede" })).toBeVisible();
+    await registerViaUi(page, { name: "Agente Cert", email, password });
 
     await page.getByRole("tab", { name: "Certificado" }).click();
     await expect(page.getByText("Ainda faltam critérios.")).toBeVisible();
     await expect(page.getByRole("button", { name: /Emitir/ })).toHaveCount(0);
+  });
+});
+
+test.describe("agente e rank", () => {
+  test.skip(!RUN, "requer a API rodando (E2E_API=1)");
+
+  test("cadastro com bonequinho e username, rank por fase e troca de agente", async ({ page }) => {
+    const errors = await collectErrors(page);
+    const username = await registerViaUi(page, { name: "Agente Rank", email: `e2e-rank-${Date.now()}@exemplo.com`, password, avatar: "androide" });
+
+    // cartão do jogador: bonequinho escolhido no menu, username e nível
+    await expect(page.locator(".player-card")).toContainText(`@${username}`);
+    await expect(page.getByRole("button", { name: /^Androide\./ })).toBeVisible();
+
+    // username já em uso é avisado no cadastro
+    const other = await page.context().browser()!.newContext();
+    const otherPage = await other.newPage();
+    await otherPage.goto("/");
+    await otherPage.getByRole("button", { name: /Criar conta e jogar/ }).click();
+    await otherPage.locator("input[name=username]").fill(username.toUpperCase());
+    await expect(otherPage.getByText("Este nome de jogador já está em uso.")).toBeVisible();
+    await other.close();
+
+    // conclui o tutorial e aparece no rank da fase com a própria linha destacada
+    await page.getByRole("button", { name: "Iniciar fase" }).click();
+    await startMission(page);
+    await page.evaluate(() => window.__fireshot!.answerAll());
+    await page.evaluate(() => window.__fireshot!.clearArenas());
+    await page.evaluate(() => window.__fireshot!.finish());
+    await expectMode(page, "debrief");
+    await expect(page.locator(".reward-total")).toContainText("XP");
+    await page.getByRole("button", { name: "Voltar à central" }).click();
+
+    await page.getByRole("tab", { name: "Rank" }).click();
+    await expect(page.getByText(/Quem concluiu mais fases fica à frente/)).toBeVisible();
+    await page.getByRole("button", { name: "Por fase" }).click();
+    await page.getByLabel("Fase do rank").selectOption("00-tutorial");
+    const mine = page.locator(".podium-spot.me, .rank-row.me");
+    await expect(mine).toHaveCount(1);
+    await expect(mine).toContainText(`@${username}`);
+    await expect(page.locator(".rank")).not.toContainText("@exemplo.com");
+
+    // troca de agente no perfil reflete no cartão
+    await page.getByRole("tab", { name: "Perfil" }).click();
+    await page.locator('.avatar-panel [data-avatar="veterana"]').click();
+    await expect(page.getByText("Agente atualizado.")).toBeVisible();
+    await expect(page.getByRole("button", { name: /^Veterana\./ })).toBeVisible();
+    await page.reload();
+    await expect(page.getByRole("button", { name: /^Veterana\./ })).toBeVisible();
+    expect(errors).toEqual([]);
   });
 });
 
@@ -78,21 +113,14 @@ test.describe("percurso completo", () => {
     test.setTimeout(300_000); // dez fases, cada uma com briefing, terminais e arena
     const errors = await collectErrors(page);
     const email = `e2e-run-${Date.now()}@exemplo.com`;
-    await page.goto("/");
-    await page.getByRole("button", { name: "Criar conta", exact: true }).click();
-    await page.locator("input[name=name]").fill("Agente Percurso");
-    await page.locator("input[name=email]").fill(email);
-    await page.locator("input[name=password]").fill(password);
-    await page.locator("input[name=terms]").check();
-    await page.getByRole("button", { name: "Criar conta", exact: true }).click();
-    await expect(page.getByRole("tab", { name: "Mapa da rede" })).toBeVisible();
+    await registerViaUi(page, { name: "Agente Percurso", email, password });
 
     const total = await page.locator(".map-node").count();
     expect(total).toBe(10);
 
     for (let i = 0; i < total; i++) {
       await page.locator(".map-node").nth(i).click();
-      await page.getByRole("button", { name: /^(Iniciar|Jogar de novo)$/ }).click();
+      await page.getByRole("button", { name: /^(Iniciar fase|Jogar de novo)$/ }).click();
       await startMission(page);
       await page.evaluate(() => window.__fireshot!.answerAll());
       await page.evaluate(() => window.__fireshot!.clearArenas());
