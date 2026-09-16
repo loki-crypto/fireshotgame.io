@@ -7,6 +7,7 @@ eventos e de resposta) e `/complete` soma os bônus de conclusão. A resposta de
 
 from __future__ import annotations
 
+import logging
 import secrets
 import uuid
 from dataclasses import dataclass
@@ -26,6 +27,8 @@ from .content import Content
 from .plausibility import SessionTotals, check_completion, check_event
 from .users import is_unlocked, progress_map
 from .xp import BYTES_RULES, XP_RULES, kill_xp, level_from_xp
+
+log = logging.getLogger("fireshot.sessions")
 
 SEED_MAX = 2**32
 
@@ -83,11 +86,19 @@ async def _credit(db: AsyncSession, user: User, xp: int, bytes_: int) -> None:
 
 
 async def get_session(db: AsyncSession, user_id: uuid.UUID, session_id: str) -> PhaseSession:
+    """Carrega a sessão travando a linha (SELECT … FOR UPDATE).
+
+    Eventos, respostas de terminal e conclusão mutam o mesmo `flags` JSONB e o cliente
+    envia lotes de eventos em paralelo com as respostas: sem o lock, a última gravação
+    apagava o progresso dos terminais escrito pela outra requisição.
+    """
     try:
         sid = uuid.UUID(session_id)
     except ValueError:
         raise ApiError("not_found") from None
-    session = await db.get(PhaseSession, sid)
+    session = (
+        await db.execute(select(PhaseSession).where(PhaseSession.id == sid).with_for_update())
+    ).scalars().first()
     if session is None or session.user_id != user_id:
         raise ApiError("not_found")
     return session
@@ -327,6 +338,10 @@ async def answer_terminal(
     challenges = int(tdef.get("challenges", 1))
 
     if state["done"] or body.challengeIndex != state["solved"] or body.challengeIndex >= challenges:
+        log.warning(
+            "desafio fora de ordem: sessão=%s terminal=%s recebido=%s estado=%s desafios=%s",
+            session.id, terminal_id, body.challengeIndex, state, challenges,
+        )
         raise ApiError("forbidden", "Desafio fora de ordem.")
 
     seed = question_seed(session.seed, terminal_id, body.challengeIndex, body.attemptNo)

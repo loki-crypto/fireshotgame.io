@@ -247,6 +247,36 @@ async def test_replay_awards_less(client: AsyncClient, user, content) -> None:
     assert next(p for p in prog["phases"] if p["phaseId"] == TUTORIAL)["completions"] == 2
 
 
+async def test_concurrent_events_do_not_erase_terminal_progress(client: AsyncClient, user, content) -> None:
+    """O cliente envia lotes de eventos em paralelo com as respostas: os dois mutam session.flags."""
+    import asyncio
+
+    s = await start(client)
+    await backdate_session(s["sessionId"], 200)
+    phase = content.phase(TUTORIAL)
+    tdef = phase["terminals"][0]
+    url = f"/api/v1/sessions/{s['sessionId']}/terminals/{tdef['id']}/answer"
+    events = {"events": [kill(t=float(i)) for i in range(1, 6)]}
+
+    for index in range(int(tdef["challenges"])):
+        q = generate_question(tdef["generator"], tdef["params"], question_seed(s["seed"], tdef["id"], index, 1), content.pools)
+        answer, batch = await asyncio.gather(
+            client.post(url, json={"challengeIndex": index, "attemptNo": 1, "answer": correct_answer(q), "tampered": False}),
+            client.post(f"/api/v1/sessions/{s['sessionId']}/events", json=events),
+        )
+        assert answer.status_code == 200, answer.text
+        assert answer.json()["correct"] is True
+        assert batch.status_code == 200, batch.text
+
+    await solve_terminals(client, s["sessionId"], s["seed"], {"terminals": phase["terminals"][1:]}, content)
+    res = await client.post(
+        f"/api/v1/sessions/{s['sessionId']}/complete",
+        json={"clientTs": datetime.now(UTC).isoformat(), "elapsedS": 150, "stats": summary(simTime=150)},
+    )
+    body = res.json()
+    assert body["accepted"] is True, body["reasons"]
+
+
 async def test_session_belongs_to_user(client: AsyncClient, app, user, content) -> None:
     s = await start(client)
     other = AsyncClient(transport=client._transport, base_url="http://test", headers={"X-Requested-With": "fetch"})

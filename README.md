@@ -64,8 +64,15 @@ cd apps/web && npx playwright test                 # E2E sem backend
 E2E_API=1 npx playwright test e2e/api.spec.ts      # E2E com a API no ar
 ```
 
-O E2E com backend precisa da API com `MIN_TIME_SCALE=0` (a checagem de tempo mínimo por fase
-rejeitaria uma partida automatizada de poucos segundos).
+O E2E com backend precisa da API no ar com dois ajustes, porque uma partida automatizada dura
+segundos: `MIN_TIME_SCALE=0` (desliga o tempo mínimo por fase) e `CERT_MIN_ACTIVE_HOURS=0`
+(deixa o certificado elegível sem horas de heartbeat):
+
+```bash
+cd apps/api && DATABASE_URL=… COOKIE_SECURE=false MIN_TIME_SCALE=0 CERT_MIN_ACTIVE_HOURS=0 \
+  uv run uvicorn app.main:app --port 8000
+cd apps/web && E2E_API=1 npx playwright test
+```
 
 Fixtures de conformidade (200 seeds por gerador, com sha256 da questão canônica e vereditos de
 `checkAnswer`) ficam em `packages/content/fixtures/`. Depois de mudar um gerador:

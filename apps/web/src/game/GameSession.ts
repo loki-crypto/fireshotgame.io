@@ -13,7 +13,7 @@ import { attachInput, InputManager } from "./input/InputManager";
 import { Renderer } from "./render/Renderer";
 import { Hud } from "./hud/Hud";
 import { sfx, type SoundName } from "./audio/Sfx";
-import type { AnswerRequest, BadgeAward, CompleteResult, SessionBackend, TimedEvent } from "./backend";
+import type { AnswerRequest, AnswerResult, BadgeAward, CompleteResult, SessionBackend, TimedEvent } from "./backend";
 import { createMessageFactory } from "./messages";
 import { ApiError } from "../api/client";
 
@@ -441,25 +441,24 @@ export class GameSession {
     };
     this.terminal.value = { ...st, result, pending: this.opts.backend.online };
     void this.flushEvents();
-    const req: AnswerRequest = { terminalId: st.terminalId, challengeIndex: st.challengeIndex, attemptNo: st.attemptNo, answer: sent, tampered: st.tampered !== null };
-    this.opts.backend
-      .answer(this.sessionId, req)
-      .then((r) => {
-        const cur = this.terminal.value;
-        if (r.newBadges.length > 0) this.announceBadges(r.newBadges);
-        if (!cur || cur.terminalId !== st.terminalId || cur.attemptNo !== st.attemptNo || !cur.result) return;
-        this.terminal.value = {
-          ...cur,
-          pending: false,
-          result: { ...cur.result, xpDelta: this.opts.backend.online ? r.xpDelta : null, serverMismatch: this.opts.backend.online && r.correct !== local.correct },
-        };
-      })
-      .catch(() => {
-        // o servidor precisa registrar a resposta para validar a conclusão: reenvia depois
-        this.answerQueue.push(req);
-        const cur = this.terminal.value;
-        if (cur && cur.attemptNo === st.attemptNo) this.terminal.value = { ...cur, pending: false };
-      });
+    // a fila serializa os envios: o servidor recusa desafios fora de ordem, e duas
+    // respostas em paralelo podiam chegar trocadas (desafio 1 antes do 0).
+    this.answerQueue.push({ terminalId: st.terminalId, challengeIndex: st.challengeIndex, attemptNo: st.attemptNo, answer: sent, tampered: st.tampered !== null });
+    void this.flushAnswers();
+  }
+
+  /** Aplica na UI o veredito do servidor para a resposta em tela (se ainda for a mesma). */
+  private applyAnswerResult(req: AnswerRequest, r: AnswerResult | null): void {
+    const cur = this.terminal.value;
+    if (!cur || cur.terminalId !== req.terminalId || cur.attemptNo !== req.attemptNo || !cur.result) return;
+    const online = this.opts.backend.online;
+    this.terminal.value = {
+      ...cur,
+      pending: false,
+      result: r
+        ? { ...cur.result, xpDelta: online ? r.xpDelta : null, serverMismatch: online && r.correct !== cur.result.correct }
+        : cur.result,
+    };
   }
 
   /** Reenvia respostas que falharam, em ordem (uma rodada por vez). Resolve com false se alguma ainda falhar. */
@@ -471,8 +470,10 @@ export class GameSession {
         try {
           const r = await this.opts.backend.answer(this.sessionId, req);
           if (r.newBadges.length > 0) this.announceBadges(r.newBadges);
+          this.applyAnswerResult(req, r);
         } catch (err) {
           // erro definitivo (resposta recusada, sessão inválida): descarta para não repetir para sempre
+          this.applyAnswerResult(req, null);
           if (isPermanent(err)) {
             this.answerQueue.shift();
             continue;
@@ -590,13 +591,18 @@ export class GameSession {
       answerAll: async () => {
         // caminho real de resposta (passa pelo servidor quando online), ao contrário de solveAll
         for (const term of this.world.terminals) {
-          for (let guard = 0; !term.solved && guard < 40; guard++) {
+          for (let guard = 0; !term.solved; guard++) {
+            if (guard > 40) throw new Error(`answerAll travou em ${term.id} (${term.solvedChallenges}/${term.def.challenges})`);
             term.corrupted = false;
+            // como um jogador faria: túnel cifrado erguido antes de responder a um terminal interceptado
+            this.world.vpnTunnelUntil = this.world.time + 30;
             this.openTerminal(term.id);
             const st = this.terminal.value;
-            if (!st || st.terminalId !== term.id) break;
+            if (!st || st.terminalId !== term.id || st.result) {
+              throw new Error(`answerAll: ${term.id} inacessível (${st ? `${st.terminalId} result=${!!st.result}` : "sem estado"})`);
+            }
             this.submitAnswer(canonicalAnswer(st.question));
-            while (this.terminal.value?.pending) await new Promise((r) => setTimeout(r, 20));
+            if (!(await this.flushAnswers())) throw new Error(`answerAll: envio da resposta de ${term.id} falhou`);
             this.continueTerminal();
           }
         }

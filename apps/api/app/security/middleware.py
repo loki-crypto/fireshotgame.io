@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import logging
 from collections.abc import Awaitable, Callable
 
 from starlette.middleware.base import BaseHTTPMiddleware
@@ -12,6 +13,8 @@ from ..config import get_settings
 from ..errors import ApiError
 from .rate_limit import client_ip, limiter
 from .tokens import ACCESS_COOKIE, decode_access_token
+
+log = logging.getLogger("fireshot.security")
 
 MUTATIONS = {"POST", "PUT", "PATCH", "DELETE"}
 CSRF_HEADER = "x-requested-with"
@@ -24,6 +27,7 @@ class CsrfMiddleware(BaseHTTPMiddleware):
     async def dispatch(self, request: Request, call_next: Callable[[Request], Awaitable[Response]]) -> Response:
         if request.method in MUTATIONS and request.url.path.startswith("/api/"):
             if request.headers.get(CSRF_HEADER, "").lower() != CSRF_VALUE:
+                log.warning("CSRF: %s %s sem X-Requested-With", request.method, request.url.path)
                 return ApiError("forbidden", "Requisição sem o cabeçalho X-Requested-With.").response()
         return await call_next(request)
 

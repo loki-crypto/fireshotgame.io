@@ -1,9 +1,23 @@
-import { defineConfig } from "vitest/config";
+import { defineConfig, type Plugin } from "vitest/config";
 import preact from "@preact/preset-vite";
 import { resolve } from "node:path";
 
+/**
+ * Em produção o nginx resolve /verificar/{codigo} para verificar.html (infra/nginx.conf).
+ * O dev server precisa do mesmo rewrite, senão o link do certificado cai na SPA.
+ */
+function verifyPageRewrite(): Plugin {
+  const rewrite = (server: { middlewares: { use: (fn: (req: { url?: string }, res: unknown, next: () => void) => void) => void } }): void => {
+    server.middlewares.use((req, _res, next) => {
+      if (req.url && /^\/verificar(\/|$|\?)/.test(req.url)) req.url = "/verificar.html";
+      next();
+    });
+  };
+  return { name: "fireshot-verify-rewrite", configureServer: rewrite, configurePreviewServer: rewrite };
+}
+
 export default defineConfig({
-  plugins: [preact()],
+  plugins: [preact(), verifyPageRewrite()],
   server: {
     port: 5173,
     proxy: {

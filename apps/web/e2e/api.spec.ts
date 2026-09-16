@@ -103,6 +103,30 @@ test.describe("percurso completo", () => {
       await expect(page.locator(".map-node.done")).toHaveCount(i + 1);
     }
     await expect(page.locator(".map-node.locked")).toHaveCount(0);
+
+    // ── certificado (a API do E2E roda com CERT_MIN_ACTIVE_HOURS=0) ──────────
+    await page.getByRole("tab", { name: "Certificado" }).click();
+    await expect(page.getByText("Você cumpre todos os critérios.")).toBeVisible();
+    await page.locator("input[autocomplete=name]").fill("Agente Percurso da Silva");
+    await expect(page.locator(".cert-preview")).toContainText("Agente Percurso da Silva");
+    await page.getByRole("checkbox").check();
+    await page.getByRole("button", { name: "Emitir certificado" }).click();
+
+    const issued = page.locator(".certificate section", { hasText: "Certificado emitido" });
+    await expect(issued).toContainText("Agente Percurso da Silva");
+    const code = (await issued.textContent())?.match(/([A-Z0-9]{4}-[A-Z0-9]{4}-[A-Z0-9]{4})/)?.[1];
+    expect(code).toBeTruthy();
+
+    // PDF baixável pelo dono
+    const pdf = await page.request.get(`/api/v1/certificates/${code}.pdf`);
+    expect(pdf.status()).toBe(200);
+    expect((await pdf.body()).subarray(0, 4).toString()).toBe("%PDF");
+
+    // página pública de verificação
+    await page.goto(`/verificar/${code}`);
+    await expect(page.getByRole("status")).toContainText("válido");
+    await expect(page.getByText("Agente Percurso da Silva")).toBeVisible();
+    await expect(page.getByText("Assinatura digital Ed25519 válida")).toBeVisible();
     expect(errors).toEqual([]);
   });
 });
