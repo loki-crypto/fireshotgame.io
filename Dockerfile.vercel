@@ -1,4 +1,6 @@
 # API do Fireshot como Vercel Function em container (OCI).
+# Fica na raiz porque o Vercel só aceita entrypoint chamado Dockerfile[.vercel]/Containerfile,
+# e o contexto de build precisa alcançar apps/api e packages/content.
 # Um container é necessário por causa do WeasyPrint: o PDF do certificado precisa de
 # cairo/pango/gdk-pixbuf, bibliotecas nativas que o runtime Python do Vercel não traz.
 #

@@ -11,7 +11,7 @@
     "api": {
       "runtime": "container",
       "root": "./",
-      "entrypoint": "infra/api.vercel.Dockerfile"
+      "entrypoint": "Dockerfile.vercel"
     }
   },
   "rewrites": [

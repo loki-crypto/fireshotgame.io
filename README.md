@@ -37,6 +37,39 @@ A API roda `alembic upgrade head` no start. `WEB_PORT` troca a porta publicada (
 A imagem de produção **não** inclui os ganchos de teste (`window.__fireshot`), que dependem de
 `VITE_E2E=1` no build — contra a pilha do compose rodam apenas os specs que não dirigem o jogo.
 
+## Deploy na Vercel
+
+Em produção: <https://fireshot.vercel.app>
+
+Um projeto, dois serviços (`vercel.json`), servidos na mesma origem — o que faz os cookies de
+sessão funcionarem sem CORS:
+
+| Serviço | Como roda | Por quê |
+|---|---|---|
+| `web` | build estático do Vite | SPA + `verificar.html` |
+| `api` | **container** (`Dockerfile.vercel`) | o PDF do certificado usa WeasyPrint, que precisa de cairo/pango — bibliotecas nativas que o runtime Python da Vercel não traz |
+
+Banco: **Neon Postgres** (Marketplace). A URL vem no formato libpq, então
+`normalize_database_url` a converte para o dialeto asyncpg, troca `sslmode` por `ssl` e desliga o
+cache de prepared statements quando o endpoint é o pooler (PgBouncer em modo transação).
+
+Variáveis obrigatórias em produção: `DATABASE_URL` (a integração do Neon preenche), `JWT_SECRET`,
+`COOKIE_SECURE=true`, `TRUST_PROXY=true`, `CERT_PRIVATE_KEY_PEM` e `VERIFY_BASE_URL`.
+
+```bash
+vercel link --project fireshot
+vercel integration add neon                  # provisiona o Postgres e injeta as variáveis
+DATABASE_URL="$DATABASE_URL_UNPOOLED" uv run alembic upgrade head   # migração: endpoint direto
+vercel deploy --prod
+```
+
+Duas coisas que a Vercel impõe e o projeto respeita:
+
+- **Migração não roda no boot.** O container escala a zero e várias instâncias subiriam
+  concorrentes; `alembic upgrade head` é executado no deploy, fora da imagem.
+- **Container sem estado.** A primeira requisição depois de ~5 min sem tráfego paga um cold start
+  (alguns segundos até o briefing aparecer), e o rate limit em memória passa a valer por instância.
+
 ## Desenvolvimento
 
 ```bash
