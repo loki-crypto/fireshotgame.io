@@ -32,6 +32,8 @@ const TOAST_LIMIT = 4;
 export class Hud {
   readonly root: HTMLDivElement;
   private b = new Bind();
+  private cross!: HTMLElement;
+  private aimVignette!: HTMLElement;
   private objective: HTMLDivElement;
   private timer: HTMLDivElement;
   private hpFill: HTMLDivElement;
@@ -72,8 +74,10 @@ export class Hud {
     this.timer = el("div", "hud-timer", top);
     this.fps = el("div", "hud-fps", this.root);
 
-    const cross = el("div", "hud-crosshair", this.root);
-    for (let i = 0; i < 4; i++) el("span", `ch ch-${i}`, cross);
+    this.cross = el("div", "hud-crosshair", this.root);
+    for (let i = 0; i < 4; i++) el("span", `ch ch-${i}`, this.cross);
+    el("span", "ch-dot", this.cross);
+    this.aimVignette = el("div", "hud-aim", this.root);
     this.hitmark = el("div", "hud-hitmark", this.root);
     this.dmgDir = el("div", "hud-dmgdir", this.root);
     this.prompt = el("div", "hud-prompt", this.root);
@@ -154,6 +158,9 @@ export class Hud {
   }
 
   update(w: World, dt: number, elapsed: number, look: { yaw: number }): void {
+    // mira apurada: cruz recolhe, ponto aparece e a vinheta escurece as bordas
+    this.b.cls(this.cross, "aiming", w.player.aiming);
+    this.b.cls(this.aimVignette, "on", w.player.aiming);
     const b = this.b;
     const s = this.settings();
     const p = w.player;

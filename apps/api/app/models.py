@@ -38,7 +38,11 @@ class User(Base):
 
     id: Mapped[uuid.UUID] = mapped_column(UUID(as_uuid=True), primary_key=True, default=_uuid)
     email: Mapped[str] = mapped_column(CITEXT, unique=True, nullable=False)
+    username: Mapped[str] = mapped_column(CITEXT, unique=True, nullable=False)
+    """Identificador público, usado no rank. Único sem diferenciar maiúsculas (citext)."""
     name: Mapped[str] = mapped_column(Text, nullable=False)
+    avatar: Mapped[str] = mapped_column(String(24), default="agente", nullable=False)
+    """Id do avatar escolhido no cadastro (packages/content/avatars.json)."""
     password_hash: Mapped[str] = mapped_column(Text, nullable=False)
     xp: Mapped[int] = mapped_column(Integer, default=0, nullable=False)
     level: Mapped[int] = mapped_column(Integer, default=1, nullable=False)

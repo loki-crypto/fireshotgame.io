@@ -6,7 +6,7 @@ from fastapi import APIRouter, Request, Response, status
 
 from ..deps import Ct, CurrentUser, Db
 from ..errors import ApiError
-from ..schemas import DeleteAccountIn, LoginIn, RegisterIn
+from ..schemas import AvatarIn, DeleteAccountIn, LoginIn, RegisterIn
 from ..security.cookies import clear_cookies, set_access_cookie, set_refresh_cookie
 from ..security.passwords import verify_password
 from ..security.tokens import REFRESH_COOKIE
@@ -27,7 +27,14 @@ async def _login_response(db: Db, user, response: Response, content: Ct) -> dict
 @router.post("/register", status_code=status.HTTP_201_CREATED)
 async def register(body: RegisterIn, response: Response, db: Db, content: Ct) -> dict:
     user = await auth_service.register(
-        db, email=str(body.email), password=body.password, name=body.name, accepted_terms=body.acceptedTerms
+        db,
+        email=str(body.email),
+        username=body.username,
+        password=body.password,
+        name=body.name,
+        accepted_terms=body.acceptedTerms,
+        avatar=body.avatar,
+        content=content,
     )
     return await _login_response(db, user, response, content)
 
@@ -54,6 +61,12 @@ async def logout(request: Request, response: Response, db: Db) -> Response:
 
 
 me_router = APIRouter(tags=["auth"])
+
+
+@me_router.put("/me/avatar")
+async def set_avatar(body: AvatarIn, db: Db, user: CurrentUser, content: Ct) -> dict:
+    await auth_service.set_avatar(db, user, body.avatar, content)
+    return await profile(db, user, content)
 
 
 @me_router.delete("/me", status_code=status.HTTP_204_NO_CONTENT)

@@ -52,7 +52,12 @@ export function SettingsPanel({ compact = false }: { compact?: boolean }) {
           <span>{t("settings.sensitivity")} <output>{s.sensitivity.toFixed(2)}×</output></span>
           <input type="range" min={0.2} max={3} step={0.05} value={s.sensitivity} onInput={(e) => updateSettings({ sensitivity: Number((e.target as HTMLInputElement).value) })} />
         </label>
+        <label class="field-range">
+          <span>{t("settings.aimSensitivity")} <output>{s.aimSensitivity.toFixed(2)}×</output></span>
+          <input type="range" min={0.2} max={1.5} step={0.05} value={s.aimSensitivity} onInput={(e) => updateSettings({ aimSensitivity: Number((e.target as HTMLInputElement).value) })} />
+        </label>
         <label class="field-check"><input type="checkbox" checked={s.invertY} onChange={(e) => updateSettings({ invertY: (e.target as HTMLInputElement).checked })} /> {t("settings.invertY")}</label>
+        <label class="field-check"><input type="checkbox" checked={s.toggleAim} onChange={(e) => updateSettings({ toggleAim: (e.target as HTMLInputElement).checked })} /> {t("settings.toggleAim")}</label>
         <label class="field-range">
           <span>{t("settings.fov")} <output>{s.fov}°</output></span>
           <input type="range" min={60} max={100} step={1} value={s.fov} onInput={(e) => updateSettings({ fov: Number((e.target as HTMLInputElement).value) })} />

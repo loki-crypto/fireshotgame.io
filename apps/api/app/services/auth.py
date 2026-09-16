@@ -12,19 +12,35 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from ..config import get_settings
 from ..errors import ApiError
 from ..models import RefreshToken, User
+from ..schemas import USERNAME_RE
 from ..security.passwords import hash_password, needs_rehash, verify_password
 from ..security.tokens import create_access_token, hash_refresh_token, new_refresh_token
+from .content import Content, get_content
 
 
-async def register(db: AsyncSession, *, email: str, password: str, name: str, accepted_terms: bool) -> User:
+async def register(
+    db: AsyncSession,
+    *,
+    email: str,
+    username: str,
+    password: str,
+    name: str,
+    accepted_terms: bool,
+    avatar: str | None = None,
+    content: Content | None = None,
+) -> User:
     s = get_settings()
     if not accepted_terms:
         raise ApiError("terms_required")
     if len(password) < s.min_password_length:
         raise ApiError("weak_password")
+    if not USERNAME_RE.match(username.strip()):
+        raise ApiError("invalid_username")
     user = User(
         email=email.strip(),
+        username=username.strip(),
         name=name.strip(),
+        avatar=resolve_avatar(avatar, content),
         password_hash=hash_password(password),
         accepted_terms_at=datetime.now(UTC),
     )
@@ -33,9 +49,29 @@ async def register(db: AsyncSession, *, email: str, password: str, name: str, ac
     db.add(user)
     try:
         await db.flush()
-    except IntegrityError:
+    except IntegrityError as exc:
         await db.rollback()
-        raise ApiError("email_taken") from None
+        # a mensagem do Postgres diz qual índice único falhou
+        detail = str(getattr(exc, "orig", exc)).lower()
+        raise ApiError("username_taken" if "username" in detail else "email_taken") from None
+    return user
+
+
+def resolve_avatar(avatar: str | None, content: Content | None) -> str:
+    """Aceita só ids do catálogo; qualquer outra coisa cai no avatar padrão."""
+    c = content or get_content()
+    ids = c.avatar_ids()
+    if avatar and avatar in ids:
+        return avatar
+    return c.default_avatar()
+
+
+async def set_avatar(db: AsyncSession, user: User, avatar: str, content: Content | None = None) -> User:
+    c = content or get_content()
+    if avatar not in c.avatar_ids():
+        raise ApiError("validation", details={"fields": ["avatar"]})
+    user.avatar = avatar
+    await db.flush()
     return user
 
 

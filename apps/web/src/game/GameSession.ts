@@ -316,6 +316,7 @@ export class GameSession {
       case "dry_fire": s("dry"); break;
       case "reload_start": s("reload"); break;
       case "weapon_switch": s("switch"); break;
+      case "aim": s(ev.on ? "aimIn" : "aimOut"); break;
       case "enemy_hit": s(ev.counter === "strong" ? "hitStrong" : ev.counter === "weak" ? "hitWeak" : "hit"); break;
       case "enemy_killed": s("kill", ev.pos); break;
       case "enemy_spawned": s(ev.reason === "replication" ? "replicate" : "spawn", ev.pos); break;

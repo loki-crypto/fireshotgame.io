@@ -6,7 +6,8 @@ export type SoundName =
   | "pistol" | "cannon" | "beam" | "scanner" | "shieldHum" | "shieldBlock" | "reload" | "dry" | "switch"
   | "hit" | "hitStrong" | "hitWeak" | "kill" | "hurt" | "death" | "pickup" | "trap" | "terminalOk" | "terminalFail"
   | "door" | "replicate" | "alarm" | "inbox" | "jump" | "step" | "explosion" | "spawn" | "blocked" | "enemyShot"
-  | "checkpoint" | "reveal" | "lockout" | "encrypt" | "decrypt" | "exit" | "uiClick" | "uiHover";
+  | "checkpoint" | "reveal" | "lockout" | "encrypt" | "decrypt" | "exit" | "uiClick" | "uiHover"
+  | "aimIn" | "aimOut";
 
 export interface Listener {
   x: number;
@@ -134,6 +135,14 @@ export class Sfx {
       case "scanner":
         this.osc(ctx, o, t, "sine", 260, 1500, 0.45, 0.28, 0.02);
         this.osc(ctx, o, t + 0.42, "sine", 1800, 1800, 0.25, 0.12);
+        break;
+      case "aimIn":
+        // dois cliques mecânicos curtos: a arma encostando no ombro
+        this.osc(ctx, o, t, "triangle", 520, 880, 0.05, 0.05);
+        this.burst(ctx, o, t, 0.03, 0.18, "highpass", 2600, 2600);
+        break;
+      case "aimOut":
+        this.osc(ctx, o, t, "triangle", 760, 430, 0.06, 0.04);
         break;
       case "shieldHum":
         this.osc(ctx, o, t, "triangle", 170, 185, 0.18, 0.06, 0.03);

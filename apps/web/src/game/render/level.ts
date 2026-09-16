@@ -226,13 +226,15 @@ export function buildLevel(w: World): LevelView {
     arenaMarks.set(z.id, mark);
   }
 
-  // placas holográficas
+  // placas informativas: legíveis de perto e de longe, sem brilho por cima do texto
   for (const s of w.signs) {
-    const { texture } = signTexture(s.text, accent);
+    const { texture, aspect } = signTexture(s.text, accent);
     track(texture);
-    const sprite = new THREE.Sprite(track(new THREE.SpriteMaterial({ map: texture, transparent: true })));
-    sprite.scale.set(2.6, 1.3, 1);
-    sprite.position.set(s.pos.x, 1.9, s.pos.z);
+    const mat = track(new THREE.SpriteMaterial({ map: texture, transparent: true, depthWrite: false, fog: false }));
+    const sprite = new THREE.Sprite(mat);
+    const height = 1.25;
+    sprite.scale.set(height * aspect, height, 1);
+    sprite.position.set(s.pos.x, 2.0, s.pos.z);
     group.add(sprite);
   }
 

@@ -11,7 +11,7 @@ from fastapi import APIRouter, FastAPI
 from .config import get_settings
 from .db import dispose_engine
 from .errors import install_error_handlers
-from .routers import auth, badges, certificates, heartbeat, me, sessions, upgrades
+from .routers import auth, badges, certificates, heartbeat, leaderboard, me, sessions, upgrades
 from .security.middleware import CsrfMiddleware, RateLimitMiddleware
 from .services.content import get_content
 
@@ -50,6 +50,7 @@ def create_app() -> FastAPI:
     v1.include_router(heartbeat.router)
     v1.include_router(upgrades.router)
     v1.include_router(badges.router)
+    v1.include_router(leaderboard.router)
     v1.include_router(certificates.router)
     app.include_router(v1)
     app.include_router(certificates.public_router)

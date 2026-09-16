@@ -7,6 +7,7 @@ export type SimEvent =
   | { type: "reload_start"; weaponId: string }
   | { type: "reload_done"; weaponId: string }
   | { type: "weapon_switch"; weaponId: string }
+  | { type: "aim"; on: boolean }
   | { type: "enemy_hit"; enemyId: string; damage: number; counter: "strong" | "neutral" | "weak"; point: Vec3 }
   | { type: "enemy_killed"; enemyId: string; enemyType: string; weaponId: string; counter: "strong" | "neutral" | "weak"; pos: Vec3 }
   | { type: "enemy_spawned"; enemyId: string; enemyType: string; pos: Vec3; reason: "spawner" | "replication" | "wave" | "effect" }

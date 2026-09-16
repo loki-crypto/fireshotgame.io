@@ -143,28 +143,58 @@ export function screenTexture(info: ScreenInfo, seed: number): { texture: THREE.
   return { texture: tex(c), ctx: g };
 }
 
-/** Painel holográfico com texto quebrado em linhas. */
+/**
+ * Placa informativa do cenário. Legibilidade acima de estilo:
+ * fundo quase opaco, texto quase branco (não na cor de acento) e apenas uma faixa
+ * fina de acento no topo. Assim o texto não "estoura" de perto nem some no escuro.
+ */
 export function signTexture(text: string, color: string = PALETTE.accent): { texture: THREE.CanvasTexture; aspect: number } {
-  const [c, g] = canvas(512, 256);
-  g.fillStyle = "rgba(2, 10, 18, 0.72)";
-  g.fillRect(0, 0, 512, 256);
-  g.strokeStyle = color;
-  g.lineWidth = 4;
-  g.strokeRect(2, 2, 508, 252);
+  const W = 1024;
+  const H = 512;
+  const [c, g] = canvas(W, H);
+  const pad = 40;
+
+  // fundo: quase opaco, com um leve degradê para não parecer adesivo
+  const bg = g.createLinearGradient(0, 0, 0, H);
+  bg.addColorStop(0, "rgba(9, 16, 26, 0.95)");
+  bg.addColorStop(1, "rgba(5, 10, 18, 0.97)");
+  g.fillStyle = bg;
+  g.fillRect(0, 0, W, H);
+
+  // moldura discreta + faixa de acento no topo (identidade sem brilho no texto)
+  g.strokeStyle = "rgba(180, 210, 240, 0.28)";
+  g.lineWidth = 3;
+  g.strokeRect(4, 4, W - 8, H - 8);
   g.fillStyle = color;
-  g.font = "bold 30px system-ui, sans-serif";
+  g.fillRect(4, 4, W - 8, 10);
+  g.globalAlpha = 0.5;
+  g.fillRect(4, H - 10, W - 8, 6);
+  g.globalAlpha = 1;
+
+  // texto: branco levemente azulado, com sombra dura para contraste em qualquer luz
+  g.font = "600 46px ui-sans-serif, system-ui, sans-serif";
+  g.textBaseline = "top";
+  const maxWidth = W - pad * 2;
   const words = text.split(/\s+/);
   const lines: string[] = [];
   let cur = "";
   for (const word of words) {
     const test = cur ? `${cur} ${word}` : word;
-    if (g.measureText(test).width > 470 && cur) { lines.push(cur); cur = word; } else cur = test;
+    if (g.measureText(test).width > maxWidth && cur) { lines.push(cur); cur = word; } else cur = test;
   }
   if (cur) lines.push(cur);
-  const lh = 38;
-  const startY = 128 - ((lines.length - 1) * lh) / 2 + 10;
-  lines.slice(0, 6).forEach((l, i) => g.fillText(l, 20, startY + i * lh));
-  return { texture: tex(c), aspect: 2 };
+  const shown = lines.slice(0, 6);
+  const lh = 60;
+  const startY = (H - shown.length * lh) / 2 + 6;
+  shown.forEach((line, i) => {
+    const y = startY + i * lh;
+    g.fillStyle = "rgba(0, 0, 0, 0.85)";
+    g.fillText(line, pad + 2, y + 3);
+    g.fillStyle = "#eaf2ff";
+    g.fillText(line, pad, y);
+  });
+
+  return { texture: tex(c), aspect: W / H };
 }
 
 export function labelTexture(text: string, color: string, bg = "rgba(0,0,0,0)"): THREE.CanvasTexture {

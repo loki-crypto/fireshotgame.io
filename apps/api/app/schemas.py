@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import re
 from datetime import datetime
 from typing import Any, Literal
 
@@ -9,12 +10,24 @@ from pydantic import BaseModel, EmailStr, Field, field_validator
 
 from .config import get_settings
 
+USERNAME_RE = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._-]{2,15}$")
+
 
 class RegisterIn(BaseModel):
     email: EmailStr
+    username: str = Field(min_length=3, max_length=16)
     password: str = Field(min_length=1, max_length=200)
     name: str = Field(min_length=1, max_length=60)
     acceptedTerms: bool
+    avatar: str | None = Field(default=None, max_length=24)
+
+    @field_validator("username")
+    @classmethod
+    def _username(cls, v: str) -> str:
+        v = v.strip()
+        if not USERNAME_RE.match(v):
+            raise ValueError("username inválido")
+        return v
 
     @field_validator("name")
     @classmethod
@@ -28,6 +41,10 @@ class RegisterIn(BaseModel):
 class LoginIn(BaseModel):
     email: EmailStr
     password: str = Field(min_length=1, max_length=200)
+
+
+class AvatarIn(BaseModel):
+    avatar: str = Field(min_length=1, max_length=24)
 
 
 class DeleteAccountIn(BaseModel):

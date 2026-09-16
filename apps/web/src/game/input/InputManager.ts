@@ -13,11 +13,14 @@ export class InputManager {
   private pressed = new Set<string>();
   private wheel = 0;
   private lockedAt = -Infinity;
+  private aimToggled = false;
   yaw = 0;
   pitch = 0;
   lastInputAt = 0;
   enabled = true;
   locked = false;
+  /** mira ativa neste quadro (o render usa para a animação e o zoom) */
+  aiming = false;
 
   constructor(private getSettings: () => Settings, private now: () => number = () => performance.now()) {}
 
@@ -68,7 +71,8 @@ export class InputManager {
     if (this.now() - this.lockedAt < LOCK_SETTLE_MS) return;
     if (Math.abs(dx) > MAX_LOOK_DELTA || Math.abs(dy) > MAX_LOOK_DELTA) return;
     const s = this.getSettings();
-    const k = LOOK_SCALE * s.sensitivity;
+    // mirando, a mão fica mais leve: sensibilidade própria (padrão 0,65×)
+    const k = LOOK_SCALE * s.sensitivity * (this.aiming ? s.aimSensitivity : 1);
     this.yaw -= dx * k;
     this.pitch -= dy * k * (s.invertY ? -1 : 1);
     const lim = Math.PI / 2 - 0.02;
@@ -87,6 +91,8 @@ export class InputManager {
     this.down.clear();
     this.pressed.clear();
     this.wheel = 0;
+    this.aimToggled = false;
+    this.aiming = false;
   }
 
   /** Monta a entrada do próximo passo da simulação e consome as bordas. */
@@ -100,6 +106,14 @@ export class InputManager {
     inp.jump = this.isHeld("jump");
     inp.sprint = this.isHeld("sprint");
     inp.fire = this.locked && this.isHeld("fire");
+    if (this.getSettings().toggleAim) {
+      if (this.consume("aim")) this.aimToggled = !this.aimToggled;
+      if (!this.locked) this.aimToggled = false;
+    } else {
+      this.aimToggled = false;
+    }
+    this.aiming = this.locked && (this.aimToggled || this.isHeld("aim"));
+    inp.aim = this.aiming;
     inp.reload = this.consume("reload");
     inp.report = this.consume("report");
     inp.backup = this.consume("backup");

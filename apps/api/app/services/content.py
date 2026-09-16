@@ -15,6 +15,7 @@ PRACTICE_TAG = "practice"
 
 @dataclass(frozen=True)
 class Content:
+    avatars: list[dict[str, Any]]
     enemies: list[dict[str, Any]]
     weapons: list[dict[str, Any]]
     upgrades: list[dict[str, Any]]
@@ -45,6 +46,12 @@ class Content:
     def badge(self, badge_id: str) -> dict[str, Any] | None:
         return next((b for b in self.badges if b["id"] == badge_id), None)
 
+    def avatar_ids(self) -> list[str]:
+        return [a["id"] for a in self.avatars]
+
+    def default_avatar(self) -> str:
+        return self.avatars[0]["id"] if self.avatars else "agente"
+
     def terminal(self, phase_id: str, terminal_id: str) -> dict[str, Any] | None:
         p = self.phase(phase_id)
         if p is None:
@@ -67,6 +74,7 @@ def _read(path: Path) -> Any:
 
 def load_content(directory: Path | None = None) -> Content:
     root = Path(directory) if directory else get_settings().content_path
+    avatars = _read(root / "avatars.json")
     enemies = _read(root / "enemies.json")
     weapons = _read(root / "weapons.json")
     upgrades = _read(root / "upgrades.json")
@@ -74,10 +82,11 @@ def load_content(directory: Path | None = None) -> Content:
     phases = sorted((_read(p) for p in sorted((root / "phases").glob("*.json"))), key=lambda p: p["order"])
     pools = {p.stem: _read(p) for p in sorted((root / "pools").glob("*.json"))}
     version = ";".join(
-        [str(enemies["version"]), str(weapons["version"]), str(upgrades["version"]), str(badges["version"])]
+        [str(enemies["version"]), str(weapons["version"]), str(upgrades["version"]), str(badges["version"]), str(avatars["version"])]
         + [f"{p['id']}@{p['version']}" for p in phases]
     )
     return Content(
+        avatars=avatars["avatars"],
         enemies=enemies["enemies"],
         weapons=weapons["weapons"],
         upgrades=upgrades["upgrades"],

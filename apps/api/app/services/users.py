@@ -51,6 +51,8 @@ async def profile(db: AsyncSession, user: User, content: Content) -> dict[str, A
     return {
         "id": str(user.id),
         "name": user.name,
+        "username": user.username,
+        "avatar": user.avatar,
         "email": user.email,
         "xp": user.xp,
         "level": info.level,

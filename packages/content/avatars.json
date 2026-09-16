@@ -1,0 +1,245 @@
+{
+ "version": 1,
+ "avatars": [
+  {
+   "id": "agente",
+   "name": "Agente",
+   "concept": "Capacete tático com visor",
+   "palette": {
+    "o": "#060b14",
+    "s": "#f0c9a4",
+    "S": "#d3a982",
+    "h": "#2c4a6e",
+    "H": "#1d3350",
+    "v": "#39d0ff",
+    "c": "#22344e",
+    "C": "#16243a",
+    "w": "#eaf2ff"
+   },
+   "rows": [
+    "....oooo....",
+    "..oohhhhoo..",
+    ".ohhhhhhhho.",
+    ".ohHHHHHHho.",
+    ".osvvvvvvso.",
+    ".osssssssso.",
+    "..osssssso..",
+    "...oSSSSo...",
+    "..occcccco..",
+    ".occCwwCcco.",
+    ".oCccccccco.",
+    "..oooooooo.."
+   ]
+  },
+  {
+   "id": "analista",
+   "name": "Analista",
+   "concept": "Óculos e prancheta mental",
+   "palette": {
+    "o": "#060b14",
+    "s": "#e8b98f",
+    "S": "#c99a72",
+    "h": "#3a2a20",
+    "H": "#241a13",
+    "v": "#9fe8ff",
+    "c": "#2e4a3c",
+    "C": "#1d3128",
+    "w": "#eaf2ff"
+   },
+   "rows": [
+    "...oooooo...",
+    "..ohhhhhho..",
+    ".ohHhhhhHho.",
+    ".oshhhhhhso.",
+    ".osovvovvso.",
+    ".osssssssso.",
+    "..ossSSsso..",
+    "...oSSSSo...",
+    "..occcccco..",
+    ".occcwwccco.",
+    ".oCccccccCo.",
+    "..oooooooo.."
+   ]
+  },
+  {
+   "id": "hacker",
+   "name": "Encapuzada",
+   "concept": "Capuz e terminal",
+   "palette": {
+    "o": "#060b14",
+    "s": "#d9a97f",
+    "S": "#b98a62",
+    "h": "#1b1f2e",
+    "H": "#0f131e",
+    "v": "#b45cff",
+    "c": "#20233a",
+    "C": "#141727",
+    "w": "#c9a6ff"
+   },
+   "rows": [
+    "...oooooo...",
+    "..ohhhhhho..",
+    ".ohhHHHHhho.",
+    ".ohHssssHho.",
+    ".ohsvvvvsho.",
+    ".ohssssssho.",
+    "..ohsSSsho..",
+    "...ohSSho...",
+    "..occcccco..",
+    ".occwCCwcco.",
+    ".oCccccccCo.",
+    "..oooooooo.."
+   ]
+  },
+  {
+   "id": "soc",
+   "name": "Plantão SOC",
+   "concept": "Headset de operação",
+   "palette": {
+    "o": "#060b14",
+    "s": "#f2cfa8",
+    "S": "#d3ab84",
+    "h": "#4a3428",
+    "H": "#31221a",
+    "v": "#3dff8a",
+    "c": "#1f3a4a",
+    "C": "#142633",
+    "w": "#eaf2ff"
+   },
+   "rows": [
+    "...oooooo...",
+    "..ohhhhhho..",
+    ".ohhhhhhhho.",
+    "oohssssssoo.",
+    "owossssssow.",
+    "owosvvvvsoo.",
+    "ow.ossssso..",
+    "..w.oSSSo...",
+    "..occcccco..",
+    ".occwvvwcco.",
+    ".oCccccccCo.",
+    "..oooooooo.."
+   ]
+  },
+  {
+   "id": "pesquisadora",
+   "name": "Pesquisadora",
+   "concept": "Cabelo longo e lentes",
+   "palette": {
+    "o": "#060b14",
+    "s": "#f5d3b0",
+    "S": "#d8b08c",
+    "h": "#6b2f3a",
+    "H": "#481f27",
+    "v": "#ffd166",
+    "c": "#3b2b4a",
+    "C": "#281d33",
+    "w": "#f7e6c8"
+   },
+   "rows": [
+    "...oooooo...",
+    "..ohhhhhho..",
+    ".ohhhhhhhho.",
+    ".ohssssssho.",
+    ".ohovvovvho.",
+    ".ohssssssho.",
+    ".ohsSSSSsho.",
+    ".oHhoSSohHo.",
+    ".oHoccccoHHo",
+    ".occcwwccco.",
+    ".oCccccccCo.",
+    "..oooooooo.."
+   ]
+  },
+  {
+   "id": "veterana",
+   "name": "Veterana",
+   "concept": "Boina e cicatriz",
+   "palette": {
+    "o": "#060b14",
+    "s": "#e2b287",
+    "S": "#c1916a",
+    "h": "#2f3b2a",
+    "H": "#1e271b",
+    "v": "#ff9f1c",
+    "c": "#39422f",
+    "C": "#242a1e",
+    "w": "#e8e2c8"
+   },
+   "rows": [
+    "..oooooo....",
+    ".ohhhhhhho..",
+    ".ohHHHHHhho.",
+    "..osssssso..",
+    ".osvsssvsso.",
+    ".osssssssso.",
+    "..ossSSsso..",
+    "...oSSSSo...",
+    "..occcccco..",
+    ".occvCCvcco.",
+    ".oCccccccCo.",
+    "..oooooooo.."
+   ]
+  },
+  {
+   "id": "dev",
+   "name": "Dev de Plantão",
+   "concept": "Boné virado e café",
+   "palette": {
+    "o": "#060b14",
+    "s": "#d99f73",
+    "S": "#b87f57",
+    "h": "#1f4d6b",
+    "H": "#143449",
+    "v": "#39d0ff",
+    "c": "#2a2f3d",
+    "C": "#1a1e29",
+    "w": "#eaf2ff"
+   },
+   "rows": [
+    "...oooooo...",
+    "..ohhhhhhoo.",
+    ".ohhhhhhhHHo",
+    ".ohHHHHHho..",
+    ".ossssssso..",
+    ".osvssvsso..",
+    "..osssssso..",
+    "...oSSSSo...",
+    "..occcccco..",
+    ".occwvvwcco.",
+    ".oCccccccCo.",
+    "..oooooooo.."
+   ]
+  },
+  {
+   "id": "androide",
+   "name": "Androide",
+   "concept": "Sensor óptico único",
+   "palette": {
+    "o": "#060b14",
+    "s": "#8fa3bd",
+    "S": "#6d8099",
+    "h": "#c6d4e8",
+    "H": "#9aabc4",
+    "v": "#ff3d6e",
+    "c": "#3a4558",
+    "C": "#232b38",
+    "w": "#eaf2ff"
+   },
+   "rows": [
+    "....oooo....",
+    "..oohhhhoo..",
+    ".ohhhhhhhho.",
+    ".ohHssssHho.",
+    ".ohsovvosho.",
+    ".ohssvvssho.",
+    "..ohssssho..",
+    "...oSSSSo...",
+    "..occcccco..",
+    ".occCwwCcco.",
+    ".oCccccccCo.",
+    "..oooooooo.."
+   ]
+  }
+ ]
+}

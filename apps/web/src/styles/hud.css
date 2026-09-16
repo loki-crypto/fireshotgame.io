@@ -14,11 +14,45 @@
 .hud-fps { position: absolute; top: 52px; right: 16px; font-size: 0.75rem; color: var(--muted); }
 
 .hud-crosshair { position: absolute; left: 50%; top: 50%; width: 0; height: 0; }
-.hud-crosshair .ch { position: absolute; background: rgba(230, 250, 255, 0.9); box-shadow: 0 0 3px rgba(0, 0, 0, 0.9); }
+.hud-crosshair .ch {
+  position: absolute;
+  background: rgba(230, 250, 255, 0.9);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.9);
+  transition: transform 120ms ease-out, opacity 120ms ease-out;
+}
 .ch-0 { width: 2px; height: 8px; left: -1px; top: -13px; }
 .ch-1 { width: 2px; height: 8px; left: -1px; top: 5px; }
 .ch-2 { width: 8px; height: 2px; left: -13px; top: -1px; }
 .ch-3 { width: 8px; height: 2px; left: 5px; top: -1px; }
+/* mirando: os braços recolhem para o centro e dão lugar a um ponto preciso */
+.hud-crosshair.aiming .ch-0 { transform: translateY(9px); opacity: 0; }
+.hud-crosshair.aiming .ch-1 { transform: translateY(-9px); opacity: 0; }
+.hud-crosshair.aiming .ch-2 { transform: translateX(9px); opacity: 0; }
+.hud-crosshair.aiming .ch-3 { transform: translateX(-9px); opacity: 0; }
+.ch-dot {
+  position: absolute;
+  left: -1.5px;
+  top: -1.5px;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.95);
+  opacity: 0;
+  transform: scale(0.4);
+  transition: transform 120ms ease-out, opacity 120ms ease-out;
+}
+.hud-crosshair.aiming .ch-dot { opacity: 1; transform: scale(1); }
+/* vinheta da mira: foca o centro sem escurecer a cena inteira */
+.hud-aim {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 140ms ease-out;
+  background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0) 32%, rgba(0, 0, 0, 0.42) 100%);
+}
+.hud-aim.on { opacity: 1; }
 .hud-hitmark { position: absolute; left: 50%; top: 50%; width: 26px; height: 26px; transform: translate(-50%, -50%) rotate(45deg); opacity: 0; }
 .hud-hitmark::before, .hud-hitmark::after { content: ""; position: absolute; background: #fff; }
 .hud-hitmark::before { left: 12px; top: 0; width: 2px; height: 26px; clip-path: polygon(0 0, 100% 0, 100% 35%, 0 35%, 0 65%, 100% 65%, 100% 100%, 0 100%); }

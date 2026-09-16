@@ -23,3 +23,9 @@ async def progress(db: Db, user: CurrentUser, content: Ct) -> dict:
 @router.get("/content/version")
 async def content_version(content: Ct) -> dict:
     return {"contentVersion": content.version}
+
+
+@router.get("/avatars")
+async def avatars(content: Ct) -> dict:
+    """Catálogo de avatares (o cliente desenha a arte a partir do id)."""
+    return {"avatars": content.avatars}

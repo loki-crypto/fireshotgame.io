@@ -86,7 +86,9 @@ export class Renderer {
     if (this.quality !== "high") return;
     this.composer = new EffectComposer(this.gl);
     this.composer.addPass(new RenderPass(this.scene, this.camera));
-    this.bloom = new UnrealBloomPass(new THREE.Vector2(256, 256), 0.75, 0.35, 0.18);
+    // limiar mais alto e força menor: o neon continua brilhando, mas texto e placas
+    // (quase brancos) deixam de estourar quando o jogador chega perto
+    this.bloom = new UnrealBloomPass(new THREE.Vector2(256, 256), 0.5, 0.45, 0.62);
     this.composer.addPass(this.bloom);
     this.composer.addPass(new OutputPass());
   }
@@ -485,7 +487,12 @@ export class Renderer {
       this.shake = Math.max(0, this.shake - dt * 1.5);
     }
     if (this.world.status === "dead") this.camera.position.y = Math.max(0.4, this.camera.position.y - 1.1);
-    if (this.camera.fov !== s.fov) { this.camera.fov = s.fov; this.camera.updateProjectionMatrix(); }
+    // zoom da mira: a lente fecha junto com a animação da arma (fator suavizado no viewmodel)
+    const targetFov = s.fov * (1 - this.viewmodel.adsFactor * 0.26);
+    if (Math.abs(this.camera.fov - targetFov) > 0.01) {
+      this.camera.fov = targetFov;
+      this.camera.updateProjectionMatrix();
+    }
     this.playerLight.position.set(x, y + 2.4, z);
 
     this.syncLevel(dt);
@@ -500,7 +507,7 @@ export class Renderer {
       const def = findWeaponDef(this.world.reg, ws.defId);
       this.viewmodel.setWeapon(def.id, def.color);
     }
-    this.viewmodel.update(dt, p.moving && p.onGround, p.sprinting, p.shieldUp, s.reduceMotion, this.camera.aspect, s.fov);
+    this.viewmodel.update(dt, p.moving && p.onGround, p.sprinting, p.shieldUp, s.reduceMotion, this.camera.aspect, s.fov, p.aiming);
 
     this.gl.clear();
     if (this.composer) this.composer.render(dt);

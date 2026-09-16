@@ -15,6 +15,8 @@ from starlette.exceptions import HTTPException as StarletteHTTPException
 MESSAGES: dict[str, str] = {
     "invalid_credentials": "E-mail ou senha incorretos.",
     "email_taken": "Já existe uma conta com este e-mail.",
+    "username_taken": "Este nome de jogador já está em uso.",
+    "invalid_username": "Use de 3 a 16 caracteres: letras, números, ponto, hífen ou _.",
     "terms_required": "É preciso aceitar os termos.",
     "weak_password": "A senha precisa ter pelo menos 8 caracteres.",
     "rate_limited": "Muitas tentativas. Aguarde um minuto e tente de novo.",
@@ -34,6 +36,8 @@ MESSAGES: dict[str, str] = {
 STATUS_CODES: dict[str, int] = {
     "invalid_credentials": 401,
     "email_taken": 409,
+    "username_taken": 409,
+    "invalid_username": 422,
     "terms_required": 422,
     "weak_password": 422,
     "rate_limited": 429,

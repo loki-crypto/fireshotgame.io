@@ -1,7 +1,7 @@
 import { signal, effect } from "@preact/signals";
 
 export const ACTIONS = [
-  "forward", "back", "left", "right", "jump", "sprint", "fire", "reload", "interact", "report", "backup",
+  "forward", "back", "left", "right", "jump", "sprint", "fire", "aim", "reload", "interact", "report", "backup",
   "weapon1", "weapon2", "weapon3", "weapon4", "weapon5", "pause",
 ] as const;
 export type Action = (typeof ACTIONS)[number];
@@ -14,6 +14,7 @@ export const DEFAULT_BINDINGS: Record<Action, string[]> = {
   jump: ["Space"],
   sprint: ["ShiftLeft"],
   fire: ["Mouse0"],
+  aim: ["Mouse2"],
   reload: ["KeyR"],
   interact: ["KeyE"],
   report: ["KeyF"],
@@ -28,6 +29,10 @@ export const DEFAULT_BINDINGS: Record<Action, string[]> = {
 
 export interface Settings {
   sensitivity: number;
+  /** sensibilidade aplicada enquanto mira (mira apurada pede mão mais leve) */
+  aimSensitivity: number;
+  /** mira alterna com um toque em vez de segurar o botão */
+  toggleAim: boolean;
   invertY: boolean;
   fov: number;
   volume: number;
@@ -41,6 +46,8 @@ export interface Settings {
 
 export const DEFAULT_SETTINGS: Settings = {
   sensitivity: 1,
+  aimSensitivity: 0.65,
+  toggleAim: false,
   invertY: false,
   fov: 75,
   volume: 0.7,

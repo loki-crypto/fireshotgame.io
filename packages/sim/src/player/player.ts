@@ -10,6 +10,8 @@ export interface PlayerInput {
   sprint: boolean;
   /** gatilho pressionado (mantido) */
   fire: boolean;
+  /** mira apurada pressionada (mantida) — vale para todas as armas */
+  aim: boolean;
   /** borda: recarregar */
   reload: boolean;
   /** 1..5 para selecionar arma; 0 = sem troca */
@@ -25,7 +27,7 @@ export interface PlayerInput {
 }
 
 export const emptyInput = (): PlayerInput => ({
-  forward: 0, strafe: 0, jump: false, sprint: false, fire: false, reload: false,
+  forward: 0, strafe: 0, jump: false, sprint: false, fire: false, aim: false, reload: false,
   weaponSlot: 0, weaponCycle: 0, report: false, backup: false, yaw: 0, pitch: 0,
 });
 
@@ -54,6 +56,8 @@ export interface Player {
   saturated: boolean;
   sprinting: boolean;
   moving: boolean;
+  /** mira apurada ativa (dispersão menor, passo mais curto) */
+  aiming: boolean;
 }
 
 export const PLAYER_TUNING = {
@@ -70,6 +74,10 @@ export const PLAYER_TUNING = {
   baseShield: 50,
   saturatedSpeedMult: 0.55,
   shieldRegenDelay: 4,
+  /** mirando: passo mais curto, em troca da precisão */
+  aimSpeedMult: 0.5,
+  /** dispersão do tiro enquanto mira (fração da dispersão de quadril) */
+  aimSpreadMult: 0.22,
 } as const;
 
 export function createPlayer(pos: Vec3, yaw: number, weapons: WeaponState[], maxHp: number, maxShield: number): Player {
@@ -79,7 +87,7 @@ export function createPlayer(pos: Vec3, yaw: number, weapons: WeaponState[], max
     hp: maxHp, maxHp, shield: maxShield, maxShield,
     stamina: 100, maxStamina: 100, exhausted: false,
     weapons, active: 0, alive: true, invuln: 0, lastDamageAt: -999,
-    shieldUp: false, saturated: false, sprinting: false, moving: false,
+    shieldUp: false, aiming: false, saturated: false, sprinting: false, moving: false,
   };
 }
 

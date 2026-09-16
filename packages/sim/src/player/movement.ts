@@ -31,8 +31,10 @@ export function stepPlayerMovement(p: Player, input: PlayerInput, grid: Grid, dt
   if (moving) { wx /= wl; wz /= wl; }
   p.moving = moving;
 
-  p.sprinting = updateStamina(p, input.sprint && input.forward > 0, moving, dt);
+  // correr e mirar se excluem: quem mira anda devagar
+  p.sprinting = updateStamina(p, input.sprint && input.forward > 0 && !p.aiming, moving, dt);
   let speed = p.sprinting ? T.sprintSpeed : T.walkSpeed;
+  if (p.aiming) speed *= T.aimSpeedMult;
   if (p.saturated) speed *= T.saturatedSpeedMult;
   if (p.shieldUp) speed *= 0.75;
 

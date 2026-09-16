@@ -1,7 +1,7 @@
 import { raycastGrid } from "../core/grid";
 import { findEnemyDef, isAmmoWeapon, type EnemyStatus, type ProjectileWeaponDef, type WeaponDef } from "../core/types";
 import { forwardFrom, type Vec3 } from "../core/vec";
-import { eyePosition } from "../player/player";
+import { eyePosition, PLAYER_TUNING } from "../player/player";
 import { computeDamage, type CounterKind } from "../weapons/damage";
 import { hitRadius, hitscan, raySphere, targetCenter } from "../weapons/hitscan";
 import { canFire, magazineSize, startReload, tickWeapon } from "../weapons/weapon";
@@ -150,8 +150,9 @@ export function switchWeapon(w: World, index: number): void {
 
 function aimDirection(w: World, spread: number): Vec3 {
   const p = w.player;
-  const sy = spread > 0 ? (w.rng.next() - 0.5) * 2 * spread : 0;
-  const sp = spread > 0 ? (w.rng.next() - 0.5) * 2 * spread : 0;
+  const cone = p.aiming ? spread * PLAYER_TUNING.aimSpreadMult : spread;
+  const sy = cone > 0 ? (w.rng.next() - 0.5) * 2 * cone : 0;
+  const sp = cone > 0 ? (w.rng.next() - 0.5) * 2 * cone : 0;
   return forwardFrom(p.yaw + sy, p.pitch + sp);
 }
 
@@ -159,7 +160,17 @@ const rofMult = (w: World): number => (w.player.saturated ? 0.6 : 1);
 
 export function stepPlayerWeapons(w: World, input: PlayerInput, dt: number): void {
   const p = w.player;
-  if (!p.alive) return;
+  if (!p.alive) {
+    p.aiming = false;
+    return;
+  }
+
+  // mira vale para todas as armas: nas de tiro reduz a dispersão, nas utilitárias aproxima a visão
+  const wantsAim = input.aim && p.onGround;
+  if (wantsAim !== p.aiming) {
+    p.aiming = wantsAim;
+    emit(w, { type: "aim", on: wantsAim });
+  }
 
   // troca de arma
   if (input.weaponSlot > 0) {
