@@ -41,20 +41,31 @@ _ephemeral_key: Ed25519PrivateKey | None = None
 # ── chaves ────────────────────────────────────────────────────────────────────
 
 
+def _load_pem(data: bytes, origin: str) -> Ed25519PrivateKey:
+    try:
+        key = serialization.load_pem_private_key(data, password=None)
+    except ValueError as exc:
+        raise ApiError("unknown", f"Chave do certificado inválida ({origin}).") from exc
+    if not isinstance(key, Ed25519PrivateKey):
+        raise ApiError("unknown", f"A chave do certificado não é Ed25519 ({origin}).")
+    return key
+
+
 def signing_key() -> Ed25519PrivateKey:
     global _ephemeral_key
     s = get_settings()
+    if s.cert_private_key_pem:
+        # serverless: a chave vem da variável de ambiente (com \n literal ou real)
+        pem = s.cert_private_key_pem.replace("\\n", "\n").strip()
+        return _load_pem(pem.encode("utf-8"), "CERT_PRIVATE_KEY_PEM")
     if s.cert_private_key_file:
         path = Path(s.cert_private_key_file)
         if not path.is_file():
             raise ApiError("unknown", f"Chave do certificado não encontrada em {path}.")
-        key = serialization.load_pem_private_key(path.read_bytes(), password=None)
-        if not isinstance(key, Ed25519PrivateKey):
-            raise ApiError("unknown", "A chave do certificado não é Ed25519.")
-        return key
+        return _load_pem(path.read_bytes(), str(path))
     if _ephemeral_key is None:
         _ephemeral_key = Ed25519PrivateKey.generate()
-        log.warning("CERT_PRIVATE_KEY_FILE ausente: usando chave Ed25519 efêmera (só para desenvolvimento).")
+        log.warning("Sem CERT_PRIVATE_KEY_PEM/FILE: chave Ed25519 efêmera (apenas desenvolvimento).")
     return _ephemeral_key
 
 

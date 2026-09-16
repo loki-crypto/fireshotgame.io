@@ -22,7 +22,7 @@ def engine() -> AsyncEngine:
     global _engine
     if _engine is None:
         s = get_settings()
-        _engine = create_async_engine(s.database_url, echo=s.db_echo, pool_pre_ping=True)
+        _engine = create_async_engine(s.sqlalchemy_url, echo=s.db_echo, pool_pre_ping=True)
     return _engine
 
 

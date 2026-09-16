@@ -15,3 +15,5 @@ apps/api/.venv/
 apps/api/__pycache__/
 **/__pycache__/
 infra/cert-key.pem
+.vercel
+.env*

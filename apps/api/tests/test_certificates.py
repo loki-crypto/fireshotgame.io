@@ -2,11 +2,13 @@
 
 from __future__ import annotations
 
+import pytest
 from httpx import AsyncClient
 from pypdf import PdfReader
 from sqlalchemy import text
 
 from app.db import sessionmaker
+from app.errors import ApiError
 from app.services import certificates as service
 
 from .conftest import USER, add_active_time, complete_phase
@@ -117,6 +119,31 @@ async def test_account_deletion_can_revoke_instead(client: AsyncClient, user, co
     async with AsyncClient(transport=client._transport, base_url="http://test") as anon:
         body = (await anon.get(f"/api/v1/verify/{code}")).json()
         assert body["revoked"] is True and body["valid"] is False and body["signatureOk"] is True
+
+
+def test_signing_key_from_env_pem(monkeypatch) -> None:
+    """Em serverless a chave vem por variável de ambiente, não por arquivo."""
+    from cryptography.hazmat.primitives import serialization
+    from cryptography.hazmat.primitives.asymmetric.ed25519 import Ed25519PrivateKey
+
+    from app.config import get_settings
+
+    generated = Ed25519PrivateKey.generate()
+    pem = generated.private_bytes(
+        serialization.Encoding.PEM, serialization.PrivateFormat.PKCS8, serialization.NoEncryption()
+    ).decode()
+
+    s = get_settings()
+    monkeypatch.setattr(s, "cert_private_key_pem", pem)
+    assert service.public_key_b64() == service.public_key_b64(generated)
+
+    # \n literal (como o Vercel guarda variáveis multilinha) também funciona
+    monkeypatch.setattr(s, "cert_private_key_pem", pem.replace("\n", "\\n"))
+    assert service.public_key_b64() == service.public_key_b64(generated)
+
+    monkeypatch.setattr(s, "cert_private_key_pem", "não é uma chave")
+    with pytest.raises(ApiError):
+        service.signing_key()
 
 
 def test_code_normalization() -> None:

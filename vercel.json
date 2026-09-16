@@ -1,0 +1,24 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "services": {
+    "web": {
+      "root": "./",
+      "framework": "vite",
+      "installCommand": "pnpm install --frozen-lockfile",
+      "buildCommand": "pnpm --filter @fireshot/web build",
+      "outputDirectory": "apps/web/dist"
+    },
+    "api": {
+      "runtime": "container",
+      "root": "./",
+      "entrypoint": "infra/api.vercel.Dockerfile"
+    }
+  },
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": { "service": "api" } },
+    { "source": "/.well-known/certificate-public-key", "destination": { "service": "api" } },
+    { "source": "/verificar/(.*)", "destination": "/verificar.html" },
+    { "source": "/verificar", "destination": "/verificar.html" },
+    { "source": "/(.*)", "destination": { "service": "web" } }
+  ]
+}

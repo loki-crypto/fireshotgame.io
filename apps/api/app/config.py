@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from functools import lru_cache
 from pathlib import Path
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 from pydantic import Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
@@ -23,6 +24,38 @@ def _discover_root(start: Path) -> Path:
 
 
 REPO_ROOT = _discover_root(Path(__file__).resolve().parent)
+
+
+#: parâmetros de libpq que o asyncpg não entende (provedores gerenciados os incluem)
+_LIBPQ_ONLY = {"channel_binding", "options", "connect_timeout", "application_name", "target_session_attrs"}
+
+
+def normalize_database_url(raw: str) -> str:
+    """Converte a URL do provedor para o dialeto asyncpg do SQLAlchemy.
+
+    Neon, Supabase e afins entregam `postgresql://…?sslmode=require&channel_binding=require`
+    (formato libpq). O asyncpg usa `ssl=` e recusa os demais parâmetros. Em endpoint com
+    PgBouncer (`-pooler` no host) o cache de prepared statements precisa ficar desligado.
+    """
+    if not raw or "+" in raw.split("://", 1)[0]:
+        return raw  # já está no formato do SQLAlchemy (ex.: postgresql+asyncpg://)
+    parts = urlsplit(raw)
+    if parts.scheme not in ("postgres", "postgresql"):
+        return raw
+
+    query: list[tuple[str, str]] = []
+    for key, value in parse_qsl(parts.query, keep_blank_values=True):
+        if key == "sslmode":
+            query.append(("ssl", value))
+        elif key not in _LIBPQ_ONLY:
+            query.append((key, value))
+    keys = {k for k, _ in query}
+    if "ssl" not in keys and parts.hostname and not parts.hostname.endswith(("localhost", "127.0.0.1")):
+        query.append(("ssl", "require"))
+    if "-pooler" in (parts.hostname or "") and "prepared_statement_cache_size" not in keys:
+        query.append(("prepared_statement_cache_size", "0"))
+
+    return urlunsplit(("postgresql+asyncpg", parts.netloc, parts.path, urlencode(query), parts.fragment))
 
 
 class Settings(BaseSettings):
@@ -58,7 +91,13 @@ class Settings(BaseSettings):
     issuer_name: str = "Fireshot: Defesa de Rede"
     verify_base_url: str = "http://localhost:5173/verificar"
     cert_private_key_file: Path | None = None
-    """Chave Ed25519 (PEM PKCS#8, sem senha). Ausente: gera uma efêmera e avisa (só para desenvolvimento)."""
+    """Chave Ed25519 (PEM PKCS#8, sem senha) em arquivo — usado no Docker Compose."""
+    cert_private_key_pem: str | None = None
+    """Mesma chave, mas embutida na variável de ambiente (serverless não tem arquivo de segredo).
+
+    Tem precedência sobre o arquivo. Sem nenhuma das duas, gera uma chave efêmera e avisa: só
+    serve para desenvolvimento, porque cada processo assinaria com uma chave diferente.
+    """
     cert_min_active_hours: float = 3.0
     cert_min_accuracy: float = 0.70
 
@@ -73,6 +112,11 @@ class Settings(BaseSettings):
     @property
     def content_path(self) -> Path:
         return Path(self.content_dir)
+
+    @property
+    def sqlalchemy_url(self) -> str:
+        """URL do banco no dialeto asyncpg, aceitando o formato entregue pelos provedores."""
+        return normalize_database_url(self.database_url)
 
 
 @lru_cache
