@@ -1,0 +1,158 @@
+{
+  "id": "02-subnets",
+  "version": 1,
+  "order": 2,
+  "title": "Segmentação",
+  "subtitle": "Sub-redes, máscara e o que se esconde",
+  "concepts": ["Sub-rede", "Máscara de rede", "Segmentação", "Rootkit"],
+  "learningObjectives": [
+    "Calcular a rede de um endereço a partir do prefixo (/24 a /28)",
+    "Decidir se dois hosts falam direto ou precisam do roteador",
+    "Entender por que segmentar limita o alcance de um invasor",
+    "Reconhecer que ameaças ocultas exigem varredura ativa para aparecer"
+  ],
+  "briefing": {
+    "lines": [
+      { "speaker": "SOC", "text": "Setor administrativo. O worm foi contido, mas a telemetria acusa algo agindo sem processo visível: Rootkit." },
+      { "speaker": "SOC", "text": "Rootkit se esconde do próprio sistema. Sem varredura você toma dano sem ver a origem — e suas balas quase não o machucam." },
+      { "speaker": "SOC", "text": "Liberamos o Scanner (tecla 2). Ele não causa dano: revela. Ameaça revelada recebe 2,5× de dano; oculta, apenas 0,5×." },
+      { "speaker": "SOC", "text": "Aqui a rede foi fatiada em sub-redes. A máscara define onde termina a rede e começa o host — é o que impede um comprometimento de se espalhar." },
+      { "speaker": "SOC", "text": "Resolva os três terminais de endereçamento para reabrir as rotas até o núcleo." }
+    ]
+  },
+  "debriefing": {
+    "summary": [
+      "A máscara (/24, /26, /28…) separa a parte de rede da parte de host: mesma rede fala direto, redes diferentes passam pelo roteador.",
+      "O bloco tem 2^(32−prefixo) endereços; o primeiro é a rede, o último é o broadcast, e os do meio são os hosts.",
+      "Segmentar a rede reduz o domínio de broadcast e limita o alcance de quem entra — princípio de menor privilégio aplicado à topologia.",
+      "Ameaça oculta não é ameaça ausente: varredura ativa (Scanner) é o que transforma o invisível em alvo."
+    ]
+  },
+  "parTime": 660,
+  "minTime": 90,
+  "limits": { "maxKills": 90, "maxBytes": 240 },
+  "tags": [],
+  "weaponsAvailable": ["patch_pistol", "scanner"],
+  "introducesWeapon": "scanner",
+  "introducesEnemies": ["rootkit"],
+  "ambient": { "accent": "#b45cff", "fogDensity": 0.03 },
+  "layout": {
+    "cellSize": 2,
+    "wallHeight": 3.2,
+    "rows": [
+      "##################################",
+      "#.........#....y....#............#",
+      "#..P......#.........#............#",
+      "#....1....#....r....#......X.....#",
+      "#.........a.........#............#",
+      "#.........a.........#.....m......#",
+      "#.........#....2....#............#",
+      "#...T.....#......U..#............#",
+      "###########bb########dd###########",
+      "#.......h.......#................#",
+      "#...r...........#...AAAAAAAAAA...#",
+      "#.......s.......c...AAAAAAAAAA...#",
+      "#....3..........c...AAAAAAAAAA...#",
+      "#...............#...AAAAAAAAAA..e#",
+      "#..........V....#.......4.......z#",
+      "##################################"
+    ]
+  },
+  "legend": {
+    "P": { "type": "player" },
+    "1": { "type": "sign", "text": "Scanner (2): varredura de rede. Não fere — revela. Revelado = 2,5× de dano; oculto = 0,5×." },
+    "2": { "type": "sign", "text": "Mesma rede: entrega direta pelo MAC. Rede diferente: o pacote vai para o gateway." },
+    "3": { "type": "sign", "text": "Sub-rede /26 = blocos de 64 endereços: .0-.63, .64-.127, .128-.191, .192-.255." },
+    "4": { "type": "sign", "text": "Núcleo administrativo. Segmentos isolados = um host comprometido não alcança a empresa inteira." },
+    "T": { "type": "terminal", "id": "t1" },
+    "U": { "type": "terminal", "id": "t2" },
+    "V": { "type": "terminal", "id": "t3" },
+    "a": { "type": "door", "id": "d1" },
+    "b": { "type": "door", "id": "d2" },
+    "c": { "type": "door", "id": "d3" },
+    "d": { "type": "door", "id": "d4" },
+    "r": { "type": "enemy", "enemy": "rootkit", "route": "corridor" },
+    "s": { "type": "spawner", "id": "s1" },
+    "z": { "type": "spawner", "id": "s2" },
+    "A": { "type": "arena", "id": "a1" },
+    "h": { "type": "pickup", "kind": "health" },
+    "e": { "type": "pickup", "kind": "shield" },
+    "y": { "type": "pickup", "kind": "bytes", "amount": 12 },
+    "m": { "type": "pickup", "kind": "ammo" },
+    "X": { "type": "exit" }
+  },
+  "routes": {
+    "corridor": [[12, 3], [18, 3], [18, 6], [12, 6]]
+  },
+  "spawners": [
+    { "id": "s1", "enemy": "rootkit", "every": 22, "max": 2, "active": true },
+    { "id": "s2" }
+  ],
+  "arenas": [
+    {
+      "id": "a1",
+      "title": "Varredura do núcleo",
+      "lockDoors": ["d3"],
+      "waves": [
+        {
+          "spawns": [{ "spawner": "s2", "enemy": "rootkit", "count": 2, "interval": 2.0 }],
+          "delayAfter": 3.0,
+          "message": "Processos ocultos se movendo. Use o Scanner para revelá-los!"
+        },
+        {
+          "spawns": [
+            { "spawner": "s2", "enemy": "rootkit", "count": 3, "interval": 1.6 },
+            { "spawner": "s2", "enemy": "worm", "count": 2, "interval": 1.2 }
+          ]
+        }
+      ],
+      "onClear": [
+        { "type": "openDoor", "door": "d4" },
+        { "type": "message", "text": "Setor limpo. A rota para a saída está aberta.", "tone": "success" }
+      ]
+    }
+  ],
+  "terminals": [
+    {
+      "id": "t1",
+      "title": "Por que segmentar",
+      "concept": "Sub-rede, máscara e gateway",
+      "generator": "mc_pool",
+      "params": { "pool": "subnet", "counterTags": ["subnet"] },
+      "challenges": 2,
+      "required": true,
+      "onSolve": [{ "type": "openDoor", "door": "d1" }],
+      "hint": "A máscara diz quantos bits são de rede; o resto identifica o host."
+    },
+    {
+      "id": "t2",
+      "title": "Mesma rede?",
+      "concept": "Decidir entrega direta × roteador",
+      "generator": "subnet_same_network",
+      "params": { "prefixes": [24, 25, 26, 27] },
+      "challenges": 2,
+      "required": true,
+      "onSolve": [
+        { "type": "openDoor", "door": "d2" },
+        { "type": "message", "text": "Rota interna validada: a porta do corredor central abriu.", "tone": "success" }
+      ],
+      "hint": "Compare o bloco: com /26 os limites são .0, .64, .128 e .192."
+    },
+    {
+      "id": "t3",
+      "title": "Cálculo do bloco",
+      "concept": "Rede, broadcast e hosts utilizáveis",
+      "generator": "subnet_numeric",
+      "params": { "fields": ["network", "broadcast", "hosts"] },
+      "challenges": 2,
+      "required": true,
+      "onSolve": [
+        { "type": "disableSpawner", "spawner": "s1" },
+        { "type": "openDoor", "door": "d3" },
+        { "type": "message", "text": "Sub-rede reconfigurada: o segmento infectado ficou sem rota.", "tone": "success" }
+      ],
+      "hint": "Rede = múltiplo do tamanho do bloco. Broadcast = rede + tamanho − 1. Hosts = tamanho − 2."
+    }
+  ],
+  "exit": { "requires": { "terminals": ["t1", "t2", "t3"], "arenas": ["a1"] } }
+}

@@ -3,6 +3,9 @@ import type { Question } from "../types";
 import type { Generator } from "./common";
 import { classifyPool, matchPool, mcPool } from "./pool";
 import { addressFormatMatch, switchTableMatch } from "./lan";
+import { subnetNumeric, subnetSameNetwork } from "./subnet";
+import { firewallRules, portServiceMatch } from "./firewall";
+import { passwordStrength } from "./passwords";
 
 export const GENERATORS: Record<string, Generator> = {
   mc_pool: mcPool,
@@ -10,6 +13,11 @@ export const GENERATORS: Record<string, Generator> = {
   classify_pool: classifyPool,
   address_format_match: addressFormatMatch,
   switch_table_match: switchTableMatch,
+  subnet_same_network: subnetSameNetwork,
+  subnet_numeric: subnetNumeric,
+  port_service_match: portServiceMatch,
+  firewall_rules: firewallRules,
+  password_strength: passwordStrength,
 };
 
 export function registerGenerator(id: string, g: Generator): void {

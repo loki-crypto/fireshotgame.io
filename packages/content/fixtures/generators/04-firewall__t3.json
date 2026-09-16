@@ -1,0 +1,3138 @@
+{
+ "source": "04-firewall/t3",
+ "generator": "firewall_rules",
+ "params": {
+  "count": 5
+ },
+ "seeds": [
+  {
+   "seed": 2654435761,
+   "sha256": "ab02901715617818a5134681b6e2f95f126869d03271f27b9d41239651a69e60"
+  },
+  {
+   "seed": 1013904226,
+   "sha256": "7193909534d259a3b8c3d3e35492561c69c75a5e6e4457d12aa4bdff81b5eac5"
+  },
+  {
+   "seed": 3668339987,
+   "sha256": "d4ea6c54cad745d02917c99e2fd702fbba038a5209b98c2de89fd7066a76f9de"
+  },
+  {
+   "seed": 2027808452,
+   "sha256": "0d295784ee6b84dc5848a39d7ec4544dc9cd6bfd5a8ac35e41519b2b804e7076"
+  },
+  {
+   "seed": 387276917,
+   "sha256": "9f7f16128186a9fa7e3fb6457ea940ca8d45afc24d1f66fe3fdab3ab0fd8dc38"
+  },
+  {
+   "seed": 3041712678,
+   "sha256": "ff1b20b31415e786383aa73f719e9b6be2a49cd6bb76792574bb035970516657"
+  },
+  {
+   "seed": 1401181143,
+   "sha256": "20ac74bad55f1236130b268b26a1ae3427205b56b8fa033ab7e2910a3642d7fb"
+  },
+  {
+   "seed": 4055616904,
+   "sha256": "d41d957ddda850223205961ee60238407bbbcbaf822af36196c6844a2cb03c5d"
+  },
+  {
+   "seed": 2415085369,
+   "sha256": "d002998f6687ec24ce7661625003f67c6adb336d12105cb1e96eaa03d1781f7e"
+  },
+  {
+   "seed": 774553834,
+   "sha256": "9c0f79c50091e9b0cee7fcb23613635e460bc1d473dde76c8697ba6b6ab0d6a1"
+  },
+  {
+   "seed": 3428989595,
+   "sha256": "8d05244a9feb0d24e4513a5ecba310a4cc9acc777a8e82619f7bac99313fc6c6"
+  },
+  {
+   "seed": 1788458060,
+   "sha256": "dc94dbeded75944edee90f666cf70c8b0f4220d159f0aa2190cc5b6f746d9785"
+  },
+  {
+   "seed": 147926525,
+   "sha256": "a91750d2b8851a56b0c5137040a6f91548eb00090b57159be9cfa7d81a09cbeb"
+  },
+  {
+   "seed": 2802362286,
+   "sha256": "0486c234001e33244d68728d589db9cb75796df7e38696df6417b0bd86639517"
+  },
+  {
+   "seed": 1161830751,
+   "sha256": "f568177248c05dd6cf56f077c45c4a5f355cbfcc1afc71b104ec9760853a70ad"
+  },
+  {
+   "seed": 3816266512,
+   "sha256": "2ccf8b37335a2915383debe1484337df680e3ceda47cd50a0063a237853ce706"
+  },
+  {
+   "seed": 2175734977,
+   "sha256": "b18bbf5c61e9b4c3496802c668915bbc539bd5e200f133be82e160480b2d4c81"
+  },
+  {
+   "seed": 535203442,
+   "sha256": "7ed30297ec6d3dffe24e612ed2fd9d09049b5d8e2798d0ebefad3f2683940bc2"
+  },
+  {
+   "seed": 3189639203,
+   "sha256": "c403bd5a4a2ca57399a7f071a1d1d2e7c4f6e0fbb23e46eeb41aaefb7141d167"
+  },
+  {
+   "seed": 1549107668,
+   "sha256": "b72e67064cd4974fe316b0c43b07f0c6f4dc9df8d2672d1a4bb5fd46234b024e"
+  },
+  {
+   "seed": 4203543429,
+   "sha256": "381c65feacb632e7ad386be063454f87419bb9b8e4dd03f47d7e8426a91c6a45"
+  },
+  {
+   "seed": 2563011894,
+   "sha256": "11f0770167f9da44bf2712393c61f2004e12239b03644d3b1081065b866f5031"
+  },
+  {
+   "seed": 922480359,
+   "sha256": "e4dc9d901a752d43be62a3da1efed04e146795c78a6a0d76e042569e7d1a6475"
+  },
+  {
+   "seed": 3576916120,
+   "sha256": "8e16e9e710c82b13a3073abe896e820abe3458189d52bf9d1bcf4b7e58bfbf21"
+  },
+  {
+   "seed": 1936384585,
+   "sha256": "c9e0eef320d086c12d9cd5a81c5e807a883392156066a6911e7c35be613d5287"
+  },
+  {
+   "seed": 295853050,
+   "sha256": "ef89411cf04527aa7f0339c8c80072900d7a653d4c94b7900e72485763507e9a"
+  },
+  {
+   "seed": 2950288811,
+   "sha256": "bc668af48fa722a3cd1620dc2710ebd3b81047d9cfc7f34d68822028142bd46f"
+  },
+  {
+   "seed": 1309757276,
+   "sha256": "83d25676c1166c9b9c7c9e6586f4c82a778e5edcf402cfc05f65536e433ad4e7"
+  },
+  {
+   "seed": 3964193037,
+   "sha256": "c6deafd6a87ed9762a892b7d894e9ba8783df2d5c17038da6f511f238841dd27"
+  },
+  {
+   "seed": 2323661502,
+   "sha256": "ad51000184d2feea2fec61b4989d817b976ce9eced7a819e513c7126debd47b7"
+  },
+  {
+   "seed": 683129967,
+   "sha256": "ca535179fe82267059246fa975d7c25d971675664819bcfff7cfccf85dd55341"
+  },
+  {
+   "seed": 3337565728,
+   "sha256": "f8e0e5e09652eaa0a96d313f8601cd4ab85636ae2a036df22e08c8e21e0beaa6"
+  },
+  {
+   "seed": 1697034193,
+   "sha256": "effd332273a0eb166b4313e3d876900d9282d4c80d825165a3952eb431e8dc73"
+  },
+  {
+   "seed": 56502658,
+   "sha256": "bf43ee586ab5f7006339b9e84941f0f73a80a298da99764ae707c31c4e23146a"
+  },
+  {
+   "seed": 2710938419,
+   "sha256": "10facff13487f9c54eecb85160c02c8c7a48e60bf0b6bfb721d36ac77c4ef155"
+  },
+  {
+   "seed": 1070406884,
+   "sha256": "5dce83f76ac66f69006d06ae23dd6834f89bafcc2982932928a78b98648f5e3e"
+  },
+  {
+   "seed": 3724842645,
+   "sha256": "848a6998833ef8f98e8bb55164ae9a21a3bc35241fbf9b6eb344364bd961772c"
+  },
+  {
+   "seed": 2084311110,
+   "sha256": "667c088cdc7dab510728e9165eb1ae2b2d329b6a37d91e89721e0dce9f1f842b"
+  },
+  {
+   "seed": 443779575,
+   "sha256": "ed602872c10d210f46a6c298baf2717186d3f984c4b063a6aa2a019191525f80"
+  },
+  {
+   "seed": 3098215336,
+   "sha256": "e779fa4959fbd376ca53d7bccb1612faead664e48f25e24d3177d2d028711604"
+  },
+  {
+   "seed": 1457683801,
+   "sha256": "edb4259fce848249b90a930a4f51aa8d91be4f0780845107b57d549de6cbc7a4"
+  },
+  {
+   "seed": 4112119562,
+   "sha256": "29e03ba46043777e2dbba3f11288cdfcfe7dae97d7f7a608918783ef4f241cb2"
+  },
+  {
+   "seed": 2471588027,
+   "sha256": "c6be735bdfc6cfd87de1ac33f85d2773b39874adcda26ba61bb27807864b28e1"
+  },
+  {
+   "seed": 831056492,
+   "sha256": "fa5ace2a5a4f8e03bc008a774b10981f2420d789f509f304d06249a66d571570"
+  },
+  {
+   "seed": 3485492253,
+   "sha256": "3864d59a24747b45cbf81b5638ccee721a6a2df6f4ad76fe39a818d4fa987c83"
+  },
+  {
+   "seed": 1844960718,
+   "sha256": "e1cc72bb497d0303753f5859c35837390b1a386ff975579b1ec20823290a67c1"
+  },
+  {
+   "seed": 204429183,
+   "sha256": "605bd9b7ff55a8ad83fc8b6edb2a15558f0687e7c55a6cec17e8154b2f4f140f"
+  },
+  {
+   "seed": 2858864944,
+   "sha256": "88f6c4d0662701e0f157f481ebda1e0fb6fe8669a2a972726fd82f28d59a42a3"
+  },
+  {
+   "seed": 1218333409,
+   "sha256": "7a150c16713e39717fca8aeeb8a88d0edb4e293351143e98c1294d0062bf5854"
+  },
+  {
+   "seed": 3872769170,
+   "sha256": "8a00a8cca1d8549084ff15801b650ad579893d4ed41d143b811122841d513816"
+  },
+  {
+   "seed": 2232237635,
+   "sha256": "4fa84c6c8b58743f1fa5addbe17182ee0884960b5a82c4f18a17af886faff599"
+  },
+  {
+   "seed": 591706100,
+   "sha256": "5a0ee682a9f8af8199824723c9fc81f7a26d379b748781cca51cad58a9ba6d94"
+  },
+  {
+   "seed": 3246141861,
+   "sha256": "d4c3e12db18b988dd97d2db77dd842424bf52af200b7db31d8d239503dd99fbe"
+  },
+  {
+   "seed": 1605610326,
+   "sha256": "e5ca7dd58c9c3ac44fffda08782d66906bbf76bbd8459668616a13f4bf1ccd39"
+  },
+  {
+   "seed": 4260046087,
+   "sha256": "0b9d23afb5fbec8c032e0806de89d764d4388e8068955590e6f93e461e80ac0c"
+  },
+  {
+   "seed": 2619514552,
+   "sha256": "edf790dd2496bcfa04b6d58490fc80b0e50570d0d450f583c7eb77ece3242494"
+  },
+  {
+   "seed": 978983017,
+   "sha256": "55a3ef196c8f15b00ff983439c03a74c1dd868ac4ed6ab6ff673ba593a2f88e8"
+  },
+  {
+   "seed": 3633418778,
+   "sha256": "1c6fb799db1955aebaafcd1440b7271ea5eeab5ecf85a3913b957baee99c57f7"
+  },
+  {
+   "seed": 1992887243,
+   "sha256": "1b3fd8f209c1d36c3d657e9b8172398f2633b570cf349b43b0db96263b68d4e1"
+  },
+  {
+   "seed": 352355708,
+   "sha256": "315e043547b9b923ddb779dd7997654aefc2c629fab635baeff9825ad2a517b1"
+  },
+  {
+   "seed": 3006791469,
+   "sha256": "3a15a593753037f7b1be7331af7ce6a0b2eaf005e628f93ad1e2dc04890711f6"
+  },
+  {
+   "seed": 1366259934,
+   "sha256": "10ae7553e18e094eaf0fdaa61c62834e5388414990303ab06c8abe8d95ee0c8e"
+  },
+  {
+   "seed": 4020695695,
+   "sha256": "ab697660b24f711fc153bcc599958c175fb16b1ff6c0adaddf8f51d9121302b0"
+  },
+  {
+   "seed": 2380164160,
+   "sha256": "0033530530648906bc683fc3d6a58b76e8984425a030871672be28694e13c0f6"
+  },
+  {
+   "seed": 739632625,
+   "sha256": "c08363e95ce9d716767a8fd2c8e5c45285e3d69993824e5ca4e2430f6f67f6d2"
+  },
+  {
+   "seed": 3394068386,
+   "sha256": "d1c329a13ac68f6b24dba7ef7e41bd6fc138c4823acb54e762423ab9d0ddf1c1"
+  },
+  {
+   "seed": 1753536851,
+   "sha256": "f37af84ca5c17d266bcffdaf3d8d31ba245cf8911b9aaf08ac96492c921163e3"
+  },
+  {
+   "seed": 113005316,
+   "sha256": "dcbefde9a827bef66498ab1f6150e1bead43a0bf13a3d19660863d2bff683785"
+  },
+  {
+   "seed": 2767441077,
+   "sha256": "864190478a3fac6c406b1fcc7d8bb9a6193da61b03cb1a4e3b29664b8559415a"
+  },
+  {
+   "seed": 1126909542,
+   "sha256": "d5fd4f57d45df755ca9aa38637683604a88b65dffa79d5a7c60253d1a3dd8290"
+  },
+  {
+   "seed": 3781345303,
+   "sha256": "1ec3f85c6311c8c3f8cefcb6eb6c8550cdf295082fea4ba2c908aaec91ec539d"
+  },
+  {
+   "seed": 2140813768,
+   "sha256": "45e72552257637dd2a2b4fbbf1c621103cf7989660a3f857b45b6312da2cca96"
+  },
+  {
+   "seed": 500282233,
+   "sha256": "2c6978ab2da2aaa9d55f047dbfb7cfe6c17ad02fd361e9b491c7b2963c336278"
+  },
+  {
+   "seed": 3154717994,
+   "sha256": "18d0785d5c7c0c5c105c1116eebba4a9ee5f8b0af0c54b560c286f9fa5225872"
+  },
+  {
+   "seed": 1514186459,
+   "sha256": "2633b9afa8fda236699995f69020042500d4ed02d4ed15a447da44ee43014104"
+  },
+  {
+   "seed": 4168622220,
+   "sha256": "1979a6352b19cfceb2bc7b2186945ab3c56f8ee297c8cfd496771497070c2e2b"
+  },
+  {
+   "seed": 2528090685,
+   "sha256": "1e324a723954dfc783bcf5850e427d056edb870d28d573aa4e95f2fbc909805a"
+  },
+  {
+   "seed": 887559150,
+   "sha256": "ff7cb29dd5caff09d2b2937e94271c4522fe7d0196a18e98f24e3f909f36490b"
+  },
+  {
+   "seed": 3541994911,
+   "sha256": "32110ed3edfcb7425506cfed6af8e3cd59763f0a9518942adff6d273dff159dc"
+  },
+  {
+   "seed": 1901463376,
+   "sha256": "5207b78f553b46f49c5fe34515f498aca4d6080ad89fa51dfefad79954949b24"
+  },
+  {
+   "seed": 260931841,
+   "sha256": "24195af0aa79dee545c6c22398dd19cea85341840a3c1e3463a05c60ad60fb6d"
+  },
+  {
+   "seed": 2915367602,
+   "sha256": "5aa5151040b3780f91ca9611c8cfc7ed60e2cd057ee77332ed3fa3114bb609bb"
+  },
+  {
+   "seed": 1274836067,
+   "sha256": "a463f8722400857c03495fbd971cdfb16d8524dee6706be9d2e541871cf1949e"
+  },
+  {
+   "seed": 3929271828,
+   "sha256": "351e90eae4451dc8b048961f2791841d71d62ef5d15528be1dfb76a72aae6720"
+  },
+  {
+   "seed": 2288740293,
+   "sha256": "6c91802fe9dd3fb41079cab9bb92e70f6b99e8972bf0a575acf3c38dec8b6f2e"
+  },
+  {
+   "seed": 648208758,
+   "sha256": "65c188c2d2d37caa3030bae69a374ee84afbcec7e8a55ab18ec2301129c2ee1a"
+  },
+  {
+   "seed": 3302644519,
+   "sha256": "ece517cd2452d57fb3e1471f0eddaea3cd82e583ffc3b86471b7ddaf4a7f94ad"
+  },
+  {
+   "seed": 1662112984,
+   "sha256": "78cdc7fbfd4d9774930b96c9b46132e6d829f52f53d3eb97f48ed8318c8170a9"
+  },
+  {
+   "seed": 21581449,
+   "sha256": "650c8bacde49d4fb74288eb05bafc787aa6fc43d40344c81a792aae30280ce64"
+  },
+  {
+   "seed": 2676017210,
+   "sha256": "f2da79b685f5c2e9b2a6207ca899aa87404c63c9b160ee528e1005c2b914ae6e"
+  },
+  {
+   "seed": 1035485675,
+   "sha256": "d744caccb10e0a8bd714c19465e55342877cbe3e71ec4b7f2f452f9582a3ede1"
+  },
+  {
+   "seed": 3689921436,
+   "sha256": "4118a9827d46b14f86668f8e5114e77a6fbac14d1a8bc496de4b62a829bb0b8a"
+  },
+  {
+   "seed": 2049389901,
+   "sha256": "c036b8a912ec651ffdbad8dbe02d15027c3da1830f6d13eb4b8bc21cfee83d61"
+  },
+  {
+   "seed": 408858366,
+   "sha256": "008ac4bccf19e421a6c632d574f1ca354f3c27c02bc457cd67b87fb267e32b27"
+  },
+  {
+   "seed": 3063294127,
+   "sha256": "89c1c2dfc09fc13797768697042a9325d80fe17c212369f2fb109f98613677e5"
+  },
+  {
+   "seed": 1422762592,
+   "sha256": "8dc415cae1833d5b7cf78d734a8cc83f6aa219869bbabdc5e59daf8e3c62b8b5"
+  },
+  {
+   "seed": 4077198353,
+   "sha256": "fd3a3e508242a90f20856bf9ce469f25595cb272bb7185e48eb1d1a3b87a67bd"
+  },
+  {
+   "seed": 2436666818,
+   "sha256": "bd4583b89e77ee8a4f72e8b3989c641671780a29d6bf52df5d4ab03adf13d0f0"
+  },
+  {
+   "seed": 796135283,
+   "sha256": "9b9df114b9286022a9bfeca0b28ef3ca044dafbdda046dfbdb1b8d3144e82ae0"
+  },
+  {
+   "seed": 3450571044,
+   "sha256": "0675ae0781adf19743399522772309de16fc49b50cb468e57a81bda5500648ba"
+  },
+  {
+   "seed": 1810039509,
+   "sha256": "98c9a5e3e38924e8360a6b59978f820b205d3bccf26c6742a280cb1bd056fdbb"
+  },
+  {
+   "seed": 169507974,
+   "sha256": "ccf26e48257c50d143df70208f77f9edd28f4040c51f9b656872ef6a686439e6"
+  },
+  {
+   "seed": 2823943735,
+   "sha256": "036c483d7472394be1bf3ebdd833cd802c6db590235253ac9b8801077505c568"
+  },
+  {
+   "seed": 1183412200,
+   "sha256": "5ea50e7fcacf29013f6215c4bd3ac12455208e9c93f7ae3398f57902feffeb49"
+  },
+  {
+   "seed": 3837847961,
+   "sha256": "a8330435db611fe9e3f784e56561bed9cdf12c57106c80be4f580bc8904be4d8"
+  },
+  {
+   "seed": 2197316426,
+   "sha256": "819e170d0da98a086515ba1e029d40543382439c7372c67e39cd2811177615b6"
+  },
+  {
+   "seed": 556784891,
+   "sha256": "1eeb884bc5c94f1e715a6d89c3405c5d53c0babbc21bbbdda6d147887ea4ddfc"
+  },
+  {
+   "seed": 3211220652,
+   "sha256": "7635d9dead6a1ac990f12d9e084124b66aba085a780bfc26296a34ac2a3bd388"
+  },
+  {
+   "seed": 1570689117,
+   "sha256": "c8dfe8e23157778cacabedcd817f146f4c4c266a8194ce07322413a4ec8c0ea1"
+  },
+  {
+   "seed": 4225124878,
+   "sha256": "3f671ab9bdad84f81dd0002d52bb06c9002f053c1325b997c9783bbd05ac94c0"
+  },
+  {
+   "seed": 2584593343,
+   "sha256": "1faf6c79f73596c044ff7686b72bfa8c91d5d0a916f2c21bbca8dde1e587b59a"
+  },
+  {
+   "seed": 944061808,
+   "sha256": "ac090233f24b1e3e003a67eba0924c773eb32a0a5466671f99327a719e709da9"
+  },
+  {
+   "seed": 3598497569,
+   "sha256": "660227b9d2cf3d3a9cdcc28d3af70348d871a7a48828227f3b9cafdd6712d5c6"
+  },
+  {
+   "seed": 1957966034,
+   "sha256": "bd65f0b44e2e390af6a34b425e2413646d536c3727af553a8271315dbfb54c7b"
+  },
+  {
+   "seed": 317434499,
+   "sha256": "e42be505de954d97590e2fc8c53f7013bfba77d755c72d10cad321ebadba37eb"
+  },
+  {
+   "seed": 2971870260,
+   "sha256": "2668511cbb887a7c2835e91c04d2580a699d0fe552b95481236d1419600c5587"
+  },
+  {
+   "seed": 1331338725,
+   "sha256": "faff1b9ed547876666a8d4b2e88877c2559da1ea231291b2af0aaf7c43ab83c1"
+  },
+  {
+   "seed": 3985774486,
+   "sha256": "b96c16f43e84543349fc224fcfe9e69714e59a3d0a3e78b283d346253dd59d56"
+  },
+  {
+   "seed": 2345242951,
+   "sha256": "ffddba53cce0c72670d27db66687749a25a2bc8e142dbfeea02aadc97be9a5eb"
+  },
+  {
+   "seed": 704711416,
+   "sha256": "92a72e9d432e7b731e96b607869c67fc0514f72bb20fc64346e09932df147b08"
+  },
+  {
+   "seed": 3359147177,
+   "sha256": "23eeae0d9edf87c40dbe08be59bddbbd27583b06a98fe047bd7ef93af8fb27ef"
+  },
+  {
+   "seed": 1718615642,
+   "sha256": "34145351bfa545a41af2a912b1da4f90022837c4077bce11395d720e8e6225e1"
+  },
+  {
+   "seed": 78084107,
+   "sha256": "65b12aee4fbd6a5f18623831a4969365b76710e33d2b11d6750c8ff42920725c"
+  },
+  {
+   "seed": 2732519868,
+   "sha256": "4399ae18b5606b89020c9012c4a1dc97b27c82e4d8d90526c7fe8a017116ee91"
+  },
+  {
+   "seed": 1091988333,
+   "sha256": "8195d3d686eeac8897110d182f1d42daac2aaa07a2024774ae12ed57cd1cf4d6"
+  },
+  {
+   "seed": 3746424094,
+   "sha256": "44f586786167a9dfab43176f1447b2e0f3769887741d246b6f0a54fe29099cb8"
+  },
+  {
+   "seed": 2105892559,
+   "sha256": "31985239544e6beaf031e161af6831d693bc20c2426e424639e2f21f734809ef"
+  },
+  {
+   "seed": 465361024,
+   "sha256": "0cee4815de46ac9a707c5a33a0aa3e247ccc38ba330c567757deea7839855799"
+  },
+  {
+   "seed": 3119796785,
+   "sha256": "e34e96a12e4a5c8ab1d8439ee192cbf585729dacbbb5f3a846232565172ab90c"
+  },
+  {
+   "seed": 1479265250,
+   "sha256": "6c2a0d1e42f69a3ad589667f935e1c1fb284be97e3541e4428b3d0b08cf41b8c"
+  },
+  {
+   "seed": 4133701011,
+   "sha256": "977d27acd82fbffa8c3190890a055466a7a08e3bffd514e52104cb4591c1a60b"
+  },
+  {
+   "seed": 2493169476,
+   "sha256": "338bc80682160fdc1f8eedcbbaaec3a55d0184033bce141bc4947c596866bcaa"
+  },
+  {
+   "seed": 852637941,
+   "sha256": "8bf418803447c05d2f51dc86d26d74fcaa7b27b96881442566fc2a741a65b2ad"
+  },
+  {
+   "seed": 3507073702,
+   "sha256": "234e3076b54ab985f1ecd53f32939217e9cf84b5426e790d2e377aed8ec6a30d"
+  },
+  {
+   "seed": 1866542167,
+   "sha256": "136754613198f71718c545627e1fda521d15d2d77ece2172706e3817c8b197b0"
+  },
+  {
+   "seed": 226010632,
+   "sha256": "f0ba78deeb5b830e846243cd7ec73fa2903a8caaaaa3c407d99dbe9d294e0cb1"
+  },
+  {
+   "seed": 2880446393,
+   "sha256": "ed4b7dbe4c09b0abbee6cfb287c312b2435abb72976d9e706f766c7e723b1eba"
+  },
+  {
+   "seed": 1239914858,
+   "sha256": "d674dddef4cf00769a73018d759139826acaa0a1ecfc3998b14dca34596d2286"
+  },
+  {
+   "seed": 3894350619,
+   "sha256": "05898b7c41f0bcb040ac0a1297ba14bc02f983236d9b298c7a2d286f79aa8a5c"
+  },
+  {
+   "seed": 2253819084,
+   "sha256": "304d6fba38c210f5cdfa63baa9e636c4be816cf359a70e6a6f9e01e41198ea6a"
+  },
+  {
+   "seed": 613287549,
+   "sha256": "c83c28709bceb54995a5d4a29425dec89de3e49075d62d9746245644bdbc6df2"
+  },
+  {
+   "seed": 3267723310,
+   "sha256": "bd2a7c7006666499227682c1ef196a33c9ee3d3952e1d87d1abc31d0c28882eb"
+  },
+  {
+   "seed": 1627191775,
+   "sha256": "67773210da33f07bbd20f68760c5c7dac324e5b93b21a25dea205cd59ef59d96"
+  },
+  {
+   "seed": 4281627536,
+   "sha256": "e26dc18bb49af324ac0e8683ba5a0c68b188dc1b2cc693bd6d67c3f769db2249"
+  },
+  {
+   "seed": 2641096001,
+   "sha256": "36396dbb2ea468ea9f6c7b32f9898937f2418eeb7efc9ba2c196a123307b3339"
+  },
+  {
+   "seed": 1000564466,
+   "sha256": "3fcae1eb90295ca62c4dc8438b17d8d6d3ae8edb82981a9f231c916d95ac36dd"
+  },
+  {
+   "seed": 3655000227,
+   "sha256": "5faf71a59c46e4e2f5abc4070a985bc060d9a1bfa48de14bf613c390c19f0f8c"
+  },
+  {
+   "seed": 2014468692,
+   "sha256": "ffa44467b425c2f4a1ec38da3ef2c0e0ae7785bd70d313bf24fba48fad13c15e"
+  },
+  {
+   "seed": 373937157,
+   "sha256": "0de7d2d11eb4b537bc3ad882df716c8eaff4ee8381488ae7543377f86709d7df"
+  },
+  {
+   "seed": 3028372918,
+   "sha256": "67933eeb099126671ae3daa9885379c2207f706e1428f98bc467bbbfcc98fe90"
+  },
+  {
+   "seed": 1387841383,
+   "sha256": "f458a3338681343bc0714a5f9d4bd63e42cab8bb28b26f11431d3b2ea87aab29"
+  },
+  {
+   "seed": 4042277144,
+   "sha256": "32da91e7d91ea5271ca161ca14fac43158960f72ee71c075b7ba98ea7cbea61d"
+  },
+  {
+   "seed": 2401745609,
+   "sha256": "c0401906b9dc0997879bc5ed251f3ba2e1681eefe792439f26cc21355ea9d564"
+  },
+  {
+   "seed": 761214074,
+   "sha256": "cbe91b963f0e138a80b8e3276412b78a0f83bdbc8b1cbbdf1753be689d13f70e"
+  },
+  {
+   "seed": 3415649835,
+   "sha256": "9fc4909d2471bb16770ba632578fdb724def84a2b5e596facfb8433bfc4e7955"
+  },
+  {
+   "seed": 1775118300,
+   "sha256": "7be16b1cf7acb0729479eab8465d37e1d95e2e3cb13395c4693ab96f3d3ef025"
+  },
+  {
+   "seed": 134586765,
+   "sha256": "57e1c508cf127ec3901ff56739e895a88c7e950d8915c61149704d05aeea047f"
+  },
+  {
+   "seed": 2789022526,
+   "sha256": "5c4e9c829071c68b38585a33a18d43faa0ed76c09bb359cfd19a405298c06fc7"
+  },
+  {
+   "seed": 1148490991,
+   "sha256": "bf558e97aa436910006e3d26f0857e019b302cfc857de92e84b1c64003fc8afe"
+  },
+  {
+   "seed": 3802926752,
+   "sha256": "a0da98a69ee025c47a000b65735fce3b37f37a83bfb8db89ee694fb9ad89a801"
+  },
+  {
+   "seed": 2162395217,
+   "sha256": "4df7f4f378fbdea0863490ef6d3684172ff008254176e6bfceb1779efd75bd2c"
+  },
+  {
+   "seed": 521863682,
+   "sha256": "3c6bc9d837f0a7dfe68e3a1babde1905aa2bb84e5fa2d968436df2f9741a7b91"
+  },
+  {
+   "seed": 3176299443,
+   "sha256": "eea60e7014cd94a102df6e53b1e0c03c704b8e3553593840793952e046c397be"
+  },
+  {
+   "seed": 1535767908,
+   "sha256": "583c744a04f7b52712963df6b839826422f7c3a13ee39a0213c010a466ec56e9"
+  },
+  {
+   "seed": 4190203669,
+   "sha256": "e3e7267097b7c91c5ab49780368bc10dbd481121fa27532855a8dba3827c321e"
+  },
+  {
+   "seed": 2549672134,
+   "sha256": "d858abc22d526bd3adeb868175e813617cda64fb989cdd1a0077f8c6950ee3a8"
+  },
+  {
+   "seed": 909140599,
+   "sha256": "df4d115985f830ff09519bea3ba7427d77bae7483a8f9c9432a6a02858cd6d0a"
+  },
+  {
+   "seed": 3563576360,
+   "sha256": "b37d0a05fa84dec47edc0b6c4ba1645ff18d12afb85cc53177b033b32bb620a2"
+  },
+  {
+   "seed": 1923044825,
+   "sha256": "6ff09531f3f7e7fc1208818ca1932345fd47523e6095b94934e7bc1c8dabaa6e"
+  },
+  {
+   "seed": 282513290,
+   "sha256": "caf687b15046605f3c987731554059b74d0c3c4aa562c79a112d15e5e8f6dae0"
+  },
+  {
+   "seed": 2936949051,
+   "sha256": "cbea7c1bb9c0b8f2294b1778b2482064dd244fcb4b0763afe4884ef2849cefd4"
+  },
+  {
+   "seed": 1296417516,
+   "sha256": "a8ed003e8fb1bfe7ea8c4b99a5213598a9c9c424c40686dd49431d1c1ddc70be"
+  },
+  {
+   "seed": 3950853277,
+   "sha256": "758cc4a85092c36ff78c79826bd0300d826b42e937b8140ced98610af95badfc"
+  },
+  {
+   "seed": 2310321742,
+   "sha256": "14378701090ea4a2c5a41f28b64f18f3ce4bf7e8bce5ee9dadee918c001a59e8"
+  },
+  {
+   "seed": 669790207,
+   "sha256": "219e23ebdc0fa2304e1b19c7c4797e3751780e056fbb4e876301317b98f70c7c"
+  },
+  {
+   "seed": 3324225968,
+   "sha256": "f5a03c906c7d39f1dddbf7eed1e29fd0ef8bb183dbc71d468e6c38c5b8b9e6c4"
+  },
+  {
+   "seed": 1683694433,
+   "sha256": "8bb209529ac324ee6a77cd0b9be514f91110719d50a125585a01ecf8e4103e27"
+  },
+  {
+   "seed": 43162898,
+   "sha256": "eb5aaa825ac5a00452852d973f7a3cd2db343a17060ef323af5c25ac4e12c68e"
+  },
+  {
+   "seed": 2697598659,
+   "sha256": "159bdd35d0697f22afd294762fd856ff1e9a62ebc4ec96608f85e0cab7da2bc3"
+  },
+  {
+   "seed": 1057067124,
+   "sha256": "7a10f7422209b7d4494030196d95f397b8f3008eb4a8b5479f67941e88f4d31d"
+  },
+  {
+   "seed": 3711502885,
+   "sha256": "e7e13d86a6db25e7e958ed0d1552936a571d1b01e36be99c27f5b4574d477336"
+  },
+  {
+   "seed": 2070971350,
+   "sha256": "33daf32fdf70112409d8776517afee6472df0bd4c7336f053a0ade7ae19cc57d"
+  },
+  {
+   "seed": 430439815,
+   "sha256": "2b771161682bd92b9d9b87c667c37bdd288b11bfa4890c4b2a181065873ae52a"
+  },
+  {
+   "seed": 3084875576,
+   "sha256": "c548162235e59f2e3f27ed442be99513c294fc9b4f6beb0d813d0dae99c2e6bf"
+  },
+  {
+   "seed": 1444344041,
+   "sha256": "91bcb0de09c687f5aff260693f4bc97d387bee15decf45a9c08a0a0a8b03e777"
+  },
+  {
+   "seed": 4098779802,
+   "sha256": "3cf34a3fc43486dc7a6c50d85616ec9cd7b4c295cbee1eae87d9beb09e2c8c4f"
+  },
+  {
+   "seed": 2458248267,
+   "sha256": "dedc6bb1e0345173361841aeed993d335df17a06bba74765b921fff3c354274f"
+  },
+  {
+   "seed": 817716732,
+   "sha256": "6bca4e4f70148712edc92c7476ce8a40935e89bc85bb118306167cbb4d72960c"
+  },
+  {
+   "seed": 3472152493,
+   "sha256": "3f204ddf051c602999ceb3d796a974284d846081c297b59e74cf6841fd968467"
+  },
+  {
+   "seed": 1831620958,
+   "sha256": "0a75a3af5c3ea8349c9e094f8eae5b2541e66eca270c614dcbc42878d929e052"
+  },
+  {
+   "seed": 191089423,
+   "sha256": "76d931c2e1812201ac0fd41c721c5f81eb80df548cf3578c3489f38498e1ec90"
+  },
+  {
+   "seed": 2845525184,
+   "sha256": "308e00420502e9969309f8134f199aa54e551cf401bfdb9f395fada0257d69d4"
+  },
+  {
+   "seed": 1204993649,
+   "sha256": "4d3d25fb538d71d92785760bb4879f41980664dabea418d008d62fde218d85fd"
+  },
+  {
+   "seed": 3859429410,
+   "sha256": "2965dd430ebeb898a775a6417a1b1adeacc34851170d427c076ed26422e81beb"
+  },
+  {
+   "seed": 2218897875,
+   "sha256": "770012d165c08d646012145dd738afe1bac1dc470f6766e483511930492217a3"
+  },
+  {
+   "seed": 578366340,
+   "sha256": "f153338bbd2d9cc5fb15d1071e32e01065d9c5694caa704535ce71c3ff23c3b0"
+  },
+  {
+   "seed": 3232802101,
+   "sha256": "ce5c49e40d0d32581ea082830b22b07893fb8b8e4e5e267048fdb0ccfd59c806"
+  },
+  {
+   "seed": 1592270566,
+   "sha256": "a32f58bb40321713b46fffd876db269d53ba59dce3944bca04b0b657f8180a48"
+  },
+  {
+   "seed": 4246706327,
+   "sha256": "62d277ea4e529c9bbbaebf4310bb544c2011bff20350508f854ebe15e0b0e41d"
+  },
+  {
+   "seed": 2606174792,
+   "sha256": "8ca23c9bd15aeca00aa6f53291305798c57107d4ee764d0de6dc14c32d00d805"
+  }
+ ],
+ "samples": [
+  {
+   "seed": 2654435761,
+   "question": {
+    "generator": "firewall_rules",
+    "seed": 2654435761,
+    "context": [],
+    "tags": [
+     "firewall"
+    ],
+    "kind": "rules",
+    "prompt": "Escreva as regras do firewall para este servidor: Este host é um host de administração; apenas o acesso remoto cifrado é permitido.",
+    "ports": [
+     {
+      "port": 22,
+      "service": "SSH",
+      "description": "Administração remota cifrada"
+     },
+     {
+      "port": 445,
+      "service": "SMB",
+      "description": "Compartilhamento de arquivos Windows"
+     },
+     {
+      "port": 443,
+      "service": "HTTPS",
+      "description": "Web com TLS (criptografada)"
+     },
+     {
+      "port": 23,
+      "service": "Telnet",
+      "description": "Administração remota em texto claro"
+     },
+     {
+      "port": 80,
+      "service": "HTTP",
+      "description": "Web sem criptografia"
+     }
+    ],
+    "answer": {
+     "allowed": [
+      22
+     ]
+    },
+    "explanation": "Política aplicada: Este host é um host de administração; apenas o acesso remoto cifrado é permitido. Libere apenas SSH (22) e negue o resto (SMB (445), HTTPS (443), Telnet (23), HTTP (80)). A boa prática é negar por padrão e abrir só o necessário — cada porta aberta é uma porta de entrada.",
+    "hint": "Política padrão \"negar\" e uma regra \"permitir\" para cada serviço exigido."
+   },
+   "checks": [
+    {
+     "answer": {
+      "defaultPolicy": "deny",
+      "rules": [
+       {
+        "port": 22,
+        "action": "allow"
+       }
+      ]
+     },
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow",
+      "rules": [
+       {
+        "port": 445,
+        "action": "deny"
+       },
+       {
+        "port": 443,
+        "action": "deny"
+       },
+       {
+        "port": 23,
+        "action": "deny"
+       },
+       {
+        "port": 80,
+        "action": "deny"
+       }
+      ]
+     },
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow",
+      "rules": []
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       true,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "deny",
+      "rules": [
+       {
+        "port": "80",
+        "action": "allow"
+       }
+      ]
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1013904226,
+   "question": {
+    "generator": "firewall_rules",
+    "seed": 1013904226,
+    "context": [],
+    "tags": [
+     "firewall"
+    ],
+    "kind": "rules",
+    "prompt": "Escreva as regras do firewall para este servidor: Este host é um banco de dados interno; nada deve ser exposto à internet.",
+    "ports": [
+     {
+      "port": 80,
+      "service": "HTTP",
+      "description": "Web sem criptografia"
+     },
+     {
+      "port": 443,
+      "service": "HTTPS",
+      "description": "Web com TLS (criptografada)"
+     },
+     {
+      "port": 23,
+      "service": "Telnet",
+      "description": "Administração remota em texto claro"
+     },
+     {
+      "port": 21,
+      "service": "FTP",
+      "description": "Transferência de arquivos em texto claro"
+     },
+     {
+      "port": 22,
+      "service": "SSH",
+      "description": "Administração remota cifrada"
+     }
+    ],
+    "answer": {
+     "allowed": []
+    },
+    "explanation": "Política aplicada: Este host é um banco de dados interno; nada deve ser exposto à internet. Libere apenas — e negue o resto (HTTP (80), HTTPS (443), Telnet (23), FTP (21), SSH (22)). A boa prática é negar por padrão e abrir só o necessário — cada porta aberta é uma porta de entrada.",
+    "hint": "Política padrão \"negar\" e uma regra \"permitir\" para cada serviço exigido."
+   },
+   "checks": [
+    {
+     "answer": {
+      "defaultPolicy": "deny",
+      "rules": []
+     },
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow",
+      "rules": [
+       {
+        "port": 80,
+        "action": "deny"
+       },
+       {
+        "port": 443,
+        "action": "deny"
+       },
+       {
+        "port": 23,
+        "action": "deny"
+       },
+       {
+        "port": 21,
+        "action": "deny"
+       },
+       {
+        "port": 22,
+        "action": "deny"
+       }
+      ]
+     },
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow",
+      "rules": []
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "deny",
+      "rules": [
+       {
+        "port": "80",
+        "action": "allow"
+       }
+      ]
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3668339987,
+   "question": {
+    "generator": "firewall_rules",
+    "seed": 3668339987,
+    "context": [],
+    "tags": [
+     "firewall"
+    ],
+    "kind": "rules",
+    "prompt": "Escreva as regras do firewall para este servidor: Este host é um servidor web em migração; a web (cifrada e não cifrada) deve responder, nada além disso.",
+    "ports": [
+     {
+      "port": 80,
+      "service": "HTTP",
+      "description": "Web sem criptografia"
+     },
+     {
+      "port": 3306,
+      "service": "MySQL",
+      "description": "Banco de dados"
+     },
+     {
+      "port": 3389,
+      "service": "RDP",
+      "description": "Área de trabalho remota"
+     },
+     {
+      "port": 445,
+      "service": "SMB",
+      "description": "Compartilhamento de arquivos Windows"
+     },
+     {
+      "port": 443,
+      "service": "HTTPS",
+      "description": "Web com TLS (criptografada)"
+     }
+    ],
+    "answer": {
+     "allowed": [
+      80,
+      443
+     ]
+    },
+    "explanation": "Política aplicada: Este host é um servidor web em migração; a web (cifrada e não cifrada) deve responder, nada além disso. Libere apenas HTTP (80), HTTPS (443) e negue o resto (MySQL (3306), RDP (3389), SMB (445)). A boa prática é negar por padrão e abrir só o necessário — cada porta aberta é uma porta de entrada.",
+    "hint": "Política padrão \"negar\" e uma regra \"permitir\" para cada serviço exigido."
+   },
+   "checks": [
+    {
+     "answer": {
+      "defaultPolicy": "deny",
+      "rules": [
+       {
+        "port": 80,
+        "action": "allow"
+       },
+       {
+        "port": 443,
+        "action": "allow"
+       }
+      ]
+     },
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow",
+      "rules": [
+       {
+        "port": 3306,
+        "action": "deny"
+       },
+       {
+        "port": 3389,
+        "action": "deny"
+       },
+       {
+        "port": 445,
+        "action": "deny"
+       }
+      ]
+     },
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow",
+      "rules": []
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       true,
+       false,
+       false,
+       false,
+       true
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "deny",
+      "rules": [
+       {
+        "port": "80",
+        "action": "allow"
+       }
+      ]
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2027808452,
+   "question": {
+    "generator": "firewall_rules",
+    "seed": 2027808452,
+    "context": [],
+    "tags": [
+     "firewall"
+    ],
+    "kind": "rules",
+    "prompt": "Escreva as regras do firewall para este servidor: Este host é um servidor de e-mail; o envio entre servidores e a tradução de nomes precisam funcionar.",
+    "ports": [
+     {
+      "port": 53,
+      "service": "DNS",
+      "description": "Tradução de nomes em IPs"
+     },
+     {
+      "port": 23,
+      "service": "Telnet",
+      "description": "Administração remota em texto claro"
+     },
+     {
+      "port": 67,
+      "service": "DHCP",
+      "description": "Distribuição automática de IPs"
+     },
+     {
+      "port": 25,
+      "service": "SMTP",
+      "description": "Envio de e-mail entre servidores"
+     },
+     {
+      "port": 80,
+      "service": "HTTP",
+      "description": "Web sem criptografia"
+     }
+    ],
+    "answer": {
+     "allowed": [
+      53,
+      25
+     ]
+    },
+    "explanation": "Política aplicada: Este host é um servidor de e-mail; o envio entre servidores e a tradução de nomes precisam funcionar. Libere apenas DNS (53), SMTP (25) e negue o resto (Telnet (23), DHCP (67), HTTP (80)). A boa prática é negar por padrão e abrir só o necessário — cada porta aberta é uma porta de entrada.",
+    "hint": "Política padrão \"negar\" e uma regra \"permitir\" para cada serviço exigido."
+   },
+   "checks": [
+    {
+     "answer": {
+      "defaultPolicy": "deny",
+      "rules": [
+       {
+        "port": 53,
+        "action": "allow"
+       },
+       {
+        "port": 25,
+        "action": "allow"
+       }
+      ]
+     },
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow",
+      "rules": [
+       {
+        "port": 23,
+        "action": "deny"
+       },
+       {
+        "port": 67,
+        "action": "deny"
+       },
+       {
+        "port": 80,
+        "action": "deny"
+       }
+      ]
+     },
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow",
+      "rules": []
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       true,
+       false,
+       false,
+       true,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "deny",
+      "rules": [
+       {
+        "port": "80",
+        "action": "allow"
+       }
+      ]
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 387276917,
+   "question": {
+    "generator": "firewall_rules",
+    "seed": 387276917,
+    "context": [],
+    "tags": [
+     "firewall"
+    ],
+    "kind": "rules",
+    "prompt": "Escreva as regras do firewall para este servidor: Este host é um servidor web em migração; a web (cifrada e não cifrada) deve responder, nada além disso.",
+    "ports": [
+     {
+      "port": 80,
+      "service": "HTTP",
+      "description": "Web sem criptografia"
+     },
+     {
+      "port": 123,
+      "service": "NTP",
+      "description": "Sincronização de relógio"
+     },
+     {
+      "port": 443,
+      "service": "HTTPS",
+      "description": "Web com TLS (criptografada)"
+     },
+     {
+      "port": 67,
+      "service": "DHCP",
+      "description": "Distribuição automática de IPs"
+     },
+     {
+      "port": 23,
+      "service": "Telnet",
+      "description": "Administração remota em texto claro"
+     }
+    ],
+    "answer": {
+     "allowed": [
+      80,
+      443
+     ]
+    },
+    "explanation": "Política aplicada: Este host é um servidor web em migração; a web (cifrada e não cifrada) deve responder, nada além disso. Libere apenas HTTP (80), HTTPS (443) e negue o resto (NTP (123), DHCP (67), Telnet (23)). A boa prática é negar por padrão e abrir só o necessário — cada porta aberta é uma porta de entrada.",
+    "hint": "Política padrão \"negar\" e uma regra \"permitir\" para cada serviço exigido."
+   },
+   "checks": [
+    {
+     "answer": {
+      "defaultPolicy": "deny",
+      "rules": [
+       {
+        "port": 80,
+        "action": "allow"
+       },
+       {
+        "port": 443,
+        "action": "allow"
+       }
+      ]
+     },
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow",
+      "rules": [
+       {
+        "port": 123,
+        "action": "deny"
+       },
+       {
+        "port": 67,
+        "action": "deny"
+       },
+       {
+        "port": 23,
+        "action": "deny"
+       }
+      ]
+     },
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow",
+      "rules": []
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       true,
+       false,
+       true,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "deny",
+      "rules": [
+       {
+        "port": "80",
+        "action": "allow"
+       }
+      ]
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3041712678,
+   "question": {
+    "generator": "firewall_rules",
+    "seed": 3041712678,
+    "context": [],
+    "tags": [
+     "firewall"
+    ],
+    "kind": "rules",
+    "prompt": "Escreva as regras do firewall para este servidor: Este host é um servidor web público; só a web cifrada e a tradução de nomes podem entrar.",
+    "ports": [
+     {
+      "port": 53,
+      "service": "DNS",
+      "description": "Tradução de nomes em IPs"
+     },
+     {
+      "port": 443,
+      "service": "HTTPS",
+      "description": "Web com TLS (criptografada)"
+     },
+     {
+      "port": 123,
+      "service": "NTP",
+      "description": "Sincronização de relógio"
+     },
+     {
+      "port": 25,
+      "service": "SMTP",
+      "description": "Envio de e-mail entre servidores"
+     },
+     {
+      "port": 23,
+      "service": "Telnet",
+      "description": "Administração remota em texto claro"
+     }
+    ],
+    "answer": {
+     "allowed": [
+      53,
+      443
+     ]
+    },
+    "explanation": "Política aplicada: Este host é um servidor web público; só a web cifrada e a tradução de nomes podem entrar. Libere apenas DNS (53), HTTPS (443) e negue o resto (NTP (123), SMTP (25), Telnet (23)). A boa prática é negar por padrão e abrir só o necessário — cada porta aberta é uma porta de entrada.",
+    "hint": "Política padrão \"negar\" e uma regra \"permitir\" para cada serviço exigido."
+   },
+   "checks": [
+    {
+     "answer": {
+      "defaultPolicy": "deny",
+      "rules": [
+       {
+        "port": 53,
+        "action": "allow"
+       },
+       {
+        "port": 443,
+        "action": "allow"
+       }
+      ]
+     },
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow",
+      "rules": [
+       {
+        "port": 123,
+        "action": "deny"
+       },
+       {
+        "port": 25,
+        "action": "deny"
+       },
+       {
+        "port": 23,
+        "action": "deny"
+       }
+      ]
+     },
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow",
+      "rules": []
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       true,
+       true,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "deny",
+      "rules": [
+       {
+        "port": "80",
+        "action": "allow"
+       }
+      ]
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1401181143,
+   "question": {
+    "generator": "firewall_rules",
+    "seed": 1401181143,
+    "context": [],
+    "tags": [
+     "firewall"
+    ],
+    "kind": "rules",
+    "prompt": "Escreva as regras do firewall para este servidor: Este host é um banco de dados interno; nada deve ser exposto à internet.",
+    "ports": [
+     {
+      "port": 23,
+      "service": "Telnet",
+      "description": "Administração remota em texto claro"
+     },
+     {
+      "port": 22,
+      "service": "SSH",
+      "description": "Administração remota cifrada"
+     },
+     {
+      "port": 443,
+      "service": "HTTPS",
+      "description": "Web com TLS (criptografada)"
+     },
+     {
+      "port": 3306,
+      "service": "MySQL",
+      "description": "Banco de dados"
+     },
+     {
+      "port": 67,
+      "service": "DHCP",
+      "description": "Distribuição automática de IPs"
+     }
+    ],
+    "answer": {
+     "allowed": []
+    },
+    "explanation": "Política aplicada: Este host é um banco de dados interno; nada deve ser exposto à internet. Libere apenas — e negue o resto (Telnet (23), SSH (22), HTTPS (443), MySQL (3306), DHCP (67)). A boa prática é negar por padrão e abrir só o necessário — cada porta aberta é uma porta de entrada.",
+    "hint": "Política padrão \"negar\" e uma regra \"permitir\" para cada serviço exigido."
+   },
+   "checks": [
+    {
+     "answer": {
+      "defaultPolicy": "deny",
+      "rules": []
+     },
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow",
+      "rules": [
+       {
+        "port": 23,
+        "action": "deny"
+       },
+       {
+        "port": 22,
+        "action": "deny"
+       },
+       {
+        "port": 443,
+        "action": "deny"
+       },
+       {
+        "port": 3306,
+        "action": "deny"
+       },
+       {
+        "port": 67,
+        "action": "deny"
+       }
+      ]
+     },
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow",
+      "rules": []
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "deny",
+      "rules": [
+       {
+        "port": "80",
+        "action": "allow"
+       }
+      ]
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 4055616904,
+   "question": {
+    "generator": "firewall_rules",
+    "seed": 4055616904,
+    "context": [],
+    "tags": [
+     "firewall"
+    ],
+    "kind": "rules",
+    "prompt": "Escreva as regras do firewall para este servidor: Este host é um servidor de e-mail; o envio entre servidores e a tradução de nomes precisam funcionar.",
+    "ports": [
+     {
+      "port": 25,
+      "service": "SMTP",
+      "description": "Envio de e-mail entre servidores"
+     },
+     {
+      "port": 445,
+      "service": "SMB",
+      "description": "Compartilhamento de arquivos Windows"
+     },
+     {
+      "port": 53,
+      "service": "DNS",
+      "description": "Tradução de nomes em IPs"
+     },
+     {
+      "port": 123,
+      "service": "NTP",
+      "description": "Sincronização de relógio"
+     },
+     {
+      "port": 22,
+      "service": "SSH",
+      "description": "Administração remota cifrada"
+     }
+    ],
+    "answer": {
+     "allowed": [
+      25,
+      53
+     ]
+    },
+    "explanation": "Política aplicada: Este host é um servidor de e-mail; o envio entre servidores e a tradução de nomes precisam funcionar. Libere apenas SMTP (25), DNS (53) e negue o resto (SMB (445), NTP (123), SSH (22)). A boa prática é negar por padrão e abrir só o necessário — cada porta aberta é uma porta de entrada.",
+    "hint": "Política padrão \"negar\" e uma regra \"permitir\" para cada serviço exigido."
+   },
+   "checks": [
+    {
+     "answer": {
+      "defaultPolicy": "deny",
+      "rules": [
+       {
+        "port": 25,
+        "action": "allow"
+       },
+       {
+        "port": 53,
+        "action": "allow"
+       }
+      ]
+     },
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow",
+      "rules": [
+       {
+        "port": 445,
+        "action": "deny"
+       },
+       {
+        "port": 123,
+        "action": "deny"
+       },
+       {
+        "port": 22,
+        "action": "deny"
+       }
+      ]
+     },
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow",
+      "rules": []
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       true,
+       false,
+       true,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "deny",
+      "rules": [
+       {
+        "port": "80",
+        "action": "allow"
+       }
+      ]
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2415085369,
+   "question": {
+    "generator": "firewall_rules",
+    "seed": 2415085369,
+    "context": [],
+    "tags": [
+     "firewall"
+    ],
+    "kind": "rules",
+    "prompt": "Escreva as regras do firewall para este servidor: Este host é um servidor de e-mail; o envio entre servidores e a tradução de nomes precisam funcionar.",
+    "ports": [
+     {
+      "port": 3306,
+      "service": "MySQL",
+      "description": "Banco de dados"
+     },
+     {
+      "port": 25,
+      "service": "SMTP",
+      "description": "Envio de e-mail entre servidores"
+     },
+     {
+      "port": 53,
+      "service": "DNS",
+      "description": "Tradução de nomes em IPs"
+     },
+     {
+      "port": 80,
+      "service": "HTTP",
+      "description": "Web sem criptografia"
+     },
+     {
+      "port": 22,
+      "service": "SSH",
+      "description": "Administração remota cifrada"
+     }
+    ],
+    "answer": {
+     "allowed": [
+      25,
+      53
+     ]
+    },
+    "explanation": "Política aplicada: Este host é um servidor de e-mail; o envio entre servidores e a tradução de nomes precisam funcionar. Libere apenas SMTP (25), DNS (53) e negue o resto (MySQL (3306), HTTP (80), SSH (22)). A boa prática é negar por padrão e abrir só o necessário — cada porta aberta é uma porta de entrada.",
+    "hint": "Política padrão \"negar\" e uma regra \"permitir\" para cada serviço exigido."
+   },
+   "checks": [
+    {
+     "answer": {
+      "defaultPolicy": "deny",
+      "rules": [
+       {
+        "port": 25,
+        "action": "allow"
+       },
+       {
+        "port": 53,
+        "action": "allow"
+       }
+      ]
+     },
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow",
+      "rules": [
+       {
+        "port": 3306,
+        "action": "deny"
+       },
+       {
+        "port": 80,
+        "action": "deny"
+       },
+       {
+        "port": 22,
+        "action": "deny"
+       }
+      ]
+     },
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow",
+      "rules": []
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       true,
+       true,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "deny",
+      "rules": [
+       {
+        "port": "80",
+        "action": "allow"
+       }
+      ]
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 774553834,
+   "question": {
+    "generator": "firewall_rules",
+    "seed": 774553834,
+    "context": [],
+    "tags": [
+     "firewall"
+    ],
+    "kind": "rules",
+    "prompt": "Escreva as regras do firewall para este servidor: Este host é um servidor de e-mail; o envio entre servidores e a tradução de nomes precisam funcionar.",
+    "ports": [
+     {
+      "port": 123,
+      "service": "NTP",
+      "description": "Sincronização de relógio"
+     },
+     {
+      "port": 80,
+      "service": "HTTP",
+      "description": "Web sem criptografia"
+     },
+     {
+      "port": 25,
+      "service": "SMTP",
+      "description": "Envio de e-mail entre servidores"
+     },
+     {
+      "port": 3306,
+      "service": "MySQL",
+      "description": "Banco de dados"
+     },
+     {
+      "port": 53,
+      "service": "DNS",
+      "description": "Tradução de nomes em IPs"
+     }
+    ],
+    "answer": {
+     "allowed": [
+      25,
+      53
+     ]
+    },
+    "explanation": "Política aplicada: Este host é um servidor de e-mail; o envio entre servidores e a tradução de nomes precisam funcionar. Libere apenas SMTP (25), DNS (53) e negue o resto (NTP (123), HTTP (80), MySQL (3306)). A boa prática é negar por padrão e abrir só o necessário — cada porta aberta é uma porta de entrada.",
+    "hint": "Política padrão \"negar\" e uma regra \"permitir\" para cada serviço exigido."
+   },
+   "checks": [
+    {
+     "answer": {
+      "defaultPolicy": "deny",
+      "rules": [
+       {
+        "port": 25,
+        "action": "allow"
+       },
+       {
+        "port": 53,
+        "action": "allow"
+       }
+      ]
+     },
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow",
+      "rules": [
+       {
+        "port": 123,
+        "action": "deny"
+       },
+       {
+        "port": 80,
+        "action": "deny"
+       },
+       {
+        "port": 3306,
+        "action": "deny"
+       }
+      ]
+     },
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow",
+      "rules": []
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       true,
+       false,
+       true
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "deny",
+      "rules": [
+       {
+        "port": "80",
+        "action": "allow"
+       }
+      ]
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3428989595,
+   "question": {
+    "generator": "firewall_rules",
+    "seed": 3428989595,
+    "context": [],
+    "tags": [
+     "firewall"
+    ],
+    "kind": "rules",
+    "prompt": "Escreva as regras do firewall para este servidor: Este host é um banco de dados interno; nada deve ser exposto à internet.",
+    "ports": [
+     {
+      "port": 21,
+      "service": "FTP",
+      "description": "Transferência de arquivos em texto claro"
+     },
+     {
+      "port": 22,
+      "service": "SSH",
+      "description": "Administração remota cifrada"
+     },
+     {
+      "port": 25,
+      "service": "SMTP",
+      "description": "Envio de e-mail entre servidores"
+     },
+     {
+      "port": 23,
+      "service": "Telnet",
+      "description": "Administração remota em texto claro"
+     },
+     {
+      "port": 443,
+      "service": "HTTPS",
+      "description": "Web com TLS (criptografada)"
+     }
+    ],
+    "answer": {
+     "allowed": []
+    },
+    "explanation": "Política aplicada: Este host é um banco de dados interno; nada deve ser exposto à internet. Libere apenas — e negue o resto (FTP (21), SSH (22), SMTP (25), Telnet (23), HTTPS (443)). A boa prática é negar por padrão e abrir só o necessário — cada porta aberta é uma porta de entrada.",
+    "hint": "Política padrão \"negar\" e uma regra \"permitir\" para cada serviço exigido."
+   },
+   "checks": [
+    {
+     "answer": {
+      "defaultPolicy": "deny",
+      "rules": []
+     },
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow",
+      "rules": [
+       {
+        "port": 21,
+        "action": "deny"
+       },
+       {
+        "port": 22,
+        "action": "deny"
+       },
+       {
+        "port": 25,
+        "action": "deny"
+       },
+       {
+        "port": 23,
+        "action": "deny"
+       },
+       {
+        "port": 443,
+        "action": "deny"
+       }
+      ]
+     },
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow",
+      "rules": []
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "deny",
+      "rules": [
+       {
+        "port": "80",
+        "action": "allow"
+       }
+      ]
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1788458060,
+   "question": {
+    "generator": "firewall_rules",
+    "seed": 1788458060,
+    "context": [],
+    "tags": [
+     "firewall"
+    ],
+    "kind": "rules",
+    "prompt": "Escreva as regras do firewall para este servidor: Este host é um servidor web em migração; a web (cifrada e não cifrada) deve responder, nada além disso.",
+    "ports": [
+     {
+      "port": 80,
+      "service": "HTTP",
+      "description": "Web sem criptografia"
+     },
+     {
+      "port": 53,
+      "service": "DNS",
+      "description": "Tradução de nomes em IPs"
+     },
+     {
+      "port": 443,
+      "service": "HTTPS",
+      "description": "Web com TLS (criptografada)"
+     },
+     {
+      "port": 22,
+      "service": "SSH",
+      "description": "Administração remota cifrada"
+     },
+     {
+      "port": 3389,
+      "service": "RDP",
+      "description": "Área de trabalho remota"
+     }
+    ],
+    "answer": {
+     "allowed": [
+      80,
+      443
+     ]
+    },
+    "explanation": "Política aplicada: Este host é um servidor web em migração; a web (cifrada e não cifrada) deve responder, nada além disso. Libere apenas HTTP (80), HTTPS (443) e negue o resto (DNS (53), SSH (22), RDP (3389)). A boa prática é negar por padrão e abrir só o necessário — cada porta aberta é uma porta de entrada.",
+    "hint": "Política padrão \"negar\" e uma regra \"permitir\" para cada serviço exigido."
+   },
+   "checks": [
+    {
+     "answer": {
+      "defaultPolicy": "deny",
+      "rules": [
+       {
+        "port": 80,
+        "action": "allow"
+       },
+       {
+        "port": 443,
+        "action": "allow"
+       }
+      ]
+     },
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow",
+      "rules": [
+       {
+        "port": 53,
+        "action": "deny"
+       },
+       {
+        "port": 22,
+        "action": "deny"
+       },
+       {
+        "port": 3389,
+        "action": "deny"
+       }
+      ]
+     },
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow",
+      "rules": []
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       true,
+       false,
+       true,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "deny",
+      "rules": [
+       {
+        "port": "80",
+        "action": "allow"
+       }
+      ]
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

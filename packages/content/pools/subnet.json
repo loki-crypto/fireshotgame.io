@@ -1,0 +1,86 @@
+{
+  "same_network": {
+    "prompt": "O host {ip}/{prefix} precisa enviar um pacote sem passar pelo roteador. Qual destino está na MESMA rede?",
+    "explanation": "Com /{prefix}, a máscara é {mask}: os primeiros {prefix} bits são a rede. A rede de {ip} vai de {first} a {last} (rede {network}, broadcast {broadcast}). Só {correct} cai nessa faixa; os outros exigem roteador.",
+    "hint": "Calcule o bloco: 2^(32-{prefix}) endereços. O primeiro endereço do bloco é a rede.",
+    "contextTitle": "Configuração do host",
+    "headers": ["Parâmetro", "Valor"],
+    "labels": { "ip": "Endereço IP", "mask": "Máscara", "prefix": "Prefixo" }
+  },
+  "numeric": {
+    "prompt": "Calcule os dados da rede de {ip}/{prefix}.",
+    "explanation": "2^(32-{prefix}) = {size} endereços por bloco. A rede é {network} (primeiro endereço do bloco), o broadcast é {broadcast} (último) e sobram {hosts} endereços utilizáveis para hosts (o de rede e o de broadcast não contam).",
+    "hint": "Blocos de {size} endereços: rede = múltiplo de {size}; broadcast = rede + {size} − 1; hosts = {size} − 2.",
+    "contextTitle": "Host analisado",
+    "headers": ["Parâmetro", "Valor"],
+    "labels": { "ip": "Endereço IP", "mask": "Máscara", "prefix": "Prefixo" },
+    "fields": {
+      "network": { "label": "Endereço de rede", "format": "ipv4", "placeholder": "192.168.0.0" },
+      "broadcast": { "label": "Endereço de broadcast", "format": "ipv4", "placeholder": "192.168.0.255" },
+      "hosts": { "label": "Hosts utilizáveis", "format": "int", "placeholder": "254" },
+      "mask": { "label": "Máscara decimal", "format": "ipv4", "placeholder": "255.255.255.0" }
+    }
+  },
+  "mc": [
+    {
+      "id": "sn-why",
+      "prompt": "Para que serve dividir uma rede em sub-redes?",
+      "correct": "Separar grupos de hosts, reduzindo o alcance de broadcast e limitando a propagação de um ataque",
+      "wrong": [
+        "Aumentar a velocidade do cabo de rede",
+        "Dar mais memória aos servidores",
+        "Trocar o endereço MAC dos dispositivos"
+      ],
+      "explanation": "Cada sub-rede é um domínio de broadcast próprio. Segmentar reduz o tráfego desnecessário e impede que um host comprometido alcance toda a empresa — é a base do princípio de menor privilégio na rede.",
+      "hint": "Pense em compartimentos estanques de um navio.",
+      "tags": ["subnet"]
+    },
+    {
+      "id": "sn-mask",
+      "prompt": "O que a máscara de sub-rede indica?",
+      "correct": "Quantos bits do endereço identificam a rede e quantos identificam o host",
+      "wrong": [
+        "A velocidade máxima da conexão",
+        "Quantos switches existem na rede",
+        "O endereço físico da placa de rede"
+      ],
+      "explanation": "Em /24 (255.255.255.0), 24 bits são de rede e 8 são de host — 256 endereços no bloco, 254 utilizáveis.",
+      "tags": ["subnet"]
+    },
+    {
+      "id": "sn-gateway",
+      "prompt": "Um host quer falar com um IP de outra sub-rede. Para onde ele envia o pacote?",
+      "correct": "Para o gateway padrão (roteador), que encaminha entre as redes",
+      "wrong": [
+        "Direto para o MAC do destino, como na LAN",
+        "Para o servidor DNS, que entrega o pacote",
+        "Para o endereço de broadcast da própria rede"
+      ],
+      "explanation": "O host compara o destino com a própria máscara. Se cair fora da sua rede, entrega ao gateway — o MAC de destino do quadro é o do roteador, não o do host final.",
+      "hint": "Fora da rede, sempre passa por alguém.",
+      "tags": ["subnet"]
+    },
+    {
+      "id": "sn-rootkit",
+      "prompt": "Por que um Rootkit é difícil de detectar?",
+      "correct": "Ele se esconde do próprio sistema operacional, mascarando processos e arquivos",
+      "wrong": [
+        "Ele apaga a rede sem fio do computador",
+        "Ele só funciona quando a máquina está desligada",
+        "Ele avisa o antivírus antes de agir"
+      ],
+      "explanation": "Rootkit vem de \"root\" (privilégio máximo) + \"kit\": com privilégio total ele altera o que o sistema reporta. Por isso a detecção usa varredura externa e comparação de integridade — no jogo, o Scanner.",
+      "tags": ["rootkit"]
+    }
+  ],
+  "pairsPrompt": "Associe cada prefixo à quantidade de endereços do bloco.",
+  "pairsHint": "Cada bit a mais no prefixo divide o bloco pela metade.",
+  "pairs": [
+    { "left": "/24", "right": "256 endereços (254 hosts)", "tags": ["subnet"] },
+    { "left": "/25", "right": "128 endereços (126 hosts)", "tags": ["subnet"] },
+    { "left": "/26", "right": "64 endereços (62 hosts)", "tags": ["subnet"] },
+    { "left": "/27", "right": "32 endereços (30 hosts)", "tags": ["subnet"] },
+    { "left": "/28", "right": "16 endereços (14 hosts)", "tags": ["subnet"] },
+    { "left": "/30", "right": "4 endereços (2 hosts)", "tags": ["subnet"] }
+  ]
+}

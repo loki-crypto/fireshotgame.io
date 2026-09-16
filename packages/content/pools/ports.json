@@ -1,0 +1,114 @@
+{
+  "services": [
+    { "key": "http", "port": 80, "name": "HTTP", "description": "Web sem criptografia" },
+    { "key": "https", "port": 443, "name": "HTTPS", "description": "Web com TLS (criptografada)" },
+    { "key": "dns", "port": 53, "name": "DNS", "description": "Tradução de nomes em IPs" },
+    { "key": "ssh", "port": 22, "name": "SSH", "description": "Administração remota cifrada" },
+    { "key": "telnet", "port": 23, "name": "Telnet", "description": "Administração remota em texto claro" },
+    { "key": "smtp", "port": 25, "name": "SMTP", "description": "Envio de e-mail entre servidores" },
+    { "key": "dhcp", "port": 67, "name": "DHCP", "description": "Distribuição automática de IPs" },
+    { "key": "smb", "port": 445, "name": "SMB", "description": "Compartilhamento de arquivos Windows" },
+    { "key": "rdp", "port": 3389, "name": "RDP", "description": "Área de trabalho remota" },
+    { "key": "ftp", "port": 21, "name": "FTP", "description": "Transferência de arquivos em texto claro" },
+    { "key": "mysql", "port": 3306, "name": "MySQL", "description": "Banco de dados" },
+    { "key": "ntp", "port": 123, "name": "NTP", "description": "Sincronização de relógio" }
+  ],
+  "match": {
+    "prompt": "Associe cada porta ao serviço que normalmente atende nela.",
+    "explanation": "Portas são os \"ramais\" de um host: o IP leva o pacote até a máquina, a porta indica qual serviço deve atendê-lo. Conhecer as portas padrão é o que permite escrever regras de firewall precisas.",
+    "hint": "80/443 são web, 53 é DNS, 22 é SSH, 445 é compartilhamento de arquivos."
+  },
+  "rules": {
+    "prompt": "Escreva as regras do firewall para este servidor: {policy}",
+    "explanation": "Política aplicada: {policy} Libere apenas {allowNames} e negue o resto ({denyNames}). A boa prática é negar por padrão e abrir só o necessário — cada porta aberta é uma porta de entrada.",
+    "hint": "Política padrão \"negar\" e uma regra \"permitir\" para cada serviço exigido.",
+    "policies": [
+      {
+        "id": "web",
+        "text": "é um servidor web público; só a web cifrada e a tradução de nomes podem entrar.",
+        "allow": ["https", "dns"]
+      },
+      {
+        "id": "web-legacy",
+        "text": "é um servidor web em migração; a web (cifrada e não cifrada) deve responder, nada além disso.",
+        "allow": ["https", "http"]
+      },
+      {
+        "id": "admin",
+        "text": "é um host de administração; apenas o acesso remoto cifrado é permitido.",
+        "allow": ["ssh"]
+      },
+      {
+        "id": "mail",
+        "text": "é um servidor de e-mail; o envio entre servidores e a tradução de nomes precisam funcionar.",
+        "allow": ["smtp", "dns"]
+      },
+      {
+        "id": "db",
+        "text": "é um banco de dados interno; nada deve ser exposto à internet.",
+        "allow": []
+      }
+    ]
+  },
+  "mc": [
+    {
+      "id": "fw-default",
+      "prompt": "Qual política padrão é a mais segura em um firewall?",
+      "correct": "Negar tudo por padrão e permitir apenas o que é necessário",
+      "wrong": [
+        "Permitir tudo por padrão e bloquear o que der problema",
+        "Permitir tudo de dia e negar tudo de noite",
+        "Depende da velocidade da internet"
+      ],
+      "explanation": "\"Deny by default\" (negação implícita): se a regra não existe, o tráfego não passa. Assim um serviço esquecido não fica exposto por descuido.",
+      "hint": "Pense em quem entra na sua casa: só quem está na lista.",
+      "tags": ["firewall"]
+    },
+    {
+      "id": "fw-ddos",
+      "prompt": "Um serviço fica indisponível porque milhares de dispositivos infectados o inundam de requisições. Que ataque é esse?",
+      "correct": "DDoS — negação de serviço distribuída",
+      "wrong": [
+        "Phishing",
+        "Injeção de SQL",
+        "Força bruta de senha"
+      ],
+      "explanation": "Em um DDoS o problema é volume, não uma falha do sistema. As defesas são filtragem, limitação de taxa (rate limit) e absorção de tráfego — no jogo, as barreiras do Firewall Cannon.",
+      "tags": ["firewall", "ddos"]
+    },
+    {
+      "id": "fw-botnet",
+      "prompt": "O que é uma botnet?",
+      "correct": "Uma rede de dispositivos infectados controlados remotamente por um atacante",
+      "wrong": [
+        "Um robô de atendimento em um site",
+        "Uma rede sem fio sem senha",
+        "Um programa que organiza backups"
+      ],
+      "explanation": "Cada dispositivo (\"bot\") obedece a um servidor de comando e controle. Câmeras, roteadores e geladeiras mal configuradas viram bots — por isso trocar a senha padrão de qualquer aparelho importa.",
+      "tags": ["firewall", "ddos"]
+    },
+    {
+      "id": "fw-telnet",
+      "prompt": "Por que deixar a porta 23 (Telnet) aberta é perigoso?",
+      "correct": "O Telnet transmite senhas e comandos em texto claro, legíveis por quem intercepta",
+      "wrong": [
+        "O Telnet consome toda a memória do servidor",
+        "A porta 23 é reservada para impressoras",
+        "O Telnet só funciona com cabo de rede"
+      ],
+      "explanation": "Telnet e FTP nasceram antes da criptografia ser padrão. Os substitutos cifrados são SSH (22) e SFTP — mesma função, sem expor credenciais.",
+      "tags": ["firewall", "ports"]
+    }
+  ],
+  "pairsPrompt": "Associe cada termo de filtragem ao seu significado.",
+  "pairsHint": "Pense no que cada mecanismo decide: passar, medir ou contar.",
+  "pairs": [
+    { "left": "Política padrão", "right": "O que acontece com o tráfego sem regra específica", "tags": ["firewall"] },
+    { "left": "Rate limit", "right": "Limite de requisições por intervalo de tempo", "tags": ["firewall"] },
+    { "left": "Lista de permissão", "right": "Só o que está listado pode passar", "tags": ["firewall"] },
+    { "left": "Porta", "right": "Número que identifica o serviço dentro do host", "tags": ["ports"] },
+    { "left": "Botnet", "right": "Conjunto de dispositivos infectados sob controle remoto", "tags": ["ddos"] },
+    { "left": "DDoS", "right": "Indisponibilidade causada por volume distribuído de tráfego", "tags": ["ddos"] }
+  ]
+}

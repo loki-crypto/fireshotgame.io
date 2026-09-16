@@ -1,0 +1,158 @@
+{
+  "id": "05-auth",
+  "version": 1,
+  "order": 5,
+  "title": "Cofre de Credenciais",
+  "subtitle": "Senhas, força bruta e MFA",
+  "concepts": ["Senha forte", "Força bruta", "Lockout", "MFA", "Hash com sal"],
+  "learningObjectives": [
+    "Avaliar a força de uma senha por imprevisibilidade, não por \"complexidade\" aparente",
+    "Entender por que um limite de tentativas (lockout) freia a força bruta",
+    "Saber o que o segundo fator (MFA) protege quando a senha já vazou",
+    "Reconhecer a forma correta de guardar senhas: hash lento com sal"
+  ],
+  "briefing": {
+    "lines": [
+      { "speaker": "SOC", "text": "Cofre de credenciais da empresa. Um Brute Forcer está martelando os cofres, uma senha por vez, sem parar." },
+      { "speaker": "SOC", "text": "Ele é blindado: enfrentá-lo de frente custa munição e integridade. Sem limite de tentativas, cedo ou tarde ele abre o cofre." },
+      { "speaker": "SOC", "text": "A defesa não é a bala: é a política. Aprove o bloqueio por tentativas no terminal de credenciais." },
+      { "speaker": "SOC", "text": "Com o lockout ativo, depois de algumas tentativas ele travava — e travado recebe 2,5× de dano." },
+      { "speaker": "SOC", "text": "Classifique as senhas do cofre, aprove a política e limpe o setor antes que o último cofre caia." }
+    ]
+  },
+  "debriefing": {
+    "summary": [
+      "O que derruba uma senha é a previsibilidade: palavras, nomes, datas e sequências entram primeiro em qualquer ataque de dicionário.",
+      "Comprimento vale mais que símbolos: uma frase-senha longa de palavras não relacionadas é forte e memorizável.",
+      "Lockout e atraso progressivo limitam a taxa de tentativas — é o que torna a força bruta online inviável.",
+      "MFA protege mesmo com a senha vazada, e o serviço deve guardar senhas como hash lento com sal (argon2, bcrypt), nunca em texto claro."
+    ]
+  },
+  "parTime": 780,
+  "minTime": 110,
+  "limits": { "maxKills": 90, "maxBytes": 300 },
+  "tags": [],
+  "weaponsAvailable": ["patch_pistol", "scanner", "vpn_shield", "firewall_cannon"],
+  "introducesEnemies": ["bruteforcer"],
+  "ambient": { "accent": "#ffd166", "fogDensity": 0.03 },
+  "layout": {
+    "cellSize": 2,
+    "wallHeight": 3.4,
+    "rows": [
+      "##################################",
+      "#.........#....m....#............#",
+      "#..P......#...K.....#............#",
+      "#....1....#.........#......X.....#",
+      "#.........a.........#............#",
+      "#.........a....2....#.....y......#",
+      "#.........#.........#............#",
+      "#...T.....#......U..#............#",
+      "###########bb########dd###########",
+      "#.......h.......#................#",
+      "#...b...........#...AAAAAAAAAA...#",
+      "#.......s.......c...AAAAAAAAAA...#",
+      "#....3..K.......c...AAAAAAAAAA...#",
+      "#...............#...AAAAAAAAAA..e#",
+      "#..........V....#.......4.......z#",
+      "##################################"
+    ]
+  },
+  "legend": {
+    "P": { "type": "player" },
+    "1": { "type": "sign", "text": "Brute Forcer é blindado. Sem política de bloqueio, só a política o trava — e travado ele recebe 2,5×." },
+    "2": { "type": "sign", "text": "Senha forte = imprevisível. Comprimento vale mais que trocar a por 4." },
+    "3": { "type": "sign", "text": "Cofre sob ataque: cada tentativa aproxima o invasor. Limite de tentativas é o freio." },
+    "4": { "type": "sign", "text": "Sala dos cofres. Senha vazada + MFA = acesso negado." },
+    "T": { "type": "terminal", "id": "t1" },
+    "U": { "type": "terminal", "id": "t2" },
+    "V": { "type": "terminal", "id": "t3" },
+    "a": { "type": "door", "id": "d1" },
+    "b": { "type": "door", "id": "d2" },
+    "c": { "type": "door", "id": "d3" },
+    "d": { "type": "door", "id": "d4" },
+    "K": { "type": "vault", "id": "v1" },
+    "s": { "type": "spawner", "id": "s1" },
+    "z": { "type": "spawner", "id": "s2" },
+    "A": { "type": "arena", "id": "a1" },
+    "h": { "type": "pickup", "kind": "health" },
+    "e": { "type": "pickup", "kind": "shield" },
+    "y": { "type": "pickup", "kind": "bytes", "amount": 18 },
+    "m": { "type": "pickup", "kind": "ammo" },
+    "X": { "type": "exit" }
+  },
+  "vaults": [
+    { "id": "v1", "crackAttempts": 26, "reward": { "bytes": 20 } }
+  ],
+  "spawners": [
+    { "id": "s1", "enemy": "bruteforcer", "every": 45, "max": 1, "active": true, "traffic": 22 },
+    { "id": "s2", "traffic": 22 }
+  ],
+  "arenas": [
+    {
+      "id": "a1",
+      "title": "Assalto ao cofre",
+      "lockDoors": ["d3"],
+      "waves": [
+        {
+          "spawns": [{ "spawner": "s2", "enemy": "bruteforcer", "count": 1, "interval": 1.0 }],
+          "delayAfter": 3.0,
+          "message": "Brute Forcer blindado. Deixe o lockout travá-lo antes de atirar!"
+        },
+        {
+          "spawns": [
+            { "spawner": "s2", "enemy": "bruteforcer", "count": 2, "interval": 4.0 },
+            { "spawner": "s2", "enemy": "rootkit", "count": 2, "interval": 2.0 }
+          ]
+        }
+      ],
+      "onClear": [
+        { "type": "openDoor", "door": "d4" },
+        { "type": "message", "text": "Cofres protegidos. Credenciais seguras.", "tone": "success" }
+      ]
+    }
+  ],
+  "terminals": [
+    {
+      "id": "t1",
+      "title": "Autenticação",
+      "concept": "Força bruta, MFA e armazenamento",
+      "generator": "mc_pool",
+      "params": { "pool": "passwords", "counterTags": ["password"] },
+      "challenges": 2,
+      "required": true,
+      "onSolve": [{ "type": "openDoor", "door": "d1" }],
+      "hint": "Fatores diferentes: algo que você sabe, algo que você tem, algo que você é."
+    },
+    {
+      "id": "t2",
+      "title": "Política de senhas",
+      "concept": "Avaliar força de senhas",
+      "generator": "password_strength",
+      "params": { "count": 4 },
+      "challenges": 2,
+      "required": true,
+      "onSolve": [
+        { "type": "setFlag", "flag": "lockout" },
+        { "type": "openDoor", "door": "d2" },
+        { "type": "message", "text": "Bloqueio por tentativas aprovado: o Brute Forcer vai travar após 5 erros.", "tone": "success" }
+      ],
+      "hint": "Palavra de dicionário, nome, data ou sequência = fraca, mesmo com número no fim."
+    },
+    {
+      "id": "t3",
+      "title": "Mecanismos",
+      "concept": "Hash, sal, MFA e lockout",
+      "generator": "match_pool",
+      "params": { "pool": "passwords", "count": 5, "counterTags": ["password"] },
+      "challenges": 1,
+      "required": true,
+      "onSolve": [
+        { "type": "disableSpawner", "spawner": "s1" },
+        { "type": "openDoor", "door": "d3" },
+        { "type": "message", "text": "Cofre migrado para hash com sal. Acesso ao setor liberado.", "tone": "success" }
+      ],
+      "hint": "Separe o que o servidor guarda do que o usuário apresenta."
+    }
+  ],
+  "exit": { "requires": { "terminals": ["t1", "t2", "t3"], "arenas": ["a1"], "flags": ["lockout"] } }
+}

@@ -1,0 +1,2984 @@
+{
+ "source": "03-dns-https/t2",
+ "generator": "classify_pool",
+ "params": {
+  "pool": "dns_https",
+  "count": 4,
+  "counterTags": [
+   "tls"
+  ]
+ },
+ "seeds": [
+  {
+   "seed": 2654435761,
+   "sha256": "0f84b1fb7d2698e11437bb457c7c0939ba186479347e7aabab5169878c59435f"
+  },
+  {
+   "seed": 1013904226,
+   "sha256": "465e3ae83d70d81cf5770a5a2d918b7074f7de40cb184fc271da915995a8770d"
+  },
+  {
+   "seed": 3668339987,
+   "sha256": "059f5bb2d8a79949f168f8bbb9b989e96cbb2e818f13bc340630d05e538c45dd"
+  },
+  {
+   "seed": 2027808452,
+   "sha256": "fc54216030f22b852349e061fd98349a762886122ee222f875c1ad0837eafe85"
+  },
+  {
+   "seed": 387276917,
+   "sha256": "2163e194866125fa0f3db28c251453b5ccaecbbcca274e5175be415d3379c896"
+  },
+  {
+   "seed": 3041712678,
+   "sha256": "65851448580d185b1d3f46a940f867bbeb994e7f5b00d5c16e431a782972fabe"
+  },
+  {
+   "seed": 1401181143,
+   "sha256": "2761dab24d7ac39e8fa9206ad5a6aebab9cbbc852260c9d7b5ccbdad108483b0"
+  },
+  {
+   "seed": 4055616904,
+   "sha256": "c574b29519695bf29086fcec62b066ea9997d8e13e1da9e5c5d267deca3369bf"
+  },
+  {
+   "seed": 2415085369,
+   "sha256": "9ec8fb6e91891dfeff027e68aaab39e88c3a777b6dc1222a390ac2c3540ff625"
+  },
+  {
+   "seed": 774553834,
+   "sha256": "67266a26d759f833b881c1d3054bfa179e47c23001459b547334deb5082e53ca"
+  },
+  {
+   "seed": 3428989595,
+   "sha256": "a7ea6bafd47a4d3f2bb4123c3edb248a5e82e0649e787ae46773e68f2dd3434b"
+  },
+  {
+   "seed": 1788458060,
+   "sha256": "ffa2c05d1d2dd1f855b7aeabe5707b0cae8648f21dba76047e043d6db2af4d93"
+  },
+  {
+   "seed": 147926525,
+   "sha256": "4cb447047112799c0445d7f4614a5b1f151621d6c252b131d0a239b1a3c45c3c"
+  },
+  {
+   "seed": 2802362286,
+   "sha256": "2ff1f774015d9235011bca0322d7898be1d5b000370484c2bac6be70fdbde598"
+  },
+  {
+   "seed": 1161830751,
+   "sha256": "fd5969388df8b10977e12f22ae6ce2b7df2097d16580c48510ec0a6a90b0ca66"
+  },
+  {
+   "seed": 3816266512,
+   "sha256": "ad48a97eaf0a47abbf6afa4c8ede3be0da4e04d5eeccbd6b43cfb592dbcd95a7"
+  },
+  {
+   "seed": 2175734977,
+   "sha256": "8bcd202eff51e29d103fb5063b9089de43a4d27629bfbe29ae3c73fefb6a7745"
+  },
+  {
+   "seed": 535203442,
+   "sha256": "2f444052c0c088656598d7cc2e4f40516c1db5ad7c3bdf70d117ee8ca6ae2694"
+  },
+  {
+   "seed": 3189639203,
+   "sha256": "bb269a5271defb720587c58f7a3b708cc0afc4dac1a0e0cb1b5f43b9bce8d9fa"
+  },
+  {
+   "seed": 1549107668,
+   "sha256": "867d1b69a2f3512a008b541e3c1cb11a943a326be87ad6b71c9a9729ecb300c8"
+  },
+  {
+   "seed": 4203543429,
+   "sha256": "ff2ce7518f1f5b24c3a31aea8520a3b6c54352047dda757df80d5f30ce4515fe"
+  },
+  {
+   "seed": 2563011894,
+   "sha256": "99560030bfcc1024c4b6ab758a4fc3a7db2a3bc3c373a818f0ca45684adf43ad"
+  },
+  {
+   "seed": 922480359,
+   "sha256": "5728360cf654578e8c1d594f46ed4c46495239dd6befa64a8afc70bea511f0e8"
+  },
+  {
+   "seed": 3576916120,
+   "sha256": "a2544661b21e7f27c1a9dfbb9d59b469f230a8c510f1e95a04aa213cdfcc8fcf"
+  },
+  {
+   "seed": 1936384585,
+   "sha256": "b5794f718aec78f9323d60d33c4448d84c53ab129c6e44c2df58bb696fa97273"
+  },
+  {
+   "seed": 295853050,
+   "sha256": "40e8e8f128ef13ef721c28f1e93b8c32b8d2da3b12c631fdc2db8769d9823ec0"
+  },
+  {
+   "seed": 2950288811,
+   "sha256": "89d661d0b782d310e3ec6ddf1f1b650295df97f7f6511961c70369338d0d8b28"
+  },
+  {
+   "seed": 1309757276,
+   "sha256": "a7278e80da1deb4bb795802b1729c8d14a6b1c95bc59917a2dc7eb1d6f2b0716"
+  },
+  {
+   "seed": 3964193037,
+   "sha256": "fe5c9482f783cea7501064afebbd6cb6680b7b7f4b546fa0bc284567ea641c40"
+  },
+  {
+   "seed": 2323661502,
+   "sha256": "faf9bf1536bba2ed37d47b2fdb45eac0e3a37be273e306f1fc388cbf81f846f2"
+  },
+  {
+   "seed": 683129967,
+   "sha256": "554d2ae4ce822217772a60eeadbc9d8dfe38a2c2045cf1d9f080bb075b000ee5"
+  },
+  {
+   "seed": 3337565728,
+   "sha256": "1f176d8c5f4b683c6f855daf53169a0bbf4c3c918a718c33ddec219f3e46015e"
+  },
+  {
+   "seed": 1697034193,
+   "sha256": "205a8d31da9ba711294a0eb405df3bee5fb9893463410b1f7bda350d455772f0"
+  },
+  {
+   "seed": 56502658,
+   "sha256": "2acc88c8114614867860f6956bc4cd086ee8c6ffedc29c28d6e59b4413a90434"
+  },
+  {
+   "seed": 2710938419,
+   "sha256": "5db20b875450a2906cb994816da37ee86c0d2035e253b2af8b182032d8136458"
+  },
+  {
+   "seed": 1070406884,
+   "sha256": "788f213389c2600e896f5f3ba5a9218df71a5b8d95b680b412e578c22c50ecb8"
+  },
+  {
+   "seed": 3724842645,
+   "sha256": "8a51299b033323c77aaa08f66388c977683cc68e60588b2325c85785f48d0745"
+  },
+  {
+   "seed": 2084311110,
+   "sha256": "9af10c6e163c609a661756ad82bd714daa6f97538e1b30dd5602eb000e38a7bb"
+  },
+  {
+   "seed": 443779575,
+   "sha256": "2dae69a39807b48bcd47986ff47b271a89ca3278a49804acdb62f56959b62c58"
+  },
+  {
+   "seed": 3098215336,
+   "sha256": "467d09ba67764378dd787fbf0961acc89f5f4ff393542d861323b512f92d365d"
+  },
+  {
+   "seed": 1457683801,
+   "sha256": "5e910121533fab8b34545ac85f4a043e56be849915df8ce9b38c160394fb7cf4"
+  },
+  {
+   "seed": 4112119562,
+   "sha256": "b488862195d9e1705e5d287264008e80838749012f812f97a0e5dcb2f1a53da4"
+  },
+  {
+   "seed": 2471588027,
+   "sha256": "22b3ec6a98faa8b8c4570ca64c6b3f2c2a4a7165c56eb47de15c0e028aec1a63"
+  },
+  {
+   "seed": 831056492,
+   "sha256": "c2b56f54cc2343407415d067c6f5f03e55e7cbdb83aff91c0004afdbdcb990eb"
+  },
+  {
+   "seed": 3485492253,
+   "sha256": "76057fd1513da3eb1c062ff310405c3ef7f794b603315c6da65facfc7778254b"
+  },
+  {
+   "seed": 1844960718,
+   "sha256": "568947246d7c5ed655f723983abf2b1f6030c338d0e978329bce8120db2578a0"
+  },
+  {
+   "seed": 204429183,
+   "sha256": "61fad873cbea7845693d46c6513b5b78862ef0deb2089c4f00dbb475e80c6a1a"
+  },
+  {
+   "seed": 2858864944,
+   "sha256": "b68fb915b1f0f437f7626d1318e959f440707dccbad2bf29e409fc960731a76b"
+  },
+  {
+   "seed": 1218333409,
+   "sha256": "4a34e6a2647924e5c64f166ddbed312bc9cff57de4a0cb23797d1d5d3078fc48"
+  },
+  {
+   "seed": 3872769170,
+   "sha256": "34bd85ee08f1830feeb4317d63f16b68cbf08d684d13c0b889efc83f423bd220"
+  },
+  {
+   "seed": 2232237635,
+   "sha256": "177b21ab5c7649b2f23b14ec4a7a79e948b18ce9ed2ee865b5abb1c989dcf2e0"
+  },
+  {
+   "seed": 591706100,
+   "sha256": "64dee7639cde229de5d613f9d94f61c9ad98576ba3e2bce96e235ebb037cfbe3"
+  },
+  {
+   "seed": 3246141861,
+   "sha256": "417508145949fbf5d68f7d4608a1f4d8608ccb6dcfe9eae47d9332728b4943c8"
+  },
+  {
+   "seed": 1605610326,
+   "sha256": "710c8c7daa169984d89b3068de2729a4a71f5dda049d531d345562ef03c67ddd"
+  },
+  {
+   "seed": 4260046087,
+   "sha256": "fcae1f133893b9e7eede132df77a04756cddca8a3b814a19f1d82cd0368aa23c"
+  },
+  {
+   "seed": 2619514552,
+   "sha256": "083424596f10c780a88cf26d92d01f79fc7232eadb76280a9ef9a1a4c7414b36"
+  },
+  {
+   "seed": 978983017,
+   "sha256": "f68de345a71753f3a8c3de229025b12d6e8b104156b6f9cbf08b176740d46a9a"
+  },
+  {
+   "seed": 3633418778,
+   "sha256": "73987ed8586c90bd5438a9329d5a1ef379da27fb909bb22c590678961cf045c3"
+  },
+  {
+   "seed": 1992887243,
+   "sha256": "150f73de386671fccb62696f7c42d4fa5a90087ef5b3fb095793c99b93872ac6"
+  },
+  {
+   "seed": 352355708,
+   "sha256": "aee03f633307ba739b1e684330ebc8b35cac60a9e3310aa57c3ba9b7c7ff7aaa"
+  },
+  {
+   "seed": 3006791469,
+   "sha256": "6d71b101ca83caeb970f14f4b8225b317231c5ade329b537fd6b18bf00041dbc"
+  },
+  {
+   "seed": 1366259934,
+   "sha256": "630fe86e78b606fba020a2a4cb41f76ed86a6ff577ea50e72cf2f199e678d4e3"
+  },
+  {
+   "seed": 4020695695,
+   "sha256": "e53af14bf430142dc875c62627e50bd01d22956f16c97892cd057c08a3640a1b"
+  },
+  {
+   "seed": 2380164160,
+   "sha256": "08d99c0962bfad40dd7474ca1e395f448e482bd7b30a6314d67157759833c401"
+  },
+  {
+   "seed": 739632625,
+   "sha256": "5a56bb068992529a8320ed79e78088f221661befd8e2580168f7d3e1849987c9"
+  },
+  {
+   "seed": 3394068386,
+   "sha256": "9112b5f0f060f9e026c44269e7f7b68d048e5f5e71a9f88cc966719fde36a76d"
+  },
+  {
+   "seed": 1753536851,
+   "sha256": "839196fe30cbce0b8ac9aaca2696985c2679b63660f8915b8159ac75e347e8db"
+  },
+  {
+   "seed": 113005316,
+   "sha256": "a5e8fad5ee387ee4c9215697b8cac3c8d4de9e5e7f7ba2b6ce4ba894d027e366"
+  },
+  {
+   "seed": 2767441077,
+   "sha256": "b2b52dc47991747a5860735219b204fa189ad70dac18d8d919ea8b265322f393"
+  },
+  {
+   "seed": 1126909542,
+   "sha256": "4b246978cd3fa095e2554ad7c4604d7e23a0bfa9dc8efbfa04a1fdf62fcb5fd4"
+  },
+  {
+   "seed": 3781345303,
+   "sha256": "adbad4497b221b20b8fd325ad47fe5b5a77020cd80b2f09d4e55c10da7cfd77f"
+  },
+  {
+   "seed": 2140813768,
+   "sha256": "7e94b9cb2f085802b09e2e3ced1f4ca7e314cf39ea2b2b11ad8a191e4c60f4a8"
+  },
+  {
+   "seed": 500282233,
+   "sha256": "67496fea3de2ffd4c33d81ae917c5fc0c9ad92b376db2a903883c687453b4d80"
+  },
+  {
+   "seed": 3154717994,
+   "sha256": "9bb674dc0856dab0eb3e5ecc3b51e09882dd45d0a648b751de2bcaab3443e5fc"
+  },
+  {
+   "seed": 1514186459,
+   "sha256": "d4ce3d5b5367ddddb7d23a7774ba9a24bea827f6f0fdc9cb4f3228b399c85a8e"
+  },
+  {
+   "seed": 4168622220,
+   "sha256": "6774af63adaaefa8ac055b6338f137afd466020c7a30f71e4b3f074f57dcb3a2"
+  },
+  {
+   "seed": 2528090685,
+   "sha256": "e8b47f2c8b4e27b0f357f827ed9716f0f6d23e5ed1b260ce07c3f198cdfd9298"
+  },
+  {
+   "seed": 887559150,
+   "sha256": "54e6400fe1866901b31d61bf22cad0a3f3881aad0057beb30a1227c7bf317dec"
+  },
+  {
+   "seed": 3541994911,
+   "sha256": "834324f96402452d75029235714c5bbe9207312e93715dc55a3f77f3890cffbc"
+  },
+  {
+   "seed": 1901463376,
+   "sha256": "061d7b246483b7cc6f8f755160ddd056baba3d2ba9abea2be1d11bd13bd0b88b"
+  },
+  {
+   "seed": 260931841,
+   "sha256": "6628c49bbc1df8e5ffa71f6274cc94161d3ad98fdaa15330773646ac6db69881"
+  },
+  {
+   "seed": 2915367602,
+   "sha256": "e0617452166fa186656e95abd85d29e086081820b5e0901edf061716b3cdb988"
+  },
+  {
+   "seed": 1274836067,
+   "sha256": "ff60dea2ce63524410b9f33b8dc291ad44f304ead07fa2dcd8f271025a8b64f7"
+  },
+  {
+   "seed": 3929271828,
+   "sha256": "9f1bffe06839a8b39b037e8076337a6e9ef736692073e07de6007cec6fd66a69"
+  },
+  {
+   "seed": 2288740293,
+   "sha256": "94475de3b29323e476454761b174905d5cbdd7b7dde6d58aa59bd96448fbb70b"
+  },
+  {
+   "seed": 648208758,
+   "sha256": "83aa5dacba21eed9bbe828ff7cbc44cf1a18a3d28ae3ab7ca877da6a4849a1ca"
+  },
+  {
+   "seed": 3302644519,
+   "sha256": "0db84f396206a6bd656df1e7673968bbfd2a696d75c617570c8805f0ab51e037"
+  },
+  {
+   "seed": 1662112984,
+   "sha256": "ff81dc418a81b71319fd662c26fec41fc8197d74119706d6af6fe7e5dae384a8"
+  },
+  {
+   "seed": 21581449,
+   "sha256": "9a34a258b756f4621591c302b0706b594a694ea11cdccd8d2f182ba590e35f47"
+  },
+  {
+   "seed": 2676017210,
+   "sha256": "ac0b579643cee45adb96f3e4e1dd4b3588bf6def8c54c57c902e0682fc1774c5"
+  },
+  {
+   "seed": 1035485675,
+   "sha256": "bd8fb759a68e431c8a5e308b58f61f31059c406cd0975594f8e7c2dfe74b4ce4"
+  },
+  {
+   "seed": 3689921436,
+   "sha256": "9a0471ccd2d794d1f188dbc0a40a55f16537a73555f83df2cfdfac2cef676d4a"
+  },
+  {
+   "seed": 2049389901,
+   "sha256": "32c0790ff0904c99f2b0e85292d51e308943e3116d924513f57312cec5c550a8"
+  },
+  {
+   "seed": 408858366,
+   "sha256": "3c2913a889b837f70e0877ffce2368eaf6e105cc91055b1167346c926f963677"
+  },
+  {
+   "seed": 3063294127,
+   "sha256": "a8803d2b32e0e2f4bbce0aecc9680bce7e9aeb6732d76298eb1fe85061f7b0fb"
+  },
+  {
+   "seed": 1422762592,
+   "sha256": "c39690e10bf7426ae58881cbf91ba3116906871eaea167daa50c2469e6dccb98"
+  },
+  {
+   "seed": 4077198353,
+   "sha256": "95a36f88b2c381eaba0e0a556e2a07e3d5610d06014cad90593fb572b8b88bef"
+  },
+  {
+   "seed": 2436666818,
+   "sha256": "f13215bd447e067c984356e0b6b18b7917dce1d3af14bdb3b99bfae557e41606"
+  },
+  {
+   "seed": 796135283,
+   "sha256": "d8934666dfb95116648091a3d3a9791cb8ed0e1a0e6777fcdbeaf9b47a535bd3"
+  },
+  {
+   "seed": 3450571044,
+   "sha256": "93da4cb54312f462f0d0f8ea35a0bd2075976cf0ef03c7adeab63c5a61a96df6"
+  },
+  {
+   "seed": 1810039509,
+   "sha256": "b37fef349bc0df023613927c3b36731e4769dcaa1a556191af900250a74e583e"
+  },
+  {
+   "seed": 169507974,
+   "sha256": "cfd0996701f4d61cb30d43204a24010ac563bbe24affb7ddec9e8869cdefdb55"
+  },
+  {
+   "seed": 2823943735,
+   "sha256": "febc136b28ee3e32a03fbfbfa227a8c67ab856b1e72dffd7168396fe831190d3"
+  },
+  {
+   "seed": 1183412200,
+   "sha256": "9e5f9065ecafcfb91471b6ab1f464dda9279f87fe07120ec7120ddb1947ed6df"
+  },
+  {
+   "seed": 3837847961,
+   "sha256": "3e29091f92889f18f07458316f217f573524c9bc5493ef398c37d5993ff7b581"
+  },
+  {
+   "seed": 2197316426,
+   "sha256": "139263cc8ee8c5ebd4a5f142bb55a019e65822c02d35f413e59931065c6d2f32"
+  },
+  {
+   "seed": 556784891,
+   "sha256": "550803b6ea1f8c7a32c08f7a82d96ec630337cb00de714802f4a2016f1958538"
+  },
+  {
+   "seed": 3211220652,
+   "sha256": "0b4a0e89f09f8824fa4c201c4dbcdf45538a333ff88dc0f2cb75268a0ea32e8b"
+  },
+  {
+   "seed": 1570689117,
+   "sha256": "647696ec7182b80cb985914f45e5a2ef77eea02ec0354aca1b3cb1ffd4255df1"
+  },
+  {
+   "seed": 4225124878,
+   "sha256": "92ee500b38910c95ba7b98ecdbab4d1f416914a8bf8170c1d76bf44d954da4b0"
+  },
+  {
+   "seed": 2584593343,
+   "sha256": "d33259013a29a3bd34746e1af70ec24b8212ff2e3e0cdf7c478ee2f169829c00"
+  },
+  {
+   "seed": 944061808,
+   "sha256": "e82cbc6f90042b1ba53128404eb92412081969ac3267f11a675e13348ea09c3f"
+  },
+  {
+   "seed": 3598497569,
+   "sha256": "9a4ad985cfa50a8d321af05e360bca88f16a7aeb15aa5e5ccc1179c54513df41"
+  },
+  {
+   "seed": 1957966034,
+   "sha256": "6e477c342fe466953f1a6233a1976f17902789767f7802c35c1f6522380c5e30"
+  },
+  {
+   "seed": 317434499,
+   "sha256": "08ace03785c606e98eb09d764905f51849d27a7845289e88fb7198ab139da32d"
+  },
+  {
+   "seed": 2971870260,
+   "sha256": "554321f9929b918735c90ca39338fc4bb4279fae782221369a1972972628d021"
+  },
+  {
+   "seed": 1331338725,
+   "sha256": "537c1385d35026b6a11770327c29a90274ac7f191d477c3f84ec7789802dff71"
+  },
+  {
+   "seed": 3985774486,
+   "sha256": "55616f0c0d60a014355cb6d472c694b7da4eb9d7172f30a6a1a362cbc0cdffb3"
+  },
+  {
+   "seed": 2345242951,
+   "sha256": "2dbf543b4471b06e847acf9103c823515fe6355ae47d0e22563e8e575e89aea1"
+  },
+  {
+   "seed": 704711416,
+   "sha256": "0b706d64ec12bb8829934f512f8021a4293d4455036333320ffff41b79d56de0"
+  },
+  {
+   "seed": 3359147177,
+   "sha256": "1472eec74be0fbb020af88a2ce9435d9a5c7be32a1ba7482a92e093d290a4be0"
+  },
+  {
+   "seed": 1718615642,
+   "sha256": "991613ed3d0d92a6832a06be3e0bd5128f1fcf9785da7e9ad0d5d234733ca449"
+  },
+  {
+   "seed": 78084107,
+   "sha256": "340a63afd6e6f3c1aaeb895533555999e0e33ae88fc402f846ce08fad6f786f0"
+  },
+  {
+   "seed": 2732519868,
+   "sha256": "74c637f80270795f019c6442dca72e20f49eddac856fe38ca2b961ec33335bff"
+  },
+  {
+   "seed": 1091988333,
+   "sha256": "cb76829488f6d4befa24c6fb11fc4cb7bea484e7e69c557e2163a129a2903f30"
+  },
+  {
+   "seed": 3746424094,
+   "sha256": "6fdbe47f07a498488ee7ca7e4a6046ff18f6a771995982b6b2411cf2cefea955"
+  },
+  {
+   "seed": 2105892559,
+   "sha256": "2d0b340930a7f7b2fda8d24690a9759ac1cfe94fbe1a65ef1de60f0749364ccf"
+  },
+  {
+   "seed": 465361024,
+   "sha256": "78ef052f724b5641b3519a7660a865253f8d5f9cda37d5cd3e07cacbb760b8d4"
+  },
+  {
+   "seed": 3119796785,
+   "sha256": "e0030b62269c40c03f28e10f3f0bb73462d1bc6e4ce0ef41d7aa1075da44829f"
+  },
+  {
+   "seed": 1479265250,
+   "sha256": "bb69f552908bc040e9ec3e989f1e272de2aa59657c9d414082ca5d65d8963da5"
+  },
+  {
+   "seed": 4133701011,
+   "sha256": "8eb8ed5d76551cece77d1d91f2b3e89dcfcd7d09749403a3fa05eb5d401ef57e"
+  },
+  {
+   "seed": 2493169476,
+   "sha256": "55169fdd3649eed80459d05a49c198fcf041e6235846884b1669a2f9d21a922c"
+  },
+  {
+   "seed": 852637941,
+   "sha256": "2f5e1957bdc7f5a6671a9de65821815f2b1cb0f03dc85b1aa6262f129516eec9"
+  },
+  {
+   "seed": 3507073702,
+   "sha256": "3f93a96cf0e589ca109d503eb45aad8e106c52f83b0dd68ef550da78677762f0"
+  },
+  {
+   "seed": 1866542167,
+   "sha256": "e0f668df86aa5a8d4d3def235a6c499540f19ee89c5e5185c0b963189f66b902"
+  },
+  {
+   "seed": 226010632,
+   "sha256": "d2320a3bbb5521f468da34ca17f6feb58aa5371506d29d89d0523ba9401a53d2"
+  },
+  {
+   "seed": 2880446393,
+   "sha256": "e72f624b58700a3618b7d068ddbb3c2ca16c2829637c6ba7dc2a278ec93358e2"
+  },
+  {
+   "seed": 1239914858,
+   "sha256": "2889c6c7d83af3ec7e168bde28103745adc08c7c6cd261630bbe5de974a1d77f"
+  },
+  {
+   "seed": 3894350619,
+   "sha256": "bd47311f496736fbe47e67fc9894cd7c7004284db77fa1dbc6722299ad48d020"
+  },
+  {
+   "seed": 2253819084,
+   "sha256": "295324f22155dcd2c885f30fcab730d17d8abaa932daa7e71d58a6b844fdb852"
+  },
+  {
+   "seed": 613287549,
+   "sha256": "165f68b06614d9eb873767ea294fb8627f1d95ab7de0ba83bd86fef00475d92b"
+  },
+  {
+   "seed": 3267723310,
+   "sha256": "84147699382ee3dad7808d1fbbe9b143ab588c9ca40f089f60a15bc05ccf647c"
+  },
+  {
+   "seed": 1627191775,
+   "sha256": "22902139c03d606c24922c9ba91b76781c2e1868f850ba97b14e7bcb9f71b6ea"
+  },
+  {
+   "seed": 4281627536,
+   "sha256": "5917dbb902f6abba9bed88bdb28859f1fd62560fee50246fc530069544cda189"
+  },
+  {
+   "seed": 2641096001,
+   "sha256": "6a732419060323e408e2f6caa472188320fc040b9244309036ff9e4ff006d977"
+  },
+  {
+   "seed": 1000564466,
+   "sha256": "fe16109d6ee60f5377ee4419426efc695e65383bc31722ec4bc81fcec4f0f07e"
+  },
+  {
+   "seed": 3655000227,
+   "sha256": "95ab1682f54152f9654660e71faf19a498e15e97c3e262e0fa31946c933b6f01"
+  },
+  {
+   "seed": 2014468692,
+   "sha256": "fb6f0a330a8513a9f41a71372e298daacff7df0abd9108dc697af60964cc16cf"
+  },
+  {
+   "seed": 373937157,
+   "sha256": "2fd6135b4fd9668fe27aafda4cd4fc29a6af53218e1a890c39564b1139b9dda3"
+  },
+  {
+   "seed": 3028372918,
+   "sha256": "e7572546c4b28feaeff55bb707b84155b7d32c7ac34a063ca94541e54b44de85"
+  },
+  {
+   "seed": 1387841383,
+   "sha256": "07fd4601cd410e93c4b8adee82dea54b61a683a33114e04c73d44a0117aa471e"
+  },
+  {
+   "seed": 4042277144,
+   "sha256": "1b309ef8c48b4d2e59e5fe0446efad8a3aafc9e4b2d2c4ae88abe66311713c4a"
+  },
+  {
+   "seed": 2401745609,
+   "sha256": "553a8a537a242dca15a93fdb348d62d9f4e05f88e5f1d31f16f5948fc4e8c0e3"
+  },
+  {
+   "seed": 761214074,
+   "sha256": "680c90c6f41afe1e8699eedaaa5e949b443a4c4d926f6f8ad7714a929276350a"
+  },
+  {
+   "seed": 3415649835,
+   "sha256": "76c7fd7fca30001ff6b810c87a4197e58101ea1581c0b7f651a1fbd73ec7f9f9"
+  },
+  {
+   "seed": 1775118300,
+   "sha256": "d7efaa24beb63583810c529e63692287c2bac906ebdd7087f9c1a1daa7f3f134"
+  },
+  {
+   "seed": 134586765,
+   "sha256": "46b5a70e8e6a60dfc7c4689a19a58e71dbd0e0c9c62a33ceadfd443d9eeae59f"
+  },
+  {
+   "seed": 2789022526,
+   "sha256": "3b31b0491537b420004cedbcb9df336b6f0297cff3254311299153ec1cb663b3"
+  },
+  {
+   "seed": 1148490991,
+   "sha256": "7821ff346db1bfcf70e09f20b5924ea877381300f3168d57dce1f481d2576a52"
+  },
+  {
+   "seed": 3802926752,
+   "sha256": "d655ea3c64e940f14f01a0f6af3d54be7d3a87e264b3ce13688d5f8128726c5d"
+  },
+  {
+   "seed": 2162395217,
+   "sha256": "98c951101ea8a36730d8d8780bbc11cb75945132dac71ffdf1c0660fa3e57193"
+  },
+  {
+   "seed": 521863682,
+   "sha256": "6f029c391e8eb481d93d5f09dc23ab85c56302c4fff5c34573c1d3d23274c1b8"
+  },
+  {
+   "seed": 3176299443,
+   "sha256": "379e153683e0019ff080fa03ad4dbb2feb7fcdfbda673de7a549b62de3b030fb"
+  },
+  {
+   "seed": 1535767908,
+   "sha256": "9dbfcb1ecf99454fa5a2b00ccde71e4258c68c39449122e34a0a06b3af605c03"
+  },
+  {
+   "seed": 4190203669,
+   "sha256": "bc8defbae9b5b432b86f0f610cef29533c99aa7024ead5ab66567fd8fc275807"
+  },
+  {
+   "seed": 2549672134,
+   "sha256": "26c1edc4731c11b75de7a69965652ad101efea35e89a42bc06ac22d5502c462d"
+  },
+  {
+   "seed": 909140599,
+   "sha256": "57db614d6a894029874fa56c035dacf5104280109866a50956da31ddabe78f6a"
+  },
+  {
+   "seed": 3563576360,
+   "sha256": "cc498afc3c9a8119cf6fb976bd52e4357ad8535382cf0c89a684d0713796ad8d"
+  },
+  {
+   "seed": 1923044825,
+   "sha256": "dfc8e71c0f68e81a99103b66ec0c0f037f1d87d6a4a0f7b3f39d48404aec1b8f"
+  },
+  {
+   "seed": 282513290,
+   "sha256": "03e1bc9454f11866681169a69a14781f70c634e0130b4ab79f6a9fb1da23205d"
+  },
+  {
+   "seed": 2936949051,
+   "sha256": "39d42f94b5adf1308318ff116d38a70595bf012ecc7ffe2d2f0af7308ad4fac9"
+  },
+  {
+   "seed": 1296417516,
+   "sha256": "a9991eae0070e7d70fdd86e6313e417bf90db9f258b96d5f110b2f053f6b5515"
+  },
+  {
+   "seed": 3950853277,
+   "sha256": "0d45b034aba64923d53e699316f9df5154354f45dbef5a1bd24b7274a7532394"
+  },
+  {
+   "seed": 2310321742,
+   "sha256": "7f54891f272a77a87d3dc939d3f04b3b9023199f498f49f99d2f90d4810af057"
+  },
+  {
+   "seed": 669790207,
+   "sha256": "c5884fad20ef46b540e011214e19943860cc05f58e9ce2878020690bb04d784a"
+  },
+  {
+   "seed": 3324225968,
+   "sha256": "e378013666f62d49cd29a7a13c175420a3e2867f06cd8e1e2e99bb87755a8d8e"
+  },
+  {
+   "seed": 1683694433,
+   "sha256": "1e45afec679fccd88964447d62fda9f83feb7ddf7177d66efdfc88798be18b59"
+  },
+  {
+   "seed": 43162898,
+   "sha256": "9bc9497ba0dd45cd0520fae08d81f901517aa2d7474eabfbd8eaf804fd2df7ef"
+  },
+  {
+   "seed": 2697598659,
+   "sha256": "4a2779599e15acce395c86551c8fbe515b8213abef57e404300bbd31ba116943"
+  },
+  {
+   "seed": 1057067124,
+   "sha256": "062e3b3d9878e983f95a0927b1b348ead24155a970a2c11b20f7b823a0fd790b"
+  },
+  {
+   "seed": 3711502885,
+   "sha256": "9a1097ff80ded81eda3a10087e3990f94469014d0403fc704ff33452e99489cd"
+  },
+  {
+   "seed": 2070971350,
+   "sha256": "784dfd0cbdbe2b94267844442552a9f35c5955df51c1ac820b007e22e91e559a"
+  },
+  {
+   "seed": 430439815,
+   "sha256": "2121025d04cb94ffd5bc5291cd243413cd36f456ece2adef0750eafe2f55171e"
+  },
+  {
+   "seed": 3084875576,
+   "sha256": "35885b524d27e77c8df000ec5647e7f10704c27ad5948fb56419ef5711de6bc9"
+  },
+  {
+   "seed": 1444344041,
+   "sha256": "aa16865c161fff606e4f562faf22724f203523bb07b511cd52889199de9cde61"
+  },
+  {
+   "seed": 4098779802,
+   "sha256": "a7c44f96733da97cc06b2c3882aedfdae117dae3ea5b2fb00f892ad96b25bbe8"
+  },
+  {
+   "seed": 2458248267,
+   "sha256": "345a8cd096bb47fff72a1705dd6d009d6406f457afa4f3039dee193bcaff5694"
+  },
+  {
+   "seed": 817716732,
+   "sha256": "562cd0c32e2b9f3896ce5fd1cc959664696c461fe6ad9607875a391cc6a89ffa"
+  },
+  {
+   "seed": 3472152493,
+   "sha256": "94dd621dd1caef7cb5214f2b261b5091a264da35243a5987d1620f79cc07118e"
+  },
+  {
+   "seed": 1831620958,
+   "sha256": "8f79d7428c0dae641c71a26d2b8e63e673c4fcecb95309e93a4e93e4bdfa5f3d"
+  },
+  {
+   "seed": 191089423,
+   "sha256": "ad91270a42121c75c6c669851b89aa5af53f83e2263a59d8e3f373d76be3b2ea"
+  },
+  {
+   "seed": 2845525184,
+   "sha256": "a265949360a38442282daa8a80b4faaf0a700e9cdb1e7912ab540fa4b3ebeb6f"
+  },
+  {
+   "seed": 1204993649,
+   "sha256": "2a8b29bea6b2be0a0352125f015383b38d5fd1e543da552cfa69e14ac94a20b8"
+  },
+  {
+   "seed": 3859429410,
+   "sha256": "06d85925e069a2d18cf29d9d6947501a6d813662c456fb2f456b3675eb28f4ae"
+  },
+  {
+   "seed": 2218897875,
+   "sha256": "b39ea3ee9e180b33104f0ec1b44648e71dad2dc023922a6e47c03584f8fb5a43"
+  },
+  {
+   "seed": 578366340,
+   "sha256": "a64bfc28405cdcccc37c13442513bdc28b202c739d5250cb9c03e7bc0de933e5"
+  },
+  {
+   "seed": 3232802101,
+   "sha256": "5a4340c49574174f5d8755ebbdf721904e4ba668faa9cbee89e9c31e7bce8712"
+  },
+  {
+   "seed": 1592270566,
+   "sha256": "b359bbbf13aba17c53b36ab050f8d526a59381f4c15cdb622b931963459b4f2d"
+  },
+  {
+   "seed": 4246706327,
+   "sha256": "1607a56a9d877df58438d752eb0b4738bfdc6faa5555541c7ed04a28a53d47f2"
+  },
+  {
+   "seed": 2606174792,
+   "sha256": "eea4e68c3162e340a8ecd61a4e43f6ad4ab171ded58c075506d1342d8cdbe62d"
+  }
+ ],
+ "samples": [
+  {
+   "seed": 2654435761,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 2654435761,
+    "context": [],
+    "tags": [
+     "tls"
+    ],
+    "kind": "classify",
+    "prompt": "Classifique cada sinal da barra de endereços e da conexão.",
+    "categories": [
+     "Conexão confiável",
+     "Sinal de alerta"
+    ],
+    "items": [
+     {
+      "text": "Certificado autoassinado apresentado por um site público",
+      "detail": [
+       "Emissor desconhecido",
+       "Sem cadeia de confiança"
+      ]
+     },
+     {
+      "text": "https://banco-seguro.com.br com certificado válido e emissor reconhecido",
+      "detail": [
+       "TLS 1.3",
+       "Emissor: autoridade reconhecida",
+       "Validade: em dia"
+      ]
+     },
+     {
+      "text": "Resposta de DNS vinda de um servidor diferente do configurado",
+      "detail": [
+       "Origem inesperada",
+       "TTL muito baixo"
+      ]
+     },
+     {
+      "text": "Redirecionamento automático de http:// para https:// com HSTS",
+      "detail": [
+       "HSTS ativo"
+      ]
+     }
+    ],
+    "answer": [
+     1,
+     0,
+     1,
+     0
+    ],
+    "itemExplanations": [
+     "Ninguém reconhecido assinou: não há como distinguir o servidor legítimo de um impostor.",
+     "Protocolo cifrado, nome exato e certificado válido: é o cenário esperado.",
+     "Resposta forjada antes da legítima é DNS spoofing: leva você ao IP do atacante.",
+     "O site força a versão cifrada e o navegador passa a recusar HTTP naquele domínio."
+    ],
+    "explanation": "HTTPS válido protege o caminho. Avisos de certificado, ausência de TLS e domínios parecidos com o original são os sinais clássicos de interceptação ou fraude.",
+    "hint": "Olhe o protocolo, o nome exato do domínio e o estado do certificado."
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1013904226,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 1013904226,
+    "context": [],
+    "tags": [
+     "tls"
+    ],
+    "kind": "classify",
+    "prompt": "Classifique cada sinal da barra de endereços e da conexão.",
+    "categories": [
+     "Conexão confiável",
+     "Sinal de alerta"
+    ],
+    "items": [
+     {
+      "text": "Resposta de DNS vinda de um servidor diferente do configurado",
+      "detail": [
+       "Origem inesperada",
+       "TTL muito baixo"
+      ]
+     },
+     {
+      "text": "https://banco-seguro.com.br com certificado válido e emissor reconhecido",
+      "detail": [
+       "TLS 1.3",
+       "Emissor: autoridade reconhecida",
+       "Validade: em dia"
+      ]
+     },
+     {
+      "text": "http://banco-seguro.com.br pedindo login e senha",
+      "detail": [
+       "Sem criptografia",
+       "Formulário de senha"
+      ]
+     },
+     {
+      "text": "Certificado autoassinado apresentado por um site público",
+      "detail": [
+       "Emissor desconhecido",
+       "Sem cadeia de confiança"
+      ]
+     }
+    ],
+    "answer": [
+     1,
+     0,
+     1,
+     1
+    ],
+    "itemExplanations": [
+     "Resposta forjada antes da legítima é DNS spoofing: leva você ao IP do atacante.",
+     "Protocolo cifrado, nome exato e certificado válido: é o cenário esperado.",
+     "Sem TLS, a senha viaja em texto claro — qualquer um no caminho lê.",
+     "Ninguém reconhecido assinou: não há como distinguir o servidor legítimo de um impostor."
+    ],
+    "explanation": "HTTPS válido protege o caminho. Avisos de certificado, ausência de TLS e domínios parecidos com o original são os sinais clássicos de interceptação ou fraude.",
+    "hint": "Olhe o protocolo, o nome exato do domínio e o estado do certificado."
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3668339987,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 3668339987,
+    "context": [],
+    "tags": [
+     "tls"
+    ],
+    "kind": "classify",
+    "prompt": "Classifique cada sinal da barra de endereços e da conexão.",
+    "categories": [
+     "Conexão confiável",
+     "Sinal de alerta"
+    ],
+    "items": [
+     {
+      "text": "Conexão por VPN corporativa até o servidor interno",
+      "detail": [
+       "Túnel cifrado",
+       "Rede de confiança na outra ponta"
+      ]
+     },
+     {
+      "text": "http://banco-seguro.com.br pedindo login e senha",
+      "detail": [
+       "Sem criptografia",
+       "Formulário de senha"
+      ]
+     },
+     {
+      "text": "Aviso \"o certificado não é válido para este nome\"",
+      "detail": [
+       "Erro de nome no certificado"
+      ]
+     },
+     {
+      "text": "https://banco-seguro.com.br com certificado válido e emissor reconhecido",
+      "detail": [
+       "TLS 1.3",
+       "Emissor: autoridade reconhecida",
+       "Validade: em dia"
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     1,
+     1,
+     0
+    ],
+    "itemExplanations": [
+     "O túnel cifrado protege o tráfego mesmo em redes não confiáveis.",
+     "Sem TLS, a senha viaja em texto claro — qualquer um no caminho lê.",
+     "Nome do certificado diferente do domínio é a assinatura de um MITM.",
+     "Protocolo cifrado, nome exato e certificado válido: é o cenário esperado."
+    ],
+    "explanation": "HTTPS válido protege o caminho. Avisos de certificado, ausência de TLS e domínios parecidos com o original são os sinais clássicos de interceptação ou fraude.",
+    "hint": "Olhe o protocolo, o nome exato do domínio e o estado do certificado."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       true,
+       false,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2027808452,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 2027808452,
+    "context": [],
+    "tags": [
+     "tls"
+    ],
+    "kind": "classify",
+    "prompt": "Classifique cada sinal da barra de endereços e da conexão.",
+    "categories": [
+     "Conexão confiável",
+     "Sinal de alerta"
+    ],
+    "items": [
+     {
+      "text": "Conexão por VPN corporativa até o servidor interno",
+      "detail": [
+       "Túnel cifrado",
+       "Rede de confiança na outra ponta"
+      ]
+     },
+     {
+      "text": "Aviso \"o certificado não é válido para este nome\"",
+      "detail": [
+       "Erro de nome no certificado"
+      ]
+     },
+     {
+      "text": "https://banco-segur0.com.br com cadeado válido",
+      "detail": [
+       "Domínio parecido com o original",
+       "Certificado válido para o domínio falso"
+      ]
+     },
+     {
+      "text": "https://banco-seguro.com.br com certificado válido e emissor reconhecido",
+      "detail": [
+       "TLS 1.3",
+       "Emissor: autoridade reconhecida",
+       "Validade: em dia"
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     1,
+     1,
+     0
+    ],
+    "itemExplanations": [
+     "O túnel cifrado protege o tráfego mesmo em redes não confiáveis.",
+     "Nome do certificado diferente do domínio é a assinatura de um MITM.",
+     "O cadeado é real, mas o domínio não: \"segur0\" com zero é typosquatting. HTTPS não atesta honestidade.",
+     "Protocolo cifrado, nome exato e certificado válido: é o cenário esperado."
+    ],
+    "explanation": "HTTPS válido protege o caminho. Avisos de certificado, ausência de TLS e domínios parecidos com o original são os sinais clássicos de interceptação ou fraude.",
+    "hint": "Olhe o protocolo, o nome exato do domínio e o estado do certificado."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       true,
+       false,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 387276917,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 387276917,
+    "context": [],
+    "tags": [
+     "tls"
+    ],
+    "kind": "classify",
+    "prompt": "Classifique cada sinal da barra de endereços e da conexão.",
+    "categories": [
+     "Conexão confiável",
+     "Sinal de alerta"
+    ],
+    "items": [
+     {
+      "text": "Resposta de DNS vinda de um servidor diferente do configurado",
+      "detail": [
+       "Origem inesperada",
+       "TTL muito baixo"
+      ]
+     },
+     {
+      "text": "Certificado autoassinado apresentado por um site público",
+      "detail": [
+       "Emissor desconhecido",
+       "Sem cadeia de confiança"
+      ]
+     },
+     {
+      "text": "Aviso \"o certificado não é válido para este nome\"",
+      "detail": [
+       "Erro de nome no certificado"
+      ]
+     },
+     {
+      "text": "Conexão por VPN corporativa até o servidor interno",
+      "detail": [
+       "Túnel cifrado",
+       "Rede de confiança na outra ponta"
+      ]
+     }
+    ],
+    "answer": [
+     1,
+     1,
+     1,
+     0
+    ],
+    "itemExplanations": [
+     "Resposta forjada antes da legítima é DNS spoofing: leva você ao IP do atacante.",
+     "Ninguém reconhecido assinou: não há como distinguir o servidor legítimo de um impostor.",
+     "Nome do certificado diferente do domínio é a assinatura de um MITM.",
+     "O túnel cifrado protege o tráfego mesmo em redes não confiáveis."
+    ],
+    "explanation": "HTTPS válido protege o caminho. Avisos de certificado, ausência de TLS e domínios parecidos com o original são os sinais clássicos de interceptação ou fraude.",
+    "hint": "Olhe o protocolo, o nome exato do domínio e o estado do certificado."
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       true,
+       true,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3041712678,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 3041712678,
+    "context": [],
+    "tags": [
+     "tls"
+    ],
+    "kind": "classify",
+    "prompt": "Classifique cada sinal da barra de endereços e da conexão.",
+    "categories": [
+     "Conexão confiável",
+     "Sinal de alerta"
+    ],
+    "items": [
+     {
+      "text": "Resposta de DNS vinda de um servidor diferente do configurado",
+      "detail": [
+       "Origem inesperada",
+       "TTL muito baixo"
+      ]
+     },
+     {
+      "text": "Redirecionamento automático de http:// para https:// com HSTS",
+      "detail": [
+       "HSTS ativo"
+      ]
+     },
+     {
+      "text": "Conexão por VPN corporativa até o servidor interno",
+      "detail": [
+       "Túnel cifrado",
+       "Rede de confiança na outra ponta"
+      ]
+     },
+     {
+      "text": "Certificado autoassinado apresentado por um site público",
+      "detail": [
+       "Emissor desconhecido",
+       "Sem cadeia de confiança"
+      ]
+     }
+    ],
+    "answer": [
+     1,
+     0,
+     0,
+     1
+    ],
+    "itemExplanations": [
+     "Resposta forjada antes da legítima é DNS spoofing: leva você ao IP do atacante.",
+     "O site força a versão cifrada e o navegador passa a recusar HTTP naquele domínio.",
+     "O túnel cifrado protege o tráfego mesmo em redes não confiáveis.",
+     "Ninguém reconhecido assinou: não há como distinguir o servidor legítimo de um impostor."
+    ],
+    "explanation": "HTTPS válido protege o caminho. Avisos de certificado, ausência de TLS e domínios parecidos com o original são os sinais clássicos de interceptação ou fraude.",
+    "hint": "Olhe o protocolo, o nome exato do domínio e o estado do certificado."
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       true,
+       false,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1401181143,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 1401181143,
+    "context": [],
+    "tags": [
+     "tls"
+    ],
+    "kind": "classify",
+    "prompt": "Classifique cada sinal da barra de endereços e da conexão.",
+    "categories": [
+     "Conexão confiável",
+     "Sinal de alerta"
+    ],
+    "items": [
+     {
+      "text": "Conexão por VPN corporativa até o servidor interno",
+      "detail": [
+       "Túnel cifrado",
+       "Rede de confiança na outra ponta"
+      ]
+     },
+     {
+      "text": "https://banco-segur0.com.br com cadeado válido",
+      "detail": [
+       "Domínio parecido com o original",
+       "Certificado válido para o domínio falso"
+      ]
+     },
+     {
+      "text": "Redirecionamento automático de http:// para https:// com HSTS",
+      "detail": [
+       "HSTS ativo"
+      ]
+     },
+     {
+      "text": "Certificado autoassinado apresentado por um site público",
+      "detail": [
+       "Emissor desconhecido",
+       "Sem cadeia de confiança"
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     1,
+     0,
+     1
+    ],
+    "itemExplanations": [
+     "O túnel cifrado protege o tráfego mesmo em redes não confiáveis.",
+     "O cadeado é real, mas o domínio não: \"segur0\" com zero é typosquatting. HTTPS não atesta honestidade.",
+     "O site força a versão cifrada e o navegador passa a recusar HTTP naquele domínio.",
+     "Ninguém reconhecido assinou: não há como distinguir o servidor legítimo de um impostor."
+    ],
+    "explanation": "HTTPS válido protege o caminho. Avisos de certificado, ausência de TLS e domínios parecidos com o original são os sinais clássicos de interceptação ou fraude.",
+    "hint": "Olhe o protocolo, o nome exato do domínio e o estado do certificado."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 4055616904,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 4055616904,
+    "context": [],
+    "tags": [
+     "tls"
+    ],
+    "kind": "classify",
+    "prompt": "Classifique cada sinal da barra de endereços e da conexão.",
+    "categories": [
+     "Conexão confiável",
+     "Sinal de alerta"
+    ],
+    "items": [
+     {
+      "text": "Redirecionamento automático de http:// para https:// com HSTS",
+      "detail": [
+       "HSTS ativo"
+      ]
+     },
+     {
+      "text": "https://banco-seguro.com.br com certificado válido e emissor reconhecido",
+      "detail": [
+       "TLS 1.3",
+       "Emissor: autoridade reconhecida",
+       "Validade: em dia"
+      ]
+     },
+     {
+      "text": "Resposta de DNS vinda de um servidor diferente do configurado",
+      "detail": [
+       "Origem inesperada",
+       "TTL muito baixo"
+      ]
+     },
+     {
+      "text": "Aviso \"o certificado não é válido para este nome\"",
+      "detail": [
+       "Erro de nome no certificado"
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "itemExplanations": [
+     "O site força a versão cifrada e o navegador passa a recusar HTTP naquele domínio.",
+     "Protocolo cifrado, nome exato e certificado válido: é o cenário esperado.",
+     "Resposta forjada antes da legítima é DNS spoofing: leva você ao IP do atacante.",
+     "Nome do certificado diferente do domínio é a assinatura de um MITM."
+    ],
+    "explanation": "HTTPS válido protege o caminho. Avisos de certificado, ausência de TLS e domínios parecidos com o original são os sinais clássicos de interceptação ou fraude.",
+    "hint": "Olhe o protocolo, o nome exato do domínio e o estado do certificado."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       true,
+       false,
+       true,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2415085369,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 2415085369,
+    "context": [],
+    "tags": [
+     "tls"
+    ],
+    "kind": "classify",
+    "prompt": "Classifique cada sinal da barra de endereços e da conexão.",
+    "categories": [
+     "Conexão confiável",
+     "Sinal de alerta"
+    ],
+    "items": [
+     {
+      "text": "Redirecionamento automático de http:// para https:// com HSTS",
+      "detail": [
+       "HSTS ativo"
+      ]
+     },
+     {
+      "text": "http://banco-seguro.com.br pedindo login e senha",
+      "detail": [
+       "Sem criptografia",
+       "Formulário de senha"
+      ]
+     },
+     {
+      "text": "https://banco-seguro.com.br com certificado válido e emissor reconhecido",
+      "detail": [
+       "TLS 1.3",
+       "Emissor: autoridade reconhecida",
+       "Validade: em dia"
+      ]
+     },
+     {
+      "text": "Aviso \"o certificado não é válido para este nome\"",
+      "detail": [
+       "Erro de nome no certificado"
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     1,
+     0,
+     1
+    ],
+    "itemExplanations": [
+     "O site força a versão cifrada e o navegador passa a recusar HTTP naquele domínio.",
+     "Sem TLS, a senha viaja em texto claro — qualquer um no caminho lê.",
+     "Protocolo cifrado, nome exato e certificado válido: é o cenário esperado.",
+     "Nome do certificado diferente do domínio é a assinatura de um MITM."
+    ],
+    "explanation": "HTTPS válido protege o caminho. Avisos de certificado, ausência de TLS e domínios parecidos com o original são os sinais clássicos de interceptação ou fraude.",
+    "hint": "Olhe o protocolo, o nome exato do domínio e o estado do certificado."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 774553834,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 774553834,
+    "context": [],
+    "tags": [
+     "tls"
+    ],
+    "kind": "classify",
+    "prompt": "Classifique cada sinal da barra de endereços e da conexão.",
+    "categories": [
+     "Conexão confiável",
+     "Sinal de alerta"
+    ],
+    "items": [
+     {
+      "text": "https://banco-seguro.com.br com certificado válido e emissor reconhecido",
+      "detail": [
+       "TLS 1.3",
+       "Emissor: autoridade reconhecida",
+       "Validade: em dia"
+      ]
+     },
+     {
+      "text": "Certificado autoassinado apresentado por um site público",
+      "detail": [
+       "Emissor desconhecido",
+       "Sem cadeia de confiança"
+      ]
+     },
+     {
+      "text": "https://banco-segur0.com.br com cadeado válido",
+      "detail": [
+       "Domínio parecido com o original",
+       "Certificado válido para o domínio falso"
+      ]
+     },
+     {
+      "text": "Aviso \"o certificado não é válido para este nome\"",
+      "detail": [
+       "Erro de nome no certificado"
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     1,
+     1,
+     1
+    ],
+    "itemExplanations": [
+     "Protocolo cifrado, nome exato e certificado válido: é o cenário esperado.",
+     "Ninguém reconhecido assinou: não há como distinguir o servidor legítimo de um impostor.",
+     "O cadeado é real, mas o domínio não: \"segur0\" com zero é typosquatting. HTTPS não atesta honestidade.",
+     "Nome do certificado diferente do domínio é a assinatura de um MITM."
+    ],
+    "explanation": "HTTPS válido protege o caminho. Avisos de certificado, ausência de TLS e domínios parecidos com o original são os sinais clássicos de interceptação ou fraude.",
+    "hint": "Olhe o protocolo, o nome exato do domínio e o estado do certificado."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       true,
+       true,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      1,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3428989595,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 3428989595,
+    "context": [],
+    "tags": [
+     "tls"
+    ],
+    "kind": "classify",
+    "prompt": "Classifique cada sinal da barra de endereços e da conexão.",
+    "categories": [
+     "Conexão confiável",
+     "Sinal de alerta"
+    ],
+    "items": [
+     {
+      "text": "https://banco-segur0.com.br com cadeado válido",
+      "detail": [
+       "Domínio parecido com o original",
+       "Certificado válido para o domínio falso"
+      ]
+     },
+     {
+      "text": "Redirecionamento automático de http:// para https:// com HSTS",
+      "detail": [
+       "HSTS ativo"
+      ]
+     },
+     {
+      "text": "https://banco-seguro.com.br com certificado válido e emissor reconhecido",
+      "detail": [
+       "TLS 1.3",
+       "Emissor: autoridade reconhecida",
+       "Validade: em dia"
+      ]
+     },
+     {
+      "text": "Certificado autoassinado apresentado por um site público",
+      "detail": [
+       "Emissor desconhecido",
+       "Sem cadeia de confiança"
+      ]
+     }
+    ],
+    "answer": [
+     1,
+     0,
+     0,
+     1
+    ],
+    "itemExplanations": [
+     "O cadeado é real, mas o domínio não: \"segur0\" com zero é typosquatting. HTTPS não atesta honestidade.",
+     "O site força a versão cifrada e o navegador passa a recusar HTTP naquele domínio.",
+     "Protocolo cifrado, nome exato e certificado válido: é o cenário esperado.",
+     "Ninguém reconhecido assinou: não há como distinguir o servidor legítimo de um impostor."
+    ],
+    "explanation": "HTTPS válido protege o caminho. Avisos de certificado, ausência de TLS e domínios parecidos com o original são os sinais clássicos de interceptação ou fraude.",
+    "hint": "Olhe o protocolo, o nome exato do domínio e o estado do certificado."
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       true,
+       false,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1788458060,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 1788458060,
+    "context": [],
+    "tags": [
+     "tls"
+    ],
+    "kind": "classify",
+    "prompt": "Classifique cada sinal da barra de endereços e da conexão.",
+    "categories": [
+     "Conexão confiável",
+     "Sinal de alerta"
+    ],
+    "items": [
+     {
+      "text": "https://banco-seguro.com.br com certificado válido e emissor reconhecido",
+      "detail": [
+       "TLS 1.3",
+       "Emissor: autoridade reconhecida",
+       "Validade: em dia"
+      ]
+     },
+     {
+      "text": "Certificado autoassinado apresentado por um site público",
+      "detail": [
+       "Emissor desconhecido",
+       "Sem cadeia de confiança"
+      ]
+     },
+     {
+      "text": "Resposta de DNS vinda de um servidor diferente do configurado",
+      "detail": [
+       "Origem inesperada",
+       "TTL muito baixo"
+      ]
+     },
+     {
+      "text": "Conexão por VPN corporativa até o servidor interno",
+      "detail": [
+       "Túnel cifrado",
+       "Rede de confiança na outra ponta"
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     1,
+     1,
+     0
+    ],
+    "itemExplanations": [
+     "Protocolo cifrado, nome exato e certificado válido: é o cenário esperado.",
+     "Ninguém reconhecido assinou: não há como distinguir o servidor legítimo de um impostor.",
+     "Resposta forjada antes da legítima é DNS spoofing: leva você ao IP do atacante.",
+     "O túnel cifrado protege o tráfego mesmo em redes não confiáveis."
+    ],
+    "explanation": "HTTPS válido protege o caminho. Avisos de certificado, ausência de TLS e domínios parecidos com o original são os sinais clássicos de interceptação ou fraude.",
+    "hint": "Olhe o protocolo, o nome exato do domínio e o estado do certificado."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       true,
+       false,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

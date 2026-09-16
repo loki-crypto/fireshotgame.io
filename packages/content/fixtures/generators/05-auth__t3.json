@@ -1,0 +1,2831 @@
+{
+ "source": "05-auth/t3",
+ "generator": "match_pool",
+ "params": {
+  "pool": "passwords",
+  "count": 5,
+  "counterTags": [
+   "password"
+  ]
+ },
+ "seeds": [
+  {
+   "seed": 2654435761,
+   "sha256": "6a7e605c4b44f246974606b823d20f6e3ab6e0ad32fd7c2c997aab6ae2df85c0"
+  },
+  {
+   "seed": 1013904226,
+   "sha256": "98fcbd00e5429d2b017fb7237d1bd8a3abf20c600797cf762b47793c36464abf"
+  },
+  {
+   "seed": 3668339987,
+   "sha256": "1c148d96421d147cb92aeeeb5fe14a4a842c0d14915283b4b4f8992c4694e3e9"
+  },
+  {
+   "seed": 2027808452,
+   "sha256": "8c3a38cd4f7bb38800f8f735ad10a78adea9dd1c1496466b657019aa139d61aa"
+  },
+  {
+   "seed": 387276917,
+   "sha256": "8e3b0961f6026db6a538c642d345faf959d875cd9cd284b4694e86603ce44927"
+  },
+  {
+   "seed": 3041712678,
+   "sha256": "4d50aabe6e82e3e7cab5219f40ec8818a494c8c8e43fc2b03e747638f1f4c67a"
+  },
+  {
+   "seed": 1401181143,
+   "sha256": "6bd8ad911e52b975153f51056d3ef131ed00935ae79380be8593f4c25fc1ef87"
+  },
+  {
+   "seed": 4055616904,
+   "sha256": "ff9e60c626e66e6544352e343bbefd137ae32382aa1578c1327c1ce69d1f090f"
+  },
+  {
+   "seed": 2415085369,
+   "sha256": "bb0c955529b37d3f4484a9b4d48a9b578e62f79fc402701747fe58420102a604"
+  },
+  {
+   "seed": 774553834,
+   "sha256": "515f282d4f3ef5f2245435812d60ded9d1c200ebfe4022169636d0ea1d5c9e99"
+  },
+  {
+   "seed": 3428989595,
+   "sha256": "7508b21e76e4b483f24311be60df2d1dbbfd27613c38fca8f66d2ce8fc276a30"
+  },
+  {
+   "seed": 1788458060,
+   "sha256": "e2fc231c2ddd6597e292c268caa1f65cf0694d73e7a990b4b507c7b737d66326"
+  },
+  {
+   "seed": 147926525,
+   "sha256": "4bd5fd99b1edd2e98614db2f4d391f79536382f2be06b053d5c20a4047da01e2"
+  },
+  {
+   "seed": 2802362286,
+   "sha256": "d3eb7dfb2bb5e7612b15ee99dee6971198c123d49e260504d1e64bef1c2e27f9"
+  },
+  {
+   "seed": 1161830751,
+   "sha256": "3fdd50aa529e6557c754f4e583e2f1e8ad709d44cd3d8476d7f3ee632f8b1c9d"
+  },
+  {
+   "seed": 3816266512,
+   "sha256": "56e9ad506cad3abb7400707df1dbe3e7698d4f8f3d79865b26cf1dd3ce80dd8d"
+  },
+  {
+   "seed": 2175734977,
+   "sha256": "e8a0827125f09ca047696bb9265b51fb82e3e2a9f3313be81444ee9a61390759"
+  },
+  {
+   "seed": 535203442,
+   "sha256": "683a7b6d5315e6bb2b587ae8d5f924708ff945cfa5aaaf25fb6f74e6dc72def4"
+  },
+  {
+   "seed": 3189639203,
+   "sha256": "598b94201379d18f04d585b87072690d4ca8c2d4c1e77be7f107c01c86cdd881"
+  },
+  {
+   "seed": 1549107668,
+   "sha256": "b12e8c19e08734827a6edadf3f66c61aeeaaff2aca23d019d548698c04b07bad"
+  },
+  {
+   "seed": 4203543429,
+   "sha256": "42194e19c0a79e99142eeb7512e20eaa84f763862f71b53be960e99036f6cb41"
+  },
+  {
+   "seed": 2563011894,
+   "sha256": "9682f39eddb04427c8e01d15f88a6516e40af69de93d2b2a8d280ae43188ae8a"
+  },
+  {
+   "seed": 922480359,
+   "sha256": "787a29e50b039d790edff5015ca6b981e2882d6d8be89f994e886361cb4ebff1"
+  },
+  {
+   "seed": 3576916120,
+   "sha256": "10e1b9d8e3e10a7c90e49e03ead6060de072c9132fa2e6a0ea2d17db762c3689"
+  },
+  {
+   "seed": 1936384585,
+   "sha256": "4989628c42fa93d1bb7362c0b26e734a04c7daa2d8ee86bc714ee388d0aca484"
+  },
+  {
+   "seed": 295853050,
+   "sha256": "ac111acee290ff393429794826e10c4f9c2e7ba666853fd8243c4c218f1c8d3c"
+  },
+  {
+   "seed": 2950288811,
+   "sha256": "0465b6a58f8c0bbef52e0bdc1c5fbcc3c9cb601d378a2ec5e8a342d1a61140e7"
+  },
+  {
+   "seed": 1309757276,
+   "sha256": "dfede9d3e22b2436ab1d7f0741f1398120af6527861095ecc064c437d356a84c"
+  },
+  {
+   "seed": 3964193037,
+   "sha256": "7744cfda0826b75919b7625e885683e9b43803c96d212ce681026eecd6a68b21"
+  },
+  {
+   "seed": 2323661502,
+   "sha256": "293e65e6fedf9662ec3b84690328780bc01641a75ec229284e3a4389e00a0869"
+  },
+  {
+   "seed": 683129967,
+   "sha256": "fe6f5c22646083deb302a292d6d4548bc61584b77bbbda20f0100d5f41427916"
+  },
+  {
+   "seed": 3337565728,
+   "sha256": "5b821bbe9b067d3d82281f4d50ef4881c19cf877d77ed1f7236ef4fe8031b0a8"
+  },
+  {
+   "seed": 1697034193,
+   "sha256": "5aa488a0d39b7899580443129b772d23d01a42d4dc78fce46d339689ddfacb0e"
+  },
+  {
+   "seed": 56502658,
+   "sha256": "83f315261c39ef5d86a790a366ea13270caa3bc589fdbeeb6091064d255d1f8f"
+  },
+  {
+   "seed": 2710938419,
+   "sha256": "a9bf0827dde9e283a061b25f3bd9780cf13e3858201fcd28542fa9cb0be5b46c"
+  },
+  {
+   "seed": 1070406884,
+   "sha256": "25c07a0aab45ed0d2d0a5016e882be695dd01562bac0bc95c7534d2d38709af1"
+  },
+  {
+   "seed": 3724842645,
+   "sha256": "69785da967844627d5161768f26573e664b7ab76e7f0110f9fe9311196ac7b8b"
+  },
+  {
+   "seed": 2084311110,
+   "sha256": "0cfce773288e5d83e47f1c4ba6ad20f2144c76bbb71ddf8a482efd7fcc223c30"
+  },
+  {
+   "seed": 443779575,
+   "sha256": "246b033fb11c89141b44a8c30b40662e644b89653d55375512312ba6344159bf"
+  },
+  {
+   "seed": 3098215336,
+   "sha256": "4ecb0fc70ee23625b8a3273c02f4491f7f8a1b5c17a0267a4bbc5d79b20fe975"
+  },
+  {
+   "seed": 1457683801,
+   "sha256": "55d718341253614af67c6747a7cf9ae150ed430afe33c23d64e60f47357c1338"
+  },
+  {
+   "seed": 4112119562,
+   "sha256": "b4dcb5248c2fb350f14f0f5a9def052cc7a9bb4157d5d2e71120f7c48eef754c"
+  },
+  {
+   "seed": 2471588027,
+   "sha256": "a97cdef3a4df3bad33d225f3b1dce0f6006114b5d7461c5e6f43f0040aacdf6b"
+  },
+  {
+   "seed": 831056492,
+   "sha256": "a17c0a6ea5ff9db65e7aa04e5638ca5eab4624428031cecc555124d4ece13f5b"
+  },
+  {
+   "seed": 3485492253,
+   "sha256": "aa33ddb4c194e098aece4e45de2851bbc3bf50d499033903124daa2a9d92d588"
+  },
+  {
+   "seed": 1844960718,
+   "sha256": "f47346349846ff734aeeb726d9a356ada9845502363fcf313c19ba822d1d0efa"
+  },
+  {
+   "seed": 204429183,
+   "sha256": "4df41c3f948bac675949166bb6cfaa32b6ac7d9c4e09dfb294e0ec3737dd4d6d"
+  },
+  {
+   "seed": 2858864944,
+   "sha256": "c53e790e70c39aade73989918eb2d5bcc72dfc0d5fb8f0c4865ed4deaaf0fc9b"
+  },
+  {
+   "seed": 1218333409,
+   "sha256": "7c8ef90626178ee2d8599328c95a9be0015f44a2e07d700674c19271475d5916"
+  },
+  {
+   "seed": 3872769170,
+   "sha256": "4f8fd0ed028f3e4255033be277daaa39c41dea7da00948757fb760ba42c8742e"
+  },
+  {
+   "seed": 2232237635,
+   "sha256": "388e83d398b608a3e6d6f9203a61ab8df28e61f5db0a625744c55eb4eadc5ab1"
+  },
+  {
+   "seed": 591706100,
+   "sha256": "dcf88e6f99ea927214e843f487f072f3e1295a73c41127c04054cfc0a9e4184f"
+  },
+  {
+   "seed": 3246141861,
+   "sha256": "eb07558c55e7f44de42e3a45fca810bd83b07f5eb97a71bc4de1f5bf0e0ef82f"
+  },
+  {
+   "seed": 1605610326,
+   "sha256": "802dddd8dc493fdfbd7f255faa6d95b872bab7ddc2ff33feba96dc9eeed27537"
+  },
+  {
+   "seed": 4260046087,
+   "sha256": "7d07e62858047fec382ea481630c975b80848f938b33706de614a64d52f142e0"
+  },
+  {
+   "seed": 2619514552,
+   "sha256": "976e3bd30bbd91e71a89308334fb5cb68ebb8c95412a91a60edcfcaecc0d5f1c"
+  },
+  {
+   "seed": 978983017,
+   "sha256": "ea0fa588c4c53c672aec92161de0ad0ca8337086ce76a8125d2642ab39f6f216"
+  },
+  {
+   "seed": 3633418778,
+   "sha256": "a878398640683202fdb97105b2f1d15aa2a9de0d9fa1442c01dd343277cc5d58"
+  },
+  {
+   "seed": 1992887243,
+   "sha256": "871de3ae5dd68034c6ebb6b4228e74c33bc9405fe502661d899dee739c5eac55"
+  },
+  {
+   "seed": 352355708,
+   "sha256": "efc526e9ef7d5f1704a3cf3768fc831e8485d9654a633139634284264c66235b"
+  },
+  {
+   "seed": 3006791469,
+   "sha256": "a607754b54f1c616f9fccf2698500ca30691b051c9b449b9bb100c0a60d5cc8c"
+  },
+  {
+   "seed": 1366259934,
+   "sha256": "ffa21207e7cfb762010567c691832b9174b7b591102ecaeb328921d4499e44f6"
+  },
+  {
+   "seed": 4020695695,
+   "sha256": "f92c4d58f3af5a93b6c71d288b629a40ad35cd74e222f2e50741e82f4a9aac47"
+  },
+  {
+   "seed": 2380164160,
+   "sha256": "5f0bd2e46df49847eb3b97afda33b0afba1e939bcd075adc29f79dd5fc91a27e"
+  },
+  {
+   "seed": 739632625,
+   "sha256": "61e28828a18bfe6c3073510dae760a737f99580c853cf8f8013eeac2ceaa278d"
+  },
+  {
+   "seed": 3394068386,
+   "sha256": "5b9ed847c7a206f2576fd2e5c7df1f7b1bb485d91d6f8c502e386e88d697b2b9"
+  },
+  {
+   "seed": 1753536851,
+   "sha256": "9e2a3021c8a18dcff7f3ccd08cc0774b7e62363d2abf7b93ab5aea70f7f28ea2"
+  },
+  {
+   "seed": 113005316,
+   "sha256": "e4592be74284c57fe1b4e68513742a38acd85e0cc837a56dad8d772fb21dbc01"
+  },
+  {
+   "seed": 2767441077,
+   "sha256": "daa639b5914413e11e46712638400238ac6d09603c881ce145ed41d606cb51b8"
+  },
+  {
+   "seed": 1126909542,
+   "sha256": "eaa1bcc19c1bf168e7ab6b13a91a9ef2eecb7787a7f5505aaa960aee5ba780a0"
+  },
+  {
+   "seed": 3781345303,
+   "sha256": "9776870f162e2f3e0f5fcc9084cbb818a96244812c73639ee9a9801e40c2068c"
+  },
+  {
+   "seed": 2140813768,
+   "sha256": "dd1f1993f7910dea1d3427dd4fede9171b7caf269bc9ac105a0f4a322df6939a"
+  },
+  {
+   "seed": 500282233,
+   "sha256": "8c41b5b33d2445bb935b5a3156bd41d8730c84e3c661554440f64545c39016d6"
+  },
+  {
+   "seed": 3154717994,
+   "sha256": "b72427fb97aa562e8bd12bf6790a74d9ad588d4aae1895935d9ef5c5cea6efe6"
+  },
+  {
+   "seed": 1514186459,
+   "sha256": "595ad86ecd6d0ece6a40272e19839eb9dbfcfc9148f203ccf042ccdc78c5c8e4"
+  },
+  {
+   "seed": 4168622220,
+   "sha256": "428c44623a5d5faa6deaaad4e99a01c4057c1d83a7db12c020cad660ced08213"
+  },
+  {
+   "seed": 2528090685,
+   "sha256": "9897bd346a432e5a82f08d1f815dd7112fdadf8c042be19e239f79fe66d7b61b"
+  },
+  {
+   "seed": 887559150,
+   "sha256": "7bdb4d25fb521a41a37ba96135adecda93cf2ac01abc4726ed6407be370c2755"
+  },
+  {
+   "seed": 3541994911,
+   "sha256": "aa153266211d27cf7c8d3ec6972b9e2031e6b7ba50c957039466fd89705ea98e"
+  },
+  {
+   "seed": 1901463376,
+   "sha256": "babf493ab7ba4a5bf95f6df192861f3a008b6b89e778611b85240c983c33169f"
+  },
+  {
+   "seed": 260931841,
+   "sha256": "2ae64fd126617f88eefb2dca146680df1be0d7f963760844b08f8d27c2fc38be"
+  },
+  {
+   "seed": 2915367602,
+   "sha256": "1d3a3e79ec71348b5c35e272ff89d8f59c4d48c6dca879ca59f51da58318d33e"
+  },
+  {
+   "seed": 1274836067,
+   "sha256": "768491021c9f5fe7792aba65dc0057049e2a34b4b92cadec27db91effcf55dfc"
+  },
+  {
+   "seed": 3929271828,
+   "sha256": "29566f810f3d88c8e188e88e0baa83a19903ec269ce8608fab20f8fbeb244b79"
+  },
+  {
+   "seed": 2288740293,
+   "sha256": "e94a66be936e92e236f92247bdc7877e3ef50319871d8bd0538570d64d91ec4e"
+  },
+  {
+   "seed": 648208758,
+   "sha256": "30642691d5cc2398f81dc83813434da23eba82b38cd3ee9d4272f1a27bbb1b91"
+  },
+  {
+   "seed": 3302644519,
+   "sha256": "1a7a24b3a8fbceb5b8b94ed51722f6c340a2db6a941613c5d8da12cff3a75b65"
+  },
+  {
+   "seed": 1662112984,
+   "sha256": "d76856a4d182a8b27cc341a40e9ebbc11ae06e61ff4ce7b17e49fa1d404c171d"
+  },
+  {
+   "seed": 21581449,
+   "sha256": "bc38e463ebd30a222ee8edfd55aa370b69a0c7a5e4c3930968af00ec62092245"
+  },
+  {
+   "seed": 2676017210,
+   "sha256": "69ec58a8e7f34b21601ed869374428f32a891dc532b0365fb06ab61c1f332322"
+  },
+  {
+   "seed": 1035485675,
+   "sha256": "fd21aad6b4afde01c209d5b21bce23a839ddf95851b74b7f1371396de5ec20e9"
+  },
+  {
+   "seed": 3689921436,
+   "sha256": "88d690241634fc51821a5ff99433a301044a0af8b8070bad7527efd8e33ffe9e"
+  },
+  {
+   "seed": 2049389901,
+   "sha256": "e95c0512ae85e592db77e677179732c905e3df0a12446faee624228436999623"
+  },
+  {
+   "seed": 408858366,
+   "sha256": "461518e305d72f391b36dd866ac4698d0bb743bf0f861987a0aea9991993e469"
+  },
+  {
+   "seed": 3063294127,
+   "sha256": "0ceb8a6eaf911a6d1d407b7d04080488b09b537225d6e7f6f11a95ccc547fff2"
+  },
+  {
+   "seed": 1422762592,
+   "sha256": "24ade9d76cd4ace2d7f7b0abb2b5f9066067543a9f735219b0c975b68cbf5901"
+  },
+  {
+   "seed": 4077198353,
+   "sha256": "f07a1173a560a45e691b0380000f3b4b9694dd9fe00fa4dcedab98fca56485c8"
+  },
+  {
+   "seed": 2436666818,
+   "sha256": "759536e2d385fc5bbbd2f8586e1ff2329ce64f8260e015190628b11bf96afda5"
+  },
+  {
+   "seed": 796135283,
+   "sha256": "ec231446ec1b154e62a1bed8359f39a8f747759797ad058ab0f8d4eb70ad04ff"
+  },
+  {
+   "seed": 3450571044,
+   "sha256": "238e781ce276be8a6066f87f5ccfae13e421cd9de2e39a79380542aa66233350"
+  },
+  {
+   "seed": 1810039509,
+   "sha256": "73d521e208905b01d826107c8c63da62b5d12c56cc2259d01b775eb9be6fbdc7"
+  },
+  {
+   "seed": 169507974,
+   "sha256": "f02f3bc389d5ef9e257aaeaebc76972ae82d9b4e85ded8fc0a5261897224b9ab"
+  },
+  {
+   "seed": 2823943735,
+   "sha256": "dd9465600bdbbd8d058a840201117c521c5c1da83327a5be0770b4ec8d034193"
+  },
+  {
+   "seed": 1183412200,
+   "sha256": "6800859ecbc2f40ff836ca5fc6eef754bdc8332bc16e0d30f25da9d6a5b0355b"
+  },
+  {
+   "seed": 3837847961,
+   "sha256": "44c5827329eae2f5d452a435412da56af87e237e48746dc521f373cd189e4afd"
+  },
+  {
+   "seed": 2197316426,
+   "sha256": "27fc873782a5fb49cfe1cba4707700b90e04a8ef9c5352ca3ee9961857a09a9b"
+  },
+  {
+   "seed": 556784891,
+   "sha256": "d61e1ea8f8e2016b0ec0178040c499e4aaf272621f1151ea6e04acefb92a41ba"
+  },
+  {
+   "seed": 3211220652,
+   "sha256": "d803eecd73966726a6988baef6e15bcaf53c798392632c719139f0eaf5ef46db"
+  },
+  {
+   "seed": 1570689117,
+   "sha256": "0c2058b3b43e98a1c996b7ff5bfea11a95af10188c32dcfa2a62ba03157fbbc8"
+  },
+  {
+   "seed": 4225124878,
+   "sha256": "0d9ed164533cd0a37add5a78ce892b753eb86861d3e20da14060bc7c0d1986a7"
+  },
+  {
+   "seed": 2584593343,
+   "sha256": "8439c6acea2a4826049c7a0938642964483ba0bee40947c55e43ac48252a2c02"
+  },
+  {
+   "seed": 944061808,
+   "sha256": "e1b8aa88420f7e63f6f561d6d6f0adb231bd6de09245564dbce623e2f55b5dc2"
+  },
+  {
+   "seed": 3598497569,
+   "sha256": "227c4175ac3158f212c38c93fb00c77406c2d67158b792898a563034091e1aca"
+  },
+  {
+   "seed": 1957966034,
+   "sha256": "338feb8ebe761b3fe7121316abda8cb90a48cb097c76aefb86463c85608c007e"
+  },
+  {
+   "seed": 317434499,
+   "sha256": "4e9d94b3747f46e13c73a1844728c3c8fa9b8816c2c2d045c3a286d97c0070aa"
+  },
+  {
+   "seed": 2971870260,
+   "sha256": "f646ecf558274c90300d5d785238e35242d1eb1f703a2c261eecb064bf2acd1f"
+  },
+  {
+   "seed": 1331338725,
+   "sha256": "8e9db35ecc3173d5fd94e05a90244fc2e3ac2d9d1e9529dbb51890a93e0c6e58"
+  },
+  {
+   "seed": 3985774486,
+   "sha256": "19afd5a53e27fe1ed1e33d6663472df3c0e7c4ace712f75fc1c89434877d9b24"
+  },
+  {
+   "seed": 2345242951,
+   "sha256": "1298b4caa18a65a4b5270aa7ff3bc5104ea14235c20b43623e283397f2ab7a5a"
+  },
+  {
+   "seed": 704711416,
+   "sha256": "aacefeb4f0d48b09b3721c7854cda6a135ebfa145d9e66425102a5cd2fc11e22"
+  },
+  {
+   "seed": 3359147177,
+   "sha256": "364f2a279445e8729408f73d27e31c0b76e6967d52cbe44a7fc83d4f904c555d"
+  },
+  {
+   "seed": 1718615642,
+   "sha256": "07d42418cf0d5fdb2303a07f861461085d5fdad9c37db4f8aab533c56675c710"
+  },
+  {
+   "seed": 78084107,
+   "sha256": "6e5b6a08ef74897293332407cd798ecc9003aca40a0045dc013d55566b03dd30"
+  },
+  {
+   "seed": 2732519868,
+   "sha256": "deaec1f1d7179c529a491eaefb617f6cca4040cdc35f766cf8c5cf8cdb0737e7"
+  },
+  {
+   "seed": 1091988333,
+   "sha256": "7191ec8e11e19c60eef800a64a6d6714709fec022bdee82b0871fe77863e4cea"
+  },
+  {
+   "seed": 3746424094,
+   "sha256": "03586664dc0e17791b82eab8895b0e40e369df558f0384f89f7fd6f922781c2a"
+  },
+  {
+   "seed": 2105892559,
+   "sha256": "a93b80b35db5f113457912f6c7d9e4b06652422d914f4d043d0c124bb31d82bb"
+  },
+  {
+   "seed": 465361024,
+   "sha256": "ef1ab95aa118df4c18d1d3b08a92be4558a9e01b14aa821973f2e92be77b28da"
+  },
+  {
+   "seed": 3119796785,
+   "sha256": "f525397c09dc2b40af1342f2ce1d7dea3ef47f4fdd097208260bf2f8bf0bf9fe"
+  },
+  {
+   "seed": 1479265250,
+   "sha256": "f1f1257e2f55e05d785fb799e12a1a7bd4a8e96d814d83efbddb6b0d4a68a3b6"
+  },
+  {
+   "seed": 4133701011,
+   "sha256": "d1b9ac7c5b7b2c765a32e5b8166ac456c0a094a3ea580824608126686ca399bc"
+  },
+  {
+   "seed": 2493169476,
+   "sha256": "bee017af36720e00d677d0fa53f26b2d59c0be8ea2f019e3e0a11a735ba54584"
+  },
+  {
+   "seed": 852637941,
+   "sha256": "514424e0265659de5bcb1fa9d171ee3aa571ef2319f0ff4e6489637e4ed91be2"
+  },
+  {
+   "seed": 3507073702,
+   "sha256": "31ab7080deb9f9a6a54ad7dea02cccb474ac4665994d5e6a3ddced793160ead3"
+  },
+  {
+   "seed": 1866542167,
+   "sha256": "22c2fbc8d97dc32f844011e5b003cd3bb53775ce69d96714504991f20287ee7b"
+  },
+  {
+   "seed": 226010632,
+   "sha256": "a2518baf3b0ea175892e65348684cf190e7aeedb0a4fa4001b84db9dc3322691"
+  },
+  {
+   "seed": 2880446393,
+   "sha256": "0a33d99fd32fc3b20b2dd8c85788bb127f2c8b2d2aa8786c3cd36f124d15c378"
+  },
+  {
+   "seed": 1239914858,
+   "sha256": "63c1f5fe5ae65316a523d3f3f597d882aac1ce440d452761a6d2aeb44793580a"
+  },
+  {
+   "seed": 3894350619,
+   "sha256": "d0b21efff70b88de69978e962062d09b55e5e3fa14b2cc764b99596603fb93fb"
+  },
+  {
+   "seed": 2253819084,
+   "sha256": "50f11a15de031d28fe3f14a89bd15155a17bcb1a88193ed2c90246b6b39d6e1e"
+  },
+  {
+   "seed": 613287549,
+   "sha256": "d4b87e58157a424606bde52fe2defc4d5280e99599edc4f5c4259ba27159bc78"
+  },
+  {
+   "seed": 3267723310,
+   "sha256": "e9f2e05671f2e04419be2f0e0cac30dc629953c21aa036138cdd90f634cd9bf2"
+  },
+  {
+   "seed": 1627191775,
+   "sha256": "158f6cababf1876861dba2f2eb0209f4f84977d7ee1db392122d34aa3c2e1ae4"
+  },
+  {
+   "seed": 4281627536,
+   "sha256": "12fd411201bdc2db4f4c89b71a3c37e5e84a33f7796cfb1e6181ec43463ced83"
+  },
+  {
+   "seed": 2641096001,
+   "sha256": "e21c84e8f5d52e8bfc58fa4d0c5b80b706924d019c543167a6e13dfe56244139"
+  },
+  {
+   "seed": 1000564466,
+   "sha256": "c0b575e83bde5a02cf536c34e1f21eca2ce033001d779c631bb438ba4384dd9b"
+  },
+  {
+   "seed": 3655000227,
+   "sha256": "477779418a647a9a4881e2bbcd8ef3be89fdae16d0e637a50845bf47593a9b1e"
+  },
+  {
+   "seed": 2014468692,
+   "sha256": "3d1e406ebd1b8be956d73c05df70359348ce119b45f18bddf2d3c3c956f64e85"
+  },
+  {
+   "seed": 373937157,
+   "sha256": "6d45ef55df7d48266c034546523afe1506ff6254d1bc01ab4c94bc860b4ac20a"
+  },
+  {
+   "seed": 3028372918,
+   "sha256": "128a0e561b79a06065d4c9a1d430abdc4591f0a501cbe88211b218bb69f61777"
+  },
+  {
+   "seed": 1387841383,
+   "sha256": "8fedd7ecde41b4d5042668a6ba148036f3723ae107c75c5599d7c33d6f3108f4"
+  },
+  {
+   "seed": 4042277144,
+   "sha256": "10395dd7913e9bdb360c3779255c56e5e290bef25af7bb08558db8457862404a"
+  },
+  {
+   "seed": 2401745609,
+   "sha256": "e8d0ef789a6337d2f349eb932b42d930b2ede22cbc0fce0f4b6c651a0ae3ff1c"
+  },
+  {
+   "seed": 761214074,
+   "sha256": "7d6eb9c873339fed7838bf48fbf430c7a6b5ada0472cb46151064df56169b2c8"
+  },
+  {
+   "seed": 3415649835,
+   "sha256": "b4637e177e9689ca281736ff1efc9533ddad8e7cfa3294584c608e60880a195b"
+  },
+  {
+   "seed": 1775118300,
+   "sha256": "f9b8f9f4ac4872434b4c7a67500815f2823134c0eeb6c04355fddc4b9662de40"
+  },
+  {
+   "seed": 134586765,
+   "sha256": "6bf9c969d8a5bd6d7b00405be1055b1393f86c02f0dba697749311e25f2de709"
+  },
+  {
+   "seed": 2789022526,
+   "sha256": "b0f7c032d94f1aaf6dd95fddd60107478f9566aa076b530cfcc50e9447230cb6"
+  },
+  {
+   "seed": 1148490991,
+   "sha256": "4770886e02f661ba20c439993e09573e299505379dcebe9f106ec0616a8b5e6e"
+  },
+  {
+   "seed": 3802926752,
+   "sha256": "cb474288db8a7cb80f342e8e5764f14d5d85af267979f4536973957751c5c68e"
+  },
+  {
+   "seed": 2162395217,
+   "sha256": "340accb8e56da60b4f8ba88001f431600184ac91b538a26cf089afe7416af6d8"
+  },
+  {
+   "seed": 521863682,
+   "sha256": "52d5e1c5eaa4d4a67bbf0527a68d2d074fa82fb47d992145195981d77f7c1cd6"
+  },
+  {
+   "seed": 3176299443,
+   "sha256": "15e18a32856b5ad5a380ce9a77d7171891ea84c40d51884a21876187183d681b"
+  },
+  {
+   "seed": 1535767908,
+   "sha256": "4f6dc327693d8a5d3a77a4eda5281eff69b9d5682290f272941369b64ab669f3"
+  },
+  {
+   "seed": 4190203669,
+   "sha256": "e8f46975faeaa4b06da0f8a38bec52d248d7cb04483cf6307a3f552983b7e619"
+  },
+  {
+   "seed": 2549672134,
+   "sha256": "61826af219608978f8d592916dbc5dae7ef8b6724a5af67ff69760206a1bdd0a"
+  },
+  {
+   "seed": 909140599,
+   "sha256": "b6be13c93484507c30f52862a6f52aabaf3553af9476ec30bfc4da3a89fe82cd"
+  },
+  {
+   "seed": 3563576360,
+   "sha256": "32b2b87dc5701aa13f1bb6ea570d7a34c7929de77991ea65ccbccdcaaf417f7b"
+  },
+  {
+   "seed": 1923044825,
+   "sha256": "dd17e79b3c6a747557ba914bd02b08faed03035957106a732cb994d96f71e7d2"
+  },
+  {
+   "seed": 282513290,
+   "sha256": "8e7025ece68d6be077cf6043a651bd30e9919b84fa878ccf4bf23116b5c04023"
+  },
+  {
+   "seed": 2936949051,
+   "sha256": "f276ec77a5ce9406a18239d50671439282df7a6e715e59ff81e97be037afbd26"
+  },
+  {
+   "seed": 1296417516,
+   "sha256": "0ffeb84aaefc5789c72f95441561073b3f9b42ba321c1f81b89e2f9071cb201b"
+  },
+  {
+   "seed": 3950853277,
+   "sha256": "2cd066ba1ea3d30a7cefbf130d241dd80577636ad8022b595307a7d8c798a75d"
+  },
+  {
+   "seed": 2310321742,
+   "sha256": "4848c314a3c5d6ea515437a20a3297f24b94e3b240ae52fad8fad39ca92a7201"
+  },
+  {
+   "seed": 669790207,
+   "sha256": "2d0a894db14f6c5a2128a70b52700c1c0a030b4d215d2a9b06aeb4ac171a0af9"
+  },
+  {
+   "seed": 3324225968,
+   "sha256": "7762e02262a6b050f8ef9d1467ccff4d06662b2d0b157783121a4388408b7935"
+  },
+  {
+   "seed": 1683694433,
+   "sha256": "092cffef452c3f91c139b9ef42a3c5415d8cc96011f6a629dc857d7c9aae264c"
+  },
+  {
+   "seed": 43162898,
+   "sha256": "ce57651e877d32e11edbb1ab9326f04268dfbbfff66f8a3cda64e952d7f42676"
+  },
+  {
+   "seed": 2697598659,
+   "sha256": "d8661c77c28015ab31e24d8b335392f167f3a90dea6258f8c8f425d0a99e4e9d"
+  },
+  {
+   "seed": 1057067124,
+   "sha256": "77d8db6c90abb4feacaacb25df432cd15c36c755d6387b45474ede40225bb1c2"
+  },
+  {
+   "seed": 3711502885,
+   "sha256": "ded8928e26677dc883c33f8b62d5900e135392e32e2d861ebe440ca5c1c5d928"
+  },
+  {
+   "seed": 2070971350,
+   "sha256": "8f9e81ed61fd8c678cda3256ded8c23c1f0a71cf9f0a663f4c9ffb5c5ab50667"
+  },
+  {
+   "seed": 430439815,
+   "sha256": "51f67518bfb9224d3d5450b8ccc0af6e5806f69ad4428e2ef7c98379f4d5b146"
+  },
+  {
+   "seed": 3084875576,
+   "sha256": "403444a29140ffc6f8a3c7c0cc609ad60ff2f238dc95ee284d02222d80c24d35"
+  },
+  {
+   "seed": 1444344041,
+   "sha256": "57d20fabcd9111a74d34246b9c1b334b195f439bab7cb0b9f7f7ebe87071c5e9"
+  },
+  {
+   "seed": 4098779802,
+   "sha256": "d1cea3d2e6a85a51dd159b1fe5760f82911ccae2fa1a36c383a23a59c2aba779"
+  },
+  {
+   "seed": 2458248267,
+   "sha256": "40bd4c7923053048c4e816ae9f015d5e9444c5a8b3753291a30de840efba184e"
+  },
+  {
+   "seed": 817716732,
+   "sha256": "5ee9ffcaf391fcac439d985dfc925cbaf7f96534dbd40b9689ab33bed8b9f5b7"
+  },
+  {
+   "seed": 3472152493,
+   "sha256": "5ade1eca989b668ae1c7efe466d160e8ff877b72af067c26910d06d5be297cf6"
+  },
+  {
+   "seed": 1831620958,
+   "sha256": "929920ecfb31aaaec57424e7342dce05d77cf067f95d63170bbc974ecb768ea6"
+  },
+  {
+   "seed": 191089423,
+   "sha256": "e1657bc2d19a0a6045c717e31a1cdc7260a9527159810cfde7680941b5f96f44"
+  },
+  {
+   "seed": 2845525184,
+   "sha256": "b76989223261d496581eb12fe29c1ed3abe8892691800db371f46b0ea2cf0a44"
+  },
+  {
+   "seed": 1204993649,
+   "sha256": "12780e85402b36401dcd71a16676a61f3386d657804c9c29a7df731b1ccc4a67"
+  },
+  {
+   "seed": 3859429410,
+   "sha256": "5f4c7378bfda5a44adb09e56759bbbfecbbf30a67469f904abd04f821ee63b39"
+  },
+  {
+   "seed": 2218897875,
+   "sha256": "e9b04d39d37eddf0e2bd664a5acd871f4371b897b370b50b10330ab57adcf078"
+  },
+  {
+   "seed": 578366340,
+   "sha256": "ff39e61df7fce7ecd160ad6f2ce897aad6dffc027931f82db40ad6e4852f45d5"
+  },
+  {
+   "seed": 3232802101,
+   "sha256": "6f8fc7f32f1e1772bcf611a07255ff785cc29cb0f24d285f5d49200f9cb793bc"
+  },
+  {
+   "seed": 1592270566,
+   "sha256": "0dfa9f3bfd1278a392933a30da14448e17146068189a12075e5c56b180887b14"
+  },
+  {
+   "seed": 4246706327,
+   "sha256": "ebdabde0f428677dd9e0fa2e8282ef5d44283e8ad0455eb6dbeaaa5796584ffe"
+  },
+  {
+   "seed": 2606174792,
+   "sha256": "d67c62302e274e93f803b5e6ddb3a72f827b62f59e09b34b1d23f4439ec10249"
+  }
+ ],
+ "samples": [
+  {
+   "seed": 2654435761,
+   "question": {
+    "generator": "match_pool",
+    "seed": 2654435761,
+    "context": [],
+    "tags": [
+     "password"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada mecanismo de autenticação à sua descrição.",
+    "left": [
+     "Entropia",
+     "Credential stuffing",
+     "MFA",
+     "Hash com sal",
+     "Lockout"
+    ],
+    "right": [
+     "Medida de imprevisibilidade de uma senha",
+     "Exige um segundo fator além da senha",
+     "Bloqueia tentativas após vários erros seguidos",
+     "Testar em massa pares vazados de e-mail e senha",
+     "Forma de guardar senhas sem poder lê-las de volta"
+    ],
+    "answer": [
+     0,
+     3,
+     1,
+     4,
+     2
+    ],
+    "explanation": "Entropia: Medida de imprevisibilidade de uma senha. Credential stuffing: Testar em massa pares vazados de e-mail e senha. MFA: Exige um segundo fator além da senha. Hash com sal: Forma de guardar senhas sem poder lê-las de volta. Lockout: Bloqueia tentativas após vários erros seguidos.",
+    "hint": "Separe o que você sabe, o que você tem e o que o servidor guarda."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      3,
+      1,
+      4,
+      2
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      4,
+      2,
+      0,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      3,
+      1,
+      4,
+      2,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      3,
+      1,
+      4,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1013904226,
+   "question": {
+    "generator": "match_pool",
+    "seed": 1013904226,
+    "context": [],
+    "tags": [
+     "password"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada mecanismo de autenticação à sua descrição.",
+    "left": [
+     "Hash com sal",
+     "Credential stuffing",
+     "MFA",
+     "Gerenciador de senhas",
+     "Lockout"
+    ],
+    "right": [
+     "Exige um segundo fator além da senha",
+     "Forma de guardar senhas sem poder lê-las de volta",
+     "Guarda uma senha única e longa para cada serviço",
+     "Bloqueia tentativas após vários erros seguidos",
+     "Testar em massa pares vazados de e-mail e senha"
+    ],
+    "answer": [
+     1,
+     4,
+     0,
+     2,
+     3
+    ],
+    "explanation": "Hash com sal: Forma de guardar senhas sem poder lê-las de volta. Credential stuffing: Testar em massa pares vazados de e-mail e senha. MFA: Exige um segundo fator além da senha. Gerenciador de senhas: Guarda uma senha única e longa para cada serviço. Lockout: Bloqueia tentativas após vários erros seguidos.",
+    "hint": "Separe o que você sabe, o que você tem e o que o servidor guarda."
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      4,
+      0,
+      2,
+      3
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      0,
+      1,
+      3,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      4,
+      0,
+      2,
+      3,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      4,
+      0,
+      2,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3668339987,
+   "question": {
+    "generator": "match_pool",
+    "seed": 3668339987,
+    "context": [],
+    "tags": [
+     "password"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada mecanismo de autenticação à sua descrição.",
+    "left": [
+     "Credential stuffing",
+     "Hash com sal",
+     "Gerenciador de senhas",
+     "Entropia",
+     "Lockout"
+    ],
+    "right": [
+     "Forma de guardar senhas sem poder lê-las de volta",
+     "Bloqueia tentativas após vários erros seguidos",
+     "Medida de imprevisibilidade de uma senha",
+     "Guarda uma senha única e longa para cada serviço",
+     "Testar em massa pares vazados de e-mail e senha"
+    ],
+    "answer": [
+     4,
+     0,
+     3,
+     2,
+     1
+    ],
+    "explanation": "Credential stuffing: Testar em massa pares vazados de e-mail e senha. Hash com sal: Forma de guardar senhas sem poder lê-las de volta. Gerenciador de senhas: Guarda uma senha única e longa para cada serviço. Entropia: Medida de imprevisibilidade de uma senha. Lockout: Bloqueia tentativas após vários erros seguidos.",
+    "hint": "Separe o que você sabe, o que você tem e o que o servidor guarda."
+   },
+   "checks": [
+    {
+     "answer": [
+      4,
+      0,
+      3,
+      2,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      4,
+      3,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      3,
+      2,
+      1,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      3,
+      2,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2027808452,
+   "question": {
+    "generator": "match_pool",
+    "seed": 2027808452,
+    "context": [],
+    "tags": [
+     "password"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada mecanismo de autenticação à sua descrição.",
+    "left": [
+     "MFA",
+     "Lockout",
+     "Hash com sal",
+     "Entropia",
+     "Gerenciador de senhas"
+    ],
+    "right": [
+     "Forma de guardar senhas sem poder lê-las de volta",
+     "Exige um segundo fator além da senha",
+     "Medida de imprevisibilidade de uma senha",
+     "Bloqueia tentativas após vários erros seguidos",
+     "Guarda uma senha única e longa para cada serviço"
+    ],
+    "answer": [
+     1,
+     3,
+     0,
+     2,
+     4
+    ],
+    "explanation": "MFA: Exige um segundo fator além da senha. Lockout: Bloqueia tentativas após vários erros seguidos. Hash com sal: Forma de guardar senhas sem poder lê-las de volta. Entropia: Medida de imprevisibilidade de uma senha. Gerenciador de senhas: Guarda uma senha única e longa para cada serviço.",
+    "hint": "Separe o que você sabe, o que você tem e o que o servidor guarda."
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      3,
+      0,
+      2,
+      4
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      4,
+      1,
+      3,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      3,
+      0,
+      2,
+      4,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      3,
+      0,
+      2,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 387276917,
+   "question": {
+    "generator": "match_pool",
+    "seed": 387276917,
+    "context": [],
+    "tags": [
+     "password"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada mecanismo de autenticação à sua descrição.",
+    "left": [
+     "Gerenciador de senhas",
+     "Lockout",
+     "Hash com sal",
+     "Entropia",
+     "Credential stuffing"
+    ],
+    "right": [
+     "Forma de guardar senhas sem poder lê-las de volta",
+     "Medida de imprevisibilidade de uma senha",
+     "Testar em massa pares vazados de e-mail e senha",
+     "Bloqueia tentativas após vários erros seguidos",
+     "Guarda uma senha única e longa para cada serviço"
+    ],
+    "answer": [
+     4,
+     3,
+     0,
+     1,
+     2
+    ],
+    "explanation": "Gerenciador de senhas: Guarda uma senha única e longa para cada serviço. Lockout: Bloqueia tentativas após vários erros seguidos. Hash com sal: Forma de guardar senhas sem poder lê-las de volta. Entropia: Medida de imprevisibilidade de uma senha. Credential stuffing: Testar em massa pares vazados de e-mail e senha.",
+    "hint": "Separe o que você sabe, o que você tem e o que o servidor guarda."
+   },
+   "checks": [
+    {
+     "answer": [
+      4,
+      3,
+      0,
+      1,
+      2
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      4,
+      1,
+      2,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      3,
+      0,
+      1,
+      2,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      3,
+      0,
+      1,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3041712678,
+   "question": {
+    "generator": "match_pool",
+    "seed": 3041712678,
+    "context": [],
+    "tags": [
+     "password"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada mecanismo de autenticação à sua descrição.",
+    "left": [
+     "Gerenciador de senhas",
+     "Entropia",
+     "Hash com sal",
+     "Credential stuffing",
+     "Lockout"
+    ],
+    "right": [
+     "Testar em massa pares vazados de e-mail e senha",
+     "Forma de guardar senhas sem poder lê-las de volta",
+     "Medida de imprevisibilidade de uma senha",
+     "Bloqueia tentativas após vários erros seguidos",
+     "Guarda uma senha única e longa para cada serviço"
+    ],
+    "answer": [
+     4,
+     2,
+     1,
+     0,
+     3
+    ],
+    "explanation": "Gerenciador de senhas: Guarda uma senha única e longa para cada serviço. Entropia: Medida de imprevisibilidade de uma senha. Hash com sal: Forma de guardar senhas sem poder lê-las de volta. Credential stuffing: Testar em massa pares vazados de e-mail e senha. Lockout: Bloqueia tentativas após vários erros seguidos.",
+    "hint": "Separe o que você sabe, o que você tem e o que o servidor guarda."
+   },
+   "checks": [
+    {
+     "answer": [
+      4,
+      2,
+      1,
+      0,
+      3
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      3,
+      2,
+      1,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      1,
+      0,
+      3,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      2,
+      1,
+      0,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1401181143,
+   "question": {
+    "generator": "match_pool",
+    "seed": 1401181143,
+    "context": [],
+    "tags": [
+     "password"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada mecanismo de autenticação à sua descrição.",
+    "left": [
+     "Gerenciador de senhas",
+     "MFA",
+     "Credential stuffing",
+     "Lockout",
+     "Hash com sal"
+    ],
+    "right": [
+     "Testar em massa pares vazados de e-mail e senha",
+     "Bloqueia tentativas após vários erros seguidos",
+     "Exige um segundo fator além da senha",
+     "Forma de guardar senhas sem poder lê-las de volta",
+     "Guarda uma senha única e longa para cada serviço"
+    ],
+    "answer": [
+     4,
+     2,
+     0,
+     1,
+     3
+    ],
+    "explanation": "Gerenciador de senhas: Guarda uma senha única e longa para cada serviço. MFA: Exige um segundo fator além da senha. Credential stuffing: Testar em massa pares vazados de e-mail e senha. Lockout: Bloqueia tentativas após vários erros seguidos. Hash com sal: Forma de guardar senhas sem poder lê-las de volta.",
+    "hint": "Separe o que você sabe, o que você tem e o que o servidor guarda."
+   },
+   "checks": [
+    {
+     "answer": [
+      4,
+      2,
+      0,
+      1,
+      3
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      3,
+      1,
+      2,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      0,
+      1,
+      3,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      2,
+      0,
+      1,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 4055616904,
+   "question": {
+    "generator": "match_pool",
+    "seed": 4055616904,
+    "context": [],
+    "tags": [
+     "password"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada mecanismo de autenticação à sua descrição.",
+    "left": [
+     "Entropia",
+     "Lockout",
+     "MFA",
+     "Gerenciador de senhas",
+     "Hash com sal"
+    ],
+    "right": [
+     "Bloqueia tentativas após vários erros seguidos",
+     "Guarda uma senha única e longa para cada serviço",
+     "Exige um segundo fator além da senha",
+     "Medida de imprevisibilidade de uma senha",
+     "Forma de guardar senhas sem poder lê-las de volta"
+    ],
+    "answer": [
+     3,
+     0,
+     2,
+     1,
+     4
+    ],
+    "explanation": "Entropia: Medida de imprevisibilidade de uma senha. Lockout: Bloqueia tentativas após vários erros seguidos. MFA: Exige um segundo fator além da senha. Gerenciador de senhas: Guarda uma senha única e longa para cada serviço. Hash com sal: Forma de guardar senhas sem poder lê-las de volta.",
+    "hint": "Separe o que você sabe, o que você tem e o que o servidor guarda."
+   },
+   "checks": [
+    {
+     "answer": [
+      3,
+      0,
+      2,
+      1,
+      4
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      4,
+      1,
+      3,
+      2,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      2,
+      1,
+      4,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      2,
+      1,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2415085369,
+   "question": {
+    "generator": "match_pool",
+    "seed": 2415085369,
+    "context": [],
+    "tags": [
+     "password"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada mecanismo de autenticação à sua descrição.",
+    "left": [
+     "Hash com sal",
+     "Entropia",
+     "MFA",
+     "Lockout",
+     "Gerenciador de senhas"
+    ],
+    "right": [
+     "Guarda uma senha única e longa para cada serviço",
+     "Medida de imprevisibilidade de uma senha",
+     "Exige um segundo fator além da senha",
+     "Bloqueia tentativas após vários erros seguidos",
+     "Forma de guardar senhas sem poder lê-las de volta"
+    ],
+    "answer": [
+     4,
+     1,
+     2,
+     3,
+     0
+    ],
+    "explanation": "Hash com sal: Forma de guardar senhas sem poder lê-las de volta. Entropia: Medida de imprevisibilidade de uma senha. MFA: Exige um segundo fator além da senha. Lockout: Bloqueia tentativas após vários erros seguidos. Gerenciador de senhas: Guarda uma senha única e longa para cada serviço.",
+    "hint": "Separe o que você sabe, o que você tem e o que o servidor guarda."
+   },
+   "checks": [
+    {
+     "answer": [
+      4,
+      1,
+      2,
+      3,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      2,
+      3,
+      4,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      2,
+      3,
+      0,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      2,
+      3,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 774553834,
+   "question": {
+    "generator": "match_pool",
+    "seed": 774553834,
+    "context": [],
+    "tags": [
+     "password"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada mecanismo de autenticação à sua descrição.",
+    "left": [
+     "Entropia",
+     "Gerenciador de senhas",
+     "Lockout",
+     "MFA",
+     "Hash com sal"
+    ],
+    "right": [
+     "Medida de imprevisibilidade de uma senha",
+     "Guarda uma senha única e longa para cada serviço",
+     "Bloqueia tentativas após vários erros seguidos",
+     "Forma de guardar senhas sem poder lê-las de volta",
+     "Exige um segundo fator além da senha"
+    ],
+    "answer": [
+     0,
+     1,
+     2,
+     4,
+     3
+    ],
+    "explanation": "Entropia: Medida de imprevisibilidade de uma senha. Gerenciador de senhas: Guarda uma senha única e longa para cada serviço. Lockout: Bloqueia tentativas após vários erros seguidos. MFA: Exige um segundo fator além da senha. Hash com sal: Forma de guardar senhas sem poder lê-las de volta.",
+    "hint": "Separe o que você sabe, o que você tem e o que o servidor guarda."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      1,
+      2,
+      4,
+      3
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      2,
+      3,
+      0,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      2,
+      4,
+      3,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      2,
+      4,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3428989595,
+   "question": {
+    "generator": "match_pool",
+    "seed": 3428989595,
+    "context": [],
+    "tags": [
+     "password"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada mecanismo de autenticação à sua descrição.",
+    "left": [
+     "Hash com sal",
+     "Credential stuffing",
+     "Gerenciador de senhas",
+     "Lockout",
+     "MFA"
+    ],
+    "right": [
+     "Guarda uma senha única e longa para cada serviço",
+     "Exige um segundo fator além da senha",
+     "Forma de guardar senhas sem poder lê-las de volta",
+     "Bloqueia tentativas após vários erros seguidos",
+     "Testar em massa pares vazados de e-mail e senha"
+    ],
+    "answer": [
+     2,
+     4,
+     0,
+     3,
+     1
+    ],
+    "explanation": "Hash com sal: Forma de guardar senhas sem poder lê-las de volta. Credential stuffing: Testar em massa pares vazados de e-mail e senha. Gerenciador de senhas: Guarda uma senha única e longa para cada serviço. Lockout: Bloqueia tentativas após vários erros seguidos. MFA: Exige um segundo fator além da senha.",
+    "hint": "Separe o que você sabe, o que você tem e o que o servidor guarda."
+   },
+   "checks": [
+    {
+     "answer": [
+      2,
+      4,
+      0,
+      3,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      3,
+      0,
+      1,
+      4,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      4,
+      0,
+      3,
+      1,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      4,
+      0,
+      3,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1788458060,
+   "question": {
+    "generator": "match_pool",
+    "seed": 1788458060,
+    "context": [],
+    "tags": [
+     "password"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada mecanismo de autenticação à sua descrição.",
+    "left": [
+     "Hash com sal",
+     "Gerenciador de senhas",
+     "Credential stuffing",
+     "Lockout",
+     "Entropia"
+    ],
+    "right": [
+     "Guarda uma senha única e longa para cada serviço",
+     "Forma de guardar senhas sem poder lê-las de volta",
+     "Medida de imprevisibilidade de uma senha",
+     "Bloqueia tentativas após vários erros seguidos",
+     "Testar em massa pares vazados de e-mail e senha"
+    ],
+    "answer": [
+     1,
+     0,
+     4,
+     3,
+     2
+    ],
+    "explanation": "Hash com sal: Forma de guardar senhas sem poder lê-las de volta. Gerenciador de senhas: Guarda uma senha única e longa para cada serviço. Credential stuffing: Testar em massa pares vazados de e-mail e senha. Lockout: Bloqueia tentativas após vários erros seguidos. Entropia: Medida de imprevisibilidade de uma senha.",
+    "hint": "Separe o que você sabe, o que você tem e o que o servidor guarda."
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      0,
+      4,
+      3,
+      2
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      1,
+      0,
+      4,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      4,
+      3,
+      2,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      4,
+      3,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

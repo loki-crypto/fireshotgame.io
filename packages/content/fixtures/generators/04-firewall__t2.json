@@ -1,0 +1,1798 @@
+{
+ "source": "04-firewall/t2",
+ "generator": "mc_pool",
+ "params": {
+  "pool": "ports",
+  "counterTags": [
+   "firewall"
+  ]
+ },
+ "seeds": [
+  {
+   "seed": 2654435761,
+   "sha256": "66f5ba346917614ac9d0f8335ca35772e4a9707228cb244cc1f5b68c9f31b9ea"
+  },
+  {
+   "seed": 1013904226,
+   "sha256": "c5c72908c4097f1add0238e92c86a322ef2754a8e86defcc72a1dd6beb26ec61"
+  },
+  {
+   "seed": 3668339987,
+   "sha256": "10462fb21f504233451e7306128bc91dc500d8733023d55ab973c0a177ca07ee"
+  },
+  {
+   "seed": 2027808452,
+   "sha256": "7787acf87f4b7429f17a68fdad3dda9fb04de81ee9ac4d1dd8c45e00546ce280"
+  },
+  {
+   "seed": 387276917,
+   "sha256": "0cb35b86db08c275071d6a644e0f2ebaf0b42c1f09aef6cd3eb8a0afa8bf28d3"
+  },
+  {
+   "seed": 3041712678,
+   "sha256": "3e73eb13087fa92439c0c5e979bbf31e969095845a2075c48199d629909f4ce8"
+  },
+  {
+   "seed": 1401181143,
+   "sha256": "6ab44a1f1f59a9f52417433c13cc6b50bc714a267cdec13901d69a30eea7a443"
+  },
+  {
+   "seed": 4055616904,
+   "sha256": "1bdc6fa6e37171dd362e809a9a7086aebca81832b83fb674c258c91ab189ef23"
+  },
+  {
+   "seed": 2415085369,
+   "sha256": "9edda248b3fd158544b27039cef0b7cc89f79f02ca9a792f7741be18d63ffc91"
+  },
+  {
+   "seed": 774553834,
+   "sha256": "52ca1b58cf142d90bca0fe7920c289b49cc52228badcc842003ac9d251253b2f"
+  },
+  {
+   "seed": 3428989595,
+   "sha256": "53a490d845de09fd275d145d5c4ed5ca2726b00f0f66dc01b03c903ee643fc14"
+  },
+  {
+   "seed": 1788458060,
+   "sha256": "ed38448e1deda8c182404b2f885b2d3171d6058cfb401f5e229f987b1a6d39d1"
+  },
+  {
+   "seed": 147926525,
+   "sha256": "ad5bb67de396d5bd2e687feda49b10ab891005a125fc996cf93fcf2e034b93fb"
+  },
+  {
+   "seed": 2802362286,
+   "sha256": "df724fe8d5180b11aa900bee96cb3161f59742102a6e5fa57e5568307425b5d8"
+  },
+  {
+   "seed": 1161830751,
+   "sha256": "a69bba659df2280b9362fa92450b1ec71821941bfda24b44042fcd7694c83010"
+  },
+  {
+   "seed": 3816266512,
+   "sha256": "2d8c083a0e31961ccb36ebe532069090fa7131e8293410cb06e30aff9b9693b0"
+  },
+  {
+   "seed": 2175734977,
+   "sha256": "6c1db114f748d0c803fd7a815787d346a1c60d567926386c9469f4680ac7e153"
+  },
+  {
+   "seed": 535203442,
+   "sha256": "d465967be40a1e6ef2c8e46f57d4a3026cb832f5d536b2bf9c85be2935e526ad"
+  },
+  {
+   "seed": 3189639203,
+   "sha256": "cf1755ff5793ab587a5186912ac48117be8dc9fb975d3fabed7876ce6cd32399"
+  },
+  {
+   "seed": 1549107668,
+   "sha256": "9b595a75e8ebca34ae7ced91d0bf2fead9c9ceb88140c7e5b34084acb03923f5"
+  },
+  {
+   "seed": 4203543429,
+   "sha256": "6ea563280dff59fd888ab7f8fb3b4249ab01d0c7834ed261d42f5a3922e69ccf"
+  },
+  {
+   "seed": 2563011894,
+   "sha256": "12d070f32cc1a6851cfe9a040a4f0212650196f2ea6576c4672268c844d60e26"
+  },
+  {
+   "seed": 922480359,
+   "sha256": "6e5ec6ab48d706220f3b7859fb94cb5d8b87ab56637acb72e7ded024a0b2aa5f"
+  },
+  {
+   "seed": 3576916120,
+   "sha256": "77dba68083d4dbc8ee7bfb244874cacc88c32a0208ad496d228f39f2f037b00d"
+  },
+  {
+   "seed": 1936384585,
+   "sha256": "2f0dc3af88c98f3e7aaff9fde6b7ba767f071ebb3cf04e385a1455de76f911dc"
+  },
+  {
+   "seed": 295853050,
+   "sha256": "19abaaa8ff3613aa66d8fa21da4678452bccdbb8764fc79517df04c6f7ca0978"
+  },
+  {
+   "seed": 2950288811,
+   "sha256": "2d0969dbd721e43ba24aa344c9574d3e86bcb8ac924cec2d4ca07e1421465f2d"
+  },
+  {
+   "seed": 1309757276,
+   "sha256": "d70642b94751645e6247faa368d481d85cde157fec079e64dccec63d0d911d37"
+  },
+  {
+   "seed": 3964193037,
+   "sha256": "b66b20d4ca5081516cc40f6141511bf05da14ab652e5183851347829948c3f67"
+  },
+  {
+   "seed": 2323661502,
+   "sha256": "d5b64d9547e5542c514e99d95ec8effd6d3d3744a683f61a3f9cd1421fd39854"
+  },
+  {
+   "seed": 683129967,
+   "sha256": "b3e93e93c4354f1cc0471ba07bec4b94cdda12973b76f788e6cd0210cf6db7c5"
+  },
+  {
+   "seed": 3337565728,
+   "sha256": "fb24f9ebd6522b7d77f680f0704b3446496c128ad9e5d75b55c78a60af055e0a"
+  },
+  {
+   "seed": 1697034193,
+   "sha256": "7c7790d981cebed18cfee99ab91d3faeddd6dcf62b2e13144b6bcc08fb0fec10"
+  },
+  {
+   "seed": 56502658,
+   "sha256": "e9d941ab45d7c21e918a24c2e655c52e3834da83ccccfdce21bd7ae2fd006e9b"
+  },
+  {
+   "seed": 2710938419,
+   "sha256": "c2c739405ae5a3ae74e0e2afb8ddd756a9f92f8502c79b6347c361cbc4c4d929"
+  },
+  {
+   "seed": 1070406884,
+   "sha256": "d1157fc6459a6fe3cdf7f817ee41ab02fba6a3a57d40d7691a4912f9ec045ab5"
+  },
+  {
+   "seed": 3724842645,
+   "sha256": "62c4ba9a432d1827ce2894eefb4b14842f5d2662a87eab3dbe833564dce7616f"
+  },
+  {
+   "seed": 2084311110,
+   "sha256": "af7ecf34cb0f14644597a2ab20963417e9282d5b31e5086a35b5189c7a79a355"
+  },
+  {
+   "seed": 443779575,
+   "sha256": "250fc654b889f7a17dc802564ce9e2f606f47e16ebe92a434481521f20071370"
+  },
+  {
+   "seed": 3098215336,
+   "sha256": "e6c9533310226ad487048bd929c74036e258ab43dedb7321a4084a866d891400"
+  },
+  {
+   "seed": 1457683801,
+   "sha256": "1e8705828962f2802b1f6474ccfa824b3761ebc1b61ebd7efbddb78bfbe8d973"
+  },
+  {
+   "seed": 4112119562,
+   "sha256": "82550cdd999e82a759350754e173b515327798f0736d564646626c6f1342a94e"
+  },
+  {
+   "seed": 2471588027,
+   "sha256": "7de2d88b9b8218cb4464d7bcb779bd0b4a365d0b7a080212e292b003cd5d1ec1"
+  },
+  {
+   "seed": 831056492,
+   "sha256": "83316a8963dc057867836822b5feaac7e8b79be79011cc4fdf3e969c947ad704"
+  },
+  {
+   "seed": 3485492253,
+   "sha256": "213597acb57356f7d31eacca6a6af399d844cb03b553b05d61c2a1cef40c2b67"
+  },
+  {
+   "seed": 1844960718,
+   "sha256": "089282a14f14331bd7d5329c29f974a003e14b603d627bb1dfd1f9066fcfa049"
+  },
+  {
+   "seed": 204429183,
+   "sha256": "b44bc98f37e4a7ea3e2a74c5b901e0b1bb63d0d00491f18dee3becd33b041ac8"
+  },
+  {
+   "seed": 2858864944,
+   "sha256": "56b37873ad3e4dfa383d6c75340aba9d2a01011fd4091732ecd497f21e755a2e"
+  },
+  {
+   "seed": 1218333409,
+   "sha256": "ba7d7656436e558d0be08529fa5c9bfc908bad00b57f2b204207daf910656a20"
+  },
+  {
+   "seed": 3872769170,
+   "sha256": "09df1bd3caff4b46ac435e08eecac40373571f777ab80dee18df76c814a0817b"
+  },
+  {
+   "seed": 2232237635,
+   "sha256": "423ee3de2d35728298d50ca74b1a85240bb7cae6a4b7d2a3de442025a50c030c"
+  },
+  {
+   "seed": 591706100,
+   "sha256": "eeb536d57ca1bc142e9049cc12a1bbe3176ad0d835c76f927e687a53efb49992"
+  },
+  {
+   "seed": 3246141861,
+   "sha256": "7704769dc2bb11f8e4904cb9884e357277ea42a6f5ee59df2a96e545a6cbe9c8"
+  },
+  {
+   "seed": 1605610326,
+   "sha256": "e30eec1527620dd5d619dd4751e6ce00842aabd24c85c4cfcd6ad9f74b88fdb1"
+  },
+  {
+   "seed": 4260046087,
+   "sha256": "17fa8c733cdcf55b2cb6241570f42fbefb724a0947ba4f1464d84700f8e88d3b"
+  },
+  {
+   "seed": 2619514552,
+   "sha256": "adaae67109579135448eab8dc37b2570d4b67bc6112a79538d0ea50e006be586"
+  },
+  {
+   "seed": 978983017,
+   "sha256": "aa0055c6206d89a71d06e2af1650453cf5d4a78729bc503de531c046a0fc81b4"
+  },
+  {
+   "seed": 3633418778,
+   "sha256": "5fa6e50fec69a4cfc4b78262c4c380270c5914f2eff7baaae860e96d84dac351"
+  },
+  {
+   "seed": 1992887243,
+   "sha256": "6cc27e4f9a4a7d773a3207a987cb739e0dfcc79152df4008f4fff89a28635c14"
+  },
+  {
+   "seed": 352355708,
+   "sha256": "23a9b3b5c1830e35ac446e4cc297a4b87e0e4232b3a7b277ff1c536c50158ea9"
+  },
+  {
+   "seed": 3006791469,
+   "sha256": "cb1dd2afe7641e52f602b76cdcd5caecfb5c74f36757bd6b0c2f65044902debc"
+  },
+  {
+   "seed": 1366259934,
+   "sha256": "e1845aa6daf9b359a004640b48607a889f0c53c76018db125bbdc28f63cec03b"
+  },
+  {
+   "seed": 4020695695,
+   "sha256": "a4eadb40519f81e1b7c462ae95ba999ad1badbc62c67fcc843b8f13e74d7f991"
+  },
+  {
+   "seed": 2380164160,
+   "sha256": "4cdf6d4c6a8ab4e04f07658f6080d152ee1aca7fc41678e6d2634836098edbf6"
+  },
+  {
+   "seed": 739632625,
+   "sha256": "2c850c4ab1b067768f9aa005441ccf0c00bdb6b553b04c91f8555390c3ec9b27"
+  },
+  {
+   "seed": 3394068386,
+   "sha256": "246eaa58379ccd6a64e8e7a18044792f679e50189b45d7337bd3afd95a574496"
+  },
+  {
+   "seed": 1753536851,
+   "sha256": "f0d043c56109704de5326162d697d8a65d0b9bc381a52ac73753864713181f5b"
+  },
+  {
+   "seed": 113005316,
+   "sha256": "8726ec912442735f6fda0c88dc9018a19f76d3a007297b2b0258383c2dfb3b19"
+  },
+  {
+   "seed": 2767441077,
+   "sha256": "3a5250d8f6257093adada9728b641cee4fbd5652dc5550cdd17fa3b57464a1ab"
+  },
+  {
+   "seed": 1126909542,
+   "sha256": "bde2e61d20c294bfbaea24893bf0927e2ce1e41a6f558e8b81a41205943e1be9"
+  },
+  {
+   "seed": 3781345303,
+   "sha256": "c29fbb5088774d747458b689c9e3587a06c305c626770839e21b79a9bddfe3ab"
+  },
+  {
+   "seed": 2140813768,
+   "sha256": "d279708cd2ea0d04421e84562aa00963238187659a9c667aa0e2b9d68d9bb3b0"
+  },
+  {
+   "seed": 500282233,
+   "sha256": "68ad4471088f6eb58f7fba5a508652445d440c4470cead812b8a775a5fe400e1"
+  },
+  {
+   "seed": 3154717994,
+   "sha256": "14bac9cf5cc37080daafecd57bf774d5b242018ac74e6f59b58383f043b7673f"
+  },
+  {
+   "seed": 1514186459,
+   "sha256": "55fdcb772195b8ee9e159dd4df1b07e14d5890cd0d47f9815d391b3643756c77"
+  },
+  {
+   "seed": 4168622220,
+   "sha256": "65f577fbba38fd6748d453c9602c77247b549ead580a2a6efa10ef4e2e552891"
+  },
+  {
+   "seed": 2528090685,
+   "sha256": "adabcf77bb3c80802d165c5157649131273b598570ef9f450916d2287e485ecc"
+  },
+  {
+   "seed": 887559150,
+   "sha256": "addee1a98531e8dc605983368416dc202bd99653c075f4dbab85a6a8a9e8afbe"
+  },
+  {
+   "seed": 3541994911,
+   "sha256": "79e8fa365a08966ada88bec9ddc6218510e6730cf1ae3cd2084a98907fd44dcd"
+  },
+  {
+   "seed": 1901463376,
+   "sha256": "7b433c9761b50cd2852b15162af47512749da4d0ba819d3030bb556d3e8f951d"
+  },
+  {
+   "seed": 260931841,
+   "sha256": "d39ff5c49dc40a121c983d63ac7c835921a04e5dea64b0629f33e5fd109b2912"
+  },
+  {
+   "seed": 2915367602,
+   "sha256": "896ad9bbeb1443b28f7c802efd6e56a6449e48f64ae3bff99ca28f8ba092bd0c"
+  },
+  {
+   "seed": 1274836067,
+   "sha256": "1a5811f3f59e8fba5028d9b29f2731ae7f15b3b6137239a0b09323dbd584d4c4"
+  },
+  {
+   "seed": 3929271828,
+   "sha256": "0601abc6889ca0c1d59ac4ffdb9376803c2deb38f98fe298e0ade0c62887516b"
+  },
+  {
+   "seed": 2288740293,
+   "sha256": "5b7907e3e834b42d385cd6710a76b15724c5cecb716160a859bb1eaed17c0336"
+  },
+  {
+   "seed": 648208758,
+   "sha256": "7085d2505975b96123348ba9c6e0bff9234121924b0e11396788361400e95617"
+  },
+  {
+   "seed": 3302644519,
+   "sha256": "c4d58c11f90ded252e5c28b79b20a683f9dbeef49ec49dba780792e99efda8fb"
+  },
+  {
+   "seed": 1662112984,
+   "sha256": "d7481b35957d2348e58522cd4784407eed20ab9b9d309b3049280e52356364c6"
+  },
+  {
+   "seed": 21581449,
+   "sha256": "781a5777de292e78fc8c30b7670d2d302405fa2c2cb4d0094c3f5fffb32fcd9e"
+  },
+  {
+   "seed": 2676017210,
+   "sha256": "a7dfaf19b9590391ce869b0bfcbabfdad5de8d34da5a8687ddad9012eafe605c"
+  },
+  {
+   "seed": 1035485675,
+   "sha256": "7bc585777dbb75fac688349b259c5a6ee94ae97d14534f4c7c3f9c61a0dd0b7e"
+  },
+  {
+   "seed": 3689921436,
+   "sha256": "b51cca4d1d5e56165c015698d887580ff366c8c1a0921ccb8f2586e3ad4fa120"
+  },
+  {
+   "seed": 2049389901,
+   "sha256": "9bfa42d18b6af205105a23088d9e15f59aff42f82d8d9fc5060b0bd2be0ae4fb"
+  },
+  {
+   "seed": 408858366,
+   "sha256": "6f6c51d5fb2d1686f2099684bd1129bac46b3b93858594e215e03a41c40c87d4"
+  },
+  {
+   "seed": 3063294127,
+   "sha256": "c331aedb6b6af761270073505418d67cb1b01b0323632df8e3e1d328cc5ebac9"
+  },
+  {
+   "seed": 1422762592,
+   "sha256": "25d983881871cab017a32cdacf13e852e7bf6733723846c2944c2e3f13d0cbd4"
+  },
+  {
+   "seed": 4077198353,
+   "sha256": "e45ad3b31c933cd52024568d1ac09a4e6e1ef06801509084a4ce58b72a405580"
+  },
+  {
+   "seed": 2436666818,
+   "sha256": "be9d9e278a5872409fc25ef7a443ce04a4ff0f2dd83bb77b1e566b809f18647d"
+  },
+  {
+   "seed": 796135283,
+   "sha256": "8936be2a8427df2c7b73354632a2f379f07ac9f53e9eb317865ecb88f29e23b1"
+  },
+  {
+   "seed": 3450571044,
+   "sha256": "d0d8f029c7179e4f42f96b120447094ccdaf81507fe0af7863a555dfe9b3a3ed"
+  },
+  {
+   "seed": 1810039509,
+   "sha256": "4a6e135eabe918e711f2e94545709418f90b1262ce4b8c465386fa402ffcf8f7"
+  },
+  {
+   "seed": 169507974,
+   "sha256": "e9d173ac6b9dd578400ba3c86841105b646d090bf1037d8c884fbc9d6c9fa385"
+  },
+  {
+   "seed": 2823943735,
+   "sha256": "8905ae1d839b1b4e209ac94c47200a8af932251714c574e55a08fd4f7a219283"
+  },
+  {
+   "seed": 1183412200,
+   "sha256": "265ffd210cf2e48dc4f3e7c701ad788ca7c924250f4610fb3b1dcb966657b860"
+  },
+  {
+   "seed": 3837847961,
+   "sha256": "fdb55db4ef8d8226ac87b3e5cb9174de168b79fe91f0dcaac40c0f8868ff244f"
+  },
+  {
+   "seed": 2197316426,
+   "sha256": "255fe7995845a9c3e9457de2073ccfc54cccf316efa3a59076c5f334b885a12d"
+  },
+  {
+   "seed": 556784891,
+   "sha256": "77c417da7d6565e1e6f88e5eb5c40606273768c4ffcbb666014982b06be13cc0"
+  },
+  {
+   "seed": 3211220652,
+   "sha256": "6b328864af5a9a9da30fba076412f99d8bc869960d6a1bd62193035780290910"
+  },
+  {
+   "seed": 1570689117,
+   "sha256": "bea40e39db5da5c859c2475ef596582f2401e27a97b24619b37c98e6deabaa86"
+  },
+  {
+   "seed": 4225124878,
+   "sha256": "0bcbf7885ce43e4de3c43dcf186765de1222eda63f4200873e08182395569238"
+  },
+  {
+   "seed": 2584593343,
+   "sha256": "2776a0cfc50bdcae343d8f1d096de6e7586eeece74975dfe8ead9866210ef39e"
+  },
+  {
+   "seed": 944061808,
+   "sha256": "ddc5cdb333bb6d50d6111aa9ed07602c8741d9e526d396383598902af2796182"
+  },
+  {
+   "seed": 3598497569,
+   "sha256": "8a736a229ad2eadd6d788eb413a349ecd7e2d0b48c8884565b73ee2c28d999a9"
+  },
+  {
+   "seed": 1957966034,
+   "sha256": "1dfb82aa99444b225ed3159754e68ebb6a957b35abbcb740d43a698ceee10739"
+  },
+  {
+   "seed": 317434499,
+   "sha256": "9cca0af4f535fc1ab9730e47f7b9e8de7ad6158458fa1d2246f21b7ed64807d5"
+  },
+  {
+   "seed": 2971870260,
+   "sha256": "4b1b92f3568b4d66490e0358843d02430919ca7b4496e76bfc672c0b884b0552"
+  },
+  {
+   "seed": 1331338725,
+   "sha256": "4569cf9ce930ceac89bc3cbf83ca4ce18fd9d2fd50f22eb730b3374448ec8e1d"
+  },
+  {
+   "seed": 3985774486,
+   "sha256": "be889c893a40984162b7406e206c35525b3ed1fa8a53ae392b1f9b9b9fa1198e"
+  },
+  {
+   "seed": 2345242951,
+   "sha256": "dbd2f5c0b89fb96dc1d83a68371e0f26bf24e8bdd693b85f3457ca7ae81a9aae"
+  },
+  {
+   "seed": 704711416,
+   "sha256": "281a1c1c38a3d070cf63f6357ffc4d3fa00662c21e24a3fec917a50b77e889d8"
+  },
+  {
+   "seed": 3359147177,
+   "sha256": "090c0f5ca01ad57f70989adf418cd81c7da44800cc4c9aa21610055ee9bcc9cf"
+  },
+  {
+   "seed": 1718615642,
+   "sha256": "0a330e68e96a52413bb029c2be64c377ed9b1d886a48cd7bdbab60811e9cf2a0"
+  },
+  {
+   "seed": 78084107,
+   "sha256": "e0aab394b862092e79713201b524d32405d8328b6c913a5bdad38de2db98a0ff"
+  },
+  {
+   "seed": 2732519868,
+   "sha256": "6a07f8a5c354242ee91528c9a2f52085fe636695e917a9264be626b90488368c"
+  },
+  {
+   "seed": 1091988333,
+   "sha256": "331cf19a1c5e7bcd3b8588b051cdcba60a1fabb528a65cde9e2064ff7836bddd"
+  },
+  {
+   "seed": 3746424094,
+   "sha256": "2cb73a9ad692388cb2ca385d3d2f444b68b95720ed35f1ec6666cf7cfa7b376b"
+  },
+  {
+   "seed": 2105892559,
+   "sha256": "c720bb34f11c6cdf8cac6c48886fa0dc4e8301caef1a5d8cf3e424f3ca4e2a42"
+  },
+  {
+   "seed": 465361024,
+   "sha256": "e066f499007429c6c30f5cc6f7a00dbdbce77ab462a9ec60218fb7d6fcf2373d"
+  },
+  {
+   "seed": 3119796785,
+   "sha256": "1f3d8f245b94d448b4dc5a667e0aa94f27e1207c1703ac1ad6f422cef31e0fdb"
+  },
+  {
+   "seed": 1479265250,
+   "sha256": "dbffcde220f620f58095b22c0d92caea934cee570b21791cb706dc9e16bf204c"
+  },
+  {
+   "seed": 4133701011,
+   "sha256": "3907ef950ec1fc4f85cd347698ef04a7571a67e6f1c6452eb24b92e98796a072"
+  },
+  {
+   "seed": 2493169476,
+   "sha256": "ecbdb27d49856f705fc2ed78fee8365ffb921987dbc314c849479b77d4369450"
+  },
+  {
+   "seed": 852637941,
+   "sha256": "651e7d217f520382abbc0c92cfa88d88a8950d4ede74e0cb32c113dfd61515db"
+  },
+  {
+   "seed": 3507073702,
+   "sha256": "c2c19caa5e3723172a64e144a3d6b1160d2fcaa05d15eab15f366d9bd985d05c"
+  },
+  {
+   "seed": 1866542167,
+   "sha256": "bfbb299311dac316795d87054b3a931874af6638e59beb776f6c4289df7aca16"
+  },
+  {
+   "seed": 226010632,
+   "sha256": "51108490638a142772796919ab4eaf29a54d363c7272251025b34bc8e52d899e"
+  },
+  {
+   "seed": 2880446393,
+   "sha256": "fcef71a8f91a7c31babe44217cae7b1aa126b39079f48062626dae37186b379e"
+  },
+  {
+   "seed": 1239914858,
+   "sha256": "55cc9d2dcaea7cb342abbe3db521f3a4da8162db6d9b184747a78b4841f3c704"
+  },
+  {
+   "seed": 3894350619,
+   "sha256": "9b901afcae10fc7268cf3a0e7c54bd5dd4ecb9e155338b47f87f24317ea9913c"
+  },
+  {
+   "seed": 2253819084,
+   "sha256": "b29be55f33dd56763ca0d76b611004fb4ebd966500dfd503a06e43bd95490fc1"
+  },
+  {
+   "seed": 613287549,
+   "sha256": "b74e53f81e50850db5c1a532fd7dd636a3789d69a8216cbeebfb1582f8bf7b3e"
+  },
+  {
+   "seed": 3267723310,
+   "sha256": "d410f2db4a7c7b52e161a5db7011556cb40e9f5e07451e2dd0ce8e2f7c764392"
+  },
+  {
+   "seed": 1627191775,
+   "sha256": "42263bc448aa4ac5b2433f9cbf815263c612b505b32cc7cb8ccbac315bf3468b"
+  },
+  {
+   "seed": 4281627536,
+   "sha256": "2d6810fd0df571bd8d20ed84d57603996fa6446b93400339a9d5672ae58c2f06"
+  },
+  {
+   "seed": 2641096001,
+   "sha256": "6589c0feb1556e4ec9bc275bd68682e22a1f131aca650b58a758843c0abd50df"
+  },
+  {
+   "seed": 1000564466,
+   "sha256": "293e5e65c825891a2874c7a0ff69e8f1a962662bbaec6d112df4d0814ca00367"
+  },
+  {
+   "seed": 3655000227,
+   "sha256": "adc7ce71ac3b005f450b99edc06ff2039974979548785d4387541c18e0fb3570"
+  },
+  {
+   "seed": 2014468692,
+   "sha256": "6655adb0f0316b88cbd6125d47e038bdc90b2b21673b6f2c1385f8d803b4aea2"
+  },
+  {
+   "seed": 373937157,
+   "sha256": "c5351d116fa749c9100f081e63c1b3cba0f87254f565bf57aafc5f2122e376bc"
+  },
+  {
+   "seed": 3028372918,
+   "sha256": "110a52155d235401bdf4c90791ae623f5dbc353bb1faa2e57b6590ae5eef7e67"
+  },
+  {
+   "seed": 1387841383,
+   "sha256": "6bef4c0cc0fe518f3c8044baf5e44c74df7ad4f39ea6f9d8bb66ea53929011ac"
+  },
+  {
+   "seed": 4042277144,
+   "sha256": "30830fe312990523a644ad4ad1c342e77693a172ccbd0a97c52f6ec2852662ae"
+  },
+  {
+   "seed": 2401745609,
+   "sha256": "2c32404e8714c0bd01a93f1fed3506e00888210d07aeb9c173c24d7876f515ae"
+  },
+  {
+   "seed": 761214074,
+   "sha256": "0c97020c6115961d3889739b4cbf1417f1132aa23628423d4f1193c240a4e950"
+  },
+  {
+   "seed": 3415649835,
+   "sha256": "18c61c9609d83b31c45aaba0120dc0879dd67b8a598b3169374f9f0482c54c89"
+  },
+  {
+   "seed": 1775118300,
+   "sha256": "227908d35123d1de5ee38183db05d768816e5087c1c8197ef7450c881158a641"
+  },
+  {
+   "seed": 134586765,
+   "sha256": "7a9606b05321b4c85983fcdbc07595271049176bd2611f3e6f883b8e306450c6"
+  },
+  {
+   "seed": 2789022526,
+   "sha256": "5d94398ba5ce094d03e16c5c14ffcc08f115443cfd845e93ca00ccf9528da73c"
+  },
+  {
+   "seed": 1148490991,
+   "sha256": "61b2e8c276436681d797bcb61f108eb9ae0aa95475cac00fc829d134136228cb"
+  },
+  {
+   "seed": 3802926752,
+   "sha256": "3c0f0a4ed878b1920fa32fccccfa910c785091a62a7fb9ad49504060da6fab02"
+  },
+  {
+   "seed": 2162395217,
+   "sha256": "3d8e1f6948ea84a6d672b4673114ccad52dad0b2d87c9ed68645980f0a5a61c7"
+  },
+  {
+   "seed": 521863682,
+   "sha256": "ffaf0cf307b20e778948a3166c330153857de008403355a6c08e7a204404384c"
+  },
+  {
+   "seed": 3176299443,
+   "sha256": "9f4fcfa1aa18e760cd558498036cf29c1b7d43b1fe24cdaeeb72ed937fb71055"
+  },
+  {
+   "seed": 1535767908,
+   "sha256": "66cfa052149e2fe1dfb64e67591db1ab2583ade2961cee24918ed7d7600c6395"
+  },
+  {
+   "seed": 4190203669,
+   "sha256": "05ccf12468b4d1d123582cc913f5e43ffa5db09370065457c1b9f63ecb66b223"
+  },
+  {
+   "seed": 2549672134,
+   "sha256": "0849fcffa2828e7b428c80f0f08cb7dcc57bd36a2ea78a1345d83ea59ff3c140"
+  },
+  {
+   "seed": 909140599,
+   "sha256": "66e7f1e458cd60738df10717280522baa3902907f5eee2b45633637e3e998011"
+  },
+  {
+   "seed": 3563576360,
+   "sha256": "4643fb8a4299720f7b7e6693c8d84423e34819fa8bd721573f5f78b978c1dacf"
+  },
+  {
+   "seed": 1923044825,
+   "sha256": "04a181e51e3e95e9eb93ebb7f7801e967ab45bb7f0ebea63052047b8cf1db9ca"
+  },
+  {
+   "seed": 282513290,
+   "sha256": "b3bb46bd7e946dfa79198c59178543d71a4941acdf407c8105d6de97d3aba60c"
+  },
+  {
+   "seed": 2936949051,
+   "sha256": "b2ec14ebf5ad3cb538c2aad9ce0898f5769cda287a10141aceec3397f866ae43"
+  },
+  {
+   "seed": 1296417516,
+   "sha256": "3501d7adc575ba96779e19721e4be3289de44566efd11c181e40be0174d2b6d5"
+  },
+  {
+   "seed": 3950853277,
+   "sha256": "7e24b355fd67b28b006aedce6c96bdb8697113dd49d6d2b3b008e6a0c12be9d0"
+  },
+  {
+   "seed": 2310321742,
+   "sha256": "9cf86daa518f1b386dbbe48210afc8527905b7c532c99d27573d511ac860366c"
+  },
+  {
+   "seed": 669790207,
+   "sha256": "4ddf39a0b971d38b7952e2eb0e04f744a87914bda92cc64d5a6b2a7c46ce4168"
+  },
+  {
+   "seed": 3324225968,
+   "sha256": "8416e129729a945fc589b596a599fc2141636985870b7720d5c38b6943b4f258"
+  },
+  {
+   "seed": 1683694433,
+   "sha256": "4f9a17211835e0cb663e5ac0ed025ecb98158def05ea469ce0a00968a02766c7"
+  },
+  {
+   "seed": 43162898,
+   "sha256": "2c4c656fe4a0ced7a64ca350b694200cf7115f2e1931554c37d882b3af36d1bf"
+  },
+  {
+   "seed": 2697598659,
+   "sha256": "586fc5ffaa5c2cfedea469477693914081d60e27ee1cd1deade723767997cf7e"
+  },
+  {
+   "seed": 1057067124,
+   "sha256": "516b1911905004919b74e0d5302670bfadb26442983bd03b37b51355aa858a16"
+  },
+  {
+   "seed": 3711502885,
+   "sha256": "fd0bf881297bb05deab49baf5a5e9b4de24d128428bf70b702bdb974393018c2"
+  },
+  {
+   "seed": 2070971350,
+   "sha256": "6708cdeadf856ab17b48a041899eefcdf2498e4f2cea0206df015f13c6f294ff"
+  },
+  {
+   "seed": 430439815,
+   "sha256": "6bc0fae42c8ff80a639aa3cad21575611bd8879cbef1eb28ec622df375e9b316"
+  },
+  {
+   "seed": 3084875576,
+   "sha256": "23dce22f327ec6c9325df70687907ad3063f1aadd4616273a6f8d1d18516ec9b"
+  },
+  {
+   "seed": 1444344041,
+   "sha256": "8e769a0c5bbff693cec5e13bb625105e20f0c360c75b82cd9db3d632ca2441cb"
+  },
+  {
+   "seed": 4098779802,
+   "sha256": "c7a7eea92b3fc018c3424fc90d56ae28c5503b05725ed5e64ce40bbb0d8584cd"
+  },
+  {
+   "seed": 2458248267,
+   "sha256": "91c9b158ed8f771f8475f172381600de29ee21a766df95c103b524b6f73c0f5d"
+  },
+  {
+   "seed": 817716732,
+   "sha256": "aa7a59b33f6eab1f92b90c31959829c6a99c69d3df31419647bb7a78f7534254"
+  },
+  {
+   "seed": 3472152493,
+   "sha256": "3d00ac18e6f7cc54ed2b1948f7e12fad3c8278300473652b4fa26d8710bc3fb7"
+  },
+  {
+   "seed": 1831620958,
+   "sha256": "a8a0de2481dbecbadf2887fd310f958f5c16d8a7f03498243f2143357e24d9f6"
+  },
+  {
+   "seed": 191089423,
+   "sha256": "2b76fd47dbf03f6b3859ef1d2fbcd03cc650b207e966e1dbf3a19b4d75e78f90"
+  },
+  {
+   "seed": 2845525184,
+   "sha256": "6f9f1778982c33554852ef1807de687c9bf081f270aa09ad5ed399384554f812"
+  },
+  {
+   "seed": 1204993649,
+   "sha256": "f4fb54e6807086d2fddd406d4a7c4a0cae26e5bbde71932a00df5f08679aa392"
+  },
+  {
+   "seed": 3859429410,
+   "sha256": "0a5e310a92817f0c15eba624c3752f64548e9649125bae4bea661aefabfd00b3"
+  },
+  {
+   "seed": 2218897875,
+   "sha256": "555ddeff163e3507600b8337d15043589b4a455b07adfd6429fb4890466de478"
+  },
+  {
+   "seed": 578366340,
+   "sha256": "a7586eb5722bbd1c4d6764ca94b65dc8aad9a7cec1d776571664b8d269852e93"
+  },
+  {
+   "seed": 3232802101,
+   "sha256": "a41650875e95e8e08ca3cccc16c4d5b3f41fdf6252f24d223458c3de63f19f64"
+  },
+  {
+   "seed": 1592270566,
+   "sha256": "2b4dae5a8ea1a6567a4b1b327fec40dd0ad345b629e171efb2e1fc17969d9888"
+  },
+  {
+   "seed": 4246706327,
+   "sha256": "81412e283a5314176c0627e4925945cebcb0d70cf7d0562ec3db5b2f608063ea"
+  },
+  {
+   "seed": 2606174792,
+   "sha256": "de33323c1b33a57ce0c652eb651233f659317306e66f61503805ffe888752e8e"
+  }
+ ],
+ "samples": [
+  {
+   "seed": 2654435761,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 2654435761,
+    "context": [],
+    "tags": [
+     "firewall"
+    ],
+    "kind": "mc",
+    "prompt": "O que é uma botnet?",
+    "options": [
+     "Uma rede de dispositivos infectados controlados remotamente por um atacante",
+     "Um programa que organiza backups",
+     "Uma rede sem fio sem senha",
+     "Um robô de atendimento em um site"
+    ],
+    "answer": 0,
+    "explanation": "Cada dispositivo (\"bot\") obedece a um servidor de comando e controle. Câmeras, roteadores e geladeiras mal configuradas viram bots — por isso trocar a senha padrão de qualquer aparelho importa.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 0,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1013904226,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 1013904226,
+    "context": [],
+    "tags": [
+     "firewall"
+    ],
+    "kind": "mc",
+    "prompt": "Por que deixar a porta 23 (Telnet) aberta é perigoso?",
+    "options": [
+     "O Telnet consome toda a memória do servidor",
+     "O Telnet transmite senhas e comandos em texto claro, legíveis por quem intercepta",
+     "A porta 23 é reservada para impressoras",
+     "O Telnet só funciona com cabo de rede"
+    ],
+    "answer": 1,
+    "explanation": "Telnet e FTP nasceram antes da criptografia ser padrão. Os substitutos cifrados são SSH (22) e SFTP — mesma função, sem expor credenciais.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3668339987,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 3668339987,
+    "context": [],
+    "tags": [
+     "firewall"
+    ],
+    "kind": "mc",
+    "prompt": "Um serviço fica indisponível porque milhares de dispositivos infectados o inundam de requisições. Que ataque é esse?",
+    "options": [
+     "Injeção de SQL",
+     "Phishing",
+     "DDoS — negação de serviço distribuída",
+     "Força bruta de senha"
+    ],
+    "answer": 2,
+    "explanation": "Em um DDoS o problema é volume, não uma falha do sistema. As defesas são filtragem, limitação de taxa (rate limit) e absorção de tráfego — no jogo, as barreiras do Firewall Cannon.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 2,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2027808452,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 2027808452,
+    "context": [],
+    "tags": [
+     "firewall"
+    ],
+    "kind": "mc",
+    "prompt": "Por que deixar a porta 23 (Telnet) aberta é perigoso?",
+    "options": [
+     "A porta 23 é reservada para impressoras",
+     "O Telnet consome toda a memória do servidor",
+     "O Telnet só funciona com cabo de rede",
+     "O Telnet transmite senhas e comandos em texto claro, legíveis por quem intercepta"
+    ],
+    "answer": 3,
+    "explanation": "Telnet e FTP nasceram antes da criptografia ser padrão. Os substitutos cifrados são SSH (22) e SFTP — mesma função, sem expor credenciais.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 387276917,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 387276917,
+    "context": [],
+    "tags": [
+     "firewall"
+    ],
+    "kind": "mc",
+    "prompt": "Qual política padrão é a mais segura em um firewall?",
+    "options": [
+     "Permitir tudo de dia e negar tudo de noite",
+     "Permitir tudo por padrão e bloquear o que der problema",
+     "Depende da velocidade da internet",
+     "Negar tudo por padrão e permitir apenas o que é necessário"
+    ],
+    "answer": 3,
+    "explanation": "\"Deny by default\" (negação implícita): se a regra não existe, o tráfego não passa. Assim um serviço esquecido não fica exposto por descuido.",
+    "hint": "Pense em quem entra na sua casa: só quem está na lista."
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3041712678,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 3041712678,
+    "context": [],
+    "tags": [
+     "firewall"
+    ],
+    "kind": "mc",
+    "prompt": "Qual política padrão é a mais segura em um firewall?",
+    "options": [
+     "Permitir tudo por padrão e bloquear o que der problema",
+     "Permitir tudo de dia e negar tudo de noite",
+     "Depende da velocidade da internet",
+     "Negar tudo por padrão e permitir apenas o que é necessário"
+    ],
+    "answer": 3,
+    "explanation": "\"Deny by default\" (negação implícita): se a regra não existe, o tráfego não passa. Assim um serviço esquecido não fica exposto por descuido.",
+    "hint": "Pense em quem entra na sua casa: só quem está na lista."
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1401181143,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 1401181143,
+    "context": [],
+    "tags": [
+     "firewall"
+    ],
+    "kind": "mc",
+    "prompt": "Por que deixar a porta 23 (Telnet) aberta é perigoso?",
+    "options": [
+     "O Telnet só funciona com cabo de rede",
+     "O Telnet consome toda a memória do servidor",
+     "A porta 23 é reservada para impressoras",
+     "O Telnet transmite senhas e comandos em texto claro, legíveis por quem intercepta"
+    ],
+    "answer": 3,
+    "explanation": "Telnet e FTP nasceram antes da criptografia ser padrão. Os substitutos cifrados são SSH (22) e SFTP — mesma função, sem expor credenciais.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 4055616904,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 4055616904,
+    "context": [],
+    "tags": [
+     "firewall"
+    ],
+    "kind": "mc",
+    "prompt": "O que é uma botnet?",
+    "options": [
+     "Uma rede de dispositivos infectados controlados remotamente por um atacante",
+     "Um programa que organiza backups",
+     "Um robô de atendimento em um site",
+     "Uma rede sem fio sem senha"
+    ],
+    "answer": 0,
+    "explanation": "Cada dispositivo (\"bot\") obedece a um servidor de comando e controle. Câmeras, roteadores e geladeiras mal configuradas viram bots — por isso trocar a senha padrão de qualquer aparelho importa.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 0,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2415085369,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 2415085369,
+    "context": [],
+    "tags": [
+     "firewall"
+    ],
+    "kind": "mc",
+    "prompt": "O que é uma botnet?",
+    "options": [
+     "Um robô de atendimento em um site",
+     "Uma rede de dispositivos infectados controlados remotamente por um atacante",
+     "Um programa que organiza backups",
+     "Uma rede sem fio sem senha"
+    ],
+    "answer": 1,
+    "explanation": "Cada dispositivo (\"bot\") obedece a um servidor de comando e controle. Câmeras, roteadores e geladeiras mal configuradas viram bots — por isso trocar a senha padrão de qualquer aparelho importa.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 774553834,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 774553834,
+    "context": [],
+    "tags": [
+     "firewall"
+    ],
+    "kind": "mc",
+    "prompt": "Por que deixar a porta 23 (Telnet) aberta é perigoso?",
+    "options": [
+     "O Telnet transmite senhas e comandos em texto claro, legíveis por quem intercepta",
+     "A porta 23 é reservada para impressoras",
+     "O Telnet só funciona com cabo de rede",
+     "O Telnet consome toda a memória do servidor"
+    ],
+    "answer": 0,
+    "explanation": "Telnet e FTP nasceram antes da criptografia ser padrão. Os substitutos cifrados são SSH (22) e SFTP — mesma função, sem expor credenciais.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 0,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3428989595,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 3428989595,
+    "context": [],
+    "tags": [
+     "firewall"
+    ],
+    "kind": "mc",
+    "prompt": "Por que deixar a porta 23 (Telnet) aberta é perigoso?",
+    "options": [
+     "O Telnet só funciona com cabo de rede",
+     "O Telnet transmite senhas e comandos em texto claro, legíveis por quem intercepta",
+     "A porta 23 é reservada para impressoras",
+     "O Telnet consome toda a memória do servidor"
+    ],
+    "answer": 1,
+    "explanation": "Telnet e FTP nasceram antes da criptografia ser padrão. Os substitutos cifrados são SSH (22) e SFTP — mesma função, sem expor credenciais.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1788458060,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 1788458060,
+    "context": [],
+    "tags": [
+     "firewall"
+    ],
+    "kind": "mc",
+    "prompt": "Qual política padrão é a mais segura em um firewall?",
+    "options": [
+     "Permitir tudo por padrão e bloquear o que der problema",
+     "Negar tudo por padrão e permitir apenas o que é necessário",
+     "Depende da velocidade da internet",
+     "Permitir tudo de dia e negar tudo de noite"
+    ],
+    "answer": 1,
+    "explanation": "\"Deny by default\" (negação implícita): se a regra não existe, o tráfego não passa. Assim um serviço esquecido não fica exposto por descuido.",
+    "hint": "Pense em quem entra na sua casa: só quem está na lista."
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  }
+ ]
+}

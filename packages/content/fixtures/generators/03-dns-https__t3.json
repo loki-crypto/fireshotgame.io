@@ -1,0 +1,2831 @@
+{
+ "source": "03-dns-https/t3",
+ "generator": "match_pool",
+ "params": {
+  "pool": "dns_https",
+  "count": 5,
+  "counterTags": [
+   "tls"
+  ]
+ },
+ "seeds": [
+  {
+   "seed": 2654435761,
+   "sha256": "013242c3e048d47ef97e05c47f7c871cd8a3dc6d13ae548e55862d45f080e3a8"
+  },
+  {
+   "seed": 1013904226,
+   "sha256": "f8d47a768cb25d966dbbbf17cb8911cb66a9a20d0d8a8e7e3b6724bac70cadb6"
+  },
+  {
+   "seed": 3668339987,
+   "sha256": "a9a8d949219e4bc6a519ab6f0c4aa2ffefef7ce8d1df40aaf1ffff8063fe50b2"
+  },
+  {
+   "seed": 2027808452,
+   "sha256": "5ece45c277b269f4374cbc63e06910834859abde4acd34450b4d719f0a555b75"
+  },
+  {
+   "seed": 387276917,
+   "sha256": "ad133beb96a90dddc697868520142f55dbfbd451006e2f1523d016e0b1d8ae4e"
+  },
+  {
+   "seed": 3041712678,
+   "sha256": "ff8256e90093db6429ac5b954f70ad2e032702885c0fbaded5a7fbb5a55963f0"
+  },
+  {
+   "seed": 1401181143,
+   "sha256": "8d84c5395a7dfe286e9fd861026401c95b944b473cce7531b233adda401880bc"
+  },
+  {
+   "seed": 4055616904,
+   "sha256": "c242f7300e0c263f282fb06939c89b43f120957c5d01ccf6baf604218dc2e36d"
+  },
+  {
+   "seed": 2415085369,
+   "sha256": "dc79346085959dbb24c20de309e29e6f1c5504b6349d5072f34b8e4a81fad198"
+  },
+  {
+   "seed": 774553834,
+   "sha256": "03fbea0898e068e6e19517188bcf3ac2d972529f00a07a18f09f7a913836d757"
+  },
+  {
+   "seed": 3428989595,
+   "sha256": "574329a0d41eac141f8e64006713eee65e7fb70243c8ec0bb943b5e94d947a9b"
+  },
+  {
+   "seed": 1788458060,
+   "sha256": "681afe6453be733f9c80dfb1e0d0e83f347910093d701d7ebb86a12acb49b385"
+  },
+  {
+   "seed": 147926525,
+   "sha256": "7ac4de8e8457755f6498e697b7adfa442b00be394343b0b93fe9aa0efc08715c"
+  },
+  {
+   "seed": 2802362286,
+   "sha256": "487d7351ef0ce0a710f8b78822dd2d8f5cf8949639cb71e190dff0a91ba60721"
+  },
+  {
+   "seed": 1161830751,
+   "sha256": "0b8eabfd3638a5138e08670bbf8081cb969e457c4202e5bc72b04a185c61bb80"
+  },
+  {
+   "seed": 3816266512,
+   "sha256": "e2485954fe0f1e4a5f022c64217d61a90d042e3a8222a64cd784ead07d31350c"
+  },
+  {
+   "seed": 2175734977,
+   "sha256": "e28504a94a8ba407af235d24b66f73a76971a73405ee1d05124b600b19975f3c"
+  },
+  {
+   "seed": 535203442,
+   "sha256": "52fa3d4e2b3b3886e3e4a0d7f810873655494f5c1ad3db13b0cc2dcaad28fc40"
+  },
+  {
+   "seed": 3189639203,
+   "sha256": "57d35e82cf551b42dde5a7e05b5e0686baf5d4c30e4e2b5a50c9da587784a996"
+  },
+  {
+   "seed": 1549107668,
+   "sha256": "7e703a85382cd943e50244b9e3adb8996dc9adc2f291bb431ad148f8c46551f8"
+  },
+  {
+   "seed": 4203543429,
+   "sha256": "8b5afd5ec591d4d601eeaec4f2319e452fb2e2a0064322797c85ede1153d88de"
+  },
+  {
+   "seed": 2563011894,
+   "sha256": "69d22d7aa6f887fccfa4dc4a790da474a2d0e65f6c829fabd0abba551d7c84a9"
+  },
+  {
+   "seed": 922480359,
+   "sha256": "d3553bba0a25ae13026167fc3a94cbf5385d18cdc9269ad05c3fbd0a7dfcf74a"
+  },
+  {
+   "seed": 3576916120,
+   "sha256": "f9f99f92a3ce0a4c7e0ae9c5c90137f34cb74875a645ccc8760ffcb0a74187f3"
+  },
+  {
+   "seed": 1936384585,
+   "sha256": "9dc378e18aec3cadd461459a20b35a8aea242a63f96eddff9dbe70198c4256a5"
+  },
+  {
+   "seed": 295853050,
+   "sha256": "dae4b077e2f560b7335745d5a2217e430f59d6d7625648cd48586719ee073ad9"
+  },
+  {
+   "seed": 2950288811,
+   "sha256": "520012e28713eb0e4f888cb67b1377e875d7f89662ceb86f1b623a14ac72903b"
+  },
+  {
+   "seed": 1309757276,
+   "sha256": "a77bdb80965770d2924d5de08e05826d421be27eabd4e8832344571d6a3c62b0"
+  },
+  {
+   "seed": 3964193037,
+   "sha256": "de97cc845155a887d9319ff3e2156fac5ce41c99ee4db8ac66e1334508d4b915"
+  },
+  {
+   "seed": 2323661502,
+   "sha256": "8cc08c70744c7f36ba3cab60959b01a0a498a7caef76269ba6f64bc0d7e3def1"
+  },
+  {
+   "seed": 683129967,
+   "sha256": "9f809f9506446620feadb20437f76b33754aacfe8c946a3e76d6797994e6e425"
+  },
+  {
+   "seed": 3337565728,
+   "sha256": "4bcc9d9bc69d60891da0ce88667d324903fa162f18923e2db75d6e8e85f3ab64"
+  },
+  {
+   "seed": 1697034193,
+   "sha256": "f5af7b1d0e7391517ca33072106e0c89fae860730f6fd6ed28c5500c56ea67bf"
+  },
+  {
+   "seed": 56502658,
+   "sha256": "8f6977a86ce1b65f46aa719464e940b8aa5c8c657186f9ae930644c10916191c"
+  },
+  {
+   "seed": 2710938419,
+   "sha256": "0946722f81cedc8dd120bb045269975ba2ab73bf276c08e71eeba7d8ccf2edda"
+  },
+  {
+   "seed": 1070406884,
+   "sha256": "71b2d5b5f013541ec49253a934482fcc8bd31becd45f396f8fdaf851fa988f01"
+  },
+  {
+   "seed": 3724842645,
+   "sha256": "6a32de6f8cb1d5882248d11545b99dd0f8b710c82f69dd48e42e0724630a3182"
+  },
+  {
+   "seed": 2084311110,
+   "sha256": "793752411439063a1cf51ff244d94f6db5afe03c42a2bce8a3592114b51b079f"
+  },
+  {
+   "seed": 443779575,
+   "sha256": "c2e2551d110283fa1945d3061acfce016536e518fc8a18cbbd961f9c56082b5a"
+  },
+  {
+   "seed": 3098215336,
+   "sha256": "06c71b78351fd743145afb3857a7d292a02c68c5f3b2dc734a6330568cc10d9c"
+  },
+  {
+   "seed": 1457683801,
+   "sha256": "bacc015dee6a8ac2e5d428b769b87f762b5233b77c954b6cbfc411c718f3a276"
+  },
+  {
+   "seed": 4112119562,
+   "sha256": "f5844d4e326488df660a9578741078fc6fe3212c6b38b0893c49bcc3746cb7fa"
+  },
+  {
+   "seed": 2471588027,
+   "sha256": "29dd58537f2351a8fbc2733bf8a46a6c69aca0c01f1dbdf5b30e22ca2839f832"
+  },
+  {
+   "seed": 831056492,
+   "sha256": "a7f5ce38fd5d516d898c3d94893f01bec167d75d7f6782dbb1953c17f9be2425"
+  },
+  {
+   "seed": 3485492253,
+   "sha256": "dc8907898fc679c5474d8a2391eebf25d11c5a66c573df28db8a9d462080c7b2"
+  },
+  {
+   "seed": 1844960718,
+   "sha256": "2f079e721ac8c66291d7a2a29c19952b4b75521e640032357ed938b13d51d062"
+  },
+  {
+   "seed": 204429183,
+   "sha256": "0a49a2c6b686baf62293b5d72e9a840a5d4450f0001e676613377ec699bf667d"
+  },
+  {
+   "seed": 2858864944,
+   "sha256": "5a14120944186d9ad3aed765912145129b00be1b7884efe1b21490fdd7f4aa1b"
+  },
+  {
+   "seed": 1218333409,
+   "sha256": "8e6b4357306e098bedf1f8066bbc44d6e812ed4218b426fd7b5cf572695a392b"
+  },
+  {
+   "seed": 3872769170,
+   "sha256": "89da97949376f1037afab551aafb22bd9b7ee4f6a09362962100553133ac93d0"
+  },
+  {
+   "seed": 2232237635,
+   "sha256": "952749880f1e60fda3297b16b6dbff6ced6cfa37151fa578bfc817bc74093785"
+  },
+  {
+   "seed": 591706100,
+   "sha256": "a23e19a0c3e7876010d290fad34db20c9bf8e126fc53c1fe7db6afce5cf35ec3"
+  },
+  {
+   "seed": 3246141861,
+   "sha256": "7fb74e46a7785be0a3c41b21ddda4859e5adfb7fcc14ca36a8c974dc9aa5cfbb"
+  },
+  {
+   "seed": 1605610326,
+   "sha256": "dca1adff8d42c07676e79100860a3f09d320f011c44d19c7e5b0ee5bfe43937e"
+  },
+  {
+   "seed": 4260046087,
+   "sha256": "64bfd68cb216dec77ebfeff14c9a3aa97fa78c8a8856cdd5351cc2c99a47f3cc"
+  },
+  {
+   "seed": 2619514552,
+   "sha256": "1c3fb297bfceae6a2e07e72909f9b564ffc2672fa0350adc9a952b4cf2cfbcb1"
+  },
+  {
+   "seed": 978983017,
+   "sha256": "7437c2c429193f36a6543f970c191e75276035ebb84b9bfa342f2b10ad0669f6"
+  },
+  {
+   "seed": 3633418778,
+   "sha256": "67f9ba55c06b3a41374d1850c454b2ff0ec140e1974c2e86c8a2feb65f09663e"
+  },
+  {
+   "seed": 1992887243,
+   "sha256": "eb106fabca806aba3a547ed44bb9a527f141c845fc79c20ceca3d2aca879cd82"
+  },
+  {
+   "seed": 352355708,
+   "sha256": "7c7b0baed5fe49f95ee9b40325a46a242570c9882f8f428a6138c44caedb7263"
+  },
+  {
+   "seed": 3006791469,
+   "sha256": "719d5163b88d69723512960257094f3907e750cc836db0100ef423cea484c37d"
+  },
+  {
+   "seed": 1366259934,
+   "sha256": "ddd435e75dde926c6a0d860ee8777dc2906257bf4e3f43c513005cd8370a72da"
+  },
+  {
+   "seed": 4020695695,
+   "sha256": "d2e8d7f300d58517020a9c491cd667b1494fe37b8174f5e2bb81ee26b256a8fc"
+  },
+  {
+   "seed": 2380164160,
+   "sha256": "0af39d5ed3d93658631c2e02040dae7206a09d807be0b49d9df9dfb106530307"
+  },
+  {
+   "seed": 739632625,
+   "sha256": "fcf351019f18cc5d50a3367db66b13a4b51c8acc46357917b88d34ecb2b1acf3"
+  },
+  {
+   "seed": 3394068386,
+   "sha256": "4e44ebbffb736a80f12c125ab7ab3bfdd4aae38337ab61591ffd97095b7f99cb"
+  },
+  {
+   "seed": 1753536851,
+   "sha256": "72dc000cfee7ee8621fb94d26b4232a3888664208c2892022f8f6f40b663b95f"
+  },
+  {
+   "seed": 113005316,
+   "sha256": "bbb11b2126b31ca575f39189345a9e65c22c46eeb4e1ed7416d4b06cb3011d5b"
+  },
+  {
+   "seed": 2767441077,
+   "sha256": "5bdcecd841f5aad94cb4fe7cf2b88c4a43b77adb03b3f1bcd7cb634e493c8f6d"
+  },
+  {
+   "seed": 1126909542,
+   "sha256": "04ac622cf2a54e1e3973a56eeaaddcc5c363b1440e0e6645f2d11915988b3ce0"
+  },
+  {
+   "seed": 3781345303,
+   "sha256": "f5704c7ff8e9ea5959140be6dbc866f1db8cb9710f924218da548c2f89055870"
+  },
+  {
+   "seed": 2140813768,
+   "sha256": "b4b60ab14583122387797d42ca5debadb1d4760fb9ff2532aa9ce4f30f8e5845"
+  },
+  {
+   "seed": 500282233,
+   "sha256": "ff7f325e4e277dc6d7862cf3ca8226b9ee5ce2c6101975cf0b042fef8cd202d2"
+  },
+  {
+   "seed": 3154717994,
+   "sha256": "28cd5a9fec4ec5b6b927d889c8ded5ee1921d57f645da3ebff9b659b28be7517"
+  },
+  {
+   "seed": 1514186459,
+   "sha256": "8e4446d2a41c26539dc2c529784ff4768292dbabd1e64d676b401a18922ede5f"
+  },
+  {
+   "seed": 4168622220,
+   "sha256": "00b7c349166f302ac56b88aec1f34f36280efa526a11639f1f9489c1d956813c"
+  },
+  {
+   "seed": 2528090685,
+   "sha256": "0d4dbb126eea3220be9c74e51d9bd0c088726d5fd576b6dc90b16ce71c13fcd5"
+  },
+  {
+   "seed": 887559150,
+   "sha256": "402ed4ce61dcc34f4779ef3f272404a912d2f9eab6170ac667198c962fc8b1f3"
+  },
+  {
+   "seed": 3541994911,
+   "sha256": "8f06f2f999f4f501d9ad29f08c89221200821b5582fba5efd72302b8d9bdf36b"
+  },
+  {
+   "seed": 1901463376,
+   "sha256": "a99db72769737d762396cda76e7e291d25d5a6ca178f4cadd4952ca70ab0f2eb"
+  },
+  {
+   "seed": 260931841,
+   "sha256": "8aace0ae3d6789df733ece4b6a004bf23a1cb4f52ece8ddb11ddf570d3aa6672"
+  },
+  {
+   "seed": 2915367602,
+   "sha256": "47c75345dda5a96839f2fb54e73aebf39bd4a1b535daa9b689986bb0bee81c40"
+  },
+  {
+   "seed": 1274836067,
+   "sha256": "9a44c675c44e7e721bc6427bbd6c900e21041b887063406d2610bde15c98316f"
+  },
+  {
+   "seed": 3929271828,
+   "sha256": "3d17ef5b97ba514a1d3aed0a4b5a5a3f5dfeea8d310f287ba408bb2794860886"
+  },
+  {
+   "seed": 2288740293,
+   "sha256": "09a3c17cb7cd4e7375fbbe98abc5385ab44f901df72fe94a34575e18ac37176c"
+  },
+  {
+   "seed": 648208758,
+   "sha256": "ea4620ea428ebeaabc013a20e72c006e0051909c1eea8f460cbb7d8e4ac98fe8"
+  },
+  {
+   "seed": 3302644519,
+   "sha256": "7013aaf9c98f0ef857f031c002db9f0a0fcba81d6d4af26cefba2400ff695ea9"
+  },
+  {
+   "seed": 1662112984,
+   "sha256": "cbbf16d5bf55e99d82c8bcb14338302045a9984e9d38830bed2fb8d7b6afa6a6"
+  },
+  {
+   "seed": 21581449,
+   "sha256": "6a444716097486d6a4c80743bde4f5e8436b4cc525c6b44eb832faf0aaf83a4b"
+  },
+  {
+   "seed": 2676017210,
+   "sha256": "b1aba2f7d29f6095881d48fb42c6a4dbf36309d6ebed5d98666f5907e509a007"
+  },
+  {
+   "seed": 1035485675,
+   "sha256": "26ab4da61a40b39931a54e19042c57d091714ae266446cf5c8151944b68e4bc3"
+  },
+  {
+   "seed": 3689921436,
+   "sha256": "8a560a506408bef17b55a10103ba9c697d658c2aded80b1ce46804910ede3bad"
+  },
+  {
+   "seed": 2049389901,
+   "sha256": "fcf13a4b424a0a93b83755b4e60e903137e33c7a8d55133604e20db4df4629ed"
+  },
+  {
+   "seed": 408858366,
+   "sha256": "fb49ee15497a20ddafd4364cff89110e3f36bef948ea3a15ae4624626d5a171c"
+  },
+  {
+   "seed": 3063294127,
+   "sha256": "dae1edf0110e470f096778c2ae35cee74f60aedf0a03010a30bb8a6e994d85a9"
+  },
+  {
+   "seed": 1422762592,
+   "sha256": "a6279f1f3ae4d14db6b7d7afdb5b454ec25e9afbc6420de5de3d3e8b61040eab"
+  },
+  {
+   "seed": 4077198353,
+   "sha256": "c3267dd11d31099ef0c7c3dc98b822a6b68ee9b5ed07daa27018092fee67896d"
+  },
+  {
+   "seed": 2436666818,
+   "sha256": "afcffe0a4365b61ef8067b7dfb7768b9ae62e5f69cb4402a4da21a2b4a702ba0"
+  },
+  {
+   "seed": 796135283,
+   "sha256": "59c82a044fa3bbd1f67dcbb0b5451ec657aa1c670f7bfe227bf9b32395c2d93f"
+  },
+  {
+   "seed": 3450571044,
+   "sha256": "daf6517a276feef2b510e8ef909609174b195c52fe72160838dc7939adb94a48"
+  },
+  {
+   "seed": 1810039509,
+   "sha256": "d5827f86c03df8eb086262eae66894eaf1674608a7bebaf5cebf122cc69b996f"
+  },
+  {
+   "seed": 169507974,
+   "sha256": "76c7ede8772897b8b57fe13e00e5bbf6e8611cba55a07313e022983fee225a44"
+  },
+  {
+   "seed": 2823943735,
+   "sha256": "c86828ae9d1063fca760128fc726442d390d327fc8da68dde0631a930c2c9b3e"
+  },
+  {
+   "seed": 1183412200,
+   "sha256": "18affcf1669f00915d9173d1a18a03e39b6d43bb112bef551e97f0efe469ee62"
+  },
+  {
+   "seed": 3837847961,
+   "sha256": "8c540db3154d9728dc9cc65ce6bb5e54957d22c2712d6fe77a28b0b32a0e9320"
+  },
+  {
+   "seed": 2197316426,
+   "sha256": "950363f94c633099c5f32b8425890b32bfd7ad8db8fdb993a9d14a2063443262"
+  },
+  {
+   "seed": 556784891,
+   "sha256": "d1cef3e21fac16289de46f777999d7cc48ad0a8fb09eb1c4c1b53a3f9a699d4e"
+  },
+  {
+   "seed": 3211220652,
+   "sha256": "1bd8b6d834d89cf82e6441ec92b84d6690fda2a29649545345e8bfd89b91d8c9"
+  },
+  {
+   "seed": 1570689117,
+   "sha256": "1cff30530fbd79b545cd609d4d5a3484a4bc9e49472a52298c10bf4d875cc32f"
+  },
+  {
+   "seed": 4225124878,
+   "sha256": "468df4202b5f7198d3f7027f8677a95fbc80d21b7399348d70903ded85e3a684"
+  },
+  {
+   "seed": 2584593343,
+   "sha256": "602adfc53fa1a26d464cdcca2ae4397809d77e5c7eb433faed273c28479140ed"
+  },
+  {
+   "seed": 944061808,
+   "sha256": "1977dbd18ceff6ffa1cd9603c0d1efdfa754cee448c6175122888a9d2a1ae549"
+  },
+  {
+   "seed": 3598497569,
+   "sha256": "5e064c119b1cdf837e53ede45d992d0ff8299f7708506c9988a6f37e110ed596"
+  },
+  {
+   "seed": 1957966034,
+   "sha256": "da72bacecbe8a04bebadc87a681c4d223364a53fd7bcac296b3c956729285c79"
+  },
+  {
+   "seed": 317434499,
+   "sha256": "348e3b8f59322c14af8254a79d0cda47c8663716891b16c4e7c2668343882fbf"
+  },
+  {
+   "seed": 2971870260,
+   "sha256": "fc2933bc43f579973a3e5015adadda07f9d66ecd564bb24c9e598c09e30b97fa"
+  },
+  {
+   "seed": 1331338725,
+   "sha256": "f9502d1f03d21f8bb8bca86dea5b60b2d507bd238e6fe72e4809984e32364a8c"
+  },
+  {
+   "seed": 3985774486,
+   "sha256": "52241b68cd26c52835dea9d5f853599e091860e0b1f60b91feba9bf9520fb471"
+  },
+  {
+   "seed": 2345242951,
+   "sha256": "1c66e2d218d1c1501731b5f654ca454c9c7437a960089bc5bcc6f5139a812b01"
+  },
+  {
+   "seed": 704711416,
+   "sha256": "b58e398cdd3064668999dc6242f951a07671fdcfca9353f7575667b28d88cc97"
+  },
+  {
+   "seed": 3359147177,
+   "sha256": "571e34136efa8e25b33af36511e3a041edec664af397b731ea93b1be9663972d"
+  },
+  {
+   "seed": 1718615642,
+   "sha256": "6af20c02a3ed2a964c57f63ebbe4f75d3a0ebb9e4f55262b5c6a7b02af4b276c"
+  },
+  {
+   "seed": 78084107,
+   "sha256": "b5cce38fc05371741d7459df64dbf5ac75138f7c98ca874639e42ef2e9d2899a"
+  },
+  {
+   "seed": 2732519868,
+   "sha256": "468582f60e3a5d2ce07a9391ac3424f95f5c64e3b557ecec33e83f054efbc3b8"
+  },
+  {
+   "seed": 1091988333,
+   "sha256": "1efa9e5b296e942c5934632659f286bd4ddcc2aad70586890ca32f2a6b8c2dcf"
+  },
+  {
+   "seed": 3746424094,
+   "sha256": "f1827fd8973899084db70fd1f60c1bcb5a0b2d04c8f192a0f5966938d7b8f624"
+  },
+  {
+   "seed": 2105892559,
+   "sha256": "f728e937b2a2806995bd69fad0839d7aebc971eb7dd8689eff943e519701f52d"
+  },
+  {
+   "seed": 465361024,
+   "sha256": "7a4805999e114d4e439f8d8432d86cd46b5ceb07236bb63f24d1401e6eb7a893"
+  },
+  {
+   "seed": 3119796785,
+   "sha256": "f0debe3ec6a771482dd9ebebbd246378d64d64a870dff4883279a7fcd2d0076b"
+  },
+  {
+   "seed": 1479265250,
+   "sha256": "ad8ef54cb30e1d49b11e172e7e9ea00533af78ef5281149d35e0b140b9fe0c82"
+  },
+  {
+   "seed": 4133701011,
+   "sha256": "bc386a9fcda1786dabba9d83dcd9f411d51d2e9f33a3486177de1368d50f947d"
+  },
+  {
+   "seed": 2493169476,
+   "sha256": "284da18323e22b741958131aa3e6fbfb9e979aadb8ae0b6a0ef5b871d919959b"
+  },
+  {
+   "seed": 852637941,
+   "sha256": "c0501d9a5fd46d67e7f3fd333681cca5e9c37743a7178577605bfdb6f1c26eef"
+  },
+  {
+   "seed": 3507073702,
+   "sha256": "640fa6b363d6509e54f0b510f96924e9e21f18b3f969fac37e949ae5d5701f06"
+  },
+  {
+   "seed": 1866542167,
+   "sha256": "49fede32981bd615f41a6b6c00e89b163f80ad9bd5d7a65c5e5b86e60218afd7"
+  },
+  {
+   "seed": 226010632,
+   "sha256": "cb42b6e3e9649eefee7af4ac405819632627ebee11a4cf3e982495f752338299"
+  },
+  {
+   "seed": 2880446393,
+   "sha256": "abd457232721a703ad35694bc44041baa3365fa78a7b291c68b812dd73cec1e1"
+  },
+  {
+   "seed": 1239914858,
+   "sha256": "98f573403fe10cc2987a8859d3a07d6d352f2c3fdbea4ce92b6fd18ed37073f6"
+  },
+  {
+   "seed": 3894350619,
+   "sha256": "a89f3bded75e76131fd2421d51147842563f816b2c96a5da832a61f1384d00b8"
+  },
+  {
+   "seed": 2253819084,
+   "sha256": "87a854899a309b897380d1731d6b18d2e12e8c96e25080675956c7f230c494cf"
+  },
+  {
+   "seed": 613287549,
+   "sha256": "fab9f90cdb7f2140010327a1a332f7eda83f8668292a0cdc5ec7f78694f4e4a6"
+  },
+  {
+   "seed": 3267723310,
+   "sha256": "b9adffebb3fbca52d8a32161b468e1e1f01eca0e00c54e5662d483890f8b204b"
+  },
+  {
+   "seed": 1627191775,
+   "sha256": "fb15571fcad6e90d31b738f39bdfe864962c0eb1d1735a20e8ce6b519218242c"
+  },
+  {
+   "seed": 4281627536,
+   "sha256": "95b8a3b3a5bef9f764a4101b63b4fe0153c8b7c52071a0e5ac6c05f29fcfa71b"
+  },
+  {
+   "seed": 2641096001,
+   "sha256": "546f1391178856f12750d0ac6de4b66fe5e2e2d47139dcb246960dc0fe490293"
+  },
+  {
+   "seed": 1000564466,
+   "sha256": "305ee95842fbc2a5afd09b477cdfb85031933986b4a6dc811fcc21dce95927ff"
+  },
+  {
+   "seed": 3655000227,
+   "sha256": "78da192ff439c379ee2c971e6f886d26fcd54f2cfe7455306a1396ca115518ce"
+  },
+  {
+   "seed": 2014468692,
+   "sha256": "6fc6cc1da17c0f3330c89212ce7db38ea02d1cbe2381f075175b41b72dfbbb61"
+  },
+  {
+   "seed": 373937157,
+   "sha256": "c0930365002b83fc1c407d7ed042ec284b4f668171e161abfaeb62eb7285fa62"
+  },
+  {
+   "seed": 3028372918,
+   "sha256": "22ff975927a8f68d461a6602e8e98229015c3593822f3ce02c0ba0f046eb739d"
+  },
+  {
+   "seed": 1387841383,
+   "sha256": "f28e999b5c85ebad5f57b1ad4fecf5a1bb2de5499567c888e1df573bff9b5297"
+  },
+  {
+   "seed": 4042277144,
+   "sha256": "ab45d7a36f19d7fd7e27594b6a1a210e63d8c16a66062613aed5c25781a350ee"
+  },
+  {
+   "seed": 2401745609,
+   "sha256": "9095f8902f2c121ffc970a7a6eb390fd5a13d9ded5db8b2f9313508332c5dbaf"
+  },
+  {
+   "seed": 761214074,
+   "sha256": "da1a895b091c8187d185112d6d099437d8a3bc4313f765c2e99eee71dc0da057"
+  },
+  {
+   "seed": 3415649835,
+   "sha256": "4dbe53358f74335d7a1202bbb4d2ca4ae2a30d768dc3450c1ecf9c0454f81ab1"
+  },
+  {
+   "seed": 1775118300,
+   "sha256": "5ead83bb37500250942cab27e75a6cc61e37475fb5598daaf7fc64152847866b"
+  },
+  {
+   "seed": 134586765,
+   "sha256": "ee0ae8f5e7d45ce0289ef7d23dee88d0c8c372b19e797bed7bad6c65a573e288"
+  },
+  {
+   "seed": 2789022526,
+   "sha256": "3c7f8d732a96a64fc1dae5a2495ffe9aa166eb928df1f6dc707be842edd07306"
+  },
+  {
+   "seed": 1148490991,
+   "sha256": "5148672366d2767c8c63981f10a3636d05b68383ddd904c0c4a769717693fe7a"
+  },
+  {
+   "seed": 3802926752,
+   "sha256": "097558a23ca996e03ed2c64be0babf38982cf4beab9a3335e5457d6f8a536bd8"
+  },
+  {
+   "seed": 2162395217,
+   "sha256": "930793a23507894c11550b7da2bbf989112a19ce4b074307e12e85b1d195877f"
+  },
+  {
+   "seed": 521863682,
+   "sha256": "d6821a137f255d35f20bc16e5466e6a5e24ac30af5122da9aa6aa19de39210c6"
+  },
+  {
+   "seed": 3176299443,
+   "sha256": "4e87b984bcc1e436b6283a674c157eaf6ba99d8ca2f994d1e6da5cd644e8ab41"
+  },
+  {
+   "seed": 1535767908,
+   "sha256": "6fafa7e7bb53e5dcb071a19df36db527b0beac5dc3b8244e0daa8c59f2e9cb23"
+  },
+  {
+   "seed": 4190203669,
+   "sha256": "40be46cf71bf67bb70fa11c1380eb21c6901c1b320f5ec9dfcc9289bd7e2657a"
+  },
+  {
+   "seed": 2549672134,
+   "sha256": "1190dbc8d1978a7a233552af9e8830c6d29e5d0521c9909fe2201ac2cafa9225"
+  },
+  {
+   "seed": 909140599,
+   "sha256": "6fd77a4c72102df3598a7ace28d2780c196a905e3f3196126a59a5fff96820b9"
+  },
+  {
+   "seed": 3563576360,
+   "sha256": "4bbddce35d53f2bc020738be7ddc95e2d1c4dc8eaaca11049335279fca438db6"
+  },
+  {
+   "seed": 1923044825,
+   "sha256": "daabb7486505976460250dbd85ebc23468c422953c6e11a59f46ca5d26ed240b"
+  },
+  {
+   "seed": 282513290,
+   "sha256": "ddee5d5a6e7ebdbb81d23f8b869981953fb0aaecf475aeb0b609ac6db4636ddd"
+  },
+  {
+   "seed": 2936949051,
+   "sha256": "11d7644520955cedfd163e3339bc4a9553602f63c4467e4bfc8eca70f1c0d7f6"
+  },
+  {
+   "seed": 1296417516,
+   "sha256": "1f2a0d8aef1164e6ac0e260303ad17b1b70bea1fe7454109461fdaa2b5865c13"
+  },
+  {
+   "seed": 3950853277,
+   "sha256": "4a39f2e67b075c23b03fcb2d2e1821d5249d5508575ce0b424223ffdf7a8b06b"
+  },
+  {
+   "seed": 2310321742,
+   "sha256": "d709638cf1a6e7edf8e262bd7409c39597300a316f1b9a327d10e2ba48140b36"
+  },
+  {
+   "seed": 669790207,
+   "sha256": "fcce310afb249c58b7cd5219c251de4227235a8f1a5ab9152f3e8e79063c10e6"
+  },
+  {
+   "seed": 3324225968,
+   "sha256": "cf12726754df627080d60add08ff05922e0557784220f59f76a8140fe53d3ec3"
+  },
+  {
+   "seed": 1683694433,
+   "sha256": "a748df027c3b1b09a19ef7f4eed56ace334c6f2e62ac5728dc2a42a118d3040b"
+  },
+  {
+   "seed": 43162898,
+   "sha256": "5d4dd631ee50ef058a712bfda6caa43d304009152842ee53f9a9514925a71e3f"
+  },
+  {
+   "seed": 2697598659,
+   "sha256": "a77362c440d5bcee4ca7e0c07338fc36813a298acbf32a87cb945384c5f8a8e1"
+  },
+  {
+   "seed": 1057067124,
+   "sha256": "0207d97d12bfc7a577a2fc807b5730263be800f1a8a1b3edaab5bd48eb2771fa"
+  },
+  {
+   "seed": 3711502885,
+   "sha256": "49ba488dc597f7e0a3a00384e85590688179a506b3adacf2586c6a4724ed2665"
+  },
+  {
+   "seed": 2070971350,
+   "sha256": "1db305d331d1ecf672dae3f7f29cbfa7bbfbd6b0da7ad38e1eb348eb07b76a17"
+  },
+  {
+   "seed": 430439815,
+   "sha256": "71c9bb56648d023365c64f70ed49aae8b3668e07e48de90ba6e0bcbfe4a74779"
+  },
+  {
+   "seed": 3084875576,
+   "sha256": "9a2ccb3930ea6e03c7d4e98ebe56d2e93f91b4ebf65caf9a85a491b36a192a96"
+  },
+  {
+   "seed": 1444344041,
+   "sha256": "52aee1f9d6cd066671a68694f77655d886e3ab536dab492fea68fef6f5f228fc"
+  },
+  {
+   "seed": 4098779802,
+   "sha256": "602961b8c4e26dafe2f628f8ae1d8e365b70dc33368a0f0599dcc90bfc6787b6"
+  },
+  {
+   "seed": 2458248267,
+   "sha256": "0e6330a73f34d8ea03476edbeb60456d5fe328211170adad4e95d69fd87b8f71"
+  },
+  {
+   "seed": 817716732,
+   "sha256": "cd5939e9917feaa687fe15c781b4024936e3065622ddd4caa3b320048d1be17a"
+  },
+  {
+   "seed": 3472152493,
+   "sha256": "344038e2387258122285b9eec6e2b1b60892e24e61c7ba044f681e65adf7e169"
+  },
+  {
+   "seed": 1831620958,
+   "sha256": "c2daea759f2140b21b2358d64697c37c2aac9766bdbd0fffdbb84726a9c0c371"
+  },
+  {
+   "seed": 191089423,
+   "sha256": "e3fffde159085eb98f4ae0be1eefa4b2108e245f28db67886436f62a03e96e00"
+  },
+  {
+   "seed": 2845525184,
+   "sha256": "ede72c2b420156b6c8e7273bce1fd6c6c836b7d9ba0eb428661bd882f513e9f5"
+  },
+  {
+   "seed": 1204993649,
+   "sha256": "7be9f80ef1bf6afa8dbfa7c27d1f4e17cf104e3f3fd11f9e946e660d9434f4e6"
+  },
+  {
+   "seed": 3859429410,
+   "sha256": "f623b2cc25294caf5cb1ddff0ee2f9730df63bbe6bc1aee5850e3bf7bf155846"
+  },
+  {
+   "seed": 2218897875,
+   "sha256": "515ba1c120f6d1a59199ac591e27bf932ad1292314a0e668e773f323f058cc1f"
+  },
+  {
+   "seed": 578366340,
+   "sha256": "64625281f9e9b4af590f777b93968b6779f6ad277b75514faecca1452c4c0632"
+  },
+  {
+   "seed": 3232802101,
+   "sha256": "3d64996ecbb37aceeabae55184676d90869a241689e29d3d588be5ea2ab5184c"
+  },
+  {
+   "seed": 1592270566,
+   "sha256": "ef0f82c4027ea53215c66c1f16c6e132ba6b9e034219e1ca992f3e9793fb5d84"
+  },
+  {
+   "seed": 4246706327,
+   "sha256": "79bd52ea7e497e3498856f74a9407c3de80914089905cd4b9b75814220266635"
+  },
+  {
+   "seed": 2606174792,
+   "sha256": "0d2f71d12ea4a9aa71b9698cd99c21717281b194c854d861687de9dcef82657a"
+  }
+ ],
+ "samples": [
+  {
+   "seed": 2654435761,
+   "question": {
+    "generator": "match_pool",
+    "seed": 2654435761,
+    "context": [],
+    "tags": [
+     "tls"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada peça da navegação segura à sua função.",
+    "left": [
+     "DNS",
+     "VPN",
+     "HSTS",
+     "MITM",
+     "TLS"
+    ],
+    "right": [
+     "Ataque em que alguém se coloca no meio e altera a comunicação",
+     "Traduz nomes de domínio em endereços IP",
+     "Cifra o tráfego e verifica a identidade do servidor",
+     "Túnel cifrado entre o seu dispositivo e uma rede de confiança",
+     "Instrução para o navegador só acessar aquele site por HTTPS"
+    ],
+    "answer": [
+     1,
+     3,
+     4,
+     0,
+     2
+    ],
+    "explanation": "DNS: Traduz nomes de domínio em endereços IP. VPN: Túnel cifrado entre o seu dispositivo e uma rede de confiança. HSTS: Instrução para o navegador só acessar aquele site por HTTPS. MITM: Ataque em que alguém se coloca no meio e altera a comunicação. TLS: Cifra o tráfego e verifica a identidade do servidor.",
+    "hint": "Separe quem resolve o nome, quem cifra e quem garante identidade."
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      3,
+      4,
+      0,
+      2
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      4,
+      0,
+      1,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      3,
+      4,
+      0,
+      2,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      3,
+      4,
+      0,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1013904226,
+   "question": {
+    "generator": "match_pool",
+    "seed": 1013904226,
+    "context": [],
+    "tags": [
+     "tls"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada peça da navegação segura à sua função.",
+    "left": [
+     "TLS",
+     "DNS",
+     "VPN",
+     "Certificado digital",
+     "HSTS"
+    ],
+    "right": [
+     "Documento assinado que prova a identidade do domínio",
+     "Túnel cifrado entre o seu dispositivo e uma rede de confiança",
+     "Cifra o tráfego e verifica a identidade do servidor",
+     "Instrução para o navegador só acessar aquele site por HTTPS",
+     "Traduz nomes de domínio em endereços IP"
+    ],
+    "answer": [
+     2,
+     4,
+     1,
+     0,
+     3
+    ],
+    "explanation": "TLS: Cifra o tráfego e verifica a identidade do servidor. DNS: Traduz nomes de domínio em endereços IP. VPN: Túnel cifrado entre o seu dispositivo e uma rede de confiança. Certificado digital: Documento assinado que prova a identidade do domínio. HSTS: Instrução para o navegador só acessar aquele site por HTTPS.",
+    "hint": "Separe quem resolve o nome, quem cifra e quem garante identidade."
+   },
+   "checks": [
+    {
+     "answer": [
+      2,
+      4,
+      1,
+      0,
+      3
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      3,
+      0,
+      2,
+      1,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      4,
+      1,
+      0,
+      3,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      4,
+      1,
+      0,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3668339987,
+   "question": {
+    "generator": "match_pool",
+    "seed": 3668339987,
+    "context": [],
+    "tags": [
+     "tls"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada peça da navegação segura à sua função.",
+    "left": [
+     "Autoridade certificadora",
+     "VPN",
+     "DNS",
+     "HSTS",
+     "MITM"
+    ],
+    "right": [
+     "Entidade que assina certificados e é reconhecida pelo navegador",
+     "Ataque em que alguém se coloca no meio e altera a comunicação",
+     "Túnel cifrado entre o seu dispositivo e uma rede de confiança",
+     "Instrução para o navegador só acessar aquele site por HTTPS",
+     "Traduz nomes de domínio em endereços IP"
+    ],
+    "answer": [
+     0,
+     2,
+     4,
+     3,
+     1
+    ],
+    "explanation": "Autoridade certificadora: Entidade que assina certificados e é reconhecida pelo navegador. VPN: Túnel cifrado entre o seu dispositivo e uma rede de confiança. DNS: Traduz nomes de domínio em endereços IP. HSTS: Instrução para o navegador só acessar aquele site por HTTPS. MITM: Ataque em que alguém se coloca no meio e altera a comunicação.",
+    "hint": "Separe quem resolve o nome, quem cifra e quem garante identidade."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      2,
+      4,
+      3,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      3,
+      0,
+      4,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      4,
+      3,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      2,
+      4,
+      3,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2027808452,
+   "question": {
+    "generator": "match_pool",
+    "seed": 2027808452,
+    "context": [],
+    "tags": [
+     "tls"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada peça da navegação segura à sua função.",
+    "left": [
+     "Certificado digital",
+     "TLS",
+     "Autoridade certificadora",
+     "DNS",
+     "HSTS"
+    ],
+    "right": [
+     "Traduz nomes de domínio em endereços IP",
+     "Instrução para o navegador só acessar aquele site por HTTPS",
+     "Documento assinado que prova a identidade do domínio",
+     "Entidade que assina certificados e é reconhecida pelo navegador",
+     "Cifra o tráfego e verifica a identidade do servidor"
+    ],
+    "answer": [
+     2,
+     4,
+     3,
+     0,
+     1
+    ],
+    "explanation": "Certificado digital: Documento assinado que prova a identidade do domínio. TLS: Cifra o tráfego e verifica a identidade do servidor. Autoridade certificadora: Entidade que assina certificados e é reconhecida pelo navegador. DNS: Traduz nomes de domínio em endereços IP. HSTS: Instrução para o navegador só acessar aquele site por HTTPS.",
+    "hint": "Separe quem resolve o nome, quem cifra e quem garante identidade."
+   },
+   "checks": [
+    {
+     "answer": [
+      2,
+      4,
+      3,
+      0,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      3,
+      0,
+      4,
+      1,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      4,
+      3,
+      0,
+      1,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      4,
+      3,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 387276917,
+   "question": {
+    "generator": "match_pool",
+    "seed": 387276917,
+    "context": [],
+    "tags": [
+     "tls"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada peça da navegação segura à sua função.",
+    "left": [
+     "VPN",
+     "Certificado digital",
+     "Autoridade certificadora",
+     "DNS",
+     "HSTS"
+    ],
+    "right": [
+     "Traduz nomes de domínio em endereços IP",
+     "Instrução para o navegador só acessar aquele site por HTTPS",
+     "Entidade que assina certificados e é reconhecida pelo navegador",
+     "Túnel cifrado entre o seu dispositivo e uma rede de confiança",
+     "Documento assinado que prova a identidade do domínio"
+    ],
+    "answer": [
+     3,
+     4,
+     2,
+     0,
+     1
+    ],
+    "explanation": "VPN: Túnel cifrado entre o seu dispositivo e uma rede de confiança. Certificado digital: Documento assinado que prova a identidade do domínio. Autoridade certificadora: Entidade que assina certificados e é reconhecida pelo navegador. DNS: Traduz nomes de domínio em endereços IP. HSTS: Instrução para o navegador só acessar aquele site por HTTPS.",
+    "hint": "Separe quem resolve o nome, quem cifra e quem garante identidade."
+   },
+   "checks": [
+    {
+     "answer": [
+      3,
+      4,
+      2,
+      0,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      4,
+      0,
+      3,
+      1,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      4,
+      2,
+      0,
+      1,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      4,
+      2,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3041712678,
+   "question": {
+    "generator": "match_pool",
+    "seed": 3041712678,
+    "context": [],
+    "tags": [
+     "tls"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada peça da navegação segura à sua função.",
+    "left": [
+     "HSTS",
+     "VPN",
+     "MITM",
+     "DNS",
+     "Autoridade certificadora"
+    ],
+    "right": [
+     "Entidade que assina certificados e é reconhecida pelo navegador",
+     "Ataque em que alguém se coloca no meio e altera a comunicação",
+     "Traduz nomes de domínio em endereços IP",
+     "Túnel cifrado entre o seu dispositivo e uma rede de confiança",
+     "Instrução para o navegador só acessar aquele site por HTTPS"
+    ],
+    "answer": [
+     4,
+     3,
+     1,
+     2,
+     0
+    ],
+    "explanation": "HSTS: Instrução para o navegador só acessar aquele site por HTTPS. VPN: Túnel cifrado entre o seu dispositivo e uma rede de confiança. MITM: Ataque em que alguém se coloca no meio e altera a comunicação. DNS: Traduz nomes de domínio em endereços IP. Autoridade certificadora: Entidade que assina certificados e é reconhecida pelo navegador.",
+    "hint": "Separe quem resolve o nome, quem cifra e quem garante identidade."
+   },
+   "checks": [
+    {
+     "answer": [
+      4,
+      3,
+      1,
+      2,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      4,
+      2,
+      3,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      3,
+      1,
+      2,
+      0,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      3,
+      1,
+      2,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1401181143,
+   "question": {
+    "generator": "match_pool",
+    "seed": 1401181143,
+    "context": [],
+    "tags": [
+     "tls"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada peça da navegação segura à sua função.",
+    "left": [
+     "TLS",
+     "Autoridade certificadora",
+     "VPN",
+     "MITM",
+     "Certificado digital"
+    ],
+    "right": [
+     "Túnel cifrado entre o seu dispositivo e uma rede de confiança",
+     "Ataque em que alguém se coloca no meio e altera a comunicação",
+     "Documento assinado que prova a identidade do domínio",
+     "Entidade que assina certificados e é reconhecida pelo navegador",
+     "Cifra o tráfego e verifica a identidade do servidor"
+    ],
+    "answer": [
+     4,
+     3,
+     0,
+     1,
+     2
+    ],
+    "explanation": "TLS: Cifra o tráfego e verifica a identidade do servidor. Autoridade certificadora: Entidade que assina certificados e é reconhecida pelo navegador. VPN: Túnel cifrado entre o seu dispositivo e uma rede de confiança. MITM: Ataque em que alguém se coloca no meio e altera a comunicação. Certificado digital: Documento assinado que prova a identidade do domínio.",
+    "hint": "Separe quem resolve o nome, quem cifra e quem garante identidade."
+   },
+   "checks": [
+    {
+     "answer": [
+      4,
+      3,
+      0,
+      1,
+      2
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      4,
+      1,
+      2,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      3,
+      0,
+      1,
+      2,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      3,
+      0,
+      1,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 4055616904,
+   "question": {
+    "generator": "match_pool",
+    "seed": 4055616904,
+    "context": [],
+    "tags": [
+     "tls"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada peça da navegação segura à sua função.",
+    "left": [
+     "HSTS",
+     "TLS",
+     "VPN",
+     "Certificado digital",
+     "Autoridade certificadora"
+    ],
+    "right": [
+     "Túnel cifrado entre o seu dispositivo e uma rede de confiança",
+     "Cifra o tráfego e verifica a identidade do servidor",
+     "Entidade que assina certificados e é reconhecida pelo navegador",
+     "Documento assinado que prova a identidade do domínio",
+     "Instrução para o navegador só acessar aquele site por HTTPS"
+    ],
+    "answer": [
+     4,
+     1,
+     0,
+     3,
+     2
+    ],
+    "explanation": "HSTS: Instrução para o navegador só acessar aquele site por HTTPS. TLS: Cifra o tráfego e verifica a identidade do servidor. VPN: Túnel cifrado entre o seu dispositivo e uma rede de confiança. Certificado digital: Documento assinado que prova a identidade do domínio. Autoridade certificadora: Entidade que assina certificados e é reconhecida pelo navegador.",
+    "hint": "Separe quem resolve o nome, quem cifra e quem garante identidade."
+   },
+   "checks": [
+    {
+     "answer": [
+      4,
+      1,
+      0,
+      3,
+      2
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      2,
+      1,
+      4,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      3,
+      2,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      0,
+      3,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2415085369,
+   "question": {
+    "generator": "match_pool",
+    "seed": 2415085369,
+    "context": [],
+    "tags": [
+     "tls"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada peça da navegação segura à sua função.",
+    "left": [
+     "TLS",
+     "DNS",
+     "MITM",
+     "Certificado digital",
+     "Autoridade certificadora"
+    ],
+    "right": [
+     "Cifra o tráfego e verifica a identidade do servidor",
+     "Traduz nomes de domínio em endereços IP",
+     "Ataque em que alguém se coloca no meio e altera a comunicação",
+     "Documento assinado que prova a identidade do domínio",
+     "Entidade que assina certificados e é reconhecida pelo navegador"
+    ],
+    "answer": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    "explanation": "TLS: Cifra o tráfego e verifica a identidade do servidor. DNS: Traduz nomes de domínio em endereços IP. MITM: Ataque em que alguém se coloca no meio e altera a comunicação. Certificado digital: Documento assinado que prova a identidade do domínio. Autoridade certificadora: Entidade que assina certificados e é reconhecida pelo navegador.",
+    "hint": "Separe quem resolve o nome, quem cifra e quem garante identidade."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      2,
+      3,
+      4,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      2,
+      3,
+      4,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      2,
+      3,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 774553834,
+   "question": {
+    "generator": "match_pool",
+    "seed": 774553834,
+    "context": [],
+    "tags": [
+     "tls"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada peça da navegação segura à sua função.",
+    "left": [
+     "HSTS",
+     "VPN",
+     "Certificado digital",
+     "Autoridade certificadora",
+     "TLS"
+    ],
+    "right": [
+     "Túnel cifrado entre o seu dispositivo e uma rede de confiança",
+     "Instrução para o navegador só acessar aquele site por HTTPS",
+     "Documento assinado que prova a identidade do domínio",
+     "Entidade que assina certificados e é reconhecida pelo navegador",
+     "Cifra o tráfego e verifica a identidade do servidor"
+    ],
+    "answer": [
+     1,
+     0,
+     2,
+     3,
+     4
+    ],
+    "explanation": "HSTS: Instrução para o navegador só acessar aquele site por HTTPS. VPN: Túnel cifrado entre o seu dispositivo e uma rede de confiança. Certificado digital: Documento assinado que prova a identidade do domínio. Autoridade certificadora: Entidade que assina certificados e é reconhecida pelo navegador. TLS: Cifra o tráfego e verifica a identidade do servidor.",
+    "hint": "Separe quem resolve o nome, quem cifra e quem garante identidade."
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      0,
+      2,
+      3,
+      4
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      1,
+      3,
+      4,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      2,
+      3,
+      4,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      2,
+      3,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3428989595,
+   "question": {
+    "generator": "match_pool",
+    "seed": 3428989595,
+    "context": [],
+    "tags": [
+     "tls"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada peça da navegação segura à sua função.",
+    "left": [
+     "MITM",
+     "DNS",
+     "VPN",
+     "Autoridade certificadora",
+     "Certificado digital"
+    ],
+    "right": [
+     "Traduz nomes de domínio em endereços IP",
+     "Entidade que assina certificados e é reconhecida pelo navegador",
+     "Túnel cifrado entre o seu dispositivo e uma rede de confiança",
+     "Ataque em que alguém se coloca no meio e altera a comunicação",
+     "Documento assinado que prova a identidade do domínio"
+    ],
+    "answer": [
+     3,
+     0,
+     2,
+     1,
+     4
+    ],
+    "explanation": "MITM: Ataque em que alguém se coloca no meio e altera a comunicação. DNS: Traduz nomes de domínio em endereços IP. VPN: Túnel cifrado entre o seu dispositivo e uma rede de confiança. Autoridade certificadora: Entidade que assina certificados e é reconhecida pelo navegador. Certificado digital: Documento assinado que prova a identidade do domínio.",
+    "hint": "Separe quem resolve o nome, quem cifra e quem garante identidade."
+   },
+   "checks": [
+    {
+     "answer": [
+      3,
+      0,
+      2,
+      1,
+      4
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      4,
+      1,
+      3,
+      2,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      2,
+      1,
+      4,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      2,
+      1,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1788458060,
+   "question": {
+    "generator": "match_pool",
+    "seed": 1788458060,
+    "context": [],
+    "tags": [
+     "tls"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada peça da navegação segura à sua função.",
+    "left": [
+     "Autoridade certificadora",
+     "DNS",
+     "MITM",
+     "VPN",
+     "Certificado digital"
+    ],
+    "right": [
+     "Entidade que assina certificados e é reconhecida pelo navegador",
+     "Túnel cifrado entre o seu dispositivo e uma rede de confiança",
+     "Traduz nomes de domínio em endereços IP",
+     "Ataque em que alguém se coloca no meio e altera a comunicação",
+     "Documento assinado que prova a identidade do domínio"
+    ],
+    "answer": [
+     0,
+     2,
+     3,
+     1,
+     4
+    ],
+    "explanation": "Autoridade certificadora: Entidade que assina certificados e é reconhecida pelo navegador. DNS: Traduz nomes de domínio em endereços IP. MITM: Ataque em que alguém se coloca no meio e altera a comunicação. VPN: Túnel cifrado entre o seu dispositivo e uma rede de confiança. Certificado digital: Documento assinado que prova a identidade do domínio.",
+    "hint": "Separe quem resolve o nome, quem cifra e quem garante identidade."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      2,
+      3,
+      1,
+      4
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      3,
+      4,
+      2,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      3,
+      1,
+      4,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      2,
+      3,
+      1,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

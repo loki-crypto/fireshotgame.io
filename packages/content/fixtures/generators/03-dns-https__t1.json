@@ -1,0 +1,1798 @@
+{
+ "source": "03-dns-https/t1",
+ "generator": "mc_pool",
+ "params": {
+  "pool": "dns_https",
+  "counterTags": [
+   "tls"
+  ]
+ },
+ "seeds": [
+  {
+   "seed": 2654435761,
+   "sha256": "7656af302e613da0011aee6c2e3c9429d2e57959166b7069e4d0f1e78a40f8c0"
+  },
+  {
+   "seed": 1013904226,
+   "sha256": "6d380ac55dedc7b354093379ee02fc8e217ce889dc71bbfd2b8559b97659a11a"
+  },
+  {
+   "seed": 3668339987,
+   "sha256": "a112642d391a5f057afb7d7c927276705b3b56a1ef74b25328cb449ca936aaaf"
+  },
+  {
+   "seed": 2027808452,
+   "sha256": "944d3e4b36cca37bb1120514bf8992aac3b089960ad8a734d1e18aee5c3e07c6"
+  },
+  {
+   "seed": 387276917,
+   "sha256": "1db3f8407732528d3870c4eb997b08484fcce2730e294f7f2527f2a83a0e1e57"
+  },
+  {
+   "seed": 3041712678,
+   "sha256": "1f8f67a82709935519be5712033a264803ecbdbb177ba00238ce5bdd9f1d3f98"
+  },
+  {
+   "seed": 1401181143,
+   "sha256": "d2f4fd699a422be7391f9ca2b8637f503e1dc757f818523a502865f1850b8c5e"
+  },
+  {
+   "seed": 4055616904,
+   "sha256": "7b9653d945baebc3fcb5a28ab4b5f71073bb3a93a9bf4b1ddf2a8a292b042aa0"
+  },
+  {
+   "seed": 2415085369,
+   "sha256": "a867b5565104d33f90b58c84ec3623270f77339ff6f0dd144f7332b453d9f52b"
+  },
+  {
+   "seed": 774553834,
+   "sha256": "8e9b650275df5399e7003db29157567c715c3505719d2ec3874b2205d8700f84"
+  },
+  {
+   "seed": 3428989595,
+   "sha256": "b184af8a89e6ccc8a2fdfebf389120b842961f2e131b2a2e5b7c5990c65c29c8"
+  },
+  {
+   "seed": 1788458060,
+   "sha256": "680333f5b7a69f6bf0921f60cfad6af7fa53653e2ef834a7f953f2da5ad1bac6"
+  },
+  {
+   "seed": 147926525,
+   "sha256": "52bd780529f60f1729fbab4894e30c62cbaa9f2f1bac2809c32d9cab70a2fbe4"
+  },
+  {
+   "seed": 2802362286,
+   "sha256": "fe6d4a84d464a3bedb75e9e7695bea2d708b0afbf55347ba2f294ce5a2445047"
+  },
+  {
+   "seed": 1161830751,
+   "sha256": "cb458829e9601264e2b9924948f5781434042a503362536f0447b088aff80c55"
+  },
+  {
+   "seed": 3816266512,
+   "sha256": "7174aeb5a52847b9e65a7c02e4295855d49a7d5852931de05ba742d48a5e6a18"
+  },
+  {
+   "seed": 2175734977,
+   "sha256": "800b063862ccd3dfe3ba79d1cb47e8df5bf51b58d5d4e0e3eebc42ef8344ca77"
+  },
+  {
+   "seed": 535203442,
+   "sha256": "bbdba9eed0874a19c2c419df3de1a8d0cc5efe107a823666d2bf259d7a8cbc48"
+  },
+  {
+   "seed": 3189639203,
+   "sha256": "1fef6cc189684501449e2a8e55977e1b6e0a42f976eb45948edcec8a955ec678"
+  },
+  {
+   "seed": 1549107668,
+   "sha256": "a9f85b7a02bac78acd6a61ae47f68464475fca3c2c297c5ad99222da1696bdf5"
+  },
+  {
+   "seed": 4203543429,
+   "sha256": "ca06ebe12658032c6621bc8a44531b3c8123bbfaee94f94253a22c55d6c16e2d"
+  },
+  {
+   "seed": 2563011894,
+   "sha256": "43fafb919426f68d93362a65e365d77266d48d3280073dca279256ff625cda4c"
+  },
+  {
+   "seed": 922480359,
+   "sha256": "1325fff5da026b8ef8a6a9a24a6a4c136e571159492ea9b7ecf66caa91edfb59"
+  },
+  {
+   "seed": 3576916120,
+   "sha256": "70d2b3d6f6ff4fd8d82788960f9c4f47aa44b3966871351ccd9cf1431ddfdc8a"
+  },
+  {
+   "seed": 1936384585,
+   "sha256": "be65a079cabadefbc7e80507be94df5f5b1e73fa6acf40bdd61173177e6a06f2"
+  },
+  {
+   "seed": 295853050,
+   "sha256": "f0103185bdfd8debdcce0418267e3e094b4b113f438d9fea2081cd3d42860701"
+  },
+  {
+   "seed": 2950288811,
+   "sha256": "16137c50fa01538f2bcc2ae9b29f7f014b76b20cdee112eafa5169742760d9f2"
+  },
+  {
+   "seed": 1309757276,
+   "sha256": "d205679e67f720f69d613044c4b2d71f130e6612405b281b19c805a0b5f7fef7"
+  },
+  {
+   "seed": 3964193037,
+   "sha256": "4e1f46f7a7f991fcb7fb543066ffb9519df8363c1c10879f61fba76a3688cf00"
+  },
+  {
+   "seed": 2323661502,
+   "sha256": "de3281ffc39464d244263bf332ae369c06dd44679e00f6013bf4ac7c11620753"
+  },
+  {
+   "seed": 683129967,
+   "sha256": "ac00a32f0c25ace5743d264c48ae6de07c9d6fc5f574de203187d1dce35e1737"
+  },
+  {
+   "seed": 3337565728,
+   "sha256": "f00b65dcaa9ab7b58d25a09b977fbcf69d07757e924cc0410dcac0fb0ba981b8"
+  },
+  {
+   "seed": 1697034193,
+   "sha256": "a1de263ddcd20a4c6baa47d94a39f9e3bc75f0bebd6c9ee73703dc5f3d945c80"
+  },
+  {
+   "seed": 56502658,
+   "sha256": "312be839fdb4491608c0f06e2675c26ab6741b309feff17ce96eceb2520a2b8a"
+  },
+  {
+   "seed": 2710938419,
+   "sha256": "ce3e4a696ff33409036510d38ea319b2e28d3f81d5122a8880b2ff0916fa8f91"
+  },
+  {
+   "seed": 1070406884,
+   "sha256": "e79f7ad70f4fd84701bea62037a1668b706e320beadcb38073f7732f45f00a18"
+  },
+  {
+   "seed": 3724842645,
+   "sha256": "d88d84de584a40bea65d148c6c3e58116d9d2a539d01e48e4afff6875aaffdb7"
+  },
+  {
+   "seed": 2084311110,
+   "sha256": "b8f18ad9be29545fef5e65fc0a5122be17f365a5cd4d6969615665df6d2fbfeb"
+  },
+  {
+   "seed": 443779575,
+   "sha256": "f142c9a615128ff712dfcf0f44e54f110a460aa13b264c7e78b2a21eed6f5e67"
+  },
+  {
+   "seed": 3098215336,
+   "sha256": "fe371aa5f874c63b466c4643bd6f52be3edf12fdabcfe5f920821beb3b5c5768"
+  },
+  {
+   "seed": 1457683801,
+   "sha256": "d8072b5c3c4b8f23ec97ab43ab3af590ab39287f73da104a912ef12295db07ce"
+  },
+  {
+   "seed": 4112119562,
+   "sha256": "655169acd242a949a92e99bcad036a13aa66eafb96174a3ccd38279f36e4304f"
+  },
+  {
+   "seed": 2471588027,
+   "sha256": "e17670846ed8438b917323caffb413776b1982bc48696474f00a5286aecf38a0"
+  },
+  {
+   "seed": 831056492,
+   "sha256": "ac039ffe688c016b339e481097190a52107758a8d5a2e6b96afe99d39f406cf3"
+  },
+  {
+   "seed": 3485492253,
+   "sha256": "430ec774e7c2404ca5a3de17521b5dcafd76e22d9b7e9cc0dc2035e7c946576d"
+  },
+  {
+   "seed": 1844960718,
+   "sha256": "132032e83827a52166fcac24f7d5c41276a5e8acf1798370898a5029807c11cf"
+  },
+  {
+   "seed": 204429183,
+   "sha256": "47a3289d393bb131a58005eff09c87e042ec56746a4ab1f510fe1a8059f7de34"
+  },
+  {
+   "seed": 2858864944,
+   "sha256": "128fe7bc62fbfb072d1194513bcced5318f480f9e4d11eab0deb2d944e6dfc23"
+  },
+  {
+   "seed": 1218333409,
+   "sha256": "cc434ec8c80ed329c1f420515af482a67011b8222f9f2aba27fe1505a581780c"
+  },
+  {
+   "seed": 3872769170,
+   "sha256": "8a1e9d2e455a0ac2da6ec05413ce592f5b46f5808e5eedd7828f5f335a164467"
+  },
+  {
+   "seed": 2232237635,
+   "sha256": "b55053221b9fb527f7c6d44fd4459e54696711978defa3268dc4c5426c12ff6f"
+  },
+  {
+   "seed": 591706100,
+   "sha256": "582b8e4ef94f3b8af0f082d562980e88827abd98fb703acbbb85457928b07528"
+  },
+  {
+   "seed": 3246141861,
+   "sha256": "31135707cec55f256c10412b99d317493fef8551b5e48e95612ea1fa49acac2a"
+  },
+  {
+   "seed": 1605610326,
+   "sha256": "e73981a243c5a1c7b6f32ebb03e82ed9bf2d8053219b6384faaa01f19269ecee"
+  },
+  {
+   "seed": 4260046087,
+   "sha256": "d9d5be2f0b6a937dd607a2539e0cbda5536d27ac7166a48dad5d1a78aac63482"
+  },
+  {
+   "seed": 2619514552,
+   "sha256": "0d19272d27dc8c4b8b40ba84376ea263fdb9956fc40d31e3d6e05bb1ec886bfd"
+  },
+  {
+   "seed": 978983017,
+   "sha256": "914e3f2cde61e4f9a42c7f493bc39eacf3856b10937da9aef42f0d3c219840fa"
+  },
+  {
+   "seed": 3633418778,
+   "sha256": "019bbc5109a749234919eeccbf1b233d6186c6f5001039cc32c14e100a94f7f5"
+  },
+  {
+   "seed": 1992887243,
+   "sha256": "51e89b298fc3ac3988dd7b836578a79826c7c3477295b8cd5a7917d439eae99e"
+  },
+  {
+   "seed": 352355708,
+   "sha256": "c9075e365c74cb2a4c2b9331ec4c8f77feb70bb766d911b3b9cf6c0b6b290426"
+  },
+  {
+   "seed": 3006791469,
+   "sha256": "3b5484316ac09edfca0c67368dd4fe05cc18e15e73a02bc98c132b1fd07bb9ec"
+  },
+  {
+   "seed": 1366259934,
+   "sha256": "e7bb164e6ee5f387bc73cd492045049081670bfc15c52fe4acfa25990ef239bb"
+  },
+  {
+   "seed": 4020695695,
+   "sha256": "39aefe74a50cf0ef99fde52a2d9eaa5d3602176b30848fd9d160e82bd6ff0658"
+  },
+  {
+   "seed": 2380164160,
+   "sha256": "2aa9d1e79cb2e33db100dd161d779d67d601e8a2b6ee8b441bf4c0fc7de677ee"
+  },
+  {
+   "seed": 739632625,
+   "sha256": "521ab9436c635217b60bc5d946a2ac83c16fbf9c23414aee5c4874405ef739ff"
+  },
+  {
+   "seed": 3394068386,
+   "sha256": "887c7aebc723d06e18c499430c5a668882e629026d49a28a204bab8d88367f2e"
+  },
+  {
+   "seed": 1753536851,
+   "sha256": "4edc8707a3a1f884ef28d37cc078c4d7466e723118d5546285e071add72a46b5"
+  },
+  {
+   "seed": 113005316,
+   "sha256": "504c7e25dd7331c671b1ce8d0bce21acbcb0e3086bd63b8486502974392ce354"
+  },
+  {
+   "seed": 2767441077,
+   "sha256": "60b38639eb61c19e72d18250def6247d5d2b1459fc56bde5577af4f8f0c2fcf9"
+  },
+  {
+   "seed": 1126909542,
+   "sha256": "92a3b950a0631bd6e16a83ca67581bd2cce47079ec31b42ec002a5728056c55b"
+  },
+  {
+   "seed": 3781345303,
+   "sha256": "4420bca69935de8dc5b3da82920d4e74f9efb3fabcc4f79bf4ef70c44a119560"
+  },
+  {
+   "seed": 2140813768,
+   "sha256": "34ef0dfe740df593694c5cf8333519fe5755d6ce173b4a584b752ebc226dfe1e"
+  },
+  {
+   "seed": 500282233,
+   "sha256": "af9c9076c96c7e7a02aa3dd9bf59610c750af05619eb2ce25e2e75b2f089a48b"
+  },
+  {
+   "seed": 3154717994,
+   "sha256": "a63ef70c9eed04dc436ec5f5ce7f0a782368a0d48e951226fe7090a3808a5b6c"
+  },
+  {
+   "seed": 1514186459,
+   "sha256": "92425c7981873214a6309555a5917ff4c79693b4846e6d2be6444e8e70c1e5ed"
+  },
+  {
+   "seed": 4168622220,
+   "sha256": "247a20ad8161f29956cae14ab6326a489f7fb50e4152928188691ebafc93b366"
+  },
+  {
+   "seed": 2528090685,
+   "sha256": "7ab73c4da70f1b4de50d02c8397c912ffd6fda03420495aeaaaa02cf691b4e06"
+  },
+  {
+   "seed": 887559150,
+   "sha256": "e1197f852d71ca06ab2ed1c49e8172ff9c710bce1efb3050443be800b91ddd2d"
+  },
+  {
+   "seed": 3541994911,
+   "sha256": "ddd044cb99358d0aad42b345ddf55b9066f619d499e0efda6f83d65a4d6cb928"
+  },
+  {
+   "seed": 1901463376,
+   "sha256": "2ef6f9f102b99f4f3a80de3351370bcbc263e3e0d7c02a2ac0b6ef702568c1ad"
+  },
+  {
+   "seed": 260931841,
+   "sha256": "5d47587629aa5d713988efea4d4b7d3fdb1aa0e463e726bc8395452c1d766ccc"
+  },
+  {
+   "seed": 2915367602,
+   "sha256": "8cc26d831089239bbfdfc7767b383dfc8e254b2e8e147ac319273e1b473a7f2b"
+  },
+  {
+   "seed": 1274836067,
+   "sha256": "5dc71c5840c1bbd7beb44959a23967bb575af7daf0f309cc57371256fb98aba3"
+  },
+  {
+   "seed": 3929271828,
+   "sha256": "17112b2cc2fa86605d0bce74f1ec498342e68fd7c5e16bba8e28e8aef440cdd4"
+  },
+  {
+   "seed": 2288740293,
+   "sha256": "9bb7efa3392261b86eca31d72c5724e211e315e916c9336adf9e7569d8c754d0"
+  },
+  {
+   "seed": 648208758,
+   "sha256": "60ec16907118e520d83392ddbf7a934af86973cb5466934c0a8e9af985b3bdfe"
+  },
+  {
+   "seed": 3302644519,
+   "sha256": "673ca2ed253ee2526bd76bd6b6aebb45ed4e5137c826df2a9edc15efd5bcec1d"
+  },
+  {
+   "seed": 1662112984,
+   "sha256": "e938dbe1eae324ba05db89cc2f6cab6fc9000485664c402e5a4f0899cb74a40e"
+  },
+  {
+   "seed": 21581449,
+   "sha256": "ab5f03c1e7c35647ce38bab361fea326cfdccea1e7f77e0fda6aaae2de36b95e"
+  },
+  {
+   "seed": 2676017210,
+   "sha256": "74b640152cb2193f7b03c56a54da643027581a67be102626a76f7430599b4042"
+  },
+  {
+   "seed": 1035485675,
+   "sha256": "575d8fd62173a8fedb4e8bcacc0ba51316fa80e76b4cdce45021b0f963ca5c6d"
+  },
+  {
+   "seed": 3689921436,
+   "sha256": "bc2a325638694338160a8092efadb69c68114a1a911efffd009665c70e075531"
+  },
+  {
+   "seed": 2049389901,
+   "sha256": "7aed835269c891e425653b8579e77c337aeb1aa8cd1fcdf62dc67994b807c5a8"
+  },
+  {
+   "seed": 408858366,
+   "sha256": "05f5fb2c34e713064d30ba188ecf551d69152ccfd2f0353fea50c866c57ca49f"
+  },
+  {
+   "seed": 3063294127,
+   "sha256": "4ee13956c542fc0f0a5d834853577e5bb7c7a49c7dd3a2d433d89b5bbfe2e91c"
+  },
+  {
+   "seed": 1422762592,
+   "sha256": "a4453e512003abac7758bc73295d675f365a6ae2849d495843f61acb2deb6085"
+  },
+  {
+   "seed": 4077198353,
+   "sha256": "5c6f0e72d272b2d07127b0918e891d4a602757ae1afa619a3a4034002082bad2"
+  },
+  {
+   "seed": 2436666818,
+   "sha256": "dd5d2c347878941a7c5902b18d101b0638af5d45db75c76ca0e2c02709555973"
+  },
+  {
+   "seed": 796135283,
+   "sha256": "33c2072c2b603e566598836274e4697609697c6d531c65fdfe9b590f0d6e1062"
+  },
+  {
+   "seed": 3450571044,
+   "sha256": "6cbd2df50cdff98bd47930fd0e78a06da6c6dd4a9cb69740acf33a1ee0f22db5"
+  },
+  {
+   "seed": 1810039509,
+   "sha256": "b0b7690f414ade8873ca7dd1722908de1bd9918edbccf124f34ba753bf24c6f9"
+  },
+  {
+   "seed": 169507974,
+   "sha256": "f72523e535f230f22426edcfaf891e15d7ff9bf88eae504a59e5f3f98c0dbd26"
+  },
+  {
+   "seed": 2823943735,
+   "sha256": "9de15519fa2cfb9f486fc1001cb222e579d98c96c0ef48af7f203c90d02127b5"
+  },
+  {
+   "seed": 1183412200,
+   "sha256": "87ab8ebbc623675d4261503c4cda4ee78164d1b7f3a056870628810259797054"
+  },
+  {
+   "seed": 3837847961,
+   "sha256": "82b9b5bb2e8a5dbd8d951b8a83a1b9eb2938e263263af16350b4e8929f90ded1"
+  },
+  {
+   "seed": 2197316426,
+   "sha256": "06fc0ba605938735769576a45471b96014bc94818b9c14d2bdcbb605002f8ad2"
+  },
+  {
+   "seed": 556784891,
+   "sha256": "9898354321f403e18dd033981984cc89a4ffa925f797c4360b072ced5bb01a12"
+  },
+  {
+   "seed": 3211220652,
+   "sha256": "12fddecc26983ed9f98f254d3a19ad8908aaf3d8dbea8fa88e3a7399ebaa75f8"
+  },
+  {
+   "seed": 1570689117,
+   "sha256": "ab7b2992b75d9e5a614149074ed205dbbead8d703305d33e3dc2110837662e6a"
+  },
+  {
+   "seed": 4225124878,
+   "sha256": "20ce091863d8088a5740e847bf4ffe9eed66111a907715d902caa0a32eec8234"
+  },
+  {
+   "seed": 2584593343,
+   "sha256": "5b6d63c649232bb54cf4f0b7e4639365f0a1ce60350f9e2c874cf9a7638d63af"
+  },
+  {
+   "seed": 944061808,
+   "sha256": "59221e1b9d939e012096bd1ba779ab17f2769833e3be7af287baa68df38ace77"
+  },
+  {
+   "seed": 3598497569,
+   "sha256": "4d41b79da366d69d6faabfc9afe3aa790e9957724ed8c09df7443a2748dfdd9d"
+  },
+  {
+   "seed": 1957966034,
+   "sha256": "42ab3a705972100fe2c0a135f19be3fb7a55da81a1088ac4b84ab9a9d6de088b"
+  },
+  {
+   "seed": 317434499,
+   "sha256": "79dda983a5f25088b629db626f16c4cf738aa0900577f773aed802531181b3b1"
+  },
+  {
+   "seed": 2971870260,
+   "sha256": "f26930cef916125bee688b5ade484d6e1eef44c1f2ebf4b97c3a6fc5a3642e94"
+  },
+  {
+   "seed": 1331338725,
+   "sha256": "bda4bec22ec28736104cac098efb2c8cbde82cefac87f60b9c658c1bd3608971"
+  },
+  {
+   "seed": 3985774486,
+   "sha256": "8252b260cf4696d6f6e214b0eac94f4ae494dacecf061fab3ee5e6f99daf3fcb"
+  },
+  {
+   "seed": 2345242951,
+   "sha256": "7ead4a019600c356778d57270c3ad954846bff1fd6d3a6c7dd007b30c5398193"
+  },
+  {
+   "seed": 704711416,
+   "sha256": "96b47fcbb0561375f55c55f6708150239ccf3b1d0f8bc79f20b13be45b118ac1"
+  },
+  {
+   "seed": 3359147177,
+   "sha256": "f6b78f3af4771b059cc7ff4058ad1eda0901c611efd6bd1b100f8997a3ce3740"
+  },
+  {
+   "seed": 1718615642,
+   "sha256": "d7500734e817358187ba0eb29a35849a67c4ba69b8bc5d78b9f0481c2e3c84a4"
+  },
+  {
+   "seed": 78084107,
+   "sha256": "75de1ee5df27690ae3259eb1ae515e676e5d3ebc723733aebba893230d73391a"
+  },
+  {
+   "seed": 2732519868,
+   "sha256": "6ed291cdcbcac4be21fee672fff859fe379d1bcfcfaa5398f9813ed32577c3f9"
+  },
+  {
+   "seed": 1091988333,
+   "sha256": "5f09dc7010958a2ccce76d3ea30da171dd45bd477f2bf3bbd4aac6ebd096df96"
+  },
+  {
+   "seed": 3746424094,
+   "sha256": "697878ba68e5429a178c996311e9b0ec6efd9d335a78bbadfcc1d5f5ebcb8282"
+  },
+  {
+   "seed": 2105892559,
+   "sha256": "6eb5f6947a2a8516a00330b3a3f45fcf738570fb18510d798e88e7b618fad67e"
+  },
+  {
+   "seed": 465361024,
+   "sha256": "dc2f63d0e6b874c92e2b2eb0fa95aef6be0fcf0dd478f0dd5ecdab598259d926"
+  },
+  {
+   "seed": 3119796785,
+   "sha256": "1272c2ea503f48424800a8dae27d1ccad0766b8b9ea0d5e339a8b12d8f5bd574"
+  },
+  {
+   "seed": 1479265250,
+   "sha256": "773b4df1f595fd366e29d21ef277d8ed48187067519e3c239fcf06051d7b38fc"
+  },
+  {
+   "seed": 4133701011,
+   "sha256": "0c994367363fc28cc22947dfeea89878bb1b085756efcafa0eee7a6553cf34b5"
+  },
+  {
+   "seed": 2493169476,
+   "sha256": "65c3ebb21eb8eeb429174b75dfefef39ea26d31af21e4a5f3d5704b540b160ca"
+  },
+  {
+   "seed": 852637941,
+   "sha256": "d059eda8938a68573476a71b24f90c8ff458922ad2fdc82e578e4284ebae65f8"
+  },
+  {
+   "seed": 3507073702,
+   "sha256": "5f8d37df3ea87234223e36b7063df8cfc6144aff4344d9c0b7e8dd951189f547"
+  },
+  {
+   "seed": 1866542167,
+   "sha256": "43c943e2c18f4c5edd240e930f4764c5ba67de67ee918daf5ecd828bc375b27d"
+  },
+  {
+   "seed": 226010632,
+   "sha256": "674833f6cbc6895ea159ed3c33b759a05c0efa66ecab46637aac6ea83137e5df"
+  },
+  {
+   "seed": 2880446393,
+   "sha256": "ec4fe7533094d52b0cd148da877d26ac388f15b8b6b90d579eb27b331a55295d"
+  },
+  {
+   "seed": 1239914858,
+   "sha256": "05ac1640fbb9cc8130a7036750233c5cfa3239781e4aeb5a2340c067dd0ac4df"
+  },
+  {
+   "seed": 3894350619,
+   "sha256": "731a2ddfc56c3c698975a5219c04c22937447304f309a79c19ee429c667d43d5"
+  },
+  {
+   "seed": 2253819084,
+   "sha256": "d41b6fa7a2baeed38ed764102a9707f685b62440dadfabf3719a4a36c6dc81db"
+  },
+  {
+   "seed": 613287549,
+   "sha256": "a252c9a07eb24731b3353266c41bd0b02e92c76b0720a28dd470488f760117a4"
+  },
+  {
+   "seed": 3267723310,
+   "sha256": "60fc356eb0d7a1a5492f2496f9a7aef03ed17ed1bbb94e56d561a070c8446456"
+  },
+  {
+   "seed": 1627191775,
+   "sha256": "03c9dc6c121df8fbe2da67902398ab77a9aa4eb62985b297091c156cad4a3d21"
+  },
+  {
+   "seed": 4281627536,
+   "sha256": "87e9c1f959decabe5048530c1162c5f9f893ca982bed199d298c0807a20b93c7"
+  },
+  {
+   "seed": 2641096001,
+   "sha256": "29c8dbd25efda9519b2e9afb9b0fd37972f58f04d213fda1132de98c0a029d64"
+  },
+  {
+   "seed": 1000564466,
+   "sha256": "e44ff0acff508df7c333a534c2b9b17d98e0c81d37be74b8d6a76e2b602b6505"
+  },
+  {
+   "seed": 3655000227,
+   "sha256": "bd4e7b897862bb184ac3f8368896ed990a5151c4689975ee60717d9c1cc3fe48"
+  },
+  {
+   "seed": 2014468692,
+   "sha256": "2f027933216fe11e39d6e3d885e30d605937d8b5e7ff66b39a61548c6a8868cd"
+  },
+  {
+   "seed": 373937157,
+   "sha256": "6e056d800c709bff3b053208f5d4f1db7fc514612012a4948d758582978038d2"
+  },
+  {
+   "seed": 3028372918,
+   "sha256": "889f2f37c205d3ebe086090dd889a332d2dd738a248fb4c49aa34396328ad9af"
+  },
+  {
+   "seed": 1387841383,
+   "sha256": "25a425d7100d7a8fa731a6a1ab7146b80d6cc911c19e0b81b92dbf16713c29bf"
+  },
+  {
+   "seed": 4042277144,
+   "sha256": "6e74090c4f155fcbe2b2801adfbc8c3ee1c40db7db2262ba4ac5078052f788b8"
+  },
+  {
+   "seed": 2401745609,
+   "sha256": "1a1bb35fbf7367813931edee1e41d21480ba69274e81adef8a6cbd7f73b233c3"
+  },
+  {
+   "seed": 761214074,
+   "sha256": "37545b4018dc198810ec2991762f72c9619db34fc288db89743daf8b0cf71aaf"
+  },
+  {
+   "seed": 3415649835,
+   "sha256": "4cd21b21a32956ae3e9d46399bde09d11727b772d679f272dc9a244bb857be8c"
+  },
+  {
+   "seed": 1775118300,
+   "sha256": "1cac782c1ad70bfac4694da6c099ee174fcad8d162ff1c9713e12e3bcc5b3e76"
+  },
+  {
+   "seed": 134586765,
+   "sha256": "f3716d92851e02dad5a4869dce66472bade0a9b74e2a24b53f31ecd49dbed5cb"
+  },
+  {
+   "seed": 2789022526,
+   "sha256": "121709ff3960e5cba43e2cc7379ebd57be045662fead6da7ad15073537749d3b"
+  },
+  {
+   "seed": 1148490991,
+   "sha256": "1d29aa8d381e37bf551d28dc00fd54b05239c9b9499af4b0b0f46ab8ecc10686"
+  },
+  {
+   "seed": 3802926752,
+   "sha256": "0b9b80b3648e90f01b60ed7aa6335cb72fa845a88111e9de1471f638e883a21e"
+  },
+  {
+   "seed": 2162395217,
+   "sha256": "3f34d1bf525f795a30dec59c61ba0d31b3ac8543d3863e18b71a62564c9a40d8"
+  },
+  {
+   "seed": 521863682,
+   "sha256": "738cdab5b2cc327628e3c5b0e893a8e67f306f8646c2525fc17eb86962601f67"
+  },
+  {
+   "seed": 3176299443,
+   "sha256": "6c4a4949bad2da7217f168e5316b58b046030ca58ff71ba8d4f14d1cf1fdd2c0"
+  },
+  {
+   "seed": 1535767908,
+   "sha256": "792500ed4a23c96c8f9bab6c07e5173f597a43dd1e1755e779f1d8ec72958487"
+  },
+  {
+   "seed": 4190203669,
+   "sha256": "3ab26eba972f8920fd9fb387e81596aa8449ec87d74f8a440b53f754edfe8cb2"
+  },
+  {
+   "seed": 2549672134,
+   "sha256": "0613cb3c2eb1803998b5afa2448d952f610470268fa83246023a7547d6ae0789"
+  },
+  {
+   "seed": 909140599,
+   "sha256": "67d2b37f4e07557f4f2f7a4e8054a0058d58a7c8c9d5d7c98414eb67264bb3c6"
+  },
+  {
+   "seed": 3563576360,
+   "sha256": "730a9ae3040c4924b4d9703cd0548876997094e5d94df0fd7f2e06012e756687"
+  },
+  {
+   "seed": 1923044825,
+   "sha256": "fa4a1a225e7a2487848b00c8cb3771eb44e0de20116029c53a8f421069dfabea"
+  },
+  {
+   "seed": 282513290,
+   "sha256": "8e41e966e4cb46fb92e21957f3a35971d874d905088c7067aa99191ea338dd0d"
+  },
+  {
+   "seed": 2936949051,
+   "sha256": "c71cd8c9db7bf0625a213c986e319958d86710510ecad77242940c26f5e2f208"
+  },
+  {
+   "seed": 1296417516,
+   "sha256": "277cfaa1ce78298bcd03f5454fd90fbc84720eb8967844e6a617d9bdcf2ad52b"
+  },
+  {
+   "seed": 3950853277,
+   "sha256": "7ba0ecc4d84e57cd8bb1d5f128120335fae0df8f33ec26b71b9fce727bc57290"
+  },
+  {
+   "seed": 2310321742,
+   "sha256": "500c548e756dbda0e59b9cfc8ceb71c7155e4e8ea1a07f03937eca48cabb2f1a"
+  },
+  {
+   "seed": 669790207,
+   "sha256": "e1bb8f3d88dccf24e8419d50d7fa9822c4b6610c923e8322d8cac11e3eef4ab3"
+  },
+  {
+   "seed": 3324225968,
+   "sha256": "93d337eb651af7c96bf73640996343ffb2b9b14143889615d4073324070d7e86"
+  },
+  {
+   "seed": 1683694433,
+   "sha256": "f31d0f5a0069590e30869c74aec2fe77fad8f6894079b8c0319140adb1120007"
+  },
+  {
+   "seed": 43162898,
+   "sha256": "6cefe5d6dedce6f208be2a9896d0a6f6c745588ef4602fdff120b98dbcaa8df3"
+  },
+  {
+   "seed": 2697598659,
+   "sha256": "c3d5901e946a7709d00c90217b756b988ac84f1860766e4bcf6cc5314c1f7231"
+  },
+  {
+   "seed": 1057067124,
+   "sha256": "317b0c67a3b6977fd650523f2f51d8a4a81a738363f31105dbd61d41f5e101ff"
+  },
+  {
+   "seed": 3711502885,
+   "sha256": "e5a36f818a390397fd1a11eb0eef22cad9760811c1b8dd18f739b3340b4b0c16"
+  },
+  {
+   "seed": 2070971350,
+   "sha256": "a24b60e0f8c97edd560578057905f440cd21e7c2bf1f79c974300ca2b295b40f"
+  },
+  {
+   "seed": 430439815,
+   "sha256": "1f1d560d1fb03eb653a65f0b13b49cce207330022175ad46d0016aa10447f086"
+  },
+  {
+   "seed": 3084875576,
+   "sha256": "561ea0c558844dd5fd44f7eaabc9c6b84287a8fb16ea4a35f6d70e112cb24837"
+  },
+  {
+   "seed": 1444344041,
+   "sha256": "dd37fb907adf73223153c12fad6ee4bcfc16d6c35ea96a9e6cc7cac1c3287fc3"
+  },
+  {
+   "seed": 4098779802,
+   "sha256": "7304d333b44b434c9169d7a8fe2c3d6c0e132bc91e343e7f7f7646b3b2932fb3"
+  },
+  {
+   "seed": 2458248267,
+   "sha256": "7fbbd12fd183bec1af9c7dce0f15bbc1d2e0ebc8a7084a6747dc3d4a3b28fd77"
+  },
+  {
+   "seed": 817716732,
+   "sha256": "a47429370d2bc702e480941fc3de17216a7e452bf49ffa2e724b61648e6a668e"
+  },
+  {
+   "seed": 3472152493,
+   "sha256": "ffbf0a69fda29eff8b126387a767a763ccaaeac2fc7f2f9c8cd89d15351d6255"
+  },
+  {
+   "seed": 1831620958,
+   "sha256": "ee33b89ac53ff62e8d5242823f8428c3b8c1135d8631e717608dca7571716e3c"
+  },
+  {
+   "seed": 191089423,
+   "sha256": "f9ed3306151e645932a365e57f18498632264a0fc433885d50b09723963357ef"
+  },
+  {
+   "seed": 2845525184,
+   "sha256": "bf13ecdba0e4cc5e1a309eff969144b4e96e9a080edeb984663deeaf4c9089cb"
+  },
+  {
+   "seed": 1204993649,
+   "sha256": "05d83509c43b1c4f9ed90204cf9c7680cf7abba6c0f903db42ee2c600b9fec2e"
+  },
+  {
+   "seed": 3859429410,
+   "sha256": "f5c855984ed6fe06552a2cc9d8ce35fe494cac303566b661c3cf2ef5f90ea0cf"
+  },
+  {
+   "seed": 2218897875,
+   "sha256": "83d8693173ad5cd0c689d9d10cfe6ac7c59ee1d3e53812dcc853a007fb81ae98"
+  },
+  {
+   "seed": 578366340,
+   "sha256": "d031fd4ea0f3b75f002d45e55c5ed4ae841397045f758e6bd611d5eaf3c0dd8d"
+  },
+  {
+   "seed": 3232802101,
+   "sha256": "c4ae7eeb78c43779245c2f0906bf1f2e06ff97c02b994f1be72f8237940bd60b"
+  },
+  {
+   "seed": 1592270566,
+   "sha256": "5aff846af757f8097f3f7078995155faecf9f9da75109b31216235f99387f5ad"
+  },
+  {
+   "seed": 4246706327,
+   "sha256": "b564057d69a9756fa69ba150e91796fd4107129ca726b81c441d835ee7ba8b09"
+  },
+  {
+   "seed": 2606174792,
+   "sha256": "f3edbc645093c2cfdc112f31c0640e87da81d1026b2b350a020e61085211d368"
+  }
+ ],
+ "samples": [
+  {
+   "seed": 2654435761,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 2654435761,
+    "context": [],
+    "tags": [
+     "tls"
+    ],
+    "kind": "mc",
+    "prompt": "O navegador avisa que o certificado do site não confere. O que isso pode significar?",
+    "options": [
+     "Alguém pode estar no meio da conexão se passando pelo servidor",
+     "A página tem imagens grandes demais",
+     "Seu antivírus está desatualizado",
+     "O site está apenas lento"
+    ],
+    "answer": 0,
+    "explanation": "O certificado é assinado por uma autoridade certificadora e amarrado ao nome do domínio. Nome errado, validade vencida ou assinatura desconhecida são exatamente o que um MITM produz. Nunca clique em \"prosseguir\" nesse aviso.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 0,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1013904226,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 1013904226,
+    "context": [],
+    "tags": [
+     "tls"
+    ],
+    "kind": "mc",
+    "prompt": "O que acontece no handshake TLS?",
+    "options": [
+     "O servidor envia a senha do usuário cifrada",
+     "Cliente e servidor combinam chaves de sessão e o servidor prova sua identidade com o certificado",
+     "O navegador baixa a página inteira duas vezes",
+     "O DNS é consultado novamente para conferir o IP"
+    ],
+    "answer": 1,
+    "explanation": "Primeiro a identidade (certificado assinado), depois a chave simétrica de sessão. A partir daí tudo viaja cifrado — inclusive o caminho da URL e os dados de formulários.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3668339987,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 3668339987,
+    "context": [],
+    "tags": [
+     "tls"
+    ],
+    "kind": "mc",
+    "prompt": "Um atacante responde ao seu pedido de DNS antes do servidor legítimo, devolvendo o IP de um site falso. Como se chama isso?",
+    "options": [
+     "Injeção de SQL",
+     "Força bruta",
+     "DNS spoofing (envenenamento de cache DNS)",
+     "Negação de serviço"
+    ],
+    "answer": 2,
+    "explanation": "Quem controla a resposta do DNS controla o destino da conexão. É por isso que HTTPS importa: mesmo caindo no IP errado, o certificado não confere e o navegador avisa.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 2,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2027808452,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 2027808452,
+    "context": [],
+    "tags": [
+     "tls"
+    ],
+    "kind": "mc",
+    "prompt": "Em um Wi-Fi público aberto, qual atitude reduz mais o risco de interceptação?",
+    "options": [
+     "Apagar o histórico do navegador",
+     "Desligar o Bluetooth",
+     "Usar o navegador em modo anônimo",
+     "Usar uma VPN e só acessar sites HTTPS"
+    ],
+    "answer": 3,
+    "explanation": "Rede aberta = qualquer um pode capturar o tráfego. A VPN cria um túnel cifrado até um ponto de confiança; o HTTPS protege cada conexão de ponta a ponta. Modo anônimo só apaga rastros locais.",
+    "hint": "Túnel cifrado."
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 387276917,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 387276917,
+    "context": [],
+    "tags": [
+     "tls"
+    ],
+    "kind": "mc",
+    "prompt": "Um atacante responde ao seu pedido de DNS antes do servidor legítimo, devolvendo o IP de um site falso. Como se chama isso?",
+    "options": [
+     "Injeção de SQL",
+     "Força bruta",
+     "Negação de serviço",
+     "DNS spoofing (envenenamento de cache DNS)"
+    ],
+    "answer": 3,
+    "explanation": "Quem controla a resposta do DNS controla o destino da conexão. É por isso que HTTPS importa: mesmo caindo no IP errado, o certificado não confere e o navegador avisa.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3041712678,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 3041712678,
+    "context": [],
+    "tags": [
+     "tls"
+    ],
+    "kind": "mc",
+    "prompt": "Um atacante responde ao seu pedido de DNS antes do servidor legítimo, devolvendo o IP de um site falso. Como se chama isso?",
+    "options": [
+     "Força bruta",
+     "Injeção de SQL",
+     "Negação de serviço",
+     "DNS spoofing (envenenamento de cache DNS)"
+    ],
+    "answer": 3,
+    "explanation": "Quem controla a resposta do DNS controla o destino da conexão. É por isso que HTTPS importa: mesmo caindo no IP errado, o certificado não confere e o navegador avisa.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1401181143,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 1401181143,
+    "context": [],
+    "tags": [
+     "tls"
+    ],
+    "kind": "mc",
+    "prompt": "O que acontece no handshake TLS?",
+    "options": [
+     "O DNS é consultado novamente para conferir o IP",
+     "O servidor envia a senha do usuário cifrada",
+     "O navegador baixa a página inteira duas vezes",
+     "Cliente e servidor combinam chaves de sessão e o servidor prova sua identidade com o certificado"
+    ],
+    "answer": 3,
+    "explanation": "Primeiro a identidade (certificado assinado), depois a chave simétrica de sessão. A partir daí tudo viaja cifrado — inclusive o caminho da URL e os dados de formulários.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 4055616904,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 4055616904,
+    "context": [],
+    "tags": [
+     "tls"
+    ],
+    "kind": "mc",
+    "prompt": "Em um Wi-Fi público aberto, qual atitude reduz mais o risco de interceptação?",
+    "options": [
+     "Usar uma VPN e só acessar sites HTTPS",
+     "Usar o navegador em modo anônimo",
+     "Desligar o Bluetooth",
+     "Apagar o histórico do navegador"
+    ],
+    "answer": 0,
+    "explanation": "Rede aberta = qualquer um pode capturar o tráfego. A VPN cria um túnel cifrado até um ponto de confiança; o HTTPS protege cada conexão de ponta a ponta. Modo anônimo só apaga rastros locais.",
+    "hint": "Túnel cifrado."
+   },
+   "checks": [
+    {
+     "answer": 0,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2415085369,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 2415085369,
+    "context": [],
+    "tags": [
+     "tls"
+    ],
+    "kind": "mc",
+    "prompt": "Em um Wi-Fi público aberto, qual atitude reduz mais o risco de interceptação?",
+    "options": [
+     "Desligar o Bluetooth",
+     "Usar uma VPN e só acessar sites HTTPS",
+     "Usar o navegador em modo anônimo",
+     "Apagar o histórico do navegador"
+    ],
+    "answer": 1,
+    "explanation": "Rede aberta = qualquer um pode capturar o tráfego. A VPN cria um túnel cifrado até um ponto de confiança; o HTTPS protege cada conexão de ponta a ponta. Modo anônimo só apaga rastros locais.",
+    "hint": "Túnel cifrado."
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 774553834,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 774553834,
+    "context": [],
+    "tags": [
+     "tls"
+    ],
+    "kind": "mc",
+    "prompt": "Em um Wi-Fi público aberto, qual atitude reduz mais o risco de interceptação?",
+    "options": [
+     "Usar uma VPN e só acessar sites HTTPS",
+     "Apagar o histórico do navegador",
+     "Usar o navegador em modo anônimo",
+     "Desligar o Bluetooth"
+    ],
+    "answer": 0,
+    "explanation": "Rede aberta = qualquer um pode capturar o tráfego. A VPN cria um túnel cifrado até um ponto de confiança; o HTTPS protege cada conexão de ponta a ponta. Modo anônimo só apaga rastros locais.",
+    "hint": "Túnel cifrado."
+   },
+   "checks": [
+    {
+     "answer": 0,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3428989595,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 3428989595,
+    "context": [],
+    "tags": [
+     "tls"
+    ],
+    "kind": "mc",
+    "prompt": "O que acontece no handshake TLS?",
+    "options": [
+     "O DNS é consultado novamente para conferir o IP",
+     "Cliente e servidor combinam chaves de sessão e o servidor prova sua identidade com o certificado",
+     "O navegador baixa a página inteira duas vezes",
+     "O servidor envia a senha do usuário cifrada"
+    ],
+    "answer": 1,
+    "explanation": "Primeiro a identidade (certificado assinado), depois a chave simétrica de sessão. A partir daí tudo viaja cifrado — inclusive o caminho da URL e os dados de formulários.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1788458060,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 1788458060,
+    "context": [],
+    "tags": [
+     "tls"
+    ],
+    "kind": "mc",
+    "prompt": "Um atacante responde ao seu pedido de DNS antes do servidor legítimo, devolvendo o IP de um site falso. Como se chama isso?",
+    "options": [
+     "Força bruta",
+     "DNS spoofing (envenenamento de cache DNS)",
+     "Negação de serviço",
+     "Injeção de SQL"
+    ],
+    "answer": 1,
+    "explanation": "Quem controla a resposta do DNS controla o destino da conexão. É por isso que HTTPS importa: mesmo caindo no IP errado, o certificado não confere e o navegador avisa.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  }
+ ]
+}

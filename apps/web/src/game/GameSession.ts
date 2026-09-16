@@ -15,6 +15,12 @@ import { Hud } from "./hud/Hud";
 import { sfx, type SoundName } from "./audio/Sfx";
 import type { AnswerRequest, BadgeAward, CompleteResult, SessionBackend, TimedEvent } from "./backend";
 import { createMessageFactory } from "./messages";
+import { ApiError } from "../api/client";
+
+/** Erro que não melhora com reenvio: o servidor recusou a requisição (4xx, fora de 408/429). */
+function isPermanent(err: unknown): boolean {
+  return err instanceof ApiError && err.status >= 400 && err.status < 500 && err.status !== 408 && err.status !== 429;
+}
 
 export type GameMode = "loading" | "briefing" | "playing" | "paused" | "terminal" | "dead" | "debrief" | "error";
 
@@ -465,7 +471,12 @@ export class GameSession {
         try {
           const r = await this.opts.backend.answer(this.sessionId, req);
           if (r.newBadges.length > 0) this.announceBadges(r.newBadges);
-        } catch {
+        } catch (err) {
+          // erro definitivo (resposta recusada, sessão inválida): descarta para não repetir para sempre
+          if (isPermanent(err)) {
+            this.answerQueue.shift();
+            continue;
+          }
           return false;
         }
         this.answerQueue.shift();

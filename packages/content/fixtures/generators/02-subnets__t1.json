@@ -1,0 +1,1798 @@
+{
+ "source": "02-subnets/t1",
+ "generator": "mc_pool",
+ "params": {
+  "pool": "subnet",
+  "counterTags": [
+   "subnet"
+  ]
+ },
+ "seeds": [
+  {
+   "seed": 2654435761,
+   "sha256": "8aecdfa2b8b1df4e11079528e8c69b38b333362a822924233a0b6f37b2b783d9"
+  },
+  {
+   "seed": 1013904226,
+   "sha256": "a6abe7f05132fd6d3364c3b838b2fc7d91b147858bce612ac69eec80b5a25e80"
+  },
+  {
+   "seed": 3668339987,
+   "sha256": "c9f10f5575401726147a62664a7228e2be5f7b5e242c666a36ad2af7376f57b6"
+  },
+  {
+   "seed": 2027808452,
+   "sha256": "d8b11e913b902dffdd6f004fe86da24cf1efb8ec67e984d4a171b08924f95d68"
+  },
+  {
+   "seed": 387276917,
+   "sha256": "b838b1f5f89060bae8c3ddc7081064ef85624a75cc305829834e269ff1d31ae8"
+  },
+  {
+   "seed": 3041712678,
+   "sha256": "5bb08741013ccd3b9ba1b2b4b4bd43dab44749a098702de3c218a17267b6fff4"
+  },
+  {
+   "seed": 1401181143,
+   "sha256": "852c1e6aa26cd52ae608dfd64a93f2d797f772cb097d812b24adcdadb7d88c7c"
+  },
+  {
+   "seed": 4055616904,
+   "sha256": "1c4d8db29c3fe27fcd68bb0b40e1fc97352ee9d100757bb4ebc806ba061268c0"
+  },
+  {
+   "seed": 2415085369,
+   "sha256": "a5e944995ca27c061588bdfb4e902c91a4e64ebe92014eb0f0ba90c7341d1c3c"
+  },
+  {
+   "seed": 774553834,
+   "sha256": "9ac4d67f4c3de17561a6a2c7754a395d5fd4b531cc7adfded009ec2270bd3d8f"
+  },
+  {
+   "seed": 3428989595,
+   "sha256": "c7a2d907516d2e26dd99d68894cc66c93ca6767615e0ff28b72e5f350e83dc64"
+  },
+  {
+   "seed": 1788458060,
+   "sha256": "b6966909ec6edee6ea305314e726c631cb6f04d047457e200e306f3e00befebd"
+  },
+  {
+   "seed": 147926525,
+   "sha256": "4d26a3dfc3704d43e1eee707fdeab66eebe7e78a283543482ce33e71e5cccc58"
+  },
+  {
+   "seed": 2802362286,
+   "sha256": "2362f14fda668ddb7bf71b55188c4bcf3702dc050b753d8e656e4689c6fd49b2"
+  },
+  {
+   "seed": 1161830751,
+   "sha256": "7877670392e68b404499f60674ccb3a4c6db94d4e33ec73618f53383b7fc33fa"
+  },
+  {
+   "seed": 3816266512,
+   "sha256": "784ac792f73f1fa29f43e7c008efb81cfce6f266c868fcb6be62db045c3db208"
+  },
+  {
+   "seed": 2175734977,
+   "sha256": "be3d09d85fce2af0250a5f8d94ac063ed91c3b8d1cfe3f6d221a04b42332bc38"
+  },
+  {
+   "seed": 535203442,
+   "sha256": "3c7e92d7f308c3efabb18d0288ad024e4e07d05c2ee4a6f3058bf4d3c291f555"
+  },
+  {
+   "seed": 3189639203,
+   "sha256": "3d4291f99cdb0ea3f449e1b103e6a18aa1fd28dba5185e5c236803ab0aa3128a"
+  },
+  {
+   "seed": 1549107668,
+   "sha256": "f42a5c340d34ec79cfe9f5a9d15d36ad52cfa0ebb485b8285ea38e52497b81f4"
+  },
+  {
+   "seed": 4203543429,
+   "sha256": "afee7035c5225c4e5dc1fb3776456508d7d247a281932572acf5a89aa0c468ce"
+  },
+  {
+   "seed": 2563011894,
+   "sha256": "b7a9004bdaea1e5d4f5fe491884cc62329c099be87dabcea648c878f8bccdcd7"
+  },
+  {
+   "seed": 922480359,
+   "sha256": "d47e1e7d65a2b7ce89b9d9bb05e0b4252b1f9473ea476d57ad944fe34e3a82c1"
+  },
+  {
+   "seed": 3576916120,
+   "sha256": "12cb1348162cb7fb490b6a4ea7c08477c777e8e4cc26333adb3be5a470aff3a6"
+  },
+  {
+   "seed": 1936384585,
+   "sha256": "925e491792c4578d2b4c425415ed9bc4733bc5cb3eeeee379b59e738c61d78ca"
+  },
+  {
+   "seed": 295853050,
+   "sha256": "64d295c2bd4cefb39d401b1dc03323b1c7dd055ada11fe55332bfaede0b7a03f"
+  },
+  {
+   "seed": 2950288811,
+   "sha256": "85c9f78ed46895e2c61648b046ac7d166068d36d8534563603c6a2e7578b422d"
+  },
+  {
+   "seed": 1309757276,
+   "sha256": "318ca0a0ab57e3f3a7877b0ba35d26e6c89bfd5b56cac67cfa4f74efea388a04"
+  },
+  {
+   "seed": 3964193037,
+   "sha256": "942fb66274454441cb54bc8e26cdf2a2ad5888d076aa18269adf3102046f3190"
+  },
+  {
+   "seed": 2323661502,
+   "sha256": "07b7d3e7c2b5859a98d502a58dfddf351d5d1474f4f97fe1042d4297491db8bc"
+  },
+  {
+   "seed": 683129967,
+   "sha256": "b7105f0a46645d742d470368a22c6296da2e80d85b15f835ead4dca09cbc70df"
+  },
+  {
+   "seed": 3337565728,
+   "sha256": "d574d8bb7a3b1c9bd4a4edba11b6d9103af85fbbece8e27951d3dd62b14a21e0"
+  },
+  {
+   "seed": 1697034193,
+   "sha256": "ed7850a062124e8278cc88a3ac9b420468ed015824d77a27bfb7c3fd5255f16c"
+  },
+  {
+   "seed": 56502658,
+   "sha256": "0cd6545ca455ae3c1f959243de3c08271e7f48335bc803cffb222b39293873af"
+  },
+  {
+   "seed": 2710938419,
+   "sha256": "37da6cf92bebd8ccbb569e47db9c033c11f1ebc3ff0724bbbac5f5621c5580d6"
+  },
+  {
+   "seed": 1070406884,
+   "sha256": "0221a6804eb5e11b649687dece6f8ad1d3e3fcfb33e18ff23dbe73a0d393a679"
+  },
+  {
+   "seed": 3724842645,
+   "sha256": "923a46e67e061a70b5798f20e1510bbbb9c4a9a59fc9957bd5828f42c90fa151"
+  },
+  {
+   "seed": 2084311110,
+   "sha256": "5703abe37862b727179d01712a8fb4ff3d5467a07603cbad460b70a0ed11e58a"
+  },
+  {
+   "seed": 443779575,
+   "sha256": "c8596a460eccc0b3eb547d87c6b634c605f2f009f49f46571ca1cf2a43b73fe4"
+  },
+  {
+   "seed": 3098215336,
+   "sha256": "902db052ec85991d3219488c397e8866c5b2a4ef1c568e028da87223079bbfaa"
+  },
+  {
+   "seed": 1457683801,
+   "sha256": "b2f9784a4356c64bdbd3e31d3e97de2a353b9ae058c5dda021dc48bd22425aad"
+  },
+  {
+   "seed": 4112119562,
+   "sha256": "c2414154a996e7c45f525a7006251430d5593f32e0a6991bda16f913f9a05af4"
+  },
+  {
+   "seed": 2471588027,
+   "sha256": "3488834bdaec563695fa0251b9f1dc7118df91b39066716a9cd248640b5b9010"
+  },
+  {
+   "seed": 831056492,
+   "sha256": "d10739f519bd290e69a80e4e3b6c98883d572e5a495ea3370ffe6a679c94a747"
+  },
+  {
+   "seed": 3485492253,
+   "sha256": "e842a9a204d36cb1ba227be4812b65d39b94f4249ea986d40919ed68400ab929"
+  },
+  {
+   "seed": 1844960718,
+   "sha256": "6e1a6b792026346826f2a5f60e86261743088dc4e3d756dd933fe496487836b7"
+  },
+  {
+   "seed": 204429183,
+   "sha256": "01bab6114be632e5e19b4d6302a5917476010f768afdc24e04349e693d0b02e7"
+  },
+  {
+   "seed": 2858864944,
+   "sha256": "bad5da8e0860d0ed6134057ae6f38c46beb619ff02276b8fc8f6c71d7c309a75"
+  },
+  {
+   "seed": 1218333409,
+   "sha256": "46d7a1f66a9017bbf4ab0d9d341b69177e8a9a4b46f31a1f875788f20488f4b4"
+  },
+  {
+   "seed": 3872769170,
+   "sha256": "79abc251f8599452d39bcf3b95f81fa31d8a3bf583a343e1b07b733aedd10a94"
+  },
+  {
+   "seed": 2232237635,
+   "sha256": "5c4d3b8f8bd3a299cc2ee77567aaf72b5cbafb98c3d0e9489aeb551eebbe292d"
+  },
+  {
+   "seed": 591706100,
+   "sha256": "4142f1af7816844006c91da61cb01a57ff67543293da49ba2a9d10de0dce259f"
+  },
+  {
+   "seed": 3246141861,
+   "sha256": "747a149a36f7139a6fafaf7af4d4aaebea8033d4be1b51d5eaf0b802be73483c"
+  },
+  {
+   "seed": 1605610326,
+   "sha256": "0c68d0c6faff35be67a1acef06afc97cb1018b22288bb1087e987aa5d1965a21"
+  },
+  {
+   "seed": 4260046087,
+   "sha256": "c6e47044d04da1b22fbe0cf7da4ac2eec7bbb29661720c4f7c9d99a73d9089cd"
+  },
+  {
+   "seed": 2619514552,
+   "sha256": "e0848c011c61270424bc871d3ae8f74b3881474707b694b3ff6659ffa7e7d300"
+  },
+  {
+   "seed": 978983017,
+   "sha256": "04c5b27d212ea27cb8eb4c688af2ce8e74d96ce63b919b7dddcc190d516439b0"
+  },
+  {
+   "seed": 3633418778,
+   "sha256": "7d554ee13ab7a1f98c927f06cbb5224c5aa74f137fa881172d379ca1497ae651"
+  },
+  {
+   "seed": 1992887243,
+   "sha256": "5f7a273fd74a0d471b208faf1337fbc9d27b9b6cb3975121b0d60dab83a2345f"
+  },
+  {
+   "seed": 352355708,
+   "sha256": "6826dfa7ed7f677b0ce72bc507de0e21a8d7bd23b557d865bc7cfb203a5a053b"
+  },
+  {
+   "seed": 3006791469,
+   "sha256": "bd3ac16aa9afb3c286e0396240b210d65f8bf6822902be092a322f43d67b2d0b"
+  },
+  {
+   "seed": 1366259934,
+   "sha256": "6ddb4badb5003338338fd2fc37692acf08bb91a0a59e82022e46d206a09059d0"
+  },
+  {
+   "seed": 4020695695,
+   "sha256": "6779cb3a98bf76f6c4335215c1b52ec8b9acf14847d62b0ac8267ea77589690d"
+  },
+  {
+   "seed": 2380164160,
+   "sha256": "99cb522d0f473f41890d9cb00ea236132caf32db598bb87adf9b40fecad0a4a1"
+  },
+  {
+   "seed": 739632625,
+   "sha256": "be35a6c26e7dfb08cf6a3cafaba9aafb1788050d310fc009e91f8b558ee9b54b"
+  },
+  {
+   "seed": 3394068386,
+   "sha256": "9acf77abf4c92aac9fc65c7abdf68cd00a49f3ed50146b881a44ea9077ba1424"
+  },
+  {
+   "seed": 1753536851,
+   "sha256": "9a67341fa0c00f626d6016709c03252874fa5ad8967e671d955ba679e9e810ce"
+  },
+  {
+   "seed": 113005316,
+   "sha256": "faf536bcf8b0730b166e735904caf546fa0f19e29a2e7aa4470185b6f01453e4"
+  },
+  {
+   "seed": 2767441077,
+   "sha256": "58b19fbbeacaaf7753061eea97b382d3878961a75f9c2a2c3d5d978d8fdbcadf"
+  },
+  {
+   "seed": 1126909542,
+   "sha256": "c08f710359ea3aefeac3e3a204b194d0d3debff3f437a412b9be478b3e424f42"
+  },
+  {
+   "seed": 3781345303,
+   "sha256": "68d5724388cd6e9c96dccf18310b4a258b8632dda49429ad923c1889eade983e"
+  },
+  {
+   "seed": 2140813768,
+   "sha256": "e80d924fc051fc0306cc6e9b37a7ec21f2ba0a4a503b26bf73d0689c69b2c9e9"
+  },
+  {
+   "seed": 500282233,
+   "sha256": "40b4890c7767975e5c831d00891b6d608b567a0a1ca4c4f316c2a5278e1e5698"
+  },
+  {
+   "seed": 3154717994,
+   "sha256": "c00ea9ff9babba2aeae3770f598d6ed6ead739ca52a9b5e7788658a3b649c40c"
+  },
+  {
+   "seed": 1514186459,
+   "sha256": "7dcc58aaaad8b5b2bf8257c3d8bdca197ef8d239fed681d00a0dcbf103593b38"
+  },
+  {
+   "seed": 4168622220,
+   "sha256": "c60db61595a1fa6840c23d508a7e6402dc38e8f389b8dac1472803639bb8879f"
+  },
+  {
+   "seed": 2528090685,
+   "sha256": "92e3e18ea6dcb462b56dbcc96d4620b52524ae6d0d591a9807b82dec93b9b3ed"
+  },
+  {
+   "seed": 887559150,
+   "sha256": "bac8d49db338ba4d2c3d2e5fcd6a7b5fcbc6076210a0ba59660e7766063c7b2e"
+  },
+  {
+   "seed": 3541994911,
+   "sha256": "4e066d0aa4b372bfd0272feeb560b7bcece9c56bf032ec782558aa866616fe2f"
+  },
+  {
+   "seed": 1901463376,
+   "sha256": "89792a43275c7909603f4b7e35de2e383ae1162605c704d0f356b08d65e8c799"
+  },
+  {
+   "seed": 260931841,
+   "sha256": "212d04516e4a639834d24badeb1016f5cd838171dd13eecdd0063fbd0e6edbde"
+  },
+  {
+   "seed": 2915367602,
+   "sha256": "375dcc1b58c9606ec473ea19110a762698822c8de9cc2c8ebcacd23c7693a268"
+  },
+  {
+   "seed": 1274836067,
+   "sha256": "c065732a9543603d1b1f944f8e08c9107b911a5cd0507574a73909959611af14"
+  },
+  {
+   "seed": 3929271828,
+   "sha256": "396508c0e8917d64483318bee2a4f301f1983acd2a872412c6a28463d4dd8f01"
+  },
+  {
+   "seed": 2288740293,
+   "sha256": "48350e3830fa1e6b49c45c1505542c27d72b50c35bfcaf73530bb56b4ef14c46"
+  },
+  {
+   "seed": 648208758,
+   "sha256": "d2af7b49520546f410b87e3e4155d1b5e65027e1c838d2c16d68c71559f4a626"
+  },
+  {
+   "seed": 3302644519,
+   "sha256": "22bf59c8d94b4c609da590ae68ce22e0bc913291f2f1d09d85fc7dcb71c06fd6"
+  },
+  {
+   "seed": 1662112984,
+   "sha256": "939504d88b2ec4f9b2839029f866980750c813fe025835e126e2196e54f56c86"
+  },
+  {
+   "seed": 21581449,
+   "sha256": "7366b7158355c633247fd743c6812c94225f40717b1f17704d0d9dd6c1fba025"
+  },
+  {
+   "seed": 2676017210,
+   "sha256": "da156496832f8ff50f11244b6201324f930725d3b045f39ec58186cbeb1fb3ec"
+  },
+  {
+   "seed": 1035485675,
+   "sha256": "e739f00cbdf4160b279266b73a68cad0edbf5030fc88dbef9c6927dd0de59d64"
+  },
+  {
+   "seed": 3689921436,
+   "sha256": "91ab91422a768abb9956a15f53bad5dc923c09d4bb4990ed35bf081b905b48a3"
+  },
+  {
+   "seed": 2049389901,
+   "sha256": "8ad9503b9fd98df2ce2565f5c13bb9060a3d3c868b21f31be1ac7d88eabd8827"
+  },
+  {
+   "seed": 408858366,
+   "sha256": "121a2b377e663617c0fc29413ee759c993805cb245db80093e1adb67ade5890d"
+  },
+  {
+   "seed": 3063294127,
+   "sha256": "96adc4b2416e7f7dc790b7910f88470f740893402660b52ac1c688344e6981a1"
+  },
+  {
+   "seed": 1422762592,
+   "sha256": "de9740456bde32cb7dbeebb78d19b01180f00a120fe13ce223027ef450f09aec"
+  },
+  {
+   "seed": 4077198353,
+   "sha256": "edb64c115e83c3bae97081f8d3b8965ad3879b3ab893ea8da5307784bbf17286"
+  },
+  {
+   "seed": 2436666818,
+   "sha256": "be824f53fba5e97dbd169c76e4fb87c1b89de069fbb0c1f3301d8b4f16142ae4"
+  },
+  {
+   "seed": 796135283,
+   "sha256": "5ca07456c11555bdc7da46804af2ba99f3cbb9d9b619a9543bc51cfa3f713481"
+  },
+  {
+   "seed": 3450571044,
+   "sha256": "0066fcfa9c17063baa683aadd36313e4dbca114554dbb43732281d234e9a839a"
+  },
+  {
+   "seed": 1810039509,
+   "sha256": "c5b433b188ab632fb02b7cae24c3221588bd2785d0d0c4f2f141efa2aef5770a"
+  },
+  {
+   "seed": 169507974,
+   "sha256": "dfa18bd6d9f7304b18381b2dfe89c474ea98ce59d5fbb8d512ca003093cbee51"
+  },
+  {
+   "seed": 2823943735,
+   "sha256": "940e62df4fe5b644c81a7fb2db6524c52c7127526740c00a287892bddd2e6a9a"
+  },
+  {
+   "seed": 1183412200,
+   "sha256": "fb20e1b3585cdd0437f2d5d53c21590aaddac9a5c3003af398979389772ff395"
+  },
+  {
+   "seed": 3837847961,
+   "sha256": "dbeb92c170f7d7c1fb6c5ac38beb698449a5d160b2cc5a7f10a147a6978e816b"
+  },
+  {
+   "seed": 2197316426,
+   "sha256": "152e3f954e55475a0e032974b8a05af30dabfcc23907fa207828522f468c05d8"
+  },
+  {
+   "seed": 556784891,
+   "sha256": "b259774258d11824c3b5cdf936e2cb424d9023c812e6cdc31f0420405c53487c"
+  },
+  {
+   "seed": 3211220652,
+   "sha256": "60501d30b969d84c011f900872b996b340e9ab8097c75a6c7969e384b98b7015"
+  },
+  {
+   "seed": 1570689117,
+   "sha256": "6b3969f3d5301c41bde679dc6cdc1499b957410c6b84acd056a122f05820e8a9"
+  },
+  {
+   "seed": 4225124878,
+   "sha256": "676aca7b6e6e796fb9be23edebef1738cb3ad1b55b45d3dace814136e124494f"
+  },
+  {
+   "seed": 2584593343,
+   "sha256": "080e7e1b473630980319dc50279ee27ec983460e12ca89aa25deb5f1f5b7409b"
+  },
+  {
+   "seed": 944061808,
+   "sha256": "f100572fc36078afcc15fd940c1afaaa39be836cfd09cb9bf0a181a17175b952"
+  },
+  {
+   "seed": 3598497569,
+   "sha256": "c7fa6289961c25502b2f5d581fd2a023a72f971c7248fa184f3ab6003610178b"
+  },
+  {
+   "seed": 1957966034,
+   "sha256": "ec27b2948bbde2a3c506621371dd2fc3868747747883f0892844ccca27101b95"
+  },
+  {
+   "seed": 317434499,
+   "sha256": "a19f322801cddd1c1245e6dc98711474628c742ff4fe8e44c7f33e4b867dfa9e"
+  },
+  {
+   "seed": 2971870260,
+   "sha256": "6c74be372e8b2752881d0b950205f0f57b2890468e753c5c65b1afdd4b78ea71"
+  },
+  {
+   "seed": 1331338725,
+   "sha256": "cbb2f70f9cc8eeeb8a999e94597508c01f2bb5993205a12937e4243530924d54"
+  },
+  {
+   "seed": 3985774486,
+   "sha256": "3e29c3a650221c3246254fb8da34883d2b674fd6b01dd4dd00c65a8152f49439"
+  },
+  {
+   "seed": 2345242951,
+   "sha256": "a0b97aa6146ff4ed3085fef7f85a8347b41a187202b76878506871c53a82474a"
+  },
+  {
+   "seed": 704711416,
+   "sha256": "bbc9b4f13b4820b609b897cd8843097a19b274b387292324ea6c1902c0472538"
+  },
+  {
+   "seed": 3359147177,
+   "sha256": "65cd0604588238d0f5bc378febf0af064b0362de3b3a54be9a58f8756005d8ee"
+  },
+  {
+   "seed": 1718615642,
+   "sha256": "98928c174941af0949a1a1356f4b509f9113decd0863d8e19a0ac30ad80fcbad"
+  },
+  {
+   "seed": 78084107,
+   "sha256": "e6ee0dee8649b7fe7d69ae163273ee26469950f498101c3de15e1723e41f07f7"
+  },
+  {
+   "seed": 2732519868,
+   "sha256": "da7188fa93791ecc843cb7270538a91b09ba07dbbcada31b38ef27184ca9c46b"
+  },
+  {
+   "seed": 1091988333,
+   "sha256": "7478e1a094275d32cecb0ddf41eb0286cfa2380c98f98fa749c6bee4cfcb54d7"
+  },
+  {
+   "seed": 3746424094,
+   "sha256": "ef0ae802dbea8838abcb832c3a6ce97f738fe12c28c8171775eb7b65cf619469"
+  },
+  {
+   "seed": 2105892559,
+   "sha256": "0470a830771336a8bc312a692a306b7fd95d95ce299d8be281814d1481a1c0e2"
+  },
+  {
+   "seed": 465361024,
+   "sha256": "6d93d45d4c7662ee837a04bad5fe323dd3aab38b0e1d94cec6fa3dd85859b29d"
+  },
+  {
+   "seed": 3119796785,
+   "sha256": "575b63eb2f0e3f1f6eeb3d58653c554d0303d4ec2ac757f4fffd2e81e72e3fc2"
+  },
+  {
+   "seed": 1479265250,
+   "sha256": "043d1d7f05d8a91fc27690e54cbfc7ddde85198695cf37d6377a2e2d1b1467ed"
+  },
+  {
+   "seed": 4133701011,
+   "sha256": "9b368dcb54c2e2d53be8bd5f0ce20d87da683773feaa4deb18f6bb4ead894c67"
+  },
+  {
+   "seed": 2493169476,
+   "sha256": "d5a04cb973f4a220a01a8786cbd27484af2dd7bb9a961ac0cf2435c05f16fe6c"
+  },
+  {
+   "seed": 852637941,
+   "sha256": "80610973a2e97cb27d8870f2846b3fbce2c3b2c3a4c0b580eda5f8fbd91a1428"
+  },
+  {
+   "seed": 3507073702,
+   "sha256": "ec33190f51907069aedf1b0fae78f6ea59f69b59eab24106d8c5ad49aec018bb"
+  },
+  {
+   "seed": 1866542167,
+   "sha256": "34b1b0a4ec1d66fc4e940cf7663d2f64fd20d18127bf450ca109bec0f3ba6b3c"
+  },
+  {
+   "seed": 226010632,
+   "sha256": "a0cd12f9c91256e0d84db99cb2e4d6a6a584c2e8e09ec812326194e831c038ae"
+  },
+  {
+   "seed": 2880446393,
+   "sha256": "800cb0f980f12f304a5c85138d98fd9b1351bfa0c470c7aef652928f641ff517"
+  },
+  {
+   "seed": 1239914858,
+   "sha256": "1a6e5a9b68dea5f90b835525bd7ec8cea3ba309692762ff98d3174e40b8c1efc"
+  },
+  {
+   "seed": 3894350619,
+   "sha256": "5a2decaced2e96f35d0cec203f5aabfda01b5e7a6e7e4422d648d8d8d89c1411"
+  },
+  {
+   "seed": 2253819084,
+   "sha256": "4bc39751a408743f05532f05840ddf9afe14948293fd6c785eb120e947059155"
+  },
+  {
+   "seed": 613287549,
+   "sha256": "1e90283add1df6870d287a96644afdd7b66887975b45b47e930022c03be95b81"
+  },
+  {
+   "seed": 3267723310,
+   "sha256": "12163b6e0ce804e0592b3d626f3398c6140e6a73a36a26452f787620cb5c0acb"
+  },
+  {
+   "seed": 1627191775,
+   "sha256": "034a16b601f52ed65dbbea5bc8f0c1a18e30732e9ca6c0b16e1928ef37264148"
+  },
+  {
+   "seed": 4281627536,
+   "sha256": "8882164db2b13dea970bcac967b58c7ca35044e6c6fc60f0399a4b12903b279d"
+  },
+  {
+   "seed": 2641096001,
+   "sha256": "87922528410fcc41ab35926f4fb2f7163d0a24794962130112dd92a23f92f909"
+  },
+  {
+   "seed": 1000564466,
+   "sha256": "2c063f98f5abe78cc28eecda7fe5dac5351a119736734d06a98420c8656043df"
+  },
+  {
+   "seed": 3655000227,
+   "sha256": "8d2a42a5e3d0a1f3542df98215fdff61779debaa78017e51563db410ffd583c2"
+  },
+  {
+   "seed": 2014468692,
+   "sha256": "ed15cc30bc9605dad8573fd8d3add7b75653928c41484ab6768c576002fe583e"
+  },
+  {
+   "seed": 373937157,
+   "sha256": "4ea2080d0e5fee990cab2fc85377ff9154552510d09abe33d96896938c535bd7"
+  },
+  {
+   "seed": 3028372918,
+   "sha256": "b40e8032e1f17f74fa9c3770296e9fd7467b1952845c28b62102792681c44cad"
+  },
+  {
+   "seed": 1387841383,
+   "sha256": "d4b22f9756d5b6227c75340d6dc5d5603e3114dfcb48d76fa0451dccfd2d723c"
+  },
+  {
+   "seed": 4042277144,
+   "sha256": "d6e2e806f619d1b79d99637c0a0bab0415aad40e15797051b009f9e34be9c9d8"
+  },
+  {
+   "seed": 2401745609,
+   "sha256": "aa5d4a21f2bf65d832e56b2b5fab6fbc0b47d19af8c0d7ad086534d3d6cdbdb8"
+  },
+  {
+   "seed": 761214074,
+   "sha256": "9b729b31aeb14782f211917b0bd047f11c409250b895203ead0ea7ea81969066"
+  },
+  {
+   "seed": 3415649835,
+   "sha256": "bef42fb11fb7e5551e15d8e7173da4fa9304e2c80fa9f7f5e48e61c227bba344"
+  },
+  {
+   "seed": 1775118300,
+   "sha256": "175b95a7e72f511357c39a2cf883891a726a6f4daeef75acd531b54c5fdb3896"
+  },
+  {
+   "seed": 134586765,
+   "sha256": "04788c13988bf9e555a9f36345873ecf7cad88f1f377cb06c8816d313558b9b2"
+  },
+  {
+   "seed": 2789022526,
+   "sha256": "8d7595f859679e00bdd71b8c2c89fad95f1b10401fd29711b559794aa1ec36dd"
+  },
+  {
+   "seed": 1148490991,
+   "sha256": "b598826aec58d66819980f07aa52b685aa5194a9781464c5f657db57561380ea"
+  },
+  {
+   "seed": 3802926752,
+   "sha256": "8f3a80486d92a68fc4885d3ce1af8238457292faced68be816de92bdb3794d2f"
+  },
+  {
+   "seed": 2162395217,
+   "sha256": "130037d5356496f947bb43ed06c9c6c21059c58dd61367944d65588c504dfd70"
+  },
+  {
+   "seed": 521863682,
+   "sha256": "bb03cfffa26d22e3a960be144176dc02c962e1f04be514bf3a14b5f3f37ef9b2"
+  },
+  {
+   "seed": 3176299443,
+   "sha256": "a5d018bb040db9155ba67da5954a5688c7e87179ccb27b7a2e15353d1c5d4076"
+  },
+  {
+   "seed": 1535767908,
+   "sha256": "6cb648ac2533f2f41ad5a60097d7f826bd544eac0d8c4d176830461f9a9d0809"
+  },
+  {
+   "seed": 4190203669,
+   "sha256": "1e509c4955ac62f2572340201a508a30325f392808926c8a18aaecd323918a6f"
+  },
+  {
+   "seed": 2549672134,
+   "sha256": "a3b57ee098000173af85004ac9a75eeb3f8b320fe5ba88d50e123aa868c423c0"
+  },
+  {
+   "seed": 909140599,
+   "sha256": "44255d80287d9c7401d3d89fb445f616c587a56f854475efa50508d86b628074"
+  },
+  {
+   "seed": 3563576360,
+   "sha256": "5b98b5319e8047d9ad08f8780bbd7fe7fcc71b80d04ed7d9a7ba0aa42829e0f1"
+  },
+  {
+   "seed": 1923044825,
+   "sha256": "3eaf29a029dd67ca3a8159b84fd8622234e0dfc99cebf2fcd773855acf957b1c"
+  },
+  {
+   "seed": 282513290,
+   "sha256": "728ef5b12b99fbbe215abca22b7bfa244fcd9c6fd2d0763d711f91ea4525287e"
+  },
+  {
+   "seed": 2936949051,
+   "sha256": "6664562aa97e90655d08625e70be0defbc0a88bec60715157636cdd156bb1189"
+  },
+  {
+   "seed": 1296417516,
+   "sha256": "0ec9dc0dca88916911550dfcb00543ea57ef53fcaf8e41344cebfb7c8d36f674"
+  },
+  {
+   "seed": 3950853277,
+   "sha256": "1ca082d368640d974135916bafa93f6a8add0da32c79e29c5f294d08994ff867"
+  },
+  {
+   "seed": 2310321742,
+   "sha256": "5c0edb56c01b9c2e9dc5eb6988b95095699582f1eca851f2ef34cf5771f7dc81"
+  },
+  {
+   "seed": 669790207,
+   "sha256": "c548c2c65f97c25144a0e1ebc01ed827c0546874fed317f1abdc48fd5800b50d"
+  },
+  {
+   "seed": 3324225968,
+   "sha256": "ddb1304d1c77cf84a9f2bea97c5a95704ce44637675339655a474df291ee8197"
+  },
+  {
+   "seed": 1683694433,
+   "sha256": "5b4b80147d70f8436ef31dbaab133708346f64363134cc8074d2b815764fb1d2"
+  },
+  {
+   "seed": 43162898,
+   "sha256": "5e811a5a53f9989ba7b433c5c42c13281e49acfc4e2eb96bd0cf82abaa12b7a6"
+  },
+  {
+   "seed": 2697598659,
+   "sha256": "863f0e5a4575d4ca35040e337b60248cef012bca3d583034c92652f2b5eda7ba"
+  },
+  {
+   "seed": 1057067124,
+   "sha256": "38361e2abac71fdf5225300a07aaf9f5b585f9eed2f99c48fffb7b15f909195f"
+  },
+  {
+   "seed": 3711502885,
+   "sha256": "89185cebfed2d1c0d8a57e05875351fe6778b703f486a9fafb97fdd66c1bd62a"
+  },
+  {
+   "seed": 2070971350,
+   "sha256": "f17efa91ffd85e873f9aaa4fcf3a387cfdbcece8c4d94fe1fdc3377c97768f80"
+  },
+  {
+   "seed": 430439815,
+   "sha256": "e4d2528c6992617975fa65f5bd61a75d6b24ebd08e928a38b33d79f89974c5d1"
+  },
+  {
+   "seed": 3084875576,
+   "sha256": "45d3a6ab3a25c9a7066f036427092fbcd42bc25f0b74966b8ce0167c20e9150f"
+  },
+  {
+   "seed": 1444344041,
+   "sha256": "a46ba8922b5e530335a7ba37a56bbaa04d378ca8b92213574b4593d1175a8a55"
+  },
+  {
+   "seed": 4098779802,
+   "sha256": "51a6f0ab9960b28b113917f7256c6f5ecc45d23d747e75457177f60fcb098312"
+  },
+  {
+   "seed": 2458248267,
+   "sha256": "2f0947c94c0203d05d08d57358025ea484ade1b0893c1528abb108a38d977490"
+  },
+  {
+   "seed": 817716732,
+   "sha256": "069db7fcfef1823051d70b23663793e727e0b3e29601cb67eb59d52b47101650"
+  },
+  {
+   "seed": 3472152493,
+   "sha256": "6621b49d235ca74bfb37708ef032618c0531339f332502eff3902701a12a9d36"
+  },
+  {
+   "seed": 1831620958,
+   "sha256": "b20f5635a89102baaa5439b254ca30ec5f3af25f4a2d6a7dbe27871e21ed3bd6"
+  },
+  {
+   "seed": 191089423,
+   "sha256": "d1433a4ba105ea69a904cf971013c7dd829c29209ca4e92740f7a29436f28502"
+  },
+  {
+   "seed": 2845525184,
+   "sha256": "66c0b342cc20ed92b06da18c76a42b74507208a9e43ace0e5b45b580be19dc21"
+  },
+  {
+   "seed": 1204993649,
+   "sha256": "2daf891e4d6eca951c29c3e8549e74f25e327725d4694b83deb8877a6970f6e9"
+  },
+  {
+   "seed": 3859429410,
+   "sha256": "4e827b5072820eed622699d92bb266dc8a4931026f79b5f31c9ecb4ff1ccbcc9"
+  },
+  {
+   "seed": 2218897875,
+   "sha256": "3f691243af9887bcaf3ec595340eb08eec2441b032ba78dbf82dd6d8d652535a"
+  },
+  {
+   "seed": 578366340,
+   "sha256": "5c7dd994acc6758a3c888868316feb1d14da7525b9935ad466bcc3ced3aef7c0"
+  },
+  {
+   "seed": 3232802101,
+   "sha256": "f40b619f8bf5e8ffdb862031856437f029544e41a19ad2a67077c2f46ef983b7"
+  },
+  {
+   "seed": 1592270566,
+   "sha256": "29c5a79b4c089f6f1c0e10d57baa3b786a5edb48d586637f7670fe285db323a2"
+  },
+  {
+   "seed": 4246706327,
+   "sha256": "6ffdad73d1892f3d304491538d7ec6de301c76bf883f3ab4eefb4da6b10a9eb2"
+  },
+  {
+   "seed": 2606174792,
+   "sha256": "2d7ea297f8cb7597c4865305d009dbfd0d97b66d4b96118f05c060d93cae65d0"
+  }
+ ],
+ "samples": [
+  {
+   "seed": 2654435761,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 2654435761,
+    "context": [],
+    "tags": [
+     "subnet"
+    ],
+    "kind": "mc",
+    "prompt": "Um host quer falar com um IP de outra sub-rede. Para onde ele envia o pacote?",
+    "options": [
+     "Para o gateway padrão (roteador), que encaminha entre as redes",
+     "Para o endereço de broadcast da própria rede",
+     "Para o servidor DNS, que entrega o pacote",
+     "Direto para o MAC do destino, como na LAN"
+    ],
+    "answer": 0,
+    "explanation": "O host compara o destino com a própria máscara. Se cair fora da sua rede, entrega ao gateway — o MAC de destino do quadro é o do roteador, não o do host final.",
+    "hint": "Fora da rede, sempre passa por alguém."
+   },
+   "checks": [
+    {
+     "answer": 0,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1013904226,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 1013904226,
+    "context": [],
+    "tags": [
+     "subnet"
+    ],
+    "kind": "mc",
+    "prompt": "Por que um Rootkit é difícil de detectar?",
+    "options": [
+     "Ele apaga a rede sem fio do computador",
+     "Ele se esconde do próprio sistema operacional, mascarando processos e arquivos",
+     "Ele só funciona quando a máquina está desligada",
+     "Ele avisa o antivírus antes de agir"
+    ],
+    "answer": 1,
+    "explanation": "Rootkit vem de \"root\" (privilégio máximo) + \"kit\": com privilégio total ele altera o que o sistema reporta. Por isso a detecção usa varredura externa e comparação de integridade — no jogo, o Scanner.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3668339987,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 3668339987,
+    "context": [],
+    "tags": [
+     "subnet"
+    ],
+    "kind": "mc",
+    "prompt": "O que a máscara de sub-rede indica?",
+    "options": [
+     "Quantos switches existem na rede",
+     "A velocidade máxima da conexão",
+     "Quantos bits do endereço identificam a rede e quantos identificam o host",
+     "O endereço físico da placa de rede"
+    ],
+    "answer": 2,
+    "explanation": "Em /24 (255.255.255.0), 24 bits são de rede e 8 são de host — 256 endereços no bloco, 254 utilizáveis.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 2,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2027808452,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 2027808452,
+    "context": [],
+    "tags": [
+     "subnet"
+    ],
+    "kind": "mc",
+    "prompt": "Por que um Rootkit é difícil de detectar?",
+    "options": [
+     "Ele só funciona quando a máquina está desligada",
+     "Ele apaga a rede sem fio do computador",
+     "Ele avisa o antivírus antes de agir",
+     "Ele se esconde do próprio sistema operacional, mascarando processos e arquivos"
+    ],
+    "answer": 3,
+    "explanation": "Rootkit vem de \"root\" (privilégio máximo) + \"kit\": com privilégio total ele altera o que o sistema reporta. Por isso a detecção usa varredura externa e comparação de integridade — no jogo, o Scanner.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 387276917,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 387276917,
+    "context": [],
+    "tags": [
+     "subnet"
+    ],
+    "kind": "mc",
+    "prompt": "Para que serve dividir uma rede em sub-redes?",
+    "options": [
+     "Dar mais memória aos servidores",
+     "Aumentar a velocidade do cabo de rede",
+     "Trocar o endereço MAC dos dispositivos",
+     "Separar grupos de hosts, reduzindo o alcance de broadcast e limitando a propagação de um ataque"
+    ],
+    "answer": 3,
+    "explanation": "Cada sub-rede é um domínio de broadcast próprio. Segmentar reduz o tráfego desnecessário e impede que um host comprometido alcance toda a empresa — é a base do princípio de menor privilégio na rede.",
+    "hint": "Pense em compartimentos estanques de um navio."
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3041712678,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 3041712678,
+    "context": [],
+    "tags": [
+     "subnet"
+    ],
+    "kind": "mc",
+    "prompt": "Para que serve dividir uma rede em sub-redes?",
+    "options": [
+     "Aumentar a velocidade do cabo de rede",
+     "Dar mais memória aos servidores",
+     "Trocar o endereço MAC dos dispositivos",
+     "Separar grupos de hosts, reduzindo o alcance de broadcast e limitando a propagação de um ataque"
+    ],
+    "answer": 3,
+    "explanation": "Cada sub-rede é um domínio de broadcast próprio. Segmentar reduz o tráfego desnecessário e impede que um host comprometido alcance toda a empresa — é a base do princípio de menor privilégio na rede.",
+    "hint": "Pense em compartimentos estanques de um navio."
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1401181143,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 1401181143,
+    "context": [],
+    "tags": [
+     "subnet"
+    ],
+    "kind": "mc",
+    "prompt": "Por que um Rootkit é difícil de detectar?",
+    "options": [
+     "Ele avisa o antivírus antes de agir",
+     "Ele apaga a rede sem fio do computador",
+     "Ele só funciona quando a máquina está desligada",
+     "Ele se esconde do próprio sistema operacional, mascarando processos e arquivos"
+    ],
+    "answer": 3,
+    "explanation": "Rootkit vem de \"root\" (privilégio máximo) + \"kit\": com privilégio total ele altera o que o sistema reporta. Por isso a detecção usa varredura externa e comparação de integridade — no jogo, o Scanner.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 4055616904,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 4055616904,
+    "context": [],
+    "tags": [
+     "subnet"
+    ],
+    "kind": "mc",
+    "prompt": "Um host quer falar com um IP de outra sub-rede. Para onde ele envia o pacote?",
+    "options": [
+     "Para o gateway padrão (roteador), que encaminha entre as redes",
+     "Para o endereço de broadcast da própria rede",
+     "Direto para o MAC do destino, como na LAN",
+     "Para o servidor DNS, que entrega o pacote"
+    ],
+    "answer": 0,
+    "explanation": "O host compara o destino com a própria máscara. Se cair fora da sua rede, entrega ao gateway — o MAC de destino do quadro é o do roteador, não o do host final.",
+    "hint": "Fora da rede, sempre passa por alguém."
+   },
+   "checks": [
+    {
+     "answer": 0,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2415085369,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 2415085369,
+    "context": [],
+    "tags": [
+     "subnet"
+    ],
+    "kind": "mc",
+    "prompt": "Um host quer falar com um IP de outra sub-rede. Para onde ele envia o pacote?",
+    "options": [
+     "Direto para o MAC do destino, como na LAN",
+     "Para o gateway padrão (roteador), que encaminha entre as redes",
+     "Para o endereço de broadcast da própria rede",
+     "Para o servidor DNS, que entrega o pacote"
+    ],
+    "answer": 1,
+    "explanation": "O host compara o destino com a própria máscara. Se cair fora da sua rede, entrega ao gateway — o MAC de destino do quadro é o do roteador, não o do host final.",
+    "hint": "Fora da rede, sempre passa por alguém."
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 774553834,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 774553834,
+    "context": [],
+    "tags": [
+     "subnet"
+    ],
+    "kind": "mc",
+    "prompt": "Por que um Rootkit é difícil de detectar?",
+    "options": [
+     "Ele se esconde do próprio sistema operacional, mascarando processos e arquivos",
+     "Ele só funciona quando a máquina está desligada",
+     "Ele avisa o antivírus antes de agir",
+     "Ele apaga a rede sem fio do computador"
+    ],
+    "answer": 0,
+    "explanation": "Rootkit vem de \"root\" (privilégio máximo) + \"kit\": com privilégio total ele altera o que o sistema reporta. Por isso a detecção usa varredura externa e comparação de integridade — no jogo, o Scanner.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 0,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3428989595,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 3428989595,
+    "context": [],
+    "tags": [
+     "subnet"
+    ],
+    "kind": "mc",
+    "prompt": "Por que um Rootkit é difícil de detectar?",
+    "options": [
+     "Ele avisa o antivírus antes de agir",
+     "Ele se esconde do próprio sistema operacional, mascarando processos e arquivos",
+     "Ele só funciona quando a máquina está desligada",
+     "Ele apaga a rede sem fio do computador"
+    ],
+    "answer": 1,
+    "explanation": "Rootkit vem de \"root\" (privilégio máximo) + \"kit\": com privilégio total ele altera o que o sistema reporta. Por isso a detecção usa varredura externa e comparação de integridade — no jogo, o Scanner.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1788458060,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 1788458060,
+    "context": [],
+    "tags": [
+     "subnet"
+    ],
+    "kind": "mc",
+    "prompt": "Para que serve dividir uma rede em sub-redes?",
+    "options": [
+     "Aumentar a velocidade do cabo de rede",
+     "Separar grupos de hosts, reduzindo o alcance de broadcast e limitando a propagação de um ataque",
+     "Trocar o endereço MAC dos dispositivos",
+     "Dar mais memória aos servidores"
+    ],
+    "answer": 1,
+    "explanation": "Cada sub-rede é um domínio de broadcast próprio. Segmentar reduz o tráfego desnecessário e impede que um host comprometido alcance toda a empresa — é a base do princípio de menor privilégio na rede.",
+    "hint": "Pense em compartimentos estanques de um navio."
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  }
+ ]
+}

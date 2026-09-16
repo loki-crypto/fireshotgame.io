@@ -70,3 +70,39 @@ test.describe("com backend", () => {
     await expect(page.getByRole("button", { name: /Emitir/ })).toHaveCount(0);
   });
 });
+
+test.describe("percurso completo", () => {
+  test.skip(!RUN, "requer a API rodando (E2E_API=1)");
+
+  test("todas as fases do currículo são jogáveis e liberam a seguinte", async ({ page }) => {
+    const errors = await collectErrors(page);
+    const email = `e2e-run-${Date.now()}@exemplo.com`;
+    await page.goto("/");
+    await page.getByRole("button", { name: "Criar conta", exact: true }).click();
+    await page.locator("input[name=name]").fill("Agente Percurso");
+    await page.locator("input[name=email]").fill(email);
+    await page.locator("input[name=password]").fill(password);
+    await page.locator("input[name=terms]").check();
+    await page.getByRole("button", { name: "Criar conta", exact: true }).click();
+    await expect(page.getByRole("tab", { name: "Mapa da rede" })).toBeVisible();
+
+    const total = await page.locator(".map-node").count();
+    expect(total).toBeGreaterThanOrEqual(6);
+
+    for (let i = 0; i < total; i++) {
+      await page.locator(".map-node").nth(i).click();
+      await page.getByRole("button", { name: /^(Iniciar|Jogar de novo)$/ }).click();
+      await startMission(page);
+      await page.evaluate(() => window.__fireshot!.answerAll());
+      await page.evaluate(() => window.__fireshot!.clearArenas());
+      await page.evaluate(() => window.__fireshot!.finish());
+      await expectMode(page, "debrief");
+      await expect(page.locator(".rewards")).not.toContainText("não validou");
+      await page.getByRole("button", { name: "Voltar à central" }).click();
+      await expect(page.getByRole("tab", { name: "Mapa da rede" })).toBeVisible();
+      await expect(page.locator(".map-node.done")).toHaveCount(i + 1);
+    }
+    await expect(page.locator(".map-node.locked")).toHaveCount(0);
+    expect(errors).toEqual([]);
+  });
+});

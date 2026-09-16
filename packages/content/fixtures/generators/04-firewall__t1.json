@@ -1,0 +1,2827 @@
+{
+ "source": "04-firewall/t1",
+ "generator": "port_service_match",
+ "params": {
+  "count": 5
+ },
+ "seeds": [
+  {
+   "seed": 2654435761,
+   "sha256": "c101ac7d179b172988fd5fc059dde374bd0e7acfd835cbd1e5c6072a12f82c22"
+  },
+  {
+   "seed": 1013904226,
+   "sha256": "93435377c82d4a5ef6980e0915962c70b1666e7d6282e9e66d591af8478f0e04"
+  },
+  {
+   "seed": 3668339987,
+   "sha256": "42569d87cac08be4b8abbf25c0144e36e90a8a8751bc78fbc7b96cc1f4d802fc"
+  },
+  {
+   "seed": 2027808452,
+   "sha256": "a4d669298a577d076965243567c9b345af293772f297d212b1ff4f100f372c49"
+  },
+  {
+   "seed": 387276917,
+   "sha256": "85940d4c4454d610da74873213c9a40ecb266e7da4dc00cede38701879f214bd"
+  },
+  {
+   "seed": 3041712678,
+   "sha256": "0fd920d899854560f8d3820c7c2b033b2077ffa1f18fd300256f6d90e4ed5d55"
+  },
+  {
+   "seed": 1401181143,
+   "sha256": "6578c33ff9b4a9882ac6342290fcc650f9bf2f39d241a3a3a41cf2358d42bf9f"
+  },
+  {
+   "seed": 4055616904,
+   "sha256": "c15c87ca9658cddbd4ead9432a863d3db3cb98f518cff3b1580f6528d0bc042f"
+  },
+  {
+   "seed": 2415085369,
+   "sha256": "375ff00c9456461ca6c84ea74b0ae4932dad2c21c12a49734bab4654e0440a6c"
+  },
+  {
+   "seed": 774553834,
+   "sha256": "77852feb132835bb88610040e95691b76b6c51e36043d325c28b9725377b740b"
+  },
+  {
+   "seed": 3428989595,
+   "sha256": "25c8972ce15d6f958309554287cc591fc1bc468047bc2508e1341b4c0e043c85"
+  },
+  {
+   "seed": 1788458060,
+   "sha256": "75dde272a09f76f8c3faac5808651e361be703bb23d19ced4c542569184a10ee"
+  },
+  {
+   "seed": 147926525,
+   "sha256": "e9806ededf40a23e2a974555db851dec8d7511377e4686a8e8634385af7b7cba"
+  },
+  {
+   "seed": 2802362286,
+   "sha256": "4fd70f06d29ea05a70f6eac1943bebbd23994433467d20af8c367c8a7cc2f770"
+  },
+  {
+   "seed": 1161830751,
+   "sha256": "55d0a1aa8fafa7b8a2114c6cd7c44b66373fe9fc243de7db5840bc6d20cb4a4e"
+  },
+  {
+   "seed": 3816266512,
+   "sha256": "5d4b3b2ea7ca34bc1265c39c6e8d50531c20315d431545435cee9fd59787e1b3"
+  },
+  {
+   "seed": 2175734977,
+   "sha256": "5f7cb6299e6be4002a2b6e46870b80419326ce0a88efa3d8923987e1c9ed9a87"
+  },
+  {
+   "seed": 535203442,
+   "sha256": "31132d066e137bbdca2cdbfaeb8b3006392223df5e60ef7b4e997f17b9aaeaba"
+  },
+  {
+   "seed": 3189639203,
+   "sha256": "d4883e0f5e183495f0d1c8f8841419d7ec97db93c6c66ce09e4dcdbab5b03e91"
+  },
+  {
+   "seed": 1549107668,
+   "sha256": "bf73b70f918b4dd1e5e1b292530242dad7d13654b39ec7027746b964ed314ea6"
+  },
+  {
+   "seed": 4203543429,
+   "sha256": "7ea0252df21ef4960c8ccef6e129e2499742fdaa377134121810f3ea38f25d52"
+  },
+  {
+   "seed": 2563011894,
+   "sha256": "33b1c08f2f07c74dbaa12e772093bd2d1ebc4136aa00a9593c22abfde2b3f267"
+  },
+  {
+   "seed": 922480359,
+   "sha256": "82195dafca3fc650e7f583f399fd7a3ae3864b8d9d8a5ea9d5d9f117b8ca270a"
+  },
+  {
+   "seed": 3576916120,
+   "sha256": "871e72ce1166d029bd63e0cd5b5ce397b67d1dc87a2b4d3c3e781d7ad38c46d1"
+  },
+  {
+   "seed": 1936384585,
+   "sha256": "673b557999fb12056a97aa6f93847d0feacc8a9e70a21b1d912bbe0fb9a88418"
+  },
+  {
+   "seed": 295853050,
+   "sha256": "39d580c1ce56d3d3e6ce10fb441e1d2a6a31f79336e54dcd5a8628ce00025548"
+  },
+  {
+   "seed": 2950288811,
+   "sha256": "c4faef0cb7de0ca19f19d17d65e61a24d01200bf5aafb4dfa9798687841011ac"
+  },
+  {
+   "seed": 1309757276,
+   "sha256": "6bc30fc00c5e3f7fb80c9c3ed6f0fbb2749615d22aaece0a86d185203cca3e49"
+  },
+  {
+   "seed": 3964193037,
+   "sha256": "a35921e274042992a59372e7a1fb7a3e65d9dbbd38afae57b54e86cffe48f80c"
+  },
+  {
+   "seed": 2323661502,
+   "sha256": "64acd49e469f8018c5a9b9a8cf71c881c4d4e41ae632e40c74d5fea21bc401eb"
+  },
+  {
+   "seed": 683129967,
+   "sha256": "51eddff16f576535ac03e5dc76705bb3d5ed3ffcadb0bb467014ab3d539341ff"
+  },
+  {
+   "seed": 3337565728,
+   "sha256": "50d4c7178daceb6e5a449a91e1d41c8b8352aa724076d841f76288c106fab63f"
+  },
+  {
+   "seed": 1697034193,
+   "sha256": "f635dba98a2c2aaa5b1fbb4370263f03e9da1400e27f6ad206d56d57268ac33b"
+  },
+  {
+   "seed": 56502658,
+   "sha256": "4c35d8b28b554ea88df0eb4fef392c6ae9298efed72044b76f8aaab3344d18bb"
+  },
+  {
+   "seed": 2710938419,
+   "sha256": "0b39b764bb5a01e4704198f8d8251d3909d160b4cde7f3e03d276f362ce29221"
+  },
+  {
+   "seed": 1070406884,
+   "sha256": "ed9cab66783d354e85b2be002fd473de02ff31057e57d0af6d045c5267fd3663"
+  },
+  {
+   "seed": 3724842645,
+   "sha256": "13099c5482b3d5c2858530970225925999efe16698c08a4679149d27f407a798"
+  },
+  {
+   "seed": 2084311110,
+   "sha256": "b7d16b6609d84c899e43f26f7282a9101656480c5782a1e5f5c831606eb5c3fe"
+  },
+  {
+   "seed": 443779575,
+   "sha256": "c051fcd7169b3f68e36bc307f04b54a7dc686b79fecd8c34e46dccd8507b60f2"
+  },
+  {
+   "seed": 3098215336,
+   "sha256": "879b3d0ecab8572e60925f3d1e4ee841cfc9f9f26c0bc235a3ef670e0c6f3e8e"
+  },
+  {
+   "seed": 1457683801,
+   "sha256": "dbfc1e70036cdcf59fc60844d166a3cf7794d9aae5c3f8f9d4fceab4ea5cd5b3"
+  },
+  {
+   "seed": 4112119562,
+   "sha256": "9bd439cb111a863a6445308e9bf1d34d45da414944cf0b48559b4491ec701914"
+  },
+  {
+   "seed": 2471588027,
+   "sha256": "ae31019fab483184dfb6924bc30cc8f98ba4823c8b137ff94a280375cf30ea5e"
+  },
+  {
+   "seed": 831056492,
+   "sha256": "d4aaca796031f65fb37c8fea78b67b5474af29416e8c1ee5c7b176843f6bf56e"
+  },
+  {
+   "seed": 3485492253,
+   "sha256": "d54abb02e00b1b4a3cb1d44c7e89fc1cd2039f7996811cd7dd3a7b5eb3b18c54"
+  },
+  {
+   "seed": 1844960718,
+   "sha256": "cf43fae227472728f209ea629c64a4045d46c3cc7dacd3c30d3b2c94b906d384"
+  },
+  {
+   "seed": 204429183,
+   "sha256": "144b6714e53e8858ae883f6601d66af90ba91833e2b5f82c1d2ee045e971c6d9"
+  },
+  {
+   "seed": 2858864944,
+   "sha256": "228d8afd33af4935975b1341ee90e44c11e41959a322f663eebdea955f4d1e5d"
+  },
+  {
+   "seed": 1218333409,
+   "sha256": "6d083f3f449c0dd8253b9803c142c570c2c047c1736dbf7b93f0ee5d9bc70768"
+  },
+  {
+   "seed": 3872769170,
+   "sha256": "c988502cdb384f1193e14fc730e62124daf186e3621bb5d94281e0186248cedf"
+  },
+  {
+   "seed": 2232237635,
+   "sha256": "42b736f2d49c257ab072dc8f21b1e5d5264eca361a02cf9298b857841c1b527b"
+  },
+  {
+   "seed": 591706100,
+   "sha256": "3df22b9e4c5b1894fb6128123086b15edb3527733bff0eb5a3a537a612c6ea02"
+  },
+  {
+   "seed": 3246141861,
+   "sha256": "971ab62d09cd6716f20acfd243b7940cfbc75e27a17625bf86d84f2eaab30981"
+  },
+  {
+   "seed": 1605610326,
+   "sha256": "05b1df5c9ad5d11571951ad216af27d786df7a8a663a10a6071a721479b2c3c3"
+  },
+  {
+   "seed": 4260046087,
+   "sha256": "0fee0763701747e83111bc3b47898b3f3011989be7ae009e824dee7646813ff6"
+  },
+  {
+   "seed": 2619514552,
+   "sha256": "acc4595d69c2b2dd2a803ac14433c7091200254a6353761c1f72b4732d796ef6"
+  },
+  {
+   "seed": 978983017,
+   "sha256": "a216d36216b327c7729b7f049149b55d57033075d1e488c372b2582902691f4e"
+  },
+  {
+   "seed": 3633418778,
+   "sha256": "3fa5843c6aaa74da4b1cfad9c370d49351e15ebd2f8165e2ef8d9a08184208a4"
+  },
+  {
+   "seed": 1992887243,
+   "sha256": "10c4fe9c9f0f25c16cab843599eb8d8383775ee609c625cc8601292e19080cd4"
+  },
+  {
+   "seed": 352355708,
+   "sha256": "18db0637dfdb4887421b7c77da5cbc0e0d93aff3a9f62c8335312f2360df9bed"
+  },
+  {
+   "seed": 3006791469,
+   "sha256": "6e9c388d656a3b1ae503233b9b581c0a36b9d578be21ba98f6b3e2e05b42725f"
+  },
+  {
+   "seed": 1366259934,
+   "sha256": "c6f68168c57cf1d47ddc850cf2134c15dc9e58ade89f56376d79e1b2065d1af6"
+  },
+  {
+   "seed": 4020695695,
+   "sha256": "e096cba1b6920136e6fcfb856c77fb26d14990c570d6a8cfe2f4446c8bf98cb0"
+  },
+  {
+   "seed": 2380164160,
+   "sha256": "98ed9ac6ab97220480b1d0e895a0cc5112aeddbb3eeabdedc3cd15f07f04c0ac"
+  },
+  {
+   "seed": 739632625,
+   "sha256": "4398c90c8a9fd48ae92c3d733e3ae47329267888ee8acce9366f44ba2bce747e"
+  },
+  {
+   "seed": 3394068386,
+   "sha256": "1b57dd4cd7e255edee8da4210c4a55dfda117631f276d1e41f406d6362f3993f"
+  },
+  {
+   "seed": 1753536851,
+   "sha256": "d0c41125984860750782b5c8d230ce0d4a1dc106868984ad26e6d97a68b4c6ba"
+  },
+  {
+   "seed": 113005316,
+   "sha256": "ea0b001b501f159193dd0dca2926dd086600d70c4a244a3d963c0314cf0d17c7"
+  },
+  {
+   "seed": 2767441077,
+   "sha256": "3948a49ad64d341f56c8f3ffee4efdc1a07495ad9dace44260568b50a34d7bd5"
+  },
+  {
+   "seed": 1126909542,
+   "sha256": "12e053192400edb323cd66af31a889fdb197095d89043106e25e82b3d42d227e"
+  },
+  {
+   "seed": 3781345303,
+   "sha256": "9acc07cf0236852a3af08b25b38b27b1e26680d91ab64f37ab6d7e6a8a653993"
+  },
+  {
+   "seed": 2140813768,
+   "sha256": "1a96315df26eb54ad8db298041456985132c6fabb6d6313114388b8bc2b88d58"
+  },
+  {
+   "seed": 500282233,
+   "sha256": "e628deefbf69f511b247b38c929e707efd1cc4ccf5af1e3d7eefd0143370d6c4"
+  },
+  {
+   "seed": 3154717994,
+   "sha256": "07884d8be2f3b055bd77bbdbf616f1636dc4411a24ef9e02b62dac29dee7f3ff"
+  },
+  {
+   "seed": 1514186459,
+   "sha256": "a83bb1eb8c042f3ff827423e480be1c72d8a11fd03e8892f264ff2e1f9299499"
+  },
+  {
+   "seed": 4168622220,
+   "sha256": "b4959bc7422121d5b941beca965a34ff2668e19d0d42c5367352bb110cf72261"
+  },
+  {
+   "seed": 2528090685,
+   "sha256": "80a121b8f50b777ad25ede60f2045eaf0fbb30dceb116a8508dd06f446a1a758"
+  },
+  {
+   "seed": 887559150,
+   "sha256": "a1beceeb3279537cc6252aab46bd3a11c09d977096044b2f1ac269861c4bdf3b"
+  },
+  {
+   "seed": 3541994911,
+   "sha256": "a804628401d43b2763af5f33e7f25deefad761cfd8acb2bbba440ae9d3f2e5a3"
+  },
+  {
+   "seed": 1901463376,
+   "sha256": "126ee0d0184a3130c77e654f1d9ac89fde244653e2fb483817ca885b92278ad6"
+  },
+  {
+   "seed": 260931841,
+   "sha256": "2f5063236ccd123990bf172d9265134211e9e61ce6b574839175f2129ed78537"
+  },
+  {
+   "seed": 2915367602,
+   "sha256": "2ab6cf1e1ca45fee66458d39eb90a561ec15604db9d7333534edc9c25f87488f"
+  },
+  {
+   "seed": 1274836067,
+   "sha256": "1bc0ad68b9265ab584c18c7ae485cbba27965ee9bfdf567acdc958ef70563456"
+  },
+  {
+   "seed": 3929271828,
+   "sha256": "7d0722e74fb0594fb3f1f390e6ce38c0659c94fce82fb6988d3208f0c8c2edec"
+  },
+  {
+   "seed": 2288740293,
+   "sha256": "e0907530d803e7310cb9dd91383332a20ed6b7bb0f6b6f42e721691873dd0ec9"
+  },
+  {
+   "seed": 648208758,
+   "sha256": "1b6e038d47e44838a3096563d7af45bff70a89b52f88d5486778331ee82a9494"
+  },
+  {
+   "seed": 3302644519,
+   "sha256": "abdf269abafaa0f7f52cae5c2724979966e1d75bdd62c03eb70f5caaa6d05c11"
+  },
+  {
+   "seed": 1662112984,
+   "sha256": "244aee5de1f53e1d623f9f24bd8ba81cb7fb04cc308d4e143a6777ae56d05718"
+  },
+  {
+   "seed": 21581449,
+   "sha256": "77ee87bdc5e74270f61412c1d06770ae97c89e9e4eafb2aa9af1b5a5b36bb103"
+  },
+  {
+   "seed": 2676017210,
+   "sha256": "96fa2a60c2484ede53c98c2e8549c51e6bb6a69cece030c964d66a1c8d22469f"
+  },
+  {
+   "seed": 1035485675,
+   "sha256": "4b5f3d2b88cdf9d8b935fe0779d8f91ae3725f1774ff07bb81a9ba30293c5cae"
+  },
+  {
+   "seed": 3689921436,
+   "sha256": "a56eaa031df02866250f50bd1797de959cdf5852cb997b765df9ac9580c0ce45"
+  },
+  {
+   "seed": 2049389901,
+   "sha256": "162fe515d27e59b7d7e7a56abc5c1199d56ed25e8118f5c98a32da768eddbc6e"
+  },
+  {
+   "seed": 408858366,
+   "sha256": "51bf58b29131b607988a0201dbff160d26d99b24f4df8e90eac32d4d96685921"
+  },
+  {
+   "seed": 3063294127,
+   "sha256": "1414873bacbf94dcaccf785b681dea8c18ba12a6565e23f93192ef4739ad17bd"
+  },
+  {
+   "seed": 1422762592,
+   "sha256": "5615e7273e3abbc7c5a325bea32c8a8394c5dc7274d81b9e1261df543c34f5b0"
+  },
+  {
+   "seed": 4077198353,
+   "sha256": "d658c7e0b1759087f3105d7ad50bf08c572d2daef1680acbddf81c76a93b6757"
+  },
+  {
+   "seed": 2436666818,
+   "sha256": "591eaf792db422a6c4cb8a152544e6d4fb7046e9e29bd4a3afc9d0d0bab0bea4"
+  },
+  {
+   "seed": 796135283,
+   "sha256": "16a05f5389f948fca9e72f007856db4f3ff9084d40b84045af1f81197e69549b"
+  },
+  {
+   "seed": 3450571044,
+   "sha256": "8de27cf33dfc2c2c16ffb46c1748eb37d953995a370a40edf8a0e869f3dc5c1b"
+  },
+  {
+   "seed": 1810039509,
+   "sha256": "495fad7dcc3fbb1cebaacac2b2692703c54dc50151e3204946d97cc6406c4d1a"
+  },
+  {
+   "seed": 169507974,
+   "sha256": "870c433f7968841d43250b7f544113b21de1532a06f35a152673786bdb9b675f"
+  },
+  {
+   "seed": 2823943735,
+   "sha256": "1684d54d1aa3756f2f478fad685df0247c134291c13bafd6ec3d88696bc7c737"
+  },
+  {
+   "seed": 1183412200,
+   "sha256": "0f6c9c3abba05088ba09d212cb26dc728310a380f05fc96f5e28ad2af5945105"
+  },
+  {
+   "seed": 3837847961,
+   "sha256": "5c72a3ae9554c16b169f04c615b05b70a8a303a48bff6ac1a0b65faaf8017501"
+  },
+  {
+   "seed": 2197316426,
+   "sha256": "324c3984df0c4299adc6d29fac78ccefdae1f4cf3b51c3ab5b7e549a309fbb3f"
+  },
+  {
+   "seed": 556784891,
+   "sha256": "7c70d212a81dd3dcc1ad514918c0e266f4db87056b71519b5e6f3f5021ed8e23"
+  },
+  {
+   "seed": 3211220652,
+   "sha256": "6e1f53a048bfc76516e2fdfdf02f314579b4d5feadd901276e395b2a00c8c68e"
+  },
+  {
+   "seed": 1570689117,
+   "sha256": "6dc36fd549ef03a99b51019b007d931588521c1e593a29aa41c5696f314b1e14"
+  },
+  {
+   "seed": 4225124878,
+   "sha256": "87bb4199d6ae771ed083205389b213d76634339836c3b844bd727e92afc87cbc"
+  },
+  {
+   "seed": 2584593343,
+   "sha256": "8022df67f6ba9c3d1e2b62035a9ec328eaed693332d379e7a6988453d26d93df"
+  },
+  {
+   "seed": 944061808,
+   "sha256": "cd7e64a2491dcf843c1be61b4b6ce67bd0436f5442942dbf46e84f3029555333"
+  },
+  {
+   "seed": 3598497569,
+   "sha256": "5a3b44a379f8914b33f524a2cb8d08d62e31f77dc8dd25bba486c3bcb03b52e9"
+  },
+  {
+   "seed": 1957966034,
+   "sha256": "23722a9af7743b75082f71f89df2866e4262a3efe660ede9ae81fcb61b784e2e"
+  },
+  {
+   "seed": 317434499,
+   "sha256": "a771494836406b81c022da3feffeabb229a0ff430a21ad8fb90abb5ac9a7bc01"
+  },
+  {
+   "seed": 2971870260,
+   "sha256": "f0e4d344165b30ee1d00e86ba73e3eddf0f137234afa4cc42e31f6949338a5ad"
+  },
+  {
+   "seed": 1331338725,
+   "sha256": "2c23c52a9857dad69a022063f7b51684b1711f37227e1b161444c1477c1ce485"
+  },
+  {
+   "seed": 3985774486,
+   "sha256": "2c1f9747768403676a5b714f35ac5dab54c68eaf8971404953434af66b942b74"
+  },
+  {
+   "seed": 2345242951,
+   "sha256": "425b9e41e263ca213515ca1e71e9ecf1571138a1c804cfab27c5e447c75c4997"
+  },
+  {
+   "seed": 704711416,
+   "sha256": "e95cae0984e26c2d9328ece0dc28dd8f24162f36ebe2cef7b6f8a65a56991cf5"
+  },
+  {
+   "seed": 3359147177,
+   "sha256": "bcc40546bc46d6cfe407a2fafde24adad22074f3dac7ef7c659ce4ca5aa1b3ee"
+  },
+  {
+   "seed": 1718615642,
+   "sha256": "5d823a1b0411c157293475f35f2968fa270b5eece0319002cc26a2b75bfe835d"
+  },
+  {
+   "seed": 78084107,
+   "sha256": "15638a5200bee661d64522c3b0ed2ce35b6289cdb02a52600928afd4693f37b9"
+  },
+  {
+   "seed": 2732519868,
+   "sha256": "24d5595912a49ed976ee4240815c8b83149dc79b81560a4245fd5bf0ff4b52e3"
+  },
+  {
+   "seed": 1091988333,
+   "sha256": "79dd2e6f952f59683db333a2766fe0545937e187ff5e5cf0d4107990c7d2aec8"
+  },
+  {
+   "seed": 3746424094,
+   "sha256": "f93a8b07827a40d5d3d02a0b2c83e4c94db4939ab545ab35e344ba8a6ee400cb"
+  },
+  {
+   "seed": 2105892559,
+   "sha256": "23211a4c8f7beee85a033f125805a4cccdb7e182b6a6cc3caa92788b3c41d366"
+  },
+  {
+   "seed": 465361024,
+   "sha256": "9272ef6afc55ccf8b86a3b664c32fdefbfb3ef5814956a95a3c1bc9706c12927"
+  },
+  {
+   "seed": 3119796785,
+   "sha256": "ed6538bbd0efcead870b7fa9fe023a513bb61cef4ca4325e6ecd8670ff426cb4"
+  },
+  {
+   "seed": 1479265250,
+   "sha256": "9a896122eb65a17401f928594ece450dcf0719df2a637392957d0c9ab80c6f67"
+  },
+  {
+   "seed": 4133701011,
+   "sha256": "2eccd50739cd92dff8d6ec3df0cfabe3544346b60304c96b051210a642d6b2f3"
+  },
+  {
+   "seed": 2493169476,
+   "sha256": "20ab03e05936a14587635cea0ff82d76e1b7650e907caa2e389ffa8a74aea285"
+  },
+  {
+   "seed": 852637941,
+   "sha256": "f5004662f7cc244a4996e01de30c57d54daf8dd17c032c4f8d65ed3b27797af5"
+  },
+  {
+   "seed": 3507073702,
+   "sha256": "195fbdcfefed718805e3c9a4eed33a2bb387695a0419e766f8d6128258211f66"
+  },
+  {
+   "seed": 1866542167,
+   "sha256": "4117da732e4a4c2d8f0907b32e0ca3689846a24fdcdabc578a7045058cea781b"
+  },
+  {
+   "seed": 226010632,
+   "sha256": "4b6b1eb047e79dec5aab6e8ef40bf9effedcb3451a1562dd2f9aa064b0d193a3"
+  },
+  {
+   "seed": 2880446393,
+   "sha256": "0690739c19d1962fa837bdc6ed3e6b5dab17e2060a8bd0a15d6542e5d4ebff06"
+  },
+  {
+   "seed": 1239914858,
+   "sha256": "9e15fbbbceeeaa6525bc557eaedb06ae2ca4c1b81196f0c52dc91f042eee3ed7"
+  },
+  {
+   "seed": 3894350619,
+   "sha256": "2970d2bf9d59deee4b54c5493a2e3b0c5fe8cb35b338c524b9027182755b485c"
+  },
+  {
+   "seed": 2253819084,
+   "sha256": "62d48d76d6616bd8ed7ccc52b8814cf05ee5dfb3af2b456fd04266b7ab088d69"
+  },
+  {
+   "seed": 613287549,
+   "sha256": "537ecdde3b2e67916d0ddefbe75946e658c61ea5805e201e9bd6eaff764ebbb1"
+  },
+  {
+   "seed": 3267723310,
+   "sha256": "dcd790570cc9193b767b9da64f88b197f4b0858fc9621daf9b6ca5eba3621e57"
+  },
+  {
+   "seed": 1627191775,
+   "sha256": "8e11e0534c770549725456463b28ea94c55b18429851ecff274977e368f48780"
+  },
+  {
+   "seed": 4281627536,
+   "sha256": "1a478a4248f6f4e8fcb3a4fc8f8ee72794d527c7333c080e200e81cd89ce377f"
+  },
+  {
+   "seed": 2641096001,
+   "sha256": "42bee1558c50e0b4a71abcc9650aad7921194ec83474b410370b09260992a141"
+  },
+  {
+   "seed": 1000564466,
+   "sha256": "92ca61c516858d83b9e85d6551c7ffb378d929a034c3f1a13fb06da0be954d97"
+  },
+  {
+   "seed": 3655000227,
+   "sha256": "84bac71ff3bb6e411b52e587adc56eb5f16fda32597bfa13165608b9c2ef0b83"
+  },
+  {
+   "seed": 2014468692,
+   "sha256": "8a03469d20aef09e4fa11d45658ed70a26269e17a07a6c0c773951226d0c45bd"
+  },
+  {
+   "seed": 373937157,
+   "sha256": "263efd2023671b49a4570f899cd37a530364f61ea7550f6326880548ba7392d1"
+  },
+  {
+   "seed": 3028372918,
+   "sha256": "7ea5946fba87ad2a47af04e22c948e65ae410f5be9d9202b2f21b5d0cbd627ae"
+  },
+  {
+   "seed": 1387841383,
+   "sha256": "ca59fc5d1ffa9ace9b389ba4ff8e3ee38e6b3bdcefd49ba92229083708a6f0f7"
+  },
+  {
+   "seed": 4042277144,
+   "sha256": "fac5bd55bf7cb1e17d77b2592be7afaa6bb98c152ff9bf3a4015a7d1a121bd74"
+  },
+  {
+   "seed": 2401745609,
+   "sha256": "a64bbfb36c7ab91f6eebd008aee61a9ece7bade5c54158bf0cc5fb23ba62d89b"
+  },
+  {
+   "seed": 761214074,
+   "sha256": "586c9ae155891fd8e23559ddd92d5a26be3791f92d3004da99e88aea4c1acd2c"
+  },
+  {
+   "seed": 3415649835,
+   "sha256": "54ae0ba750f09f8a3c058cc9e2f214a159d604f56fd79141d28a53a0e7ca3565"
+  },
+  {
+   "seed": 1775118300,
+   "sha256": "3d1fbb75218eb515a77e28886a5f32ee19db1fb3cfc0b40d040833eff1881dd6"
+  },
+  {
+   "seed": 134586765,
+   "sha256": "75642e1d8297f0fc795d07f840a2d711f4845b9ded08334e4c0309577015e5d3"
+  },
+  {
+   "seed": 2789022526,
+   "sha256": "8989597e1482a9983695b7abdd88e87eb03eb076807c233afad02a019b70155a"
+  },
+  {
+   "seed": 1148490991,
+   "sha256": "f9dbf0366d9fc6e78e812fdd8435f752d96b503883558edb31de534054b1d01d"
+  },
+  {
+   "seed": 3802926752,
+   "sha256": "b7df735e803be718120551d24a775466069aed5223fdc3391ef6a1a54865b764"
+  },
+  {
+   "seed": 2162395217,
+   "sha256": "dcedf20d1ad24c6850697318844a493e6dd54c4f5a418fd4587b46e08755a73c"
+  },
+  {
+   "seed": 521863682,
+   "sha256": "ae7dbd9ae45caef5c269f34f84bab89d135559891d048e4553cd419a5b1774a3"
+  },
+  {
+   "seed": 3176299443,
+   "sha256": "5891ed020bf3f7e6d38917419683052f7006533da5fc427388c74a609dd4c48e"
+  },
+  {
+   "seed": 1535767908,
+   "sha256": "71aa4db8b55e0ca52e273a160f89d3a94eee0e7c9b3f4f42603a952ca935a356"
+  },
+  {
+   "seed": 4190203669,
+   "sha256": "fc548ddc0df6e5f72da364d34006fc37d292798ac768bf7b99ab0907593811ba"
+  },
+  {
+   "seed": 2549672134,
+   "sha256": "49573ace0ec2962d625348a2752f273a3b8c2f1676defa1f1e418ffd0893fed1"
+  },
+  {
+   "seed": 909140599,
+   "sha256": "92fe99fd19bf19d8f08ee11bf47473ac08eb6d8b1fc1eb9f55d9e24dfa5b5ae4"
+  },
+  {
+   "seed": 3563576360,
+   "sha256": "8952c6e2664a8111e878deaee2c0e8239a019fc091df2ed05b3d78e75c9e2938"
+  },
+  {
+   "seed": 1923044825,
+   "sha256": "43bad7d4ac3eace06fa9eced71f6861cdb93a616e59f19f62e340911111c871f"
+  },
+  {
+   "seed": 282513290,
+   "sha256": "17c2bc9aae589581ec1af0eea8e12090c2ac2deedc35e186f42e74f10511d1e3"
+  },
+  {
+   "seed": 2936949051,
+   "sha256": "c52c1a2c6a94e105ef702533e917f2b5c8c5cc2ab6dce21fcb2cd547df3ada11"
+  },
+  {
+   "seed": 1296417516,
+   "sha256": "71aed4bccf5231145862ba78dda0ce62839d05caeac45d99fd9d2bf413c81ac2"
+  },
+  {
+   "seed": 3950853277,
+   "sha256": "837d1bbc63a6730c8029dca13aa8a410fcec33fb73d74452fa653cfef1cbcfc3"
+  },
+  {
+   "seed": 2310321742,
+   "sha256": "001cf56a6fe6a2f3d87a92df6f0c8ee461bd0c2d8ae7f47ddf7a28e4e3b13880"
+  },
+  {
+   "seed": 669790207,
+   "sha256": "f4e1e4cfcc8de4786f33ad771b630366b0321382c7afe323695a3b21d52b85b8"
+  },
+  {
+   "seed": 3324225968,
+   "sha256": "644408f34ee801546f3cbe6453bc329577b36c4ba3d67273a891f751aaa1120e"
+  },
+  {
+   "seed": 1683694433,
+   "sha256": "6dd2bafae23439585b7c0f39054ff4b1111bbba2403aa71df657efdcba99cabb"
+  },
+  {
+   "seed": 43162898,
+   "sha256": "e98439fdfd80fba5977cad53926856a6e043f43e4fcb1150ca2f1ca0ac8bd11a"
+  },
+  {
+   "seed": 2697598659,
+   "sha256": "11b72b513bfb54cab110277dff579e957527afb6a3ed9548e03ff58de3874c7b"
+  },
+  {
+   "seed": 1057067124,
+   "sha256": "2c2dadda2ba70301f0db6eac24991d084b704817772d44fc10431daa3dd3ebfe"
+  },
+  {
+   "seed": 3711502885,
+   "sha256": "7c1345b571064dd770215afc2271a2ac951a72e39b83f8829510bc7670f3546e"
+  },
+  {
+   "seed": 2070971350,
+   "sha256": "05124d1395a8f19fafe2752c2d4def86e9285796eaafa320d46673fe8151d5d8"
+  },
+  {
+   "seed": 430439815,
+   "sha256": "2bc93f4d1cd7066bb3bf2e599349675fb8719a9113e03085d13101249f727802"
+  },
+  {
+   "seed": 3084875576,
+   "sha256": "fdbdf98ed7b5e435284585a963bb7709141e323f64ff7e20ac9070d21b8b5918"
+  },
+  {
+   "seed": 1444344041,
+   "sha256": "a55677eddc087f18308fa7ed4a745d3ae7048d67bbba31b39186b6af0b8ccc62"
+  },
+  {
+   "seed": 4098779802,
+   "sha256": "508f8a72e84ed76d8636a9700eae209c0c664db2e9c2544916578136981f10ab"
+  },
+  {
+   "seed": 2458248267,
+   "sha256": "ed914b068e3fcbaf552b39e9bd0450fcbc6d7ff459f207768175e00e1b2673e4"
+  },
+  {
+   "seed": 817716732,
+   "sha256": "de5afedd07504cdab1bd8d9de8b4a75fcfbf5300634009b263a9c29ebe176632"
+  },
+  {
+   "seed": 3472152493,
+   "sha256": "8bba8f87b6ea94ff99e5d48d6241af76f229cb70ed60657984d4fb8353971baa"
+  },
+  {
+   "seed": 1831620958,
+   "sha256": "1c15713b66314a259eff6f4c19cf6a2454b82614ee98e406fd4c41ee1046cd1a"
+  },
+  {
+   "seed": 191089423,
+   "sha256": "aea0b4658c76ae98ee7ae2de6dfe91093a81b89d03c8b6ca6a1c4f3dbfa7185c"
+  },
+  {
+   "seed": 2845525184,
+   "sha256": "cb71b7065f1ea4e5e082364558a37b64ba0a7282c5b857ce79871c6fb28ead49"
+  },
+  {
+   "seed": 1204993649,
+   "sha256": "34dc8d052682cefbbce45e65a03b72054bcff1dba8013416b12662a8ac965ebc"
+  },
+  {
+   "seed": 3859429410,
+   "sha256": "b05b68e4ffba9e288b61e21bd3c08ad5d5a5e0268fa24eaca99bb14349adb551"
+  },
+  {
+   "seed": 2218897875,
+   "sha256": "988b25d21d728f1132dba6ef30943effa397abeeebd3540ff7cb9d96a5257f3d"
+  },
+  {
+   "seed": 578366340,
+   "sha256": "318bfaa3e86e1403d89454603c4d1d65f6fb7f234dcdf0a4257fe46755c4456f"
+  },
+  {
+   "seed": 3232802101,
+   "sha256": "4d309760dbcb6239ba0f1735456f9a19f60e21da436582216ceb7ec533aad166"
+  },
+  {
+   "seed": 1592270566,
+   "sha256": "3fbc37122b9946e3b2374e1c0295c8f31cc0d7184de4664d4559d76c1d228595"
+  },
+  {
+   "seed": 4246706327,
+   "sha256": "2706a8e07f738e6d1cf035d6b022a3617a2623f335e2ec00f29d65a400b0dd1d"
+  },
+  {
+   "seed": 2606174792,
+   "sha256": "8c2b2cae925f915fb8f580b5aecf87e584afe177ff9f1858df0f69701498d482"
+  }
+ ],
+ "samples": [
+  {
+   "seed": 2654435761,
+   "question": {
+    "generator": "port_service_match",
+    "seed": 2654435761,
+    "context": [],
+    "tags": [
+     "ports"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada porta ao serviço que normalmente atende nela.",
+    "left": [
+     "22",
+     "80",
+     "443",
+     "123",
+     "3306"
+    ],
+    "right": [
+     "SSH",
+     "MySQL",
+     "NTP",
+     "HTTP",
+     "HTTPS"
+    ],
+    "answer": [
+     0,
+     3,
+     4,
+     2,
+     1
+    ],
+    "explanation": "Portas são os \"ramais\" de um host: o IP leva o pacote até a máquina, a porta indica qual serviço deve atendê-lo. Conhecer as portas padrão é o que permite escrever regras de firewall precisas.",
+    "hint": "80/443 são web, 53 é DNS, 22 é SSH, 445 é compartilhamento de arquivos."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      3,
+      4,
+      2,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      4,
+      0,
+      3,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      3,
+      4,
+      2,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      3,
+      4,
+      2,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1013904226,
+   "question": {
+    "generator": "port_service_match",
+    "seed": 1013904226,
+    "context": [],
+    "tags": [
+     "ports"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada porta ao serviço que normalmente atende nela.",
+    "left": [
+     "22",
+     "21",
+     "3389",
+     "80",
+     "443"
+    ],
+    "right": [
+     "HTTPS",
+     "SSH",
+     "HTTP",
+     "FTP",
+     "RDP"
+    ],
+    "answer": [
+     1,
+     3,
+     4,
+     2,
+     0
+    ],
+    "explanation": "Portas são os \"ramais\" de um host: o IP leva o pacote até a máquina, a porta indica qual serviço deve atendê-lo. Conhecer as portas padrão é o que permite escrever regras de firewall precisas.",
+    "hint": "80/443 são web, 53 é DNS, 22 é SSH, 445 é compartilhamento de arquivos."
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      3,
+      4,
+      2,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      4,
+      0,
+      3,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      3,
+      4,
+      2,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      3,
+      4,
+      2,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3668339987,
+   "question": {
+    "generator": "port_service_match",
+    "seed": 3668339987,
+    "context": [],
+    "tags": [
+     "ports"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada porta ao serviço que normalmente atende nela.",
+    "left": [
+     "3389",
+     "67",
+     "53",
+     "445",
+     "25"
+    ],
+    "right": [
+     "RDP",
+     "SMB",
+     "SMTP",
+     "DHCP",
+     "DNS"
+    ],
+    "answer": [
+     0,
+     3,
+     4,
+     1,
+     2
+    ],
+    "explanation": "Portas são os \"ramais\" de um host: o IP leva o pacote até a máquina, a porta indica qual serviço deve atendê-lo. Conhecer as portas padrão é o que permite escrever regras de firewall precisas.",
+    "hint": "80/443 são web, 53 é DNS, 22 é SSH, 445 é compartilhamento de arquivos."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      3,
+      4,
+      1,
+      2
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      4,
+      0,
+      2,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      3,
+      4,
+      1,
+      2,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      3,
+      4,
+      1,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2027808452,
+   "question": {
+    "generator": "port_service_match",
+    "seed": 2027808452,
+    "context": [],
+    "tags": [
+     "ports"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada porta ao serviço que normalmente atende nela.",
+    "left": [
+     "22",
+     "25",
+     "23",
+     "80",
+     "53"
+    ],
+    "right": [
+     "SSH",
+     "HTTP",
+     "SMTP",
+     "DNS",
+     "Telnet"
+    ],
+    "answer": [
+     0,
+     2,
+     4,
+     1,
+     3
+    ],
+    "explanation": "Portas são os \"ramais\" de um host: o IP leva o pacote até a máquina, a porta indica qual serviço deve atendê-lo. Conhecer as portas padrão é o que permite escrever regras de firewall precisas.",
+    "hint": "80/443 são web, 53 é DNS, 22 é SSH, 445 é compartilhamento de arquivos."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      2,
+      4,
+      1,
+      3
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      3,
+      0,
+      2,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      4,
+      1,
+      3,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      2,
+      4,
+      1,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 387276917,
+   "question": {
+    "generator": "port_service_match",
+    "seed": 387276917,
+    "context": [],
+    "tags": [
+     "ports"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada porta ao serviço que normalmente atende nela.",
+    "left": [
+     "23",
+     "25",
+     "3306",
+     "123",
+     "67"
+    ],
+    "right": [
+     "Telnet",
+     "SMTP",
+     "NTP",
+     "MySQL",
+     "DHCP"
+    ],
+    "answer": [
+     0,
+     1,
+     3,
+     2,
+     4
+    ],
+    "explanation": "Portas são os \"ramais\" de um host: o IP leva o pacote até a máquina, a porta indica qual serviço deve atendê-lo. Conhecer as portas padrão é o que permite escrever regras de firewall precisas.",
+    "hint": "80/443 são web, 53 é DNS, 22 é SSH, 445 é compartilhamento de arquivos."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      1,
+      3,
+      2,
+      4
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      2,
+      4,
+      3,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      3,
+      2,
+      4,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      3,
+      2,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3041712678,
+   "question": {
+    "generator": "port_service_match",
+    "seed": 3041712678,
+    "context": [],
+    "tags": [
+     "ports"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada porta ao serviço que normalmente atende nela.",
+    "left": [
+     "25",
+     "3389",
+     "22",
+     "3306",
+     "123"
+    ],
+    "right": [
+     "RDP",
+     "SSH",
+     "SMTP",
+     "MySQL",
+     "NTP"
+    ],
+    "answer": [
+     2,
+     0,
+     1,
+     3,
+     4
+    ],
+    "explanation": "Portas são os \"ramais\" de um host: o IP leva o pacote até a máquina, a porta indica qual serviço deve atendê-lo. Conhecer as portas padrão é o que permite escrever regras de firewall precisas.",
+    "hint": "80/443 são web, 53 é DNS, 22 é SSH, 445 é compartilhamento de arquivos."
+   },
+   "checks": [
+    {
+     "answer": [
+      2,
+      0,
+      1,
+      3,
+      4
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      3,
+      1,
+      2,
+      4,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      3,
+      4,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      1,
+      3,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1401181143,
+   "question": {
+    "generator": "port_service_match",
+    "seed": 1401181143,
+    "context": [],
+    "tags": [
+     "ports"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada porta ao serviço que normalmente atende nela.",
+    "left": [
+     "443",
+     "22",
+     "23",
+     "21",
+     "3389"
+    ],
+    "right": [
+     "Telnet",
+     "HTTPS",
+     "RDP",
+     "FTP",
+     "SSH"
+    ],
+    "answer": [
+     1,
+     4,
+     0,
+     3,
+     2
+    ],
+    "explanation": "Portas são os \"ramais\" de um host: o IP leva o pacote até a máquina, a porta indica qual serviço deve atendê-lo. Conhecer as portas padrão é o que permite escrever regras de firewall precisas.",
+    "hint": "80/443 são web, 53 é DNS, 22 é SSH, 445 é compartilhamento de arquivos."
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      4,
+      0,
+      3,
+      2
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      0,
+      1,
+      4,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      4,
+      0,
+      3,
+      2,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      4,
+      0,
+      3,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 4055616904,
+   "question": {
+    "generator": "port_service_match",
+    "seed": 4055616904,
+    "context": [],
+    "tags": [
+     "ports"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada porta ao serviço que normalmente atende nela.",
+    "left": [
+     "3306",
+     "22",
+     "53",
+     "21",
+     "123"
+    ],
+    "right": [
+     "DNS",
+     "NTP",
+     "SSH",
+     "MySQL",
+     "FTP"
+    ],
+    "answer": [
+     3,
+     2,
+     0,
+     4,
+     1
+    ],
+    "explanation": "Portas são os \"ramais\" de um host: o IP leva o pacote até a máquina, a porta indica qual serviço deve atendê-lo. Conhecer as portas padrão é o que permite escrever regras de firewall precisas.",
+    "hint": "80/443 são web, 53 é DNS, 22 é SSH, 445 é compartilhamento de arquivos."
+   },
+   "checks": [
+    {
+     "answer": [
+      3,
+      2,
+      0,
+      4,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      4,
+      3,
+      1,
+      0,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      0,
+      4,
+      1,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      2,
+      0,
+      4,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2415085369,
+   "question": {
+    "generator": "port_service_match",
+    "seed": 2415085369,
+    "context": [],
+    "tags": [
+     "ports"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada porta ao serviço que normalmente atende nela.",
+    "left": [
+     "80",
+     "53",
+     "445",
+     "22",
+     "25"
+    ],
+    "right": [
+     "DNS",
+     "SSH",
+     "SMTP",
+     "HTTP",
+     "SMB"
+    ],
+    "answer": [
+     3,
+     0,
+     4,
+     1,
+     2
+    ],
+    "explanation": "Portas são os \"ramais\" de um host: o IP leva o pacote até a máquina, a porta indica qual serviço deve atendê-lo. Conhecer as portas padrão é o que permite escrever regras de firewall precisas.",
+    "hint": "80/443 são web, 53 é DNS, 22 é SSH, 445 é compartilhamento de arquivos."
+   },
+   "checks": [
+    {
+     "answer": [
+      3,
+      0,
+      4,
+      1,
+      2
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      4,
+      1,
+      0,
+      2,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      4,
+      1,
+      2,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      4,
+      1,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 774553834,
+   "question": {
+    "generator": "port_service_match",
+    "seed": 774553834,
+    "context": [],
+    "tags": [
+     "ports"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada porta ao serviço que normalmente atende nela.",
+    "left": [
+     "3306",
+     "53",
+     "80",
+     "123",
+     "23"
+    ],
+    "right": [
+     "DNS",
+     "NTP",
+     "Telnet",
+     "HTTP",
+     "MySQL"
+    ],
+    "answer": [
+     4,
+     0,
+     3,
+     1,
+     2
+    ],
+    "explanation": "Portas são os \"ramais\" de um host: o IP leva o pacote até a máquina, a porta indica qual serviço deve atendê-lo. Conhecer as portas padrão é o que permite escrever regras de firewall precisas.",
+    "hint": "80/443 são web, 53 é DNS, 22 é SSH, 445 é compartilhamento de arquivos."
+   },
+   "checks": [
+    {
+     "answer": [
+      4,
+      0,
+      3,
+      1,
+      2
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      4,
+      2,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      3,
+      1,
+      2,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      3,
+      1,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3428989595,
+   "question": {
+    "generator": "port_service_match",
+    "seed": 3428989595,
+    "context": [],
+    "tags": [
+     "ports"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada porta ao serviço que normalmente atende nela.",
+    "left": [
+     "443",
+     "22",
+     "23",
+     "3389",
+     "80"
+    ],
+    "right": [
+     "RDP",
+     "HTTP",
+     "HTTPS",
+     "Telnet",
+     "SSH"
+    ],
+    "answer": [
+     2,
+     4,
+     3,
+     0,
+     1
+    ],
+    "explanation": "Portas são os \"ramais\" de um host: o IP leva o pacote até a máquina, a porta indica qual serviço deve atendê-lo. Conhecer as portas padrão é o que permite escrever regras de firewall precisas.",
+    "hint": "80/443 são web, 53 é DNS, 22 é SSH, 445 é compartilhamento de arquivos."
+   },
+   "checks": [
+    {
+     "answer": [
+      2,
+      4,
+      3,
+      0,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      3,
+      0,
+      4,
+      1,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      4,
+      3,
+      0,
+      1,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      4,
+      3,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1788458060,
+   "question": {
+    "generator": "port_service_match",
+    "seed": 1788458060,
+    "context": [],
+    "tags": [
+     "ports"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada porta ao serviço que normalmente atende nela.",
+    "left": [
+     "80",
+     "123",
+     "445",
+     "443",
+     "67"
+    ],
+    "right": [
+     "DHCP",
+     "HTTP",
+     "NTP",
+     "SMB",
+     "HTTPS"
+    ],
+    "answer": [
+     1,
+     2,
+     3,
+     4,
+     0
+    ],
+    "explanation": "Portas são os \"ramais\" de um host: o IP leva o pacote até a máquina, a porta indica qual serviço deve atendê-lo. Conhecer as portas padrão é o que permite escrever regras de firewall precisas.",
+    "hint": "80/443 são web, 53 é DNS, 22 é SSH, 445 é compartilhamento de arquivos."
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      2,
+      3,
+      4,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      3,
+      4,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      3,
+      4,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      2,
+      3,
+      4,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

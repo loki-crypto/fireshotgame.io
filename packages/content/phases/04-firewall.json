@@ -1,0 +1,167 @@
+{
+  "id": "04-firewall",
+  "version": 1,
+  "order": 4,
+  "title": "Vazão e Filtro",
+  "subtitle": "Portas, firewall e DDoS",
+  "concepts": ["Porta", "Firewall", "Política padrão", "Botnet", "DDoS"],
+  "learningObjectives": [
+    "Relacionar portas conhecidas aos serviços que atendem nelas",
+    "Escrever regras de firewall a partir de uma política, negando por padrão",
+    "Entender DDoS como problema de volume, combatido com filtragem e limitação de taxa",
+    "Perceber que cada porta aberta é uma superfície de ataque a mais"
+  ],
+  "briefing": {
+    "lines": [
+      { "speaker": "SOC", "text": "Data center de borda. Uma botnet está inundando os serviços: milhares de dispositivos infectados, cada um fraco, juntos devastadores." },
+      { "speaker": "SOC", "text": "Drones sozinhos fazem pouco dano. Em enxame, saturam a banda — e saturação derruba serviço mesmo sem nenhuma falha de software." },
+      { "speaker": "SOC", "text": "Liberamos o Firewall Cannon (tecla 4): dano em área (2,5× nos drones) e barreira temporária que filtra o tráfego negado pelas suas regras." },
+      { "speaker": "SOC", "text": "O terminal de regras é a arma de verdade: o que você negar lá para de nascer aqui. Negue por padrão, libere só o necessário." },
+      { "speaker": "SOC", "text": "Feche as portas que não deveriam estar abertas e a inundação perde por onde entrar." }
+    ]
+  },
+  "debriefing": {
+    "summary": [
+      "A porta identifica o serviço dentro do host: o IP leva o pacote à máquina, a porta diz quem atende.",
+      "Política padrão \"negar\": o que não tem regra não passa. Assim um serviço esquecido não fica exposto por descuido.",
+      "DDoS é volume distribuído, não uma falha do sistema — a defesa é filtrar, limitar a taxa e absorver.",
+      "Botnet é um exército de aparelhos mal configurados: trocar a senha padrão de qualquer dispositivo conectado tira um soldado do ataque."
+    ]
+  },
+  "parTime": 780,
+  "minTime": 110,
+  "limits": { "maxKills": 220, "maxBytes": 280 },
+  "tags": [],
+  "weaponsAvailable": ["patch_pistol", "scanner", "vpn_shield", "firewall_cannon"],
+  "introducesWeapon": "firewall_cannon",
+  "introducesEnemies": ["botnet_drone"],
+  "ambient": { "accent": "#ff9f1c", "fogDensity": 0.032 },
+  "layout": {
+    "cellSize": 2,
+    "wallHeight": 3.4,
+    "rows": [
+      "##################################",
+      "#.........#....m....#............#",
+      "#..P......#..g......#............#",
+      "#....1....#.........#......X.....#",
+      "#.........a.........#............#",
+      "#.........a....2....#.....y......#",
+      "#.........#......g..#............#",
+      "#...T.....#......U..#............#",
+      "###########bb########dd###########",
+      "#.......h.......#................#",
+      "#...g...........#...AAAAAAAAAA...#",
+      "#.......s.......c...AAAAAAAAAA...#",
+      "#....3..........c...AAAAAAAAAA...#",
+      "#...............#...AAAAAAAAAA..e#",
+      "#..........V....#.......4.......z#",
+      "##################################"
+    ]
+  },
+  "legend": {
+    "P": { "type": "player" },
+    "1": { "type": "sign", "text": "Firewall Cannon (4): dano em área e barreira que filtra o tráfego negado pelas regras." },
+    "2": { "type": "sign", "text": "Porta = ramal do serviço. 80/443 web, 53 DNS, 22 SSH, 23 Telnet (texto claro), 445 arquivos." },
+    "3": { "type": "sign", "text": "O terminal de regras controla os spawners: porta negada = tráfego que não nasce." },
+    "4": { "type": "sign", "text": "Sala de vazão. Volume derruba serviço: filtre na borda, limite a taxa, absorva o resto." },
+    "T": { "type": "terminal", "id": "t1" },
+    "U": { "type": "terminal", "id": "t2" },
+    "V": { "type": "terminal", "id": "t3" },
+    "a": { "type": "door", "id": "d1" },
+    "b": { "type": "door", "id": "d2" },
+    "c": { "type": "door", "id": "d3" },
+    "d": { "type": "door", "id": "d4" },
+    "g": { "type": "enemy", "enemy": "botnet_drone", "route": "uplink" },
+    "s": { "type": "spawner", "id": "s1" },
+    "z": { "type": "spawner", "id": "s2" },
+    "A": { "type": "arena", "id": "a1" },
+    "h": { "type": "pickup", "kind": "health" },
+    "e": { "type": "pickup", "kind": "shield" },
+    "y": { "type": "pickup", "kind": "bytes", "amount": 16 },
+    "m": { "type": "pickup", "kind": "ammo" },
+    "X": { "type": "exit" }
+  },
+  "routes": {
+    "uplink": [[13, 2], [18, 2], [18, 6], [13, 6]]
+  },
+  "firewall": {
+    "initial": { "defaultPolicy": "allow", "rules": [] }
+  },
+  "spawners": [
+    { "id": "s1", "enemy": "botnet_drone", "every": 6, "max": 6, "active": true, "traffic": 23 },
+    { "id": "s2", "traffic": 80 }
+  ],
+  "arenas": [
+    {
+      "id": "a1",
+      "title": "Inundação volumétrica",
+      "lockDoors": ["d3"],
+      "waves": [
+        {
+          "spawns": [{ "spawner": "s2", "enemy": "botnet_drone", "count": 8, "interval": 0.5, "traffic": 80 }],
+          "delayAfter": 2.5,
+          "message": "Pico de tráfego na porta 80. Erga barreiras!"
+        },
+        {
+          "spawns": [{ "spawner": "s2", "enemy": "botnet_drone", "count": 12, "interval": 0.35, "traffic": 3389 }],
+          "delayAfter": 2.5,
+          "message": "Segunda onda pela 3389 (área de trabalho remota)."
+        },
+        {
+          "spawns": [
+            { "spawner": "s2", "enemy": "botnet_drone", "count": 10, "interval": 0.4, "traffic": 445 },
+            { "spawner": "s2", "enemy": "mitm", "count": 1, "interval": 1.0 }
+          ]
+        }
+      ],
+      "onClear": [
+        { "type": "openDoor", "door": "d4" },
+        { "type": "message", "text": "Tráfego normalizado. A borda voltou a responder.", "tone": "success" }
+      ]
+    }
+  ],
+  "terminals": [
+    {
+      "id": "t1",
+      "title": "Portas e serviços",
+      "concept": "Portas conhecidas",
+      "generator": "port_service_match",
+      "params": { "count": 5 },
+      "challenges": 2,
+      "required": true,
+      "onSolve": [{ "type": "openDoor", "door": "d1" }],
+      "hint": "22 SSH, 23 Telnet, 53 DNS, 80 HTTP, 443 HTTPS, 445 SMB, 3389 RDP."
+    },
+    {
+      "id": "t2",
+      "title": "Filtro na borda",
+      "concept": "Política padrão e lista de permissão",
+      "generator": "mc_pool",
+      "params": { "pool": "ports", "counterTags": ["firewall"] },
+      "challenges": 2,
+      "required": true,
+      "onSolve": [
+        { "type": "openDoor", "door": "d2" },
+        { "type": "message", "text": "Política de borda revisada.", "tone": "success" }
+      ],
+      "hint": "Negue por padrão; abra só o que o serviço exige."
+    },
+    {
+      "id": "t3",
+      "title": "Regras do firewall",
+      "concept": "Escrever regras a partir da política",
+      "generator": "firewall_rules",
+      "params": { "count": 5 },
+      "challenges": 2,
+      "required": true,
+      "onSolve": [
+        { "type": "applyFirewallRules" },
+        { "type": "disableSpawner", "spawner": "s1" },
+        { "type": "openDoor", "door": "d3" },
+        { "type": "message", "text": "Regras aplicadas: o tráfego negado deixou de entrar.", "tone": "success" }
+      ],
+      "hint": "Política padrão \"negar\" e uma regra \"permitir\" por serviço exigido — nada além."
+    }
+  ],
+  "exit": { "requires": { "terminals": ["t1", "t2", "t3"], "arenas": ["a1"] } }
+}

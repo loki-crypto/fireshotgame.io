@@ -9,7 +9,7 @@ from app.config import get_settings
 from app.security.rate_limit import limiter
 from app.security.tokens import ACCESS_COOKIE, REFRESH_COOKIE
 
-from .conftest import USER, register
+from .conftest import USER, age_refresh_tokens, register
 
 
 async def test_register_sets_cookies_and_profile(client: AsyncClient) -> None:
@@ -46,16 +46,37 @@ async def test_me_requires_session(client: AsyncClient) -> None:
     assert res.status_code == 401 and res.json()["error"]["code"] == "session_expired"
 
 
-async def test_refresh_rotates_and_detects_reuse(client: AsyncClient) -> None:
+async def test_refresh_rotates(client: AsyncClient) -> None:
     await register(client)
     first = client.cookies[REFRESH_COOKIE]
     res = await client.post("/api/v1/auth/refresh")
     assert res.status_code == 200
+    assert client.cookies[REFRESH_COOKIE] != first
+
+
+async def test_parallel_refresh_with_same_cookie_is_tolerated(client: AsyncClient) -> None:
+    """Duas requisições que tomam 401 ao mesmo tempo disparam dois refresh com o mesmo cookie."""
+    await register(client)
+    first = client.cookies[REFRESH_COOKIE]
+    assert (await client.post("/api/v1/auth/refresh")).status_code == 200
     second = client.cookies[REFRESH_COOKIE]
-    assert second != first
 
     client.cookies.clear()
-    # reuso do token já rotacionado revoga a família inteira
+    res = await client.post("/api/v1/auth/refresh", headers={"Cookie": f"{REFRESH_COOKIE}={first}"})
+    assert res.status_code == 200, "reuso imediato é corrida de rede, não ataque"
+    # a família segue viva: o token da primeira rotação continua valendo
+    res = await client.post("/api/v1/auth/refresh", headers={"Cookie": f"{REFRESH_COOKIE}={second}"})
+    assert res.status_code == 200
+
+
+async def test_late_refresh_reuse_kills_the_family(client: AsyncClient) -> None:
+    await register(client)
+    first = client.cookies[REFRESH_COOKIE]
+    assert (await client.post("/api/v1/auth/refresh")).status_code == 200
+    second = client.cookies[REFRESH_COOKIE]
+
+    await age_refresh_tokens(seconds=get_settings().refresh_reuse_grace_seconds + 30)
+    client.cookies.clear()
     res = await client.post("/api/v1/auth/refresh", headers={"Cookie": f"{REFRESH_COOKIE}={first}"})
     assert res.status_code == 401
     res = await client.post("/api/v1/auth/refresh", headers={"Cookie": f"{REFRESH_COOKIE}={second}"})
@@ -67,6 +88,26 @@ async def test_logout_clears_session(client: AsyncClient) -> None:
     assert (await client.post("/api/v1/auth/logout")).status_code == 204
     assert ACCESS_COOKIE not in client.cookies
     assert (await client.get("/api/v1/me")).status_code == 401
+
+
+async def test_logout_has_no_grace_window(client: AsyncClient) -> None:
+    """Logout invalida na hora: reuso imediato do cookie não pode reabrir a sessão."""
+    await register(client)
+    token = client.cookies[REFRESH_COOKIE]
+    assert (await client.post("/api/v1/auth/logout")).status_code == 204
+    client.cookies.clear()
+    res = await client.post("/api/v1/auth/refresh", headers={"Cookie": f"{REFRESH_COOKIE}={token}"})
+    assert res.status_code == 401
+
+
+async def test_deleted_account_refresh_is_dead(client: AsyncClient) -> None:
+    await register(client)
+    token = client.cookies[REFRESH_COOKIE]
+    res = await client.request("DELETE", "/api/v1/me", json={"password": USER["password"], "anonymizeCertificates": True})
+    assert res.status_code == 204
+    client.cookies.clear()
+    res = await client.post("/api/v1/auth/refresh", headers={"Cookie": f"{REFRESH_COOKIE}={token}"})
+    assert res.status_code == 401
 
 
 async def test_csrf_header_required(client: AsyncClient) -> None:

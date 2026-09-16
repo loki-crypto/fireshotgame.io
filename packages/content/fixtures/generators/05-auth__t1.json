@@ -1,0 +1,1798 @@
+{
+ "source": "05-auth/t1",
+ "generator": "mc_pool",
+ "params": {
+  "pool": "passwords",
+  "counterTags": [
+   "password"
+  ]
+ },
+ "seeds": [
+  {
+   "seed": 2654435761,
+   "sha256": "8eedf6c3750b5b8efcba4a525ef526cd8236a2b7ada6e3481da014b9dac8686c"
+  },
+  {
+   "seed": 1013904226,
+   "sha256": "b76cc037fdc4c01c631274a0278aabb47794fba69e82c27e564ade92296ddf9a"
+  },
+  {
+   "seed": 3668339987,
+   "sha256": "bee352a7d7a9907a59312bb1031ae986ac3fcbaf6a36d1261499ccb21bc9b721"
+  },
+  {
+   "seed": 2027808452,
+   "sha256": "1bf0e774c27fa36cb5deb1152527fbae1a6db28633df3a46141111849217bd0b"
+  },
+  {
+   "seed": 387276917,
+   "sha256": "2d0329c81e2aa729dcd5ee1ea9aff6890966b8363f7fd7aa49e2e2441be1e7fd"
+  },
+  {
+   "seed": 3041712678,
+   "sha256": "00ea0d13f9c49a64d4b4022a721a9c8ca246ce5632965836f4e1072181f5dc8a"
+  },
+  {
+   "seed": 1401181143,
+   "sha256": "582e127f3f41a8872815d9689dfcad2dbbd80c83a942a92647dbec37be1e617a"
+  },
+  {
+   "seed": 4055616904,
+   "sha256": "f89d222cb85534a9bf79bc604d991225398e81d8f2d0dd5426165d27201d2f12"
+  },
+  {
+   "seed": 2415085369,
+   "sha256": "1f8e6cffe1a0172a5a8b259335f3f54a802cd699ac7d96c42fc7cda41628d945"
+  },
+  {
+   "seed": 774553834,
+   "sha256": "2171a2a31f084c295bdce1085a35f9a4d93e25e7860b98ca4ea041b8bef6e0cc"
+  },
+  {
+   "seed": 3428989595,
+   "sha256": "f0b0e9d7e7504040a7f1f73e713ca17db9aa56495c403c0626c6638fd23ad6f5"
+  },
+  {
+   "seed": 1788458060,
+   "sha256": "6eaabb2545908f32d8f418b3b22f0762f16021197b7b86d6f4bfe0096ade1878"
+  },
+  {
+   "seed": 147926525,
+   "sha256": "e829ff06feefa893e2f9fe39ac7c23e4ebefb18a6c91dd034146dda13f739a4a"
+  },
+  {
+   "seed": 2802362286,
+   "sha256": "41f63669a96af845727bf842a0eb7519e4a82152cbaa5fc0a55aec95e5461eda"
+  },
+  {
+   "seed": 1161830751,
+   "sha256": "f51f9e6c47cff9b09e53f6e28305b36197724f8cea800dd950dd906887f5aac0"
+  },
+  {
+   "seed": 3816266512,
+   "sha256": "4b827573300c8d73fdacce3d331c6501c7e5498efae12bf30bc9e08f9e67aa73"
+  },
+  {
+   "seed": 2175734977,
+   "sha256": "c547773fab7af2428200239b70bcdd0af0e1263f4c92a492f78ed869bc35e688"
+  },
+  {
+   "seed": 535203442,
+   "sha256": "9deb0ea7bf3e4f19a054e06f973c7544192a3edbd376e6c182a1f87ed3daa304"
+  },
+  {
+   "seed": 3189639203,
+   "sha256": "a799f4ed2ee28974039db9b5bd46eace33051e731858f7e410982e45ac97d968"
+  },
+  {
+   "seed": 1549107668,
+   "sha256": "b6b771b6348cbbeb1c64efbb4b43e677520e1bd417c8a3228c4e5ba4b8880212"
+  },
+  {
+   "seed": 4203543429,
+   "sha256": "02acdecf2da2fa38de70f5607c6c5671d021d6e6b874d9fd3f4944b02b7dcb7c"
+  },
+  {
+   "seed": 2563011894,
+   "sha256": "c019ca9705c3b045bbc4e994884fa09c6272da80924fc283a967e78dba85565c"
+  },
+  {
+   "seed": 922480359,
+   "sha256": "589233cf7a1473f5671ee760b328de6fa54a9531487c55a3b2d7a75132fc7b4b"
+  },
+  {
+   "seed": 3576916120,
+   "sha256": "9b0ff677fd36b17befb8205d4d5dded924c0228d51f24eaaffb56f5f483409cf"
+  },
+  {
+   "seed": 1936384585,
+   "sha256": "75f92da66dad2e77ccb30fa369d685fec8a6d59ab8b95e6a6b727f6ac4604306"
+  },
+  {
+   "seed": 295853050,
+   "sha256": "39fa14206e893f6c8ed1b801d4db6fd4b3b6cff9d1acb1bbd1312c9fb4717429"
+  },
+  {
+   "seed": 2950288811,
+   "sha256": "d1ce584fc35ac1051bf59dfdc115852acf2e1195a3dc2e92dc8e5ba61d3c6ece"
+  },
+  {
+   "seed": 1309757276,
+   "sha256": "1332dd3dd6fb491c53cb56e2314d437bdde346c3d6c87b88d04143043c7f5a7c"
+  },
+  {
+   "seed": 3964193037,
+   "sha256": "1e2c0fbc084a6826c92056dc19de9c3cc67f9485712cf16e9b5b628f3bea1bde"
+  },
+  {
+   "seed": 2323661502,
+   "sha256": "2c6b3813bf301a19d20eafa1a0917529c54ed89d4bc7095f43202e52fb80e781"
+  },
+  {
+   "seed": 683129967,
+   "sha256": "a6e8e9228034c283592ddf0eac3c04e19f5d75e43b36cffd3febeaff2af60443"
+  },
+  {
+   "seed": 3337565728,
+   "sha256": "5bbb0902bbffd31b05d2b0809e9a6e62547540921b61b7f5edff99b330924e92"
+  },
+  {
+   "seed": 1697034193,
+   "sha256": "2c1f4ed594e4c7abd5be826e8fa2c5244dd86c3a90aaf1ca2169373da9cd5532"
+  },
+  {
+   "seed": 56502658,
+   "sha256": "ccafd4b589fc54115e75bb6ac04ba4ec37c3d628ae702fa4f625109d6fc37d0c"
+  },
+  {
+   "seed": 2710938419,
+   "sha256": "9b9c71e76065fbb2fc03ff6503f3fa73af09abbc950027a4034ff7fe62f686de"
+  },
+  {
+   "seed": 1070406884,
+   "sha256": "34b70aaafbd5725247d1784821e4a499c41e47ee4b3468f181af7ef65cbf4dda"
+  },
+  {
+   "seed": 3724842645,
+   "sha256": "882b62cc749f4052459f99781613fcc660c18df573a8f4c1d167fa2732ca3edc"
+  },
+  {
+   "seed": 2084311110,
+   "sha256": "32ceaddb89022424cdbfa657c2fd56b0abe182c01122b2a56ff339258600451f"
+  },
+  {
+   "seed": 443779575,
+   "sha256": "b69a7f07fb29802498edf72c28da5e1c767fa819017943a88a58ff37a55c1bf9"
+  },
+  {
+   "seed": 3098215336,
+   "sha256": "52d069b08adcd2bd1ff5edc1218384cd24c523caf77e62c68e1744f2bca2da8c"
+  },
+  {
+   "seed": 1457683801,
+   "sha256": "d87217e5720fc065426cfb521aff27a6c23a7e6395488331db16ffcb95e99a06"
+  },
+  {
+   "seed": 4112119562,
+   "sha256": "f4316353c318a79a5d0165863faeda58c36db7fd2890275fd140406b56021259"
+  },
+  {
+   "seed": 2471588027,
+   "sha256": "f4a677bec18a9092eedb3d0e6cafa596bb5bb0084c45e932a8aeadda4cc9a646"
+  },
+  {
+   "seed": 831056492,
+   "sha256": "319e09edf4e3fc0b00306e22dd6ae06ab233f286a4580e269115d61bc224582b"
+  },
+  {
+   "seed": 3485492253,
+   "sha256": "6ae17c8b4c6f3cbc4875074612c06413e385395edd56fd7d7df0a0f0a88fbb7b"
+  },
+  {
+   "seed": 1844960718,
+   "sha256": "2056e49220323c47dcabf11c76b448b391bbd619087428c28049ecba44a46163"
+  },
+  {
+   "seed": 204429183,
+   "sha256": "529c02230703cdb4305cb6d541e2343b846ed4b0c0b93d74c2309894b1094237"
+  },
+  {
+   "seed": 2858864944,
+   "sha256": "8a813605c4869f0b3af20c66170806bb76edd3148946da52e1305e17b1b4fbae"
+  },
+  {
+   "seed": 1218333409,
+   "sha256": "11af58b005c8d2978e488cc487a9df9ce79334f3b1432d825faf5220a166f680"
+  },
+  {
+   "seed": 3872769170,
+   "sha256": "165d1325a8d5b7da986f153ad9d7a40cbcceafcaf5dbe6373c17de7f5cefa000"
+  },
+  {
+   "seed": 2232237635,
+   "sha256": "54979754216e9c76d523ccef13ac80dd553a536e55b002ef1d6908790d750b8a"
+  },
+  {
+   "seed": 591706100,
+   "sha256": "d2907be2850b4f03d8af1aedfd3a9bf7a80c7efefddb1031c8c516daa177d5e2"
+  },
+  {
+   "seed": 3246141861,
+   "sha256": "7f3ffbbec67235758367a47dc37e2853e01d10db3183d1236e771fb3cc707865"
+  },
+  {
+   "seed": 1605610326,
+   "sha256": "c934b214e55d3b9a086e5798e2f4654d4b0a84289225be5d0bbfae86aa794074"
+  },
+  {
+   "seed": 4260046087,
+   "sha256": "0b0f422ddcdefdb9667080238adc89ed3cb29789236e6ddcdfd38afd3a7f8d89"
+  },
+  {
+   "seed": 2619514552,
+   "sha256": "616dd895894342342c69b60fa9cf03113c9c46d402341e8be442fe723940e2ac"
+  },
+  {
+   "seed": 978983017,
+   "sha256": "b831978e08ee14084ea39b84d96ca86a40874bf053f8b06d18cd66b15e955366"
+  },
+  {
+   "seed": 3633418778,
+   "sha256": "f2cd90f6e40465958f6ba0033c433b69752e39ddf6004be0691ca05cf1d2f365"
+  },
+  {
+   "seed": 1992887243,
+   "sha256": "48d74db3c7927d6f276f8605f6f82ab6b3b322195e1e8a9c37093f0c7c6d0a9f"
+  },
+  {
+   "seed": 352355708,
+   "sha256": "ae9c117e872abbf6cf9b58698f88f91b69eeedf9a8f8dc3cac5d941ccea24fa9"
+  },
+  {
+   "seed": 3006791469,
+   "sha256": "c34bf7373b262f04316a2ed3e3d44d6e2362b3be4c27b38f4cc9ae8f6b86b64c"
+  },
+  {
+   "seed": 1366259934,
+   "sha256": "b432243466c8a5d43ec531d2fd866a2f5c1fcf846db8c6d34c97e3a000aa2c0b"
+  },
+  {
+   "seed": 4020695695,
+   "sha256": "4e86fd536124449bcd65e5282b440904367718a393b84b31a45d37f69492c942"
+  },
+  {
+   "seed": 2380164160,
+   "sha256": "e373590c8c8fae965ddcb1aa0e8e1ba9153a69f357a6f701a4d13f61c4fb3c99"
+  },
+  {
+   "seed": 739632625,
+   "sha256": "62c1d1f3e2e018750854dadb3ac7b56b732f4c5872b764dbd9b60d0b552e3592"
+  },
+  {
+   "seed": 3394068386,
+   "sha256": "f54aabfc2c11a6b306c48f706ca68b349cecd2bf650841d511f273effb223c11"
+  },
+  {
+   "seed": 1753536851,
+   "sha256": "15fb4c5f5047007e331213f720db99a7dae3554e90f8ae3137f4c8f2035791df"
+  },
+  {
+   "seed": 113005316,
+   "sha256": "80f7bfa3b8249d1af52c38ba9d87c944db354150e0d816056e4650c01c5bcec0"
+  },
+  {
+   "seed": 2767441077,
+   "sha256": "85e8ffa341b971df118ac1eb62f0712fcfd15cf8d558bc5ac81bdada849b4d62"
+  },
+  {
+   "seed": 1126909542,
+   "sha256": "f761a53604ca787ec5b1473f34a5f02bcdeecc6cfe60a36c2508fad50fec65ea"
+  },
+  {
+   "seed": 3781345303,
+   "sha256": "1771c83113c96c761051b3a3a132844c1787e2c9b7c9a574bdbafbff765b5e86"
+  },
+  {
+   "seed": 2140813768,
+   "sha256": "e405c24204b476bac0d070f6ee9791c03c9f2f7da0ba6b8055858d58a851196c"
+  },
+  {
+   "seed": 500282233,
+   "sha256": "46d16cca330112c7933d3a190f50d55575f6941496ebcceca9d2a5f32655a541"
+  },
+  {
+   "seed": 3154717994,
+   "sha256": "9f977410d2326e5c8bc0efd696c16883b3ceb5b3860864a7ab64bec860f16cd1"
+  },
+  {
+   "seed": 1514186459,
+   "sha256": "85a8165d886cb886afc80221f5822ac1d35dccc6685684b0501b5845b851acb8"
+  },
+  {
+   "seed": 4168622220,
+   "sha256": "91cf97a578c9b9eda3a544a1ada4f6e226b5bab38de594b610a9e2ec190da005"
+  },
+  {
+   "seed": 2528090685,
+   "sha256": "1acd6d6fba933b8936ae93f1f1963aba833eb1a3fa5c5c9affca403d909b1e42"
+  },
+  {
+   "seed": 887559150,
+   "sha256": "9b883bab304d3525904bc0cace90c90323bdc255a7d01f2067022ebc6e5fbd07"
+  },
+  {
+   "seed": 3541994911,
+   "sha256": "03c2aa2c3ca10bf1e2be8ba115916a9db9ffd99109e8e88f0815d245819f57c9"
+  },
+  {
+   "seed": 1901463376,
+   "sha256": "5565edb0a720fe65049e9249cb8f603d0099d4db3687e6a72b476a8f67e2477a"
+  },
+  {
+   "seed": 260931841,
+   "sha256": "1dba632a8658955bcd41c15a16daba49cc770702d9d57ed63cf5e800bb252950"
+  },
+  {
+   "seed": 2915367602,
+   "sha256": "8caa3f557a28361914464d29762a9b9f0d065456a34a30796031effb5c0b601e"
+  },
+  {
+   "seed": 1274836067,
+   "sha256": "bab8979178f886137bef123b3085f49db56376f957cf6e24da674533b6a6e12c"
+  },
+  {
+   "seed": 3929271828,
+   "sha256": "621cadab6a081be98726ef60323d0408f9b8892be3a9fe4ed19eff21aafc4399"
+  },
+  {
+   "seed": 2288740293,
+   "sha256": "3fa987f0d6610fadd297743754ac68ba07f0df40a17cc022ad51385d89a11d23"
+  },
+  {
+   "seed": 648208758,
+   "sha256": "96fa09a7566ef79f91d39688fc9ff53f6c00e2f38cb20a03d9a3b5b75bee5f2b"
+  },
+  {
+   "seed": 3302644519,
+   "sha256": "7fcdb95b791487097ff015607c73e1ee473b2bc906ad563a2243d439720ba480"
+  },
+  {
+   "seed": 1662112984,
+   "sha256": "419a261a2905a6a169178a89c6e05943931726d5a67d52228f5ac5fba9b667a6"
+  },
+  {
+   "seed": 21581449,
+   "sha256": "4aefad3eced35079ffad6998264b0ca01ab072d769ef9b9daf9dd70c94e4ba0a"
+  },
+  {
+   "seed": 2676017210,
+   "sha256": "1e2a2fd782370ae78f11e2fd1e333450e597b5a895aa53d5bbb8df45776508ee"
+  },
+  {
+   "seed": 1035485675,
+   "sha256": "2d4ddb2be01cecbf006e8e02babb4735afccb0e4cc0cc721a12147fc82fd7b0f"
+  },
+  {
+   "seed": 3689921436,
+   "sha256": "fe8b11889b5d20dcfc353bf7b524026d59f1523499f2db53e6c33769849b24a9"
+  },
+  {
+   "seed": 2049389901,
+   "sha256": "516ccc72205b5f0d1ce96cdbce49a9c92218bf792ab3263e8ab83e08867d416b"
+  },
+  {
+   "seed": 408858366,
+   "sha256": "816350c70461b7f04f9cdabc253db098dc5486bf4370085efe08872f099d294e"
+  },
+  {
+   "seed": 3063294127,
+   "sha256": "31237072a28c68db81466e1a7ea5564acadbadf222423b994a4e92c64141b0da"
+  },
+  {
+   "seed": 1422762592,
+   "sha256": "6522d9b7190e74c85b7ce040e0425418446bc7c76f1af6dc43ceeff46a15a2cd"
+  },
+  {
+   "seed": 4077198353,
+   "sha256": "a6f80bc400c8a768f9c054c50d92d898cf703d6f8b345dff3825cc20f0058fbe"
+  },
+  {
+   "seed": 2436666818,
+   "sha256": "4efa3c54dee62504cfca2bbfa9d34543b71f1d7c4dd79f823e3d050b5f56c919"
+  },
+  {
+   "seed": 796135283,
+   "sha256": "edae4ff58dab63d15d6b9a3c0a2d2a76f8f163edada098c8a7cc930b557129e8"
+  },
+  {
+   "seed": 3450571044,
+   "sha256": "4c9cc93e7baec4108e08699f5efea3e290739c357d8dcf4d51e7cf4bfc4c61e4"
+  },
+  {
+   "seed": 1810039509,
+   "sha256": "a46120585f1ce05c58094a28b7b4b4f225d3d1a0346061fe67253bc5874ac3b3"
+  },
+  {
+   "seed": 169507974,
+   "sha256": "65399375b24c584fc87f4605fa8cb5097e39ccd7c8b27fe90139c97b9419b9da"
+  },
+  {
+   "seed": 2823943735,
+   "sha256": "06b0ad2fb4ddf0b68171f4e9d8d4056742b5a371ac93d373a707d933f70a625b"
+  },
+  {
+   "seed": 1183412200,
+   "sha256": "caea26e39029d67ddf729454a4423d72ca2d2e328ea38faa61c9c06468072802"
+  },
+  {
+   "seed": 3837847961,
+   "sha256": "727b181579b0b189ae64f01572376ec2c04ce2ffc2e459a6045f7944be9e866b"
+  },
+  {
+   "seed": 2197316426,
+   "sha256": "e677de2ad1a2fc6053751b7f17242e05437290ea8c8a7a7bb047ae9a00ff9a77"
+  },
+  {
+   "seed": 556784891,
+   "sha256": "0b9ae8e15a8ba1dc13662ccfb371c0f6bb5fdb1ea2b768ff7706b069718483fd"
+  },
+  {
+   "seed": 3211220652,
+   "sha256": "8f7d28ddfbfe573b5312fac32cb578348508369b879e3e8057d44965178c222e"
+  },
+  {
+   "seed": 1570689117,
+   "sha256": "5c78e9212637fcfab02dbdc3e52064a7cb37ad98f4d55c9e7e57fdc25cd363b2"
+  },
+  {
+   "seed": 4225124878,
+   "sha256": "0b6ddfbd7bc3299326c41156cd854003701af168287337a3af86ae77c172d278"
+  },
+  {
+   "seed": 2584593343,
+   "sha256": "b2dbc158b2cd6ebaa8bf7c849570d2bb194b55bbf04845c2287eb8cf446a69f6"
+  },
+  {
+   "seed": 944061808,
+   "sha256": "476d1768a8218d800894d8465ac720651d16bea1d009a2a479898a071cfeb281"
+  },
+  {
+   "seed": 3598497569,
+   "sha256": "902f9f2f8873783788248dbfcb3ddd0dd48e1629bfe9fef76e27157a10feeade"
+  },
+  {
+   "seed": 1957966034,
+   "sha256": "233b0aeaf8a81af35d1f6c54e054f71965d9d5261ee2349ab530372a941e66a4"
+  },
+  {
+   "seed": 317434499,
+   "sha256": "caf260962dbffe37501b0b171cc8d6ac8fc3222aeea192137802119b7b4eaaf9"
+  },
+  {
+   "seed": 2971870260,
+   "sha256": "2e5d6e4a028e414c3ec95cdb597301c4c21a4237e2dd7c421ce59eba6c9ae8b5"
+  },
+  {
+   "seed": 1331338725,
+   "sha256": "6f83354ed6050b457f435d50da7d742fd226f480f0af894b71833c826735f672"
+  },
+  {
+   "seed": 3985774486,
+   "sha256": "dc286f6ebb255e85e61020a9806a5312bd58a2babe9cd6a86fcd62b6810f1936"
+  },
+  {
+   "seed": 2345242951,
+   "sha256": "113fa3081c3e4d10f71335251a0f8e6132431441b0e3a4819ea7afc36421e92b"
+  },
+  {
+   "seed": 704711416,
+   "sha256": "4eeef904af46983a5adc4ef7a76e2d76a590391fac8d4fcc3056bad0ea66f59b"
+  },
+  {
+   "seed": 3359147177,
+   "sha256": "c9c053b45363fa463193679a16bcf296d3c7db18e8112b9e39e6008afdf04914"
+  },
+  {
+   "seed": 1718615642,
+   "sha256": "8d3eac022ac42abc7fa5e442bd030fa331935d3fa3bba6e0b827c0336e118585"
+  },
+  {
+   "seed": 78084107,
+   "sha256": "31a145a6bf04882f9b72da24e3813585003c9eaebde8a9275390924fab90fbdd"
+  },
+  {
+   "seed": 2732519868,
+   "sha256": "2cf3799a03220c4deacfd49b54554852a412afb367913e5012d6b82fd1303cdb"
+  },
+  {
+   "seed": 1091988333,
+   "sha256": "312d57c0707b0667177d6e62a98ef6faeaf90c00c75c370be50813d7f70a0d3e"
+  },
+  {
+   "seed": 3746424094,
+   "sha256": "13014580c6f956793033eb15526a3546abb2ba61ee92ba15d0fd96e116d00745"
+  },
+  {
+   "seed": 2105892559,
+   "sha256": "0b36b43ff843c00f4bbc1f31f0099689c6cd0e9fc1ffa021d41695ecc755bf5d"
+  },
+  {
+   "seed": 465361024,
+   "sha256": "d7f51fc61b58df1160c2084132b7e976d5b1847ddcfe2028ccd1c31ad0bba026"
+  },
+  {
+   "seed": 3119796785,
+   "sha256": "7304d1194b0996b1c18dbb107b2759fcb88bddaffb8e27029d940ae0697e987f"
+  },
+  {
+   "seed": 1479265250,
+   "sha256": "3511381fe4566c81c6b6d631478324c475dd17ef0c1479705985272344c3d461"
+  },
+  {
+   "seed": 4133701011,
+   "sha256": "72f8b280ac22b6abd87c8d784a99ac2fe7b0bcd2c0a2931d6d3050646b292605"
+  },
+  {
+   "seed": 2493169476,
+   "sha256": "226939efa396241bf4d83646a223558bb03ea938b34609ff4e5e120806e49013"
+  },
+  {
+   "seed": 852637941,
+   "sha256": "4583405589f3f3cf140a2d2301dc3bce675fb672f119ae8e6d49ee4f46eb8903"
+  },
+  {
+   "seed": 3507073702,
+   "sha256": "2ee5cb163e03943e1b3e54439081bf731098152f3e7549eaea1bef33da00e177"
+  },
+  {
+   "seed": 1866542167,
+   "sha256": "63e1bde300bfad6aa8d59e94ad74a44c99571e382b7f0a83c108d14541b8c786"
+  },
+  {
+   "seed": 226010632,
+   "sha256": "a654e2c0407dcf5d174f7bd9a70781a85f49ab16d13256d64b19007b874f2f6b"
+  },
+  {
+   "seed": 2880446393,
+   "sha256": "1f5819aea13734d7366446584f70f68e97aae20ac90ab2696b7cdf36ee91087a"
+  },
+  {
+   "seed": 1239914858,
+   "sha256": "2316938aa925daa573dcd41eb5576bcc833b79c0dd4a3f8ec954f1d650252396"
+  },
+  {
+   "seed": 3894350619,
+   "sha256": "cd37bd513cf1f07c43d08518537950c842af404017bf45d7cb721eebb651c374"
+  },
+  {
+   "seed": 2253819084,
+   "sha256": "88a3db0afba86799694c9c2c5d188e3f7121adbad54a0aa0c0fc621f357affe0"
+  },
+  {
+   "seed": 613287549,
+   "sha256": "2fb01120b6332d08c96e32c593a49a93d2564c4bdef6c18f7edf12938c929b72"
+  },
+  {
+   "seed": 3267723310,
+   "sha256": "81fbe84f3df378dab8aedbe790649664005c4c113bef608981cfbc16bb05b217"
+  },
+  {
+   "seed": 1627191775,
+   "sha256": "e8c73c49c61081d1dacb11bf43c724407f2c355565975fac29ea9c882601df05"
+  },
+  {
+   "seed": 4281627536,
+   "sha256": "9ec270636e6888e6b69aa05000f736baa1153774e5ffe1ea463d209893366c2a"
+  },
+  {
+   "seed": 2641096001,
+   "sha256": "77641be1c025027d43450b5a654d0232a155e0e3f57f20684091e8ffbd924dee"
+  },
+  {
+   "seed": 1000564466,
+   "sha256": "1b594ef6c7658ca5bc6244b187097fbee65216d548bcd1054b0f2f4f97107a8c"
+  },
+  {
+   "seed": 3655000227,
+   "sha256": "405352f0b092c41af2150c9273c5abeafbbccc6585e1c277e759756d75f0f953"
+  },
+  {
+   "seed": 2014468692,
+   "sha256": "a063405b103666e98f1847bf938b0081805953217eb8b89ea0681310d97ca058"
+  },
+  {
+   "seed": 373937157,
+   "sha256": "6fc5b15bc0cee92496bf350bda91b0f7be3fc8d325bc41a715e4d02a98d1143d"
+  },
+  {
+   "seed": 3028372918,
+   "sha256": "e7295353c5275e5cb5d8bc62ed8b6ece8bab3cf3eba263c673f5ac15483e5829"
+  },
+  {
+   "seed": 1387841383,
+   "sha256": "f651320985442024e995f4f74a2520a5c88ea196079483912388cbddd9d767f6"
+  },
+  {
+   "seed": 4042277144,
+   "sha256": "ca14b34351dac7b2e9605959c14492e46c4503d0a0b817a05fb27ee276c07fd8"
+  },
+  {
+   "seed": 2401745609,
+   "sha256": "9410c40033660ac9458fda1d84354fc8ead39326080aadd8be8ddbf8cdc1cca9"
+  },
+  {
+   "seed": 761214074,
+   "sha256": "887713091eb48ed0d9801f786d55a136cbfeddb46f5d8f27a24f26701fe9821b"
+  },
+  {
+   "seed": 3415649835,
+   "sha256": "407977fe355627a4a947627cf1a97e8350e43b5a3b883fef177735f692809f50"
+  },
+  {
+   "seed": 1775118300,
+   "sha256": "48bf0516c4a107d2744d0427ea17d5d10a29d68d7a60f55458d5efca2ae96824"
+  },
+  {
+   "seed": 134586765,
+   "sha256": "a5dde7325d94bb5e7b17198003ae091b592acf9111f2177dc4be0e6d3045dd07"
+  },
+  {
+   "seed": 2789022526,
+   "sha256": "2b7dde6b4b92fb2d8082e7a59cab53eb57e8196ebad92a9739c748a3e86ffb75"
+  },
+  {
+   "seed": 1148490991,
+   "sha256": "bc77e8f8cbf28ecee16b19afe5fcfdf44dc896d215a017874ea4b611409f8615"
+  },
+  {
+   "seed": 3802926752,
+   "sha256": "5ab53cbc0930984644cd2b5c7597cb5cb7789398274fb509c9c79eee5399b878"
+  },
+  {
+   "seed": 2162395217,
+   "sha256": "7bcbccbfad827722080343c8c66a1c0e2b62304ad043481bb72889cb0827127a"
+  },
+  {
+   "seed": 521863682,
+   "sha256": "ff41dd01b612ed171b18da2025448688b1c1eee460b43fcdf214998bd94c1e28"
+  },
+  {
+   "seed": 3176299443,
+   "sha256": "c03d937c09a7c97c4802d13d68366c82842e1512870b4099c9545583c1a5ad94"
+  },
+  {
+   "seed": 1535767908,
+   "sha256": "435bd86989a60d744d609bf481f7887c95b9936470dda1d6854fab23a8a4a1f9"
+  },
+  {
+   "seed": 4190203669,
+   "sha256": "4143fdddf58d5d73c790154d6e3d3755232516ef61eca17cb7d9b248ef33cd24"
+  },
+  {
+   "seed": 2549672134,
+   "sha256": "958d58612140213168ed35203886047f9cc219fdd1d3c1216bfd9826378b1a05"
+  },
+  {
+   "seed": 909140599,
+   "sha256": "b3cfffef503f901ca497ed343c16b6733b176db81406aa694f07e8abcb51f52e"
+  },
+  {
+   "seed": 3563576360,
+   "sha256": "2cbdd9b0dea039a71d30dc7064825b50994f15240ce1b2e734432dec1e8c825b"
+  },
+  {
+   "seed": 1923044825,
+   "sha256": "91f3be3608b99893663d7cd2f52d14e957f720242b39723bcc4bf8e96104cb57"
+  },
+  {
+   "seed": 282513290,
+   "sha256": "7cb2c780c15319edb6259163f2e482615e590c98953b95fc88dbafb63d147187"
+  },
+  {
+   "seed": 2936949051,
+   "sha256": "325d5111f8df19949b207358dc346a62e0e6a25b94ccff91d7eea01b52e06e8b"
+  },
+  {
+   "seed": 1296417516,
+   "sha256": "abf76e141a72732f4c4857380882cbecc3782fda5ad6fb4de0e844d1b1ad2588"
+  },
+  {
+   "seed": 3950853277,
+   "sha256": "8044b90786a63d8ed84bd36c955281951f9dab57e95aa9b09e853d81381c91fb"
+  },
+  {
+   "seed": 2310321742,
+   "sha256": "6cc005a05924a023632a9b82f71ac3c404d5df70c7a033b55e6cbd094d2e7cf8"
+  },
+  {
+   "seed": 669790207,
+   "sha256": "791fdbf437daef6b2df6519bc82b86c656e2f0d047a88a03af327ec290b58be2"
+  },
+  {
+   "seed": 3324225968,
+   "sha256": "aea04f322ce2863df4b5195ae7a993ab982f6135ab6862753def788282e93585"
+  },
+  {
+   "seed": 1683694433,
+   "sha256": "eb9bc7692b2776dc11ce03a44f057515d89312088a7234bf2632c1aa4e78819a"
+  },
+  {
+   "seed": 43162898,
+   "sha256": "41362cf871c261466969ff956053e4f1728796082172f788c2ded3d1b127a0ac"
+  },
+  {
+   "seed": 2697598659,
+   "sha256": "6f08c7aba398e553cc1d2e6c079ec062b9dee34a370cf44d899702f9f7854ab5"
+  },
+  {
+   "seed": 1057067124,
+   "sha256": "2a573e0df63b5bdfda5bc8a6bf92bab70373d238f53a323dcc2fed4f2a29365e"
+  },
+  {
+   "seed": 3711502885,
+   "sha256": "5b8bcfdf9595fe293d377fe753a720fe8bc5fdb224dc4fb419ebe20099e757e6"
+  },
+  {
+   "seed": 2070971350,
+   "sha256": "d6e3fb4394319d68874175bd2bf21c3ef071678c6050fc897dd9421158f08006"
+  },
+  {
+   "seed": 430439815,
+   "sha256": "19a6792423f797d1896f3bca4918c7dc6864dbdfca5791e93c486e8d7234e024"
+  },
+  {
+   "seed": 3084875576,
+   "sha256": "ef99fa6e4b3013e133490008cf283fda0e56d7dee17aa2cb898fa75094f4a372"
+  },
+  {
+   "seed": 1444344041,
+   "sha256": "783771483a823c3da30f3c2d6f57bdc220a1d260ea214c0071b0ef94acea074c"
+  },
+  {
+   "seed": 4098779802,
+   "sha256": "b17d327d9b92bc961a5e8b0643d6068c5de09f96b7147c6988499ebb84a213ec"
+  },
+  {
+   "seed": 2458248267,
+   "sha256": "a8e46a8e12bd1e72c5ec0c9a9b111fc5769cb5fecdb6668bfb3e47ca33bde976"
+  },
+  {
+   "seed": 817716732,
+   "sha256": "e5ca4e70fc3077ad83037daa4aa76e81edee7061653351edbb071004866860ed"
+  },
+  {
+   "seed": 3472152493,
+   "sha256": "75d150be2e2a4cabe21f7af7241b0eb45a17acdd5811a9997eac15e79f06e96d"
+  },
+  {
+   "seed": 1831620958,
+   "sha256": "5741394f42465367f9c96380928be6e169634bc9b0a6dde9c76838075b94325a"
+  },
+  {
+   "seed": 191089423,
+   "sha256": "cd8dfbcaf5a42c3aff74f2267f03e61c153c8033f288e03a1fd046d71ac0841d"
+  },
+  {
+   "seed": 2845525184,
+   "sha256": "499e0c2d0d98e9e9497191873a2a130b78f17cbaf9705f511c292d676dc81935"
+  },
+  {
+   "seed": 1204993649,
+   "sha256": "2c33f54a6f31c7e6eb43c2b79c37337ccaf3d251ab1e3e7dde9ebcf59f65810f"
+  },
+  {
+   "seed": 3859429410,
+   "sha256": "b0195073b495d97fc93d5140f6eec57c9b82096674dda678b5c633bb754a5233"
+  },
+  {
+   "seed": 2218897875,
+   "sha256": "736e0b7fd849af69301c78f5fa56d5684dc42617c3177b4c94792c85a284ce58"
+  },
+  {
+   "seed": 578366340,
+   "sha256": "2cb6a51c7e85115667ff618eb950b35a2edc5884266cfbce3c67043fb7ec0123"
+  },
+  {
+   "seed": 3232802101,
+   "sha256": "84a401e9409c575aa3dbf664a5e685be5195acec692d85a805f010e47800c454"
+  },
+  {
+   "seed": 1592270566,
+   "sha256": "65e8c70e95236dc2395c19c35fcce3f3a3c02bc04176d5bd318d0c1d3b9c0d1a"
+  },
+  {
+   "seed": 4246706327,
+   "sha256": "14cb3126b7a1b1b57be5da83dd5f655ab20a3f2b7fda503442f34964f62e8eeb"
+  },
+  {
+   "seed": 2606174792,
+   "sha256": "a4b8cfd4276a9947b73a0d904e90ab47e493663b6ca1da88a68857b430fd69e3"
+  }
+ ],
+ "samples": [
+  {
+   "seed": 2654435761,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 2654435761,
+    "context": [],
+    "tags": [
+     "password"
+    ],
+    "kind": "mc",
+    "prompt": "Por que reutilizar a mesma senha em vários sites é perigoso?",
+    "options": [
+     "O vazamento de um site entrega o acesso a todos os outros (credential stuffing)",
+     "Porque o navegador apaga as senhas repetidas",
+     "Porque os sites ficam mais lentos",
+     "Porque a senha expira mais rápido"
+    ],
+    "answer": 0,
+    "explanation": "Listas de e-mail+senha vazadas são testadas automaticamente em centenas de serviços. Senha única por site — com um gerenciador — corta esse ataque.",
+    "hint": "Uma chave que abre todas as portas."
+   },
+   "checks": [
+    {
+     "answer": 0,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1013904226,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 1013904226,
+    "context": [],
+    "tags": [
+     "password"
+    ],
+    "kind": "mc",
+    "prompt": "Qual configuração freia diretamente um ataque de força bruta online?",
+    "options": [
+     "Exigir troca de senha todo mês",
+     "Bloquear a conta ou atrasar novas tentativas depois de N erros",
+     "Proibir símbolos na senha",
+     "Reduzir o tamanho máximo da senha"
+    ],
+    "answer": 1,
+    "explanation": "Lockout e atraso progressivo limitam a taxa de tentativas. Trocas mensais obrigatórias, por outro lado, costumam piorar as senhas (senha1, senha2…) — recomendação abandonada pelos guias atuais.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3668339987,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 3668339987,
+    "context": [],
+    "tags": [
+     "password"
+    ],
+    "kind": "mc",
+    "prompt": "Por que a autenticação em dois fatores (MFA) protege mesmo se a senha vazar?",
+    "options": [
+     "Porque ela criptografa a página de login",
+     "Porque ela troca sua senha automaticamente toda semana",
+     "Além da senha, é preciso algo que o atacante não tem (um código no aparelho ou uma chave física)",
+     "Porque ela esconde seu e-mail do site"
+    ],
+    "answer": 2,
+    "explanation": "Fatores diferentes: algo que você sabe (senha), algo que você tem (aparelho/chave) e algo que você é (biometria). Com dois deles, uma senha vazada não basta.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 2,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2027808452,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 2027808452,
+    "context": [],
+    "tags": [
+     "password"
+    ],
+    "kind": "mc",
+    "prompt": "Como um serviço deve guardar as senhas dos usuários?",
+    "options": [
+     "Em texto claro, num banco protegido por firewall",
+     "Criptografadas com a mesma chave para todos",
+     "Em um arquivo oculto no servidor",
+     "Como hash lento com sal (argon2, bcrypt), nunca em texto claro"
+    ],
+    "answer": 3,
+    "explanation": "Hash é de mão única: o serviço confere sem saber a senha. O sal impede tabelas pré-calculadas e a lentidão proposital encarece o ataque offline. Se um site consegue te mandar sua senha antiga por e-mail, ele a guardou de forma insegura.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 387276917,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 387276917,
+    "context": [],
+    "tags": [
+     "password"
+    ],
+    "kind": "mc",
+    "prompt": "Por que a autenticação em dois fatores (MFA) protege mesmo se a senha vazar?",
+    "options": [
+     "Porque ela criptografa a página de login",
+     "Porque ela troca sua senha automaticamente toda semana",
+     "Porque ela esconde seu e-mail do site",
+     "Além da senha, é preciso algo que o atacante não tem (um código no aparelho ou uma chave física)"
+    ],
+    "answer": 3,
+    "explanation": "Fatores diferentes: algo que você sabe (senha), algo que você tem (aparelho/chave) e algo que você é (biometria). Com dois deles, uma senha vazada não basta.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3041712678,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 3041712678,
+    "context": [],
+    "tags": [
+     "password"
+    ],
+    "kind": "mc",
+    "prompt": "O que é um ataque de força bruta?",
+    "options": [
+     "Quebrar fisicamente o servidor",
+     "Enviar e-mails falsos pedindo a senha",
+     "Interceptar a conexão para ler os dados",
+     "Testar senhas repetidamente até acertar"
+    ],
+    "answer": 3,
+    "explanation": "Sem limite de tentativas, a única defesa é o tamanho do espaço de busca. Com limite de tentativas (lockout) e um segundo fator, o ataque para de ser viável mesmo contra senhas medianas.",
+    "hint": "Tentativa e erro, em escala."
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1401181143,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 1401181143,
+    "context": [],
+    "tags": [
+     "password"
+    ],
+    "kind": "mc",
+    "prompt": "Qual configuração freia diretamente um ataque de força bruta online?",
+    "options": [
+     "Reduzir o tamanho máximo da senha",
+     "Exigir troca de senha todo mês",
+     "Proibir símbolos na senha",
+     "Bloquear a conta ou atrasar novas tentativas depois de N erros"
+    ],
+    "answer": 3,
+    "explanation": "Lockout e atraso progressivo limitam a taxa de tentativas. Trocas mensais obrigatórias, por outro lado, costumam piorar as senhas (senha1, senha2…) — recomendação abandonada pelos guias atuais.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 4055616904,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 4055616904,
+    "context": [],
+    "tags": [
+     "password"
+    ],
+    "kind": "mc",
+    "prompt": "Como um serviço deve guardar as senhas dos usuários?",
+    "options": [
+     "Como hash lento com sal (argon2, bcrypt), nunca em texto claro",
+     "Em um arquivo oculto no servidor",
+     "Criptografadas com a mesma chave para todos",
+     "Em texto claro, num banco protegido por firewall"
+    ],
+    "answer": 0,
+    "explanation": "Hash é de mão única: o serviço confere sem saber a senha. O sal impede tabelas pré-calculadas e a lentidão proposital encarece o ataque offline. Se um site consegue te mandar sua senha antiga por e-mail, ele a guardou de forma insegura.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 0,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2415085369,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 2415085369,
+    "context": [],
+    "tags": [
+     "password"
+    ],
+    "kind": "mc",
+    "prompt": "Como um serviço deve guardar as senhas dos usuários?",
+    "options": [
+     "Criptografadas com a mesma chave para todos",
+     "Como hash lento com sal (argon2, bcrypt), nunca em texto claro",
+     "Em um arquivo oculto no servidor",
+     "Em texto claro, num banco protegido por firewall"
+    ],
+    "answer": 1,
+    "explanation": "Hash é de mão única: o serviço confere sem saber a senha. O sal impede tabelas pré-calculadas e a lentidão proposital encarece o ataque offline. Se um site consegue te mandar sua senha antiga por e-mail, ele a guardou de forma insegura.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 774553834,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 774553834,
+    "context": [],
+    "tags": [
+     "password"
+    ],
+    "kind": "mc",
+    "prompt": "Como um serviço deve guardar as senhas dos usuários?",
+    "options": [
+     "Como hash lento com sal (argon2, bcrypt), nunca em texto claro",
+     "Em texto claro, num banco protegido por firewall",
+     "Em um arquivo oculto no servidor",
+     "Criptografadas com a mesma chave para todos"
+    ],
+    "answer": 0,
+    "explanation": "Hash é de mão única: o serviço confere sem saber a senha. O sal impede tabelas pré-calculadas e a lentidão proposital encarece o ataque offline. Se um site consegue te mandar sua senha antiga por e-mail, ele a guardou de forma insegura.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 0,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3428989595,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 3428989595,
+    "context": [],
+    "tags": [
+     "password"
+    ],
+    "kind": "mc",
+    "prompt": "Qual configuração freia diretamente um ataque de força bruta online?",
+    "options": [
+     "Reduzir o tamanho máximo da senha",
+     "Bloquear a conta ou atrasar novas tentativas depois de N erros",
+     "Proibir símbolos na senha",
+     "Exigir troca de senha todo mês"
+    ],
+    "answer": 1,
+    "explanation": "Lockout e atraso progressivo limitam a taxa de tentativas. Trocas mensais obrigatórias, por outro lado, costumam piorar as senhas (senha1, senha2…) — recomendação abandonada pelos guias atuais.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1788458060,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 1788458060,
+    "context": [],
+    "tags": [
+     "password"
+    ],
+    "kind": "mc",
+    "prompt": "Por que a autenticação em dois fatores (MFA) protege mesmo se a senha vazar?",
+    "options": [
+     "Porque ela troca sua senha automaticamente toda semana",
+     "Além da senha, é preciso algo que o atacante não tem (um código no aparelho ou uma chave física)",
+     "Porque ela esconde seu e-mail do site",
+     "Porque ela criptografa a página de login"
+    ],
+    "answer": 1,
+    "explanation": "Fatores diferentes: algo que você sabe (senha), algo que você tem (aparelho/chave) e algo que você é (biometria). Com dois deles, uma senha vazada não basta.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  }
+ ]
+}

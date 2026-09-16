@@ -1,0 +1,2076 @@
+{
+ "source": "02-subnets/t2",
+ "generator": "subnet_same_network",
+ "params": {
+  "prefixes": [
+   24,
+   25,
+   26,
+   27
+  ]
+ },
+ "seeds": [
+  {
+   "seed": 2654435761,
+   "sha256": "84d5edb912d28030a17d7c694aca6e87595c23dfee6f53d645ef00c4bb81d8fc"
+  },
+  {
+   "seed": 1013904226,
+   "sha256": "4d1f1506db9bd1c7a3383fbe59f3e8a65a26cb02c33c8f387800c2b242c51321"
+  },
+  {
+   "seed": 3668339987,
+   "sha256": "fb24f89c7b777ff80166c5265c48e887792c22d766eecee3b3227515e6d2eb9b"
+  },
+  {
+   "seed": 2027808452,
+   "sha256": "2966f29a9a0c610333c6d237eba6b0065b8c7afc781c49944f3918c71dc5fa94"
+  },
+  {
+   "seed": 387276917,
+   "sha256": "ff3596859bf2edb37db5cea220ca5e16cd07fc4482a3fd99fbd4043e6ebaa881"
+  },
+  {
+   "seed": 3041712678,
+   "sha256": "a2170cca7d018225d087c8b49e7804b8ad33709e9636e3dca33bd53eae3345a4"
+  },
+  {
+   "seed": 1401181143,
+   "sha256": "874526bea51904b3b9e2f3901f5f875435079491f6a4f701befeeebabcb753d4"
+  },
+  {
+   "seed": 4055616904,
+   "sha256": "015236a35240790ec35ad854635ec6644e44510b64e48ce5f332974c005cd33c"
+  },
+  {
+   "seed": 2415085369,
+   "sha256": "eb1cc8a476fa7e541ef1264d49a700ece0250607e1d2bfa2479162b42d455ef8"
+  },
+  {
+   "seed": 774553834,
+   "sha256": "39c94b66e5e0ba7131ab5d9b9858a8c70ad470e9e9972aac65e9b6de39f9c579"
+  },
+  {
+   "seed": 3428989595,
+   "sha256": "683ba8008cfe585bdf784e40c77ce110999e0789f0f9a09b85bdd0946262e2de"
+  },
+  {
+   "seed": 1788458060,
+   "sha256": "b37dbe2178d160b2a21b9ff81175b23d875c5f31a31c1eae87aafc478d569165"
+  },
+  {
+   "seed": 147926525,
+   "sha256": "b0575bf7fb8c1fd6e71f58c217153ea993ff7ea4e19c5f5875ec61896b1b864b"
+  },
+  {
+   "seed": 2802362286,
+   "sha256": "4d33c9464e3d5c30abfe6fedc2296b7556ddf6eeb250ae5fdfbeeadf9f1cb478"
+  },
+  {
+   "seed": 1161830751,
+   "sha256": "9b470154255a3781c1d2f87af32d0e0fee8daf7cf18f91fefa68c318421b3439"
+  },
+  {
+   "seed": 3816266512,
+   "sha256": "6c2ac1cb03c785e63e57f0228e79ac0f5b36ec55bd45e7a7f566bf0cf6d4a02d"
+  },
+  {
+   "seed": 2175734977,
+   "sha256": "19b366270bfe8c501d5b5ccde0e02eb792c1f4b67e9a4abb314122ba65496916"
+  },
+  {
+   "seed": 535203442,
+   "sha256": "2a8c13e3700e34552a13128aa484205dd9d310316e7ee058dfc63d590517d0b6"
+  },
+  {
+   "seed": 3189639203,
+   "sha256": "74e4fa11d86ce0a8f6a71fcb9de25348a91a464b70dbbe3fda1ac60ef85ec62a"
+  },
+  {
+   "seed": 1549107668,
+   "sha256": "57852a1f29481623a4a716d3fee5807c8ee327795f038695550d116bb677b29e"
+  },
+  {
+   "seed": 4203543429,
+   "sha256": "fbabf89b50c119358c2c66560cc9090bdbbf85c00cbe12fb6db5675b4ee64ad8"
+  },
+  {
+   "seed": 2563011894,
+   "sha256": "25438d77643d01c01e4d4c355983410c72f84cfd2403ccee096371367be16dee"
+  },
+  {
+   "seed": 922480359,
+   "sha256": "aea486cac50343ae25eb375a42b76c74468fd8cfd343ccc19e90e2ab7e74f49e"
+  },
+  {
+   "seed": 3576916120,
+   "sha256": "ae46cc8f84dea69d5496cdfa2a9ad587074d40a66cb310b16d4406dea9f9dc15"
+  },
+  {
+   "seed": 1936384585,
+   "sha256": "880d646c67c07723c9bde4115b8cc5183531fffda9b8b1b3a97f531bdd91b02b"
+  },
+  {
+   "seed": 295853050,
+   "sha256": "86f67a896be54c44a978ea49fa13c33cb5a4423bc1f648c8540754246eafc854"
+  },
+  {
+   "seed": 2950288811,
+   "sha256": "cb9f91272d0c180f4441b7c4d291f5ea2232aef6d4cba6e07243e2f0e6671c10"
+  },
+  {
+   "seed": 1309757276,
+   "sha256": "b028c26cc12bee6ccad911e0620e69f4556b094da9fa7d54874cbddc63e98166"
+  },
+  {
+   "seed": 3964193037,
+   "sha256": "e4af070f3331015dce82ef86b5b0bbbf7b05aad63441c3c725a47a6408882900"
+  },
+  {
+   "seed": 2323661502,
+   "sha256": "6542349275906d8d4e20f96a938a4d319d4e8f827233b8c31b405b6f33b17506"
+  },
+  {
+   "seed": 683129967,
+   "sha256": "be9383d8e91a2fd50ed24d6067e7460f8a2aac2376d9516acf5589adc97816a7"
+  },
+  {
+   "seed": 3337565728,
+   "sha256": "be09738fede9e665523eefeed75f50d463624b45a0419d8d758cc7bf5875bd91"
+  },
+  {
+   "seed": 1697034193,
+   "sha256": "2bd8e5668c4eda668788e3be05fb4c4a465ff50b9fef8e9b7659e3423582514d"
+  },
+  {
+   "seed": 56502658,
+   "sha256": "c7a28ddb7c92c5003a4ff311fd35c25ede244b1ea14e610468a71df4bbfcff1b"
+  },
+  {
+   "seed": 2710938419,
+   "sha256": "a64609a1bad83bbb2ae123b26d67c718031f0bab369e1f2e3e6b6915f4c9c5d5"
+  },
+  {
+   "seed": 1070406884,
+   "sha256": "ec64606c6fc24978012b945ffdf90927e9b6aba4cc7a2b3498957bf012cd9e47"
+  },
+  {
+   "seed": 3724842645,
+   "sha256": "c6a83a37ed92f50966adbac1ff947a01d7bb68e4fcfedc8f742b28fc6fdb43f6"
+  },
+  {
+   "seed": 2084311110,
+   "sha256": "e4093451d4d0227c43ece7c1c1733cf309130b580eb6e81e126803c52354a35c"
+  },
+  {
+   "seed": 443779575,
+   "sha256": "8b02ce3be860e291c471003be7c70567a5ff83bdc5dd731008db2269cc3ea2f9"
+  },
+  {
+   "seed": 3098215336,
+   "sha256": "75bf85938b67b2f46d3d707bd875dae13f5dd03171e006aeb970cf2bc23143c6"
+  },
+  {
+   "seed": 1457683801,
+   "sha256": "259627b5a9e2be0091497f4c4a068ad055d2c82c2ccd0bc487799aca8cbf374f"
+  },
+  {
+   "seed": 4112119562,
+   "sha256": "c037a48d41c00e382b76fbf3cd952779d569e94e8854b6b030c3964127f720d1"
+  },
+  {
+   "seed": 2471588027,
+   "sha256": "21b4331c7528ace0ba7a331d982ccd3c3fb83598a009c481c56e6c2883ce1180"
+  },
+  {
+   "seed": 831056492,
+   "sha256": "b28c3d682011bd463b23eb83c20c72ceb64e3a4fa6eb16dfc7992e32f0c088f8"
+  },
+  {
+   "seed": 3485492253,
+   "sha256": "cc20ef247286d548cee8b8dd46c7012d040aaac5f5a0097369cb5c59746ff83d"
+  },
+  {
+   "seed": 1844960718,
+   "sha256": "93de16b61ac30218694e0492603128dc1ed1dd8e3c1ac7ebb31c13ad90081134"
+  },
+  {
+   "seed": 204429183,
+   "sha256": "60cfb1fc5b1ea9164d2714ee6f0a0743f7d97dddefbcdcd52f7d68576a0bff08"
+  },
+  {
+   "seed": 2858864944,
+   "sha256": "68443227a9d5a9756983d48c182c8baa8cd6475964e0fee7035fb426c8df6d60"
+  },
+  {
+   "seed": 1218333409,
+   "sha256": "2b6ca35cd89cb933774505c002672708355e35db441991b6c4463704a4e1bf23"
+  },
+  {
+   "seed": 3872769170,
+   "sha256": "f0ef7ad48e227db0e737523c476a10e780f4a845c840dd5800dc9abb4b43d027"
+  },
+  {
+   "seed": 2232237635,
+   "sha256": "8c498240b2c6f0675a18d7919de7e5faeb15fd961ee412bae0d6f2430f9b0510"
+  },
+  {
+   "seed": 591706100,
+   "sha256": "0aaea7c40338c307a153dda2bd862a27214167d3dadbecfd063d0d89cc9d3be5"
+  },
+  {
+   "seed": 3246141861,
+   "sha256": "72ba206c0016ee01c805e73c96396b466a97b2dc65d6311cc76111060e82d7eb"
+  },
+  {
+   "seed": 1605610326,
+   "sha256": "30aa0a8085d4ed2845d46f3e9045f85fc65f3e3f386757dbca58744dc7571c85"
+  },
+  {
+   "seed": 4260046087,
+   "sha256": "c791b982c45ad92a2da73bc7e76dd227c1d4adc35083789739cd36596e7e88e0"
+  },
+  {
+   "seed": 2619514552,
+   "sha256": "52c1727d3d0ba5687899d2fd2825c0694ac1a67ce3bb92bfce690cb72d15f59c"
+  },
+  {
+   "seed": 978983017,
+   "sha256": "aac38ac48c1508ee1602d8b6c85a809a3dc2ac6f004cbab7f8981d70bfb6b83f"
+  },
+  {
+   "seed": 3633418778,
+   "sha256": "21240b52912cc6e864e534bec1846fe0d20a4d5d879617a9f90063a336037c3f"
+  },
+  {
+   "seed": 1992887243,
+   "sha256": "bc9e1f5601a0f6f02bff71a93e8dae77c80a9ad27007b17a2ff69dcaf719fe57"
+  },
+  {
+   "seed": 352355708,
+   "sha256": "012c5613cc0cda79a5b36c16ba9c9ffc62c7fe901704312a8252fccd963279b2"
+  },
+  {
+   "seed": 3006791469,
+   "sha256": "d88b4ffa7ad0f93faa795ba3c0bd92c7282ee14d41296c0d43a8b8477885e65e"
+  },
+  {
+   "seed": 1366259934,
+   "sha256": "adc2c524fb6e0f72bda78c388a144b03eeed007e10afbe091392e1cb2fd291f6"
+  },
+  {
+   "seed": 4020695695,
+   "sha256": "1a170415fb7f793d7fed25f72f15c92b8d16582ca838cee35c7d4e399e3a0df3"
+  },
+  {
+   "seed": 2380164160,
+   "sha256": "02c7f06c92b539e8bc3d22a7d600ae16c5e198c987fce40cc24b98baaaf6822f"
+  },
+  {
+   "seed": 739632625,
+   "sha256": "db356988feb018934c2e83244af4976f8d50b701ce11ac5c830ee66b03ab0a17"
+  },
+  {
+   "seed": 3394068386,
+   "sha256": "68fbb01490f68cb442a27fa471760dd0e8d7c90e5b2a0c6154534fe812715bfa"
+  },
+  {
+   "seed": 1753536851,
+   "sha256": "bd12055ac87c9fcf05f8111696cb8ff1bb110edd602b7b5943b330419b67a0a3"
+  },
+  {
+   "seed": 113005316,
+   "sha256": "5f03268a81b2f1eace8d40d3817b7ec8955ae4c977202a14fb6254d4156175df"
+  },
+  {
+   "seed": 2767441077,
+   "sha256": "fe3a3de02a9870a98203b21837e3de5217a801bec6783e31b389a1cd639a3e6d"
+  },
+  {
+   "seed": 1126909542,
+   "sha256": "c232cbe486165461907900f0d4eeebc1a049327a4ed4d40791bff11109afab9e"
+  },
+  {
+   "seed": 3781345303,
+   "sha256": "6f9a42b689b4f2bc5f4a12a8f1d15a955908bfb7d3e7db8e00d5ea16976e7801"
+  },
+  {
+   "seed": 2140813768,
+   "sha256": "96baf4933ddbf83fc488b3e2d3d03097944ecc251af7a453a0545da00d5008dd"
+  },
+  {
+   "seed": 500282233,
+   "sha256": "ba43a013c4cba1a70228790361f9490dce6402cb5307ef4849e7544acb6239ac"
+  },
+  {
+   "seed": 3154717994,
+   "sha256": "b5cc8e97b7cc33ed97247f7770fa96fdce3265e4356f39f2ae077c8acd268548"
+  },
+  {
+   "seed": 1514186459,
+   "sha256": "c3aebd24317f9f3ce26fe7d98fde63fab0e8798d2e2dfaf9f5655b453b9a044b"
+  },
+  {
+   "seed": 4168622220,
+   "sha256": "50ba0fa5447478144043dd46e845ef5634fc1b603ada4c9375f0cb8a5225d5c7"
+  },
+  {
+   "seed": 2528090685,
+   "sha256": "4493d7b75da61c2c40ce1713b3589579a2974c5aea193a8447d5130169156ee3"
+  },
+  {
+   "seed": 887559150,
+   "sha256": "1be5e74ea20bb4446f10d4919eb30f961a17d5169f2f0504ba596649ced8f6da"
+  },
+  {
+   "seed": 3541994911,
+   "sha256": "ce7f07903116c674d48f8215425252cca7f7c4ee4412ab6f028fb2818f6ab92b"
+  },
+  {
+   "seed": 1901463376,
+   "sha256": "7443f558d343521552587383af55abedd69dea29410daef86f73eb07cd7aeb44"
+  },
+  {
+   "seed": 260931841,
+   "sha256": "cc4f8d182705ed8f505c68013f1b2d50f6302b1dc95c038d270adb59d0e54b72"
+  },
+  {
+   "seed": 2915367602,
+   "sha256": "2d7defc5aaf353e1dfd6ad358b1d7ddec9ae41e6b50471fc112125df8095fae2"
+  },
+  {
+   "seed": 1274836067,
+   "sha256": "496f792c3a36ea08244c3d91103f322efcb9bda70a7c4f905e7b06a5810a2020"
+  },
+  {
+   "seed": 3929271828,
+   "sha256": "547f4a3b706aa7075a2c02c51ad7914d5c336ddcfe888287c3d9537658d6bea0"
+  },
+  {
+   "seed": 2288740293,
+   "sha256": "2bf1c1a205f1de1640913bf0a7bdbe908d1e2087d9f33c065605f7688c18eb4a"
+  },
+  {
+   "seed": 648208758,
+   "sha256": "97a6afb080e9da4fd9cbe65b0764140c2e8ac4d5dfc34865740e661a5240e397"
+  },
+  {
+   "seed": 3302644519,
+   "sha256": "5c724aa2fc53cae7732a19a7f4e63e4f8e0d20c094799529629d278373d70455"
+  },
+  {
+   "seed": 1662112984,
+   "sha256": "6f5d0aeef14796a4dd55b7588d55bb00c566934739388cb0cb04733d28bf0bc2"
+  },
+  {
+   "seed": 21581449,
+   "sha256": "0bcdb28ec552a99885f650304a08bd532e3a5aaa4d577bd57444cce06ab6a785"
+  },
+  {
+   "seed": 2676017210,
+   "sha256": "bbde37465107be1c637d7152f0a21502cb36a51237d94aef07515aa368169959"
+  },
+  {
+   "seed": 1035485675,
+   "sha256": "c899a33fb8e502878dfd604abe3b3cb25c533898370c307e58eebf54ae4ec1c3"
+  },
+  {
+   "seed": 3689921436,
+   "sha256": "87da1e66321014c7e5b09ae7d39606019f9202e1a04789b2d455f28255999817"
+  },
+  {
+   "seed": 2049389901,
+   "sha256": "001050b4dd7a5d29fa026397383d9bfd62cc3bc0bc5eced9f94f72ed069a1b14"
+  },
+  {
+   "seed": 408858366,
+   "sha256": "5ab4a935262f570f614c86c3eced49826e67db9ace9bfddecbcf8835f3d405af"
+  },
+  {
+   "seed": 3063294127,
+   "sha256": "b6bb7cf29748ccc6d2ae1487b5063417570aa0b5f04779b7968019a62c587315"
+  },
+  {
+   "seed": 1422762592,
+   "sha256": "47019dc11dbd3b04a65641aba1a1a71f965f63f844d550e858a475fe7840b111"
+  },
+  {
+   "seed": 4077198353,
+   "sha256": "61900939fc7f53d6798d88279b08957d9eaad4d216df38e60fa726216cc5b9fe"
+  },
+  {
+   "seed": 2436666818,
+   "sha256": "9cb6629cb392650fa546eb94c633cf62f322d2d9f0df0c31c6c5685d3bd80fde"
+  },
+  {
+   "seed": 796135283,
+   "sha256": "f24e3b37467d38942be920c2bf3c3be30f7f20d870ae02fa0a775b5fc7f595a7"
+  },
+  {
+   "seed": 3450571044,
+   "sha256": "bb68b0b09da7194e447de4f1c13d4155f74067e4e0c1ccf19d2393a2e6a14eb4"
+  },
+  {
+   "seed": 1810039509,
+   "sha256": "84889490621c60e2fd17cee49c38a3b37f15b34d8f37aaba879b223ffaeeeef0"
+  },
+  {
+   "seed": 169507974,
+   "sha256": "6ed83e16523509333d3275475a01efcdeecb3e39f3177872986031460e62ee4c"
+  },
+  {
+   "seed": 2823943735,
+   "sha256": "60c5333644ff759db9b37178b72a81de947e80436f05be78daf9b4bfa3d95bfd"
+  },
+  {
+   "seed": 1183412200,
+   "sha256": "4fbf202450700866cc4c3515830f828614ba15696cc2ca5c3153e3491e3a7b47"
+  },
+  {
+   "seed": 3837847961,
+   "sha256": "68d629fcf43409708d0e0b368a45870a73b63ff1792c424f396bfbef5e2fdb6e"
+  },
+  {
+   "seed": 2197316426,
+   "sha256": "24bc2ef2a257f7f741960596af1e7fc9f08cac0a162877f7035013e173f88195"
+  },
+  {
+   "seed": 556784891,
+   "sha256": "86588b7836dd2aa61a08fc77b2daefc520d0aa005db39508e2f7ce8c13b5a8f7"
+  },
+  {
+   "seed": 3211220652,
+   "sha256": "b5c0e5be3412d44f66a5c780f6329c6a5b15195414c95203111a2ae22814ac42"
+  },
+  {
+   "seed": 1570689117,
+   "sha256": "4138be3b54b4963aabde4ac9141ed0cea5d7b0efcec8151d94995ba9a5dc0054"
+  },
+  {
+   "seed": 4225124878,
+   "sha256": "bbe798b68d50c044118b33d2ecffec05cac5c1e3dbb2451b02253147aa4f2227"
+  },
+  {
+   "seed": 2584593343,
+   "sha256": "8b51946106386f3b2eae08936e1c617733aff354598cbad6fa6e9b75b46e0e9d"
+  },
+  {
+   "seed": 944061808,
+   "sha256": "44222900351ea847c238d934e2344ed37206aa523450dc8a879339b680332de4"
+  },
+  {
+   "seed": 3598497569,
+   "sha256": "ec42d3a33feb76488e8dc6943f6429312c1772d39100aca0a76e6b14f4955fc2"
+  },
+  {
+   "seed": 1957966034,
+   "sha256": "8034fef62a4ba0d51d709a418e59a55474e049a11940e99bb5068a7769cdf560"
+  },
+  {
+   "seed": 317434499,
+   "sha256": "42639fd66f96b40cde61eaf75004f2847342f1184ad943a6131dfd7fd632365d"
+  },
+  {
+   "seed": 2971870260,
+   "sha256": "cfe3115a1352655f170ffc9e4fe0f9322f377882094976eb4eb3cd077cb44606"
+  },
+  {
+   "seed": 1331338725,
+   "sha256": "9853d6ef15ca636cbe81b974e425d555f4f594eb0842a649336c676a16a4bc98"
+  },
+  {
+   "seed": 3985774486,
+   "sha256": "2f190f22105f2686f6b5f57448ae716486e8cfde5f92648af647d6ebdd89358a"
+  },
+  {
+   "seed": 2345242951,
+   "sha256": "2aa9cf7d7727c9c5d42d0bc7159b0e0d8dd91944383338a4be3e3e0eb3344a9d"
+  },
+  {
+   "seed": 704711416,
+   "sha256": "ae6bf342ee474cccf8e8dd3b2d6f40e8801586058f4be7b513fcad23c69363c4"
+  },
+  {
+   "seed": 3359147177,
+   "sha256": "c844cca46cd851d8e3f3cabef2a612d51a90cbf80a0f20fa0bfca7adf34e371b"
+  },
+  {
+   "seed": 1718615642,
+   "sha256": "b64204a65a0a518dde471c8cf6fa4a4d5b791d19bd4c2c64cfd897ad2036ec0a"
+  },
+  {
+   "seed": 78084107,
+   "sha256": "dfed7c4f01810ad7da47f6e7d4ef3b86bfb45a2b9e6f8c6e26e3923ba3835ba6"
+  },
+  {
+   "seed": 2732519868,
+   "sha256": "fa111985b6afdc5d734ea2cb96d0e1dd71b17689b24ebc10ab19255d593d3826"
+  },
+  {
+   "seed": 1091988333,
+   "sha256": "0c78be4bb86525bf6c769da0a60fbb62ee27ce4917066337b610268f7970d034"
+  },
+  {
+   "seed": 3746424094,
+   "sha256": "21ecc520f187f553a83ec9237281daee32d14c813a2d627fefcf6c4e269a707d"
+  },
+  {
+   "seed": 2105892559,
+   "sha256": "62d9c4cacc72168fdbeabf1871ca10c913de63f8e4ee7e57ab69cfd8b3c82257"
+  },
+  {
+   "seed": 465361024,
+   "sha256": "c514c0702c6642750f5b4be679adce1bdc3861fdc7f546b0317a9ffc235cc5df"
+  },
+  {
+   "seed": 3119796785,
+   "sha256": "5b3b4b9e41a4b703d77be2009e05dcc7d3769a8de03358868e16f1795ae54148"
+  },
+  {
+   "seed": 1479265250,
+   "sha256": "9988d23744c47705ae03509529feaa8f9aa44f3c6f068e700e31e84a7534e327"
+  },
+  {
+   "seed": 4133701011,
+   "sha256": "360f1f7230703c027a4d1cbc27ae47bf7bdc17e5e287fbbf2a13c091482a6a6b"
+  },
+  {
+   "seed": 2493169476,
+   "sha256": "db9dee3f6154238e25c9485d7e9211959da458a71440f9fe227a00b0248160db"
+  },
+  {
+   "seed": 852637941,
+   "sha256": "40d4c7f6f3b5c441dbde9f88fa7fcf32aa49cf91768ceda1ea8cd00e2e9b7962"
+  },
+  {
+   "seed": 3507073702,
+   "sha256": "05d72476f8add95e984d6c39a0108d0dceacd773789aa011c2ef518f058750af"
+  },
+  {
+   "seed": 1866542167,
+   "sha256": "0882d1b5629ab94d81b4b0057d323ea95b956c0696673a330afb40c1f93b8cdf"
+  },
+  {
+   "seed": 226010632,
+   "sha256": "16995b2b97aadb0870d47cb936188f120b825e55dd4f670e90a212755aed09d0"
+  },
+  {
+   "seed": 2880446393,
+   "sha256": "d5d0d9c515bfc41063bd6eec680ec59a9fb59f644e215a3fb8220f490b1c7a88"
+  },
+  {
+   "seed": 1239914858,
+   "sha256": "2d3610357ba860821eb7db4e01e12abb821dd0c1880abb4b23a2153b69039295"
+  },
+  {
+   "seed": 3894350619,
+   "sha256": "e11141868103233fd2b840b3c12b269c85adace9406a1e5ec233faac007bd7d3"
+  },
+  {
+   "seed": 2253819084,
+   "sha256": "3bb4d2865d8a8182817bf8f10aac789cdb1f3597e35b0635e6ee1e58ceb2a226"
+  },
+  {
+   "seed": 613287549,
+   "sha256": "5d9b9b8c3e31c99e891e91a24fccfd16edeb9f873b2a70a79d3be51ea9aad7db"
+  },
+  {
+   "seed": 3267723310,
+   "sha256": "f2d390a0a153e43223f0d9547635645ed7d5566b8810c596f0e8eeeb841448dc"
+  },
+  {
+   "seed": 1627191775,
+   "sha256": "c8e4e3fcebd1eb5f579e9917b02b71593c6e0c6ec05a9f02ea8f5db6e1a26caa"
+  },
+  {
+   "seed": 4281627536,
+   "sha256": "25dcf2a3697404978a8cbefac24608a582f7b951be614fb25bc229de9fc45cb2"
+  },
+  {
+   "seed": 2641096001,
+   "sha256": "bbc048d6de4e70ffd5c71a5a0c7fcf022826f94645f0dd78c2b0a306592a5604"
+  },
+  {
+   "seed": 1000564466,
+   "sha256": "148dfc6f4197cfe59094161c6779142e9c141811b12833792f66260b3e342afa"
+  },
+  {
+   "seed": 3655000227,
+   "sha256": "d2680753a9695f9de611c9b6145dc3076f9ab54b50bccba8f5ac4b85b6c7102f"
+  },
+  {
+   "seed": 2014468692,
+   "sha256": "192b86a3ba689d84dab7cd684895426476ca6396b08c0ea6f9ceab160561aede"
+  },
+  {
+   "seed": 373937157,
+   "sha256": "63bd507773ca14df20ec30171170d07ed9c60b212e771ac1fb3f4eadfffe670b"
+  },
+  {
+   "seed": 3028372918,
+   "sha256": "e7dcb1129ff1f2a7a09ef7e3c7828ad92912eabee85ffe3d63615c5d1d477d19"
+  },
+  {
+   "seed": 1387841383,
+   "sha256": "cb62bf54873af3a65301eacae7c04d68d5cdf11c6be5feb8a3b5d50cb3c83a92"
+  },
+  {
+   "seed": 4042277144,
+   "sha256": "6e3f785f2f121ab380ae020d7d36d4cc1c70e0cde9f1f1befeec3c1c84ef3477"
+  },
+  {
+   "seed": 2401745609,
+   "sha256": "9a53c2f9e461524c6fb42ef04ddd02db43ad59428632aadb52e87f65a14b076b"
+  },
+  {
+   "seed": 761214074,
+   "sha256": "ec84e94d43eddfa1efc4500968cc5a4c55bc8da3ecbaf7dabf13163885106128"
+  },
+  {
+   "seed": 3415649835,
+   "sha256": "8ee70514e3417294dce209c28c3f2339e3b6d39b06e6af6259b5042b22fec499"
+  },
+  {
+   "seed": 1775118300,
+   "sha256": "3bdd4a88ad18904283451ef461abb3167df9a7a09a968d685848d33a82d2d977"
+  },
+  {
+   "seed": 134586765,
+   "sha256": "66e82fe4c212efad26a491b8c49cd180b8c30cda6bd1ad869441eba15a069349"
+  },
+  {
+   "seed": 2789022526,
+   "sha256": "da413a837f70b8fb0530d1fb051d1031f57a865040a951a972fe15082ea294c9"
+  },
+  {
+   "seed": 1148490991,
+   "sha256": "0a1b2fbff4d80caa65f5ac50ca227c965b36316060b6c54ccb74260159dc5723"
+  },
+  {
+   "seed": 3802926752,
+   "sha256": "2f507e8a41da0579351fa4fdfd5abcfb2278bbc538fdb34e98c86436274bf4f3"
+  },
+  {
+   "seed": 2162395217,
+   "sha256": "372908c61e0338d1442d265d0a3fbeb09282b3749f6f439914ab30f5f2a4deb3"
+  },
+  {
+   "seed": 521863682,
+   "sha256": "898bff5d6ee08de07b10927db3f839b52f428f97d322204014d2a5c0e46d374d"
+  },
+  {
+   "seed": 3176299443,
+   "sha256": "36836f2c3f860248a16518344a9f7ff39f99ad3c923a043fde8ed144605f32d4"
+  },
+  {
+   "seed": 1535767908,
+   "sha256": "b0bd4ed52deeae9e5253c6a88d4b3fabb394c23def06f50a77d47d84c9d08c2b"
+  },
+  {
+   "seed": 4190203669,
+   "sha256": "abc372999b6b7dc290d314eb4a3224ff5b878ab08369963d85a1fde2f844e329"
+  },
+  {
+   "seed": 2549672134,
+   "sha256": "3024b08806d48769b2022c2b0117236181365b43bfc2b21bfd4db40982ec4c39"
+  },
+  {
+   "seed": 909140599,
+   "sha256": "dd10d7bb40270dce92a49458bf9d349c1e60299b2c17910fff8ba4b8034e30cf"
+  },
+  {
+   "seed": 3563576360,
+   "sha256": "63fbb4b9687d560de2b9998a98d43033c7e366a14e1b74dc3484354a1bc5b6a4"
+  },
+  {
+   "seed": 1923044825,
+   "sha256": "5d83d41772f5e630bc907a7ec27fce60700694b0f62ee780cee38755e9cd9651"
+  },
+  {
+   "seed": 282513290,
+   "sha256": "bdc20b35cb220bc8c67a3bf8824f1d6c4deaa1b006f46f27437a82f5fc9cc9e6"
+  },
+  {
+   "seed": 2936949051,
+   "sha256": "06e13b7fe58da27bb896f7e234a9c5585b2f7077a06adc9edf52bb0e85827dd6"
+  },
+  {
+   "seed": 1296417516,
+   "sha256": "5f17ce58159fa119400734414c1e42c6078aa3beeb2845abe6bd7a75f88d7c7b"
+  },
+  {
+   "seed": 3950853277,
+   "sha256": "4515b7e879d0026be3b5b6d4f9c9dfe43d0785f903e63276078c205e3b87cd61"
+  },
+  {
+   "seed": 2310321742,
+   "sha256": "a2917409fae5f1777c76ff813ea46aaf2ed789cb6c1fcb7068d8a88fd1995fd2"
+  },
+  {
+   "seed": 669790207,
+   "sha256": "40fa85d0aa871d154a135711f5dd4b8747ef763ad7f012ce633d59fdc8406eb5"
+  },
+  {
+   "seed": 3324225968,
+   "sha256": "fb7dde239f8f50bc2a424ff081546895eab43c1c59bcf806337d391d4ac858d3"
+  },
+  {
+   "seed": 1683694433,
+   "sha256": "c2b75adcd436a4224535f3aaf094094c45e6c74cf96a5bb626325254aeca1394"
+  },
+  {
+   "seed": 43162898,
+   "sha256": "19cc0b3f32f230fd995b532fe9441d8ceadff60af4d2db2ab263aaac03e49562"
+  },
+  {
+   "seed": 2697598659,
+   "sha256": "1667d7140d5bd38092539d42f5a84cc057f0e4679eefb1399e61ff618a33c613"
+  },
+  {
+   "seed": 1057067124,
+   "sha256": "faa376f6ed089abc65b27db23f2806967fae4b57de2c6990a1299ada51136c65"
+  },
+  {
+   "seed": 3711502885,
+   "sha256": "905af468ea7def4d2a996ee0d12307a58c43611fd62eec6e9c0d62fa9a0acba1"
+  },
+  {
+   "seed": 2070971350,
+   "sha256": "f438e5e579fd4049833a401e7cef8d2bc88e1db2b86772b77b99aeb295253387"
+  },
+  {
+   "seed": 430439815,
+   "sha256": "49134f211f70353f7dc635e9f3fe538ce5b455c797981e2f529802593889ab96"
+  },
+  {
+   "seed": 3084875576,
+   "sha256": "dec8adb8c4d24b62542d7facfa3b37c0d869ff059faa4aa4d13f6509c22c5948"
+  },
+  {
+   "seed": 1444344041,
+   "sha256": "10750719ca348c336453d47c4c4997089fe4a36fcfd242a211ed3d3074c00c73"
+  },
+  {
+   "seed": 4098779802,
+   "sha256": "4c791d56646f06ac6e1038683b3098164f926e491258db20223054a46b4dc9f6"
+  },
+  {
+   "seed": 2458248267,
+   "sha256": "d46b29d649257dc25cd99c6953dcf4fe918eb62ed2c6f18b969747c5f5b708e2"
+  },
+  {
+   "seed": 817716732,
+   "sha256": "f1415571fc938fc887c63a45d1420a0be87762e1f3eaba65733bed55e987d51c"
+  },
+  {
+   "seed": 3472152493,
+   "sha256": "c093466ce3c6e51dfde077a162fd92a86f8de8d839e88a8d7525372dc8ed1494"
+  },
+  {
+   "seed": 1831620958,
+   "sha256": "d6d2a83de0908b7c1cbf23ee642c445d469202346f4216160c13aeb2f1bf7955"
+  },
+  {
+   "seed": 191089423,
+   "sha256": "14550a20ce1926b759436f7663ad5ee8c1bb1e93ff0988cc602d7472a4038615"
+  },
+  {
+   "seed": 2845525184,
+   "sha256": "89f7535064ed7270ed006c8c5de45b5a0a17de476563a1ca212c2b4d45c673ae"
+  },
+  {
+   "seed": 1204993649,
+   "sha256": "4babaf00705c44d0c9c886185de0d58e41c1b6c837f82da7080591b04ad9359a"
+  },
+  {
+   "seed": 3859429410,
+   "sha256": "490e15c903b4c867e39d4d0dc4911148fe0b4e522e1bf28539c56b6a527cd3d7"
+  },
+  {
+   "seed": 2218897875,
+   "sha256": "caa8e1dadad3efea34fafea09a50c4f293ad509558843bc5243a4e8c99d0f810"
+  },
+  {
+   "seed": 578366340,
+   "sha256": "1329a42a50f45e27a8568fffa4cebf8e4854a805dd41139d58a9faee00d39d2f"
+  },
+  {
+   "seed": 3232802101,
+   "sha256": "b9d7304e22094b537211c20f73d82fde1d952e0fd3e87a283b34b6075264c538"
+  },
+  {
+   "seed": 1592270566,
+   "sha256": "d2d34287c7f97100218a7f3453957aa1fdbc692e8a285344a72ef73d07e38959"
+  },
+  {
+   "seed": 4246706327,
+   "sha256": "63d4d897821f38994c4de807fd7de63b5ce9efd6542f06293a7fe61006ece6c9"
+  },
+  {
+   "seed": 2606174792,
+   "sha256": "a4fc82db503d2710a926a684966be7c808bdfeac85f2f18632223dd313220e7f"
+  }
+ ],
+ "samples": [
+  {
+   "seed": 2654435761,
+   "question": {
+    "generator": "subnet_same_network",
+    "seed": 2654435761,
+    "context": [
+     {
+      "type": "table",
+      "title": "Configuração do host",
+      "headers": [
+       "Parâmetro",
+       "Valor"
+      ],
+      "rows": [
+       [
+        "Endereço IP",
+        "192.168.9.39"
+       ],
+       [
+        "Máscara",
+        "255.255.255.192"
+       ],
+       [
+        "Prefixo",
+        "/26"
+       ]
+      ]
+     }
+    ],
+    "tags": [
+     "subnet"
+    ],
+    "kind": "mc",
+    "prompt": "O host 192.168.9.39/26 precisa enviar um pacote sem passar pelo roteador. Qual destino está na MESMA rede?",
+    "options": [
+     "192.168.9.100",
+     "192.168.9.23",
+     "192.168.14.39",
+     "192.168.24.200"
+    ],
+    "answer": 1,
+    "explanation": "Com /26, a máscara é 255.255.255.192: os primeiros 26 bits são a rede. A rede de 192.168.9.39 vai de 192.168.9.1 a 192.168.9.62 (rede 192.168.9.0, broadcast 192.168.9.63). Só 192.168.9.23 cai nessa faixa; os outros exigem roteador.",
+    "hint": "Calcule o bloco: 2^(32-26) endereços. O primeiro endereço do bloco é a rede."
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1013904226,
+   "question": {
+    "generator": "subnet_same_network",
+    "seed": 1013904226,
+    "context": [
+     {
+      "type": "table",
+      "title": "Configuração do host",
+      "headers": [
+       "Parâmetro",
+       "Valor"
+      ],
+      "rows": [
+       [
+        "Endereço IP",
+        "192.168.11.218"
+       ],
+       [
+        "Máscara",
+        "255.255.255.224"
+       ],
+       [
+        "Prefixo",
+        "/27"
+       ]
+      ]
+     }
+    ],
+    "tags": [
+     "subnet"
+    ],
+    "kind": "mc",
+    "prompt": "O host 192.168.11.218/27 precisa enviar um pacote sem passar pelo roteador. Qual destino está na MESMA rede?",
+    "options": [
+     "192.168.15.218",
+     "192.168.24.208",
+     "192.168.11.214",
+     "192.168.11.148"
+    ],
+    "answer": 2,
+    "explanation": "Com /27, a máscara é 255.255.255.224: os primeiros 27 bits são a rede. A rede de 192.168.11.218 vai de 192.168.11.193 a 192.168.11.222 (rede 192.168.11.192, broadcast 192.168.11.223). Só 192.168.11.214 cai nessa faixa; os outros exigem roteador.",
+    "hint": "Calcule o bloco: 2^(32-27) endereços. O primeiro endereço do bloco é a rede."
+   },
+   "checks": [
+    {
+     "answer": 2,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3668339987,
+   "question": {
+    "generator": "subnet_same_network",
+    "seed": 3668339987,
+    "context": [
+     {
+      "type": "table",
+      "title": "Configuração do host",
+      "headers": [
+       "Parâmetro",
+       "Valor"
+      ],
+      "rows": [
+       [
+        "Endereço IP",
+        "192.168.8.99"
+       ],
+       [
+        "Máscara",
+        "255.255.255.128"
+       ],
+       [
+        "Prefixo",
+        "/25"
+       ]
+      ]
+     }
+    ],
+    "tags": [
+     "subnet"
+    ],
+    "kind": "mc",
+    "prompt": "O host 192.168.8.99/25 precisa enviar um pacote sem passar pelo roteador. Qual destino está na MESMA rede?",
+    "options": [
+     "192.168.8.199",
+     "192.168.8.90",
+     "192.168.19.224",
+     "192.168.12.99"
+    ],
+    "answer": 1,
+    "explanation": "Com /25, a máscara é 255.255.255.128: os primeiros 25 bits são a rede. A rede de 192.168.8.99 vai de 192.168.8.1 a 192.168.8.126 (rede 192.168.8.0, broadcast 192.168.8.127). Só 192.168.8.90 cai nessa faixa; os outros exigem roteador.",
+    "hint": "Calcule o bloco: 2^(32-25) endereços. O primeiro endereço do bloco é a rede."
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2027808452,
+   "question": {
+    "generator": "subnet_same_network",
+    "seed": 2027808452,
+    "context": [
+     {
+      "type": "table",
+      "title": "Configuração do host",
+      "headers": [
+       "Parâmetro",
+       "Valor"
+      ],
+      "rows": [
+       [
+        "Endereço IP",
+        "192.168.15.233"
+       ],
+       [
+        "Máscara",
+        "255.255.255.224"
+       ],
+       [
+        "Prefixo",
+        "/27"
+       ]
+      ]
+     }
+    ],
+    "tags": [
+     "subnet"
+    ],
+    "kind": "mc",
+    "prompt": "O host 192.168.15.233/27 precisa enviar um pacote sem passar pelo roteador. Qual destino está na MESMA rede?",
+    "options": [
+     "192.168.21.233",
+     "192.168.33.130",
+     "192.168.15.234",
+     "192.168.15.147"
+    ],
+    "answer": 2,
+    "explanation": "Com /27, a máscara é 255.255.255.224: os primeiros 27 bits são a rede. A rede de 192.168.15.233 vai de 192.168.15.225 a 192.168.15.254 (rede 192.168.15.224, broadcast 192.168.15.255). Só 192.168.15.234 cai nessa faixa; os outros exigem roteador.",
+    "hint": "Calcule o bloco: 2^(32-27) endereços. O primeiro endereço do bloco é a rede."
+   },
+   "checks": [
+    {
+     "answer": 2,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 387276917,
+   "question": {
+    "generator": "subnet_same_network",
+    "seed": 387276917,
+    "context": [
+     {
+      "type": "table",
+      "title": "Configuração do host",
+      "headers": [
+       "Parâmetro",
+       "Valor"
+      ],
+      "rows": [
+       [
+        "Endereço IP",
+        "192.168.18.111"
+       ],
+       [
+        "Máscara",
+        "255.255.255.0"
+       ],
+       [
+        "Prefixo",
+        "/24"
+       ]
+      ]
+     }
+    ],
+    "tags": [
+     "subnet"
+    ],
+    "kind": "mc",
+    "prompt": "O host 192.168.18.111/24 precisa enviar um pacote sem passar pelo roteador. Qual destino está na MESMA rede?",
+    "options": [
+     "192.168.24.111",
+     "192.168.18.137",
+     "192.168.38.103",
+     "192.168.31.124"
+    ],
+    "answer": 1,
+    "explanation": "Com /24, a máscara é 255.255.255.0: os primeiros 24 bits são a rede. A rede de 192.168.18.111 vai de 192.168.18.1 a 192.168.18.254 (rede 192.168.18.0, broadcast 192.168.18.255). Só 192.168.18.137 cai nessa faixa; os outros exigem roteador.",
+    "hint": "Calcule o bloco: 2^(32-24) endereços. O primeiro endereço do bloco é a rede."
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3041712678,
+   "question": {
+    "generator": "subnet_same_network",
+    "seed": 3041712678,
+    "context": [
+     {
+      "type": "table",
+      "title": "Configuração do host",
+      "headers": [
+       "Parâmetro",
+       "Valor"
+      ],
+      "rows": [
+       [
+        "Endereço IP",
+        "192.168.8.20"
+       ],
+       [
+        "Máscara",
+        "255.255.255.0"
+       ],
+       [
+        "Prefixo",
+        "/24"
+       ]
+      ]
+     }
+    ],
+    "tags": [
+     "subnet"
+    ],
+    "kind": "mc",
+    "prompt": "O host 192.168.8.20/24 precisa enviar um pacote sem passar pelo roteador. Qual destino está na MESMA rede?",
+    "options": [
+     "192.168.31.191",
+     "192.168.8.34",
+     "192.168.11.20",
+     "192.168.21.250"
+    ],
+    "answer": 1,
+    "explanation": "Com /24, a máscara é 255.255.255.0: os primeiros 24 bits são a rede. A rede de 192.168.8.20 vai de 192.168.8.1 a 192.168.8.254 (rede 192.168.8.0, broadcast 192.168.8.255). Só 192.168.8.34 cai nessa faixa; os outros exigem roteador.",
+    "hint": "Calcule o bloco: 2^(32-24) endereços. O primeiro endereço do bloco é a rede."
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1401181143,
+   "question": {
+    "generator": "subnet_same_network",
+    "seed": 1401181143,
+    "context": [
+     {
+      "type": "table",
+      "title": "Configuração do host",
+      "headers": [
+       "Parâmetro",
+       "Valor"
+      ],
+      "rows": [
+       [
+        "Endereço IP",
+        "192.168.0.138"
+       ],
+       [
+        "Máscara",
+        "255.255.255.224"
+       ],
+       [
+        "Prefixo",
+        "/27"
+       ]
+      ]
+     }
+    ],
+    "tags": [
+     "subnet"
+    ],
+    "kind": "mc",
+    "prompt": "O host 192.168.0.138/27 precisa enviar um pacote sem passar pelo roteador. Qual destino está na MESMA rede?",
+    "options": [
+     "192.168.11.102",
+     "192.168.0.55",
+     "192.168.3.138",
+     "192.168.0.148"
+    ],
+    "answer": 3,
+    "explanation": "Com /27, a máscara é 255.255.255.224: os primeiros 27 bits são a rede. A rede de 192.168.0.138 vai de 192.168.0.129 a 192.168.0.158 (rede 192.168.0.128, broadcast 192.168.0.159). Só 192.168.0.148 cai nessa faixa; os outros exigem roteador.",
+    "hint": "Calcule o bloco: 2^(32-27) endereços. O primeiro endereço do bloco é a rede."
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 4055616904,
+   "question": {
+    "generator": "subnet_same_network",
+    "seed": 4055616904,
+    "context": [
+     {
+      "type": "table",
+      "title": "Configuração do host",
+      "headers": [
+       "Parâmetro",
+       "Valor"
+      ],
+      "rows": [
+       [
+        "Endereço IP",
+        "192.168.3.222"
+       ],
+       [
+        "Máscara",
+        "255.255.255.192"
+       ],
+       [
+        "Prefixo",
+        "/26"
+       ]
+      ]
+     }
+    ],
+    "tags": [
+     "subnet"
+    ],
+    "kind": "mc",
+    "prompt": "O host 192.168.3.222/26 precisa enviar um pacote sem passar pelo roteador. Qual destino está na MESMA rede?",
+    "options": [
+     "192.168.3.215",
+     "192.168.7.222",
+     "192.168.3.93",
+     "192.168.17.72"
+    ],
+    "answer": 0,
+    "explanation": "Com /26, a máscara é 255.255.255.192: os primeiros 26 bits são a rede. A rede de 192.168.3.222 vai de 192.168.3.193 a 192.168.3.254 (rede 192.168.3.192, broadcast 192.168.3.255). Só 192.168.3.215 cai nessa faixa; os outros exigem roteador.",
+    "hint": "Calcule o bloco: 2^(32-26) endereços. O primeiro endereço do bloco é a rede."
+   },
+   "checks": [
+    {
+     "answer": 0,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2415085369,
+   "question": {
+    "generator": "subnet_same_network",
+    "seed": 2415085369,
+    "context": [
+     {
+      "type": "table",
+      "title": "Configuração do host",
+      "headers": [
+       "Parâmetro",
+       "Valor"
+      ],
+      "rows": [
+       [
+        "Endereço IP",
+        "192.168.15.168"
+       ],
+       [
+        "Máscara",
+        "255.255.255.192"
+       ],
+       [
+        "Prefixo",
+        "/26"
+       ]
+      ]
+     }
+    ],
+    "tags": [
+     "subnet"
+    ],
+    "kind": "mc",
+    "prompt": "O host 192.168.15.168/26 precisa enviar um pacote sem passar pelo roteador. Qual destino está na MESMA rede?",
+    "options": [
+     "192.168.23.168",
+     "192.168.15.165",
+     "192.168.25.90",
+     "192.168.15.232"
+    ],
+    "answer": 1,
+    "explanation": "Com /26, a máscara é 255.255.255.192: os primeiros 26 bits são a rede. A rede de 192.168.15.168 vai de 192.168.15.129 a 192.168.15.190 (rede 192.168.15.128, broadcast 192.168.15.191). Só 192.168.15.165 cai nessa faixa; os outros exigem roteador.",
+    "hint": "Calcule o bloco: 2^(32-26) endereços. O primeiro endereço do bloco é a rede."
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 774553834,
+   "question": {
+    "generator": "subnet_same_network",
+    "seed": 774553834,
+    "context": [
+     {
+      "type": "table",
+      "title": "Configuração do host",
+      "headers": [
+       "Parâmetro",
+       "Valor"
+      ],
+      "rows": [
+       [
+        "Endereço IP",
+        "192.168.3.92"
+       ],
+       [
+        "Máscara",
+        "255.255.255.224"
+       ],
+       [
+        "Prefixo",
+        "/27"
+       ]
+      ]
+     }
+    ],
+    "tags": [
+     "subnet"
+    ],
+    "kind": "mc",
+    "prompt": "O host 192.168.3.92/27 precisa enviar um pacote sem passar pelo roteador. Qual destino está na MESMA rede?",
+    "options": [
+     "192.168.18.113",
+     "192.168.3.75",
+     "192.168.3.215",
+     "192.168.5.92"
+    ],
+    "answer": 1,
+    "explanation": "Com /27, a máscara é 255.255.255.224: os primeiros 27 bits são a rede. A rede de 192.168.3.92 vai de 192.168.3.65 a 192.168.3.94 (rede 192.168.3.64, broadcast 192.168.3.95). Só 192.168.3.75 cai nessa faixa; os outros exigem roteador.",
+    "hint": "Calcule o bloco: 2^(32-27) endereços. O primeiro endereço do bloco é a rede."
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3428989595,
+   "question": {
+    "generator": "subnet_same_network",
+    "seed": 3428989595,
+    "context": [
+     {
+      "type": "table",
+      "title": "Configuração do host",
+      "headers": [
+       "Parâmetro",
+       "Valor"
+      ],
+      "rows": [
+       [
+        "Endereço IP",
+        "192.168.4.145"
+       ],
+       [
+        "Máscara",
+        "255.255.255.224"
+       ],
+       [
+        "Prefixo",
+        "/27"
+       ]
+      ]
+     }
+    ],
+    "tags": [
+     "subnet"
+    ],
+    "kind": "mc",
+    "prompt": "O host 192.168.4.145/27 precisa enviar um pacote sem passar pelo roteador. Qual destino está na MESMA rede?",
+    "options": [
+     "192.168.10.145",
+     "192.168.4.232",
+     "192.168.4.132",
+     "192.168.20.172"
+    ],
+    "answer": 2,
+    "explanation": "Com /27, a máscara é 255.255.255.224: os primeiros 27 bits são a rede. A rede de 192.168.4.145 vai de 192.168.4.129 a 192.168.4.158 (rede 192.168.4.128, broadcast 192.168.4.159). Só 192.168.4.132 cai nessa faixa; os outros exigem roteador.",
+    "hint": "Calcule o bloco: 2^(32-27) endereços. O primeiro endereço do bloco é a rede."
+   },
+   "checks": [
+    {
+     "answer": 2,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1788458060,
+   "question": {
+    "generator": "subnet_same_network",
+    "seed": 1788458060,
+    "context": [
+     {
+      "type": "table",
+      "title": "Configuração do host",
+      "headers": [
+       "Parâmetro",
+       "Valor"
+      ],
+      "rows": [
+       [
+        "Endereço IP",
+        "192.168.6.112"
+       ],
+       [
+        "Máscara",
+        "255.255.255.0"
+       ],
+       [
+        "Prefixo",
+        "/24"
+       ]
+      ]
+     }
+    ],
+    "tags": [
+     "subnet"
+    ],
+    "kind": "mc",
+    "prompt": "O host 192.168.6.112/24 precisa enviar um pacote sem passar pelo roteador. Qual destino está na MESMA rede?",
+    "options": [
+     "192.168.31.70",
+     "192.168.6.46",
+     "192.168.20.171",
+     "192.168.14.112"
+    ],
+    "answer": 1,
+    "explanation": "Com /24, a máscara é 255.255.255.0: os primeiros 24 bits são a rede. A rede de 192.168.6.112 vai de 192.168.6.1 a 192.168.6.254 (rede 192.168.6.0, broadcast 192.168.6.255). Só 192.168.6.46 cai nessa faixa; os outros exigem roteador.",
+    "hint": "Calcule o bloco: 2^(32-24) endereços. O primeiro endereço do bloco é a rede."
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,3051 @@
+{
+ "source": "05-auth/t2",
+ "generator": "password_strength",
+ "params": {
+  "count": 4
+ },
+ "seeds": [
+  {
+   "seed": 2654435761,
+   "sha256": "b3a367c17ae5bab6f0917357fc819d8c8c6dfc26dea9a9149d353db5f99d5f60"
+  },
+  {
+   "seed": 1013904226,
+   "sha256": "362af69cf54ed04e97b9b99d47e656348fe199a9c7caf1d1fa8c2b23b16572e3"
+  },
+  {
+   "seed": 3668339987,
+   "sha256": "f9ed11f1f7269fa988e863a7c7415d221763714eac1ff51d0910832be58c3654"
+  },
+  {
+   "seed": 2027808452,
+   "sha256": "b91dbfa615f6c361d1b89b0bbc76535aea980a7c1af1fcedcf8b6386cb8f94d0"
+  },
+  {
+   "seed": 387276917,
+   "sha256": "5f5da1ac9a800eacec966e6ff57dbd6ccdab420e250a953569a541cca5c8e249"
+  },
+  {
+   "seed": 3041712678,
+   "sha256": "4a7654671d47b0db223223efa4eef34abc2b0f93f2fa85aad6058ff13db265ca"
+  },
+  {
+   "seed": 1401181143,
+   "sha256": "bbef1c6775b5a3009595a1e2a10ba6d35b359d4fbb02fbf2654b89324d36491f"
+  },
+  {
+   "seed": 4055616904,
+   "sha256": "023fdccc3e69625edb11d94be570920dec27cc2ecaefe7f62fc5ec5045b3284b"
+  },
+  {
+   "seed": 2415085369,
+   "sha256": "f630f0f985814c06de22cc9aec4487a0f97362834612d5628064ad7e3afa0fee"
+  },
+  {
+   "seed": 774553834,
+   "sha256": "3dd9cad1b0f8bdb45dd67433da67369d45115be0259e55359d8cbce4d61dd4f3"
+  },
+  {
+   "seed": 3428989595,
+   "sha256": "e228ae99b5471fdd3f2db98dfe687887b6d7d5a077e6c1d4e6b4ab1db97e456a"
+  },
+  {
+   "seed": 1788458060,
+   "sha256": "3c84a80560970860708c97f077b2df0a92f1f021dbfee6565382518f701ba7ea"
+  },
+  {
+   "seed": 147926525,
+   "sha256": "7fc35bece0a46cd8ba40fe0047731920b11d4085037fd8acf4679e21240dbbdc"
+  },
+  {
+   "seed": 2802362286,
+   "sha256": "67d124f4d6dfed5d9fbbb87886dc60edf13d6146fe7aa4fca99d03d2c1232a64"
+  },
+  {
+   "seed": 1161830751,
+   "sha256": "345945d46bdfc746fd5613dac954afa28ec3d0d38b8cf0e16340528bc2147585"
+  },
+  {
+   "seed": 3816266512,
+   "sha256": "437c8a862c283d7281b4cc1a3e5caba6a57539f318410df1071d36307fb85480"
+  },
+  {
+   "seed": 2175734977,
+   "sha256": "11e0b7dbe0cc646e7f8f438f03e2068bbb3c0fd9e4c542e4e0ed07b6b559511e"
+  },
+  {
+   "seed": 535203442,
+   "sha256": "68424f55fddfaf0fd827f1ed96083387cd02f7c869dec30aef27f09b3c9cde20"
+  },
+  {
+   "seed": 3189639203,
+   "sha256": "053d101886e6c780a16f55a14213f328c0c5d09cbf53cb2c060393daabd1a1a0"
+  },
+  {
+   "seed": 1549107668,
+   "sha256": "1289c5180d1a1041ebfd3fdfbbb76f66046939388f684c3fdff30e2408fb0666"
+  },
+  {
+   "seed": 4203543429,
+   "sha256": "1b804ab6b36dac7e67d099efdd3613058339a81458119223d21eeebdba0e6813"
+  },
+  {
+   "seed": 2563011894,
+   "sha256": "faddfe735a5020489a742c45335dc07cb99abc7f11007be4e3cd2a01f9c6782b"
+  },
+  {
+   "seed": 922480359,
+   "sha256": "5d66e3f55dc8e58749065332ef9e2c720be40be79a4b1d2b64e4d83773409fbd"
+  },
+  {
+   "seed": 3576916120,
+   "sha256": "e6842e4865fa3509144645ce2c29994fcda902cd608dea6537342168c4cb7d18"
+  },
+  {
+   "seed": 1936384585,
+   "sha256": "b1916a75786d743642627f17e7b55a21d3f00aa1ccff49cfa08e08622fb862f5"
+  },
+  {
+   "seed": 295853050,
+   "sha256": "abca9c998d544f6fb84027fa8d352479e55ba84b0707d79ad4943094c278678b"
+  },
+  {
+   "seed": 2950288811,
+   "sha256": "575ce2bb30241bdfef58f851c7e98b1b6f19613adea0b1b1946086b607f1780c"
+  },
+  {
+   "seed": 1309757276,
+   "sha256": "6af2ad8a561cdf977217cdb5e48a1f0c0c7ab978bcfc5cad39c51f17b00af5a6"
+  },
+  {
+   "seed": 3964193037,
+   "sha256": "eb5619d4487b2c7cde36716a80457cce688b958187b66b9258def5518d67d2c7"
+  },
+  {
+   "seed": 2323661502,
+   "sha256": "6aa7ec70d8bc4493508fad0b950cc73abc139be371cdeee02f1528e8d54a9611"
+  },
+  {
+   "seed": 683129967,
+   "sha256": "f19306289bd03bce7c3e4d801069680ed6cc09ba5681ed832d75eb781c907eed"
+  },
+  {
+   "seed": 3337565728,
+   "sha256": "ef098c1b2599a0150aa2f8fec2684b76f9edb74c705a539cfb031043c5cc8225"
+  },
+  {
+   "seed": 1697034193,
+   "sha256": "3242ed185782d50d9106591d3b0871e76a081b55454e6afb7b81ec05e120f878"
+  },
+  {
+   "seed": 56502658,
+   "sha256": "086e7d53f0ea8202340fb7a990fd6256976fa0162f540caebbd3cc0cee164d5f"
+  },
+  {
+   "seed": 2710938419,
+   "sha256": "52ed12f3029e8ecf4e53baca1411f8900ffca83a40749495ec612e6350e28c61"
+  },
+  {
+   "seed": 1070406884,
+   "sha256": "77bd10b336b332d277e098915d8c0745200039c1b6bf5c8b21e4f902af1b4d08"
+  },
+  {
+   "seed": 3724842645,
+   "sha256": "a1ac65c963db6c5a4d28bf078a29aff3a2dc23821f994ce6fbe2f47355906508"
+  },
+  {
+   "seed": 2084311110,
+   "sha256": "db111c16cbdbcccf18c3561ce77930e25a897ebfe55e3776e51166e62f6a11a4"
+  },
+  {
+   "seed": 443779575,
+   "sha256": "646eb71215122abde566db5a50afec99f61718b82e5f11448a965ea0ceaf1c42"
+  },
+  {
+   "seed": 3098215336,
+   "sha256": "f5ae2c0a62658ff266a3c2ff855b4aacd24966d7138e78b0f0639e4455ffc61d"
+  },
+  {
+   "seed": 1457683801,
+   "sha256": "895f9841a1c20a0ed6f011d2b3d4c90fa3c3b296d5e69445c7a98b2460d661de"
+  },
+  {
+   "seed": 4112119562,
+   "sha256": "f50c7b879480a7c3f02a4c5d1d9f8fb23bd799a6582bcc854e8b0efc74d2169b"
+  },
+  {
+   "seed": 2471588027,
+   "sha256": "6aacf8a92489d1d1b7e168e8b151263f21e899ed0230047440c0848baafddb2b"
+  },
+  {
+   "seed": 831056492,
+   "sha256": "30539a0cdbea1435f06c05deaf66737ed6ea1039f1b20fd05339750edad8d090"
+  },
+  {
+   "seed": 3485492253,
+   "sha256": "205176fca7550502b3c1c41c4d0b5a644bc225b760cf977957ee031949bf4818"
+  },
+  {
+   "seed": 1844960718,
+   "sha256": "1ff7736a18cfee7bdd8fd7a4c822e26d4322f4c10bfa299977f7604e8b105314"
+  },
+  {
+   "seed": 204429183,
+   "sha256": "3f1026edf1f793cb6e9d8909dc47104657bbf225390bd3af6f911616921356fb"
+  },
+  {
+   "seed": 2858864944,
+   "sha256": "8e361d4d12e690d264bc0658e61ff92d34de4d77659ed64eb6e90d4e15832cc3"
+  },
+  {
+   "seed": 1218333409,
+   "sha256": "561c4ca6b134545419cf1efd8ad971a74b9bb7444ebbf691cc8d835a81347b05"
+  },
+  {
+   "seed": 3872769170,
+   "sha256": "c707b8f23aecec4530d529ce8f94049276a0af2ab6c339008a322b8a78e11717"
+  },
+  {
+   "seed": 2232237635,
+   "sha256": "fa031de8f9737a634ba2b9c9bef1ce4f9f2ec9f31f4ec20fdbb39ae8e9a201e3"
+  },
+  {
+   "seed": 591706100,
+   "sha256": "181b7dd7cd67f5da9bb4dd6cb540923b05ab351b8a63b51d3bca8a318a26a106"
+  },
+  {
+   "seed": 3246141861,
+   "sha256": "2256d3b675c478fbd10dfaf00dc9103d7eaef4ed8f2c9df9262ec37433efacfd"
+  },
+  {
+   "seed": 1605610326,
+   "sha256": "7e8ed618c6ea65f614ac89b3f00a838a20f4d0edc41d1c2d680fd013f8d7c8ad"
+  },
+  {
+   "seed": 4260046087,
+   "sha256": "c40aac1983229a1d0f23ee6f5545b2d6f6d150d9922d2a025a1052e989bdf545"
+  },
+  {
+   "seed": 2619514552,
+   "sha256": "889818a4744cc9dabbf4c575a69bdfaa2f35c9af92eeeeccd4cafb52a96503e9"
+  },
+  {
+   "seed": 978983017,
+   "sha256": "0b51dc4d909fea9813c3f7053d3e1a7cad2634a921c6141b27d7bbfc2dedc3bd"
+  },
+  {
+   "seed": 3633418778,
+   "sha256": "975b7b66b95f6a6577efaf2482af678e4754fffb605fc393e2729f693e5c63d6"
+  },
+  {
+   "seed": 1992887243,
+   "sha256": "aa0bcdb1f85a6a4de651403bf056e846960865087defcd7f3a260c97041aba97"
+  },
+  {
+   "seed": 352355708,
+   "sha256": "912fb829e581d8919b89796ca8b23b4e1796be53b61b82f7c39675ead0789e60"
+  },
+  {
+   "seed": 3006791469,
+   "sha256": "903da8ce0e060b4a406e40e9761a8e465ea57144d208bcd118800a7ecf9188ec"
+  },
+  {
+   "seed": 1366259934,
+   "sha256": "39facaac83776d5b75decb5d46e0c296738b1cd37f98fff635ef6e910ae6a036"
+  },
+  {
+   "seed": 4020695695,
+   "sha256": "a1a0c76069bb8e18042da7d87a3ea11dd53977a49e97088cf0b984a64232337d"
+  },
+  {
+   "seed": 2380164160,
+   "sha256": "976bdf63cea32a5ead03d731734bf9950698d4148323c819b22b0415b20d9264"
+  },
+  {
+   "seed": 739632625,
+   "sha256": "605207123bc1949cf7c106740daec666fc5c2b4ee470d20f4d0cf58982e3f0c9"
+  },
+  {
+   "seed": 3394068386,
+   "sha256": "ae85a2262ab559e667c3a515e9507009d3b8b66b1d64348927480dc8c57314bd"
+  },
+  {
+   "seed": 1753536851,
+   "sha256": "943bc66a5e942f92e1b6f95ee09ee3c63737196c7a5f2ea2007bacf17b6e7971"
+  },
+  {
+   "seed": 113005316,
+   "sha256": "760610033749771c57e040afaeb03733f95e60d4d54f9c344e102d7ba0e5ff52"
+  },
+  {
+   "seed": 2767441077,
+   "sha256": "836b69563011730f1124b15530b68184d2dd3d917b8b871504023b49417f4398"
+  },
+  {
+   "seed": 1126909542,
+   "sha256": "cd86c2b8b71f6576dc980237d9e4f1499b07be4915a0fecaf0a96432f25c3a52"
+  },
+  {
+   "seed": 3781345303,
+   "sha256": "0f5037dedc8a278312ebbb4f005c9c3d3215a29104850c78ae68528a8cc3f9bd"
+  },
+  {
+   "seed": 2140813768,
+   "sha256": "681eacc1d90f127733b59bf3b0cb752abfc86d3e0f09215b1767af3018f81554"
+  },
+  {
+   "seed": 500282233,
+   "sha256": "7e66d803dd7f748dae568eb11072d2bb3149624d822c9076782e15c0713d88cc"
+  },
+  {
+   "seed": 3154717994,
+   "sha256": "bc7de93ff7e32b44793e4fe53a6521f3b127e4bd2317eb3cc6b3af740dad80c7"
+  },
+  {
+   "seed": 1514186459,
+   "sha256": "31238ad509570374bb3b354c6e0a0a508f138e6ec7f8edf576471d4359e6d23d"
+  },
+  {
+   "seed": 4168622220,
+   "sha256": "23632de0ef901ec480af7a11bd95a24938bc602a8a4cb93dfd12de40e38b6a5a"
+  },
+  {
+   "seed": 2528090685,
+   "sha256": "d1f019e8803c573486b6ef6fe8cf06d7ee36e67001f74cc24708be4a36fd1ddd"
+  },
+  {
+   "seed": 887559150,
+   "sha256": "eca022e6c60aa00664b5f7f1986d783fd98d2fae4923d95f21213c004a5e4ed3"
+  },
+  {
+   "seed": 3541994911,
+   "sha256": "16a7424e4a4f4e4fc555ef3607db49f455ab19549b31ae94d875b8b71ee4f463"
+  },
+  {
+   "seed": 1901463376,
+   "sha256": "b8e5194759839231852365bffa575fb8687236f9750c8b94ce0586868117bbf9"
+  },
+  {
+   "seed": 260931841,
+   "sha256": "94c7f560b96793cae91aa9364855b047504d2899b85dc1fa062db883852dcf8c"
+  },
+  {
+   "seed": 2915367602,
+   "sha256": "87317dae913fbabb6fc8a47654bd18dc71bbce033fee26ac955517d3e42fdad8"
+  },
+  {
+   "seed": 1274836067,
+   "sha256": "8ea04d19f9c707e0b811b239bf4d85088bba38a6b1e55bcd3054b8859847599e"
+  },
+  {
+   "seed": 3929271828,
+   "sha256": "2568ff5033fcaee235b03471275e4e34ec2a3365dffaf014d05eb3753e048944"
+  },
+  {
+   "seed": 2288740293,
+   "sha256": "b2f304406efc3a2f284d9c196c008091ea76796e024675d2d94187938c88d24b"
+  },
+  {
+   "seed": 648208758,
+   "sha256": "08038b509b3cf6cb19cbe38725c12686cf6fa42065606bdc4671c419b8e8cca8"
+  },
+  {
+   "seed": 3302644519,
+   "sha256": "59eb921ec64ed60f883233e8a02f77bf8949ac3a54e0bdb822a2b9dc3d111503"
+  },
+  {
+   "seed": 1662112984,
+   "sha256": "e4b3a381b2c02f49b246fc8e091bea9a29f5c7fd6dfce9db3b2851e39702326f"
+  },
+  {
+   "seed": 21581449,
+   "sha256": "c6abb687923688d6a1db5c01ae3466ed4402adb37d408f312ce06617d8a98eb5"
+  },
+  {
+   "seed": 2676017210,
+   "sha256": "e32c411ded5606fdae5d4d89d5f3562d790c465984195d9058eb5c9682e107d7"
+  },
+  {
+   "seed": 1035485675,
+   "sha256": "c30c42c7685c61af3e9e372a6fa6d258d467947eb8cd5fd1a2790c23819dee53"
+  },
+  {
+   "seed": 3689921436,
+   "sha256": "c575794ae8c168bab59197b139f73165e118e027f624f776f2877caba63c769f"
+  },
+  {
+   "seed": 2049389901,
+   "sha256": "6936da3b1ac1f812c07f4446a8f1a004bc2f821275c708b51b39d1d1f6dbdc31"
+  },
+  {
+   "seed": 408858366,
+   "sha256": "43f7d60e192cd4ca6894cde7f0019c2094e44b12e6e3821dfd2fe707a652331a"
+  },
+  {
+   "seed": 3063294127,
+   "sha256": "3acda046f9eedd723624407e2d7a05a8be7b70b1312de551ffe04865a6e00546"
+  },
+  {
+   "seed": 1422762592,
+   "sha256": "6e7c3df71a34b07ace4abe58d2b3f621922ec623195de6be74363356e3c6f2fa"
+  },
+  {
+   "seed": 4077198353,
+   "sha256": "54c67ad950b311b7e7e74190e5bce173b0045750f5893676845f6f04e0681e22"
+  },
+  {
+   "seed": 2436666818,
+   "sha256": "6b1c8519cee8982138ba7c2cc32d57fad8348bb6d7450ed7a6014eaafd1fc4ab"
+  },
+  {
+   "seed": 796135283,
+   "sha256": "4e034af3ec25a53f12165c826d548e06d878366d81fa7331cf3f35c061d28058"
+  },
+  {
+   "seed": 3450571044,
+   "sha256": "0047e82061e1abefe6202fb9f06b13763b96e274b05db7453e8d73a6eaa39196"
+  },
+  {
+   "seed": 1810039509,
+   "sha256": "e87f7738d1e34002314c942b75adcc0cf8c8ba2d51718f8b55429de4825c4f47"
+  },
+  {
+   "seed": 169507974,
+   "sha256": "1b3a345d0244209dda089d2aee95f8ae6811ffcc91133b0b37c64e15c5aa82f8"
+  },
+  {
+   "seed": 2823943735,
+   "sha256": "d609527254ede296d3e38c6dd30e8c8de197fd74ff6464a6462da929042263fc"
+  },
+  {
+   "seed": 1183412200,
+   "sha256": "0a19d81a34ec2fddfab628a95506bc6dc337fed55b01d66620d51d64647d156f"
+  },
+  {
+   "seed": 3837847961,
+   "sha256": "2f899630bf3abe1d209c89adfc5398c12ad89a74cfbd0b8c68f80725f5fb5ac9"
+  },
+  {
+   "seed": 2197316426,
+   "sha256": "127035371fcc14fc851e1b3a8d92bd1056ac2adf0c8b61b666c3ece94f3b6da7"
+  },
+  {
+   "seed": 556784891,
+   "sha256": "c448c66e976a3e18f8d9ab6a77ea518dc699797833998ae5e822b587a7a91e78"
+  },
+  {
+   "seed": 3211220652,
+   "sha256": "4f4256f1180d4a96c5f44770fde002347718802daf78313dcb15562273a0d1a6"
+  },
+  {
+   "seed": 1570689117,
+   "sha256": "4ffc295749defd54ffe0ed66eb6072940644c63f55698d3d42c4454e3a275229"
+  },
+  {
+   "seed": 4225124878,
+   "sha256": "07b4d52e59fe83f8bc434df70e20d4296bdf0fe022226e9f903a6f0d6b400cee"
+  },
+  {
+   "seed": 2584593343,
+   "sha256": "e5960fd3bd18d9a8a0870f30929147099f6f548e8b42181edcd2dffa625c8a05"
+  },
+  {
+   "seed": 944061808,
+   "sha256": "ff7d84ad411582250ad1c7385feb356b4a2f65d38813e2127d7b3f70a40a7e59"
+  },
+  {
+   "seed": 3598497569,
+   "sha256": "01b504f9ae98e285cf528ad958e8fde3c477a02de4a78cdaf2388dcfff10a0a4"
+  },
+  {
+   "seed": 1957966034,
+   "sha256": "bcb923cbffe978819853882b012160bc71262329152e29c6803eb88532216613"
+  },
+  {
+   "seed": 317434499,
+   "sha256": "a7b0cdb48cb45cf19dd7c389def0eb683d7d5d00874632de6d182cac4bb1bba6"
+  },
+  {
+   "seed": 2971870260,
+   "sha256": "4ccbfbd7de111b427f13decabe5135871aabb2f2e1454002f2e6d5ad53467bfa"
+  },
+  {
+   "seed": 1331338725,
+   "sha256": "e284ce497a5a270f08b2ebe6e6bc0c0ff18d70677372e86dee26ece923b59036"
+  },
+  {
+   "seed": 3985774486,
+   "sha256": "4fc105e918227450d03483dc9b6a71b15e2d57d732bdf4f2d0fd4b22759899b2"
+  },
+  {
+   "seed": 2345242951,
+   "sha256": "22df49675caba877deab7b1f3a632c8a01659fdf63810850313513ba415fcbdb"
+  },
+  {
+   "seed": 704711416,
+   "sha256": "df4492d63401c70dc269753be003c16fae1f04db544e62af42e8a4c3b7dc8239"
+  },
+  {
+   "seed": 3359147177,
+   "sha256": "bcf8c7979d4512fd2e359d2e68dd0bb07258b80bb2d42a2bc91f2de5a16105fe"
+  },
+  {
+   "seed": 1718615642,
+   "sha256": "2a37fa86d146d7417b7ac39f080badf32785a2eb2fa2e34ef84da1ab1d5a4be5"
+  },
+  {
+   "seed": 78084107,
+   "sha256": "1906ab63551d3ed90c24c5a6d9a449b56fc5bdf6313ee97725a37580d2df496f"
+  },
+  {
+   "seed": 2732519868,
+   "sha256": "63295ba082a91aa01ea1e841860d20a94ee7cf779f17fe8d5bec70e88ccb1d96"
+  },
+  {
+   "seed": 1091988333,
+   "sha256": "f46da059b9a18f240e37f1ebbbbbe01bbe90f460abbeba80575d1de408f43128"
+  },
+  {
+   "seed": 3746424094,
+   "sha256": "34fd2d751b9d84f6032a9240fbd88dfe408e8dc085c8115e0f4922f4588847d5"
+  },
+  {
+   "seed": 2105892559,
+   "sha256": "5f03f249123208329692892e420f4f5b8f54ffa51a89a6051bea4d1c643d6235"
+  },
+  {
+   "seed": 465361024,
+   "sha256": "dd6561d2f3ddf391c9e058ca95f819bfe32e5e33bbd2a3e9852a07053c579068"
+  },
+  {
+   "seed": 3119796785,
+   "sha256": "951431e105919465d7da8d6f55a60f9475495f01e7b54ffe6517d03825584b3e"
+  },
+  {
+   "seed": 1479265250,
+   "sha256": "305596985fd4fb79be37b891deea112e62492d69e84cdaa1a407d6f901b92cde"
+  },
+  {
+   "seed": 4133701011,
+   "sha256": "492542f6fe8c71ee06498e2627ce2d37a1f2f002caec7507c3886409e09d31ab"
+  },
+  {
+   "seed": 2493169476,
+   "sha256": "a06d9e670c47f4331c404d74773de9d1578b3d1606001f1afc808a8d5c141210"
+  },
+  {
+   "seed": 852637941,
+   "sha256": "91bbed6fc0623d28a3357e54bd3f7bf62b3cd439deeeb4a25945c140ca897152"
+  },
+  {
+   "seed": 3507073702,
+   "sha256": "85412eea8e8379d927ed33a0e83e2d8b740946b3dd290dcb315587601653cc57"
+  },
+  {
+   "seed": 1866542167,
+   "sha256": "b29375f814c8ff8014b1b719a9a88a363e74d24592c3dfc1fb05e05ba0540527"
+  },
+  {
+   "seed": 226010632,
+   "sha256": "8e91344aba319a08569a277b77502df1b236d9b28b5d561983e8a7aefca84f7e"
+  },
+  {
+   "seed": 2880446393,
+   "sha256": "43030ea66f77c861f5424fabd7abfb5352c688995c3f122c0f57e46e71cf5d33"
+  },
+  {
+   "seed": 1239914858,
+   "sha256": "2136a7026517030606765d22f01163df283bc7fb76aefd8235775e9ce557d34b"
+  },
+  {
+   "seed": 3894350619,
+   "sha256": "6f819f6a83d8a01a95deef1c8f1e371760f98d1e0f74839fb7f8252f706d2c8e"
+  },
+  {
+   "seed": 2253819084,
+   "sha256": "607c21027df6b99a503173f79be7d618e46128e96eb11e313b6426e204a921d1"
+  },
+  {
+   "seed": 613287549,
+   "sha256": "6cd4fb90556bdc6bff35d5e7b4f2b1e66a3870753309fcf59a2007029be2bd02"
+  },
+  {
+   "seed": 3267723310,
+   "sha256": "9a10f9d6e3f5642187a9d1487c43c900f58512ec3c71681a30512c6dc8209bfb"
+  },
+  {
+   "seed": 1627191775,
+   "sha256": "1c795c2fdc8441044caf1b98568da9d16b5702bb61e4e9b0d4dbec353cdefa35"
+  },
+  {
+   "seed": 4281627536,
+   "sha256": "a45850a43c16f4b726ce33461bf5dfeb5bb368ac16f6890b3341aa2e35652fac"
+  },
+  {
+   "seed": 2641096001,
+   "sha256": "6dd2ef8c7bf213aee5f7db2fe164496bad640eb8b3da0f24cfec8857013ac6ad"
+  },
+  {
+   "seed": 1000564466,
+   "sha256": "4e49baa660643138aa9b8ef3928e80ee511a25f23c8ae40f22b5af96c0d71916"
+  },
+  {
+   "seed": 3655000227,
+   "sha256": "a9185ba3af86fc2798fd91ac66ea40ae690a860b190a3fda9039426700f01de8"
+  },
+  {
+   "seed": 2014468692,
+   "sha256": "fd5eb06f2440a5b27b150508124502989eee3ecad574dfdf522e8a05af3ec047"
+  },
+  {
+   "seed": 373937157,
+   "sha256": "83da1b57a4da081966382da84a4caa9778d866440ab7bfbc2dfa57001470f8df"
+  },
+  {
+   "seed": 3028372918,
+   "sha256": "29dc2a70d7aa231e15fab694ac3f3b480f000ec49ea89308d6165d520ecfa3d6"
+  },
+  {
+   "seed": 1387841383,
+   "sha256": "df1e5509c1826614e5581a1e4f8c53fb7cc37734e2545533efa2661a5c3fec73"
+  },
+  {
+   "seed": 4042277144,
+   "sha256": "82bee78920f7280bb4f259dd3767e37c50acbd8ce8465b1ee4cf2b208328ce72"
+  },
+  {
+   "seed": 2401745609,
+   "sha256": "8fc6c3a778357d0b781485bea73834cd160efa7e339a46f46dc1b8f1be32e900"
+  },
+  {
+   "seed": 761214074,
+   "sha256": "5dcd87ffb07d62670cab103c72496a71491e9564a89ca89a4a66a74244ec7a59"
+  },
+  {
+   "seed": 3415649835,
+   "sha256": "c757926f2d7ddeeed04a0415b42a7a12a226a1998b7c15b0ac4a855133349fef"
+  },
+  {
+   "seed": 1775118300,
+   "sha256": "d17329a7d5fbbb2412d6f48cc43e592bb248af2dd3c765c6357b56a3080c9a88"
+  },
+  {
+   "seed": 134586765,
+   "sha256": "769cdea7adae5e2220117743e06866475743fbe610437bdd10162ec3dc3f544e"
+  },
+  {
+   "seed": 2789022526,
+   "sha256": "0088015157c9cd037be83f448db865aceaf4a4c8bb0a013ba977f516830811b8"
+  },
+  {
+   "seed": 1148490991,
+   "sha256": "0f4d15912c3a70f9d6b0f206d72520d6913996a11b61f0c06a7a25f22c93f5c3"
+  },
+  {
+   "seed": 3802926752,
+   "sha256": "d8b3e035422786089b30bf31edd8955953a58f3cb8df9ca9be6214223e818267"
+  },
+  {
+   "seed": 2162395217,
+   "sha256": "ddb0beefc834f25e05903fe62bee27c4de1d60856eb21ba31ce09306f596bb42"
+  },
+  {
+   "seed": 521863682,
+   "sha256": "462ef23c01dc3c6b4883a90500874d21e81cf343734acc82e7c976d70d4da83f"
+  },
+  {
+   "seed": 3176299443,
+   "sha256": "d335cf3b774233b97f2f9315ed9c07f67158628ef1ff8e6092caa0ba5fa4e972"
+  },
+  {
+   "seed": 1535767908,
+   "sha256": "b0b0429fd41f5b4ce5dd0dabd9664034ab9974f237711e3035dd37b029ae3cfc"
+  },
+  {
+   "seed": 4190203669,
+   "sha256": "99d86cc76e48e6ba5787cdc2b0cff0db1c9df5bd086c8f7719286947f4593e7d"
+  },
+  {
+   "seed": 2549672134,
+   "sha256": "7f86676b2eb804b0d16f6b10b2cb40c422f159a2e210958338fa74ac37c0c229"
+  },
+  {
+   "seed": 909140599,
+   "sha256": "41f5d64aa405a81dce9634f9b6e36f23624ecc17b49c56d7772ac575f6d9202a"
+  },
+  {
+   "seed": 3563576360,
+   "sha256": "1a9692e26eecf62ea1224530d09f196b11e6e7a71ee581e5927fe6da96be45ab"
+  },
+  {
+   "seed": 1923044825,
+   "sha256": "c90f48d03f6d5ca4ef93b30facf3e1ba13a8ba6730fb9c06a8c2dc6bba207e39"
+  },
+  {
+   "seed": 282513290,
+   "sha256": "14378b7fe2b7f01639d150fd04afaa622c5e20573789190f4564c7fc03bac007"
+  },
+  {
+   "seed": 2936949051,
+   "sha256": "8bb3715cdbf6eaa6af51f85dd0b83a99404efd5dd2ee213ea362932858a43aaf"
+  },
+  {
+   "seed": 1296417516,
+   "sha256": "5109d001b4b4fba7e5295bcaa0447109e174ba81b13fa4655efa3cb5a5d7e962"
+  },
+  {
+   "seed": 3950853277,
+   "sha256": "25367c3b46e0dc0e30398f155b3872066bbb3944f6d4ae8265a109f7644a13b2"
+  },
+  {
+   "seed": 2310321742,
+   "sha256": "6a258a24175d5e139865e39493755ef17ddb11de83c673bfcfdc22a012cea40e"
+  },
+  {
+   "seed": 669790207,
+   "sha256": "566b21bfc4be4ffea430422b578e586d1392019086825246111935f7d41029dd"
+  },
+  {
+   "seed": 3324225968,
+   "sha256": "07e26833ec8ddadc4ecd98695009d8cc6e4189996a338cc6dc9cf9373562fa74"
+  },
+  {
+   "seed": 1683694433,
+   "sha256": "d7dc4352c3ff80bcbb82b49ef14e76a7e88dedf32411286302f460dda485e899"
+  },
+  {
+   "seed": 43162898,
+   "sha256": "7149fa0f0dfd1429206574cbc9fcd6109a2b9e55d32ab3ea03ceb5c7771b3278"
+  },
+  {
+   "seed": 2697598659,
+   "sha256": "9b354d3ca31ba037dbe5df51923035088cc505c08c3b7fd5970a73e8eb297365"
+  },
+  {
+   "seed": 1057067124,
+   "sha256": "647e1c118393b839b1ae35f1edf8109cd7a35b0fa7997ef0ec59a84d0d873125"
+  },
+  {
+   "seed": 3711502885,
+   "sha256": "ffe18fc0275dc7b1d2fff2706b0c0b5e8c64f50ac3eb42300bed990a48dcd1bb"
+  },
+  {
+   "seed": 2070971350,
+   "sha256": "a908e03307d2d51748e814dc6a9425875685f60b72ce6ffa55e9b916191609d3"
+  },
+  {
+   "seed": 430439815,
+   "sha256": "65a0bf0b77d004edc02cbf3ea3938a5329e4b3f34275e5fa537ec601755f8793"
+  },
+  {
+   "seed": 3084875576,
+   "sha256": "cc72760980b5bf9f4360993f56c7c7172d98f5f0e83b65dce207b4b0052b1f8d"
+  },
+  {
+   "seed": 1444344041,
+   "sha256": "e53d8705d1a27dfc34546f199b68e94e13c6b7e953afab0c3c982e47dd68d80f"
+  },
+  {
+   "seed": 4098779802,
+   "sha256": "9fe871670bf85e216eaf97adc86a2e84d49ab6b6b8102a51d1cc79dda0796339"
+  },
+  {
+   "seed": 2458248267,
+   "sha256": "ef8771c97fc5c9dd841e2c216e4f70f223e6c95408c48acf86ab74d6f9590d9a"
+  },
+  {
+   "seed": 817716732,
+   "sha256": "f1bc65f21190ce6bcfec44b266f2f5da49631ca429b60416265dca322340789f"
+  },
+  {
+   "seed": 3472152493,
+   "sha256": "6ced19fa91375531eb364f0957f13c03fa1bad1d998aaba75882b1340d2daad2"
+  },
+  {
+   "seed": 1831620958,
+   "sha256": "a681ba88dc53b6eb07d3377244592fdc2dc467a0e216b6e6cdc4f6ec55a42684"
+  },
+  {
+   "seed": 191089423,
+   "sha256": "46bde7d09017458ce931b04b9bd2b23e9cdea8d0a7ce4c1233d1a12cd8d49534"
+  },
+  {
+   "seed": 2845525184,
+   "sha256": "86e57d283b45c8e9558bed690c2ff20e22b253d8f5a39f984a9fbfa69e1e7a38"
+  },
+  {
+   "seed": 1204993649,
+   "sha256": "ef528fc4878700c9b26dc9f36d09296c7db755180143db2b1bf692ad4640c508"
+  },
+  {
+   "seed": 3859429410,
+   "sha256": "36f710485f81143f9a3d09c896cf18ea6ee0bcc3d052cf7dd260f569acb71b38"
+  },
+  {
+   "seed": 2218897875,
+   "sha256": "6f9e0b921558e85258cf178bba558a023eb7fb9f92d9d54d402b62970bdc58b2"
+  },
+  {
+   "seed": 578366340,
+   "sha256": "f8eadc18c05057a7e64e4763b0bbc22190e7aa1601a7a0cf0be68f8a96ad7843"
+  },
+  {
+   "seed": 3232802101,
+   "sha256": "13a79b9ddd78c2bd0af1c6b7cb7ec8b93d39c61003c9a7f47b38dca4296d2aa6"
+  },
+  {
+   "seed": 1592270566,
+   "sha256": "266374ed2fda4ec9ff6d65f023f9a5ea0e9311ef229e34d2d549f9e4b278eab4"
+  },
+  {
+   "seed": 4246706327,
+   "sha256": "37c44cb5403fd9ef6d450939405545a64148acb9adb5e4693d5b861e950611da"
+  },
+  {
+   "seed": 2606174792,
+   "sha256": "e95ddc2060351bcd477f8c691263714dba2235802d2d9c249e800ec6b2bc4e5b"
+  }
+ ],
+ "samples": [
+  {
+   "seed": 2654435761,
+   "question": {
+    "generator": "password_strength",
+    "seed": 2654435761,
+    "context": [],
+    "tags": [
+     "password"
+    ],
+    "kind": "classify",
+    "prompt": "A política de senhas está sendo revisada. Classifique cada senha encontrada no cofre de credenciais.",
+    "categories": [
+     "Fraca",
+     "Forte"
+    ],
+    "items": [
+     {
+      "text": "lmsmbn",
+      "detail": [
+       "6 caracteres",
+       "1 de 4 tipos de caractere",
+       "sem palavra de dicionário reconhecível"
+      ]
+     },
+     {
+      "text": "E5c0l4-",
+      "detail": [
+       "7 caracteres",
+       "4 de 4 tipos de caractere",
+       "contém palavra comum de dicionário",
+       "substituição óbvia de letras por números"
+      ]
+     },
+     {
+      "text": "Trovoada_jangada#338!",
+      "detail": [
+       "21 caracteres",
+       "4 de 4 tipos de caractere",
+       "sem palavra de dicionário reconhecível"
+      ]
+     },
+     {
+      "text": "quintal-nublado-manivela-trovoada-46",
+      "detail": [
+       "36 caracteres",
+       "3 de 4 tipos de caractere",
+       "frase-senha com palavras não relacionadas",
+       "sem palavra de dicionário reconhecível"
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "itemExplanations": [
+     "Aleatória, porém curta demais: o espaço de busca é pequeno e um ataque offline a quebra rapidamente.",
+     "Trocar a por 4 e e por 3 não engana ninguém: as ferramentas de ataque aplicam essas substituições automaticamente sobre o dicionário.",
+     "Duas palavras incomuns unidas por símbolos e números, com bom comprimento: sem padrão previsível e fora de qualquer dicionário.",
+     "Frase-senha longa com palavras sem relação entre si: fácil de lembrar, enorme para um ataque. Comprimento é o fator que mais pesa."
+    ],
+    "explanation": "O que derruba uma senha não é a falta de símbolos, é a previsibilidade: palavras de dicionário, nomes, datas e sequências de teclado estão nas primeiras listas que um ataque de força bruta testa. O que protege é entropia — comprimento e imprevisibilidade — somada a um limite de tentativas e a um segundo fator.",
+    "hint": "Pergunte-se: um programa que testa milhões de combinações por segundo chegaria rápido nesta senha?"
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       true,
+       false,
+       true,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1013904226,
+   "question": {
+    "generator": "password_strength",
+    "seed": 1013904226,
+    "context": [],
+    "tags": [
+     "password"
+    ],
+    "kind": "classify",
+    "prompt": "A política de senhas está sendo revisada. Classifique cada senha encontrada no cofre de credenciais.",
+    "categories": [
+     "Fraca",
+     "Forte"
+    ],
+    "items": [
+     {
+      "text": "TPEBnTb&%U7SbA_M",
+      "detail": [
+       "16 caracteres",
+       "4 de 4 tipos de caractere",
+       "sem palavra de dicionário reconhecível"
+      ]
+     },
+     {
+      "text": "estrela2003",
+      "detail": [
+       "11 caracteres",
+       "2 de 4 tipos de caractere",
+       "contém palavra comum de dicionário",
+       "termina em ano/data"
+      ]
+     },
+     {
+      "text": "Pedro1234",
+      "detail": [
+       "9 caracteres",
+       "3 de 4 tipos de caractere",
+       "contém nome próprio",
+       "termina em ano/data"
+      ]
+     },
+     {
+      "text": "Cravo_zarpar#567%",
+      "detail": [
+       "17 caracteres",
+       "4 de 4 tipos de caractere",
+       "sem palavra de dicionário reconhecível"
+      ]
+     }
+    ],
+    "answer": [
+     1,
+     0,
+     0,
+     1
+    ],
+    "itemExplanations": [
+     "Longa e aleatória, com quatro tipos de caractere: inviável por força bruta. Guarde em um gerenciador de senhas.",
+     "Palavra de dicionário seguida de um ano: são as primeiras combinações que qualquer lista de ataque testa. O tamanho não compensa a previsibilidade.",
+     "Nome próprio com números no fim atende a regras bobas de complexidade, mas cai em segundos num ataque de dicionário com variações.",
+     "Duas palavras incomuns unidas por símbolos e números, com bom comprimento: sem padrão previsível e fora de qualquer dicionário."
+    ],
+    "explanation": "O que derruba uma senha não é a falta de símbolos, é a previsibilidade: palavras de dicionário, nomes, datas e sequências de teclado estão nas primeiras listas que um ataque de força bruta testa. O que protege é entropia — comprimento e imprevisibilidade — somada a um limite de tentativas e a um segundo fator.",
+    "hint": "Pergunte-se: um programa que testa milhões de combinações por segundo chegaria rápido nesta senha?"
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       true,
+       false,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3668339987,
+   "question": {
+    "generator": "password_strength",
+    "seed": 3668339987,
+    "context": [],
+    "tags": [
+     "password"
+    ],
+    "kind": "classify",
+    "prompt": "A política de senhas está sendo revisada. Classifique cada senha encontrada no cofre de credenciais.",
+    "categories": [
+     "Fraca",
+     "Forte"
+    ],
+    "items": [
+     {
+      "text": "qwerty",
+      "detail": [
+       "6 caracteres",
+       "1 de 4 tipos de caractere",
+       "sequência previsível de teclado"
+      ]
+     },
+     {
+      "text": "girafa-tapir-bussola-trovoada-29",
+      "detail": [
+       "32 caracteres",
+       "3 de 4 tipos de caractere",
+       "frase-senha com palavras não relacionadas",
+       "sem palavra de dicionário reconhecível"
+      ]
+     },
+     {
+      "text": "ZASEZ#ywGURrJw7F",
+      "detail": [
+       "16 caracteres",
+       "4 de 4 tipos de caractere",
+       "sem palavra de dicionário reconhecível"
+      ]
+     },
+     {
+      "text": "cachorro2011",
+      "detail": [
+       "12 caracteres",
+       "2 de 4 tipos de caractere",
+       "contém palavra comum de dicionário",
+       "termina em ano/data"
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     1,
+     1,
+     0
+    ],
+    "itemExplanations": [
+     "Sequência de teclado ou senha campeã de vazamentos: está no topo de todas as listas públicas.",
+     "Frase-senha longa com palavras sem relação entre si: fácil de lembrar, enorme para um ataque. Comprimento é o fator que mais pesa.",
+     "Longa e aleatória, com quatro tipos de caractere: inviável por força bruta. Guarde em um gerenciador de senhas.",
+     "Palavra de dicionário seguida de um ano: são as primeiras combinações que qualquer lista de ataque testa. O tamanho não compensa a previsibilidade."
+    ],
+    "explanation": "O que derruba uma senha não é a falta de símbolos, é a previsibilidade: palavras de dicionário, nomes, datas e sequências de teclado estão nas primeiras listas que um ataque de força bruta testa. O que protege é entropia — comprimento e imprevisibilidade — somada a um limite de tentativas e a um segundo fator.",
+    "hint": "Pergunte-se: um programa que testa milhões de combinações por segundo chegaria rápido nesta senha?"
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       true,
+       false,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2027808452,
+   "question": {
+    "generator": "password_strength",
+    "seed": 2027808452,
+    "context": [],
+    "tags": [
+     "password"
+    ],
+    "kind": "classify",
+    "prompt": "A política de senhas está sendo revisada. Classifique cada senha encontrada no cofre de credenciais.",
+    "categories": [
+     "Fraca",
+     "Forte"
+    ],
+    "items": [
+     {
+      "text": "Cravo_bussola#578*",
+      "detail": [
+       "18 caracteres",
+       "4 de 4 tipos de caractere",
+       "sem palavra de dicionário reconhecível"
+      ]
+     },
+     {
+      "text": "familia2009",
+      "detail": [
+       "11 caracteres",
+       "2 de 4 tipos de caractere",
+       "contém palavra comum de dicionário",
+       "termina em ano/data"
+      ]
+     },
+     {
+      "text": "Maria2024",
+      "detail": [
+       "9 caracteres",
+       "3 de 4 tipos de caractere",
+       "contém nome próprio",
+       "termina em ano/data"
+      ]
+     },
+     {
+      "text": "@_d5c%#nofp@%W3T",
+      "detail": [
+       "16 caracteres",
+       "4 de 4 tipos de caractere",
+       "sem palavra de dicionário reconhecível"
+      ]
+     }
+    ],
+    "answer": [
+     1,
+     0,
+     0,
+     1
+    ],
+    "itemExplanations": [
+     "Duas palavras incomuns unidas por símbolos e números, com bom comprimento: sem padrão previsível e fora de qualquer dicionário.",
+     "Palavra de dicionário seguida de um ano: são as primeiras combinações que qualquer lista de ataque testa. O tamanho não compensa a previsibilidade.",
+     "Nome próprio com números no fim atende a regras bobas de complexidade, mas cai em segundos num ataque de dicionário com variações.",
+     "Longa e aleatória, com quatro tipos de caractere: inviável por força bruta. Guarde em um gerenciador de senhas."
+    ],
+    "explanation": "O que derruba uma senha não é a falta de símbolos, é a previsibilidade: palavras de dicionário, nomes, datas e sequências de teclado estão nas primeiras listas que um ataque de força bruta testa. O que protege é entropia — comprimento e imprevisibilidade — somada a um limite de tentativas e a um segundo fator.",
+    "hint": "Pergunte-se: um programa que testa milhões de combinações por segundo chegaria rápido nesta senha?"
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       true,
+       false,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 387276917,
+   "question": {
+    "generator": "password_strength",
+    "seed": 387276917,
+    "context": [],
+    "tags": [
+     "password"
+    ],
+    "kind": "classify",
+    "prompt": "A política de senhas está sendo revisada. Classifique cada senha encontrada no cofre de credenciais.",
+    "categories": [
+     "Fraca",
+     "Forte"
+    ],
+    "items": [
+     {
+      "text": "cachorro2001",
+      "detail": [
+       "12 caracteres",
+       "2 de 4 tipos de caractere",
+       "contém palavra comum de dicionário",
+       "termina em ano/data"
+      ]
+     },
+     {
+      "text": "Taboa_jangada#955?",
+      "detail": [
+       "18 caracteres",
+       "4 de 4 tipos de caractere",
+       "sem palavra de dicionário reconhecível"
+      ]
+     },
+     {
+      "text": "123456",
+      "detail": [
+       "6 caracteres",
+       "1 de 4 tipos de caractere",
+       "sequência previsível de teclado"
+      ]
+     },
+     {
+      "text": "9W+&TiecQPfSWaEF",
+      "detail": [
+       "16 caracteres",
+       "4 de 4 tipos de caractere",
+       "sem palavra de dicionário reconhecível"
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     1,
+     0,
+     1
+    ],
+    "itemExplanations": [
+     "Palavra de dicionário seguida de um ano: são as primeiras combinações que qualquer lista de ataque testa. O tamanho não compensa a previsibilidade.",
+     "Duas palavras incomuns unidas por símbolos e números, com bom comprimento: sem padrão previsível e fora de qualquer dicionário.",
+     "Sequência de teclado ou senha campeã de vazamentos: está no topo de todas as listas públicas.",
+     "Longa e aleatória, com quatro tipos de caractere: inviável por força bruta. Guarde em um gerenciador de senhas."
+    ],
+    "explanation": "O que derruba uma senha não é a falta de símbolos, é a previsibilidade: palavras de dicionário, nomes, datas e sequências de teclado estão nas primeiras listas que um ataque de força bruta testa. O que protege é entropia — comprimento e imprevisibilidade — somada a um limite de tentativas e a um segundo fator.",
+    "hint": "Pergunte-se: um programa que testa milhões de combinações por segundo chegaria rápido nesta senha?"
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3041712678,
+   "question": {
+    "generator": "password_strength",
+    "seed": 3041712678,
+    "context": [],
+    "tags": [
+     "password"
+    ],
+    "kind": "classify",
+    "prompt": "A política de senhas está sendo revisada. Classifique cada senha encontrada no cofre de credenciais.",
+    "categories": [
+     "Fraca",
+     "Forte"
+    ],
+    "items": [
+     {
+      "text": "iloveyou",
+      "detail": [
+       "8 caracteres",
+       "1 de 4 tipos de caractere",
+       "sequência previsível de teclado"
+      ]
+     },
+     {
+      "text": "Fut3b0l!",
+      "detail": [
+       "8 caracteres",
+       "4 de 4 tipos de caractere",
+       "contém palavra comum de dicionário",
+       "substituição óbvia de letras por números"
+      ]
+     },
+     {
+      "text": "Vidraca_vidraca#125$",
+      "detail": [
+       "20 caracteres",
+       "4 de 4 tipos de caractere",
+       "sem palavra de dicionário reconhecível"
+      ]
+     },
+     {
+      "text": "nublado-quintal-vidraca-trovoada-40",
+      "detail": [
+       "35 caracteres",
+       "3 de 4 tipos de caractere",
+       "frase-senha com palavras não relacionadas",
+       "sem palavra de dicionário reconhecível"
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "itemExplanations": [
+     "Sequência de teclado ou senha campeã de vazamentos: está no topo de todas as listas públicas.",
+     "Trocar a por 4 e e por 3 não engana ninguém: as ferramentas de ataque aplicam essas substituições automaticamente sobre o dicionário.",
+     "Duas palavras incomuns unidas por símbolos e números, com bom comprimento: sem padrão previsível e fora de qualquer dicionário.",
+     "Frase-senha longa com palavras sem relação entre si: fácil de lembrar, enorme para um ataque. Comprimento é o fator que mais pesa."
+    ],
+    "explanation": "O que derruba uma senha não é a falta de símbolos, é a previsibilidade: palavras de dicionário, nomes, datas e sequências de teclado estão nas primeiras listas que um ataque de força bruta testa. O que protege é entropia — comprimento e imprevisibilidade — somada a um limite de tentativas e a um segundo fator.",
+    "hint": "Pergunte-se: um programa que testa milhões de combinações por segundo chegaria rápido nesta senha?"
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       true,
+       false,
+       true,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1401181143,
+   "question": {
+    "generator": "password_strength",
+    "seed": 1401181143,
+    "context": [],
+    "tags": [
+     "password"
+    ],
+    "kind": "classify",
+    "prompt": "A política de senhas está sendo revisada. Classifique cada senha encontrada no cofre de credenciais.",
+    "categories": [
+     "Fraca",
+     "Forte"
+    ],
+    "items": [
+     {
+      "text": "DAPHyB353aZRFTxv",
+      "detail": [
+       "16 caracteres",
+       "3 de 4 tipos de caractere",
+       "sem palavra de dicionário reconhecível"
+      ]
+     },
+     {
+      "text": "Bussola_vidraca#755_",
+      "detail": [
+       "20 caracteres",
+       "4 de 4 tipos de caractere",
+       "sem palavra de dicionário reconhecível"
+      ]
+     },
+     {
+      "text": "aalawf",
+      "detail": [
+       "6 caracteres",
+       "1 de 4 tipos de caractere",
+       "sem palavra de dicionário reconhecível"
+      ]
+     },
+     {
+      "text": "admin",
+      "detail": [
+       "5 caracteres",
+       "1 de 4 tipos de caractere",
+       "sequência previsível de teclado"
+      ]
+     }
+    ],
+    "answer": [
+     1,
+     1,
+     0,
+     0
+    ],
+    "itemExplanations": [
+     "Longa e aleatória, com quatro tipos de caractere: inviável por força bruta. Guarde em um gerenciador de senhas.",
+     "Duas palavras incomuns unidas por símbolos e números, com bom comprimento: sem padrão previsível e fora de qualquer dicionário.",
+     "Aleatória, porém curta demais: o espaço de busca é pequeno e um ataque offline a quebra rapidamente.",
+     "Sequência de teclado ou senha campeã de vazamentos: está no topo de todas as listas públicas."
+    ],
+    "explanation": "O que derruba uma senha não é a falta de símbolos, é a previsibilidade: palavras de dicionário, nomes, datas e sequências de teclado estão nas primeiras listas que um ataque de força bruta testa. O que protege é entropia — comprimento e imprevisibilidade — somada a um limite de tentativas e a um segundo fator.",
+    "hint": "Pergunte-se: um programa que testa milhões de combinações por segundo chegaria rápido nesta senha?"
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       true,
+       false,
+       true,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 4055616904,
+   "question": {
+    "generator": "password_strength",
+    "seed": 4055616904,
+    "context": [],
+    "tags": [
+     "password"
+    ],
+    "kind": "classify",
+    "prompt": "A política de senhas está sendo revisada. Classifique cada senha encontrada no cofre de credenciais.",
+    "categories": [
+     "Fraca",
+     "Forte"
+    ],
+    "items": [
+     {
+      "text": "gDu7aZe9yRcnhPkD",
+      "detail": [
+       "16 caracteres",
+       "3 de 4 tipos de caractere",
+       "sem palavra de dicionário reconhecível"
+      ]
+     },
+     {
+      "text": "Maria2024",
+      "detail": [
+       "9 caracteres",
+       "3 de 4 tipos de caractere",
+       "contém nome próprio",
+       "termina em ano/data"
+      ]
+     },
+     {
+      "text": "E5c0l4_",
+      "detail": [
+       "7 caracteres",
+       "4 de 4 tipos de caractere",
+       "contém palavra comum de dicionário",
+       "substituição óbvia de letras por números"
+      ]
+     },
+     {
+      "text": "Girafa_taboa#201&",
+      "detail": [
+       "17 caracteres",
+       "4 de 4 tipos de caractere",
+       "sem palavra de dicionário reconhecível"
+      ]
+     }
+    ],
+    "answer": [
+     1,
+     0,
+     0,
+     1
+    ],
+    "itemExplanations": [
+     "Longa e aleatória, com quatro tipos de caractere: inviável por força bruta. Guarde em um gerenciador de senhas.",
+     "Nome próprio com números no fim atende a regras bobas de complexidade, mas cai em segundos num ataque de dicionário com variações.",
+     "Trocar a por 4 e e por 3 não engana ninguém: as ferramentas de ataque aplicam essas substituições automaticamente sobre o dicionário.",
+     "Duas palavras incomuns unidas por símbolos e números, com bom comprimento: sem padrão previsível e fora de qualquer dicionário."
+    ],
+    "explanation": "O que derruba uma senha não é a falta de símbolos, é a previsibilidade: palavras de dicionário, nomes, datas e sequências de teclado estão nas primeiras listas que um ataque de força bruta testa. O que protege é entropia — comprimento e imprevisibilidade — somada a um limite de tentativas e a um segundo fator.",
+    "hint": "Pergunte-se: um programa que testa milhões de combinações por segundo chegaria rápido nesta senha?"
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       true,
+       false,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2415085369,
+   "question": {
+    "generator": "password_strength",
+    "seed": 2415085369,
+    "context": [],
+    "tags": [
+     "password"
+    ],
+    "kind": "classify",
+    "prompt": "A política de senhas está sendo revisada. Classifique cada senha encontrada no cofre de credenciais.",
+    "categories": [
+     "Fraca",
+     "Forte"
+    ],
+    "items": [
+     {
+      "text": "g3JEs*HUhQzdaTyi",
+      "detail": [
+       "16 caracteres",
+       "4 de 4 tipos de caractere",
+       "sem palavra de dicionário reconhecível"
+      ]
+     },
+     {
+      "text": "bussola-oboe-girafa-cravo-46",
+      "detail": [
+       "28 caracteres",
+       "3 de 4 tipos de caractere",
+       "frase-senha com palavras não relacionadas",
+       "sem palavra de dicionário reconhecível"
+      ]
+     },
+     {
+      "text": "Rafael2024",
+      "detail": [
+       "10 caracteres",
+       "3 de 4 tipos de caractere",
+       "contém nome próprio",
+       "termina em ano/data"
+      ]
+     },
+     {
+      "text": "escola1996",
+      "detail": [
+       "10 caracteres",
+       "2 de 4 tipos de caractere",
+       "contém palavra comum de dicionário",
+       "termina em ano/data"
+      ]
+     }
+    ],
+    "answer": [
+     1,
+     1,
+     0,
+     0
+    ],
+    "itemExplanations": [
+     "Longa e aleatória, com quatro tipos de caractere: inviável por força bruta. Guarde em um gerenciador de senhas.",
+     "Frase-senha longa com palavras sem relação entre si: fácil de lembrar, enorme para um ataque. Comprimento é o fator que mais pesa.",
+     "Nome próprio com números no fim atende a regras bobas de complexidade, mas cai em segundos num ataque de dicionário com variações.",
+     "Palavra de dicionário seguida de um ano: são as primeiras combinações que qualquer lista de ataque testa. O tamanho não compensa a previsibilidade."
+    ],
+    "explanation": "O que derruba uma senha não é a falta de símbolos, é a previsibilidade: palavras de dicionário, nomes, datas e sequências de teclado estão nas primeiras listas que um ataque de força bruta testa. O que protege é entropia — comprimento e imprevisibilidade — somada a um limite de tentativas e a um segundo fator.",
+    "hint": "Pergunte-se: um programa que testa milhões de combinações por segundo chegaria rápido nesta senha?"
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       true,
+       false,
+       true,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 774553834,
+   "question": {
+    "generator": "password_strength",
+    "seed": 774553834,
+    "context": [],
+    "tags": [
+     "password"
+    ],
+    "kind": "classify",
+    "prompt": "A política de senhas está sendo revisada. Classifique cada senha encontrada no cofre de credenciais.",
+    "categories": [
+     "Fraca",
+     "Forte"
+    ],
+    "items": [
+     {
+      "text": "Beatriz2024",
+      "detail": [
+       "11 caracteres",
+       "3 de 4 tipos de caractere",
+       "contém nome próprio",
+       "termina em ano/data"
+      ]
+     },
+     {
+      "text": "?VU??BipPFG4x!HG",
+      "detail": [
+       "16 caracteres",
+       "4 de 4 tipos de caractere",
+       "sem palavra de dicionário reconhecível"
+      ]
+     },
+     {
+      "text": "admin",
+      "detail": [
+       "5 caracteres",
+       "1 de 4 tipos de caractere",
+       "sequência previsível de teclado"
+      ]
+     },
+     {
+      "text": "quintal-manivela-esquilo-nublado-12",
+      "detail": [
+       "35 caracteres",
+       "3 de 4 tipos de caractere",
+       "frase-senha com palavras não relacionadas",
+       "sem palavra de dicionário reconhecível"
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     1,
+     0,
+     1
+    ],
+    "itemExplanations": [
+     "Nome próprio com números no fim atende a regras bobas de complexidade, mas cai em segundos num ataque de dicionário com variações.",
+     "Longa e aleatória, com quatro tipos de caractere: inviável por força bruta. Guarde em um gerenciador de senhas.",
+     "Sequência de teclado ou senha campeã de vazamentos: está no topo de todas as listas públicas.",
+     "Frase-senha longa com palavras sem relação entre si: fácil de lembrar, enorme para um ataque. Comprimento é o fator que mais pesa."
+    ],
+    "explanation": "O que derruba uma senha não é a falta de símbolos, é a previsibilidade: palavras de dicionário, nomes, datas e sequências de teclado estão nas primeiras listas que um ataque de força bruta testa. O que protege é entropia — comprimento e imprevisibilidade — somada a um limite de tentativas e a um segundo fator.",
+    "hint": "Pergunte-se: um programa que testa milhões de combinações por segundo chegaria rápido nesta senha?"
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3428989595,
+   "question": {
+    "generator": "password_strength",
+    "seed": 3428989595,
+    "context": [],
+    "tags": [
+     "password"
+    ],
+    "kind": "classify",
+    "prompt": "A política de senhas está sendo revisada. Classifique cada senha encontrada no cofre de credenciais.",
+    "categories": [
+     "Fraca",
+     "Forte"
+    ],
+    "items": [
+     {
+      "text": "asdfgh",
+      "detail": [
+       "6 caracteres",
+       "1 de 4 tipos de caractere",
+       "sequência previsível de teclado"
+      ]
+     },
+     {
+      "text": "uizbsa",
+      "detail": [
+       "6 caracteres",
+       "1 de 4 tipos de caractere",
+       "sem palavra de dicionário reconhecível"
+      ]
+     },
+     {
+      "text": "##UFPV#o!9%!zo5U",
+      "detail": [
+       "16 caracteres",
+       "4 de 4 tipos de caractere",
+       "sem palavra de dicionário reconhecível"
+      ]
+     },
+     {
+      "text": "Nublado_trovoada#867@",
+      "detail": [
+       "21 caracteres",
+       "4 de 4 tipos de caractere",
+       "sem palavra de dicionário reconhecível"
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "itemExplanations": [
+     "Sequência de teclado ou senha campeã de vazamentos: está no topo de todas as listas públicas.",
+     "Aleatória, porém curta demais: o espaço de busca é pequeno e um ataque offline a quebra rapidamente.",
+     "Longa e aleatória, com quatro tipos de caractere: inviável por força bruta. Guarde em um gerenciador de senhas.",
+     "Duas palavras incomuns unidas por símbolos e números, com bom comprimento: sem padrão previsível e fora de qualquer dicionário."
+    ],
+    "explanation": "O que derruba uma senha não é a falta de símbolos, é a previsibilidade: palavras de dicionário, nomes, datas e sequências de teclado estão nas primeiras listas que um ataque de força bruta testa. O que protege é entropia — comprimento e imprevisibilidade — somada a um limite de tentativas e a um segundo fator.",
+    "hint": "Pergunte-se: um programa que testa milhões de combinações por segundo chegaria rápido nesta senha?"
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       true,
+       false,
+       true,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1788458060,
+   "question": {
+    "generator": "password_strength",
+    "seed": 1788458060,
+    "context": [],
+    "tags": [
+     "password"
+    ],
+    "kind": "classify",
+    "prompt": "A política de senhas está sendo revisada. Classifique cada senha encontrada no cofre de credenciais.",
+    "categories": [
+     "Fraca",
+     "Forte"
+    ],
+    "items": [
+     {
+      "text": "oboe-vidraca-taboa-quintal-80",
+      "detail": [
+       "29 caracteres",
+       "3 de 4 tipos de caractere",
+       "frase-senha com palavras não relacionadas",
+       "sem palavra de dicionário reconhecível"
+      ]
+     },
+     {
+      "text": "admin",
+      "detail": [
+       "5 caracteres",
+       "1 de 4 tipos de caractere",
+       "sequência previsível de teclado"
+      ]
+     },
+     {
+      "text": "KW5VNe+$ro*fewa+",
+      "detail": [
+       "16 caracteres",
+       "4 de 4 tipos de caractere",
+       "sem palavra de dicionário reconhecível"
+      ]
+     },
+     {
+      "text": "verao2008",
+      "detail": [
+       "9 caracteres",
+       "2 de 4 tipos de caractere",
+       "contém palavra comum de dicionário",
+       "termina em ano/data"
+      ]
+     }
+    ],
+    "answer": [
+     1,
+     0,
+     1,
+     0
+    ],
+    "itemExplanations": [
+     "Frase-senha longa com palavras sem relação entre si: fácil de lembrar, enorme para um ataque. Comprimento é o fator que mais pesa.",
+     "Sequência de teclado ou senha campeã de vazamentos: está no topo de todas as listas públicas.",
+     "Longa e aleatória, com quatro tipos de caractere: inviável por força bruta. Guarde em um gerenciador de senhas.",
+     "Palavra de dicionário seguida de um ano: são as primeiras combinações que qualquer lista de ataque testa. O tamanho não compensa a previsibilidade."
+    ],
+    "explanation": "O que derruba uma senha não é a falta de símbolos, é a previsibilidade: palavras de dicionário, nomes, datas e sequências de teclado estão nas primeiras listas que um ataque de força bruta testa. O que protege é entropia — comprimento e imprevisibilidade — somada a um limite de tentativas e a um segundo fator.",
+    "hint": "Pergunte-se: um programa que testa milhões de combinações por segundo chegaria rápido nesta senha?"
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

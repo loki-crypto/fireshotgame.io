@@ -221,3 +221,15 @@ async def add_active_time(user_id: str, seconds: int, phase_id: str = "") -> Non
             {"u": user_id, "p": phase_id, "s": seconds},
         )
         await db.commit()
+
+
+async def age_refresh_tokens(*, seconds: int) -> None:
+    """Empurra `revoked_at` para trás (simula reuso tardio de refresh token)."""
+    from sqlalchemy import text as _text
+
+    async with sessionmaker()() as db:
+        await db.execute(
+            _text("UPDATE refresh_tokens SET revoked_at = revoked_at - make_interval(secs => :s) WHERE revoked_at IS NOT NULL"),
+            {"s": seconds},
+        )
+        await db.commit()

@@ -59,6 +59,9 @@ class RefreshToken(Base):
     family: Mapped[uuid.UUID] = mapped_column(UUID(as_uuid=True), nullable=False, index=True)
     expires_at: Mapped[datetime] = mapped_column(TS, nullable=False)
     revoked_at: Mapped[datetime | None] = mapped_column(TS, nullable=True)
+    hard_revoked: Mapped[bool] = mapped_column(Boolean, default=False, nullable=False)
+    """Invalidado sem janela de graça: logout, exclusão de conta ou reuso de token vazado.
+    A rotação normal deixa este campo em falso, para tolerar refresh paralelos (ver services/auth.py)."""
     created_at: Mapped[datetime] = mapped_column(TS, server_default=func.now(), nullable=False)
 
 

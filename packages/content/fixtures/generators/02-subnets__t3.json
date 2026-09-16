@@ -1,0 +1,2831 @@
+{
+ "source": "02-subnets/t3",
+ "generator": "subnet_numeric",
+ "params": {
+  "fields": [
+   "network",
+   "broadcast",
+   "hosts"
+  ]
+ },
+ "seeds": [
+  {
+   "seed": 2654435761,
+   "sha256": "2c21c29f4ec01805a02970d42ca41f8ca69e621d00b46114bdba567daa661a19"
+  },
+  {
+   "seed": 1013904226,
+   "sha256": "812c6419caf256cb47475c222a382b4b164d5c67793d253bc21ae70ddb6d4b8b"
+  },
+  {
+   "seed": 3668339987,
+   "sha256": "3dfbd32f3d40aabe7c83a53acdb187e341d81ca854739c324c90ee4e0fee828a"
+  },
+  {
+   "seed": 2027808452,
+   "sha256": "89e233223721310c6f1e0739bef009d5d37d1d5f4d74ef5710f5c7dd81ecc28c"
+  },
+  {
+   "seed": 387276917,
+   "sha256": "f8c9ca06e66e7825ad3204d95199372679a50b170c4b5adce479d3d3bf98c606"
+  },
+  {
+   "seed": 3041712678,
+   "sha256": "8f76af1520af73dcb84784463dea48e7ef69773691bcd94ad2c4c004685ddf5c"
+  },
+  {
+   "seed": 1401181143,
+   "sha256": "015debaa2bb168701591262090f144d8735a1e246fe2a0369e2ab02bfdc681e4"
+  },
+  {
+   "seed": 4055616904,
+   "sha256": "6f25d7c38d1356e18a0cf592c95bc95c5ed47d4a6ffbb1b9afcbd0fcc8643fbb"
+  },
+  {
+   "seed": 2415085369,
+   "sha256": "4eced6cfc2187fb127ff2b54569c707cd4ae52e7bc0eb974edc2f2f7ed0e6ed6"
+  },
+  {
+   "seed": 774553834,
+   "sha256": "ec8626c4bb05a296e6294b6d85fb4a1e9cfc3852ea714146226e713c2f2768a4"
+  },
+  {
+   "seed": 3428989595,
+   "sha256": "7d48a1bb79232cc0e67fe18548ec4de1e8008847598f1d373e31cf5dcf93e473"
+  },
+  {
+   "seed": 1788458060,
+   "sha256": "03f3e9075e34de3f7176b3ebcd93563ec93c822cc4b1f237c57c2eadf2b521af"
+  },
+  {
+   "seed": 147926525,
+   "sha256": "8080c8e12da763c680b5dea17c67376bc31f41f560f7067ecaa41e0d98ea3c3b"
+  },
+  {
+   "seed": 2802362286,
+   "sha256": "ad9ef05ca88a3d9d3d0e1871a949884fb6351e3f29b74099f5489b2088c5261f"
+  },
+  {
+   "seed": 1161830751,
+   "sha256": "d4b797204aa512e269c4e39e5ed52a00f79ed0006720a9ca02e78c9aa9a64a76"
+  },
+  {
+   "seed": 3816266512,
+   "sha256": "4a5e23ef09034d036799aacc73ccfdc068c080a764e598474bbd6de05a63969f"
+  },
+  {
+   "seed": 2175734977,
+   "sha256": "6207425688ec189b0a23285e0aeef47ea8266eab3423dcf382e36971b0cba87a"
+  },
+  {
+   "seed": 535203442,
+   "sha256": "a184521d0d93bc33535f291f91948194a40698fb970720c05889904defb38d82"
+  },
+  {
+   "seed": 3189639203,
+   "sha256": "08151b77497948fac1ecaf1aa199d389b7b240033f71a2414f818e255b8ba8fd"
+  },
+  {
+   "seed": 1549107668,
+   "sha256": "a6fd3e53a93d2bbf64fd0bc2b117b45775b234acf5cd200e0b4cb874bf8b2f7f"
+  },
+  {
+   "seed": 4203543429,
+   "sha256": "3b7eb0e9b0135626b81f19859ef769d94eb1fa62aa04153775ced5c974cb948c"
+  },
+  {
+   "seed": 2563011894,
+   "sha256": "9dbb29135a33a5e2c509b32378bcdfd11f4d53b318cff9b3654411996b3d76d9"
+  },
+  {
+   "seed": 922480359,
+   "sha256": "61b231c65d06be624567059a946e2800fc2a2b318d0668a0b8de8d340de2d90d"
+  },
+  {
+   "seed": 3576916120,
+   "sha256": "8483dc59fc352c7e39f574120f76f4486bab442bb5549ed3362dc089be8bc2c8"
+  },
+  {
+   "seed": 1936384585,
+   "sha256": "23b3ddcd1dd329840e88b73ed4eb2c2d5fcfb63e88e42fe88dd36afe3a2e25aa"
+  },
+  {
+   "seed": 295853050,
+   "sha256": "d31fd1b030381d6058f5c2c5fbedc29a28311a98372d10464011477a884ad3e6"
+  },
+  {
+   "seed": 2950288811,
+   "sha256": "91d2ecd31ee3d7cb9e4e73cdb20375abf577cc7b783b9c64df3b455e81b8e852"
+  },
+  {
+   "seed": 1309757276,
+   "sha256": "6fddb45f27809af5a98ecbddc9921508bcaaf65837ad69d660819ef169d8f2e2"
+  },
+  {
+   "seed": 3964193037,
+   "sha256": "7c0e05aef86e15aa47bb490dca589e714867253641844a1967c27b0eb0c7069e"
+  },
+  {
+   "seed": 2323661502,
+   "sha256": "4a0c389db257663e119f619de1a4e4c10ee044e200fc9a203a41e7ce1276726b"
+  },
+  {
+   "seed": 683129967,
+   "sha256": "7aca32537447ad89306a54346fc3ae2952e02f1d35879bc31ed73e688c91c99d"
+  },
+  {
+   "seed": 3337565728,
+   "sha256": "98ce12d95de3b431ca7d0d1b051b39dc2c52a2b6368a11573b5219876bbe20f9"
+  },
+  {
+   "seed": 1697034193,
+   "sha256": "efb550efcb8b6a1b5a7d4421b7b20928f0a12b3434532e114d555133e4aa5c3e"
+  },
+  {
+   "seed": 56502658,
+   "sha256": "a2459412a35848bb1fac0a7a8b5c6f71bd95a4585c82b21f9e7a58422bde4348"
+  },
+  {
+   "seed": 2710938419,
+   "sha256": "fb05889d252ba97d0f3920b89cf3cbb20ffdd14a4d156cc8211c077414b4c745"
+  },
+  {
+   "seed": 1070406884,
+   "sha256": "b0add62637457ef81e968e2bed8360a1989d78076958973d5b8aafc2d8890b79"
+  },
+  {
+   "seed": 3724842645,
+   "sha256": "00f5d42f0d0f8ad2a006354620d756bb5748a90e5627442a338701fb9c861915"
+  },
+  {
+   "seed": 2084311110,
+   "sha256": "01a970a10d3df8c1bd9dd563af412f58705b6967fc6f77cc046fa383ea84bb1f"
+  },
+  {
+   "seed": 443779575,
+   "sha256": "2c7b7b23a8b98e4621262da822dd0bbc93f08f177732c1b686217204877850ce"
+  },
+  {
+   "seed": 3098215336,
+   "sha256": "9c296015a044467d4032789fa5d8382c5956cb2ebb574a4d243aaae2333e80c7"
+  },
+  {
+   "seed": 1457683801,
+   "sha256": "284d6e1ab2f788f6d5741e15842abb01a63a010c1f86d09e08682b55ba4101fb"
+  },
+  {
+   "seed": 4112119562,
+   "sha256": "785e9b5edab07056a078f756e864d8038b92794c5137a2a0c17bd209d5a248ac"
+  },
+  {
+   "seed": 2471588027,
+   "sha256": "a238ac3a3cc65b76ad3085bf3456a2129cc434764e8675d257c92acd2ce24488"
+  },
+  {
+   "seed": 831056492,
+   "sha256": "38872dfbf30d5bc28419bdbc762c68eb033a33d8f9720fc1cb056e2e793a1120"
+  },
+  {
+   "seed": 3485492253,
+   "sha256": "9fa2d33bbce1127e999a673626a4deba2f6530251e9355c2c2584a8d46fa4b97"
+  },
+  {
+   "seed": 1844960718,
+   "sha256": "b9657e4bcdc31283f67d5dd1f7b26f09d59de1ac33989bf6cd250e5350d5f404"
+  },
+  {
+   "seed": 204429183,
+   "sha256": "3866eb6b4cfcbd3ce8823fbff2e9041656f6427e382cfcca2e8e1849bd406380"
+  },
+  {
+   "seed": 2858864944,
+   "sha256": "ce0abe1c7ba730d74e71f1e103fa632d4f8343e9e32682e67fb3f511a099c64e"
+  },
+  {
+   "seed": 1218333409,
+   "sha256": "ca657ebc3d58f247ffd6a131b92bf7010c8f512feaf39d8d0f0e9cf51764fda7"
+  },
+  {
+   "seed": 3872769170,
+   "sha256": "b30cb04819b1fad67ef44bcd2ad3895d28afef3eda614028eb464934f15a3e88"
+  },
+  {
+   "seed": 2232237635,
+   "sha256": "45b0677032af3bf98726e4b9b842eeb9a24fcdc73e316b1b8515a0deec75bb66"
+  },
+  {
+   "seed": 591706100,
+   "sha256": "69ad630655dcf05735b94666fe8aa3720351736bacb5ed7e993ff22c42701509"
+  },
+  {
+   "seed": 3246141861,
+   "sha256": "a787fedd98e45462e66a0e84b63f73bb90ea973536ef65f12368952729e3a5e6"
+  },
+  {
+   "seed": 1605610326,
+   "sha256": "72f4a82ed6ad49efa4f047351d9d7de805a822b67f1083f2c628cc7a3c1c8190"
+  },
+  {
+   "seed": 4260046087,
+   "sha256": "f488bf2e48a16e8efa9b23543002e6a407efec77de40936d5526b247535a998a"
+  },
+  {
+   "seed": 2619514552,
+   "sha256": "c53324bad538636efe865be985bb800a89f833dd36d0101d6ae263f65032ee4e"
+  },
+  {
+   "seed": 978983017,
+   "sha256": "fdb5aadc809c4a42795c48d540c5447843987cbd5ad0e7438591ecd74dbdeab2"
+  },
+  {
+   "seed": 3633418778,
+   "sha256": "b397232f70498d025108803431025cf6a7c570bcda08267465fe0d58af1fb191"
+  },
+  {
+   "seed": 1992887243,
+   "sha256": "143a90ad168074fcbf5e056a0e47ca71b42776b8042773f1e3444e96d38f6c22"
+  },
+  {
+   "seed": 352355708,
+   "sha256": "21b69b776ac82853df45d6bf8a4f428fac925790f1892ad7a67e941efb35309a"
+  },
+  {
+   "seed": 3006791469,
+   "sha256": "f3591c136c2bdd3ffbf3e214cfddcc7d2aa1e858628f9e8515fd4db8d10a6fae"
+  },
+  {
+   "seed": 1366259934,
+   "sha256": "dbb2276f9f03d01c409bbf799a49445b587e3178bfdd2ea293cb189e69ae06b5"
+  },
+  {
+   "seed": 4020695695,
+   "sha256": "88e4539efce92a671c0f1d74f90ef933b77631aec2a182c1432a665e0f282dfb"
+  },
+  {
+   "seed": 2380164160,
+   "sha256": "21a745011454473c890f5804d3029edb93dbda49552edeea2e9e2ee83016865b"
+  },
+  {
+   "seed": 739632625,
+   "sha256": "72b0ac126669bca0b05c2c9a50de65a2056ddc9ac867b6cdcf1f952807bcd291"
+  },
+  {
+   "seed": 3394068386,
+   "sha256": "c305ab73deec1f26b3076f5881d6c5e0e411535d0ba5ab042560945fb842a752"
+  },
+  {
+   "seed": 1753536851,
+   "sha256": "9bf90ba48de22e97c261cc1b61960081c962a642ea754b29045669bded6879eb"
+  },
+  {
+   "seed": 113005316,
+   "sha256": "eb5869ccf7e391b901740e2146830eb3da5107201be152fb697abc93bcb06edb"
+  },
+  {
+   "seed": 2767441077,
+   "sha256": "3cfdbcd1eca977f11a1b04f86ffdc49d26bf05e038fc85bec1ec4840537e0566"
+  },
+  {
+   "seed": 1126909542,
+   "sha256": "94ae9695eaf0cb35fe7699d2df99241cc47adb66675940988af237c7f5348e42"
+  },
+  {
+   "seed": 3781345303,
+   "sha256": "4dbb7a0242765e839092d8f840e6d9fb858fc1004e5376aafeb604e3931e43d7"
+  },
+  {
+   "seed": 2140813768,
+   "sha256": "4fb73cfd6e1461456b6d666402ada63c589737b5bdae93e7062518c6b4135820"
+  },
+  {
+   "seed": 500282233,
+   "sha256": "513af2baa4804068e7225653e13a81089ab30ea3dfdb2210e7166ea407283775"
+  },
+  {
+   "seed": 3154717994,
+   "sha256": "217bf3c98ff7de1a2846186bc61279fa28dd06bab0baa92b926f979d79f17b2e"
+  },
+  {
+   "seed": 1514186459,
+   "sha256": "ce7dec10cb0dab662385ade27b051250a0ed60af40a3b6f05ea04d0323f28994"
+  },
+  {
+   "seed": 4168622220,
+   "sha256": "aff889ee909d3f20953c2f43df10d953152f3d859098a5d5b263de0c6abd335c"
+  },
+  {
+   "seed": 2528090685,
+   "sha256": "86c5115e2eb7b3e05316f8ec11c04cb09479c9d37cb8408573c614f9a27ed12f"
+  },
+  {
+   "seed": 887559150,
+   "sha256": "5bc38b70f896d71bf5bff3e39376878dcc269cf272c9eb87357ba09c54e2b716"
+  },
+  {
+   "seed": 3541994911,
+   "sha256": "e7414d1caabf698ec55d18bed093166fc66ad4ffaca8f45f95b5fe08e578f7c9"
+  },
+  {
+   "seed": 1901463376,
+   "sha256": "a3b96470fb884a2e2c51035aa5b5dc3ead67f2d9d9581c6ae95d461802cfaf32"
+  },
+  {
+   "seed": 260931841,
+   "sha256": "b0ef5f6a342e0d0f2703e164e84a02afe555008406c752673c47262b2799acd5"
+  },
+  {
+   "seed": 2915367602,
+   "sha256": "0aaf7a7ddf3f0233501ea2dcc461068f093573cf2cbd8d493726548a1cb3d230"
+  },
+  {
+   "seed": 1274836067,
+   "sha256": "291e177ab0dc3fde3b6d0c24dc78f485fb2c61eed9b4c025a39066085045a8dc"
+  },
+  {
+   "seed": 3929271828,
+   "sha256": "34ecb8ef39af1ae6365cac2c13369dad01aef075c8a7879c6e1727241125b7fe"
+  },
+  {
+   "seed": 2288740293,
+   "sha256": "c93bd7f51a715380e33fba837a5cda53a54c60ee66d5d63c54cb8f04cff9c24b"
+  },
+  {
+   "seed": 648208758,
+   "sha256": "bddb96f6171b8d0b81088b60f7deea030ec85b069c390cc0200fa4410d2d65f1"
+  },
+  {
+   "seed": 3302644519,
+   "sha256": "2cd614e8ed641bf2bbaf8f429c4b140c25b4b32cc8154c0f237499fb7244f62c"
+  },
+  {
+   "seed": 1662112984,
+   "sha256": "07e97c50b9e374b29bd05aab51a02bac80a53654b6bf486e5ba0333401a8346c"
+  },
+  {
+   "seed": 21581449,
+   "sha256": "c1df93c23421b332cc734a3b33e3e489bbbbb4f87be4cf72c533624b667f2b4f"
+  },
+  {
+   "seed": 2676017210,
+   "sha256": "9f04fe6ae3537cf046bea446071096fcd88d1dcd53260ff1cf5dfc1835141a93"
+  },
+  {
+   "seed": 1035485675,
+   "sha256": "6464811444acb7761179f95d5293f62d990276fdc0d841be6dbe4e84406a524c"
+  },
+  {
+   "seed": 3689921436,
+   "sha256": "db794baeaff9ac15a2be3c13d3737b276b0d867f100842afe08a4464d2bc5194"
+  },
+  {
+   "seed": 2049389901,
+   "sha256": "267fc8b2090a99c5f03381b1c3e08774cd235a74ade1e1edf0b8170b11caa20d"
+  },
+  {
+   "seed": 408858366,
+   "sha256": "1f3cef786b9a2e21640dc109b0223f6657cff81e38c5ede37be899c38ecba2b4"
+  },
+  {
+   "seed": 3063294127,
+   "sha256": "5db067472d10956d019530a6401a59a2ac6edef652b6035e0314b913658b5ece"
+  },
+  {
+   "seed": 1422762592,
+   "sha256": "3ae5b072149f5719e373070f3399e17712cbe29f588813d57e88e6fbaa6e65b4"
+  },
+  {
+   "seed": 4077198353,
+   "sha256": "d3b9b383c12b1f64e6a18d7347df0f8a7aedd02417335d814deb09d9cf89543f"
+  },
+  {
+   "seed": 2436666818,
+   "sha256": "b025ff842cd53499e8e8b443993cb10f070660e36eddcecfccd28018e6f8d7f8"
+  },
+  {
+   "seed": 796135283,
+   "sha256": "d8d0f22362b6900c8ba07cdeac45478df39c84a3bd59e813b594c174fd479aab"
+  },
+  {
+   "seed": 3450571044,
+   "sha256": "00805c16dab1b2e431539bb6c067d3bcbd3e9a8a1b6392a6d2c458eb7847a675"
+  },
+  {
+   "seed": 1810039509,
+   "sha256": "88b427da2606554f6964f81e1b54730e075c0058de23f6b1c1f14750da6bdb07"
+  },
+  {
+   "seed": 169507974,
+   "sha256": "16da776ed302700b52bfb50a2aa4165a2c1d086fa15f019000e8bb05a655a84c"
+  },
+  {
+   "seed": 2823943735,
+   "sha256": "525423fb0575244c5515d7d29367167fca7c95202185a01505575b825e3c3515"
+  },
+  {
+   "seed": 1183412200,
+   "sha256": "d56a4472014b79ea67d28067e43a3b56fb8de8637314113a2419e6ad775f7f8a"
+  },
+  {
+   "seed": 3837847961,
+   "sha256": "ec32f1a4da90723e86b8f471e5849119db5b8881ec0dbb75b9d5642513acd23d"
+  },
+  {
+   "seed": 2197316426,
+   "sha256": "f2b26f446a562a3d0a1d4f1844744ec1fd016b536915324ed80404fa442a4750"
+  },
+  {
+   "seed": 556784891,
+   "sha256": "078198a29ab75f6973ee6ced6284bf16d3d0948cd1cf180d5bda30d7fa72070c"
+  },
+  {
+   "seed": 3211220652,
+   "sha256": "7673e4a6cc51cae448f8cac6302b7aeef987ee3eda177cfb58186d63eeac5220"
+  },
+  {
+   "seed": 1570689117,
+   "sha256": "e26b2007c6d4b6ab757ef946c9a4c34022f962f72c7f022c6a64e69f38e4afd6"
+  },
+  {
+   "seed": 4225124878,
+   "sha256": "233a1c71782cd7d1421aec5db3fbdc1ea0af68b8800bc9bb2b100e33a456d5fe"
+  },
+  {
+   "seed": 2584593343,
+   "sha256": "f251b76264902fa76afa7c3ac34e7e3100dd474abc4384aa5b952bae9594bab6"
+  },
+  {
+   "seed": 944061808,
+   "sha256": "ccd74c48a51b5f38155b986b934974802a8ec526798f1e8ed71f51821bc581eb"
+  },
+  {
+   "seed": 3598497569,
+   "sha256": "9809df9ced29867a6575a747aea22432b2620c6138718706a13332f980f7a507"
+  },
+  {
+   "seed": 1957966034,
+   "sha256": "0cfb085f6ec623aa20d0778c347f26dc2e5f69e8a6a1c156ab66d2fb8b7b6e3c"
+  },
+  {
+   "seed": 317434499,
+   "sha256": "12affc3378d191a37892da5c4073d9bc7e1f5ff00eff863972d1146748388a1d"
+  },
+  {
+   "seed": 2971870260,
+   "sha256": "010ae107d105f4031a723de5f7200893e84adc26db9143f1971adcdea71233e8"
+  },
+  {
+   "seed": 1331338725,
+   "sha256": "e44b0680ed5ed5c4b0ed1e4ee8e063094cc339b527520a10a1b273eb4c8389a8"
+  },
+  {
+   "seed": 3985774486,
+   "sha256": "e3c48160574b031174cb5c8fef5ff5f77a3e4a2bf4d2a7474b90ff927945e9a7"
+  },
+  {
+   "seed": 2345242951,
+   "sha256": "beebd585f0e394c371a35dccc8299a789a75a076d9bad5818b0797152ec23512"
+  },
+  {
+   "seed": 704711416,
+   "sha256": "71d78b4766acd864064e3f5a8a665303d66e35d982e77613dbc625efbeadd5f2"
+  },
+  {
+   "seed": 3359147177,
+   "sha256": "d624c52bc8e305c73e8b6dba68e18118d7e8e9afa281d7eb39499e0f7a2964e3"
+  },
+  {
+   "seed": 1718615642,
+   "sha256": "207da0c6402243e7dc1dbc10ad345420c3bb8a14f5b6d977bcf574403de58690"
+  },
+  {
+   "seed": 78084107,
+   "sha256": "a8f7a1b09fe984ae20e0c83808636563257bbd32970ef1cbcd4559b1cef3c5a3"
+  },
+  {
+   "seed": 2732519868,
+   "sha256": "ac1134abab29a0a064d1a7e74013015c2a8598fd8ccb131b00f7348b7d023a19"
+  },
+  {
+   "seed": 1091988333,
+   "sha256": "a9ba1b23e08d3ea5126902af288bbcb64ff4020ff47f8eb9b5bb55cc51c75a38"
+  },
+  {
+   "seed": 3746424094,
+   "sha256": "268daf0b87c0f6b28626d982236585db660f279ca5674a5e57470bf82c9b4e8b"
+  },
+  {
+   "seed": 2105892559,
+   "sha256": "b4916cb3f2501e17bfaf04d9298391f17290a5b87695724ea853e6615479012b"
+  },
+  {
+   "seed": 465361024,
+   "sha256": "ed8964b7bab8215a0b7843ee797f4145059fcc5f9f521bec93e4681cdc4af73b"
+  },
+  {
+   "seed": 3119796785,
+   "sha256": "a47889fcb32b9db842600cc080bdc1625e9b043a75611a1d7c9bb337ebccfe91"
+  },
+  {
+   "seed": 1479265250,
+   "sha256": "0bde42bf9251374066e8a1be3efcb88e72e9d642f6bd6783e7d13770fbb8f1d3"
+  },
+  {
+   "seed": 4133701011,
+   "sha256": "9c2e032f1e58c0012d2a1069d72d9e6bdcbf3562f9bcb597aefc4010badcb036"
+  },
+  {
+   "seed": 2493169476,
+   "sha256": "845be73e40c4a9a9ad2476f866ef6577fb7ac10dc0db0467c6f5aaef81a4d860"
+  },
+  {
+   "seed": 852637941,
+   "sha256": "3a2a622cca5b2b00be8aa784374c26224152cee309d4fdcbf57145965088a4df"
+  },
+  {
+   "seed": 3507073702,
+   "sha256": "65ec51c95398311a0914661cc1b48345868896de3bcfbc736cb1d023f45615fa"
+  },
+  {
+   "seed": 1866542167,
+   "sha256": "f3d991e1a4c7f6604cb7fa9eb3745015d1f8237319a82d14775c369e2ae9b9a4"
+  },
+  {
+   "seed": 226010632,
+   "sha256": "618879fd457d8c1f950f51031abd3f5308e082c1a724ff4d44e39f4c57629889"
+  },
+  {
+   "seed": 2880446393,
+   "sha256": "c38c346b85202863d5afd18801a168d710d5e35b24a385956df099efa1d95196"
+  },
+  {
+   "seed": 1239914858,
+   "sha256": "b37d66978b4051d8f7fc3916633daa1013a676c63d23dca87db55c79a5c0977c"
+  },
+  {
+   "seed": 3894350619,
+   "sha256": "da75b3de3323830833073abf6b516fc324c12eef5afa20e873526ffd07c04e4b"
+  },
+  {
+   "seed": 2253819084,
+   "sha256": "95c9cfae849e63202e78a662d869e34b8ec349a267c505e773436879a7af0d4b"
+  },
+  {
+   "seed": 613287549,
+   "sha256": "41ab9d834014901de7cfc77cd477b7225ca6cc68b43f6738ea91d4468e624bfc"
+  },
+  {
+   "seed": 3267723310,
+   "sha256": "36e9f2dbfa9ab022cf57b71dce82c47ce76a2ce39b482757267d77e28b8efd07"
+  },
+  {
+   "seed": 1627191775,
+   "sha256": "1aa9ca9e0777b7e2c18a286b376fec019b899a23d1b4b62c1f2f870fc23d18a1"
+  },
+  {
+   "seed": 4281627536,
+   "sha256": "ba2d83073d0b3641be44af3c1fc3f454d1a9fbc3b816642fb71ea180cd984a94"
+  },
+  {
+   "seed": 2641096001,
+   "sha256": "894e557d78fcf60bf21ebbcea080e6a21c152272924bf923a6426eaa5a50962c"
+  },
+  {
+   "seed": 1000564466,
+   "sha256": "3398f5581f5cee0533ecda111733982c7cb95f8f9148c8df3ed9c976d9fc08ab"
+  },
+  {
+   "seed": 3655000227,
+   "sha256": "fe5bbc162e27680c6b61531a5c341e6ff556199e6aa7650fa21b9d72e6b2bdf7"
+  },
+  {
+   "seed": 2014468692,
+   "sha256": "fe692886646900c01901d82003974d11ef29cabcd42df8a9a53d0d3e350972b5"
+  },
+  {
+   "seed": 373937157,
+   "sha256": "d0c45effb0c704990bd151f508a38bb7fedd8968e979c24488cc73bc800f7bf4"
+  },
+  {
+   "seed": 3028372918,
+   "sha256": "05aad0b9860e26769fd391b4b5c7c65bbc47d1ed8687ee2cd72f983a5505de01"
+  },
+  {
+   "seed": 1387841383,
+   "sha256": "5a90c99f7c8d159a878a4b905c3e5a9f3f6c7acc28aaa580ac0c41396dec590d"
+  },
+  {
+   "seed": 4042277144,
+   "sha256": "4bc0e9f281eb94500c006beaad39736b44800476f3b533c87c8ded521e176a2e"
+  },
+  {
+   "seed": 2401745609,
+   "sha256": "9245d7d8958687b98c230819ad4c708b5625ae38c55a1f408749953b1974d0b6"
+  },
+  {
+   "seed": 761214074,
+   "sha256": "0bf5d06c36686be6e2c989507bf60bb3e5e568d92ecfbfc9c0cbf6f921ea1cb0"
+  },
+  {
+   "seed": 3415649835,
+   "sha256": "d84c3dadb3ec5951f6540a36efdc913a12cdbc70688b20fdc5e7b770856de152"
+  },
+  {
+   "seed": 1775118300,
+   "sha256": "44e86ecc90d95a942b8fcd0328350ff320102ec75d9567bf59d97ca25100ce87"
+  },
+  {
+   "seed": 134586765,
+   "sha256": "dfdfb8de75ec8a7ea67e7a7cd645e64bb9c103be82de59434c1b864f47bb3b9f"
+  },
+  {
+   "seed": 2789022526,
+   "sha256": "9195b2d0036a6eee812a3d90c65ddeba5de7e0f4401452b017f8bbc870472deb"
+  },
+  {
+   "seed": 1148490991,
+   "sha256": "44d68cf3b5327ba0af50baa0b9cbe65cdf15e17bf6c5f0475e49c67b93bcd004"
+  },
+  {
+   "seed": 3802926752,
+   "sha256": "1e2d584d7153f4d6f1fed992b42cddc439ea17aea663a96cbd31420b4426cd32"
+  },
+  {
+   "seed": 2162395217,
+   "sha256": "c6cdaa45b53deff16569666987ea16a8bd1925b23f11484e52c13e7db7f654f1"
+  },
+  {
+   "seed": 521863682,
+   "sha256": "eb997c76c96f04875bb2c2b8e66f6d07cf4ba72554b0be559a0aa4edf7573cd1"
+  },
+  {
+   "seed": 3176299443,
+   "sha256": "846a1df6547009361ee65319f54fe355e7a1dd56f4fa17f4835c8f84a054cd5f"
+  },
+  {
+   "seed": 1535767908,
+   "sha256": "700c211c6b91f4e5504722de4a81bd4751be46b5b308d3a605fe544c09382e24"
+  },
+  {
+   "seed": 4190203669,
+   "sha256": "e68b19f61f3833fb1a6aea694ff10df9a79135a7c6274acee13dedf2c983ce54"
+  },
+  {
+   "seed": 2549672134,
+   "sha256": "453956cc9f735ec50721cf78430c7b99173c8b18111b6e69cec845d7cce71905"
+  },
+  {
+   "seed": 909140599,
+   "sha256": "0b39fbc6c1179cad8519b58a5adef4c6369ae853b32c5db9cec0e4e01b5abace"
+  },
+  {
+   "seed": 3563576360,
+   "sha256": "6ba0ce4ccdc9862eb1e4fd61071648d647c10c8dddd201121471ab51bfd63853"
+  },
+  {
+   "seed": 1923044825,
+   "sha256": "59c98905cca7946bbbd8e8997b53163fad8b9063f5077b85c9c24ce860dbe956"
+  },
+  {
+   "seed": 282513290,
+   "sha256": "f1cc1833158855535552712e9c2b7651083f843a4a21ee171a9701000c8db271"
+  },
+  {
+   "seed": 2936949051,
+   "sha256": "21c6bf8422c53dd89e9e02d344c6c3797a1edfc434b0b90e162a25105a68c3ce"
+  },
+  {
+   "seed": 1296417516,
+   "sha256": "0c403619ba5fccdf0fa0cc12625b2794d9432e4b23004003e92008eb238bf0bc"
+  },
+  {
+   "seed": 3950853277,
+   "sha256": "45d35260bd6ddaefca171cf0e3d005fe51212fcb36499ab1de78244032a13324"
+  },
+  {
+   "seed": 2310321742,
+   "sha256": "d4e837b2cb9fd6698b31a7eb2a70f2e0aa1588937f56095a4028c9e75a7b5ec8"
+  },
+  {
+   "seed": 669790207,
+   "sha256": "5265e1789213a2c5e6ecd1f81ec118876af31759a377fca6763d7eea4c0dc5c1"
+  },
+  {
+   "seed": 3324225968,
+   "sha256": "6e44eff79ffc34020fe79749907c92e9b82acac1cdae39beae02124c8e34cdbe"
+  },
+  {
+   "seed": 1683694433,
+   "sha256": "69e696463a6d54705395aa63a50b0ed5f0342dacdd12fcae33f06cd1fd00803a"
+  },
+  {
+   "seed": 43162898,
+   "sha256": "ad8011ace8192e441a0149f2964be95d3c2012bf6583e9d5922bea36c09fd15b"
+  },
+  {
+   "seed": 2697598659,
+   "sha256": "aad1ccbc9c589ac4b9256c060ec1215bcfd96dd29577112fd6846aac9f0c37af"
+  },
+  {
+   "seed": 1057067124,
+   "sha256": "eb279cb694ff0cb0eaed8353d27cc75b424da7209e8453db8d87572eeb140a98"
+  },
+  {
+   "seed": 3711502885,
+   "sha256": "f990db024239a6cb8dad17ae17c3217491bdd2848ac8a239e58b0268adde4fa9"
+  },
+  {
+   "seed": 2070971350,
+   "sha256": "3d39e2caa5a7b80e4630e53bdf2943b65ad31496e5b6504a78a205b27f4530f4"
+  },
+  {
+   "seed": 430439815,
+   "sha256": "321c8c250014fbebe192445809184ce7f51ff729e39084fe19da0a70825ff585"
+  },
+  {
+   "seed": 3084875576,
+   "sha256": "48b6f42256737c0bf2cef460a22c61e223e7c13a7dadff1eed1c6bce6a5cd214"
+  },
+  {
+   "seed": 1444344041,
+   "sha256": "d770964f4123210f1f7277132ff1f45e675801bbb177f777f51d01bd38708f7a"
+  },
+  {
+   "seed": 4098779802,
+   "sha256": "e23fe8b9d22292a58ecc46d56da064a4c2f84b224940584b1adff9a19b549761"
+  },
+  {
+   "seed": 2458248267,
+   "sha256": "23195685515c3c4fa9b925b19db8e42e18c1e6f3a087d2ca0cc7799074dc04f4"
+  },
+  {
+   "seed": 817716732,
+   "sha256": "6060b6ab4e214111562dbc05d374dc7153ca7a897f34ddc705ca79bd4e5c153e"
+  },
+  {
+   "seed": 3472152493,
+   "sha256": "a6f28745d926572c74c522ac691ed91de3c38b6a8d590cba1f8ba913677d8a18"
+  },
+  {
+   "seed": 1831620958,
+   "sha256": "2ea302d1c4c619913b027e453d1cd63fa7ff9eb2aeb1f73f49d5b4374b8cd8c8"
+  },
+  {
+   "seed": 191089423,
+   "sha256": "03274e270c7ea4102480a9bdbf65606054f15fc521b72382be5229e66c0392f3"
+  },
+  {
+   "seed": 2845525184,
+   "sha256": "c35b09b36ef271f689a329b77b28b23c3decf52c7295099929a9258adc263de5"
+  },
+  {
+   "seed": 1204993649,
+   "sha256": "dc596bef38d11f0dedec37992e8dbc0aa4dd4e3b905cb8280953256f855f5ff4"
+  },
+  {
+   "seed": 3859429410,
+   "sha256": "474f92bbcf352dd820bebdc0a9c36279fda29ae17fd502c5bc4f2f043b712195"
+  },
+  {
+   "seed": 2218897875,
+   "sha256": "6c078e6b70c6bc7ec85f5017604e3b4f8d672f8638f00920cd67f7c1a2abf4b7"
+  },
+  {
+   "seed": 578366340,
+   "sha256": "25200b84c3312ecc665ebd883542a4a95815394dc2372357ac1105cc8ee5032c"
+  },
+  {
+   "seed": 3232802101,
+   "sha256": "24935b7b46143e658f5bbd9c6fce52ff6f6bc0cb53c204e56f8e7ed2acbafbe3"
+  },
+  {
+   "seed": 1592270566,
+   "sha256": "83076313975b66c0a304af360c27aaf53b0ffdf0e7c46fb4895513db4612bdd9"
+  },
+  {
+   "seed": 4246706327,
+   "sha256": "c6cbb0214c82737f29ae71f90b6497d7e0ea23aa77be7225c78a56b8ffc19427"
+  },
+  {
+   "seed": 2606174792,
+   "sha256": "a1ce99213963b7fccdc49e06c502e1163875615e0fc7c26ad2d353a4907b435c"
+  }
+ ],
+ "samples": [
+  {
+   "seed": 2654435761,
+   "question": {
+    "generator": "subnet_numeric",
+    "seed": 2654435761,
+    "context": [
+     {
+      "type": "table",
+      "title": "Host analisado",
+      "headers": [
+       "Parâmetro",
+       "Valor"
+      ],
+      "rows": [
+       [
+        "Endereço IP",
+        "192.168.9.33"
+       ],
+       [
+        "Máscara",
+        "255.255.255.192"
+       ],
+       [
+        "Prefixo",
+        "/26"
+       ]
+      ]
+     }
+    ],
+    "tags": [
+     "subnet"
+    ],
+    "kind": "numeric",
+    "prompt": "Calcule os dados da rede de 192.168.9.33/26.",
+    "fields": [
+     {
+      "label": "Endereço de rede",
+      "format": "ipv4",
+      "placeholder": "192.168.0.0"
+     },
+     {
+      "label": "Endereço de broadcast",
+      "format": "ipv4",
+      "placeholder": "192.168.0.255"
+     },
+     {
+      "label": "Hosts utilizáveis",
+      "format": "int",
+      "placeholder": "254"
+     }
+    ],
+    "answer": [
+     "192.168.9.0",
+     "192.168.9.63",
+     "62"
+    ],
+    "explanation": "2^(32-26) = 64 endereços por bloco. A rede é 192.168.9.0 (primeiro endereço do bloco), o broadcast é 192.168.9.63 (último) e sobram 62 endereços utilizáveis para hosts (o de rede e o de broadcast não contam).",
+    "hint": "Blocos de 64 endereços: rede = múltiplo de 64; broadcast = rede + 64 − 1; hosts = 64 − 2."
+   },
+   "checks": [
+    {
+     "answer": [
+      "192.168.9.0",
+      "192.168.9.63",
+      "62"
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      " 192.168.9.0 ",
+      " 192.168.9.63 ",
+      " 62 "
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      "0",
+      "0",
+      "0"
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      "192.168.009.000",
+      "192.168.009.63",
+      "62"
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1013904226,
+   "question": {
+    "generator": "subnet_numeric",
+    "seed": 1013904226,
+    "context": [
+     {
+      "type": "table",
+      "title": "Host analisado",
+      "headers": [
+       "Parâmetro",
+       "Valor"
+      ],
+      "rows": [
+       [
+        "Endereço IP",
+        "192.168.11.200"
+       ],
+       [
+        "Máscara",
+        "255.255.255.240"
+       ],
+       [
+        "Prefixo",
+        "/28"
+       ]
+      ]
+     }
+    ],
+    "tags": [
+     "subnet"
+    ],
+    "kind": "numeric",
+    "prompt": "Calcule os dados da rede de 192.168.11.200/28.",
+    "fields": [
+     {
+      "label": "Endereço de rede",
+      "format": "ipv4",
+      "placeholder": "192.168.0.0"
+     },
+     {
+      "label": "Endereço de broadcast",
+      "format": "ipv4",
+      "placeholder": "192.168.0.255"
+     },
+     {
+      "label": "Hosts utilizáveis",
+      "format": "int",
+      "placeholder": "254"
+     }
+    ],
+    "answer": [
+     "192.168.11.192",
+     "192.168.11.207",
+     "14"
+    ],
+    "explanation": "2^(32-28) = 16 endereços por bloco. A rede é 192.168.11.192 (primeiro endereço do bloco), o broadcast é 192.168.11.207 (último) e sobram 14 endereços utilizáveis para hosts (o de rede e o de broadcast não contam).",
+    "hint": "Blocos de 16 endereços: rede = múltiplo de 16; broadcast = rede + 16 − 1; hosts = 16 − 2."
+   },
+   "checks": [
+    {
+     "answer": [
+      "192.168.11.192",
+      "192.168.11.207",
+      "14"
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      " 192.168.11.192 ",
+      " 192.168.11.207 ",
+      " 14 "
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      "0",
+      "0",
+      "0"
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      "192.168.11.192",
+      "192.168.11.207",
+      "14"
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3668339987,
+   "question": {
+    "generator": "subnet_numeric",
+    "seed": 3668339987,
+    "context": [
+     {
+      "type": "table",
+      "title": "Host analisado",
+      "headers": [
+       "Parâmetro",
+       "Valor"
+      ],
+      "rows": [
+       [
+        "Endereço IP",
+        "192.168.8.62"
+       ],
+       [
+        "Máscara",
+        "255.255.255.128"
+       ],
+       [
+        "Prefixo",
+        "/25"
+       ]
+      ]
+     }
+    ],
+    "tags": [
+     "subnet"
+    ],
+    "kind": "numeric",
+    "prompt": "Calcule os dados da rede de 192.168.8.62/25.",
+    "fields": [
+     {
+      "label": "Endereço de rede",
+      "format": "ipv4",
+      "placeholder": "192.168.0.0"
+     },
+     {
+      "label": "Endereço de broadcast",
+      "format": "ipv4",
+      "placeholder": "192.168.0.255"
+     },
+     {
+      "label": "Hosts utilizáveis",
+      "format": "int",
+      "placeholder": "254"
+     }
+    ],
+    "answer": [
+     "192.168.8.0",
+     "192.168.8.127",
+     "126"
+    ],
+    "explanation": "2^(32-25) = 128 endereços por bloco. A rede é 192.168.8.0 (primeiro endereço do bloco), o broadcast é 192.168.8.127 (último) e sobram 126 endereços utilizáveis para hosts (o de rede e o de broadcast não contam).",
+    "hint": "Blocos de 128 endereços: rede = múltiplo de 128; broadcast = rede + 128 − 1; hosts = 128 − 2."
+   },
+   "checks": [
+    {
+     "answer": [
+      "192.168.8.0",
+      "192.168.8.127",
+      "126"
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      " 192.168.8.0 ",
+      " 192.168.8.127 ",
+      " 126 "
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      "0",
+      "0",
+      "0"
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      "192.168.008.000",
+      "192.168.008.127",
+      "126"
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2027808452,
+   "question": {
+    "generator": "subnet_numeric",
+    "seed": 2027808452,
+    "context": [
+     {
+      "type": "table",
+      "title": "Host analisado",
+      "headers": [
+       "Parâmetro",
+       "Valor"
+      ],
+      "rows": [
+       [
+        "Endereço IP",
+        "192.168.15.231"
+       ],
+       [
+        "Máscara",
+        "255.255.255.224"
+       ],
+       [
+        "Prefixo",
+        "/27"
+       ]
+      ]
+     }
+    ],
+    "tags": [
+     "subnet"
+    ],
+    "kind": "numeric",
+    "prompt": "Calcule os dados da rede de 192.168.15.231/27.",
+    "fields": [
+     {
+      "label": "Endereço de rede",
+      "format": "ipv4",
+      "placeholder": "192.168.0.0"
+     },
+     {
+      "label": "Endereço de broadcast",
+      "format": "ipv4",
+      "placeholder": "192.168.0.255"
+     },
+     {
+      "label": "Hosts utilizáveis",
+      "format": "int",
+      "placeholder": "254"
+     }
+    ],
+    "answer": [
+     "192.168.15.224",
+     "192.168.15.255",
+     "30"
+    ],
+    "explanation": "2^(32-27) = 32 endereços por bloco. A rede é 192.168.15.224 (primeiro endereço do bloco), o broadcast é 192.168.15.255 (último) e sobram 30 endereços utilizáveis para hosts (o de rede e o de broadcast não contam).",
+    "hint": "Blocos de 32 endereços: rede = múltiplo de 32; broadcast = rede + 32 − 1; hosts = 32 − 2."
+   },
+   "checks": [
+    {
+     "answer": [
+      "192.168.15.224",
+      "192.168.15.255",
+      "30"
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      " 192.168.15.224 ",
+      " 192.168.15.255 ",
+      " 30 "
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      "0",
+      "0",
+      "0"
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      "192.168.15.224",
+      "192.168.15.255",
+      "30"
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 387276917,
+   "question": {
+    "generator": "subnet_numeric",
+    "seed": 387276917,
+    "context": [
+     {
+      "type": "table",
+      "title": "Host analisado",
+      "headers": [
+       "Parâmetro",
+       "Valor"
+      ],
+      "rows": [
+       [
+        "Endereço IP",
+        "192.168.18.6"
+       ],
+       [
+        "Máscara",
+        "255.255.255.128"
+       ],
+       [
+        "Prefixo",
+        "/25"
+       ]
+      ]
+     }
+    ],
+    "tags": [
+     "subnet"
+    ],
+    "kind": "numeric",
+    "prompt": "Calcule os dados da rede de 192.168.18.6/25.",
+    "fields": [
+     {
+      "label": "Endereço de rede",
+      "format": "ipv4",
+      "placeholder": "192.168.0.0"
+     },
+     {
+      "label": "Endereço de broadcast",
+      "format": "ipv4",
+      "placeholder": "192.168.0.255"
+     },
+     {
+      "label": "Hosts utilizáveis",
+      "format": "int",
+      "placeholder": "254"
+     }
+    ],
+    "answer": [
+     "192.168.18.0",
+     "192.168.18.127",
+     "126"
+    ],
+    "explanation": "2^(32-25) = 128 endereços por bloco. A rede é 192.168.18.0 (primeiro endereço do bloco), o broadcast é 192.168.18.127 (último) e sobram 126 endereços utilizáveis para hosts (o de rede e o de broadcast não contam).",
+    "hint": "Blocos de 128 endereços: rede = múltiplo de 128; broadcast = rede + 128 − 1; hosts = 128 − 2."
+   },
+   "checks": [
+    {
+     "answer": [
+      "192.168.18.0",
+      "192.168.18.127",
+      "126"
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      " 192.168.18.0 ",
+      " 192.168.18.127 ",
+      " 126 "
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      "0",
+      "0",
+      "0"
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      "192.168.18.000",
+      "192.168.18.127",
+      "126"
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3041712678,
+   "question": {
+    "generator": "subnet_numeric",
+    "seed": 3041712678,
+    "context": [
+     {
+      "type": "table",
+      "title": "Host analisado",
+      "headers": [
+       "Parâmetro",
+       "Valor"
+      ],
+      "rows": [
+       [
+        "Endereço IP",
+        "192.168.8.32"
+       ],
+       [
+        "Máscara",
+        "255.255.255.0"
+       ],
+       [
+        "Prefixo",
+        "/24"
+       ]
+      ]
+     }
+    ],
+    "tags": [
+     "subnet"
+    ],
+    "kind": "numeric",
+    "prompt": "Calcule os dados da rede de 192.168.8.32/24.",
+    "fields": [
+     {
+      "label": "Endereço de rede",
+      "format": "ipv4",
+      "placeholder": "192.168.0.0"
+     },
+     {
+      "label": "Endereço de broadcast",
+      "format": "ipv4",
+      "placeholder": "192.168.0.255"
+     },
+     {
+      "label": "Hosts utilizáveis",
+      "format": "int",
+      "placeholder": "254"
+     }
+    ],
+    "answer": [
+     "192.168.8.0",
+     "192.168.8.255",
+     "254"
+    ],
+    "explanation": "2^(32-24) = 256 endereços por bloco. A rede é 192.168.8.0 (primeiro endereço do bloco), o broadcast é 192.168.8.255 (último) e sobram 254 endereços utilizáveis para hosts (o de rede e o de broadcast não contam).",
+    "hint": "Blocos de 256 endereços: rede = múltiplo de 256; broadcast = rede + 256 − 1; hosts = 256 − 2."
+   },
+   "checks": [
+    {
+     "answer": [
+      "192.168.8.0",
+      "192.168.8.255",
+      "254"
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      " 192.168.8.0 ",
+      " 192.168.8.255 ",
+      " 254 "
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      "0",
+      "0",
+      "0"
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      "192.168.008.000",
+      "192.168.008.255",
+      "254"
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1401181143,
+   "question": {
+    "generator": "subnet_numeric",
+    "seed": 1401181143,
+    "context": [
+     {
+      "type": "table",
+      "title": "Host analisado",
+      "headers": [
+       "Parâmetro",
+       "Valor"
+      ],
+      "rows": [
+       [
+        "Endereço IP",
+        "192.168.0.132"
+       ],
+       [
+        "Máscara",
+        "255.255.255.240"
+       ],
+       [
+        "Prefixo",
+        "/28"
+       ]
+      ]
+     }
+    ],
+    "tags": [
+     "subnet"
+    ],
+    "kind": "numeric",
+    "prompt": "Calcule os dados da rede de 192.168.0.132/28.",
+    "fields": [
+     {
+      "label": "Endereço de rede",
+      "format": "ipv4",
+      "placeholder": "192.168.0.0"
+     },
+     {
+      "label": "Endereço de broadcast",
+      "format": "ipv4",
+      "placeholder": "192.168.0.255"
+     },
+     {
+      "label": "Hosts utilizáveis",
+      "format": "int",
+      "placeholder": "254"
+     }
+    ],
+    "answer": [
+     "192.168.0.128",
+     "192.168.0.143",
+     "14"
+    ],
+    "explanation": "2^(32-28) = 16 endereços por bloco. A rede é 192.168.0.128 (primeiro endereço do bloco), o broadcast é 192.168.0.143 (último) e sobram 14 endereços utilizáveis para hosts (o de rede e o de broadcast não contam).",
+    "hint": "Blocos de 16 endereços: rede = múltiplo de 16; broadcast = rede + 16 − 1; hosts = 16 − 2."
+   },
+   "checks": [
+    {
+     "answer": [
+      "192.168.0.128",
+      "192.168.0.143",
+      "14"
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      " 192.168.0.128 ",
+      " 192.168.0.143 ",
+      " 14 "
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      "0",
+      "0",
+      "0"
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      "192.168.000.128",
+      "192.168.000.143",
+      "14"
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 4055616904,
+   "question": {
+    "generator": "subnet_numeric",
+    "seed": 4055616904,
+    "context": [
+     {
+      "type": "table",
+      "title": "Host analisado",
+      "headers": [
+       "Parâmetro",
+       "Valor"
+      ],
+      "rows": [
+       [
+        "Endereço IP",
+        "192.168.3.208"
+       ],
+       [
+        "Máscara",
+        "255.255.255.224"
+       ],
+       [
+        "Prefixo",
+        "/27"
+       ]
+      ]
+     }
+    ],
+    "tags": [
+     "subnet"
+    ],
+    "kind": "numeric",
+    "prompt": "Calcule os dados da rede de 192.168.3.208/27.",
+    "fields": [
+     {
+      "label": "Endereço de rede",
+      "format": "ipv4",
+      "placeholder": "192.168.0.0"
+     },
+     {
+      "label": "Endereço de broadcast",
+      "format": "ipv4",
+      "placeholder": "192.168.0.255"
+     },
+     {
+      "label": "Hosts utilizáveis",
+      "format": "int",
+      "placeholder": "254"
+     }
+    ],
+    "answer": [
+     "192.168.3.192",
+     "192.168.3.223",
+     "30"
+    ],
+    "explanation": "2^(32-27) = 32 endereços por bloco. A rede é 192.168.3.192 (primeiro endereço do bloco), o broadcast é 192.168.3.223 (último) e sobram 30 endereços utilizáveis para hosts (o de rede e o de broadcast não contam).",
+    "hint": "Blocos de 32 endereços: rede = múltiplo de 32; broadcast = rede + 32 − 1; hosts = 32 − 2."
+   },
+   "checks": [
+    {
+     "answer": [
+      "192.168.3.192",
+      "192.168.3.223",
+      "30"
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      " 192.168.3.192 ",
+      " 192.168.3.223 ",
+      " 30 "
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      "0",
+      "0",
+      "0"
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      "192.168.003.192",
+      "192.168.003.223",
+      "30"
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2415085369,
+   "question": {
+    "generator": "subnet_numeric",
+    "seed": 2415085369,
+    "context": [
+     {
+      "type": "table",
+      "title": "Host analisado",
+      "headers": [
+       "Parâmetro",
+       "Valor"
+      ],
+      "rows": [
+       [
+        "Endereço IP",
+        "192.168.15.176"
+       ],
+       [
+        "Máscara",
+        "255.255.255.224"
+       ],
+       [
+        "Prefixo",
+        "/27"
+       ]
+      ]
+     }
+    ],
+    "tags": [
+     "subnet"
+    ],
+    "kind": "numeric",
+    "prompt": "Calcule os dados da rede de 192.168.15.176/27.",
+    "fields": [
+     {
+      "label": "Endereço de rede",
+      "format": "ipv4",
+      "placeholder": "192.168.0.0"
+     },
+     {
+      "label": "Endereço de broadcast",
+      "format": "ipv4",
+      "placeholder": "192.168.0.255"
+     },
+     {
+      "label": "Hosts utilizáveis",
+      "format": "int",
+      "placeholder": "254"
+     }
+    ],
+    "answer": [
+     "192.168.15.160",
+     "192.168.15.191",
+     "30"
+    ],
+    "explanation": "2^(32-27) = 32 endereços por bloco. A rede é 192.168.15.160 (primeiro endereço do bloco), o broadcast é 192.168.15.191 (último) e sobram 30 endereços utilizáveis para hosts (o de rede e o de broadcast não contam).",
+    "hint": "Blocos de 32 endereços: rede = múltiplo de 32; broadcast = rede + 32 − 1; hosts = 32 − 2."
+   },
+   "checks": [
+    {
+     "answer": [
+      "192.168.15.160",
+      "192.168.15.191",
+      "30"
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      " 192.168.15.160 ",
+      " 192.168.15.191 ",
+      " 30 "
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      "0",
+      "0",
+      "0"
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      "192.168.15.160",
+      "192.168.15.191",
+      "30"
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 774553834,
+   "question": {
+    "generator": "subnet_numeric",
+    "seed": 774553834,
+    "context": [
+     {
+      "type": "table",
+      "title": "Host analisado",
+      "headers": [
+       "Parâmetro",
+       "Valor"
+      ],
+      "rows": [
+       [
+        "Endereço IP",
+        "192.168.3.94"
+       ],
+       [
+        "Máscara",
+        "255.255.255.224"
+       ],
+       [
+        "Prefixo",
+        "/27"
+       ]
+      ]
+     }
+    ],
+    "tags": [
+     "subnet"
+    ],
+    "kind": "numeric",
+    "prompt": "Calcule os dados da rede de 192.168.3.94/27.",
+    "fields": [
+     {
+      "label": "Endereço de rede",
+      "format": "ipv4",
+      "placeholder": "192.168.0.0"
+     },
+     {
+      "label": "Endereço de broadcast",
+      "format": "ipv4",
+      "placeholder": "192.168.0.255"
+     },
+     {
+      "label": "Hosts utilizáveis",
+      "format": "int",
+      "placeholder": "254"
+     }
+    ],
+    "answer": [
+     "192.168.3.64",
+     "192.168.3.95",
+     "30"
+    ],
+    "explanation": "2^(32-27) = 32 endereços por bloco. A rede é 192.168.3.64 (primeiro endereço do bloco), o broadcast é 192.168.3.95 (último) e sobram 30 endereços utilizáveis para hosts (o de rede e o de broadcast não contam).",
+    "hint": "Blocos de 32 endereços: rede = múltiplo de 32; broadcast = rede + 32 − 1; hosts = 32 − 2."
+   },
+   "checks": [
+    {
+     "answer": [
+      "192.168.3.64",
+      "192.168.3.95",
+      "30"
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      " 192.168.3.64 ",
+      " 192.168.3.95 ",
+      " 30 "
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      "0",
+      "0",
+      "0"
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      "192.168.003.64",
+      "192.168.003.95",
+      "30"
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3428989595,
+   "question": {
+    "generator": "subnet_numeric",
+    "seed": 3428989595,
+    "context": [
+     {
+      "type": "table",
+      "title": "Host analisado",
+      "headers": [
+       "Parâmetro",
+       "Valor"
+      ],
+      "rows": [
+       [
+        "Endereço IP",
+        "192.168.4.157"
+       ],
+       [
+        "Máscara",
+        "255.255.255.240"
+       ],
+       [
+        "Prefixo",
+        "/28"
+       ]
+      ]
+     }
+    ],
+    "tags": [
+     "subnet"
+    ],
+    "kind": "numeric",
+    "prompt": "Calcule os dados da rede de 192.168.4.157/28.",
+    "fields": [
+     {
+      "label": "Endereço de rede",
+      "format": "ipv4",
+      "placeholder": "192.168.0.0"
+     },
+     {
+      "label": "Endereço de broadcast",
+      "format": "ipv4",
+      "placeholder": "192.168.0.255"
+     },
+     {
+      "label": "Hosts utilizáveis",
+      "format": "int",
+      "placeholder": "254"
+     }
+    ],
+    "answer": [
+     "192.168.4.144",
+     "192.168.4.159",
+     "14"
+    ],
+    "explanation": "2^(32-28) = 16 endereços por bloco. A rede é 192.168.4.144 (primeiro endereço do bloco), o broadcast é 192.168.4.159 (último) e sobram 14 endereços utilizáveis para hosts (o de rede e o de broadcast não contam).",
+    "hint": "Blocos de 16 endereços: rede = múltiplo de 16; broadcast = rede + 16 − 1; hosts = 16 − 2."
+   },
+   "checks": [
+    {
+     "answer": [
+      "192.168.4.144",
+      "192.168.4.159",
+      "14"
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      " 192.168.4.144 ",
+      " 192.168.4.159 ",
+      " 14 "
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      "0",
+      "0",
+      "0"
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      "192.168.004.144",
+      "192.168.004.159",
+      "14"
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1788458060,
+   "question": {
+    "generator": "subnet_numeric",
+    "seed": 1788458060,
+    "context": [
+     {
+      "type": "table",
+      "title": "Host analisado",
+      "headers": [
+       "Parâmetro",
+       "Valor"
+      ],
+      "rows": [
+       [
+        "Endereço IP",
+        "192.168.6.194"
+       ],
+       [
+        "Máscara",
+        "255.255.255.128"
+       ],
+       [
+        "Prefixo",
+        "/25"
+       ]
+      ]
+     }
+    ],
+    "tags": [
+     "subnet"
+    ],
+    "kind": "numeric",
+    "prompt": "Calcule os dados da rede de 192.168.6.194/25.",
+    "fields": [
+     {
+      "label": "Endereço de rede",
+      "format": "ipv4",
+      "placeholder": "192.168.0.0"
+     },
+     {
+      "label": "Endereço de broadcast",
+      "format": "ipv4",
+      "placeholder": "192.168.0.255"
+     },
+     {
+      "label": "Hosts utilizáveis",
+      "format": "int",
+      "placeholder": "254"
+     }
+    ],
+    "answer": [
+     "192.168.6.128",
+     "192.168.6.255",
+     "126"
+    ],
+    "explanation": "2^(32-25) = 128 endereços por bloco. A rede é 192.168.6.128 (primeiro endereço do bloco), o broadcast é 192.168.6.255 (último) e sobram 126 endereços utilizáveis para hosts (o de rede e o de broadcast não contam).",
+    "hint": "Blocos de 128 endereços: rede = múltiplo de 128; broadcast = rede + 128 − 1; hosts = 128 − 2."
+   },
+   "checks": [
+    {
+     "answer": [
+      "192.168.6.128",
+      "192.168.6.255",
+      "126"
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      " 192.168.6.128 ",
+      " 192.168.6.255 ",
+      " 126 "
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      "0",
+      "0",
+      "0"
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      "192.168.006.128",
+      "192.168.006.255",
+      "126"
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

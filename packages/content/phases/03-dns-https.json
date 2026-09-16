@@ -1,0 +1,158 @@
+{
+  "id": "03-dns-https",
+  "version": 1,
+  "order": 3,
+  "title": "Nomes e Cadeados",
+  "subtitle": "DNS, HTTPS e o homem no meio",
+  "concepts": ["DNS", "TLS/HTTPS", "Certificado digital", "MITM", "VPN"],
+  "learningObjectives": [
+    "Explicar como o DNS transforma um nome em endereço IP",
+    "Diferenciar o que o HTTPS garante (caminho) do que não garante (caráter do site)",
+    "Ler os sinais de uma conexão interceptada: certificado inválido, domínio parecido, ausência de TLS",
+    "Usar um túnel cifrado (VPN) para anular a interceptação em rede não confiável"
+  ],
+  "briefing": {
+    "lines": [
+      { "speaker": "SOC", "text": "Borda da rede, saída para a internet. Usuários relatam páginas de login estranhas em sites conhecidos." },
+      { "speaker": "SOC", "text": "Temos um MITM na linha. Ele fica no meio da conversa, altera o que você vê e mantém distância atirando." },
+      { "speaker": "SOC", "text": "Atenção: se um terminal estiver interceptado, o enunciado que você lê pode ter sido adulterado. O aviso de certificado aparece no topo." },
+      { "speaker": "SOC", "text": "Liberamos a VPN Shield (tecla 3): túnel cifrado direcional. Erguida, anula a interceptação, bloqueia projéteis frontais e fere o MITM (2,5×)." },
+      { "speaker": "SOC", "text": "Restabeleça a resolução de nomes e a cadeia de confiança. Sem isso, todo o tráfego da empresa sai por um impostor." }
+    ]
+  },
+  "debriefing": {
+    "summary": [
+      "DNS traduz nome em IP: quem controla a resposta do DNS controla o destino da sua conexão.",
+      "HTTPS (HTTP dentro de TLS) garante confidencialidade, integridade e identidade do servidor — não garante que o site seja honesto.",
+      "O certificado amarra o nome do domínio a uma chave, assinado por uma autoridade que o navegador reconhece; aviso de certificado é sinal de interceptação.",
+      "Em rede não confiável, um túnel cifrado (VPN) impede que alguém no meio leia ou altere o tráfego."
+    ]
+  },
+  "parTime": 720,
+  "minTime": 100,
+  "limits": { "maxKills": 80, "maxBytes": 260 },
+  "tags": [],
+  "weaponsAvailable": ["patch_pistol", "scanner", "vpn_shield"],
+  "introducesWeapon": "vpn_shield",
+  "introducesEnemies": ["mitm"],
+  "ambient": { "accent": "#3dffc5", "fogDensity": 0.028 },
+  "layout": {
+    "cellSize": 2,
+    "wallHeight": 3.4,
+    "rows": [
+      "##################################",
+      "#.........#....m....#............#",
+      "#..P......#.........#............#",
+      "#....1....#....i....#......X.....#",
+      "#.........a.........#............#",
+      "#.........a....2....#.....y......#",
+      "#.........#.........#............#",
+      "#...T.....#......U..#............#",
+      "###########bb########dd###########",
+      "#.......h.......#................#",
+      "#...i...........#...AAAAAAAAAA...#",
+      "#.......s.......c...AAAAAAAAAA...#",
+      "#....3..........c...AAAAAAAAAA...#",
+      "#...............#...AAAAAAAAAA..e#",
+      "#..........V....#.......4.......z#",
+      "##################################"
+    ]
+  },
+  "legend": {
+    "P": { "type": "player" },
+    "1": { "type": "sign", "text": "VPN Shield (3): túnel cifrado direcional. Anula interceptação e bloqueia projéteis pela frente." },
+    "2": { "type": "sign", "text": "Terminal com aviso de certificado = alguém no meio. Erga a VPN ou elimine o MITM antes de responder." },
+    "3": { "type": "sign", "text": "DNS: nome → IP. TLS: cifra o caminho e prova a identidade. Os dois são necessários." },
+    "4": { "type": "sign", "text": "Gateway de saída. Todo o tráfego da empresa passa por aqui — inclusive o que um impostor desviar." },
+    "T": { "type": "terminal", "id": "t1" },
+    "U": { "type": "terminal", "id": "t2" },
+    "V": { "type": "terminal", "id": "t3" },
+    "a": { "type": "door", "id": "d1" },
+    "b": { "type": "door", "id": "d2" },
+    "c": { "type": "door", "id": "d3" },
+    "d": { "type": "door", "id": "d4" },
+    "i": { "type": "enemy", "enemy": "mitm", "route": "uplink" },
+    "s": { "type": "spawner", "id": "s1" },
+    "z": { "type": "spawner", "id": "s2" },
+    "A": { "type": "arena", "id": "a1" },
+    "h": { "type": "pickup", "kind": "health" },
+    "e": { "type": "pickup", "kind": "shield" },
+    "y": { "type": "pickup", "kind": "bytes", "amount": 14 },
+    "m": { "type": "pickup", "kind": "ammo" },
+    "X": { "type": "exit" }
+  },
+  "routes": {
+    "uplink": [[12, 3], [18, 5], [12, 6]]
+  },
+  "spawners": [
+    { "id": "s1", "enemy": "mitm", "every": 30, "max": 1, "active": true, "traffic": 443 },
+    { "id": "s2", "traffic": 443 }
+  ],
+  "arenas": [
+    {
+      "id": "a1",
+      "title": "Sequestro do gateway",
+      "lockDoors": ["d3"],
+      "waves": [
+        {
+          "spawns": [{ "spawner": "s2", "enemy": "mitm", "count": 2, "interval": 3.0 }],
+          "delayAfter": 3.0,
+          "message": "Dois interceptadores no gateway. Mantenha o túnel erguido!"
+        },
+        {
+          "spawns": [
+            { "spawner": "s2", "enemy": "mitm", "count": 2, "interval": 2.5 },
+            { "spawner": "s2", "enemy": "rootkit", "count": 2, "interval": 2.0 }
+          ]
+        }
+      ],
+      "onClear": [
+        { "type": "openDoor", "door": "d4" },
+        { "type": "message", "text": "Cadeia de confiança restaurada. Saída liberada.", "tone": "success" }
+      ]
+    }
+  ],
+  "terminals": [
+    {
+      "id": "t1",
+      "title": "Nome e cadeado",
+      "concept": "DNS, TLS e certificados",
+      "generator": "mc_pool",
+      "params": { "pool": "dns_https", "counterTags": ["tls"] },
+      "challenges": 2,
+      "required": true,
+      "onSolve": [{ "type": "openDoor", "door": "d1" }],
+      "hint": "DNS resolve o nome; TLS cifra o caminho e prova quem atende."
+    },
+    {
+      "id": "t2",
+      "title": "Sinais da conexão",
+      "concept": "Reconhecer interceptação",
+      "generator": "classify_pool",
+      "params": { "pool": "dns_https", "count": 4, "counterTags": ["tls"] },
+      "challenges": 2,
+      "required": true,
+      "onSolve": [
+        { "type": "openDoor", "door": "d2" },
+        { "type": "message", "text": "Validação de certificados reativada no proxy.", "tone": "success" }
+      ],
+      "hint": "Protocolo, nome exato do domínio e estado do certificado — nessa ordem."
+    },
+    {
+      "id": "t3",
+      "title": "Cadeia de confiança",
+      "concept": "Peças da navegação segura",
+      "generator": "match_pool",
+      "params": { "pool": "dns_https", "count": 5, "counterTags": ["tls"] },
+      "challenges": 1,
+      "required": true,
+      "onSolve": [
+        { "type": "disableSpawner", "spawner": "s1" },
+        { "type": "openDoor", "door": "d3" },
+        { "type": "message", "text": "Resolvedor DNS interno assumido: sem respostas forjadas.", "tone": "success" }
+      ],
+      "hint": "Quem resolve nomes, quem cifra, quem assina e quem tunela."
+    }
+  ],
+  "exit": { "requires": { "terminals": ["t1", "t2", "t3"], "arenas": ["a1"] } }
+}

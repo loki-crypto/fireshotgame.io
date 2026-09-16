@@ -26,6 +26,10 @@ class Settings(BaseSettings):
     cookie_samesite: str = "lax"
     cookie_domain: str | None = None
     min_password_length: int = 8
+    refresh_reuse_grace_seconds: int = 15
+    """Requisições paralelas que recebem 401 podem disparar dois refresh com o mesmo token.
+    Reuso dentro desta janela é tratado como corrida de rede (novo par, mesma família);
+    depois dela, é reuso de token roubado e revoga a família inteira."""
 
     # ── limites ───────────────────────────────────────────────────────────
     rate_limit_enabled: bool = True

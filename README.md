@@ -56,8 +56,8 @@ salva progresso.
 ## Testes
 
 ```bash
-pnpm -r test                     # sim (62) + content (24) + web (29)
-cd apps/api && uv run pytest -q  # 40 testes (conformidade TS↔Python, auth, sessão, loja, certificado)
+pnpm -r test                     # sim (72) + content (60) + web (29)
+cd apps/api && uv run pytest -q  # 56 testes (conformidade TS↔Python, auth, sessão, loja, certificado)
 cd apps/api && uv run ruff check .
 
 cd apps/web && npx playwright test                 # E2E sem backend

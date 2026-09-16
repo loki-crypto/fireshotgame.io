@@ -1,0 +1,155 @@
+{
+  "mc": [
+    {
+      "id": "dns-what",
+      "prompt": "Você digita {domain} no navegador. Qual é o papel do DNS?",
+      "correct": "Traduzir o nome {domain} no endereço IP do servidor",
+      "wrong": [
+        "Criptografar a página antes de enviá-la",
+        "Guardar a senha do site no navegador",
+        "Escolher o cabo mais rápido até o servidor"
+      ],
+      "explanation": "O DNS é a agenda da internet: nomes são para pessoas, IPs para máquinas. Sem a resposta do DNS o navegador não sabe para onde abrir a conexão.",
+      "hint": "Nome → número.",
+      "vars": { "domain": ["banco-seguro.com.br", "portal.escola.edu.br", "loja-central.com", "webmail.empresa.com.br"] },
+      "tags": ["dns"]
+    },
+    {
+      "id": "dns-spoof",
+      "prompt": "Um atacante responde ao seu pedido de DNS antes do servidor legítimo, devolvendo o IP de um site falso. Como se chama isso?",
+      "correct": "DNS spoofing (envenenamento de cache DNS)",
+      "wrong": [
+        "Força bruta",
+        "Injeção de SQL",
+        "Negação de serviço"
+      ],
+      "explanation": "Quem controla a resposta do DNS controla o destino da conexão. É por isso que HTTPS importa: mesmo caindo no IP errado, o certificado não confere e o navegador avisa.",
+      "tags": ["dns", "mitm"]
+    },
+    {
+      "id": "https-what",
+      "prompt": "O que o HTTPS garante que o HTTP não garante?",
+      "correct": "Confidencialidade e integridade do tráfego, além da identidade do servidor",
+      "wrong": [
+        "Que o site não tem vírus",
+        "Que a página vai carregar mais rápido",
+        "Que o site é uma empresa confiável"
+      ],
+      "explanation": "HTTPS é HTTP dentro de TLS: ninguém no caminho lê nem altera os dados, e o certificado prova que o servidor é quem diz ser. Ele não diz nada sobre a honestidade de quem está do outro lado — golpistas também usam HTTPS.",
+      "hint": "O cadeado fala do caminho, não do caráter.",
+      "tags": ["https", "tls"]
+    },
+    {
+      "id": "https-cert",
+      "prompt": "O navegador avisa que o certificado do site não confere. O que isso pode significar?",
+      "correct": "Alguém pode estar no meio da conexão se passando pelo servidor",
+      "wrong": [
+        "O site está apenas lento",
+        "Seu antivírus está desatualizado",
+        "A página tem imagens grandes demais"
+      ],
+      "explanation": "O certificado é assinado por uma autoridade certificadora e amarrado ao nome do domínio. Nome errado, validade vencida ou assinatura desconhecida são exatamente o que um MITM produz. Nunca clique em \"prosseguir\" nesse aviso.",
+      "tags": ["https", "mitm", "tls"]
+    },
+    {
+      "id": "mitm-wifi",
+      "prompt": "Em um Wi-Fi público aberto, qual atitude reduz mais o risco de interceptação?",
+      "correct": "Usar uma VPN e só acessar sites HTTPS",
+      "wrong": [
+        "Desligar o Bluetooth",
+        "Apagar o histórico do navegador",
+        "Usar o navegador em modo anônimo"
+      ],
+      "explanation": "Rede aberta = qualquer um pode capturar o tráfego. A VPN cria um túnel cifrado até um ponto de confiança; o HTTPS protege cada conexão de ponta a ponta. Modo anônimo só apaga rastros locais.",
+      "hint": "Túnel cifrado.",
+      "tags": ["mitm", "vpn"]
+    },
+    {
+      "id": "tls-handshake",
+      "prompt": "O que acontece no handshake TLS?",
+      "correct": "Cliente e servidor combinam chaves de sessão e o servidor prova sua identidade com o certificado",
+      "wrong": [
+        "O servidor envia a senha do usuário cifrada",
+        "O navegador baixa a página inteira duas vezes",
+        "O DNS é consultado novamente para conferir o IP"
+      ],
+      "explanation": "Primeiro a identidade (certificado assinado), depois a chave simétrica de sessão. A partir daí tudo viaja cifrado — inclusive o caminho da URL e os dados de formulários.",
+      "tags": ["tls", "https"]
+    }
+  ],
+  "pairsPrompt": "Associe cada peça da navegação segura à sua função.",
+  "pairsHint": "Separe quem resolve o nome, quem cifra e quem garante identidade.",
+  "pairs": [
+    { "left": "DNS", "right": "Traduz nomes de domínio em endereços IP", "tags": ["dns"] },
+    { "left": "TLS", "right": "Cifra o tráfego e verifica a identidade do servidor", "tags": ["tls"] },
+    { "left": "Certificado digital", "right": "Documento assinado que prova a identidade do domínio", "tags": ["tls"] },
+    { "left": "Autoridade certificadora", "right": "Entidade que assina certificados e é reconhecida pelo navegador", "tags": ["tls"] },
+    { "left": "VPN", "right": "Túnel cifrado entre o seu dispositivo e uma rede de confiança", "tags": ["vpn"] },
+    { "left": "MITM", "right": "Ataque em que alguém se coloca no meio e altera a comunicação", "tags": ["mitm"] },
+    { "left": "HSTS", "right": "Instrução para o navegador só acessar aquele site por HTTPS", "tags": ["https"] }
+  ],
+  "classify": {
+    "prompt": "Classifique cada sinal da barra de endereços e da conexão.",
+    "categories": ["Conexão confiável", "Sinal de alerta"],
+    "explanation": "HTTPS válido protege o caminho. Avisos de certificado, ausência de TLS e domínios parecidos com o original são os sinais clássicos de interceptação ou fraude.",
+    "hint": "Olhe o protocolo, o nome exato do domínio e o estado do certificado.",
+    "items": [
+      {
+        "text": "https://banco-seguro.com.br com certificado válido e emissor reconhecido",
+        "category": 0,
+        "explanation": "Protocolo cifrado, nome exato e certificado válido: é o cenário esperado.",
+        "detail": ["TLS 1.3", "Emissor: autoridade reconhecida", "Validade: em dia"],
+        "tags": ["https"]
+      },
+      {
+        "text": "http://banco-seguro.com.br pedindo login e senha",
+        "category": 1,
+        "explanation": "Sem TLS, a senha viaja em texto claro — qualquer um no caminho lê.",
+        "detail": ["Sem criptografia", "Formulário de senha"],
+        "tags": ["https"]
+      },
+      {
+        "text": "https://banco-segur0.com.br com cadeado válido",
+        "category": 1,
+        "explanation": "O cadeado é real, mas o domínio não: \"segur0\" com zero é typosquatting. HTTPS não atesta honestidade.",
+        "detail": ["Domínio parecido com o original", "Certificado válido para o domínio falso"],
+        "tags": ["https", "phishing"]
+      },
+      {
+        "text": "Aviso \"o certificado não é válido para este nome\"",
+        "category": 1,
+        "explanation": "Nome do certificado diferente do domínio é a assinatura de um MITM.",
+        "detail": ["Erro de nome no certificado"],
+        "tags": ["mitm", "tls"]
+      },
+      {
+        "text": "Conexão por VPN corporativa até o servidor interno",
+        "category": 0,
+        "explanation": "O túnel cifrado protege o tráfego mesmo em redes não confiáveis.",
+        "detail": ["Túnel cifrado", "Rede de confiança na outra ponta"],
+        "tags": ["vpn"]
+      },
+      {
+        "text": "Certificado autoassinado apresentado por um site público",
+        "category": 1,
+        "explanation": "Ninguém reconhecido assinou: não há como distinguir o servidor legítimo de um impostor.",
+        "detail": ["Emissor desconhecido", "Sem cadeia de confiança"],
+        "tags": ["tls"]
+      },
+      {
+        "text": "Redirecionamento automático de http:// para https:// com HSTS",
+        "category": 0,
+        "explanation": "O site força a versão cifrada e o navegador passa a recusar HTTP naquele domínio.",
+        "detail": ["HSTS ativo"],
+        "tags": ["https"]
+      },
+      {
+        "text": "Resposta de DNS vinda de um servidor diferente do configurado",
+        "category": 1,
+        "explanation": "Resposta forjada antes da legítima é DNS spoofing: leva você ao IP do atacante.",
+        "detail": ["Origem inesperada", "TTL muito baixo"],
+        "tags": ["dns", "mitm"]
+      }
+    ]
+  }
+}
