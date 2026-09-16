@@ -1,0 +1,154 @@
+{
+  "id": "07-trojan",
+  "version": 1,
+  "order": 7,
+  "title": "Presente de Grego",
+  "subtitle": "Trojan, disfarce e menor privilégio",
+  "concepts": ["Trojan", "Menor privilégio", "Origem do software", "Integridade de arquivo"],
+  "learningObjectives": [
+    "Diferenciar vírus, worm e trojan pelo mecanismo de propagação",
+    "Desconfiar de itens e programas cuja aparência é boa demais para a origem",
+    "Verificar origem e integridade (assinatura ou hash) antes de executar",
+    "Explicar por que operar sem privilégio de administrador limita o dano"
+  ],
+  "briefing": {
+    "lines": [
+      { "speaker": "SOC", "text": "Depósito de software da empresa. Há pacotes espalhados pelo setor — e alguns não são o que parecem." },
+      { "speaker": "SOC", "text": "Trojans estão disfarçados de itens. De perto eles atacam; o brilho irregular e a cor levemente fora do tom são as únicas pistas." },
+      { "speaker": "SOC", "text": "Varra antes de recolher: o Scanner (2) desfaz o disfarce à distância. Revelado, o Trojan recebe 2,5× de dano." },
+      { "speaker": "SOC", "text": "É o mesmo hábito da vida real: conferir origem e assinatura antes de executar um instalador." },
+      { "speaker": "SOC", "text": "Recolha o que é legítimo, exponha o resto e siga para o depósito seguro." }
+    ]
+  },
+  "debriefing": {
+    "summary": [
+      "Vírus precisa de hospedeiro, worm se propaga sozinho, trojan precisa que você execute — a defesa muda em cada caso.",
+      "O trojan vive do disfarce: fonte oficial e verificação de hash ou assinatura desmontam a isca antes da execução.",
+      "Menor privilégio contém o dano: um programa herda os poderes de quem o executa.",
+      "Desconfiança calibrada não é paranoia — é conferir antes de clicar, sempre no mesmo lugar (a fonte oficial)."
+    ]
+  },
+  "parTime": 780,
+  "minTime": 110,
+  "limits": { "maxKills": 110, "maxBytes": 320 },
+  "tags": ["fake_pickups"],
+  "weaponsAvailable": ["patch_pistol", "scanner", "vpn_shield", "firewall_cannon"],
+  "introducesEnemies": ["trojan"],
+  "ambient": { "accent": "#ff6b9d", "fogDensity": 0.03 },
+  "layout": {
+    "cellSize": 2,
+    "wallHeight": 3.2,
+    "rows": [
+      "##################################",
+      "#.........#....m....#............#",
+      "#..P......#..j...j..#............#",
+      "#....1....#.........#......X.....#",
+      "#.........a.........#............#",
+      "#.........a....2....#.....y......#",
+      "#.........#.........#............#",
+      "#...T.....#......U..#............#",
+      "###########bb########dd###########",
+      "#.......h.......#................#",
+      "#...j...........#...AAAAAAAAAA...#",
+      "#.......s.......c...AAAAAAAAAA...#",
+      "#....3..........c...AAAAAAAAAA...#",
+      "#...............#...AAAAAAAAAA..e#",
+      "#..........V....#.......4.......z#",
+      "##################################"
+    ]
+  },
+  "legend": {
+    "P": { "type": "player" },
+    "1": { "type": "sign", "text": "Varra antes de recolher: o Scanner (2) desfaz o disfarce de um Trojan à distância." },
+    "2": { "type": "sign", "text": "Pistas do disfarce: brilho irregular e cor levemente fora do tom do item real." },
+    "3": { "type": "sign", "text": "Na vida real: baixe da fonte oficial e confira o hash antes de executar." },
+    "4": { "type": "sign", "text": "Depósito seguro. Programa executado herda os privilégios de quem executou." },
+    "T": { "type": "terminal", "id": "t1" },
+    "U": { "type": "terminal", "id": "t2" },
+    "V": { "type": "terminal", "id": "t3" },
+    "a": { "type": "door", "id": "d1" },
+    "b": { "type": "door", "id": "d2" },
+    "c": { "type": "door", "id": "d3" },
+    "d": { "type": "door", "id": "d4" },
+    "j": { "type": "enemy", "enemy": "trojan" },
+    "s": { "type": "spawner", "id": "s1" },
+    "z": { "type": "spawner", "id": "s2" },
+    "A": { "type": "arena", "id": "a1" },
+    "h": { "type": "pickup", "kind": "health" },
+    "e": { "type": "pickup", "kind": "shield" },
+    "y": { "type": "pickup", "kind": "bytes", "amount": 18 },
+    "m": { "type": "pickup", "kind": "ammo" },
+    "X": { "type": "exit" }
+  },
+  "spawners": [
+    { "id": "s1", "enemy": "trojan", "every": 26, "max": 3, "active": true },
+    { "id": "s2" }
+  ],
+  "arenas": [
+    {
+      "id": "a1",
+      "title": "Lote comprometido",
+      "lockDoors": ["d3"],
+      "waves": [
+        {
+          "spawns": [{ "spawner": "s2", "enemy": "trojan", "count": 4, "interval": 1.5 }],
+          "delayAfter": 3.0,
+          "message": "Lote inteiro comprometido: varra antes de avançar."
+        },
+        {
+          "spawns": [
+            { "spawner": "s2", "enemy": "trojan", "count": 4, "interval": 1.2 },
+            { "spawner": "s2", "enemy": "worm", "count": 4, "interval": 1.0 }
+          ]
+        }
+      ],
+      "onClear": [
+        { "type": "openDoor", "door": "d4" },
+        { "type": "message", "text": "Lote quarentenado. Depósito liberado.", "tone": "success" }
+      ]
+    }
+  ],
+  "terminals": [
+    {
+      "id": "t1",
+      "title": "Famílias de malware",
+      "concept": "Vírus, worm, trojan e companhia",
+      "generator": "mc_pool",
+      "params": { "pool": "malware", "counterTags": ["malware"] },
+      "challenges": 2,
+      "required": true,
+      "onSolve": [{ "type": "openDoor", "door": "d1" }],
+      "hint": "A diferença está em como cada um chega até a máquina."
+    },
+    {
+      "id": "t2",
+      "title": "Hábitos de risco",
+      "concept": "Origem, integridade e privilégio",
+      "generator": "classify_pool",
+      "params": { "pool": "malware", "count": 4, "counterTags": ["malware"] },
+      "challenges": 2,
+      "required": true,
+      "onSolve": [
+        { "type": "openDoor", "door": "d2" },
+        { "type": "message", "text": "Política de instalação atualizada no setor.", "tone": "success" }
+      ],
+      "hint": "De onde veio, quem assinou e com que privilégio vai rodar?"
+    },
+    {
+      "id": "t3",
+      "title": "Mecanismos",
+      "concept": "Cada ameaça e sua via de entrada",
+      "generator": "match_pool",
+      "params": { "pool": "malware", "count": 5, "counterTags": ["malware"] },
+      "challenges": 1,
+      "required": true,
+      "onSolve": [
+        { "type": "disableSpawner", "spawner": "s1" },
+        { "type": "openDoor", "door": "d3" },
+        { "type": "message", "text": "Lote suspeito isolado: pararam de chegar pacotes disfarçados.", "tone": "success" }
+      ],
+      "hint": "Hospedeiro, rede, disfarce, ocultação, coleta e extorsão."
+    }
+  ],
+  "exit": { "requires": { "terminals": ["t1", "t2", "t3"], "arenas": ["a1"] } }
+}

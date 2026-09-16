@@ -75,6 +75,7 @@ test.describe("percurso completo", () => {
   test.skip(!RUN, "requer a API rodando (E2E_API=1)");
 
   test("todas as fases do currículo são jogáveis e liberam a seguinte", async ({ page }) => {
+    test.setTimeout(300_000); // dez fases, cada uma com briefing, terminais e arena
     const errors = await collectErrors(page);
     const email = `e2e-run-${Date.now()}@exemplo.com`;
     await page.goto("/");
@@ -87,7 +88,7 @@ test.describe("percurso completo", () => {
     await expect(page.getByRole("tab", { name: "Mapa da rede" })).toBeVisible();
 
     const total = await page.locator(".map-node").count();
-    expect(total).toBeGreaterThanOrEqual(6);
+    expect(total).toBe(10);
 
     for (let i = 0; i < total; i++) {
       await page.locator(".map-node").nth(i).click();
@@ -95,6 +96,7 @@ test.describe("percurso completo", () => {
       await startMission(page);
       await page.evaluate(() => window.__fireshot!.answerAll());
       await page.evaluate(() => window.__fireshot!.clearArenas());
+      await page.evaluate(() => window.__fireshot!.defeatBoss());
       await page.evaluate(() => window.__fireshot!.finish());
       await expectMode(page, "debrief");
       await expect(page.locator(".rewards")).not.toContainText("não validou");

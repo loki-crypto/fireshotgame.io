@@ -1,0 +1,1798 @@
+{
+ "source": "08-injection/t1",
+ "generator": "mc_pool",
+ "params": {
+  "pool": "injection",
+  "counterTags": [
+   "injection"
+  ]
+ },
+ "seeds": [
+  {
+   "seed": 2654435761,
+   "sha256": "f1f995438dd5e311f9ac6d1f7ca22f3578fa1c9a3593716e4d109db0da3f94ef"
+  },
+  {
+   "seed": 1013904226,
+   "sha256": "b40938fce1daeaef73cb96baf8ee778aae972091d842983145f24c0143f3bb18"
+  },
+  {
+   "seed": 3668339987,
+   "sha256": "2e3bb9e47e8c850b423618b249a665f98a863e762cf75e644a31d1b41fab6dae"
+  },
+  {
+   "seed": 2027808452,
+   "sha256": "ed9057a6bf43e55b04e4e4603a3a7dc9ef0ca98b20bc3b0e2459acc023a411cb"
+  },
+  {
+   "seed": 387276917,
+   "sha256": "dba8cceea8337c9e96b398b5ffe8a949b629bbfbf7a3760fa1bd6065e36688ce"
+  },
+  {
+   "seed": 3041712678,
+   "sha256": "4dbcb25e314c6718c2956723be8c6fd97106ff3e5b3f92903446c3bc10ab25ff"
+  },
+  {
+   "seed": 1401181143,
+   "sha256": "d79dc424a5933603926845812a6aedda299e5dff93597b7f0a9d3e4be910b4ba"
+  },
+  {
+   "seed": 4055616904,
+   "sha256": "b7aaf49908600bcd0adfb8c8e4403e32e1db9fbfc976149bbbea63cd5e652a00"
+  },
+  {
+   "seed": 2415085369,
+   "sha256": "94f2ff3cc996f4c81aef2a07acde082a30b5ed0592f7492a12ce4685ef946e67"
+  },
+  {
+   "seed": 774553834,
+   "sha256": "c934069cd8ec93de98e9ca6813c454de5ab662b4d3bac8865f47bac0fb4a5f4c"
+  },
+  {
+   "seed": 3428989595,
+   "sha256": "52f587220856990e57f00b5fd611e6f42368624ea7aba99b8fb1e12769b842e0"
+  },
+  {
+   "seed": 1788458060,
+   "sha256": "f97731976aa36a63f00e47bde32f667b53926aeeff6745db40e02b4bda5ae287"
+  },
+  {
+   "seed": 147926525,
+   "sha256": "1ac4318b34a0f046262da45eee07a0baef6a704f0c4ac3dbfb949aa9c0e69861"
+  },
+  {
+   "seed": 2802362286,
+   "sha256": "c8de43c3130e82f69c066634fe733e8863bf1d34d25a5e0ac14f90f0ccff5963"
+  },
+  {
+   "seed": 1161830751,
+   "sha256": "9d5251416514a8932f421bcf59d8541e2dea47b48cb315f58c1f980b3f07a3de"
+  },
+  {
+   "seed": 3816266512,
+   "sha256": "6c7bb3d7fe096be2db96f8529e03c3dec1bc3fcb3476dfe942017f6f643dfc31"
+  },
+  {
+   "seed": 2175734977,
+   "sha256": "467eacf51e82b2d0f4ff144e09176be7b1ed1f5076b0190a36c04e0073e78aa0"
+  },
+  {
+   "seed": 535203442,
+   "sha256": "ee3fa6246c42ae31e7ec0d0cc596b29bf76c9ca22aef04e50793c77959182b0d"
+  },
+  {
+   "seed": 3189639203,
+   "sha256": "7e0a07cb5908252f1537525c936f9a177c62c90f8177824b9c780f733be32c7c"
+  },
+  {
+   "seed": 1549107668,
+   "sha256": "611421a66d0d769790a40b698b2383a8044fef6a1489472747a3b718b4145573"
+  },
+  {
+   "seed": 4203543429,
+   "sha256": "cfc18e113b064133c0e57c6d5f9b6cf879e83d71bda8143de05c19ef08455dec"
+  },
+  {
+   "seed": 2563011894,
+   "sha256": "88383d297dc69d2cbb57d1ce835fcd3f1bedfde14f20f5b0b4c1332c4ef0cbe4"
+  },
+  {
+   "seed": 922480359,
+   "sha256": "d99c49eb2e5959d0ad455c55bb2df006b161d837d1fb538e30cbb57082ffe82a"
+  },
+  {
+   "seed": 3576916120,
+   "sha256": "70afde35d0ff77ca0264f93062a347abf501a9e59dee58c656d620b14cfcb442"
+  },
+  {
+   "seed": 1936384585,
+   "sha256": "79ae6cea5e1f670487903c608ed63fcebe16458cfd021f4c0e7243444aef80ab"
+  },
+  {
+   "seed": 295853050,
+   "sha256": "19032460b56c71f9ed3faa9a3c18021d7e0821105c84fcc9b9a02a64e3a45681"
+  },
+  {
+   "seed": 2950288811,
+   "sha256": "aeedcfc22ebbce8e5499cd86669e1e403f2346b01924689a5b8175597324b9bb"
+  },
+  {
+   "seed": 1309757276,
+   "sha256": "d9fd66df07205d69ab5d0d7beeb3c82336e3173213bcb48e1d35e86254a53e00"
+  },
+  {
+   "seed": 3964193037,
+   "sha256": "54c518f0dbc2f95acace8d7209da6f25994e471bfd75f6348d4378fc61a9b7af"
+  },
+  {
+   "seed": 2323661502,
+   "sha256": "f2756cf38d67c47fce06cb7e326b1b3858678cc201a10d0fe7a6d0743a85f856"
+  },
+  {
+   "seed": 683129967,
+   "sha256": "41827ec003b97093774804d2a2ce0297382da1c7bbc12deaebfd1f31165a7e5c"
+  },
+  {
+   "seed": 3337565728,
+   "sha256": "aa599b6c6c82338ac3eea611bc2368564f0f833616a0c599d83b56709f5073d3"
+  },
+  {
+   "seed": 1697034193,
+   "sha256": "7820b2e0d9184b20ce4317f902d2d71ff4bfe4e930580d0ca513764253fb02d9"
+  },
+  {
+   "seed": 56502658,
+   "sha256": "06ce7572bb6f767da0dbefd34781cd74f3412fb0b6d4c2b0ac8479cca6a9b846"
+  },
+  {
+   "seed": 2710938419,
+   "sha256": "48a38266af598ade6208b30d91d02298d639377775df8ac778f2c5a7729f4dd5"
+  },
+  {
+   "seed": 1070406884,
+   "sha256": "637788b610098c2e4d033e22cbb548c0d3152a19de46ae4146143866f4e62d34"
+  },
+  {
+   "seed": 3724842645,
+   "sha256": "1e53621a9eb7dade6d1b181f4001413d988af7fcef98c6e6916df37bf5252483"
+  },
+  {
+   "seed": 2084311110,
+   "sha256": "b793e300432946d670b9eb361b0606b25ae0c8b104ced4e7fd78aeb1f4e3e08a"
+  },
+  {
+   "seed": 443779575,
+   "sha256": "ddc0a38ad66d651f25582a7c44ed16eb00e785e5d6b88e493f283fd9109827d5"
+  },
+  {
+   "seed": 3098215336,
+   "sha256": "e6a604c8258c38740b4d597ac2a5d3648e2fa51f719dc615bbe620ee5150eb3d"
+  },
+  {
+   "seed": 1457683801,
+   "sha256": "888a7ba2de1a21a623aed7957e8c7ced783260d6b3512d696a1a668ecb2e9968"
+  },
+  {
+   "seed": 4112119562,
+   "sha256": "8ab32b3db94725710d61de69d9d10af195609511b2198ea17567554e0f063bb7"
+  },
+  {
+   "seed": 2471588027,
+   "sha256": "def31b5924540e5f6afacbb85a86aa265441d8a0495f58e272233c34896e6e4f"
+  },
+  {
+   "seed": 831056492,
+   "sha256": "84e454f60285edb8636f2348c4da2c96d74a73d11f2b27316036ed03e7b0e8f7"
+  },
+  {
+   "seed": 3485492253,
+   "sha256": "5e791e5308c5e6ed77181fd966b4790f1bf0c5c7a2e46a35ea6e5bfdfea0e2a1"
+  },
+  {
+   "seed": 1844960718,
+   "sha256": "ae7e137599946e9ee26b2265a7deff9f5fae45fa4e096252f6266ad48b73454a"
+  },
+  {
+   "seed": 204429183,
+   "sha256": "99d1d510bb691a75f0de23175570e7e7246035428c7e3f52484aed6674d8a830"
+  },
+  {
+   "seed": 2858864944,
+   "sha256": "5956ce5811c3dff99e4dea92b2e4204a2b29f60f9f34ac57673e00d33c3ccc0c"
+  },
+  {
+   "seed": 1218333409,
+   "sha256": "7597f3afe83ca86a806251081ded49fa3c2b8beca0c1e1173e7fd434ee5604a7"
+  },
+  {
+   "seed": 3872769170,
+   "sha256": "49a8c912fd36c3d4179f7b06369967df88509dc73e0a271e8b97b44bee4615a4"
+  },
+  {
+   "seed": 2232237635,
+   "sha256": "4f233b85b03162ef953ce57bea958b762ab9346800cbd105569a14c080fc4413"
+  },
+  {
+   "seed": 591706100,
+   "sha256": "679ce3d717e04b6cb94b2abf731735ca3a5f9da3016c18b56971babfb4da78dd"
+  },
+  {
+   "seed": 3246141861,
+   "sha256": "69298946080eb5ed8a4f9f902b284b029968ac0f58d8d745c779dcb1936a0309"
+  },
+  {
+   "seed": 1605610326,
+   "sha256": "5b6f7037f32552ff65a96dec07d813c67169cc22b4f28930a40607cef509bb69"
+  },
+  {
+   "seed": 4260046087,
+   "sha256": "40df127c1dbf81a6bf44c5c300df352996692a6e7a8415478ac7c1a43da3de8e"
+  },
+  {
+   "seed": 2619514552,
+   "sha256": "527370785bd580d69b0bdea7f7912031c80336c1ebcadd60e1ebb65bcd52fb04"
+  },
+  {
+   "seed": 978983017,
+   "sha256": "ba09098c2d7f626e6b40192bb8634b34b528e22aeced8c54c3e7a427df483e74"
+  },
+  {
+   "seed": 3633418778,
+   "sha256": "e4a16830e9bde5c2ad7b26b2f8cfbf25d306f35770a7d12fc119111e89412796"
+  },
+  {
+   "seed": 1992887243,
+   "sha256": "33c7165f5439b786dbe4ab1ec7a2ec025835413d5e8931ee97ee6211e62b3352"
+  },
+  {
+   "seed": 352355708,
+   "sha256": "f343d6782c835c05c221e78d77d81ee3cfe2fd043445c4e7b885062d1ae694f3"
+  },
+  {
+   "seed": 3006791469,
+   "sha256": "6a0740fec3c5c3a887d095b6ef79c3437790ea926e8d308849d28bfb5b096388"
+  },
+  {
+   "seed": 1366259934,
+   "sha256": "1aa7e3634ca576757e53d7eab63d5ad949e57de1ca61baddcae731a94cbf0073"
+  },
+  {
+   "seed": 4020695695,
+   "sha256": "6ab3e29061e23275595551dd0c614d2650255e4b824756b105223b5e61703242"
+  },
+  {
+   "seed": 2380164160,
+   "sha256": "24c54b907de1a4071a52f14c12f54dc727fbbdc5eefee49c48d09a97feafe0b5"
+  },
+  {
+   "seed": 739632625,
+   "sha256": "60b589ba08905b380f42705e96f2f64756c0e7e94dd279d92852daff44330120"
+  },
+  {
+   "seed": 3394068386,
+   "sha256": "d193bd4f6ee33e583f6106f58ab70d8678a2742361cb0ec3f1f7136519005820"
+  },
+  {
+   "seed": 1753536851,
+   "sha256": "3b6fd495f7cf2b27b73af3df05ea8ad3eeb9cebd929a0d3f584fd11ea47911f6"
+  },
+  {
+   "seed": 113005316,
+   "sha256": "4efb8473a26bd5efb400f1ae8097943cbd083b8199d4cf175356d2f50fed16b5"
+  },
+  {
+   "seed": 2767441077,
+   "sha256": "4ce4f40ebf880a11e65569996fdaf323970c4c6f0da24f325d3f4e8c029e28ef"
+  },
+  {
+   "seed": 1126909542,
+   "sha256": "72577ca79f43738f68d38b1dc759e265cac05e0ed61f5405776ecafc0508ec1f"
+  },
+  {
+   "seed": 3781345303,
+   "sha256": "befb69cd336d2b77761dd7e45ec3f0d3d74f00b085aef37418a170d46485d176"
+  },
+  {
+   "seed": 2140813768,
+   "sha256": "16d6210f2aed015c9e8b050951030df4920f948de822ba276f8ace7f3c3bb2fa"
+  },
+  {
+   "seed": 500282233,
+   "sha256": "31ef2794143a9c697846083ab3be81f7564bc88000b1e76fbcb1ae9d735d40e4"
+  },
+  {
+   "seed": 3154717994,
+   "sha256": "01cd42064f4dcaa5072f2304b6c490ed7f295cbf8d56e7d5cbd73bb7ce05cb8d"
+  },
+  {
+   "seed": 1514186459,
+   "sha256": "b4aba8dc5c5a33ea842a644643b8c8ee887ac6a1d0bb1cfa1c5b0a30ad2173de"
+  },
+  {
+   "seed": 4168622220,
+   "sha256": "6358c24f208339af8d5a7ba42db9d8fab6de316ba81460a4e39968475d30741b"
+  },
+  {
+   "seed": 2528090685,
+   "sha256": "322bf08ac756f14c16ca3d2e60fd5a1888ff7c1d945e4c1a1dadbe8a439ae052"
+  },
+  {
+   "seed": 887559150,
+   "sha256": "87a5c0ecd9b7ce944be19ed91e1c79459d88da86fe70a596f59f85b9e5f2fb10"
+  },
+  {
+   "seed": 3541994911,
+   "sha256": "4720a1a0b6b19549e08dd0452fb03d080e2fcc15c201cc356e2bef5c88fe8d27"
+  },
+  {
+   "seed": 1901463376,
+   "sha256": "5c262fe3af0c133f71d753e3479795e3168babf69d6e8317e1003d6570bf5f78"
+  },
+  {
+   "seed": 260931841,
+   "sha256": "3217927073ee952680ebd017a1d15f7983d29b783ac604e370d45218a2b08494"
+  },
+  {
+   "seed": 2915367602,
+   "sha256": "4207bd3611687ca00385eb5180e9fffb5848a5a0cdac68c9b3716c3e6ede776c"
+  },
+  {
+   "seed": 1274836067,
+   "sha256": "b205a6e93e96e626eeb3729c2cb1df4504775a9bdf44ac3b2e83124bbade361a"
+  },
+  {
+   "seed": 3929271828,
+   "sha256": "cf63d47bc747797c33b2213351e5afb6d2f7dd35462204896571abd3f50e1c49"
+  },
+  {
+   "seed": 2288740293,
+   "sha256": "9603d539c96ccef62f82e9ce84de7ed12b5acba001f168e4a6a99378aea7e94a"
+  },
+  {
+   "seed": 648208758,
+   "sha256": "3ab645cf6bee81b41a48f8a986d4f24e35fee7516a4422649816d675477eb9cc"
+  },
+  {
+   "seed": 3302644519,
+   "sha256": "d113f08356e22f6b401a4a47d9a2cad8782a50ce5dd82b999614bd22423ff89a"
+  },
+  {
+   "seed": 1662112984,
+   "sha256": "1987ab1b7af48d904bd52963415ca675b0f9539c79d0d653cf34374927971caa"
+  },
+  {
+   "seed": 21581449,
+   "sha256": "c72156a92e854d5a678192c0e39e11d643337c56740199ef6e11d46248728763"
+  },
+  {
+   "seed": 2676017210,
+   "sha256": "dcf868b708f4dbf9b16a9e99dfc8f19bacfa64a93a761bff453d2033c62cfb2b"
+  },
+  {
+   "seed": 1035485675,
+   "sha256": "528aeed23db4cb9e18f77d9c567ec6e16a2cb12ac781f8430a2d1151bb318d42"
+  },
+  {
+   "seed": 3689921436,
+   "sha256": "8b1e6759e0c685ecf75deabc05070e7c18bc117ccd7cdcb6b68983e1724620f2"
+  },
+  {
+   "seed": 2049389901,
+   "sha256": "23674a98eed5ab61759730c6bd79ed2a058a9d3d9b21bb6caadb98f41fe0568a"
+  },
+  {
+   "seed": 408858366,
+   "sha256": "71340c5ba8e47f80f5027cdc29eabf6cbdc8dc0b28b76965a895abd787e7ea84"
+  },
+  {
+   "seed": 3063294127,
+   "sha256": "b01a0053ea3756d3f1655b0d7204e2cf917f5ef3bfdea5d7271df35f2acc2115"
+  },
+  {
+   "seed": 1422762592,
+   "sha256": "f29c0e7f385d73207e134e6f9c46da840764e83e2f28df2f5dd9a0215ed61e47"
+  },
+  {
+   "seed": 4077198353,
+   "sha256": "2646ab430fa9eac8720f695dd311de54d8075251edb0c416b0b19abc58787090"
+  },
+  {
+   "seed": 2436666818,
+   "sha256": "303ba517837eb0423322ac59e8a8653ef161e1cd185437e27f0fa8d5f12c058e"
+  },
+  {
+   "seed": 796135283,
+   "sha256": "d36dad21e8317e607f174adb491b07fc5232d52efeca434105cdb72d4d0cdbc9"
+  },
+  {
+   "seed": 3450571044,
+   "sha256": "207831ec563747c2c236b5f5113b8ac915cb918523adeff57e5519f7161a3804"
+  },
+  {
+   "seed": 1810039509,
+   "sha256": "0a058965aa6391564ad28fa9fe6350a6e44c9782a4bc432dc0e75c019c4d889f"
+  },
+  {
+   "seed": 169507974,
+   "sha256": "a8a78ce8c708d814b7dfff04cf385709de20ca795295df0b52b37231ffd23d63"
+  },
+  {
+   "seed": 2823943735,
+   "sha256": "f38613fb3695b765ddc658f6ff83f43e594955cf23c8d51708cd0f619c3df144"
+  },
+  {
+   "seed": 1183412200,
+   "sha256": "247906589a4b31d73059f4fad3f90734b4a56b01c1030f771eea4e9a28beebc1"
+  },
+  {
+   "seed": 3837847961,
+   "sha256": "f22f2913714e15b4a3f1248a88762f5c68009c6bfd79fa9bbd40d0bb77877d6d"
+  },
+  {
+   "seed": 2197316426,
+   "sha256": "0f6ebc9358637bbcefe08e2501e7f2ebcbd1f9d47d3c661c2d82018e89759a4a"
+  },
+  {
+   "seed": 556784891,
+   "sha256": "7f3f1b557025dfa0f763ad907f4c544ff9d5bc56b31cf6915acda9fb37e0c3b2"
+  },
+  {
+   "seed": 3211220652,
+   "sha256": "61af0f247b5b5ca0709cc936aaaef0c5a723372183a591c4e8ddec6325ff0efa"
+  },
+  {
+   "seed": 1570689117,
+   "sha256": "8d59b8f6dcc5559d630d58bb559281bed53ae5f088277bc964bb854feebf9eba"
+  },
+  {
+   "seed": 4225124878,
+   "sha256": "20b15672706be0cf8a603e314692384697f997a9dad65f8bd075e7222d885ca6"
+  },
+  {
+   "seed": 2584593343,
+   "sha256": "8239d3e9d7d7ae7bdc167ae3ccc7a03636e6bca0f198c98216177c430adc2797"
+  },
+  {
+   "seed": 944061808,
+   "sha256": "2e1f4fe8014238af4d69b55abfd6860c27e692426488e1d2ebe2a5bdec61588e"
+  },
+  {
+   "seed": 3598497569,
+   "sha256": "9c5c634dee15dffe37174aaac79fc11dfcc33471d504a8c271ddb7e9eb7b26ac"
+  },
+  {
+   "seed": 1957966034,
+   "sha256": "4288d48597b1c02fbbbe7325025792165a05f9964ba27cfbf077e3e2712b5f59"
+  },
+  {
+   "seed": 317434499,
+   "sha256": "b326c92e4e9f05f7c955b7f74484fd2f14031f97a3a6b0a8723f9d3a709dbbd7"
+  },
+  {
+   "seed": 2971870260,
+   "sha256": "2f20cd5c12a8ea617dcbf04735991d400dd2922bcb8d73569462f9a55b15cb7c"
+  },
+  {
+   "seed": 1331338725,
+   "sha256": "0d582b7a5935460142b12f38eb486c81155ef42ba283e04d6b894b343b256eda"
+  },
+  {
+   "seed": 3985774486,
+   "sha256": "c99347d180b7ae159d511559bddbdea974c0a4e320f38bff436b0d44b56dbe0b"
+  },
+  {
+   "seed": 2345242951,
+   "sha256": "6598d5ed03442c1bfc48ce98d69550572701ff5dd04ec0ea88316dc91d698c02"
+  },
+  {
+   "seed": 704711416,
+   "sha256": "46a3b17ad729125e153fc18bdff3e9deb3d9d6ecafc39b8c898d3cf8a38676e9"
+  },
+  {
+   "seed": 3359147177,
+   "sha256": "5c891b37e8ce968d553ab05bbd402a0d2e769e515abbcfe6d19bc1574bd598e9"
+  },
+  {
+   "seed": 1718615642,
+   "sha256": "24831c47cad54a1ba22dbdc61f643848ddd7e239bb7f0922b28fe467780ffca5"
+  },
+  {
+   "seed": 78084107,
+   "sha256": "60f7c2d4434db42ea976633a1ea0a673330ecc32b4d351d8d261d83a1d5bd565"
+  },
+  {
+   "seed": 2732519868,
+   "sha256": "4d46676dc043665b9c7fd128ddc28efb46df46b6e6b30d7b09a83be826f4d570"
+  },
+  {
+   "seed": 1091988333,
+   "sha256": "dccf3fc77dcc0a26a9ce7785e7fb426000c59a42c8e630ad1642d870e1cc6566"
+  },
+  {
+   "seed": 3746424094,
+   "sha256": "593a301ff0320845e2186245184ccb1fed3a1c644b9f9918ae6d4e5254a2c506"
+  },
+  {
+   "seed": 2105892559,
+   "sha256": "ad8bc14e60aa0b9c118663c755e4619925bc7bb09dfcffcf24e1f4d4f3c79c36"
+  },
+  {
+   "seed": 465361024,
+   "sha256": "945aca98029c26527644bd4a7899ac58afdd51c79d9c26168385360a6f188ca9"
+  },
+  {
+   "seed": 3119796785,
+   "sha256": "776aa0c4f55760986ecb055f3e4fea5e7ce641c866500aba8c5d7d05ca402798"
+  },
+  {
+   "seed": 1479265250,
+   "sha256": "7126ae3f6a7eb66781dec7652ece6b6ecdb4f8a092543153b0ac495139cf6d23"
+  },
+  {
+   "seed": 4133701011,
+   "sha256": "fcd55907aea067eb35024c89e6d54697d93e0c60b9b5901469ea3b6d23e0b5fa"
+  },
+  {
+   "seed": 2493169476,
+   "sha256": "29d9fa2693a2601d7c1f80818e23b51823ebcda8d82fba6f06801b95678bc1d3"
+  },
+  {
+   "seed": 852637941,
+   "sha256": "175171d1309ae682ee363b6a747f960c2de2ba3049dfbd7c2db3b002959155c3"
+  },
+  {
+   "seed": 3507073702,
+   "sha256": "379b4115a9a489a26a76fdf26bcc019badf4cc5aba77f0316a52bb881d1d7477"
+  },
+  {
+   "seed": 1866542167,
+   "sha256": "9df784c78db78ba2ec6568cbc5b05df9ae54108d85824f50b3efd1f12e7e774b"
+  },
+  {
+   "seed": 226010632,
+   "sha256": "a2b1ea2ab4c9bbb7aa9c6be4ad00b9ced35983f066eb49e9310a8c44a88cfeb9"
+  },
+  {
+   "seed": 2880446393,
+   "sha256": "f15a85a449c300135d0e0bd1bbe2f94dfe10d788b2054f9255b86a3a1cc28d7c"
+  },
+  {
+   "seed": 1239914858,
+   "sha256": "bd62c156507e34568c96b659829cf0f440248a8c659b2a2b6ff5f8b91e47ae6e"
+  },
+  {
+   "seed": 3894350619,
+   "sha256": "fc77c60387a837730e2d831ad5e93ed8583dfb9dbfe9f6894c0a4bd1ead70246"
+  },
+  {
+   "seed": 2253819084,
+   "sha256": "050759f7d48d220d36ae2fc3598a1140e059eac0678af25a9a28c68795e25960"
+  },
+  {
+   "seed": 613287549,
+   "sha256": "5d9d03d773211aa44f0a97cc63f16325c971c6a76b92c30a40215fef357692ec"
+  },
+  {
+   "seed": 3267723310,
+   "sha256": "a60de0f6ef18dec8757f9bd1ef1617c87ffb9dfef85fcea785b70484ede4c01c"
+  },
+  {
+   "seed": 1627191775,
+   "sha256": "662ae68da263d3023b2827a9e918c307355d90a870b2f57f6e271d844f388e34"
+  },
+  {
+   "seed": 4281627536,
+   "sha256": "412fd18c89fddcb9c911f44162fbaf6df74cad72feee2eb5c2ccdb50405deb85"
+  },
+  {
+   "seed": 2641096001,
+   "sha256": "46402208204d10715d2835de41b221cddc81229663b400bd15d63392abcdfa25"
+  },
+  {
+   "seed": 1000564466,
+   "sha256": "136e351466c5070ed2adeac7769d35c5f2a701874f1684410a1f3d7c4981bf16"
+  },
+  {
+   "seed": 3655000227,
+   "sha256": "af3e3e22aa5505e4b45f6d5c6096020939b8d45ea6112193a7c4209fb6c81cb6"
+  },
+  {
+   "seed": 2014468692,
+   "sha256": "6d820d26f2e1ea7ce10d388a9f15ebb361c9d7c61af6def66a6ec09b5e3b1ca1"
+  },
+  {
+   "seed": 373937157,
+   "sha256": "594a75b71d53c87998b16097b254dc04b454f7801e6eb4624dc6528a57db1302"
+  },
+  {
+   "seed": 3028372918,
+   "sha256": "e81108e9425bd73aa0e393415a418e44e807ff639bf735e2bc1e333f46322840"
+  },
+  {
+   "seed": 1387841383,
+   "sha256": "e5518605a5c7241317e5729be8f5d70ecb161ac20435a09978e9bf15350d3a7c"
+  },
+  {
+   "seed": 4042277144,
+   "sha256": "0cc7e3fca46569e4baaae879c94f7a8b00fb1b876ee64e99b64142e8d7959894"
+  },
+  {
+   "seed": 2401745609,
+   "sha256": "ee23b17fafcc24b6f2a1ad74e11535f083a416762e0b43a7f767edb81a8fa54e"
+  },
+  {
+   "seed": 761214074,
+   "sha256": "4e6dc9695553e5c763d75fe2cfec8c13505785e6cf9b84e9dae59cea0809a41b"
+  },
+  {
+   "seed": 3415649835,
+   "sha256": "250792315bfd9b5f3c05cd0a6b4664baaea1c41edf17a258785d922810f45c2b"
+  },
+  {
+   "seed": 1775118300,
+   "sha256": "e2fc9db03fe53d1b597a3ed7c67492ea0053e05adb42edf1c9edcee734b9004f"
+  },
+  {
+   "seed": 134586765,
+   "sha256": "8d62ae39569512c2a0ec397afc9e19a414ec6aa438742c60641a4476b42513e6"
+  },
+  {
+   "seed": 2789022526,
+   "sha256": "0d643bcfada3c9538e33ed68b4f38c494a76c9f48dc06c9cb1796014038b6bd2"
+  },
+  {
+   "seed": 1148490991,
+   "sha256": "294bf07531dedce723e51c55de1199a0daea009be35a669a3bca0bfb225d00fa"
+  },
+  {
+   "seed": 3802926752,
+   "sha256": "66a4bc7a9014299bc9db0797c3f8e20f45b00f99c3d7473af4f227adc0e9007c"
+  },
+  {
+   "seed": 2162395217,
+   "sha256": "887d284cb59851a2aee0b10f172e9ccfc1c04d6c4a4cb2cdafda606e468ee982"
+  },
+  {
+   "seed": 521863682,
+   "sha256": "e4a2b758b8472573732709e95a5650ef3700a6eae3c4847105d2efdd4e024e7d"
+  },
+  {
+   "seed": 3176299443,
+   "sha256": "b5222a069b0577ab01a847cd9108fe1525542ddf83eed197bdc80acbce922739"
+  },
+  {
+   "seed": 1535767908,
+   "sha256": "73f775d8b473a03fb332b569466341dcb5908ec15d65f73ba0cf365dde0021d8"
+  },
+  {
+   "seed": 4190203669,
+   "sha256": "e0f59ad275ba1ca12f25e7eec8cc2e00403b4b6bf7dd171362aa2f49e927e718"
+  },
+  {
+   "seed": 2549672134,
+   "sha256": "e44eb71658211aaf267dfb534d467658d0c2ad265ee7affe1b21d2bb6cfe7f46"
+  },
+  {
+   "seed": 909140599,
+   "sha256": "68eed2b59f0345bfea26b1131be4792be15b4682f30c3d6b4cbba9b290e6de5b"
+  },
+  {
+   "seed": 3563576360,
+   "sha256": "22fd8bca07b64d431066288e8bc1d88fb988e152eeed6eeb098864b8562dbafb"
+  },
+  {
+   "seed": 1923044825,
+   "sha256": "2f00b1b8e40a7d3dd4bd6ee1a46406f8e8528ca5db493133712ae11dce935007"
+  },
+  {
+   "seed": 282513290,
+   "sha256": "e0e2a14f7767564a3e231dbebd6b3cca5b9c20ee712ed3335f085d57c5120556"
+  },
+  {
+   "seed": 2936949051,
+   "sha256": "02bf34d9e3c96604ddfa3a72fb7aaa36a8adae35fd909786bc8e18165e1911df"
+  },
+  {
+   "seed": 1296417516,
+   "sha256": "e063eb1335e97719626c4fe7f03f560cd454f756429c2d96ad5c840d65e9423d"
+  },
+  {
+   "seed": 3950853277,
+   "sha256": "ca3e521121a5286012083e23e303061708ad463a0df6c18c60baba6431c1a0b7"
+  },
+  {
+   "seed": 2310321742,
+   "sha256": "9fa55a4df1f53126e190b0b2bad9572a09023648ddc91005e829b5e45bc8059b"
+  },
+  {
+   "seed": 669790207,
+   "sha256": "fd246c325548582c3cf3e90f985fea71a78d94584080fd444e8e23b9ca7f3307"
+  },
+  {
+   "seed": 3324225968,
+   "sha256": "d1a34da707447a45c03c981c3c75cbd7eda5decc07add150eeebb902ce03ce67"
+  },
+  {
+   "seed": 1683694433,
+   "sha256": "f4aee279e32c3626bd748d2052bc6665fd51d0615e6ff0d430f21f2aa234c2ef"
+  },
+  {
+   "seed": 43162898,
+   "sha256": "c15cc700d305fb0976d7b0fa647ce5e4c3c82a21a6653fc36c87f58ecdd27d13"
+  },
+  {
+   "seed": 2697598659,
+   "sha256": "60a244dfce391bc5402d3b0dbdfa951e064919c0b5c8b6cf3da83bc6392d69a9"
+  },
+  {
+   "seed": 1057067124,
+   "sha256": "2b512500946d56afcda8218bff2f0842affe6fb8088ebd29b1c89091795ab0bb"
+  },
+  {
+   "seed": 3711502885,
+   "sha256": "a83795858637fad4353488a5edaaebb12b8600360c22eda660afb9dd8099a916"
+  },
+  {
+   "seed": 2070971350,
+   "sha256": "e282c3ea6f8685de3602f63af60b7d6b9edd0f9884bb803ef160b1304a500bb4"
+  },
+  {
+   "seed": 430439815,
+   "sha256": "524aebea1843d82df5cc06bbe1f9ba324db5cc3975678b61485647955cd098bf"
+  },
+  {
+   "seed": 3084875576,
+   "sha256": "d39432dd05cb1a145b405e9c91b9db4635d7ade75092131d13ba859ff9fc7db2"
+  },
+  {
+   "seed": 1444344041,
+   "sha256": "d1a7263eb48f93b9b78d33714fec310d942039630bbebdaa627d23ac942c92b0"
+  },
+  {
+   "seed": 4098779802,
+   "sha256": "929b61a45316df755eb44d3645f24a2ebdd1ab4e064e0ce4fea89f12009745f6"
+  },
+  {
+   "seed": 2458248267,
+   "sha256": "e99b80d61fc50f24d76dc8df4d29d6005e83608c80a3258b2eff2d1c5bad8ccc"
+  },
+  {
+   "seed": 817716732,
+   "sha256": "52e531e081989370c4bd61fd1c49cbe12cd415ee65b32128a475f1bfd9606122"
+  },
+  {
+   "seed": 3472152493,
+   "sha256": "89d083500dd89891cf24347cbb30a3063492d0324614b8f4dc8931276a6e2c2a"
+  },
+  {
+   "seed": 1831620958,
+   "sha256": "68f5a45689c3d85f8ff4250e83725449b802f582354b303a36f1e76c6a724cf7"
+  },
+  {
+   "seed": 191089423,
+   "sha256": "c92e3b2c8c848415f48bf5361b66b3f5e44cf57ee3fc098ebfb27560d8538baf"
+  },
+  {
+   "seed": 2845525184,
+   "sha256": "ad01c49ca0d3a247310b374975fad6531a3764c91f6f8cb58448a57ef1cfded7"
+  },
+  {
+   "seed": 1204993649,
+   "sha256": "cb9513a359d203123b043615d15b19c45e248e62e6aa567a0db6ddd087bcbb8e"
+  },
+  {
+   "seed": 3859429410,
+   "sha256": "5f48b59303d2ad4c56f02009b052434f8dee9e8b1683cee24d55d1b2de924229"
+  },
+  {
+   "seed": 2218897875,
+   "sha256": "3f6202a080549813ba547470ff8e1756c60a2786e2d33a4a86e67508db525dc4"
+  },
+  {
+   "seed": 578366340,
+   "sha256": "89b49b3ec9ba0874da1e33dd03d36e6ddf40de11980eece3c1edb5df51fdf036"
+  },
+  {
+   "seed": 3232802101,
+   "sha256": "9112453b7ce165bf6e79ad5af07ee51f02b4d8b76a4152f5f972d33f63076097"
+  },
+  {
+   "seed": 1592270566,
+   "sha256": "0e21ca1886bbcd4c3bb4e5b607921ead87469caad9d4e3a15268f8cd9b1497f4"
+  },
+  {
+   "seed": 4246706327,
+   "sha256": "703cc347bde7e75d654ebc769bbce4bf5fa527d1308eacbb39152a4536b5cd45"
+  },
+  {
+   "seed": 2606174792,
+   "sha256": "8c7af6d59787bf1ffbca1968014b7127dc515ae9ba3600e8d0c67e4fe53f1c9d"
+  }
+ ],
+ "samples": [
+  {
+   "seed": 2654435761,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 2654435761,
+    "context": [],
+    "tags": [
+     "injection"
+    ],
+    "kind": "mc",
+    "prompt": "O que um ataque de XSS (cross-site scripting) faz?",
+    "options": [
+     "Executa script do atacante no navegador de outras pessoas que visitam a página",
+     "Bloqueia o acesso ao site por excesso de tráfego",
+     "Descobre a senha do administrador por força bruta",
+     "Apaga o banco de dados do servidor"
+    ],
+    "answer": 0,
+    "explanation": "Conteúdo não escapado ao ser exibido vira código no navegador da vítima, permitindo roubar sessão e agir em nome dela. A defesa é escapar na saída (e usar CSP).",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 0,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1013904226,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 1013904226,
+    "context": [],
+    "tags": [
+     "injection"
+    ],
+    "kind": "mc",
+    "prompt": "A aplicação web precisa apenas ler e gravar em três tabelas. Que usuário de banco ela deve usar?",
+    "options": [
+     "O usuário administrador, para evitar erros de permissão",
+     "Um usuário restrito a essas tabelas, sem permissão de alterar esquema",
+     "O mesmo usuário usado pelos relatórios e pelo backup",
+     "Um usuário por requisição, criado na hora"
+    ],
+    "answer": 1,
+    "explanation": "Menor privilégio limita o estrago de uma injeção bem-sucedida: sem DROP nem acesso a outras tabelas, o ataque perde alcance.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3668339987,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 3668339987,
+    "context": [],
+    "tags": [
+     "injection"
+    ],
+    "kind": "mc",
+    "prompt": "Qual é a defesa correta contra injeção de SQL?",
+    "options": [
+     "Limitar o campo a 20 caracteres",
+     "Remover a palavra SELECT das entradas do usuário",
+     "Consultas parametrizadas, que separam comando de dado",
+     "Confiar na validação feita pelo JavaScript da página"
+    ],
+    "answer": 2,
+    "explanation": "Filtrar palavras é uma corrida perdida e a validação no navegador pode ser burlada. Parametrizar resolve na raiz: o banco recebe o dado como valor, nunca como código.",
+    "hint": "Separar comando de dado, não adivinhar o que é perigoso."
+   },
+   "checks": [
+    {
+     "answer": 2,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2027808452,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 2027808452,
+    "context": [],
+    "tags": [
+     "injection"
+    ],
+    "kind": "mc",
+    "prompt": "Por que validar a entrada apenas no navegador não é suficiente?",
+    "options": [
+     "Porque o navegador não sabe validar números",
+     "Porque o JavaScript é lento para validar",
+     "Porque a validação no cliente gasta banda",
+     "O cliente pode ser modificado: qualquer um envia a requisição direto para a API"
+    ],
+    "answer": 3,
+    "explanation": "Validação no cliente é conveniência de interface. A autoridade é o servidor — é o mesmo princípio que faz o servidor deste jogo revalidar cada resposta de terminal.",
+    "hint": "Quem controla o cliente controla a requisição."
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 387276917,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 387276917,
+    "context": [],
+    "tags": [
+     "injection"
+    ],
+    "kind": "mc",
+    "prompt": "Qual é a defesa correta contra injeção de SQL?",
+    "options": [
+     "Limitar o campo a 20 caracteres",
+     "Remover a palavra SELECT das entradas do usuário",
+     "Confiar na validação feita pelo JavaScript da página",
+     "Consultas parametrizadas, que separam comando de dado"
+    ],
+    "answer": 3,
+    "explanation": "Filtrar palavras é uma corrida perdida e a validação no navegador pode ser burlada. Parametrizar resolve na raiz: o banco recebe o dado como valor, nunca como código.",
+    "hint": "Separar comando de dado, não adivinhar o que é perigoso."
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3041712678,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 3041712678,
+    "context": [],
+    "tags": [
+     "injection"
+    ],
+    "kind": "mc",
+    "prompt": "O que é uma injeção de SQL?",
+    "options": [
+     "Enviar muitos dados até o banco ficar lento",
+     "Descobrir a senha do banco por tentativa e erro",
+     "Interceptar a conexão entre a aplicação e o banco",
+     "Fazer a aplicação executar comandos de banco a partir de dados enviados pelo usuário"
+    ],
+    "answer": 3,
+    "explanation": "Quando o dado do usuário é concatenado na consulta, o banco não distingue dado de comando. A correção é usar consultas parametrizadas (prepared statements).",
+    "hint": "O dado vira comando."
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1401181143,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 1401181143,
+    "context": [],
+    "tags": [
+     "injection"
+    ],
+    "kind": "mc",
+    "prompt": "A aplicação web precisa apenas ler e gravar em três tabelas. Que usuário de banco ela deve usar?",
+    "options": [
+     "Um usuário por requisição, criado na hora",
+     "O usuário administrador, para evitar erros de permissão",
+     "O mesmo usuário usado pelos relatórios e pelo backup",
+     "Um usuário restrito a essas tabelas, sem permissão de alterar esquema"
+    ],
+    "answer": 3,
+    "explanation": "Menor privilégio limita o estrago de uma injeção bem-sucedida: sem DROP nem acesso a outras tabelas, o ataque perde alcance.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 4055616904,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 4055616904,
+    "context": [],
+    "tags": [
+     "injection"
+    ],
+    "kind": "mc",
+    "prompt": "Por que validar a entrada apenas no navegador não é suficiente?",
+    "options": [
+     "O cliente pode ser modificado: qualquer um envia a requisição direto para a API",
+     "Porque a validação no cliente gasta banda",
+     "Porque o JavaScript é lento para validar",
+     "Porque o navegador não sabe validar números"
+    ],
+    "answer": 0,
+    "explanation": "Validação no cliente é conveniência de interface. A autoridade é o servidor — é o mesmo princípio que faz o servidor deste jogo revalidar cada resposta de terminal.",
+    "hint": "Quem controla o cliente controla a requisição."
+   },
+   "checks": [
+    {
+     "answer": 0,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2415085369,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 2415085369,
+    "context": [],
+    "tags": [
+     "injection"
+    ],
+    "kind": "mc",
+    "prompt": "Por que validar a entrada apenas no navegador não é suficiente?",
+    "options": [
+     "Porque o JavaScript é lento para validar",
+     "O cliente pode ser modificado: qualquer um envia a requisição direto para a API",
+     "Porque a validação no cliente gasta banda",
+     "Porque o navegador não sabe validar números"
+    ],
+    "answer": 1,
+    "explanation": "Validação no cliente é conveniência de interface. A autoridade é o servidor — é o mesmo princípio que faz o servidor deste jogo revalidar cada resposta de terminal.",
+    "hint": "Quem controla o cliente controla a requisição."
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 774553834,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 774553834,
+    "context": [],
+    "tags": [
+     "injection"
+    ],
+    "kind": "mc",
+    "prompt": "Por que validar a entrada apenas no navegador não é suficiente?",
+    "options": [
+     "O cliente pode ser modificado: qualquer um envia a requisição direto para a API",
+     "Porque o navegador não sabe validar números",
+     "Porque a validação no cliente gasta banda",
+     "Porque o JavaScript é lento para validar"
+    ],
+    "answer": 0,
+    "explanation": "Validação no cliente é conveniência de interface. A autoridade é o servidor — é o mesmo princípio que faz o servidor deste jogo revalidar cada resposta de terminal.",
+    "hint": "Quem controla o cliente controla a requisição."
+   },
+   "checks": [
+    {
+     "answer": 0,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3428989595,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 3428989595,
+    "context": [],
+    "tags": [
+     "injection"
+    ],
+    "kind": "mc",
+    "prompt": "A aplicação web precisa apenas ler e gravar em três tabelas. Que usuário de banco ela deve usar?",
+    "options": [
+     "Um usuário por requisição, criado na hora",
+     "Um usuário restrito a essas tabelas, sem permissão de alterar esquema",
+     "O mesmo usuário usado pelos relatórios e pelo backup",
+     "O usuário administrador, para evitar erros de permissão"
+    ],
+    "answer": 1,
+    "explanation": "Menor privilégio limita o estrago de uma injeção bem-sucedida: sem DROP nem acesso a outras tabelas, o ataque perde alcance.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1788458060,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 1788458060,
+    "context": [],
+    "tags": [
+     "injection"
+    ],
+    "kind": "mc",
+    "prompt": "Qual é a defesa correta contra injeção de SQL?",
+    "options": [
+     "Remover a palavra SELECT das entradas do usuário",
+     "Consultas parametrizadas, que separam comando de dado",
+     "Confiar na validação feita pelo JavaScript da página",
+     "Limitar o campo a 20 caracteres"
+    ],
+    "answer": 1,
+    "explanation": "Filtrar palavras é uma corrida perdida e a validação no navegador pode ser burlada. Parametrizar resolve na raiz: o banco recebe o dado como valor, nunca como código.",
+    "hint": "Separar comando de dado, não adivinhar o que é perigoso."
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  }
+ ]
+}

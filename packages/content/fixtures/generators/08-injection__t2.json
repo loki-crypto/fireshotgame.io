@@ -1,0 +1,2951 @@
+{
+ "source": "08-injection/t2",
+ "generator": "classify_pool",
+ "params": {
+  "pool": "injection",
+  "count": 4,
+  "counterTags": [
+   "injection"
+  ]
+ },
+ "seeds": [
+  {
+   "seed": 2654435761,
+   "sha256": "f263b25c56b83906e60aabb8bbd6fe5b665271d0e124337c483bc3b96a6b70fc"
+  },
+  {
+   "seed": 1013904226,
+   "sha256": "bee364a4a8e8191ffb822d484b4b2addedd6ba2d9df6a5c730f3d89734893ed3"
+  },
+  {
+   "seed": 3668339987,
+   "sha256": "33f6b4c1c5b3002e335cd2f85989640c1b370747208dfbea1c8b13d8c2ccf6be"
+  },
+  {
+   "seed": 2027808452,
+   "sha256": "6773ea9078bc8351fe076b7181dba53758a1b5ba456e3aec1e84fc51f760c306"
+  },
+  {
+   "seed": 387276917,
+   "sha256": "07b0a28c64bdf7fa7b2765534f04648f8c34742e63decdbf0b157c13638f2971"
+  },
+  {
+   "seed": 3041712678,
+   "sha256": "77e9353fef92d222020f4ceb9e7398e299596424d9e4bde79683d3c17adfce5d"
+  },
+  {
+   "seed": 1401181143,
+   "sha256": "d4a86bef3318544a72fe26f7616d6ef1405c5a9056f5703d1a7a1d47d892846d"
+  },
+  {
+   "seed": 4055616904,
+   "sha256": "0f6722cf419011c675fb7fc8d036b59733eab6bc83d4a4e8901290dd157d1059"
+  },
+  {
+   "seed": 2415085369,
+   "sha256": "eff964607e347b932c80b068590fbb700bbec5f26f8d61993c88c11064dae0e9"
+  },
+  {
+   "seed": 774553834,
+   "sha256": "e81651e2f3b3458f2fbdee4c59fe532fa35d89e2a16102f70c42a7f620fd5708"
+  },
+  {
+   "seed": 3428989595,
+   "sha256": "c957901fd0e93b8993fa82598ccf25117349b58065ac41dab1b063fbbfeb068c"
+  },
+  {
+   "seed": 1788458060,
+   "sha256": "17b21fac050adff6aee3e072c5a390006711925d55cb625b911b5e6c1a530ae1"
+  },
+  {
+   "seed": 147926525,
+   "sha256": "243009c19da6754564a50c3d778d401f2aa8b7589fd2796e6e027f8f73fb262a"
+  },
+  {
+   "seed": 2802362286,
+   "sha256": "e1c72eb6fb9d8f79e8f87856d8f18fc98b6a5d0334428d628877ed90c3337581"
+  },
+  {
+   "seed": 1161830751,
+   "sha256": "90675c34ef05349356cba8c3096ecd310a76483954f4af96bfcce50ed66d08dc"
+  },
+  {
+   "seed": 3816266512,
+   "sha256": "6e809a906532355a064474c8054612802d6ddf15a1e3b1716dc759b5228c9d5f"
+  },
+  {
+   "seed": 2175734977,
+   "sha256": "7f46749920a49eb8816da32c7858370aa3778ee412940680151a6837e1039538"
+  },
+  {
+   "seed": 535203442,
+   "sha256": "99690885c4723c244896f61035434b807da958ec3298d027c581427319651561"
+  },
+  {
+   "seed": 3189639203,
+   "sha256": "fa6fd2e1407c835046a7dac35cc145045ab112bba3e568e1b286dfdde913ff6a"
+  },
+  {
+   "seed": 1549107668,
+   "sha256": "0151853cde00cd1cb07fdbbfcc64f8167cd56f6447a8f7b2bdfeddffb8afdbf1"
+  },
+  {
+   "seed": 4203543429,
+   "sha256": "3ae5e539b46e1d71f7a722c79863d4a15324b87691e7781a70308f7636dd2b8d"
+  },
+  {
+   "seed": 2563011894,
+   "sha256": "bc65884c661c71d424a700cf86acd1f9a479c76e7e2b5d1cdea49a59a92c56ba"
+  },
+  {
+   "seed": 922480359,
+   "sha256": "86b9530c42fe79d272a6d36fdcabb593abbf44e322e66a5cc3852e279a068924"
+  },
+  {
+   "seed": 3576916120,
+   "sha256": "118e8d0cafd496fefd0d20d77b6393c61dfe36a5f56100c3dcbd1c4b2ea560c4"
+  },
+  {
+   "seed": 1936384585,
+   "sha256": "28b8c449eb3112608279022c834e7c3581bbf1414f23a004beddd918585200b4"
+  },
+  {
+   "seed": 295853050,
+   "sha256": "f1882618211387e5d4696f69b5890bb94806a6eb6dd0da86a00bab36006570b8"
+  },
+  {
+   "seed": 2950288811,
+   "sha256": "8ad5ba2aee458d96f685d2f4c5294d2586a41344426b63b7290bb2f7e4bafcf2"
+  },
+  {
+   "seed": 1309757276,
+   "sha256": "593240af8390ed51941972a74ed4c0ad6e112fafb95b56d1d029d32977efe7b9"
+  },
+  {
+   "seed": 3964193037,
+   "sha256": "b2142ff231861a641a1834bbdd320726287e742eeffed6c8c03ddfff051bfbff"
+  },
+  {
+   "seed": 2323661502,
+   "sha256": "23b37eed59b851e53aea19f5957865e097d7859565a0864aff1704be37b2e767"
+  },
+  {
+   "seed": 683129967,
+   "sha256": "166b615dd77a1e9ee652fb7ce9d39a4f13dba6898c859e3cc452323017bad01a"
+  },
+  {
+   "seed": 3337565728,
+   "sha256": "fdff6ea08dbe4a7f2cc05181fa74efc4d1389a5d320f550e1db8f36d2fdccdeb"
+  },
+  {
+   "seed": 1697034193,
+   "sha256": "46b7da3236457cd7ef7e143221489ea16d038fe7d76892a6752e5067bee5ce24"
+  },
+  {
+   "seed": 56502658,
+   "sha256": "9a7d461e3743e17cbbabb6086f9cb7264b2250b84d6e59d24241a5fbc21635ef"
+  },
+  {
+   "seed": 2710938419,
+   "sha256": "f1b4f3e911536a5669db818983c129ac24ce783ba2976f84c7e9f964600610b5"
+  },
+  {
+   "seed": 1070406884,
+   "sha256": "b958473aa06b58c811805d2351f25f2d7c5e57eb531da50af15b685d0c31282a"
+  },
+  {
+   "seed": 3724842645,
+   "sha256": "90e6bc25e57359c6e35fef6427dad0b6fe1c407de1b8b36c42b20707cb31116f"
+  },
+  {
+   "seed": 2084311110,
+   "sha256": "e984f2bcb49558263adbc8931c80a8ae7bf91ab514ffae7ded3d288f03255ad6"
+  },
+  {
+   "seed": 443779575,
+   "sha256": "38a6f4ecf44769c2732bc1a9d43615d06f128409f3f7d69d6024722c676de576"
+  },
+  {
+   "seed": 3098215336,
+   "sha256": "382b82968c41a0fec835fe9839e16f38b7fe311394c33ad63261ca5aeeb1dbca"
+  },
+  {
+   "seed": 1457683801,
+   "sha256": "efdef684e9fcdc5bb8e9e0f23e04cd538cf14d174186b5db33f129ca9cc3d9fc"
+  },
+  {
+   "seed": 4112119562,
+   "sha256": "8b9268a393abb464afe931e2af4efbaba08b0a27df5f53080c0b5b52159e8cd7"
+  },
+  {
+   "seed": 2471588027,
+   "sha256": "dd07b73da4d0331ae90f8de068af09a1149f3b11309f17418c6f8e79c9023120"
+  },
+  {
+   "seed": 831056492,
+   "sha256": "a2e78ef7a3f869697f661fb811e17bb77ec9f9131f121a0f34429efa36c7c19e"
+  },
+  {
+   "seed": 3485492253,
+   "sha256": "4484ae3298604a70ea2b20a425084996c988a4e34e7eaa783e6da737abe563ca"
+  },
+  {
+   "seed": 1844960718,
+   "sha256": "35a2cf94650aeb5a0c919a8008a4cc8535557074a1a985840c0102066524c8e3"
+  },
+  {
+   "seed": 204429183,
+   "sha256": "9ed195c7cbcaa35feb518a193ec21bafc55a1b6186c38080ec3fa92ba00493c3"
+  },
+  {
+   "seed": 2858864944,
+   "sha256": "8609d06a9fedc7abbeafbb4cbeac166881b7dc7fab870acb211b14c3f9d1946b"
+  },
+  {
+   "seed": 1218333409,
+   "sha256": "d0574e1b56cda87201e4d78e05dd292a22ee088f514cbfbac9e172abb7826db2"
+  },
+  {
+   "seed": 3872769170,
+   "sha256": "10617144e27ba5a5a9f7a020870fce099e3fa6694bf0b64265880ce4f1bbf07a"
+  },
+  {
+   "seed": 2232237635,
+   "sha256": "27721f1e0ba5406a4e500560d68c34a19117b0513519b2dbcf209675b558fd1a"
+  },
+  {
+   "seed": 591706100,
+   "sha256": "771d30bb7e241801d03a06e95cbe26665009c80715f8c127894bd24fc8737a69"
+  },
+  {
+   "seed": 3246141861,
+   "sha256": "84f1000703c4dce393c23363b427c9220a5e326bdddb2aaccbfae8039bdaa08d"
+  },
+  {
+   "seed": 1605610326,
+   "sha256": "330cd5df822cb6a8e4c46acb52c959f3765f6b6dd62592c30f5e76959fda08df"
+  },
+  {
+   "seed": 4260046087,
+   "sha256": "598ca7f3926785b83690743d92a4499f2e82090b2e2c0ecb00e236e6075d4cd6"
+  },
+  {
+   "seed": 2619514552,
+   "sha256": "5e89c8ce4d7b7677199858bc77443bae125a425f8e1b25aafcf0910f6b8e52e7"
+  },
+  {
+   "seed": 978983017,
+   "sha256": "86ffddff1843146092e13ee9976d021de85c15db6d8978ade9ef1cf7e4ed3806"
+  },
+  {
+   "seed": 3633418778,
+   "sha256": "ee64bfe14e091c7d578bbbf06f5bda8b411934b8dcca142223f28eddc49c0e34"
+  },
+  {
+   "seed": 1992887243,
+   "sha256": "e48c9901ad9c4dc7b284f285af75e278425d166b06c195fcfde36c8814f9f262"
+  },
+  {
+   "seed": 352355708,
+   "sha256": "502198b163e36bb4fc3b81895c9e1fbea009262ff0e4dee3740d1971786e3845"
+  },
+  {
+   "seed": 3006791469,
+   "sha256": "23d125f2f9e98792fbe670bf69d72c6b799d757ec9ed302964db50869a5d636f"
+  },
+  {
+   "seed": 1366259934,
+   "sha256": "d0d3f8332874ff8a964c93e31f78e62989ffbaae977b3f3e564ac6f65667fdcc"
+  },
+  {
+   "seed": 4020695695,
+   "sha256": "912079a37eb167194a339cb5f5d6f7893aa245aba77441bdb85baed91a367f18"
+  },
+  {
+   "seed": 2380164160,
+   "sha256": "5f73a64572a041a1cbb123b28f30630f1ab8695ffa3150dcd196c57ba30bf7d6"
+  },
+  {
+   "seed": 739632625,
+   "sha256": "7d9ffd9699a04a347140e3949be8f044d4d6e702b1688cfacda416aa390b6cd2"
+  },
+  {
+   "seed": 3394068386,
+   "sha256": "78800090764af922962c3e65fa473073f7e6a066c697fea1173a27e619c40f15"
+  },
+  {
+   "seed": 1753536851,
+   "sha256": "6ff0da3aad3db2f649f4a94b1f837505ade9e3d9d05d90484935644d0f4c2b43"
+  },
+  {
+   "seed": 113005316,
+   "sha256": "76fa65fd10c66b50ac41f349a4e3ea66103d83b5b786b148d77d252eb32a375f"
+  },
+  {
+   "seed": 2767441077,
+   "sha256": "3095dce69ade1250a774ef0f3c9fa194473ab825c71215455fc2f8bfe78f7c02"
+  },
+  {
+   "seed": 1126909542,
+   "sha256": "fd59786c47689828d6db8b128780fe10f977a82a085510fb80d7f062b12205ad"
+  },
+  {
+   "seed": 3781345303,
+   "sha256": "5c4f3c8ebe0fc340a67e5658fb59b8c422bbc53683ffb38be9a3500c5f87c2b0"
+  },
+  {
+   "seed": 2140813768,
+   "sha256": "1371a8c55007828ca983706e539850521ba9042ff18259598cb5c18204ec18c3"
+  },
+  {
+   "seed": 500282233,
+   "sha256": "f85031f75e512511e331e12c0756cf5f031748635c3eed12cce302b3d9d83421"
+  },
+  {
+   "seed": 3154717994,
+   "sha256": "9e43e6a2512b1291d03c773dfe7fa930e722d0acd852cd418f41e7db34df049b"
+  },
+  {
+   "seed": 1514186459,
+   "sha256": "b96d77a0455d7340f171bce8970d1912d01f25cd2f4ea55a0f0cae9e325d61b1"
+  },
+  {
+   "seed": 4168622220,
+   "sha256": "216386b80f3b4c6be261cae4be237054450e46bd3829f0071a69acb554fb8b60"
+  },
+  {
+   "seed": 2528090685,
+   "sha256": "5259c25752243fed67a28cffe7945357e91779372bd4874d2dcc091c1d89b14f"
+  },
+  {
+   "seed": 887559150,
+   "sha256": "730ed014f3ca672820d848919f7bd9f845534077c01e13a976541a5406f1c448"
+  },
+  {
+   "seed": 3541994911,
+   "sha256": "b7d190acac7fc1e8ac8f8b13a349acd12d5eb6bdca44143b8c78df0a613f713d"
+  },
+  {
+   "seed": 1901463376,
+   "sha256": "706dfec3d9977618b43dcee02b026319f322cf29add366b9f5da9cb6587b87fa"
+  },
+  {
+   "seed": 260931841,
+   "sha256": "abce5cf5bc49d6f090a72e68b73c2e3938b1cb5921ad80de6a1ef674d98aafd0"
+  },
+  {
+   "seed": 2915367602,
+   "sha256": "97a03adc6c1492151e4adc144a07849c81102d7b652142a1a768d398a879095c"
+  },
+  {
+   "seed": 1274836067,
+   "sha256": "89404a09a9f6ac7d7ac267e50db518a0981a1428b7cbb98edfd46282c652da8d"
+  },
+  {
+   "seed": 3929271828,
+   "sha256": "d2e7ff274f65be11d45fcad3369dc7b638a73080d59b5aee3a13600ecb324929"
+  },
+  {
+   "seed": 2288740293,
+   "sha256": "7b6626b2a8db38b0af4c505199a5e88d6713f03a98117e4937d7ed9eab51832e"
+  },
+  {
+   "seed": 648208758,
+   "sha256": "91a62386d41b1324d29e5766729cc2f14a13d9c5790ae7b7a1f4dd78b70c7892"
+  },
+  {
+   "seed": 3302644519,
+   "sha256": "0daa2958b0acba418ee9afd959e3ce0ee61c1a08f5c5d2d6e1dfa8c7bd5607e1"
+  },
+  {
+   "seed": 1662112984,
+   "sha256": "4e8c2bc60dd90903d56d5fd983c8a7c2917c4fca04b30bc7a6ef2883ca784c14"
+  },
+  {
+   "seed": 21581449,
+   "sha256": "d4de5c36564e143f16fb1386f7b2b468d9d70ef8a6b7cba1bb41e5047d9bf4ad"
+  },
+  {
+   "seed": 2676017210,
+   "sha256": "d1bb01fa9acd1e6209c1d59392266e414fe97a3bf3c451c9e4535c7ed36c4da5"
+  },
+  {
+   "seed": 1035485675,
+   "sha256": "0aa000895fbae825094cba30fb99f7d53bec930d63ac40c732782f378509323b"
+  },
+  {
+   "seed": 3689921436,
+   "sha256": "4e00b33eb16423bd4c88da7456454fde18e3c31007cb37462e025f6b58dc1241"
+  },
+  {
+   "seed": 2049389901,
+   "sha256": "e5f198038084d98a58823d0e0287eaaa86726d6508a1f0f2aae23a3b43010d7b"
+  },
+  {
+   "seed": 408858366,
+   "sha256": "5fdc39c61bf5faf5ead98a60467355bd87c3e31bb18a366e8da90ca9a5e2d7f2"
+  },
+  {
+   "seed": 3063294127,
+   "sha256": "b1543cfe57ec58671e110350de35786e40da16c4bbd6174c0643002a72a94783"
+  },
+  {
+   "seed": 1422762592,
+   "sha256": "ef7270afdbdcce555169941f1f31111b1a846b5269de76b14962fda7bf96f860"
+  },
+  {
+   "seed": 4077198353,
+   "sha256": "a4a0fa85e55df71ab2725b5992651448f11c0a79f2cd0254162823aba3421665"
+  },
+  {
+   "seed": 2436666818,
+   "sha256": "999644ffceb6c15f4ded4c9a5b7ab6814ff695aecd7636454510d2fe2d4b60ab"
+  },
+  {
+   "seed": 796135283,
+   "sha256": "21572f38efaa351fbf91cc80c81180cc5d19856efcb4e45c6f8cee93bec14685"
+  },
+  {
+   "seed": 3450571044,
+   "sha256": "8622e104d5170d3f66398a713e2cfea27d9658afbd7dff37e0b2ad934dceab61"
+  },
+  {
+   "seed": 1810039509,
+   "sha256": "c9395b00773405788a6cdb1266d10637ce36dbb5cdb292284540a0ccb046b7da"
+  },
+  {
+   "seed": 169507974,
+   "sha256": "64004119253b7bd0ec92079f9853017799549e5da1de4735e3eaf139f42eb235"
+  },
+  {
+   "seed": 2823943735,
+   "sha256": "f6473c42441223a86fef0fb573db0d39d043684a8da4b7101f8d3eb449970f25"
+  },
+  {
+   "seed": 1183412200,
+   "sha256": "f81053c14061b4f7b2a458e9eb7a71236268d8a170c096e49318c92adf5c29ef"
+  },
+  {
+   "seed": 3837847961,
+   "sha256": "df9eb24d4cc320edccbc38f2d750e812713b4bf63b4d7059732390a562e9d859"
+  },
+  {
+   "seed": 2197316426,
+   "sha256": "c752088034ad3eaf1a8c01b11a00aa487d577c8f973a6eb8563be5965d601510"
+  },
+  {
+   "seed": 556784891,
+   "sha256": "8d6ea941ab7e984952503e6b186645033385de45cc78086e35931686fbe1631c"
+  },
+  {
+   "seed": 3211220652,
+   "sha256": "631615df0c179167475b348859bebe39237f9458d22980a994b28ea39201a5d0"
+  },
+  {
+   "seed": 1570689117,
+   "sha256": "dd81e1d24d172c344bb713a64ac49311efa5366cd54cf9e3b5d52fa750ff4155"
+  },
+  {
+   "seed": 4225124878,
+   "sha256": "4607ec42edcecb8606edd5d965b3d272233d4b3fc950dd08f148d6406fd71314"
+  },
+  {
+   "seed": 2584593343,
+   "sha256": "35af84ae04301e558d848217064b253fb46d9772f6993531230510c96dad5b78"
+  },
+  {
+   "seed": 944061808,
+   "sha256": "bb90151df9f1fa9bcfd3b3a0e88b6e27630b9caaf595a4d2e236830e1e8f4c10"
+  },
+  {
+   "seed": 3598497569,
+   "sha256": "fbe29140d8fda3e45a70d27c4245f6228928123e2a98f1f9c95564683c69f6b6"
+  },
+  {
+   "seed": 1957966034,
+   "sha256": "46c3474095f693a25d1daba34a8260043500a171aaaa885ea7bf7f66224b61fa"
+  },
+  {
+   "seed": 317434499,
+   "sha256": "85de6b41c079ef56417dfeae151401d7cba03305e55738ccb0301569f7a73236"
+  },
+  {
+   "seed": 2971870260,
+   "sha256": "0fcdd6fee0edb6f942a5791de4b8f9fb0cba6dc17f4ca5eef5d9f7b430bf62d0"
+  },
+  {
+   "seed": 1331338725,
+   "sha256": "5837aec8c9d307468a861fe08655e86864b5cf2c52d1e24e9afa83b3ef74cbb1"
+  },
+  {
+   "seed": 3985774486,
+   "sha256": "87c61ec55400bacb2a5e90dee581727e59c9c274b90e65a526cf095544b3968d"
+  },
+  {
+   "seed": 2345242951,
+   "sha256": "77c57a3174194935b98ce612769991382addcf1b88d5e97ed6d355493054a061"
+  },
+  {
+   "seed": 704711416,
+   "sha256": "0cdfd51287df27fd2a735e977766c84c5056d7bb079b9e912e8a6421f8508596"
+  },
+  {
+   "seed": 3359147177,
+   "sha256": "11bdbaaa512a3b9387fe94c45f99d8e93ce16e49613a1fa29732338122ef9f1b"
+  },
+  {
+   "seed": 1718615642,
+   "sha256": "ca51a61a6742d24164d012e836dcfd47f48ae05bf84851471e1397c9e25114bc"
+  },
+  {
+   "seed": 78084107,
+   "sha256": "d194a1531b9816e6353f86662ea35a191bc280ef86238a8249c2fb34665d73bf"
+  },
+  {
+   "seed": 2732519868,
+   "sha256": "a5e9d53e9b95ae91f9550bddd9ec063696bb7c6bea53d84e8c5b485be602353d"
+  },
+  {
+   "seed": 1091988333,
+   "sha256": "3d1f75b21d038c15210391bc9aac2f8e6529381b382ded8e41f6ef9166c50edf"
+  },
+  {
+   "seed": 3746424094,
+   "sha256": "591608dddc41dbe7650e45ee8b1d97b7b649a757846e96ead86b071eba40bd67"
+  },
+  {
+   "seed": 2105892559,
+   "sha256": "a593d26c2a9c96ce21eb9eda956aebdcb8f1113d49d0ab209b89cd11bd2b954e"
+  },
+  {
+   "seed": 465361024,
+   "sha256": "ed84e68478b9e8324754ca0775e2f3af1471adb5da1ddaa48bdb736fc56227f7"
+  },
+  {
+   "seed": 3119796785,
+   "sha256": "d02019f43c8a93ca7cb20a45b7b189a17a7733c1b3678704c44cb9f1e0f4b167"
+  },
+  {
+   "seed": 1479265250,
+   "sha256": "230192de47596efeedfec974f97b35cd24e8250da0ab5d1ead9bfea3ee266cfc"
+  },
+  {
+   "seed": 4133701011,
+   "sha256": "68e7596db61029f85a7f93e9c4971d2a0a71b8dc94362bb83a87befe176bf167"
+  },
+  {
+   "seed": 2493169476,
+   "sha256": "dac66c024e543e8e277d14752430fab1feea00a1a87963efb781910b8a33c664"
+  },
+  {
+   "seed": 852637941,
+   "sha256": "ba1354e7791d6ec2e093f13e56481cc9d22b721368886a6b4cb99b703d90e44c"
+  },
+  {
+   "seed": 3507073702,
+   "sha256": "4d011f0f8474375aefe338c35e913d82030fbef02b32dcb14968fb60749d6a5a"
+  },
+  {
+   "seed": 1866542167,
+   "sha256": "5187d1f19cf056a3fac256edb9ce79a07d3be951c88af41c266750c4fc029c14"
+  },
+  {
+   "seed": 226010632,
+   "sha256": "cf15f8f1823f0597735d954826e1b20366e6657693bcb2db065a207766880e14"
+  },
+  {
+   "seed": 2880446393,
+   "sha256": "da80bb04a0a57208031ce39d84cea4193b720d72341e752e5d57831b06276225"
+  },
+  {
+   "seed": 1239914858,
+   "sha256": "6409fad5804cd741ec93bb7906805c3556291a0383135b2a64c74850571a2281"
+  },
+  {
+   "seed": 3894350619,
+   "sha256": "2e826c445a0b5baefcb015c6310f31161272a25296016b23ed3e3090f988a224"
+  },
+  {
+   "seed": 2253819084,
+   "sha256": "4993108402a783d2f97ca9739c0ddd9accc952be67421e83bc76d3d9624bcaf7"
+  },
+  {
+   "seed": 613287549,
+   "sha256": "06325b509254aa90dbb6c3605105e11565a530c14b9d5c0aa7a8155c090b5364"
+  },
+  {
+   "seed": 3267723310,
+   "sha256": "d9a63257d2e6c88007667a6cb8363b6c744641c37e5f5d930d397e194f023c27"
+  },
+  {
+   "seed": 1627191775,
+   "sha256": "c084d29c3225003e1af5ed199b9e4cfbbfc00acfd4f2432a24b0510037fd8e44"
+  },
+  {
+   "seed": 4281627536,
+   "sha256": "dbf977996a45336142999f3872288d53d3b76cb1b2eb2d78014f43e374382f76"
+  },
+  {
+   "seed": 2641096001,
+   "sha256": "4c5fd9559a20baa6813731f166bb88860e3e5a7ff48b164a9d6476fb488b7339"
+  },
+  {
+   "seed": 1000564466,
+   "sha256": "f996b17c0d551262b44481852790315e358198d5c34cfadfb91c53a8a49acf7d"
+  },
+  {
+   "seed": 3655000227,
+   "sha256": "15d73c567caa240cce4909dec93ffbf6eab48c1ba72526b93333116cc5758ffd"
+  },
+  {
+   "seed": 2014468692,
+   "sha256": "ba34bfba45d662f6b986debbc4fd5ebb3dd83b826945c845525e53cf40e1e324"
+  },
+  {
+   "seed": 373937157,
+   "sha256": "da569ce8dd090f18f0aae9a342c13b716fd46c1fd9f80356acaaa31845faef48"
+  },
+  {
+   "seed": 3028372918,
+   "sha256": "da26a632eb8f11ba64875400d3444d4024b3bc607571c059dc40c1eb2f5c5711"
+  },
+  {
+   "seed": 1387841383,
+   "sha256": "db01fe5ba5e2ae130047c90f2920490a64a1b8ae96986031c410bd180b58079f"
+  },
+  {
+   "seed": 4042277144,
+   "sha256": "ba7d4d322d5b6e8f7eb87eee8d69fe2cfd8a36296d6dc28f5fa99016fb4520a1"
+  },
+  {
+   "seed": 2401745609,
+   "sha256": "13619fa42ff6eb268ccc314ebab3a4823cf94207667fba9bbca61c7c84110b70"
+  },
+  {
+   "seed": 761214074,
+   "sha256": "1263a9203d7c23244b799083ab445103c90326f8bae1938326f3d9ed2c205088"
+  },
+  {
+   "seed": 3415649835,
+   "sha256": "6bd4ddd6d14a090d2267d62af24a1bc3fb430b228f01bdbe5ac98ccf14e437f4"
+  },
+  {
+   "seed": 1775118300,
+   "sha256": "cd27c8ffda1ea3d47b33310461bccd0322c6f42ff6c4f5c6c2589aef47ab67ba"
+  },
+  {
+   "seed": 134586765,
+   "sha256": "c69bcce7859be9dc4f849ae2f16c8cfeced546d19f57607576d9d58f8c30a134"
+  },
+  {
+   "seed": 2789022526,
+   "sha256": "39e67cd2311393debf5b1770c37a30dda4c2f14387097ca2c967ccbe02707e43"
+  },
+  {
+   "seed": 1148490991,
+   "sha256": "3673d5af4461b91261108d8a6bbecb882fa6e42f72275307f32b8892a565da00"
+  },
+  {
+   "seed": 3802926752,
+   "sha256": "ff259c3eac69bb29a50009d0419afaa145d97c81280d958ebd2e5b99ef2ad07b"
+  },
+  {
+   "seed": 2162395217,
+   "sha256": "c8390c30f3d913dc072444dee83a069b78d281091bf9da4a94b4ed2df428cc32"
+  },
+  {
+   "seed": 521863682,
+   "sha256": "96ab9f089d23da8ea5b3c9796b241eef7cd6d65748151b0f201b0247c6ba2dd3"
+  },
+  {
+   "seed": 3176299443,
+   "sha256": "8340025c2d3f1f71d51d64c20b4761383395d95d09a5f8197262f3b4dab43eb0"
+  },
+  {
+   "seed": 1535767908,
+   "sha256": "3800edc558399f495f252dee1681ba3d0f729bfc0d7ba360228109532fe9f028"
+  },
+  {
+   "seed": 4190203669,
+   "sha256": "8d229bd6d9cf052f655d99291d9d375ddb601a8a1ca3b25fa0d69f085ad1bced"
+  },
+  {
+   "seed": 2549672134,
+   "sha256": "58ea0851a0d8185d79fbc0fe2f321de9f8300bb887a57a394e992e79999d9c67"
+  },
+  {
+   "seed": 909140599,
+   "sha256": "f4487dda01bab176f7ab02399ad538cb14e5c9cdfedbfe49d8e1a8e5c6f41d52"
+  },
+  {
+   "seed": 3563576360,
+   "sha256": "9563586dc0f086c2189adaf8075d2817cf37368e4ac36691aa962ae85e364038"
+  },
+  {
+   "seed": 1923044825,
+   "sha256": "2616abf770d3f84b1b90fbfa19e7bb184304a10bead308b2ac749b69e97e69c6"
+  },
+  {
+   "seed": 282513290,
+   "sha256": "540ee45dd5a164592d9a9a3703bfaf1e991a30973b43b9f590b48a9bbb5ee686"
+  },
+  {
+   "seed": 2936949051,
+   "sha256": "105705f89b3d3aaa4a736b6f2bd64ddab7dd32069ecaed851ccd8ba9ba144c04"
+  },
+  {
+   "seed": 1296417516,
+   "sha256": "0cb9c69c9a0798531072938b897cc0b003d6ed6761d7832a29b425d498ed6e34"
+  },
+  {
+   "seed": 3950853277,
+   "sha256": "4b5e40935bfb1c591a533738886ad038b5f27c2000936845d3dc2ec8c5e6cf56"
+  },
+  {
+   "seed": 2310321742,
+   "sha256": "d78d4dfc2133f7e7f7506a93f0f18723003d813a252050a797d0e14106c49f7b"
+  },
+  {
+   "seed": 669790207,
+   "sha256": "5ad801b67a95b4c58b77b14af3d2f51de39a8da27ffc5025e05c9db9265d9622"
+  },
+  {
+   "seed": 3324225968,
+   "sha256": "eaf196ab7a7229851bdf858e5e6b8b2e8671dc76c32a32b54816adfdbf360025"
+  },
+  {
+   "seed": 1683694433,
+   "sha256": "52bba13f39299fa5c0d141ed0d05f664c984b8a4c0c8824ab15023d3719dbc02"
+  },
+  {
+   "seed": 43162898,
+   "sha256": "d216be1587830b9b36ddcdbccf0250e5607953a033bedcd5eff0f2778cb21864"
+  },
+  {
+   "seed": 2697598659,
+   "sha256": "48994a83591369276f6238bf490e7ead2badc9b6b69721088b735ada2bb3bc0d"
+  },
+  {
+   "seed": 1057067124,
+   "sha256": "9b3bd67099394e63ddd38ca5c060cbce2541ee8279285ffc012daf3fc4271e52"
+  },
+  {
+   "seed": 3711502885,
+   "sha256": "fc0260b19a11ba9b642ea7cb641969f6e1eacdb19e2a4e2fa5fca042897663a5"
+  },
+  {
+   "seed": 2070971350,
+   "sha256": "bef2d733163db4a09f35bc4be75346f59a08969b6addefc1becf7a6d138b5aa0"
+  },
+  {
+   "seed": 430439815,
+   "sha256": "e1500baaf44d69ec1d49c8a29e41dd08600ad8d6ee95004fa54bf94e78153fe2"
+  },
+  {
+   "seed": 3084875576,
+   "sha256": "c009c03d0f087f76bbb548df4fdf12ac3e61cbaffe82885623f555c3e51ec9ef"
+  },
+  {
+   "seed": 1444344041,
+   "sha256": "b3f55d4cbce04e4cd3251d2cf0cc07997028dd9f7df6aef4a1e1c8bdc1e4378b"
+  },
+  {
+   "seed": 4098779802,
+   "sha256": "ce128792ff12be58674f5155fd938d6e752a73ecf729a9016f788b3cb2500743"
+  },
+  {
+   "seed": 2458248267,
+   "sha256": "b13d780f66b23e38b1b772f0b4c0562b81cbdeb2339e052b059a0d0ada9f8403"
+  },
+  {
+   "seed": 817716732,
+   "sha256": "48f66206a2dee484b2ac9a87b6223322b7fa55ac4fc27d6ae66b852c64c03110"
+  },
+  {
+   "seed": 3472152493,
+   "sha256": "1ac23dcf87ee60fc0fd5633aaa83163d58d5c099f3f9c3ce6a0979974122752d"
+  },
+  {
+   "seed": 1831620958,
+   "sha256": "a2e4f73d960bc72034a20d9cbead7372f285ecae0fc01423395c3e4b25e4f539"
+  },
+  {
+   "seed": 191089423,
+   "sha256": "d3277cb2f108a77663d44d0e071d7af2075b438c831a888aa44ec79c92969723"
+  },
+  {
+   "seed": 2845525184,
+   "sha256": "5ac773d81988891caabe2dc2d7bfc93f75212e0288f9dba5d5860d8e7b78d749"
+  },
+  {
+   "seed": 1204993649,
+   "sha256": "b8136ed55b3cfdead2dcb69d60696b38f781574fd4f9a22e3a72e89c9452e3a2"
+  },
+  {
+   "seed": 3859429410,
+   "sha256": "521f0447ebdb8a18e1fc5a8b440958839ac0210e2213e3760b2d4e7f32ba0e81"
+  },
+  {
+   "seed": 2218897875,
+   "sha256": "19cadf5c7f3c949dd5f5fa12eb3267591754fb6d02963cbda20bf2bbf9c03cde"
+  },
+  {
+   "seed": 578366340,
+   "sha256": "4296ae20553065c2a0825f85d8c82178d902a65e2489e7df39c1f0de1b5987ab"
+  },
+  {
+   "seed": 3232802101,
+   "sha256": "8e1bf2599b22a9f77da5a3ae7ae8f888626006eb5b468f2903ec24c7872ec446"
+  },
+  {
+   "seed": 1592270566,
+   "sha256": "366bf3af88035b82991b2a7ee65f57e7aa225616485bbb7dcb8b74f3b6baf36d"
+  },
+  {
+   "seed": 4246706327,
+   "sha256": "e1b36298a2b1b47fca271881d22919ea847506865e4d12022c9992ac11f2556b"
+  },
+  {
+   "seed": 2606174792,
+   "sha256": "3ce2387f48ba075cbf5740f4f5dd52c9bd8035f9b4b3b1be40b42901e91cddd1"
+  }
+ ],
+ "samples": [
+  {
+   "seed": 2654435761,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 2654435761,
+    "context": [],
+    "tags": [
+     "injection"
+    ],
+    "kind": "classify",
+    "prompt": "Classifique cada trecho de código recebido na revisão.",
+    "categories": [
+     "Seguro",
+     "Vulnerável"
+    ],
+    "items": [
+     {
+      "text": "os.system(\"convert \" + nomeArquivo + \" saida.png\")",
+      "detail": [
+       "Shell montado por concatenação"
+      ]
+     },
+     {
+      "text": "db.query(\"SELECT * FROM users WHERE email = ?\", [email])",
+      "detail": [
+       "Parâmetro separado do comando"
+      ]
+     },
+     {
+      "text": "Usuário do banco com permissão apenas de SELECT e INSERT nas tabelas da aplicação",
+      "detail": [
+       "Sem DDL",
+       "Escopo restrito"
+      ]
+     },
+     {
+      "text": "Remover a palavra \"DROP\" da entrada antes de concatenar na consulta",
+      "detail": [
+       "Filtro por palavra proibida"
+      ]
+     }
+    ],
+    "answer": [
+     1,
+     0,
+     0,
+     1
+    ],
+    "itemExplanations": [
+     "Injeção de comando: um ponto e vírgula no nome do arquivo executa outro programa.",
+     "Consulta parametrizada: o banco trata o e-mail como valor.",
+     "Menor privilégio: mesmo com uma falha, o alcance do ataque é pequeno.",
+     "Lista de proibição é sempre incompleta; a concatenação continua sendo o problema."
+    ],
+    "explanation": "Concatenar dado do usuário em consulta ou em HTML é a raiz das injeções. Parametrizar a consulta e escapar a saída elimina a classe inteira de problema.",
+    "hint": "Procure onde o dado do usuário entra na consulta ou na página."
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       true,
+       false,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1013904226,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 1013904226,
+    "context": [],
+    "tags": [
+     "injection"
+    ],
+    "kind": "classify",
+    "prompt": "Classifique cada trecho de código recebido na revisão.",
+    "categories": [
+     "Seguro",
+     "Vulnerável"
+    ],
+    "items": [
+     {
+      "text": "Usuário do banco com permissão apenas de SELECT e INSERT nas tabelas da aplicação",
+      "detail": [
+       "Sem DDL",
+       "Escopo restrito"
+      ]
+     },
+     {
+      "text": "db.query(\"SELECT * FROM users WHERE email = ?\", [email])",
+      "detail": [
+       "Parâmetro separado do comando"
+      ]
+     },
+     {
+      "text": "db.query(\"SELECT * FROM users WHERE email = '\" + email + \"'\")",
+      "detail": [
+       "Dado concatenado no SQL"
+      ]
+     },
+     {
+      "text": "os.system(\"convert \" + nomeArquivo + \" saida.png\")",
+      "detail": [
+       "Shell montado por concatenação"
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "itemExplanations": [
+     "Menor privilégio: mesmo com uma falha, o alcance do ataque é pequeno.",
+     "Consulta parametrizada: o banco trata o e-mail como valor.",
+     "Concatenação direta: um apóstrofo no e-mail muda a consulta.",
+     "Injeção de comando: um ponto e vírgula no nome do arquivo executa outro programa."
+    ],
+    "explanation": "Concatenar dado do usuário em consulta ou em HTML é a raiz das injeções. Parametrizar a consulta e escapar a saída elimina a classe inteira de problema.",
+    "hint": "Procure onde o dado do usuário entra na consulta ou na página."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       true,
+       false,
+       true,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3668339987,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 3668339987,
+    "context": [],
+    "tags": [
+     "injection"
+    ],
+    "kind": "classify",
+    "prompt": "Classifique cada trecho de código recebido na revisão.",
+    "categories": [
+     "Seguro",
+     "Vulnerável"
+    ],
+    "items": [
+     {
+      "text": "if (!/^[0-9]{1,6}$/.test(id)) return erro(400)",
+      "detail": [
+       "Formato restrito",
+       "Verificado no servidor"
+      ]
+     },
+     {
+      "text": "db.query(\"SELECT * FROM users WHERE email = '\" + email + \"'\")",
+      "detail": [
+       "Dado concatenado no SQL"
+      ]
+     },
+     {
+      "text": "element.innerHTML = comentario",
+      "detail": [
+       "HTML do usuário interpretado"
+      ]
+     },
+     {
+      "text": "db.query(\"SELECT * FROM users WHERE email = ?\", [email])",
+      "detail": [
+       "Parâmetro separado do comando"
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     1,
+     1,
+     0
+    ],
+    "itemExplanations": [
+     "Lista de permissão por formato, validada no servidor.",
+     "Concatenação direta: um apóstrofo no e-mail muda a consulta.",
+     "innerHTML interpreta marcação: um <script> do usuário roda no navegador de quem lê.",
+     "Consulta parametrizada: o banco trata o e-mail como valor."
+    ],
+    "explanation": "Concatenar dado do usuário em consulta ou em HTML é a raiz das injeções. Parametrizar a consulta e escapar a saída elimina a classe inteira de problema.",
+    "hint": "Procure onde o dado do usuário entra na consulta ou na página."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       true,
+       false,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2027808452,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 2027808452,
+    "context": [],
+    "tags": [
+     "injection"
+    ],
+    "kind": "classify",
+    "prompt": "Classifique cada trecho de código recebido na revisão.",
+    "categories": [
+     "Seguro",
+     "Vulnerável"
+    ],
+    "items": [
+     {
+      "text": "if (!/^[0-9]{1,6}$/.test(id)) return erro(400)",
+      "detail": [
+       "Formato restrito",
+       "Verificado no servidor"
+      ]
+     },
+     {
+      "text": "element.innerHTML = comentario",
+      "detail": [
+       "HTML do usuário interpretado"
+      ]
+     },
+     {
+      "text": "element.textContent = comentario",
+      "detail": [
+       "Sem interpretação de HTML"
+      ]
+     },
+     {
+      "text": "db.query(\"SELECT * FROM users WHERE email = ?\", [email])",
+      "detail": [
+       "Parâmetro separado do comando"
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     1,
+     0,
+     0
+    ],
+    "itemExplanations": [
+     "Lista de permissão por formato, validada no servidor.",
+     "innerHTML interpreta marcação: um <script> do usuário roda no navegador de quem lê.",
+     "textContent insere texto, nunca marcação executável.",
+     "Consulta parametrizada: o banco trata o e-mail como valor."
+    ],
+    "explanation": "Concatenar dado do usuário em consulta ou em HTML é a raiz das injeções. Parametrizar a consulta e escapar a saída elimina a classe inteira de problema.",
+    "hint": "Procure onde o dado do usuário entra na consulta ou na página."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 387276917,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 387276917,
+    "context": [],
+    "tags": [
+     "injection"
+    ],
+    "kind": "classify",
+    "prompt": "Classifique cada trecho de código recebido na revisão.",
+    "categories": [
+     "Seguro",
+     "Vulnerável"
+    ],
+    "items": [
+     {
+      "text": "Usuário do banco com permissão apenas de SELECT e INSERT nas tabelas da aplicação",
+      "detail": [
+       "Sem DDL",
+       "Escopo restrito"
+      ]
+     },
+     {
+      "text": "os.system(\"convert \" + nomeArquivo + \" saida.png\")",
+      "detail": [
+       "Shell montado por concatenação"
+      ]
+     },
+     {
+      "text": "element.innerHTML = comentario",
+      "detail": [
+       "HTML do usuário interpretado"
+      ]
+     },
+     {
+      "text": "if (!/^[0-9]{1,6}$/.test(id)) return erro(400)",
+      "detail": [
+       "Formato restrito",
+       "Verificado no servidor"
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     1,
+     1,
+     0
+    ],
+    "itemExplanations": [
+     "Menor privilégio: mesmo com uma falha, o alcance do ataque é pequeno.",
+     "Injeção de comando: um ponto e vírgula no nome do arquivo executa outro programa.",
+     "innerHTML interpreta marcação: um <script> do usuário roda no navegador de quem lê.",
+     "Lista de permissão por formato, validada no servidor."
+    ],
+    "explanation": "Concatenar dado do usuário em consulta ou em HTML é a raiz das injeções. Parametrizar a consulta e escapar a saída elimina a classe inteira de problema.",
+    "hint": "Procure onde o dado do usuário entra na consulta ou na página."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       true,
+       false,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3041712678,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 3041712678,
+    "context": [],
+    "tags": [
+     "injection"
+    ],
+    "kind": "classify",
+    "prompt": "Classifique cada trecho de código recebido na revisão.",
+    "categories": [
+     "Seguro",
+     "Vulnerável"
+    ],
+    "items": [
+     {
+      "text": "Usuário do banco com permissão apenas de SELECT e INSERT nas tabelas da aplicação",
+      "detail": [
+       "Sem DDL",
+       "Escopo restrito"
+      ]
+     },
+     {
+      "text": "Remover a palavra \"DROP\" da entrada antes de concatenar na consulta",
+      "detail": [
+       "Filtro por palavra proibida"
+      ]
+     },
+     {
+      "text": "if (!/^[0-9]{1,6}$/.test(id)) return erro(400)",
+      "detail": [
+       "Formato restrito",
+       "Verificado no servidor"
+      ]
+     },
+     {
+      "text": "os.system(\"convert \" + nomeArquivo + \" saida.png\")",
+      "detail": [
+       "Shell montado por concatenação"
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     1,
+     0,
+     1
+    ],
+    "itemExplanations": [
+     "Menor privilégio: mesmo com uma falha, o alcance do ataque é pequeno.",
+     "Lista de proibição é sempre incompleta; a concatenação continua sendo o problema.",
+     "Lista de permissão por formato, validada no servidor.",
+     "Injeção de comando: um ponto e vírgula no nome do arquivo executa outro programa."
+    ],
+    "explanation": "Concatenar dado do usuário em consulta ou em HTML é a raiz das injeções. Parametrizar a consulta e escapar a saída elimina a classe inteira de problema.",
+    "hint": "Procure onde o dado do usuário entra na consulta ou na página."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1401181143,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 1401181143,
+    "context": [],
+    "tags": [
+     "injection"
+    ],
+    "kind": "classify",
+    "prompt": "Classifique cada trecho de código recebido na revisão.",
+    "categories": [
+     "Seguro",
+     "Vulnerável"
+    ],
+    "items": [
+     {
+      "text": "if (!/^[0-9]{1,6}$/.test(id)) return erro(400)",
+      "detail": [
+       "Formato restrito",
+       "Verificado no servidor"
+      ]
+     },
+     {
+      "text": "element.textContent = comentario",
+      "detail": [
+       "Sem interpretação de HTML"
+      ]
+     },
+     {
+      "text": "Remover a palavra \"DROP\" da entrada antes de concatenar na consulta",
+      "detail": [
+       "Filtro por palavra proibida"
+      ]
+     },
+     {
+      "text": "os.system(\"convert \" + nomeArquivo + \" saida.png\")",
+      "detail": [
+       "Shell montado por concatenação"
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "itemExplanations": [
+     "Lista de permissão por formato, validada no servidor.",
+     "textContent insere texto, nunca marcação executável.",
+     "Lista de proibição é sempre incompleta; a concatenação continua sendo o problema.",
+     "Injeção de comando: um ponto e vírgula no nome do arquivo executa outro programa."
+    ],
+    "explanation": "Concatenar dado do usuário em consulta ou em HTML é a raiz das injeções. Parametrizar a consulta e escapar a saída elimina a classe inteira de problema.",
+    "hint": "Procure onde o dado do usuário entra na consulta ou na página."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       true,
+       false,
+       true,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 4055616904,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 4055616904,
+    "context": [],
+    "tags": [
+     "injection"
+    ],
+    "kind": "classify",
+    "prompt": "Classifique cada trecho de código recebido na revisão.",
+    "categories": [
+     "Seguro",
+     "Vulnerável"
+    ],
+    "items": [
+     {
+      "text": "Remover a palavra \"DROP\" da entrada antes de concatenar na consulta",
+      "detail": [
+       "Filtro por palavra proibida"
+      ]
+     },
+     {
+      "text": "db.query(\"SELECT * FROM users WHERE email = ?\", [email])",
+      "detail": [
+       "Parâmetro separado do comando"
+      ]
+     },
+     {
+      "text": "Usuário do banco com permissão apenas de SELECT e INSERT nas tabelas da aplicação",
+      "detail": [
+       "Sem DDL",
+       "Escopo restrito"
+      ]
+     },
+     {
+      "text": "element.innerHTML = comentario",
+      "detail": [
+       "HTML do usuário interpretado"
+      ]
+     }
+    ],
+    "answer": [
+     1,
+     0,
+     0,
+     1
+    ],
+    "itemExplanations": [
+     "Lista de proibição é sempre incompleta; a concatenação continua sendo o problema.",
+     "Consulta parametrizada: o banco trata o e-mail como valor.",
+     "Menor privilégio: mesmo com uma falha, o alcance do ataque é pequeno.",
+     "innerHTML interpreta marcação: um <script> do usuário roda no navegador de quem lê."
+    ],
+    "explanation": "Concatenar dado do usuário em consulta ou em HTML é a raiz das injeções. Parametrizar a consulta e escapar a saída elimina a classe inteira de problema.",
+    "hint": "Procure onde o dado do usuário entra na consulta ou na página."
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       true,
+       false,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2415085369,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 2415085369,
+    "context": [],
+    "tags": [
+     "injection"
+    ],
+    "kind": "classify",
+    "prompt": "Classifique cada trecho de código recebido na revisão.",
+    "categories": [
+     "Seguro",
+     "Vulnerável"
+    ],
+    "items": [
+     {
+      "text": "Remover a palavra \"DROP\" da entrada antes de concatenar na consulta",
+      "detail": [
+       "Filtro por palavra proibida"
+      ]
+     },
+     {
+      "text": "db.query(\"SELECT * FROM users WHERE email = '\" + email + \"'\")",
+      "detail": [
+       "Dado concatenado no SQL"
+      ]
+     },
+     {
+      "text": "db.query(\"SELECT * FROM users WHERE email = ?\", [email])",
+      "detail": [
+       "Parâmetro separado do comando"
+      ]
+     },
+     {
+      "text": "element.innerHTML = comentario",
+      "detail": [
+       "HTML do usuário interpretado"
+      ]
+     }
+    ],
+    "answer": [
+     1,
+     1,
+     0,
+     1
+    ],
+    "itemExplanations": [
+     "Lista de proibição é sempre incompleta; a concatenação continua sendo o problema.",
+     "Concatenação direta: um apóstrofo no e-mail muda a consulta.",
+     "Consulta parametrizada: o banco trata o e-mail como valor.",
+     "innerHTML interpreta marcação: um <script> do usuário roda no navegador de quem lê."
+    ],
+    "explanation": "Concatenar dado do usuário em consulta ou em HTML é a raiz das injeções. Parametrizar a consulta e escapar a saída elimina a classe inteira de problema.",
+    "hint": "Procure onde o dado do usuário entra na consulta ou na página."
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       true,
+       false,
+       false,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 774553834,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 774553834,
+    "context": [],
+    "tags": [
+     "injection"
+    ],
+    "kind": "classify",
+    "prompt": "Classifique cada trecho de código recebido na revisão.",
+    "categories": [
+     "Seguro",
+     "Vulnerável"
+    ],
+    "items": [
+     {
+      "text": "db.query(\"SELECT * FROM users WHERE email = ?\", [email])",
+      "detail": [
+       "Parâmetro separado do comando"
+      ]
+     },
+     {
+      "text": "os.system(\"convert \" + nomeArquivo + \" saida.png\")",
+      "detail": [
+       "Shell montado por concatenação"
+      ]
+     },
+     {
+      "text": "element.textContent = comentario",
+      "detail": [
+       "Sem interpretação de HTML"
+      ]
+     },
+     {
+      "text": "element.innerHTML = comentario",
+      "detail": [
+       "HTML do usuário interpretado"
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     1,
+     0,
+     1
+    ],
+    "itemExplanations": [
+     "Consulta parametrizada: o banco trata o e-mail como valor.",
+     "Injeção de comando: um ponto e vírgula no nome do arquivo executa outro programa.",
+     "textContent insere texto, nunca marcação executável.",
+     "innerHTML interpreta marcação: um <script> do usuário roda no navegador de quem lê."
+    ],
+    "explanation": "Concatenar dado do usuário em consulta ou em HTML é a raiz das injeções. Parametrizar a consulta e escapar a saída elimina a classe inteira de problema.",
+    "hint": "Procure onde o dado do usuário entra na consulta ou na página."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3428989595,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 3428989595,
+    "context": [],
+    "tags": [
+     "injection"
+    ],
+    "kind": "classify",
+    "prompt": "Classifique cada trecho de código recebido na revisão.",
+    "categories": [
+     "Seguro",
+     "Vulnerável"
+    ],
+    "items": [
+     {
+      "text": "element.textContent = comentario",
+      "detail": [
+       "Sem interpretação de HTML"
+      ]
+     },
+     {
+      "text": "Remover a palavra \"DROP\" da entrada antes de concatenar na consulta",
+      "detail": [
+       "Filtro por palavra proibida"
+      ]
+     },
+     {
+      "text": "db.query(\"SELECT * FROM users WHERE email = ?\", [email])",
+      "detail": [
+       "Parâmetro separado do comando"
+      ]
+     },
+     {
+      "text": "os.system(\"convert \" + nomeArquivo + \" saida.png\")",
+      "detail": [
+       "Shell montado por concatenação"
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     1,
+     0,
+     1
+    ],
+    "itemExplanations": [
+     "textContent insere texto, nunca marcação executável.",
+     "Lista de proibição é sempre incompleta; a concatenação continua sendo o problema.",
+     "Consulta parametrizada: o banco trata o e-mail como valor.",
+     "Injeção de comando: um ponto e vírgula no nome do arquivo executa outro programa."
+    ],
+    "explanation": "Concatenar dado do usuário em consulta ou em HTML é a raiz das injeções. Parametrizar a consulta e escapar a saída elimina a classe inteira de problema.",
+    "hint": "Procure onde o dado do usuário entra na consulta ou na página."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1788458060,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 1788458060,
+    "context": [],
+    "tags": [
+     "injection"
+    ],
+    "kind": "classify",
+    "prompt": "Classifique cada trecho de código recebido na revisão.",
+    "categories": [
+     "Seguro",
+     "Vulnerável"
+    ],
+    "items": [
+     {
+      "text": "db.query(\"SELECT * FROM users WHERE email = ?\", [email])",
+      "detail": [
+       "Parâmetro separado do comando"
+      ]
+     },
+     {
+      "text": "os.system(\"convert \" + nomeArquivo + \" saida.png\")",
+      "detail": [
+       "Shell montado por concatenação"
+      ]
+     },
+     {
+      "text": "Usuário do banco com permissão apenas de SELECT e INSERT nas tabelas da aplicação",
+      "detail": [
+       "Sem DDL",
+       "Escopo restrito"
+      ]
+     },
+     {
+      "text": "if (!/^[0-9]{1,6}$/.test(id)) return erro(400)",
+      "detail": [
+       "Formato restrito",
+       "Verificado no servidor"
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     1,
+     0,
+     0
+    ],
+    "itemExplanations": [
+     "Consulta parametrizada: o banco trata o e-mail como valor.",
+     "Injeção de comando: um ponto e vírgula no nome do arquivo executa outro programa.",
+     "Menor privilégio: mesmo com uma falha, o alcance do ataque é pequeno.",
+     "Lista de permissão por formato, validada no servidor."
+    ],
+    "explanation": "Concatenar dado do usuário em consulta ou em HTML é a raiz das injeções. Parametrizar a consulta e escapar a saída elimina a classe inteira de problema.",
+    "hint": "Procure onde o dado do usuário entra na consulta ou na página."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

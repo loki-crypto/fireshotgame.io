@@ -10,6 +10,7 @@ from .common import GenContext
 from .firewall import firewall_rules, port_service_match
 from .lan import address_format_match, switch_table_match
 from .passwords import password_strength
+from .phishing import phishing_classify
 from .pool import classify_pool, match_pool, mc_pool
 from .subnet import subnet_numeric, subnet_same_network
 
@@ -26,6 +27,7 @@ GENERATORS: dict[str, Generator] = {
     "port_service_match": port_service_match,
     "firewall_rules": firewall_rules,
     "password_strength": password_strength,
+    "phishing_classify": phishing_classify,
 }
 
 

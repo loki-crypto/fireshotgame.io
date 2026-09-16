@@ -1,0 +1,2831 @@
+{
+ "source": "06-phishing/t3",
+ "generator": "match_pool",
+ "params": {
+  "pool": "phishing",
+  "count": 5,
+  "counterTags": [
+   "phishing"
+  ]
+ },
+ "seeds": [
+  {
+   "seed": 2654435761,
+   "sha256": "b6d1834bf79d2530427974e397d395c22907fa2c61651c372b4ada8fbaab7083"
+  },
+  {
+   "seed": 1013904226,
+   "sha256": "4ff3d04166a127169df87a0b9d635128c48ce959a19ed779eb5522a2abd239ce"
+  },
+  {
+   "seed": 3668339987,
+   "sha256": "30e749204b0818fff19b93a5ceb8a214c6e1fcb11495ae4395ac3b4492c8a711"
+  },
+  {
+   "seed": 2027808452,
+   "sha256": "7cf208c0e0a1a1bf819e78d6843ed8bb36733f68fd460590810d5ba5b2ae36d7"
+  },
+  {
+   "seed": 387276917,
+   "sha256": "b3fd13256419da7b423476123c17dd81bd7b859f4015938fa356be73640215b6"
+  },
+  {
+   "seed": 3041712678,
+   "sha256": "2bb9738fe1bb16ccc661edc86fff39bc6a6c2fdd7a1348a506ae0e0a39483e15"
+  },
+  {
+   "seed": 1401181143,
+   "sha256": "da8f95a8079304d5b0ff3fec5ba3762caac8e8ba549e35900e1bad3c1d17661b"
+  },
+  {
+   "seed": 4055616904,
+   "sha256": "9e29b0dd7a92d072e42b21aae49c40e0d27113b6872d740a29701cde17ebc280"
+  },
+  {
+   "seed": 2415085369,
+   "sha256": "1d1667d498cfc1315811eb8685d19ca08935399476f80969285032f7309a5835"
+  },
+  {
+   "seed": 774553834,
+   "sha256": "c1b9fe9801635af7ef506d70069fde7cc91d7a377af614f45bc92bd557747952"
+  },
+  {
+   "seed": 3428989595,
+   "sha256": "8b104b5723db9fda108d2f4f25d461593f0bf2b24ba627ceae15c7511f2c23c3"
+  },
+  {
+   "seed": 1788458060,
+   "sha256": "b0d9e25cbb0bc97553239eca5ccf11ede0fab4a58af2ec612f8a5cdc891b3723"
+  },
+  {
+   "seed": 147926525,
+   "sha256": "2747559e0b04bfc7009e0f8c426e3e571d9ba23834856b0b5ae0b28aaa41e711"
+  },
+  {
+   "seed": 2802362286,
+   "sha256": "cb1a7822bf2969d8b95b0dcfae1428320a719100b29f7b8d13f4bcd98e7ffad3"
+  },
+  {
+   "seed": 1161830751,
+   "sha256": "40975c6cff52a6bf002e24ec01e0a363e70a8f2e34ccb8a7eefbeb8d4b14adb4"
+  },
+  {
+   "seed": 3816266512,
+   "sha256": "7e29539a06103ed30b9e76f34e0ee60615b29908dde341f5eb97cd6563fd4a39"
+  },
+  {
+   "seed": 2175734977,
+   "sha256": "2bfef96137ccba3102824484ae00967237a88066b77555482708578d27fa900b"
+  },
+  {
+   "seed": 535203442,
+   "sha256": "742dd1d4e5ce605439c750d4f5d9b8f4eb2a061881294db58aeb5df3cae8e2ae"
+  },
+  {
+   "seed": 3189639203,
+   "sha256": "4455256605f68c6ffca0a7799e3d972ec4e92539850955de347a16f85908e1b4"
+  },
+  {
+   "seed": 1549107668,
+   "sha256": "8aff7d235be13e0a477f4365bc2461679272e5461910e528158922cecc6acb73"
+  },
+  {
+   "seed": 4203543429,
+   "sha256": "db6b6fb7ec4d6ff19b877408682833d6722bc1147916c994cb1265e66809820b"
+  },
+  {
+   "seed": 2563011894,
+   "sha256": "58df3506598778c7f58dcc2d3cd5a725b2ff3c7c73cd51792a4c3c44ec0445a4"
+  },
+  {
+   "seed": 922480359,
+   "sha256": "cb5e1cae6b3586f968f72f019a553af6e4a1a6a860dacf4fd9f4ee2035fb1eb6"
+  },
+  {
+   "seed": 3576916120,
+   "sha256": "76b452683f53f4aef3b6aad2c53596043393281d1170b00a8f87e4147ca3f3d1"
+  },
+  {
+   "seed": 1936384585,
+   "sha256": "101fde3fcb06992da543ae43b1d182ee9758ecb626ae1c2d63ffc7369dc8479d"
+  },
+  {
+   "seed": 295853050,
+   "sha256": "67adc9db4edb0d282db83954044b0d7530e260b8e5bb8334af33fbb11ad2a811"
+  },
+  {
+   "seed": 2950288811,
+   "sha256": "8ab8d046a080499136616c575bd93db8ce6d92001fd5aa516bd7abfd35ca5194"
+  },
+  {
+   "seed": 1309757276,
+   "sha256": "2139cf6c81667051017f5af29aa689ac127c1fb07805eb9fde184dd21a5e1476"
+  },
+  {
+   "seed": 3964193037,
+   "sha256": "fe501d1acd99a0424250d1cce9e91994a5f26877d7c47939e41ad0442ab0ce5a"
+  },
+  {
+   "seed": 2323661502,
+   "sha256": "d8e221fb7de4308123f9f88945b6a878c39cc0f9c2a45915e6a8e7c2bf25362e"
+  },
+  {
+   "seed": 683129967,
+   "sha256": "738180cd868fb835b949cb7125b448388e8305b0598bed0a92a5ff596c7438a8"
+  },
+  {
+   "seed": 3337565728,
+   "sha256": "675e8edadebbfe51198d9abd9590fed96a630ad7fcfaf77e2afdbf27ed283d72"
+  },
+  {
+   "seed": 1697034193,
+   "sha256": "6b4d5d42713e99802b77aca4258041e8d5b334cc1cf53039448210e163157fbf"
+  },
+  {
+   "seed": 56502658,
+   "sha256": "903b48be08e54050b2483d34fe1d32d7b8f3d2549c125c6bd01913144e30c9f0"
+  },
+  {
+   "seed": 2710938419,
+   "sha256": "35b77d3343c6fc77e1e23051b9e2b246d1b41f0e8b9924bc042fc584978aa75d"
+  },
+  {
+   "seed": 1070406884,
+   "sha256": "14a6251a7ddf1fd055d9bd311214558c5eb636f801169ba27598d15401fb8e95"
+  },
+  {
+   "seed": 3724842645,
+   "sha256": "b922007e88e34cf31787d0fe92dfd514456fb49d22402227af2a27c1210071ab"
+  },
+  {
+   "seed": 2084311110,
+   "sha256": "23534a6413aafaf30603778738be39a25e2a65b0d02659141815ce619a90170c"
+  },
+  {
+   "seed": 443779575,
+   "sha256": "cc09a3d9ff547d53e8102fc283fa98ecd0c58b5dd2b58b78b10f2a8dd05217fd"
+  },
+  {
+   "seed": 3098215336,
+   "sha256": "20593cbc3882475b525b3459717ff718cc6a814008f3a97dab42b26aec5e8b32"
+  },
+  {
+   "seed": 1457683801,
+   "sha256": "9ac44817c589088ecaa2a78978bb684d96a145c189595d1b3a7d48e243ac4164"
+  },
+  {
+   "seed": 4112119562,
+   "sha256": "b0ec58d9b017836569982a9d26e04e66c6b1f9041bfd909141c7beae57b482f2"
+  },
+  {
+   "seed": 2471588027,
+   "sha256": "b88f0caa714fb9befccac422c77f32807303ca6524bcec1aae482bd918676071"
+  },
+  {
+   "seed": 831056492,
+   "sha256": "14fce900e37c9588c67b1a4d836fbbece8df1d3b1a911774028e029be1b0181a"
+  },
+  {
+   "seed": 3485492253,
+   "sha256": "711bfc0248a0cb110ee02eefcce51612d52e22b76e2e88a1f8dd7e0cdb8253fb"
+  },
+  {
+   "seed": 1844960718,
+   "sha256": "6b6c49131e78b1e205832c53f6aaa88d47e566695f315571fed218802e18e2a6"
+  },
+  {
+   "seed": 204429183,
+   "sha256": "cf385e0f6d4e4c0897ca510df8f8f459124c1dc9497bd19eb5ec1649eefbf3ee"
+  },
+  {
+   "seed": 2858864944,
+   "sha256": "e68bf4769af93e140a5a65d43ceb9dd2173f504626b995fa54fac6ecedcb366f"
+  },
+  {
+   "seed": 1218333409,
+   "sha256": "efa0c792ebf988713289d43d4f1715c5ac703c355a739b7c92ec4dc024ad2d38"
+  },
+  {
+   "seed": 3872769170,
+   "sha256": "403164b9b53ab0a0e979970cc5f748718991c6879e1d87244f322b705a255679"
+  },
+  {
+   "seed": 2232237635,
+   "sha256": "eb044ee0c35d0ddf481910a6c6a93395e6a2849a6eb6ab167b5bd0b3c35d847c"
+  },
+  {
+   "seed": 591706100,
+   "sha256": "ae2290a1566bb0444ad10bd6a9d156627939fb565a73a457d3860a062a2f4b41"
+  },
+  {
+   "seed": 3246141861,
+   "sha256": "58b0747b9c8f0f135c443fe2ac54f24d9401437c095fce6323b0032b7a7ae187"
+  },
+  {
+   "seed": 1605610326,
+   "sha256": "c31290c3d23ffd963e0d27c8507df36f378b949344ccfc6870b1733e45c2dac2"
+  },
+  {
+   "seed": 4260046087,
+   "sha256": "9cdeb6d44ca97b214590e582c4f215964c1bec27d7e0792a928c2098ae9f23dd"
+  },
+  {
+   "seed": 2619514552,
+   "sha256": "249cd5e572da35e2192bec4ae6574d9d17f5def46c8b1ee9418f3c5f54a71b08"
+  },
+  {
+   "seed": 978983017,
+   "sha256": "2ec7bc80fd2a1db78d5d35c158a928e3d4d018b1e481538fdc97271e88efd123"
+  },
+  {
+   "seed": 3633418778,
+   "sha256": "bd3ed415c76927e9e8036b99a715bb7d926344f39c94cb166e683f768d6d01c2"
+  },
+  {
+   "seed": 1992887243,
+   "sha256": "561e750f467f6bd0a0f3f2c25cb0ccfb4c0668fe681ede5cb366f062b0b2a0b2"
+  },
+  {
+   "seed": 352355708,
+   "sha256": "e4566bcd10ece1b21a4d3e5c003cb35bb41caec017adf73669eccac3f1b45ddd"
+  },
+  {
+   "seed": 3006791469,
+   "sha256": "bfc2e53e32b4930d531c874298ee5adf266ad490538b619c68949a84c9db425f"
+  },
+  {
+   "seed": 1366259934,
+   "sha256": "09279784d1ae67e7de0ee6ddc0223c3b088742652fc1076f127ab95ee9e336b1"
+  },
+  {
+   "seed": 4020695695,
+   "sha256": "4443c496e22c2279d9a3a72ab1f518f6a75fb00ac1f3112482224b720fa12fd3"
+  },
+  {
+   "seed": 2380164160,
+   "sha256": "be5cc7c8c9bedcc778fb818b3a92dc24a737b8f6088454f511e2f7d2eeb5236a"
+  },
+  {
+   "seed": 739632625,
+   "sha256": "faba399f223b31c77a6b8245f6f0ce46c55b625f02badffa5e952b8feadf078b"
+  },
+  {
+   "seed": 3394068386,
+   "sha256": "f64d992e75676c0ef50fb4c2c21b2af1f24345d530336090a3cadd5548be16bc"
+  },
+  {
+   "seed": 1753536851,
+   "sha256": "c54e3ac62c13398a43a69ecf77e59da343091b97071402cd562109179c0af901"
+  },
+  {
+   "seed": 113005316,
+   "sha256": "2374e29e48dfc7dd6204bdab8113bf96d85dbcb46070ac222e47c8f7bb96315b"
+  },
+  {
+   "seed": 2767441077,
+   "sha256": "10698b01785b28643d3e8b30298fd4cd4eccd7b1d1f87d66c8f366a7fa88b48a"
+  },
+  {
+   "seed": 1126909542,
+   "sha256": "640b10d8ff8de98c50374c32119d58f05c157800c6deacd7c53527a23b7fafcb"
+  },
+  {
+   "seed": 3781345303,
+   "sha256": "e393649872ce218888e08519f886954acb1aa81e04291d0d4878d6566e1006d1"
+  },
+  {
+   "seed": 2140813768,
+   "sha256": "4e7db0ca6d19a5cb1c87ee2b30838510dd4aed1a6b7844b699236803d27de1b4"
+  },
+  {
+   "seed": 500282233,
+   "sha256": "d835c57ad417a41b2ef5619128bac3ebd49bf4e16aab479730f11f8602606fdb"
+  },
+  {
+   "seed": 3154717994,
+   "sha256": "a533787af4fc704d05b7a33c9488454b0984fd7ad4d5e2c06f843422bf32979e"
+  },
+  {
+   "seed": 1514186459,
+   "sha256": "c033d053f3cf8e6f5b7036b3fa34f96ee4f872c30404ce70b4fb98f4abe22dea"
+  },
+  {
+   "seed": 4168622220,
+   "sha256": "6759bb46a5aa7fd2be2bfaacee0a9e56e97786950c544b635d7036216da9b1b7"
+  },
+  {
+   "seed": 2528090685,
+   "sha256": "a736ee4853be567c549f0d70d74aa9973a1ff923ca6a28092a65022213626699"
+  },
+  {
+   "seed": 887559150,
+   "sha256": "ac2b5e3534e2728749f30dc98a422b972577c671b2ec262b84aac1837942250a"
+  },
+  {
+   "seed": 3541994911,
+   "sha256": "21921cb21325e257e82f9dd14c29fba14116d77854d3a91eb60249bdc3d3337c"
+  },
+  {
+   "seed": 1901463376,
+   "sha256": "cc769c4c382bc02d8dc130d161f5317c02447ea17e49b4ab6104192ca03fd24e"
+  },
+  {
+   "seed": 260931841,
+   "sha256": "1b8f115399e3e3c681e1d59490a232534e01d44795959c6bef57419f856039f8"
+  },
+  {
+   "seed": 2915367602,
+   "sha256": "db5c1bca14c48e7af3f5c09a4f1eff97a8ded42cf60b8b7b09af4906b22cf876"
+  },
+  {
+   "seed": 1274836067,
+   "sha256": "0f61e76d4759b8e626545954635fa6b42afa0c29f4955ebd8e1d11c558007fd5"
+  },
+  {
+   "seed": 3929271828,
+   "sha256": "9c47ee6ca106e47d500d6ba8a62afb3f65f57196a0c9e5619e8b3ae653b757d1"
+  },
+  {
+   "seed": 2288740293,
+   "sha256": "b00e617d7d982c0d8c82bceb0717c39063c5509bcfd4be749135f5bf116cf3d5"
+  },
+  {
+   "seed": 648208758,
+   "sha256": "b3996df84d316dca8e19d4cee068500d62e7435f9aa3983ee53c6ff3e9c8cb4a"
+  },
+  {
+   "seed": 3302644519,
+   "sha256": "f70820f3372ce067471083b4428c9930c6eab102a70dd44cc06d82a6b415b292"
+  },
+  {
+   "seed": 1662112984,
+   "sha256": "1ce215e2ef593ee115e8e943329639d47119ca3547c2bb569a7d1ad39aca8153"
+  },
+  {
+   "seed": 21581449,
+   "sha256": "beb90582e951b5df5abc026f3e6a65a1b741ebd1255b2dd6307562eabab84c3b"
+  },
+  {
+   "seed": 2676017210,
+   "sha256": "abc81a6859495758e40e4541d54cdfda5cfe321f82957d8bdaeaa2e7a6c42bf1"
+  },
+  {
+   "seed": 1035485675,
+   "sha256": "8122877d58d3dc8fa161425b8bd9ea27a46fd4564844d2a3ae1ed297ef57a96a"
+  },
+  {
+   "seed": 3689921436,
+   "sha256": "b84bb27dfe65b6a3914c155d05580e55aa5df1bd9fca3af13b29b7b605b39604"
+  },
+  {
+   "seed": 2049389901,
+   "sha256": "d0a11e114dd9728da1e5bdabb692b8f60e8786e2aad00d28758457210c06ca1b"
+  },
+  {
+   "seed": 408858366,
+   "sha256": "699552c7e1b8c5bac1cf2ad794933245ecd412dce5b5e5580ad39d5ccf7c3dc3"
+  },
+  {
+   "seed": 3063294127,
+   "sha256": "f2f0a473c23364c6f296b4dbc70a219d7db30860cb947229390ee614582e0959"
+  },
+  {
+   "seed": 1422762592,
+   "sha256": "1e208536b4bc2d2362f645d1fb3bf5e3e5ed01b9da966aa6dba555ac4998a37e"
+  },
+  {
+   "seed": 4077198353,
+   "sha256": "6e0d55ad9e9d10cffa4649bb0f5036eaf5d90e61674f2cdef9865015d6a5af27"
+  },
+  {
+   "seed": 2436666818,
+   "sha256": "80797fb424a63cd0c486347fe188e5ed156cbe1d55ea7aca0811a2d26ab27489"
+  },
+  {
+   "seed": 796135283,
+   "sha256": "d2e7b4dbfbe87c2dfb2959c09e6ce37b56a88e0f00b5236c1095bc2400e01f41"
+  },
+  {
+   "seed": 3450571044,
+   "sha256": "5887f3e00f49c6cde3a10ed730f25e8793edab7c40e31547bc4d5ba50243abaa"
+  },
+  {
+   "seed": 1810039509,
+   "sha256": "7bda7ff2e795d701ddf54ad2d349973f7935b54c72e39ab56d85e55765ed153a"
+  },
+  {
+   "seed": 169507974,
+   "sha256": "229af75c4fce6a367300be5cf7ea8c0d938036de2d8f107fae9015316eef2e30"
+  },
+  {
+   "seed": 2823943735,
+   "sha256": "9f2ae290d61563c24c370473f982a06801e9515719fda951e35f9105827fb3b0"
+  },
+  {
+   "seed": 1183412200,
+   "sha256": "c74aeefb7c57699531d2941de55cd2ffa1983b50497b2302112f65648b9c0902"
+  },
+  {
+   "seed": 3837847961,
+   "sha256": "b5d8e6aebca054803e2fab9c6cf38cd299402e3214dc5807de261bfe7701f077"
+  },
+  {
+   "seed": 2197316426,
+   "sha256": "56bb9965605dd17db443f9de5d26da9a67a7435b508c8e6c926f08f5b017d615"
+  },
+  {
+   "seed": 556784891,
+   "sha256": "d1abd720e69f40dab4d356245f430a5c40583908a4f40852d157aeb395372d6c"
+  },
+  {
+   "seed": 3211220652,
+   "sha256": "af40bbcec5fbceb2f6ef9a5d110be9ad178e1f68a735ad2b85f7a67b18d96237"
+  },
+  {
+   "seed": 1570689117,
+   "sha256": "eae47e68e4918195a6689cba70e5027401e2879a9e855278751b1e88fb9990cd"
+  },
+  {
+   "seed": 4225124878,
+   "sha256": "21d6c9ce9df41af2964ecf3d70c6d2ed9b4a7107a8bac613fb52ff3a3e2a5fe4"
+  },
+  {
+   "seed": 2584593343,
+   "sha256": "beabedc7692a4a13713fa17aadd8fe2c9f1dbf7f048d59b49a229f601d8548db"
+  },
+  {
+   "seed": 944061808,
+   "sha256": "9fba8dfc2596f04a093356feb9cf030448ac6d791a51c03c867279c85a39a782"
+  },
+  {
+   "seed": 3598497569,
+   "sha256": "546d1d59ff9867da92041b6c5df08f48a6a33d020502bb66f54f18338c0010a5"
+  },
+  {
+   "seed": 1957966034,
+   "sha256": "f2baf9b9db80b7398a462388aa98da4ef8b2e38994e081c02e9f60620d573b4c"
+  },
+  {
+   "seed": 317434499,
+   "sha256": "effe55d7f4ce08012e30f125bb723098b307fc31dbcb5d40e912be8ce5501a3e"
+  },
+  {
+   "seed": 2971870260,
+   "sha256": "5ff27b42a7210e6eb4306bf27fbedfaa750e68185d0b136818ed2bacac31b0ca"
+  },
+  {
+   "seed": 1331338725,
+   "sha256": "d8e61be4d682db040965bb3858ed427c9a6861c945118ef9d054bddf5f1da552"
+  },
+  {
+   "seed": 3985774486,
+   "sha256": "092fbd81b6915adbafa9d335cbf4810272844a1af78c148d592aa53b50660976"
+  },
+  {
+   "seed": 2345242951,
+   "sha256": "ab3d57bd59c86589633b37c5c13122a68c646cf19e3cdff8d84122ff8d1add7a"
+  },
+  {
+   "seed": 704711416,
+   "sha256": "c1e2971e086edbc452830e5bdbded9401b279207c29035d6648e4549ca0ed9f5"
+  },
+  {
+   "seed": 3359147177,
+   "sha256": "754ad60f22d1ddee314f644a6d163535a0180231cd8cd5238d694c584f64e232"
+  },
+  {
+   "seed": 1718615642,
+   "sha256": "b02238add6faa6b86697396d6edb7c7d7d17c290283d08897d64a15791f7585a"
+  },
+  {
+   "seed": 78084107,
+   "sha256": "7e4e3a5b3f8eab31f6072966ce7b8f98e37ba6f7c6858e2d4871f27d10ed16a8"
+  },
+  {
+   "seed": 2732519868,
+   "sha256": "42cd51af5ac816edaa835a8541a400fa91a3887247dee7732104e41fedd82e69"
+  },
+  {
+   "seed": 1091988333,
+   "sha256": "2814944b1b7542530ea61385ac16290310a96381dc88bfe1a53e3587b229f0c1"
+  },
+  {
+   "seed": 3746424094,
+   "sha256": "46e6bebd721f4a511b7664b86f5a11207fccfd81084fa6cf80ec5cc46afd6de7"
+  },
+  {
+   "seed": 2105892559,
+   "sha256": "4385856ef3006313239444abb0b520cd5bd09c5ce4d014b3a6763821ba910f72"
+  },
+  {
+   "seed": 465361024,
+   "sha256": "4908f8fe344f094b9167c2d1dec588aa8bf1d07d06734fc9492c2943f9fd46a3"
+  },
+  {
+   "seed": 3119796785,
+   "sha256": "01355baf8ddeed9239b46eac5c58213d310ade89e8882742b5d9b55b055dcfcd"
+  },
+  {
+   "seed": 1479265250,
+   "sha256": "5f3429a9829a582107575b822a743cef7256e9ec478202cd15df74267e20f08a"
+  },
+  {
+   "seed": 4133701011,
+   "sha256": "25a762c4c49cd1d1d67d525bc98d7b4f89a6e7c2e0468270b5602ef9fc8a460c"
+  },
+  {
+   "seed": 2493169476,
+   "sha256": "f0056b69ff7ca5dfc3c5bbd0891dd3ea109777f14c3a96b1556bc198eada084b"
+  },
+  {
+   "seed": 852637941,
+   "sha256": "f9a4c0ba1eef65bbcaefac010afaeeddce67809266a50a60c32368a9ef3a41c6"
+  },
+  {
+   "seed": 3507073702,
+   "sha256": "5acc6b35e4031706d4decbe82366193cddc1ddd96e75186954528533631dfd8b"
+  },
+  {
+   "seed": 1866542167,
+   "sha256": "0badc055070788a1a69aa5130aaff6424315ae70f8d6b35767530e2e586e6e12"
+  },
+  {
+   "seed": 226010632,
+   "sha256": "33785e5c47aa7000b81a4afab46c19cfbb91c5a10d48d5b49f173e2bfc592214"
+  },
+  {
+   "seed": 2880446393,
+   "sha256": "488d3e78dd3657b69fb0a139ac4768a81ec1c07cb5a14e6e81bf762a99bf8afc"
+  },
+  {
+   "seed": 1239914858,
+   "sha256": "5d091efc0a531ad50a3440d0f4c872eaf5710e4b7dcdea8466f979e293905e03"
+  },
+  {
+   "seed": 3894350619,
+   "sha256": "9314f3af1636d77ab6185f2390def0a48c7479ac08712b8b12ae52e617527bdc"
+  },
+  {
+   "seed": 2253819084,
+   "sha256": "9051addde036ccc19976415988d6ca754aeb29c8ffe6bad0ae60684d116d3436"
+  },
+  {
+   "seed": 613287549,
+   "sha256": "be24b6a58613077c3d98807790497c05f859dd7ba2bc3cb5e15fbe65589ba7f8"
+  },
+  {
+   "seed": 3267723310,
+   "sha256": "6522baf4b6413a6114f0bec6333998c7e215eb35dbdfb0468eb5bc9488b74fd1"
+  },
+  {
+   "seed": 1627191775,
+   "sha256": "baeabc460bf2ebef0c787341e27eb2efd3871454912a1a382d8654f16694b3bf"
+  },
+  {
+   "seed": 4281627536,
+   "sha256": "11bd32fe3289b6bcd89e0e936bc1e1b23463899c660df7c19ad0079631dee013"
+  },
+  {
+   "seed": 2641096001,
+   "sha256": "a99ab9934973100f4a17cdc0ae8316d3b450475097f0e2a15f927e3b52d7f3ae"
+  },
+  {
+   "seed": 1000564466,
+   "sha256": "f0872cc28fbf58252845a67d46b09fdcbf8a442b50c435636e24e8a85b2c2792"
+  },
+  {
+   "seed": 3655000227,
+   "sha256": "90dd2ba0d4ffb33a1ef78f5c89244aff9abcd6701fb7eb99910dd9d93e856699"
+  },
+  {
+   "seed": 2014468692,
+   "sha256": "90f17630ef9ad7f9501e6b509f1193a0fa4d429d58387beabe8717bf95e56e3f"
+  },
+  {
+   "seed": 373937157,
+   "sha256": "65b641e872f74c3c31e66b194e1d137cd358e8700f797d6ef73d2bd229a0c30f"
+  },
+  {
+   "seed": 3028372918,
+   "sha256": "a469cf7b8841054a88ce59770ee25dbd54e7ec6ddd7b1a0825ef9d5e72276c76"
+  },
+  {
+   "seed": 1387841383,
+   "sha256": "f0b952d518b28ec452d30387eca886f0879f0b84d347638920cb83fab497d4d6"
+  },
+  {
+   "seed": 4042277144,
+   "sha256": "8481fa0a8bec5de5a550b6000af3127fb856cdd2639b4df406d523af53de6664"
+  },
+  {
+   "seed": 2401745609,
+   "sha256": "9ac3a933bfc051d4f8fc8e765270fef24a7f464ccfaf64f4206c34016d34ccd9"
+  },
+  {
+   "seed": 761214074,
+   "sha256": "7b682c74ba57627e6453f39f12fd813d8d85cd247473d0a78cabdd902e83d712"
+  },
+  {
+   "seed": 3415649835,
+   "sha256": "e52ef3e375da3d617dab9640353ff9ab69ee0c625a3a7330cd25b71fd3e43a37"
+  },
+  {
+   "seed": 1775118300,
+   "sha256": "8ed4acc7f21a9f58bc968cefd5991d7d653409e5a72499adc438d7c6771b56a2"
+  },
+  {
+   "seed": 134586765,
+   "sha256": "6fe12076ee4b056307c002c458da20385e79ee1f70c949f2abaf132a584f41ae"
+  },
+  {
+   "seed": 2789022526,
+   "sha256": "dc88c8003512c6f7cee3829a5588a7e2f485fafdecab27207745c37f89beaf65"
+  },
+  {
+   "seed": 1148490991,
+   "sha256": "a20a734078a8d5f857bb9b92241ce7a8d9772067dc330d9c7d7e46114ea6debd"
+  },
+  {
+   "seed": 3802926752,
+   "sha256": "ad010b3311b1c2ace1f7ad867538412daa1b89ca5ed439dfab4ff0ec30454bf3"
+  },
+  {
+   "seed": 2162395217,
+   "sha256": "2dc8d0fed71a40346c0a6f1ec9d1c59061cda2215125e911b38b814b87d913d6"
+  },
+  {
+   "seed": 521863682,
+   "sha256": "4f696ab16e87d3ea9a0fe7682b7570cedb5e9e31d9ce1927bc3685be05f36cf1"
+  },
+  {
+   "seed": 3176299443,
+   "sha256": "5b3829a881800f29b71ba978b42708ce13634f64c390e2bb57d57ef4a3acd777"
+  },
+  {
+   "seed": 1535767908,
+   "sha256": "2f52a7f9472f26eb2e38eda5393bf4bbc119f7bafa636d98ea09a4b56d9c0da4"
+  },
+  {
+   "seed": 4190203669,
+   "sha256": "161383bd94d447c07b1dff73febe6505842582f330a21b70be81338026d874f7"
+  },
+  {
+   "seed": 2549672134,
+   "sha256": "898482058ebec4e587dff6392b62656fa9f7c79d00302437c20590ce1aa97cce"
+  },
+  {
+   "seed": 909140599,
+   "sha256": "e23407944252447e189741cfe9ab4868558403a1f863f3c458896a6b3488f708"
+  },
+  {
+   "seed": 3563576360,
+   "sha256": "9967292f13d6643f35982ff7e25d97f476c288049e38cc856169012f9a2e3ad9"
+  },
+  {
+   "seed": 1923044825,
+   "sha256": "9b3f8df6f60ae84020eb17950a5640c0f606d33a8d0a433f43b7fa403500e789"
+  },
+  {
+   "seed": 282513290,
+   "sha256": "f22c1bee20384524bb2617b051ad9bfe21eb2516440aa58af0583e06ad9c5ff8"
+  },
+  {
+   "seed": 2936949051,
+   "sha256": "c9d0cad8a5e4b125b21973c7bc1cee1c7b0a0103845430c50da1721e34284e66"
+  },
+  {
+   "seed": 1296417516,
+   "sha256": "403cfe2db32000af5205ded0dfd0717330af5c18d368fe9f531a55f5718b3cd0"
+  },
+  {
+   "seed": 3950853277,
+   "sha256": "e096941e5b9e31c96e529b574349641317fdcee94056217b155289a934079b42"
+  },
+  {
+   "seed": 2310321742,
+   "sha256": "f2e4b2c60b6320f51bda36207df59516fd1afd23c8a54c336ae4c1fb76d5ed54"
+  },
+  {
+   "seed": 669790207,
+   "sha256": "e11a8a80894f9feda46ebb3187d1d8744f4854d13fb1098fe12de2b64c8b0c43"
+  },
+  {
+   "seed": 3324225968,
+   "sha256": "4140dec104030a1a6ecc1e1110285bd04ef4b6b8e92f8fb09e5650f99480170a"
+  },
+  {
+   "seed": 1683694433,
+   "sha256": "e0200360563806a7248cd3182ff53afcd5e5c3818bcee0739e14f976095ff708"
+  },
+  {
+   "seed": 43162898,
+   "sha256": "bb233f2e33bf17595d47e23785ed1f2ce6d36121a2f4cf0b4d6899f542e53539"
+  },
+  {
+   "seed": 2697598659,
+   "sha256": "35c5bfdeb092115fe46e33f08cc2078741224c6465d6072dc0c73e8cfecf5d9c"
+  },
+  {
+   "seed": 1057067124,
+   "sha256": "794550a74b100d86630bcbcc479af078eedf9037eb97b969bfd71e21ed14853c"
+  },
+  {
+   "seed": 3711502885,
+   "sha256": "8609a9a515b0bf285b2e86f5ea64a0b49bac6e1de859b9f92316d941568c817a"
+  },
+  {
+   "seed": 2070971350,
+   "sha256": "7e3bc3c457dba2b78974be4da47a848ba2027c0ec5b06909cd7c706a699f56d8"
+  },
+  {
+   "seed": 430439815,
+   "sha256": "111163b1657b0d21db6760813e26585da301bf21b9e0244740fc59d956488417"
+  },
+  {
+   "seed": 3084875576,
+   "sha256": "b7df3015a8895ebc690d3b966f68d4133564cfa87f9f3f849229445d13234e21"
+  },
+  {
+   "seed": 1444344041,
+   "sha256": "72295ab0fe68ae2f36d6ee801087389bf30eabd9b66744e2370062b39fd85841"
+  },
+  {
+   "seed": 4098779802,
+   "sha256": "9abe5df0c9fea162daae3dcd3e63e9972b0d37bfcfddfde8c6a08f76bd4251b5"
+  },
+  {
+   "seed": 2458248267,
+   "sha256": "a34e363165c8175af5e520ba2497a318f3effe7f3b31af9f34bdb3e1e76a6fbe"
+  },
+  {
+   "seed": 817716732,
+   "sha256": "04cb0cf99ed0f17c6375c72b75ce2b0ba185dfeadf1d9fef8df02c0ac518fcc1"
+  },
+  {
+   "seed": 3472152493,
+   "sha256": "50fae01423a3d6a61f3a949ca0a0cf11ea3babb4ba45a97a1f474d3639e23f00"
+  },
+  {
+   "seed": 1831620958,
+   "sha256": "f1efdfa4135040432284cc7a11f0b619de1da55cf989fc56e82dda29d3b46335"
+  },
+  {
+   "seed": 191089423,
+   "sha256": "a5fc3b0625413bf5ee5d83626069bf0e5e625e13f1dcc34133d8c7b52b4e6002"
+  },
+  {
+   "seed": 2845525184,
+   "sha256": "204fddb6a4d5e46d678fa770d36489a3788391f35a2f1691ebbf0eeba06fdc49"
+  },
+  {
+   "seed": 1204993649,
+   "sha256": "4af3745a34fc49aa8aacf8e66256f068614537fea706f70c2b7983572615ae16"
+  },
+  {
+   "seed": 3859429410,
+   "sha256": "1bb8c1c08bc88ad81c9ca2556fd633ae0007e463c8d034822b417e22291fa83c"
+  },
+  {
+   "seed": 2218897875,
+   "sha256": "9624e43ce1e3c18795c06b53c2282b43e8aba7880d1925f8c40a775461c61879"
+  },
+  {
+   "seed": 578366340,
+   "sha256": "b3fcae33978bd7f834b83a57a79f125f79deaf3d5c5608ce8e4c523b56b99cfd"
+  },
+  {
+   "seed": 3232802101,
+   "sha256": "d9b6c59609854186cd4ef477608ca56acf66689078ec6b089de242a0cb3bee7c"
+  },
+  {
+   "seed": 1592270566,
+   "sha256": "2f36c94b2fba3e42c9a20b222c5075ab10d61aa15834ea827244277e76497df0"
+  },
+  {
+   "seed": 4246706327,
+   "sha256": "6fdf24c882625a2f837cfd712ae0375c654254589cb8d69703603f01e0fdfc2f"
+  },
+  {
+   "seed": 2606174792,
+   "sha256": "741d586ac049fcf4c28cb723420294e6a323172c8d2fb6839f075cde1705041f"
+  }
+ ],
+ "samples": [
+  {
+   "seed": 2654435761,
+   "question": {
+    "generator": "match_pool",
+    "seed": 2654435761,
+    "context": [],
+    "tags": [
+     "phishing"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada sinal de fraude ao que ele indica.",
+    "left": [
+     "Página de login fora do domínio",
+     "Prêmio com taxa antecipada",
+     "Prazo de poucas horas",
+     "Domínio parecido com o oficial",
+     "Pedido do código do SMS"
+    ],
+    "right": [
+     "Captura de credenciais",
+     "Urgência artificial para impedir a verificação",
+     "Tentativa de furar o segundo fator",
+     "Fraude de pagamento adiantado",
+     "Typosquatting: imita a marca para enganar o olhar"
+    ],
+    "answer": [
+     0,
+     3,
+     1,
+     4,
+     2
+    ],
+    "explanation": "Página de login fora do domínio: Captura de credenciais. Prêmio com taxa antecipada: Fraude de pagamento adiantado. Prazo de poucas horas: Urgência artificial para impedir a verificação. Domínio parecido com o oficial: Typosquatting: imita a marca para enganar o olhar. Pedido do código do SMS: Tentativa de furar o segundo fator.",
+    "hint": "Pense no que cada pista revela sobre a intenção da mensagem."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      3,
+      1,
+      4,
+      2
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      4,
+      2,
+      0,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      3,
+      1,
+      4,
+      2,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      3,
+      1,
+      4,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1013904226,
+   "question": {
+    "generator": "match_pool",
+    "seed": 1013904226,
+    "context": [],
+    "tags": [
+     "phishing"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada sinal de fraude ao que ele indica.",
+    "left": [
+     "Domínio parecido com o oficial",
+     "Prêmio com taxa antecipada",
+     "Prazo de poucas horas",
+     "Anexo pedindo macros",
+     "Pedido do código do SMS"
+    ],
+    "right": [
+     "Urgência artificial para impedir a verificação",
+     "Typosquatting: imita a marca para enganar o olhar",
+     "Execução de código no seu computador",
+     "Tentativa de furar o segundo fator",
+     "Fraude de pagamento adiantado"
+    ],
+    "answer": [
+     1,
+     4,
+     0,
+     2,
+     3
+    ],
+    "explanation": "Domínio parecido com o oficial: Typosquatting: imita a marca para enganar o olhar. Prêmio com taxa antecipada: Fraude de pagamento adiantado. Prazo de poucas horas: Urgência artificial para impedir a verificação. Anexo pedindo macros: Execução de código no seu computador. Pedido do código do SMS: Tentativa de furar o segundo fator.",
+    "hint": "Pense no que cada pista revela sobre a intenção da mensagem."
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      4,
+      0,
+      2,
+      3
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      0,
+      1,
+      3,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      4,
+      0,
+      2,
+      3,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      4,
+      0,
+      2,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3668339987,
+   "question": {
+    "generator": "match_pool",
+    "seed": 3668339987,
+    "context": [],
+    "tags": [
+     "phishing"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada sinal de fraude ao que ele indica.",
+    "left": [
+     "Prêmio com taxa antecipada",
+     "Domínio parecido com o oficial",
+     "Anexo pedindo macros",
+     "Página de login fora do domínio",
+     "Pedido do código do SMS"
+    ],
+    "right": [
+     "Typosquatting: imita a marca para enganar o olhar",
+     "Tentativa de furar o segundo fator",
+     "Captura de credenciais",
+     "Execução de código no seu computador",
+     "Fraude de pagamento adiantado"
+    ],
+    "answer": [
+     4,
+     0,
+     3,
+     2,
+     1
+    ],
+    "explanation": "Prêmio com taxa antecipada: Fraude de pagamento adiantado. Domínio parecido com o oficial: Typosquatting: imita a marca para enganar o olhar. Anexo pedindo macros: Execução de código no seu computador. Página de login fora do domínio: Captura de credenciais. Pedido do código do SMS: Tentativa de furar o segundo fator.",
+    "hint": "Pense no que cada pista revela sobre a intenção da mensagem."
+   },
+   "checks": [
+    {
+     "answer": [
+      4,
+      0,
+      3,
+      2,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      4,
+      3,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      3,
+      2,
+      1,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      3,
+      2,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2027808452,
+   "question": {
+    "generator": "match_pool",
+    "seed": 2027808452,
+    "context": [],
+    "tags": [
+     "phishing"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada sinal de fraude ao que ele indica.",
+    "left": [
+     "Prazo de poucas horas",
+     "Pedido do código do SMS",
+     "Domínio parecido com o oficial",
+     "Página de login fora do domínio",
+     "Anexo pedindo macros"
+    ],
+    "right": [
+     "Typosquatting: imita a marca para enganar o olhar",
+     "Urgência artificial para impedir a verificação",
+     "Captura de credenciais",
+     "Tentativa de furar o segundo fator",
+     "Execução de código no seu computador"
+    ],
+    "answer": [
+     1,
+     3,
+     0,
+     2,
+     4
+    ],
+    "explanation": "Prazo de poucas horas: Urgência artificial para impedir a verificação. Pedido do código do SMS: Tentativa de furar o segundo fator. Domínio parecido com o oficial: Typosquatting: imita a marca para enganar o olhar. Página de login fora do domínio: Captura de credenciais. Anexo pedindo macros: Execução de código no seu computador.",
+    "hint": "Pense no que cada pista revela sobre a intenção da mensagem."
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      3,
+      0,
+      2,
+      4
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      4,
+      1,
+      3,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      3,
+      0,
+      2,
+      4,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      3,
+      0,
+      2,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 387276917,
+   "question": {
+    "generator": "match_pool",
+    "seed": 387276917,
+    "context": [],
+    "tags": [
+     "phishing"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada sinal de fraude ao que ele indica.",
+    "left": [
+     "Anexo pedindo macros",
+     "Pedido do código do SMS",
+     "Domínio parecido com o oficial",
+     "Página de login fora do domínio",
+     "Prêmio com taxa antecipada"
+    ],
+    "right": [
+     "Typosquatting: imita a marca para enganar o olhar",
+     "Captura de credenciais",
+     "Fraude de pagamento adiantado",
+     "Tentativa de furar o segundo fator",
+     "Execução de código no seu computador"
+    ],
+    "answer": [
+     4,
+     3,
+     0,
+     1,
+     2
+    ],
+    "explanation": "Anexo pedindo macros: Execução de código no seu computador. Pedido do código do SMS: Tentativa de furar o segundo fator. Domínio parecido com o oficial: Typosquatting: imita a marca para enganar o olhar. Página de login fora do domínio: Captura de credenciais. Prêmio com taxa antecipada: Fraude de pagamento adiantado.",
+    "hint": "Pense no que cada pista revela sobre a intenção da mensagem."
+   },
+   "checks": [
+    {
+     "answer": [
+      4,
+      3,
+      0,
+      1,
+      2
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      4,
+      1,
+      2,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      3,
+      0,
+      1,
+      2,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      3,
+      0,
+      1,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3041712678,
+   "question": {
+    "generator": "match_pool",
+    "seed": 3041712678,
+    "context": [],
+    "tags": [
+     "phishing"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada sinal de fraude ao que ele indica.",
+    "left": [
+     "Anexo pedindo macros",
+     "Página de login fora do domínio",
+     "Domínio parecido com o oficial",
+     "Prêmio com taxa antecipada",
+     "Pedido do código do SMS"
+    ],
+    "right": [
+     "Fraude de pagamento adiantado",
+     "Typosquatting: imita a marca para enganar o olhar",
+     "Captura de credenciais",
+     "Tentativa de furar o segundo fator",
+     "Execução de código no seu computador"
+    ],
+    "answer": [
+     4,
+     2,
+     1,
+     0,
+     3
+    ],
+    "explanation": "Anexo pedindo macros: Execução de código no seu computador. Página de login fora do domínio: Captura de credenciais. Domínio parecido com o oficial: Typosquatting: imita a marca para enganar o olhar. Prêmio com taxa antecipada: Fraude de pagamento adiantado. Pedido do código do SMS: Tentativa de furar o segundo fator.",
+    "hint": "Pense no que cada pista revela sobre a intenção da mensagem."
+   },
+   "checks": [
+    {
+     "answer": [
+      4,
+      2,
+      1,
+      0,
+      3
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      3,
+      2,
+      1,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      1,
+      0,
+      3,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      2,
+      1,
+      0,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1401181143,
+   "question": {
+    "generator": "match_pool",
+    "seed": 1401181143,
+    "context": [],
+    "tags": [
+     "phishing"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada sinal de fraude ao que ele indica.",
+    "left": [
+     "Anexo pedindo macros",
+     "Prazo de poucas horas",
+     "Prêmio com taxa antecipada",
+     "Pedido do código do SMS",
+     "Domínio parecido com o oficial"
+    ],
+    "right": [
+     "Fraude de pagamento adiantado",
+     "Tentativa de furar o segundo fator",
+     "Urgência artificial para impedir a verificação",
+     "Typosquatting: imita a marca para enganar o olhar",
+     "Execução de código no seu computador"
+    ],
+    "answer": [
+     4,
+     2,
+     0,
+     1,
+     3
+    ],
+    "explanation": "Anexo pedindo macros: Execução de código no seu computador. Prazo de poucas horas: Urgência artificial para impedir a verificação. Prêmio com taxa antecipada: Fraude de pagamento adiantado. Pedido do código do SMS: Tentativa de furar o segundo fator. Domínio parecido com o oficial: Typosquatting: imita a marca para enganar o olhar.",
+    "hint": "Pense no que cada pista revela sobre a intenção da mensagem."
+   },
+   "checks": [
+    {
+     "answer": [
+      4,
+      2,
+      0,
+      1,
+      3
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      3,
+      1,
+      2,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      0,
+      1,
+      3,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      2,
+      0,
+      1,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 4055616904,
+   "question": {
+    "generator": "match_pool",
+    "seed": 4055616904,
+    "context": [],
+    "tags": [
+     "phishing"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada sinal de fraude ao que ele indica.",
+    "left": [
+     "Página de login fora do domínio",
+     "Pedido do código do SMS",
+     "Prazo de poucas horas",
+     "Anexo pedindo macros",
+     "Domínio parecido com o oficial"
+    ],
+    "right": [
+     "Tentativa de furar o segundo fator",
+     "Execução de código no seu computador",
+     "Urgência artificial para impedir a verificação",
+     "Captura de credenciais",
+     "Typosquatting: imita a marca para enganar o olhar"
+    ],
+    "answer": [
+     3,
+     0,
+     2,
+     1,
+     4
+    ],
+    "explanation": "Página de login fora do domínio: Captura de credenciais. Pedido do código do SMS: Tentativa de furar o segundo fator. Prazo de poucas horas: Urgência artificial para impedir a verificação. Anexo pedindo macros: Execução de código no seu computador. Domínio parecido com o oficial: Typosquatting: imita a marca para enganar o olhar.",
+    "hint": "Pense no que cada pista revela sobre a intenção da mensagem."
+   },
+   "checks": [
+    {
+     "answer": [
+      3,
+      0,
+      2,
+      1,
+      4
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      4,
+      1,
+      3,
+      2,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      2,
+      1,
+      4,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      2,
+      1,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2415085369,
+   "question": {
+    "generator": "match_pool",
+    "seed": 2415085369,
+    "context": [],
+    "tags": [
+     "phishing"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada sinal de fraude ao que ele indica.",
+    "left": [
+     "Domínio parecido com o oficial",
+     "Página de login fora do domínio",
+     "Prazo de poucas horas",
+     "Pedido do código do SMS",
+     "Anexo pedindo macros"
+    ],
+    "right": [
+     "Execução de código no seu computador",
+     "Captura de credenciais",
+     "Urgência artificial para impedir a verificação",
+     "Tentativa de furar o segundo fator",
+     "Typosquatting: imita a marca para enganar o olhar"
+    ],
+    "answer": [
+     4,
+     1,
+     2,
+     3,
+     0
+    ],
+    "explanation": "Domínio parecido com o oficial: Typosquatting: imita a marca para enganar o olhar. Página de login fora do domínio: Captura de credenciais. Prazo de poucas horas: Urgência artificial para impedir a verificação. Pedido do código do SMS: Tentativa de furar o segundo fator. Anexo pedindo macros: Execução de código no seu computador.",
+    "hint": "Pense no que cada pista revela sobre a intenção da mensagem."
+   },
+   "checks": [
+    {
+     "answer": [
+      4,
+      1,
+      2,
+      3,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      2,
+      3,
+      4,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      2,
+      3,
+      0,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      2,
+      3,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 774553834,
+   "question": {
+    "generator": "match_pool",
+    "seed": 774553834,
+    "context": [],
+    "tags": [
+     "phishing"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada sinal de fraude ao que ele indica.",
+    "left": [
+     "Página de login fora do domínio",
+     "Anexo pedindo macros",
+     "Pedido do código do SMS",
+     "Prazo de poucas horas",
+     "Domínio parecido com o oficial"
+    ],
+    "right": [
+     "Captura de credenciais",
+     "Execução de código no seu computador",
+     "Tentativa de furar o segundo fator",
+     "Typosquatting: imita a marca para enganar o olhar",
+     "Urgência artificial para impedir a verificação"
+    ],
+    "answer": [
+     0,
+     1,
+     2,
+     4,
+     3
+    ],
+    "explanation": "Página de login fora do domínio: Captura de credenciais. Anexo pedindo macros: Execução de código no seu computador. Pedido do código do SMS: Tentativa de furar o segundo fator. Prazo de poucas horas: Urgência artificial para impedir a verificação. Domínio parecido com o oficial: Typosquatting: imita a marca para enganar o olhar.",
+    "hint": "Pense no que cada pista revela sobre a intenção da mensagem."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      1,
+      2,
+      4,
+      3
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      2,
+      3,
+      0,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      2,
+      4,
+      3,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      2,
+      4,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3428989595,
+   "question": {
+    "generator": "match_pool",
+    "seed": 3428989595,
+    "context": [],
+    "tags": [
+     "phishing"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada sinal de fraude ao que ele indica.",
+    "left": [
+     "Domínio parecido com o oficial",
+     "Prêmio com taxa antecipada",
+     "Anexo pedindo macros",
+     "Pedido do código do SMS",
+     "Prazo de poucas horas"
+    ],
+    "right": [
+     "Execução de código no seu computador",
+     "Urgência artificial para impedir a verificação",
+     "Typosquatting: imita a marca para enganar o olhar",
+     "Tentativa de furar o segundo fator",
+     "Fraude de pagamento adiantado"
+    ],
+    "answer": [
+     2,
+     4,
+     0,
+     3,
+     1
+    ],
+    "explanation": "Domínio parecido com o oficial: Typosquatting: imita a marca para enganar o olhar. Prêmio com taxa antecipada: Fraude de pagamento adiantado. Anexo pedindo macros: Execução de código no seu computador. Pedido do código do SMS: Tentativa de furar o segundo fator. Prazo de poucas horas: Urgência artificial para impedir a verificação.",
+    "hint": "Pense no que cada pista revela sobre a intenção da mensagem."
+   },
+   "checks": [
+    {
+     "answer": [
+      2,
+      4,
+      0,
+      3,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      3,
+      0,
+      1,
+      4,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      4,
+      0,
+      3,
+      1,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      4,
+      0,
+      3,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1788458060,
+   "question": {
+    "generator": "match_pool",
+    "seed": 1788458060,
+    "context": [],
+    "tags": [
+     "phishing"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada sinal de fraude ao que ele indica.",
+    "left": [
+     "Domínio parecido com o oficial",
+     "Anexo pedindo macros",
+     "Prêmio com taxa antecipada",
+     "Pedido do código do SMS",
+     "Página de login fora do domínio"
+    ],
+    "right": [
+     "Execução de código no seu computador",
+     "Typosquatting: imita a marca para enganar o olhar",
+     "Captura de credenciais",
+     "Tentativa de furar o segundo fator",
+     "Fraude de pagamento adiantado"
+    ],
+    "answer": [
+     1,
+     0,
+     4,
+     3,
+     2
+    ],
+    "explanation": "Domínio parecido com o oficial: Typosquatting: imita a marca para enganar o olhar. Anexo pedindo macros: Execução de código no seu computador. Prêmio com taxa antecipada: Fraude de pagamento adiantado. Pedido do código do SMS: Tentativa de furar o segundo fator. Página de login fora do domínio: Captura de credenciais.",
+    "hint": "Pense no que cada pista revela sobre a intenção da mensagem."
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      0,
+      4,
+      3,
+      2
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      1,
+      0,
+      4,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      4,
+      3,
+      2,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      4,
+      3,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

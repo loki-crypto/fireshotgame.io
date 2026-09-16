@@ -6,6 +6,7 @@ import { addressFormatMatch, switchTableMatch } from "./lan";
 import { subnetNumeric, subnetSameNetwork } from "./subnet";
 import { firewallRules, portServiceMatch } from "./firewall";
 import { passwordStrength } from "./passwords";
+import { phishingClassify } from "./phishing";
 
 export const GENERATORS: Record<string, Generator> = {
   mc_pool: mcPool,
@@ -18,6 +19,7 @@ export const GENERATORS: Record<string, Generator> = {
   port_service_match: portServiceMatch,
   firewall_rules: firewallRules,
   password_strength: passwordStrength,
+  phishing_classify: phishingClassify,
 };
 
 export function registerGenerator(id: string, g: Generator): void {

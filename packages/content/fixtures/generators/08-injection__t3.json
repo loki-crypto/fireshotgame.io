@@ -1,0 +1,2831 @@
+{
+ "source": "08-injection/t3",
+ "generator": "match_pool",
+ "params": {
+  "pool": "injection",
+  "count": 5,
+  "counterTags": [
+   "injection"
+  ]
+ },
+ "seeds": [
+  {
+   "seed": 2654435761,
+   "sha256": "295b87edaed8f05273c47cfc31dbacae2328dfa7cbd311f0fe3c028c709304e7"
+  },
+  {
+   "seed": 1013904226,
+   "sha256": "f3e23758ed946cdf79eb1f1ba7995b8618bd32ea244c4c7f584ab0d4576e0d1a"
+  },
+  {
+   "seed": 3668339987,
+   "sha256": "1ee0c8b966fe948c2ff394a5a0239539717a3e23692b035eb6043beabbe45ee4"
+  },
+  {
+   "seed": 2027808452,
+   "sha256": "b505ce892df5f1969e6b177b63b4f0d82f0a37dfedc824d05dd92e4dbf54f784"
+  },
+  {
+   "seed": 387276917,
+   "sha256": "9f62a35391b9eddd1e266fb1139b44613d1d7cf0e4856f1f16276b4b18575399"
+  },
+  {
+   "seed": 3041712678,
+   "sha256": "32754c4eb429949aad11da327d487f52dffa0f0fa39615d4b495ed457efc6d7c"
+  },
+  {
+   "seed": 1401181143,
+   "sha256": "7ab456bdf9a01b30a57c8cf741617656c4edb8b63900dca1ea09506c712f8acb"
+  },
+  {
+   "seed": 4055616904,
+   "sha256": "f2f4fc9c14035cc929bfbf3aef4b7465b7e30786f9bfdd7f1f9ccd003fb3e6ec"
+  },
+  {
+   "seed": 2415085369,
+   "sha256": "8d8ba4cac771f365955d5e178c30402dbbee3d3a680cca0eddc44ac30c7dc46a"
+  },
+  {
+   "seed": 774553834,
+   "sha256": "bfd0ead622c427f5f4b79c8eaa06ac58d1bf92f31b691e4b6ea458b23eee5838"
+  },
+  {
+   "seed": 3428989595,
+   "sha256": "80aec66f3f8c33c4c33eb5961ac32b36cf2198c03d02ef474e870a68ae06caa1"
+  },
+  {
+   "seed": 1788458060,
+   "sha256": "6b8be41fc98519fc306a432da76850176bfe5d3b0264b06062c2d802dd26297b"
+  },
+  {
+   "seed": 147926525,
+   "sha256": "86451f7cc303c6f8549b4faa492abf4bb45d664263e5fa7ba4e97734e11d3852"
+  },
+  {
+   "seed": 2802362286,
+   "sha256": "cc7bc9255c37dbbc762b5c3b4461ea4b50f461940d0b2d9f7e3169207a6e441d"
+  },
+  {
+   "seed": 1161830751,
+   "sha256": "0103762feab2646cec1abee54db38b05e282f9bc29509f01e29a1356cc37ace3"
+  },
+  {
+   "seed": 3816266512,
+   "sha256": "871a772bbd1b498c0e4005f06c11cbdc3284589396859d2cc1d75dc93a53f28c"
+  },
+  {
+   "seed": 2175734977,
+   "sha256": "ebb25e123ee5b16e9608d3fca0f52163d1783fce1f6ff632c8485f708390ef20"
+  },
+  {
+   "seed": 535203442,
+   "sha256": "235b25f3924c24f1701f1c817297011969f8cf4cd344bbbdc938d2c14a2b9786"
+  },
+  {
+   "seed": 3189639203,
+   "sha256": "821f59df59a9024e9949bee3b8fc1b948c6a8850d4402b0f91451da0083f635e"
+  },
+  {
+   "seed": 1549107668,
+   "sha256": "aab14df8573b5d4636968bed0857bdf51014a3ca777ea831237584df4a7996c9"
+  },
+  {
+   "seed": 4203543429,
+   "sha256": "61491d89acfd28bad0e42b7e1afcd250cc1551ce4504fe584bc1ba531b1765ac"
+  },
+  {
+   "seed": 2563011894,
+   "sha256": "5068c620243da21c1e686f26ce4ddd75e7f210c0b6dbeeaf31c168ae60b30f10"
+  },
+  {
+   "seed": 922480359,
+   "sha256": "a23a5ed3a0b71d0edc46970ab24e177b27fb9758f499123efb6400665402772c"
+  },
+  {
+   "seed": 3576916120,
+   "sha256": "bfa214889ec4ec8f8afa71ca852843d52412ca19cfae61ac5915cf2262d17f61"
+  },
+  {
+   "seed": 1936384585,
+   "sha256": "468fdca42254193fce78af68fed471a314087e4005ea0539bba1c7ef5e53ab54"
+  },
+  {
+   "seed": 295853050,
+   "sha256": "cc3180f588770b1bb7fc2886af2189a7f47238093e84ee5e1a79cd2ef58ecb5f"
+  },
+  {
+   "seed": 2950288811,
+   "sha256": "4d42721cbe4695406e95b5ba26f727f49d4fab08af7fc93d7f3a7b203ec40863"
+  },
+  {
+   "seed": 1309757276,
+   "sha256": "2a8e47e3466d14116629bd2e1c98786c47a1bdaeda6118e07d288f1c13a5bca4"
+  },
+  {
+   "seed": 3964193037,
+   "sha256": "ec4407475b10a2645de13075e7369133dc9dce8ded7add25751b7a87a9c363e6"
+  },
+  {
+   "seed": 2323661502,
+   "sha256": "f51cb77f93477a2cf6de6d29bc4283a21c4bfd76975c01910ab268f16b13b6e8"
+  },
+  {
+   "seed": 683129967,
+   "sha256": "604f827bbe5671db963e8de067e6f9f4e1cc89d5d2b4333f7f6b102d065f4035"
+  },
+  {
+   "seed": 3337565728,
+   "sha256": "a1ca7b14ded503d707a661acdcd68ef8782e75f8b47dbbb93e1f54dd35bb53e6"
+  },
+  {
+   "seed": 1697034193,
+   "sha256": "1864fa144e0a7be91e59cb8c9a7cd11a8f5b2c3363e51dccd8f374fc5cfb9903"
+  },
+  {
+   "seed": 56502658,
+   "sha256": "fa861454c96d0936ae907b11cfeab2b2290a2409cd11cc7e594ac3cbefb3837f"
+  },
+  {
+   "seed": 2710938419,
+   "sha256": "9ee0110bb9393e2e3f21cba210ed9bbaeb3698d98172db9a871b1ab7b77af81e"
+  },
+  {
+   "seed": 1070406884,
+   "sha256": "fe435fc6e3851c7b877328f85c87e820c09f12a1bdd97232c3eb4ed70f77d193"
+  },
+  {
+   "seed": 3724842645,
+   "sha256": "fe0703b7114f88648d507357acc96409214b158c2bf09dcf7de57e52a6bac713"
+  },
+  {
+   "seed": 2084311110,
+   "sha256": "4a2852a7624aed2eb76da20721cda1ce8b40a9f833256ec58a95169fa1f8551b"
+  },
+  {
+   "seed": 443779575,
+   "sha256": "c40cddcf816f23dc01551d6e2443697b8e7e262345b5e0b3938fd629848f48db"
+  },
+  {
+   "seed": 3098215336,
+   "sha256": "dde34dbf61632ec544b71706c1e8ac815ad05250ad71db02e891aa1ad68c49b1"
+  },
+  {
+   "seed": 1457683801,
+   "sha256": "7ff64ad6eeb1e54ed7e27885b97c2b2c49d909f061b81470a039112788418271"
+  },
+  {
+   "seed": 4112119562,
+   "sha256": "e24603534c4e55d0bde50e916add266334415aae47a09b95babf9f6bc37d4dfc"
+  },
+  {
+   "seed": 2471588027,
+   "sha256": "8ea24cea230519e49e31199c3169def1d84d83155595e7ed2ab8ef971bac5d03"
+  },
+  {
+   "seed": 831056492,
+   "sha256": "a0eeb9056d03d1d68be4da8bba3bcd1b07c5757a9ba9f2c8e4afb777f3dbfb16"
+  },
+  {
+   "seed": 3485492253,
+   "sha256": "c9713920fa461191ca81637d786ef2ff809ae83ee72bdb0ca345543c8e310efd"
+  },
+  {
+   "seed": 1844960718,
+   "sha256": "041b067482ea424d5d2d9a68b371af8f000839a30ab7c59cca39572f967a9444"
+  },
+  {
+   "seed": 204429183,
+   "sha256": "ea809c49e9aa574563ab6a45525bd7619d490819f4b392bd069ccb9f6a972c91"
+  },
+  {
+   "seed": 2858864944,
+   "sha256": "b617d86a0efd95ad86fb2c9e27d2f9740e0499ec625c25eab873ab47cbf99ad6"
+  },
+  {
+   "seed": 1218333409,
+   "sha256": "3bbb2a7a3c3961f447a0dbeb530a667427c98df4a72cf2318d3fef61bf085989"
+  },
+  {
+   "seed": 3872769170,
+   "sha256": "713543092dcaeaf58876182ab5bd438f0e04ee39850f6341962c761db50f3a62"
+  },
+  {
+   "seed": 2232237635,
+   "sha256": "b91c6bb86b530ccb17cf3f99386f34798b440224f84014c75e3cabedc7b6194b"
+  },
+  {
+   "seed": 591706100,
+   "sha256": "0b9410f1c3a265b97612eb89fc5739e8c42c18acd88d03485e375ff04e0d6693"
+  },
+  {
+   "seed": 3246141861,
+   "sha256": "57318f8cec9dd786b8fabe6cb69478e0e68b8af5d1f175123e704b6fd003d6cb"
+  },
+  {
+   "seed": 1605610326,
+   "sha256": "6d2593b3fcfd316e807ca44a1a7f779d17ef5b1fe87034d87ceb362c79cba6cb"
+  },
+  {
+   "seed": 4260046087,
+   "sha256": "1f42e0afce75fdf3c7f3f3859623bb2c47045017431ce956b70b4bf7f5f9c134"
+  },
+  {
+   "seed": 2619514552,
+   "sha256": "5e082cc18d193f6ac4825201ac219981ea7c4804b9e39cf99a3c952ac1af6c5c"
+  },
+  {
+   "seed": 978983017,
+   "sha256": "e1586aee0c1cf77771c14d557fdb1e09761d288652dfdfa23ec8e9771a455192"
+  },
+  {
+   "seed": 3633418778,
+   "sha256": "f7d841fdbb401c31617b5374bed5a2a8d13f67924ade693408b42f9735b5025b"
+  },
+  {
+   "seed": 1992887243,
+   "sha256": "656fea10e4c23ccd51d6627bbf0b37b2d7fcef0d7bab82abe35b7248da378eef"
+  },
+  {
+   "seed": 352355708,
+   "sha256": "0fef9aca5157ed906c8c8eeacca58b04750c7ed9a357246b97edb3e2b5c3fe67"
+  },
+  {
+   "seed": 3006791469,
+   "sha256": "e04a126a6355b6aa82e176277cfa613225145b3cc0ebbbf30511cbfb5674df2f"
+  },
+  {
+   "seed": 1366259934,
+   "sha256": "1fd59e5da51bb04306121eeb383c0f062efbdc98b3e4a7109eea45dcd9fcf8f5"
+  },
+  {
+   "seed": 4020695695,
+   "sha256": "62e130289b2f71b240bc70f66c8998ef30651aa4c08f88a7e88ed1ffd694c72d"
+  },
+  {
+   "seed": 2380164160,
+   "sha256": "cfcb7af7e82d6d4ab274f3c597a95b3608642ff1c880027a65fb34200d6fef1c"
+  },
+  {
+   "seed": 739632625,
+   "sha256": "1652643c79f68fccd312ce997ef4f5653f6499988f761b5b0c588422c92fa4ff"
+  },
+  {
+   "seed": 3394068386,
+   "sha256": "d08926b7aacf49177cf202815e806daf30c9b276065ec782d790d348678a5bce"
+  },
+  {
+   "seed": 1753536851,
+   "sha256": "ebb1755770fd967ccd281d40412c2527f323469267cbcb3652cbfd1382a2632b"
+  },
+  {
+   "seed": 113005316,
+   "sha256": "257019b2174d5ad8f5bd3b37cbc2fcf49df33a65c121c72203ce5c0d51c30bec"
+  },
+  {
+   "seed": 2767441077,
+   "sha256": "98520bdde2f02d392240ef86c73e50fe576d5cf3c3fb789fb3e9618385d9bdfd"
+  },
+  {
+   "seed": 1126909542,
+   "sha256": "ec025b8ed024a7c33864bbc158d2957822aa9bb4646d87effd0fb3f8ce6952bb"
+  },
+  {
+   "seed": 3781345303,
+   "sha256": "5f30dfd33820bc0b6a1bb102ef2ae40ada3063f6bc9d4a27cbe962a4f2112a42"
+  },
+  {
+   "seed": 2140813768,
+   "sha256": "0b9f78740f678adef9824fdf01ae9f9e6f473cfc099f362c7ef4d4e87988a62b"
+  },
+  {
+   "seed": 500282233,
+   "sha256": "2007161a9c74bb94b7715d7cf3933ddd69807434d93c1f38be8352854b5f935f"
+  },
+  {
+   "seed": 3154717994,
+   "sha256": "aa6e220ff3a37c9840d17a9b868856f9bd6b19947761d45cf4475f34cbccc8bb"
+  },
+  {
+   "seed": 1514186459,
+   "sha256": "c5217d7536857d2bb46fbf4b7a54eecb3e263cb587349c15d168144ea59e90a0"
+  },
+  {
+   "seed": 4168622220,
+   "sha256": "5c4f37fe7fba8868b04e5028a06c764b4b6b9b6225242b5bb57113a5d4881e53"
+  },
+  {
+   "seed": 2528090685,
+   "sha256": "75d093c68686d57254ea29c955ec0bbfa729a30c29e49fe248320f6a7a3f6db9"
+  },
+  {
+   "seed": 887559150,
+   "sha256": "b4770fdad6d7022f69f6ffb6f4cbe2bbf54aa52f8f8202226abe56c2275e8ae0"
+  },
+  {
+   "seed": 3541994911,
+   "sha256": "efe519321b3cfc16e4f0b6aa38b0f62cb20be76162bb28b3a26c04e281db93ba"
+  },
+  {
+   "seed": 1901463376,
+   "sha256": "3ddcbd5d3584d3ecfdaaac94610d91a9021c88bf4856cf2e9bb646a066f20b39"
+  },
+  {
+   "seed": 260931841,
+   "sha256": "6c341ed3012fb046f78066e13d0e779b782cce7c59d6c9d5fca65a0540cb1089"
+  },
+  {
+   "seed": 2915367602,
+   "sha256": "45746bf8f79f288c260de598fe85c02952da57b294aed437b600f26b7ec8a6db"
+  },
+  {
+   "seed": 1274836067,
+   "sha256": "f4df29a77285a683ea8f0726d54c0aa75a202841ced309355557bdbf2a8c4f47"
+  },
+  {
+   "seed": 3929271828,
+   "sha256": "b23c9a4d1552b2b4d3db61eaa910ca3c8368ffa429f8e1b85fb39516c7193bf6"
+  },
+  {
+   "seed": 2288740293,
+   "sha256": "351e9c4984d3f85b8b5aefac058b90d373c61fdf3987408ca70d7d6f3f15cf1e"
+  },
+  {
+   "seed": 648208758,
+   "sha256": "ad29cb4370d55d01be84f642317bbfec85a203561ec3c74a566d3960704326ec"
+  },
+  {
+   "seed": 3302644519,
+   "sha256": "25d2649ab465e390a9775681d48764ec4ec4567202da1f06d7204d4005796555"
+  },
+  {
+   "seed": 1662112984,
+   "sha256": "7c688b44dfb21a36c0fd57ee6ef99940935520a8630e42aec92b1232ac58e3b0"
+  },
+  {
+   "seed": 21581449,
+   "sha256": "829ae274e8d9a8806a3a7f0b31507bb550ecfb00dc8562a39586d45ba44c904d"
+  },
+  {
+   "seed": 2676017210,
+   "sha256": "b4064fc0135861dfc0d54360009219aef27ca7dbf90d446617affd90eb792d9d"
+  },
+  {
+   "seed": 1035485675,
+   "sha256": "755cd5945395922f311d6d585ffc0d4158cb426aa56393a9253b602c75ecffec"
+  },
+  {
+   "seed": 3689921436,
+   "sha256": "b67c9072b0a32a3bd8cc67ca257451f1e2742375769ce9d73cc5c1d0eca6ed6d"
+  },
+  {
+   "seed": 2049389901,
+   "sha256": "eecfe59ee640af98b163ffb2d6644ce2d926808030580e001858998708bddb67"
+  },
+  {
+   "seed": 408858366,
+   "sha256": "99c54bd8af0c3a046bc2a5c45a61e72d8b9e5a4df782f8bbfe0fa6fafe41b562"
+  },
+  {
+   "seed": 3063294127,
+   "sha256": "671d1b4558728aedcaf00cc52195fd38c824a25f2b3e8b91933c87d4bb58c77b"
+  },
+  {
+   "seed": 1422762592,
+   "sha256": "c69ada642760026e5ef015d7461660f0592e80bc159d40384dfd93b2ed7e38b4"
+  },
+  {
+   "seed": 4077198353,
+   "sha256": "9ce0457e979c404d9834719b2dc1152aa437887450e00535415a53ba84a16549"
+  },
+  {
+   "seed": 2436666818,
+   "sha256": "8c798174677644baa3f2fca9a37da160b1f423e9f618c74c27189ef7fac149ce"
+  },
+  {
+   "seed": 796135283,
+   "sha256": "4e41a4c2b8f0add5a5c890fd24ef2f0e74658400e1e37caaf7fe591233e7f655"
+  },
+  {
+   "seed": 3450571044,
+   "sha256": "899c97f3186dd03156076cad8d064d44015f0ff86d5f56aafe6d77513237aa60"
+  },
+  {
+   "seed": 1810039509,
+   "sha256": "cfaed6e9d2a8400275523204fd320c7990270f6c7c42304d11752d6009737c5c"
+  },
+  {
+   "seed": 169507974,
+   "sha256": "40263f4bba93f5277571cb79b19419476b51d993634463673688d62d52bef2a6"
+  },
+  {
+   "seed": 2823943735,
+   "sha256": "c001b6ae793a7d95ddf4d1dd680232a73a8efb6fccd273350a6ce016081d857f"
+  },
+  {
+   "seed": 1183412200,
+   "sha256": "482dfc3f9d6f85c78127c0cffc0d8e339bd09065757051d6decc04cffe41d47b"
+  },
+  {
+   "seed": 3837847961,
+   "sha256": "c46c39f28921df02bf53cd6feed18656c46828279fc0aa327e9265a4c04268c9"
+  },
+  {
+   "seed": 2197316426,
+   "sha256": "322b9200988c5a9e21b4ba85c7e8641e720e8d8fdbd5a5c09521cb15a3b39081"
+  },
+  {
+   "seed": 556784891,
+   "sha256": "ceeffab4a5bc836648163c856581746bf394b80bcf77cd28633b82601ba357e2"
+  },
+  {
+   "seed": 3211220652,
+   "sha256": "2e7c389b4e845a671a890848e610581bb6b76cd523604a6187f44309ec6a6a74"
+  },
+  {
+   "seed": 1570689117,
+   "sha256": "b83c9f691557b9779b7239e8a10a9720aff0813ac726d38b9d730373a4e64585"
+  },
+  {
+   "seed": 4225124878,
+   "sha256": "62ed38595095d1977293e0c9d46cde095a2b12641aa8c950ec47d5aa62354160"
+  },
+  {
+   "seed": 2584593343,
+   "sha256": "4fb673e318d3de53e33c635f074b30caeea2b4e3f696e4ffb7b5aa658c5839b2"
+  },
+  {
+   "seed": 944061808,
+   "sha256": "84ac9b4b93bc33839cf8864368846fa0ce4df2ea832fb6f29b2325a9ad592744"
+  },
+  {
+   "seed": 3598497569,
+   "sha256": "23c216096cfe75e738d7aa52b0537ce10ecc12f7692c71420f585804236a6139"
+  },
+  {
+   "seed": 1957966034,
+   "sha256": "b7ff22c1eb12ab974e0f24fdd7061002da5d6c44b6234f2d69534e61f08f85d6"
+  },
+  {
+   "seed": 317434499,
+   "sha256": "e6dc796d6dc13991114f3e1a823fe720784b65dd3b61398485297099dc82b761"
+  },
+  {
+   "seed": 2971870260,
+   "sha256": "59bce0e27197ea6bb11483ab7f65d5722b7d004b8ce22ff47a3026b47763fa65"
+  },
+  {
+   "seed": 1331338725,
+   "sha256": "016b54ca793a160d090f34c4574a1f97967f93eb85b9dfb7c375dc2590b8bec2"
+  },
+  {
+   "seed": 3985774486,
+   "sha256": "6eafca4d7a3cd4a0e6bf822ba8ab7223829c10657367ea42c86f180a40338885"
+  },
+  {
+   "seed": 2345242951,
+   "sha256": "c53f4e37d6485d1f5e5cdc527b1f0e068185637ccf367318c8770395bd53cda3"
+  },
+  {
+   "seed": 704711416,
+   "sha256": "93488e8ccbebcac38d6454e8a26a1f7da074ff573de7910d8c5589219905fc52"
+  },
+  {
+   "seed": 3359147177,
+   "sha256": "175dd2d1afb892fec47a8e41cbcb0bf97809aa0a4cf7be8d93179b30e1075039"
+  },
+  {
+   "seed": 1718615642,
+   "sha256": "5948cf3c981471967f9595c47890c8769231932304553d512ed86ebcd8337e05"
+  },
+  {
+   "seed": 78084107,
+   "sha256": "4793337f7215ca18523b686e81fc6c9a6b23b22baabcd4057adc38c9999a949b"
+  },
+  {
+   "seed": 2732519868,
+   "sha256": "45e206b92b1aa6417517a60e461e5a1089226cd03de4531085205b8f6177bf8f"
+  },
+  {
+   "seed": 1091988333,
+   "sha256": "cc4e61970eee7a30fffd3ec4cc39093c4639826da7534a48641c55904012e082"
+  },
+  {
+   "seed": 3746424094,
+   "sha256": "a14427a97f88e0b080121e41d7013090274923645d89cb66a1817838b06effed"
+  },
+  {
+   "seed": 2105892559,
+   "sha256": "49c0d11033a0e0ffd0399d47cf3752dc887ad83e36a7669ee578009bc04d9e58"
+  },
+  {
+   "seed": 465361024,
+   "sha256": "0c086133b8f808637458befd6ad2ebee4bee9a8ed6dd753cbf07ce8fca0937af"
+  },
+  {
+   "seed": 3119796785,
+   "sha256": "fc0d954e18ec7e84d832e780e7de47ac03795ef9871628d89b1c8d2d9e62eafd"
+  },
+  {
+   "seed": 1479265250,
+   "sha256": "2e161b83e4fcf48c2e1a5c0b344db9be8471ec5ebc5d864347a52bbe79fe3c6e"
+  },
+  {
+   "seed": 4133701011,
+   "sha256": "8b6148e83c2b929dbd46d7faf81b1efd6658b009af52186af208347c66b5fd96"
+  },
+  {
+   "seed": 2493169476,
+   "sha256": "851b297934b9a578f7b16f38ad1ea0bb2a9f89b17dfb8f0e7b3c4a214c30d7ef"
+  },
+  {
+   "seed": 852637941,
+   "sha256": "7fc995c66b3fae98e9e43fcd5f755dee893761390484f64489428182beb863b4"
+  },
+  {
+   "seed": 3507073702,
+   "sha256": "09c7f575c311bf735ba183de95a0ce7fefb6f6c5b11f0ad8e6190695778aea5a"
+  },
+  {
+   "seed": 1866542167,
+   "sha256": "f02823ff88a3c0598eef2972ad89c7c1d0fe9d295644ed60a1f39883c0f021ca"
+  },
+  {
+   "seed": 226010632,
+   "sha256": "1d9538ad9561795fd6fec3f6c9c9718f14d5fc0cab5e35d0612f70992e7f5339"
+  },
+  {
+   "seed": 2880446393,
+   "sha256": "95280a75f5a9491b47a1d984439532257d9a496cd46f01d6763c0f1be294d678"
+  },
+  {
+   "seed": 1239914858,
+   "sha256": "1cbec080d574d038dced5f82e80b6d04cc3ecab0fd08c064e2fb0d76ce09d028"
+  },
+  {
+   "seed": 3894350619,
+   "sha256": "a4a2e05795fb39f28d7c0d0f69164d6066bad71cd950b4b7d93cd0df29ddf3cb"
+  },
+  {
+   "seed": 2253819084,
+   "sha256": "178956f672cb42b62e388ab86019a0dba20502b19546d71f738c31090b57464b"
+  },
+  {
+   "seed": 613287549,
+   "sha256": "0a1b494ffdc708357a0208ee0d5702e45b3aee5860159b7c1522ee72fd40aa5a"
+  },
+  {
+   "seed": 3267723310,
+   "sha256": "36ba78ded3fe157b2a80ddadad26fc9b6e7e8e5fc7ae48bcf3e9c9c952a21bce"
+  },
+  {
+   "seed": 1627191775,
+   "sha256": "b82f263bded3801612b0b6fe0cf480e90956739a722f35f8bee5e3d5d9d5770e"
+  },
+  {
+   "seed": 4281627536,
+   "sha256": "9b2697554bce47b46fdfec2dac217bdadc06ce9b969fb3463f22d0959a633821"
+  },
+  {
+   "seed": 2641096001,
+   "sha256": "846f3b256ed1e4d388a52684d3bbd7912945b28609b136e120f830d497ef5e26"
+  },
+  {
+   "seed": 1000564466,
+   "sha256": "ada97bcce92a0838a9c5a002f26bcd6aa2d79cae3be7a8c0d7961f0729c9d523"
+  },
+  {
+   "seed": 3655000227,
+   "sha256": "82ad813dc304b01474293ebc55ab6062bb24a612dff091840bb86c447184925f"
+  },
+  {
+   "seed": 2014468692,
+   "sha256": "6e9c94fac612682c968bfd8d0f49f2a2e5f05884b5fc1f192ae46244aea40b40"
+  },
+  {
+   "seed": 373937157,
+   "sha256": "6247b8e1097ba248757b4093f0625c338743d0fbcfe1909ff53d3d6447290e81"
+  },
+  {
+   "seed": 3028372918,
+   "sha256": "68043c43e285bc561341b6e0cdb8dc5101cc701171b9addd50c69fdd09030d23"
+  },
+  {
+   "seed": 1387841383,
+   "sha256": "b60dbe3223ae16fa0e80f7bf6de813328ddc157cbc86dbcf4371f9e83663e08f"
+  },
+  {
+   "seed": 4042277144,
+   "sha256": "ff1edc0df196bcc891052b4045d96d0f53b0db5cdf63c11095bc3711acced1d5"
+  },
+  {
+   "seed": 2401745609,
+   "sha256": "87fb7289fbb06d1197ebb0e1abd86bb6e779b9c725fb50c0607aae6f04c5acd8"
+  },
+  {
+   "seed": 761214074,
+   "sha256": "f59664a835a46c936c26074180b03aae09d6096273f630a1d4c76e11f7b4d331"
+  },
+  {
+   "seed": 3415649835,
+   "sha256": "ffe5f8d4b544270f7e722d4f2cdc9093b040e9e156eab453a597f0cf0aa33d8a"
+  },
+  {
+   "seed": 1775118300,
+   "sha256": "0341ecedc4bab59bce9200b925d84b4caca0ead502b3fa3d4fe6e4d12671237c"
+  },
+  {
+   "seed": 134586765,
+   "sha256": "0759551fb6ca92c50fdef00e02fffa11e5683982cd9a8e135c3c833a27fd3fac"
+  },
+  {
+   "seed": 2789022526,
+   "sha256": "b4e13608e82d79dfdf8c7bac79c95e439c3beeb560d881ea7227952d78871599"
+  },
+  {
+   "seed": 1148490991,
+   "sha256": "5ddf4579a82d40ae026ce94777c583a16d0068cef6d3b7a57ffc89cc31c13013"
+  },
+  {
+   "seed": 3802926752,
+   "sha256": "339e00c7be1b2a613f66d751d9e5cc82cdabc81b1b02162f7afbe513dabdbc89"
+  },
+  {
+   "seed": 2162395217,
+   "sha256": "a61e4e7c45fd585500dd5cb7a543f23c5f9bc17c526b75aee1b819f00b11d95a"
+  },
+  {
+   "seed": 521863682,
+   "sha256": "50bf0fb261ea0baa0e3a54c9eaeb742d8eb6ba53371c6c402601eec59b7da425"
+  },
+  {
+   "seed": 3176299443,
+   "sha256": "64ff37696634f8be4d54cd87df10a52c130597858abb9d4ba0b4e88924d04251"
+  },
+  {
+   "seed": 1535767908,
+   "sha256": "c0f0966b0de64768b3d426fd73a5b01c5fe8271ec811c8822863b8ab96df54ff"
+  },
+  {
+   "seed": 4190203669,
+   "sha256": "9924bfbca045f4b42e857765e01481fc76b115fa2db5aa875c88a9f9aad7451a"
+  },
+  {
+   "seed": 2549672134,
+   "sha256": "317d228430b7943f0612c439a848e9d5f4c738a97f11190c8a60081d615e74bf"
+  },
+  {
+   "seed": 909140599,
+   "sha256": "d778d1142e784bb6002bfedc0e1d8c60affe7e22660636a32ce045e97d63ab81"
+  },
+  {
+   "seed": 3563576360,
+   "sha256": "d9c553ee4921e52bfd1c43d2576ce9fc9cfc7be38049cf63ca838871831e8475"
+  },
+  {
+   "seed": 1923044825,
+   "sha256": "fe42cb2953f741579b7e781405d6dea20c4426fbf7eee5f13a934a89cb8f80fb"
+  },
+  {
+   "seed": 282513290,
+   "sha256": "e8688d462056bd029736b8b1a9b024ded763743a11eb921c629c222e5f76e696"
+  },
+  {
+   "seed": 2936949051,
+   "sha256": "10e5708bdc792c5a62dc516a04f7917572fbd67ccb80a8a20fbab056d15adeba"
+  },
+  {
+   "seed": 1296417516,
+   "sha256": "6a8d40051b29069377a72bca4505bd7a8e4d09aa4d78769107b345ee1d1af9c0"
+  },
+  {
+   "seed": 3950853277,
+   "sha256": "6922b7f85571046681f8e0e2bdc906825a2335d6da5beefc0860fec391a45d4b"
+  },
+  {
+   "seed": 2310321742,
+   "sha256": "90b9e0fd83cf928e84ac4182b5b776abb15a066b154f2cd0ba85667b91b24ae7"
+  },
+  {
+   "seed": 669790207,
+   "sha256": "dcb9e7681524504a547f4add45a62485ec35876a59e3001ef64dcde261726bcf"
+  },
+  {
+   "seed": 3324225968,
+   "sha256": "a76e817c5b6ab8252f5c57bca338932abf9b8f1b07086690b1a583cd8955eeb7"
+  },
+  {
+   "seed": 1683694433,
+   "sha256": "e512c69a612046c8a1b081411aa26e8711b75c7cd0b7fd0a58dfca5059bca231"
+  },
+  {
+   "seed": 43162898,
+   "sha256": "8c43de372b95d0e1a6d525392ed91a19fabfb41cec38cb1e912e08174fbad587"
+  },
+  {
+   "seed": 2697598659,
+   "sha256": "ea85e44ebd1f9e4a24a7837ea3bf8e1b1f66b498f21fc52e8e1a78a9a3fa3de6"
+  },
+  {
+   "seed": 1057067124,
+   "sha256": "63d4243a9e8fcf4d23a2ec82eaeb455c70b7b575af56ddaf0ee0b9da129120d2"
+  },
+  {
+   "seed": 3711502885,
+   "sha256": "e037e34427e6fa81553f8062b6ab91e571281019634d2e6566e6561699b420be"
+  },
+  {
+   "seed": 2070971350,
+   "sha256": "d5be9519e1d639f55263bf9ebafce4fcca8504b6d42a9ec8e36d0f31f36e064e"
+  },
+  {
+   "seed": 430439815,
+   "sha256": "8c7a1618ba62b53b11180baa5cb524732cde30fac1412b982d9c7f8f050c5d23"
+  },
+  {
+   "seed": 3084875576,
+   "sha256": "c884e1d218ca00cbec554b9d2a6c3c597dfd6874721b3b070cd24e22358712a5"
+  },
+  {
+   "seed": 1444344041,
+   "sha256": "eaf4134292c10810b62c96f5481f1fb86dedb1667a823ffbe18130cfdfd39ac8"
+  },
+  {
+   "seed": 4098779802,
+   "sha256": "99ea0dfa957c14ab924c09d86dfedf9a1b00eedad5c0012d657d8b131dab1f0b"
+  },
+  {
+   "seed": 2458248267,
+   "sha256": "7a898d831ff0e86a91be2348aac0d72751394d0373dc5dbe64277cd2428255c7"
+  },
+  {
+   "seed": 817716732,
+   "sha256": "22ab1e75ff709c7411c07d6d917d87bc723f91abbdb999bc3fa4bf8b236a98e8"
+  },
+  {
+   "seed": 3472152493,
+   "sha256": "21908b4702b4cafaf2d31ed314dc9420500503fe4e3a1761fc23b5641a52e359"
+  },
+  {
+   "seed": 1831620958,
+   "sha256": "59e21f866fe4479d46bdd02e64a37677d437fe13f39e6a0d288a3cfe72731d6e"
+  },
+  {
+   "seed": 191089423,
+   "sha256": "5df40948b4b2d4b6b8822bdf6ffb5d3d6e0ccd4d52b462444b3c9e46bde64908"
+  },
+  {
+   "seed": 2845525184,
+   "sha256": "e9b2dbde0cb4ae101905e23d8622a95df21376db2ccae289585a1485b1ce84c5"
+  },
+  {
+   "seed": 1204993649,
+   "sha256": "5c4b5de31c4553b8acad388869f0612ce92a288e64e0dc1037fde8eb3da988bf"
+  },
+  {
+   "seed": 3859429410,
+   "sha256": "5cd47a3775f58ea6dbbdb227f40b9b49d17bb380583e9e7f07fbcfb7858bae76"
+  },
+  {
+   "seed": 2218897875,
+   "sha256": "aaaf417f4d4abd2f4e266c3e213a043db9ed568903cf7adbf0e7ebf064c60377"
+  },
+  {
+   "seed": 578366340,
+   "sha256": "b4ec013c8c1c2f1cc82b0cfb7a8c850e828ec8a5ac206c766324bfb409f82f74"
+  },
+  {
+   "seed": 3232802101,
+   "sha256": "c758fe1242cf5953d72c0c263231ca12eeef060ead91f3eb6e1549302174ed89"
+  },
+  {
+   "seed": 1592270566,
+   "sha256": "bef815c923a3424ae4d68660f0c0576be22bedb04b40604d968e2e72bb274bea"
+  },
+  {
+   "seed": 4246706327,
+   "sha256": "60285e2b6ea44436c975dac8c2f7736e2ceb169cffcc53685b1750c8c0c91558"
+  },
+  {
+   "seed": 2606174792,
+   "sha256": "259715a4f85ee3aa86337125358c7a2696345416971d4119c694fa10fd25bfec"
+  }
+ ],
+ "samples": [
+  {
+   "seed": 2654435761,
+   "question": {
+    "generator": "match_pool",
+    "seed": 2654435761,
+    "context": [],
+    "tags": [
+     "injection"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada defesa ao problema que ela resolve.",
+    "left": [
+     "Lista de permissão de formato",
+     "Content Security Policy",
+     "Escape na saída",
+     "Consulta parametrizada",
+     "Validação no servidor"
+    ],
+    "right": [
+     "Aceita apenas entradas com o formato esperado",
+     "Impede que conteúdo exibido vire script no navegador",
+     "Garante as regras mesmo com o cliente modificado",
+     "Restringe de onde o navegador aceita executar scripts",
+     "Impede que dado do usuário vire comando SQL"
+    ],
+    "answer": [
+     0,
+     3,
+     1,
+     4,
+     2
+    ],
+    "explanation": "Lista de permissão de formato: Aceita apenas entradas com o formato esperado. Content Security Policy: Restringe de onde o navegador aceita executar scripts. Escape na saída: Impede que conteúdo exibido vire script no navegador. Consulta parametrizada: Impede que dado do usuário vire comando SQL. Validação no servidor: Garante as regras mesmo com o cliente modificado.",
+    "hint": "Cada ataque tem uma defesa específica na camada certa."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      3,
+      1,
+      4,
+      2
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      4,
+      2,
+      0,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      3,
+      1,
+      4,
+      2,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      3,
+      1,
+      4,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1013904226,
+   "question": {
+    "generator": "match_pool",
+    "seed": 1013904226,
+    "context": [],
+    "tags": [
+     "injection"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada defesa ao problema que ela resolve.",
+    "left": [
+     "Consulta parametrizada",
+     "Content Security Policy",
+     "Escape na saída",
+     "Menor privilégio no banco",
+     "Validação no servidor"
+    ],
+    "right": [
+     "Impede que conteúdo exibido vire script no navegador",
+     "Impede que dado do usuário vire comando SQL",
+     "Limita o estrago de uma injeção bem-sucedida",
+     "Garante as regras mesmo com o cliente modificado",
+     "Restringe de onde o navegador aceita executar scripts"
+    ],
+    "answer": [
+     1,
+     4,
+     0,
+     2,
+     3
+    ],
+    "explanation": "Consulta parametrizada: Impede que dado do usuário vire comando SQL. Content Security Policy: Restringe de onde o navegador aceita executar scripts. Escape na saída: Impede que conteúdo exibido vire script no navegador. Menor privilégio no banco: Limita o estrago de uma injeção bem-sucedida. Validação no servidor: Garante as regras mesmo com o cliente modificado.",
+    "hint": "Cada ataque tem uma defesa específica na camada certa."
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      4,
+      0,
+      2,
+      3
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      0,
+      1,
+      3,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      4,
+      0,
+      2,
+      3,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      4,
+      0,
+      2,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3668339987,
+   "question": {
+    "generator": "match_pool",
+    "seed": 3668339987,
+    "context": [],
+    "tags": [
+     "injection"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada defesa ao problema que ela resolve.",
+    "left": [
+     "Content Security Policy",
+     "Consulta parametrizada",
+     "Menor privilégio no banco",
+     "Lista de permissão de formato",
+     "Validação no servidor"
+    ],
+    "right": [
+     "Impede que dado do usuário vire comando SQL",
+     "Garante as regras mesmo com o cliente modificado",
+     "Aceita apenas entradas com o formato esperado",
+     "Limita o estrago de uma injeção bem-sucedida",
+     "Restringe de onde o navegador aceita executar scripts"
+    ],
+    "answer": [
+     4,
+     0,
+     3,
+     2,
+     1
+    ],
+    "explanation": "Content Security Policy: Restringe de onde o navegador aceita executar scripts. Consulta parametrizada: Impede que dado do usuário vire comando SQL. Menor privilégio no banco: Limita o estrago de uma injeção bem-sucedida. Lista de permissão de formato: Aceita apenas entradas com o formato esperado. Validação no servidor: Garante as regras mesmo com o cliente modificado.",
+    "hint": "Cada ataque tem uma defesa específica na camada certa."
+   },
+   "checks": [
+    {
+     "answer": [
+      4,
+      0,
+      3,
+      2,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      4,
+      3,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      3,
+      2,
+      1,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      3,
+      2,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2027808452,
+   "question": {
+    "generator": "match_pool",
+    "seed": 2027808452,
+    "context": [],
+    "tags": [
+     "injection"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada defesa ao problema que ela resolve.",
+    "left": [
+     "Escape na saída",
+     "Validação no servidor",
+     "Consulta parametrizada",
+     "Lista de permissão de formato",
+     "Menor privilégio no banco"
+    ],
+    "right": [
+     "Impede que dado do usuário vire comando SQL",
+     "Impede que conteúdo exibido vire script no navegador",
+     "Aceita apenas entradas com o formato esperado",
+     "Garante as regras mesmo com o cliente modificado",
+     "Limita o estrago de uma injeção bem-sucedida"
+    ],
+    "answer": [
+     1,
+     3,
+     0,
+     2,
+     4
+    ],
+    "explanation": "Escape na saída: Impede que conteúdo exibido vire script no navegador. Validação no servidor: Garante as regras mesmo com o cliente modificado. Consulta parametrizada: Impede que dado do usuário vire comando SQL. Lista de permissão de formato: Aceita apenas entradas com o formato esperado. Menor privilégio no banco: Limita o estrago de uma injeção bem-sucedida.",
+    "hint": "Cada ataque tem uma defesa específica na camada certa."
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      3,
+      0,
+      2,
+      4
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      4,
+      1,
+      3,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      3,
+      0,
+      2,
+      4,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      3,
+      0,
+      2,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 387276917,
+   "question": {
+    "generator": "match_pool",
+    "seed": 387276917,
+    "context": [],
+    "tags": [
+     "injection"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada defesa ao problema que ela resolve.",
+    "left": [
+     "Menor privilégio no banco",
+     "Validação no servidor",
+     "Consulta parametrizada",
+     "Lista de permissão de formato",
+     "Content Security Policy"
+    ],
+    "right": [
+     "Impede que dado do usuário vire comando SQL",
+     "Aceita apenas entradas com o formato esperado",
+     "Restringe de onde o navegador aceita executar scripts",
+     "Garante as regras mesmo com o cliente modificado",
+     "Limita o estrago de uma injeção bem-sucedida"
+    ],
+    "answer": [
+     4,
+     3,
+     0,
+     1,
+     2
+    ],
+    "explanation": "Menor privilégio no banco: Limita o estrago de uma injeção bem-sucedida. Validação no servidor: Garante as regras mesmo com o cliente modificado. Consulta parametrizada: Impede que dado do usuário vire comando SQL. Lista de permissão de formato: Aceita apenas entradas com o formato esperado. Content Security Policy: Restringe de onde o navegador aceita executar scripts.",
+    "hint": "Cada ataque tem uma defesa específica na camada certa."
+   },
+   "checks": [
+    {
+     "answer": [
+      4,
+      3,
+      0,
+      1,
+      2
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      4,
+      1,
+      2,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      3,
+      0,
+      1,
+      2,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      3,
+      0,
+      1,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3041712678,
+   "question": {
+    "generator": "match_pool",
+    "seed": 3041712678,
+    "context": [],
+    "tags": [
+     "injection"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada defesa ao problema que ela resolve.",
+    "left": [
+     "Menor privilégio no banco",
+     "Lista de permissão de formato",
+     "Consulta parametrizada",
+     "Content Security Policy",
+     "Validação no servidor"
+    ],
+    "right": [
+     "Restringe de onde o navegador aceita executar scripts",
+     "Impede que dado do usuário vire comando SQL",
+     "Aceita apenas entradas com o formato esperado",
+     "Garante as regras mesmo com o cliente modificado",
+     "Limita o estrago de uma injeção bem-sucedida"
+    ],
+    "answer": [
+     4,
+     2,
+     1,
+     0,
+     3
+    ],
+    "explanation": "Menor privilégio no banco: Limita o estrago de uma injeção bem-sucedida. Lista de permissão de formato: Aceita apenas entradas com o formato esperado. Consulta parametrizada: Impede que dado do usuário vire comando SQL. Content Security Policy: Restringe de onde o navegador aceita executar scripts. Validação no servidor: Garante as regras mesmo com o cliente modificado.",
+    "hint": "Cada ataque tem uma defesa específica na camada certa."
+   },
+   "checks": [
+    {
+     "answer": [
+      4,
+      2,
+      1,
+      0,
+      3
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      3,
+      2,
+      1,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      1,
+      0,
+      3,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      2,
+      1,
+      0,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1401181143,
+   "question": {
+    "generator": "match_pool",
+    "seed": 1401181143,
+    "context": [],
+    "tags": [
+     "injection"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada defesa ao problema que ela resolve.",
+    "left": [
+     "Menor privilégio no banco",
+     "Escape na saída",
+     "Content Security Policy",
+     "Validação no servidor",
+     "Consulta parametrizada"
+    ],
+    "right": [
+     "Restringe de onde o navegador aceita executar scripts",
+     "Garante as regras mesmo com o cliente modificado",
+     "Impede que conteúdo exibido vire script no navegador",
+     "Impede que dado do usuário vire comando SQL",
+     "Limita o estrago de uma injeção bem-sucedida"
+    ],
+    "answer": [
+     4,
+     2,
+     0,
+     1,
+     3
+    ],
+    "explanation": "Menor privilégio no banco: Limita o estrago de uma injeção bem-sucedida. Escape na saída: Impede que conteúdo exibido vire script no navegador. Content Security Policy: Restringe de onde o navegador aceita executar scripts. Validação no servidor: Garante as regras mesmo com o cliente modificado. Consulta parametrizada: Impede que dado do usuário vire comando SQL.",
+    "hint": "Cada ataque tem uma defesa específica na camada certa."
+   },
+   "checks": [
+    {
+     "answer": [
+      4,
+      2,
+      0,
+      1,
+      3
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      3,
+      1,
+      2,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      0,
+      1,
+      3,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      2,
+      0,
+      1,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 4055616904,
+   "question": {
+    "generator": "match_pool",
+    "seed": 4055616904,
+    "context": [],
+    "tags": [
+     "injection"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada defesa ao problema que ela resolve.",
+    "left": [
+     "Lista de permissão de formato",
+     "Validação no servidor",
+     "Escape na saída",
+     "Menor privilégio no banco",
+     "Consulta parametrizada"
+    ],
+    "right": [
+     "Garante as regras mesmo com o cliente modificado",
+     "Limita o estrago de uma injeção bem-sucedida",
+     "Impede que conteúdo exibido vire script no navegador",
+     "Aceita apenas entradas com o formato esperado",
+     "Impede que dado do usuário vire comando SQL"
+    ],
+    "answer": [
+     3,
+     0,
+     2,
+     1,
+     4
+    ],
+    "explanation": "Lista de permissão de formato: Aceita apenas entradas com o formato esperado. Validação no servidor: Garante as regras mesmo com o cliente modificado. Escape na saída: Impede que conteúdo exibido vire script no navegador. Menor privilégio no banco: Limita o estrago de uma injeção bem-sucedida. Consulta parametrizada: Impede que dado do usuário vire comando SQL.",
+    "hint": "Cada ataque tem uma defesa específica na camada certa."
+   },
+   "checks": [
+    {
+     "answer": [
+      3,
+      0,
+      2,
+      1,
+      4
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      4,
+      1,
+      3,
+      2,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      2,
+      1,
+      4,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      2,
+      1,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2415085369,
+   "question": {
+    "generator": "match_pool",
+    "seed": 2415085369,
+    "context": [],
+    "tags": [
+     "injection"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada defesa ao problema que ela resolve.",
+    "left": [
+     "Consulta parametrizada",
+     "Lista de permissão de formato",
+     "Escape na saída",
+     "Validação no servidor",
+     "Menor privilégio no banco"
+    ],
+    "right": [
+     "Limita o estrago de uma injeção bem-sucedida",
+     "Aceita apenas entradas com o formato esperado",
+     "Impede que conteúdo exibido vire script no navegador",
+     "Garante as regras mesmo com o cliente modificado",
+     "Impede que dado do usuário vire comando SQL"
+    ],
+    "answer": [
+     4,
+     1,
+     2,
+     3,
+     0
+    ],
+    "explanation": "Consulta parametrizada: Impede que dado do usuário vire comando SQL. Lista de permissão de formato: Aceita apenas entradas com o formato esperado. Escape na saída: Impede que conteúdo exibido vire script no navegador. Validação no servidor: Garante as regras mesmo com o cliente modificado. Menor privilégio no banco: Limita o estrago de uma injeção bem-sucedida.",
+    "hint": "Cada ataque tem uma defesa específica na camada certa."
+   },
+   "checks": [
+    {
+     "answer": [
+      4,
+      1,
+      2,
+      3,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      2,
+      3,
+      4,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      2,
+      3,
+      0,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      2,
+      3,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 774553834,
+   "question": {
+    "generator": "match_pool",
+    "seed": 774553834,
+    "context": [],
+    "tags": [
+     "injection"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada defesa ao problema que ela resolve.",
+    "left": [
+     "Lista de permissão de formato",
+     "Menor privilégio no banco",
+     "Validação no servidor",
+     "Escape na saída",
+     "Consulta parametrizada"
+    ],
+    "right": [
+     "Aceita apenas entradas com o formato esperado",
+     "Limita o estrago de uma injeção bem-sucedida",
+     "Garante as regras mesmo com o cliente modificado",
+     "Impede que dado do usuário vire comando SQL",
+     "Impede que conteúdo exibido vire script no navegador"
+    ],
+    "answer": [
+     0,
+     1,
+     2,
+     4,
+     3
+    ],
+    "explanation": "Lista de permissão de formato: Aceita apenas entradas com o formato esperado. Menor privilégio no banco: Limita o estrago de uma injeção bem-sucedida. Validação no servidor: Garante as regras mesmo com o cliente modificado. Escape na saída: Impede que conteúdo exibido vire script no navegador. Consulta parametrizada: Impede que dado do usuário vire comando SQL.",
+    "hint": "Cada ataque tem uma defesa específica na camada certa."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      1,
+      2,
+      4,
+      3
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      2,
+      3,
+      0,
+      4
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      2,
+      4,
+      3,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      2,
+      4,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3428989595,
+   "question": {
+    "generator": "match_pool",
+    "seed": 3428989595,
+    "context": [],
+    "tags": [
+     "injection"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada defesa ao problema que ela resolve.",
+    "left": [
+     "Consulta parametrizada",
+     "Content Security Policy",
+     "Menor privilégio no banco",
+     "Validação no servidor",
+     "Escape na saída"
+    ],
+    "right": [
+     "Limita o estrago de uma injeção bem-sucedida",
+     "Impede que conteúdo exibido vire script no navegador",
+     "Impede que dado do usuário vire comando SQL",
+     "Garante as regras mesmo com o cliente modificado",
+     "Restringe de onde o navegador aceita executar scripts"
+    ],
+    "answer": [
+     2,
+     4,
+     0,
+     3,
+     1
+    ],
+    "explanation": "Consulta parametrizada: Impede que dado do usuário vire comando SQL. Content Security Policy: Restringe de onde o navegador aceita executar scripts. Menor privilégio no banco: Limita o estrago de uma injeção bem-sucedida. Validação no servidor: Garante as regras mesmo com o cliente modificado. Escape na saída: Impede que conteúdo exibido vire script no navegador.",
+    "hint": "Cada ataque tem uma defesa específica na camada certa."
+   },
+   "checks": [
+    {
+     "answer": [
+      2,
+      4,
+      0,
+      3,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      3,
+      0,
+      1,
+      4,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      4,
+      0,
+      3,
+      1,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      4,
+      0,
+      3,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1788458060,
+   "question": {
+    "generator": "match_pool",
+    "seed": 1788458060,
+    "context": [],
+    "tags": [
+     "injection"
+    ],
+    "kind": "match",
+    "prompt": "Associe cada defesa ao problema que ela resolve.",
+    "left": [
+     "Consulta parametrizada",
+     "Menor privilégio no banco",
+     "Content Security Policy",
+     "Validação no servidor",
+     "Lista de permissão de formato"
+    ],
+    "right": [
+     "Limita o estrago de uma injeção bem-sucedida",
+     "Impede que dado do usuário vire comando SQL",
+     "Aceita apenas entradas com o formato esperado",
+     "Garante as regras mesmo com o cliente modificado",
+     "Restringe de onde o navegador aceita executar scripts"
+    ],
+    "answer": [
+     1,
+     0,
+     4,
+     3,
+     2
+    ],
+    "explanation": "Consulta parametrizada: Impede que dado do usuário vire comando SQL. Menor privilégio no banco: Limita o estrago de uma injeção bem-sucedida. Content Security Policy: Restringe de onde o navegador aceita executar scripts. Validação no servidor: Garante as regras mesmo com o cliente modificado. Lista de permissão de formato: Aceita apenas entradas com o formato esperado.",
+    "hint": "Cada ataque tem uma defesa específica na camada certa."
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      0,
+      4,
+      3,
+      2
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      2,
+      1,
+      0,
+      4,
+      3
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      4,
+      3,
+      2,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      4,
+      3,
+      2
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

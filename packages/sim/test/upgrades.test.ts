@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { registry } from "@fireshot/content";
-import { baseModifiers, computeModifiers, damagePlayer, findWeaponDef, manualBackup, upgradeSlots } from "../src";
+import { baseModifiers, computeModifiers, damagePlayer, findWeaponDef, isAmmoWeapon, manualBackup, upgradeSlots } from "../src";
 import { drain, makePhase, makeWorld, rows } from "./helpers";
 
 const phase = makePhase({
@@ -48,7 +48,8 @@ describe("efeitos no mundo", () => {
     const plain = makeWorld(phase, 1, []);
     const tuned = makeWorld(phase, 1, ["off_magazine_1", "off_reload_1"]);
     const def = findWeaponDef(plain.reg, "patch_pistol");
-    expect(tuned.player.weapons[0]!.magazine).toBe(Math.round(def.magazine * 1.25));
+    const baseMagazine = isAmmoWeapon(def) ? def.magazine : 0;
+    expect(tuned.player.weapons[0]!.magazine).toBe(Math.round(baseMagazine * 1.25));
     expect(tuned.player.weapons[0]!.magazine).toBeGreaterThan(plain.player.weapons[0]!.magazine);
     expect(tuned.mods.reloadMult).toBe(0.8);
   });

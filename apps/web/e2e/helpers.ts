@@ -28,11 +28,23 @@ export async function collectErrors(page: Page): Promise<string[]> {
   return errors;
 }
 
-/** Pula o briefing, inicia a missão e simula a captura do ponteiro. */
+/**
+ * Pula o briefing, inicia a missão e simula a captura do ponteiro.
+ * O briefing redesenha enquanto digita as falas, então "Pular" pode já ter desaparecido
+ * e o botão de início pode ser substituído entre a busca e o clique: insiste até jogar.
+ */
 export async function startMission(page: Page): Promise<void> {
-  await page.getByRole("button", { name: "Pular" }).click();
-  await page.getByRole("button", { name: /Iniciar missão/ }).click();
-  await page.waitForFunction(() => window.__fireshot?.mode() === "playing");
+  const skip = page.getByRole("button", { name: "Pular" });
+  const start = page.getByRole("button", { name: /Iniciar missão/ });
+  await expect
+    .poll(async () => {
+      const current = await mode(page);
+      if (current === "playing") return current;
+      if (await start.isVisible().catch(() => false)) await start.click().catch(() => {});
+      else if (await skip.isVisible().catch(() => false)) await skip.click().catch(() => {});
+      return mode(page);
+    }, { timeout: 60_000 })
+    .toBe("playing");
   await page.evaluate(() => window.__fireshot!.forceLock());
 }
 

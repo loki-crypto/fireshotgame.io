@@ -6,6 +6,9 @@ conceito e uma contramedida que só funciona se você entendeu a ideia. Entre os
 **terminais**: questões geradas a partir de uma seed, com explicação no erro. O servidor é a
 autoridade para XP, badges, progresso e certificado.
 
+São **10 fases**: tutorial, LAN, sub-redes (Rootkit/Scanner), DNS e HTTPS (MITM/VPN Shield),
+firewall e DDoS (Botnet/Firewall Cannon), autenticação (Brute Forcer/lockout), phishing (Phisher),
+trojan, injeção (Injector/Sanitizer) e o chefe Ransomware com ciclo de resposta a incidentes.
 UI e conteúdo em **pt-BR**.
 
 ## Pilha
@@ -56,8 +59,8 @@ salva progresso.
 ## Testes
 
 ```bash
-pnpm -r test                     # sim (72) + content (60) + web (29)
-cd apps/api && uv run pytest -q  # 56 testes (conformidade TS↔Python, auth, sessão, loja, certificado)
+pnpm -r test                     # sim (95) + content (97) + web (29)
+cd apps/api && uv run pytest -q  # 69 testes (conformidade TS↔Python, auth, sessão, loja, certificado)
 cd apps/api && uv run ruff check .
 
 cd apps/web && npx playwright test                 # E2E sem backend
@@ -82,6 +85,34 @@ cd packages/content && UPDATE_FIXTURES=1 npx vitest run test/fixtures.test.ts
 cd apps/api && uv run pytest tests/test_conformance.py   # o espelho em Python precisa bater
 ```
 
+## Balanceamento
+
+`packages/sim/test/balance.test.ts` roda um **bot headless** em cada fase, com três seeds: ele
+resolve os terminais que alcança (A* do próprio jogo), varre ameaças ocultas com o Scanner, escolhe
+a contramedida certa, caça as ondas das arenas e vai à saída. O teste falha se uma fase deixar de
+ser concluível dentro do `parTime` ou se os abates passarem do teto de plausibilidade do servidor.
+
+Em vez de morrer, o bot é "socorrido" quando a integridade cai — o número de socorros e o dano
+tomado são a medida de pressão de cada fase, sem depender da perícia de combate do bot:
+
+```
+00-tutorial    tempo=16s (par 420s) resgates=0.0 abates=5  dano=14
+01-lan         tempo=23s (par 600s) resgates=0.0 abates=9  dano=30
+02-subnets     tempo=25s (par 660s) resgates=1.0 abates=9  dano=125
+03-dns-https   tempo=33s (par 720s) resgates=1.0 abates=8  dano=138
+04-firewall    tempo=30s (par 780s) resgates=0.0 abates=35 dano=40
+05-auth        tempo=40s (par 780s) resgates=1.0 abates=5  dano=198
+06-phishing    tempo=26s (par 780s) resgates=0.0 abates=14 dano=44
+07-trojan      tempo=31s (par 780s) resgates=1.0 abates=15 dano=187
+08-injection   tempo=23s (par 840s) resgates=0.0 abates=10 dano=26
+09-ransomware  tempo=27s (par 900s) resgates=2.0 abates=1  dano=312
+```
+
+`packages/sim/test/mechanics.test.ts` cobre as mecânicas de ensino que não aparecem em número:
+isca de phishing × comunicado legítimo (com denúncia e falso positivo), Trojan disfarçado revelado
+pelo Scanner, Injector corrompendo terminal e Sanitizer limpando, e o chefe passando de oculto a
+contido e exposto conforme o ciclo identificar → conter → erradicar.
+
 ## Como o anti-cheat funciona
 
 O gerador roda no cliente (para dar feedback imediato, o bundle sabe o gabarito), mas **o servidor
@@ -105,5 +136,12 @@ emissão dizem isso explicitamente.
 
 ## Acessibilidade
 
-Remapeamento de teclas, sensibilidade e inversão de mira, legendas para o áudio, formas
-geométricas distintas por tipo de ameaça (não só cor) e alto contraste na HUD.
+- **Controles**: remapeamento completo (duas teclas por ação, mouse incluído), sensibilidade,
+  inversão do eixo Y e campo de visão ajustável.
+- **Leitura**: briefings com legendas sempre visíveis, velocidade de digitação ajustável e narração
+  opcional por síntese de voz; toda explicação de terminal e de morte é texto, não só efeito visual.
+- **Movimento**: "reduzir movimento" desliga tremor de câmera, balanço ao andar e a inclinação da
+  arma — honrado no renderizador e no viewmodel.
+- **Cor**: cada ameaça tem forma geométrica própria além da cor (um teste garante formas e cores
+  únicas), e a HUD usa contraste alto com rótulos textuais.
+- **Desempenho**: modo de qualidade reduzida para máquinas sem GPU dedicada.

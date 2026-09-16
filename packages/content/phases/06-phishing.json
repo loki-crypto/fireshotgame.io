@@ -1,0 +1,158 @@
+{
+  "id": "06-phishing",
+  "version": 1,
+  "order": 6,
+  "title": "Caixa de Entrada",
+  "subtitle": "Phishing e engenharia social",
+  "concepts": ["Phishing", "Engenharia social", "Domínio enganoso", "Denúncia"],
+  "learningObjectives": [
+    "Ler o domínio real de um remetente e desconfiar de subdomínios enganosos",
+    "Reconhecer urgência artificial, pedido de senha e cobrança antecipada como sinais de fraude",
+    "Verificar por um canal oficial em vez de clicar no link recebido",
+    "Denunciar a mensagem em vez de apenas apagá-la"
+  ],
+  "briefing": {
+    "lines": [
+      { "speaker": "SOC", "text": "Setor administrativo, turno da tarde. Uma campanha de phishing está chegando às caixas de entrada." },
+      { "speaker": "SOC", "text": "O Phisher não ataca você: ataca sua atenção. Ele planta mensagens no seu HUD com iscas espalhadas pelo mapa." },
+      { "speaker": "SOC", "text": "Item ligado a uma isca é armadilha. Item de mensagem legítima é suprimento de verdade — a diferença está no remetente e no que a mensagem pede." },
+      { "speaker": "SOC", "text": "Use a tecla de denúncia (R) na mensagem aberta. Denunciar phishing remove a isca e marca a origem." },
+      { "speaker": "SOC", "text": "Denunciar uma mensagem legítima descarta o suprimento: leia antes de agir." }
+    ]
+  },
+  "debriefing": {
+    "summary": [
+      "O domínio real é o final do endereço: em redecorp.com.br.pagamentos.net, quem manda é pagamentos.net.",
+      "Urgência, pedido de senha ou de código de verificação e cobrança antecipada são os sinais mais confiáveis de fraude.",
+      "Verificação fora de banda: procure a instituição pelo canal que você já usava, nunca pelo link da mensagem.",
+      "Denunciar protege o time inteiro — uma campanha de phishing sempre atinge mais de uma pessoa."
+    ]
+  },
+  "parTime": 780,
+  "minTime": 110,
+  "limits": { "maxKills": 90, "maxBytes": 300 },
+  "tags": ["fake_pickups"],
+  "weaponsAvailable": ["patch_pistol", "scanner", "vpn_shield", "firewall_cannon"],
+  "introducesEnemies": ["phisher"],
+  "ambient": { "accent": "#ffd166", "fogDensity": 0.026 },
+  "messages": { "legitEvery": 24, "maxActive": 3 },
+  "layout": {
+    "cellSize": 2,
+    "wallHeight": 3.2,
+    "rows": [
+      "##################################",
+      "#.........#....m....#............#",
+      "#..P......#...f.....#............#",
+      "#....1....#.........#......X.....#",
+      "#.........a.........#............#",
+      "#.........a....2....#.....y......#",
+      "#.........#.........#............#",
+      "#...T.....#......U..#............#",
+      "###########bb########dd###########",
+      "#.......h.......#................#",
+      "#...f...........#...AAAAAAAAAA...#",
+      "#.......s.......c...AAAAAAAAAA...#",
+      "#....3..........c...AAAAAAAAAA...#",
+      "#...............#...AAAAAAAAAA..e#",
+      "#..........V....#.......4.......z#",
+      "##################################"
+    ]
+  },
+  "legend": {
+    "P": { "type": "player" },
+    "1": { "type": "sign", "text": "Mensagem aberta no HUD: leia o remetente. Tecla R denuncia a mensagem." },
+    "2": { "type": "sign", "text": "Isca de phishing parece suprimento comum. Denunciar a mensagem remove a isca do mapa." },
+    "3": { "type": "sign", "text": "Domínio real = o final do endereço. redecorp.com.br.pagamentos.net é pagamentos.net." },
+    "4": { "type": "sign", "text": "Campanha de phishing atinge muita gente: quem denuncia primeiro protege o time." },
+    "T": { "type": "terminal", "id": "t1" },
+    "U": { "type": "terminal", "id": "t2" },
+    "V": { "type": "terminal", "id": "t3" },
+    "a": { "type": "door", "id": "d1" },
+    "b": { "type": "door", "id": "d2" },
+    "c": { "type": "door", "id": "d3" },
+    "d": { "type": "door", "id": "d4" },
+    "f": { "type": "enemy", "enemy": "phisher", "route": "office" },
+    "s": { "type": "spawner", "id": "s1" },
+    "z": { "type": "spawner", "id": "s2" },
+    "A": { "type": "arena", "id": "a1" },
+    "h": { "type": "pickup", "kind": "health" },
+    "e": { "type": "pickup", "kind": "shield" },
+    "y": { "type": "pickup", "kind": "bytes", "amount": 18 },
+    "m": { "type": "pickup", "kind": "ammo" },
+    "X": { "type": "exit" }
+  },
+  "routes": {
+    "office": [[13, 2], [18, 2], [18, 6], [13, 6]]
+  },
+  "spawners": [
+    { "id": "s1", "enemy": "phisher", "every": 30, "max": 2, "active": true, "traffic": 25 },
+    { "id": "s2", "traffic": 25 }
+  ],
+  "arenas": [
+    {
+      "id": "a1",
+      "title": "Campanha em massa",
+      "lockDoors": ["d3"],
+      "waves": [
+        {
+          "spawns": [{ "spawner": "s2", "enemy": "phisher", "count": 3, "interval": 2.0 }],
+          "delayAfter": 3.0,
+          "message": "Campanha em massa: não clique em nada que prometa pressa."
+        },
+        {
+          "spawns": [
+            { "spawner": "s2", "enemy": "phisher", "count": 3, "interval": 1.8 },
+            { "spawner": "s2", "enemy": "botnet_drone", "count": 6, "interval": 0.5 }
+          ]
+        }
+      ],
+      "onClear": [
+        { "type": "openDoor", "door": "d4" },
+        { "type": "message", "text": "Campanha bloqueada no gateway de e-mail.", "tone": "success" }
+      ]
+    }
+  ],
+  "terminals": [
+    {
+      "id": "t1",
+      "title": "Anatomia da fraude",
+      "concept": "Sinais de phishing e verificação",
+      "generator": "mc_pool",
+      "params": { "pool": "phishing", "counterTags": ["phishing"] },
+      "challenges": 2,
+      "required": true,
+      "onSolve": [{ "type": "openDoor", "door": "d1" }],
+      "hint": "Leia o domínio de trás para frente e veja o que a mensagem pede."
+    },
+    {
+      "id": "t2",
+      "title": "Triagem",
+      "concept": "Classificar mensagens recebidas",
+      "generator": "phishing_classify",
+      "params": { "count": 4 },
+      "challenges": 2,
+      "required": true,
+      "onSolve": [
+        { "type": "openDoor", "door": "d2" },
+        { "type": "message", "text": "Filtro de e-mail calibrado com suas classificações.", "tone": "success" }
+      ],
+      "hint": "Domínio oficial e sem pedido de senha = legítima."
+    },
+    {
+      "id": "t3",
+      "title": "Sinais de alerta",
+      "concept": "O que cada pista revela",
+      "generator": "match_pool",
+      "params": { "pool": "phishing", "count": 5, "counterTags": ["phishing"] },
+      "challenges": 1,
+      "required": true,
+      "onSolve": [
+        { "type": "disableSpawner", "spawner": "s1" },
+        { "type": "openDoor", "door": "d3" },
+        { "type": "message", "text": "Regras de bloqueio publicadas para todo o setor.", "tone": "success" }
+      ],
+      "hint": "Cada sinal revela a intenção por trás da mensagem."
+    }
+  ],
+  "exit": { "requires": { "terminals": ["t1", "t2", "t3"], "arenas": ["a1"] } }
+}

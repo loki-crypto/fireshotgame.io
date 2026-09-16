@@ -67,6 +67,19 @@ describe("integridade referencial", () => {
     expect(new Set(slots).size).toBe(slots.length);
   });
 
+  it("acessibilidade: cada ameaça tem forma e cor próprias (não depende só de cor)", () => {
+    const shapes = registry.enemies.map((e) => e.shape);
+    const colors = registry.enemies.map((e) => e.color.toLowerCase());
+    expect(new Set(shapes).size, `formas repetidas: ${shapes.join(", ")}`).toBe(shapes.length);
+    expect(new Set(colors).size, `cores repetidas: ${colors.join(", ")}`).toBe(colors.length);
+    for (const e of registry.enemies) {
+      // a tela de morte e o briefing explicam a ameaça em texto, não só no visual
+      expect(e.explain.death.length, `${e.id}: explicação de morte`).toBeGreaterThan(20);
+      expect(e.explain.tip.length, `${e.id}: dica de contramedida`).toBeGreaterThan(20);
+      expect(e.concept.length, `${e.id}: conceito`).toBeGreaterThan(3);
+    }
+  });
+
   it("badges de fase referenciam fases existentes", () => {
     for (const b of registry.badges) {
       const c = b.criterion;

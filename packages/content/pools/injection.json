@@ -1,0 +1,141 @@
+{
+  "mc": [
+    {
+      "id": "inj-sql",
+      "prompt": "O que é uma injeção de SQL?",
+      "correct": "Fazer a aplicação executar comandos de banco a partir de dados enviados pelo usuário",
+      "wrong": [
+        "Enviar muitos dados até o banco ficar lento",
+        "Descobrir a senha do banco por tentativa e erro",
+        "Interceptar a conexão entre a aplicação e o banco"
+      ],
+      "explanation": "Quando o dado do usuário é concatenado na consulta, o banco não distingue dado de comando. A correção é usar consultas parametrizadas (prepared statements).",
+      "hint": "O dado vira comando.",
+      "tags": ["injection"]
+    },
+    {
+      "id": "inj-fix",
+      "prompt": "Qual é a defesa correta contra injeção de SQL?",
+      "correct": "Consultas parametrizadas, que separam comando de dado",
+      "wrong": [
+        "Remover a palavra SELECT das entradas do usuário",
+        "Limitar o campo a 20 caracteres",
+        "Confiar na validação feita pelo JavaScript da página"
+      ],
+      "explanation": "Filtrar palavras é uma corrida perdida e a validação no navegador pode ser burlada. Parametrizar resolve na raiz: o banco recebe o dado como valor, nunca como código.",
+      "hint": "Separar comando de dado, não adivinhar o que é perigoso.",
+      "tags": ["injection"]
+    },
+    {
+      "id": "inj-xss",
+      "prompt": "O que um ataque de XSS (cross-site scripting) faz?",
+      "correct": "Executa script do atacante no navegador de outras pessoas que visitam a página",
+      "wrong": [
+        "Apaga o banco de dados do servidor",
+        "Descobre a senha do administrador por força bruta",
+        "Bloqueia o acesso ao site por excesso de tráfego"
+      ],
+      "explanation": "Conteúdo não escapado ao ser exibido vira código no navegador da vítima, permitindo roubar sessão e agir em nome dela. A defesa é escapar na saída (e usar CSP).",
+      "tags": ["injection", "xss"]
+    },
+    {
+      "id": "inj-trust",
+      "prompt": "Por que validar a entrada apenas no navegador não é suficiente?",
+      "correct": "O cliente pode ser modificado: qualquer um envia a requisição direto para a API",
+      "wrong": [
+        "Porque o JavaScript é lento para validar",
+        "Porque o navegador não sabe validar números",
+        "Porque a validação no cliente gasta banda"
+      ],
+      "explanation": "Validação no cliente é conveniência de interface. A autoridade é o servidor — é o mesmo princípio que faz o servidor deste jogo revalidar cada resposta de terminal.",
+      "hint": "Quem controla o cliente controla a requisição.",
+      "tags": ["injection"]
+    },
+    {
+      "id": "inj-least",
+      "prompt": "A aplicação web precisa apenas ler e gravar em três tabelas. Que usuário de banco ela deve usar?",
+      "correct": "Um usuário restrito a essas tabelas, sem permissão de alterar esquema",
+      "wrong": [
+        "O usuário administrador, para evitar erros de permissão",
+        "O mesmo usuário usado pelos relatórios e pelo backup",
+        "Um usuário por requisição, criado na hora"
+      ],
+      "explanation": "Menor privilégio limita o estrago de uma injeção bem-sucedida: sem DROP nem acesso a outras tabelas, o ataque perde alcance.",
+      "tags": ["injection"]
+    }
+  ],
+  "pairsPrompt": "Associe cada defesa ao problema que ela resolve.",
+  "pairsHint": "Cada ataque tem uma defesa específica na camada certa.",
+  "pairs": [
+    { "left": "Consulta parametrizada", "right": "Impede que dado do usuário vire comando SQL", "tags": ["injection"] },
+    { "left": "Escape na saída", "right": "Impede que conteúdo exibido vire script no navegador", "tags": ["xss"] },
+    { "left": "Validação no servidor", "right": "Garante as regras mesmo com o cliente modificado", "tags": ["injection"] },
+    { "left": "Menor privilégio no banco", "right": "Limita o estrago de uma injeção bem-sucedida", "tags": ["injection"] },
+    { "left": "Content Security Policy", "right": "Restringe de onde o navegador aceita executar scripts", "tags": ["xss"] },
+    { "left": "Lista de permissão de formato", "right": "Aceita apenas entradas com o formato esperado", "tags": ["injection"] }
+  ],
+  "classify": {
+    "prompt": "Classifique cada trecho de código recebido na revisão.",
+    "categories": ["Seguro", "Vulnerável"],
+    "explanation": "Concatenar dado do usuário em consulta ou em HTML é a raiz das injeções. Parametrizar a consulta e escapar a saída elimina a classe inteira de problema.",
+    "hint": "Procure onde o dado do usuário entra na consulta ou na página.",
+    "items": [
+      {
+        "text": "db.query(\"SELECT * FROM users WHERE email = ?\", [email])",
+        "category": 0,
+        "explanation": "Consulta parametrizada: o banco trata o e-mail como valor.",
+        "detail": ["Parâmetro separado do comando"],
+        "tags": ["injection"]
+      },
+      {
+        "text": "db.query(\"SELECT * FROM users WHERE email = '\" + email + \"'\")",
+        "category": 1,
+        "explanation": "Concatenação direta: um apóstrofo no e-mail muda a consulta.",
+        "detail": ["Dado concatenado no SQL"],
+        "tags": ["injection"]
+      },
+      {
+        "text": "element.textContent = comentario",
+        "category": 0,
+        "explanation": "textContent insere texto, nunca marcação executável.",
+        "detail": ["Sem interpretação de HTML"],
+        "tags": ["xss"]
+      },
+      {
+        "text": "element.innerHTML = comentario",
+        "category": 1,
+        "explanation": "innerHTML interpreta marcação: um <script> do usuário roda no navegador de quem lê.",
+        "detail": ["HTML do usuário interpretado"],
+        "tags": ["xss"]
+      },
+      {
+        "text": "if (!/^[0-9]{1,6}$/.test(id)) return erro(400)",
+        "category": 0,
+        "explanation": "Lista de permissão por formato, validada no servidor.",
+        "detail": ["Formato restrito", "Verificado no servidor"],
+        "tags": ["injection"]
+      },
+      {
+        "text": "os.system(\"convert \" + nomeArquivo + \" saida.png\")",
+        "category": 1,
+        "explanation": "Injeção de comando: um ponto e vírgula no nome do arquivo executa outro programa.",
+        "detail": ["Shell montado por concatenação"],
+        "tags": ["injection"]
+      },
+      {
+        "text": "Remover a palavra \"DROP\" da entrada antes de concatenar na consulta",
+        "category": 1,
+        "explanation": "Lista de proibição é sempre incompleta; a concatenação continua sendo o problema.",
+        "detail": ["Filtro por palavra proibida"],
+        "tags": ["injection"]
+      },
+      {
+        "text": "Usuário do banco com permissão apenas de SELECT e INSERT nas tabelas da aplicação",
+        "category": 0,
+        "explanation": "Menor privilégio: mesmo com uma falha, o alcance do ataque é pequeno.",
+        "detail": ["Sem DDL", "Escopo restrito"],
+        "tags": ["injection"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "labels": {
+    "from": "De: {from}",
+    "signalsTitle": "Sinais",
+    "explanationTemplate": "{explanation} Sinais: {signals}."
+  },
+  "messages": {
+    "phish": [
+      {
+        "id": "ph-ti",
+        "from": "Suporte TI <suporte@redecorp-seguranca.co>",
+        "subject": "URGENTE: sua conta será desativada em 2 horas",
+        "body": "Confirme sua senha no link para manter o acesso. Após o prazo, a conta será removida definitivamente.",
+        "signals": ["domínio parecido, mas diferente do oficial (redecorp-seguranca.co)", "urgência artificial com prazo curto", "pede a senha"],
+        "explanation": "Setor de TI nunca pede senha por e-mail, e o domínio não é o oficial."
+      },
+      {
+        "id": "ph-banco",
+        "from": "Banco Central de Pagamentos <atendimento@bcp-regularize.net>",
+        "subject": "Sua chave PIX foi bloqueada por segurança",
+        "body": "Regularize seus dados em 24h para desbloquear a chave. Informe CPF, senha do app e código recebido por SMS.",
+        "signals": ["pede senha e código de verificação", "remetente não é o banco", "ameaça de bloqueio"],
+        "explanation": "Nenhuma instituição pede o código do SMS: ele é exatamente o segundo fator que protege a conta."
+      },
+      {
+        "id": "ph-premio",
+        "from": "Promoções <voce-ganhou@sorteio-corporativo.com>",
+        "subject": "Parabéns! Você foi sorteado com um notebook",
+        "body": "Para receber o prêmio, informe seus dados e pague a taxa de frete de R$ 39,90 hoje.",
+        "signals": ["prêmio que você não disputou", "cobrança antecipada de taxa", "domínio sem relação com a empresa"],
+        "explanation": "Prêmio inesperado que exige pagamento é a fraude mais antiga da internet."
+      },
+      {
+        "id": "ph-entrega",
+        "from": "Entregas Express <rastreio@entrega-pendente.info>",
+        "subject": "Sua encomenda está retida na alfândega",
+        "body": "Clique para pagar a taxa de liberação. O pacote será devolvido em 12 horas.",
+        "signals": ["encomenda que você não comprou", "link de pagamento imediato", "domínio genérico (.info)"],
+        "explanation": "A transportadora real informa o rastreio no site oficial e não cobra taxa por e-mail."
+      },
+      {
+        "id": "ph-rh",
+        "from": "RH Folha <rh-folha@redecorp.com.br.pagamentos.net>",
+        "subject": "Reajuste salarial: confira o valor em anexo",
+        "body": "Abra a planilha anexa e habilite as macros para visualizar o novo valor do seu salário.",
+        "signals": ["subdomínio enganoso (o domínio real é pagamentos.net)", "anexo pedindo macros", "assunto que atiça curiosidade"],
+        "explanation": "O domínio verdadeiro é o final: redecorp.com.br.pagamentos.net pertence a pagamentos.net. Macro em anexo é vetor clássico de malware."
+      },
+      {
+        "id": "ph-mfa",
+        "from": "Segurança da Conta <no-reply@verificacao-dupla.app>",
+        "subject": "Aprove o acesso que acabamos de detectar",
+        "body": "Se não foi você, aprove este pedido no aplicativo para cancelar a tentativa de acesso.",
+        "signals": ["instrução invertida: pede aprovar para \"cancelar\"", "pressão psicológica", "remetente desconhecido"],
+        "explanation": "É fadiga de MFA: o atacante já tem a senha e insiste até alguém aprovar. Aprovar nunca cancela nada."
+      },
+      {
+        "id": "ph-gov",
+        "from": "Receita Federal <malha-fina@receita-consulta.org>",
+        "subject": "Sua declaração caiu na malha fina",
+        "body": "Baixe o programa de regularização em anexo e execute como administrador para corrigir as pendências.",
+        "signals": ["órgão público em domínio .org", "executável em anexo", "pede privilégio de administrador"],
+        "explanation": "Órgãos públicos usam domínios gov.br e não enviam programas por e-mail."
+      },
+      {
+        "id": "ph-nuvem",
+        "from": "Compartilhamento <docs@drive-corporativo-share.com>",
+        "subject": "Contrato compartilhado com você: assine agora",
+        "body": "Faça login com seu e-mail corporativo para visualizar o documento compartilhado.",
+        "signals": ["página de login fora do domínio oficial", "documento inesperado", "urgência para assinar"],
+        "explanation": "Roubo de credenciais por página falsa de login: confira o domínio antes de digitar a senha."
+      }
+    ],
+    "legit": [
+      {
+        "id": "lg-soc",
+        "from": "SOC <soc@redecorp.com.br>",
+        "subject": "Suprimentos liberados no setor",
+        "body": "Deixamos um pacote de suprimentos no ponto marcado. Nenhuma ação adicional é necessária.",
+        "signals": ["domínio oficial", "não pede credenciais", "sem urgência"],
+        "explanation": "Comunicado interno do domínio oficial, sem link nem pedido de dados."
+      },
+      {
+        "id": "lg-manutencao",
+        "from": "Infraestrutura <infra@redecorp.com.br>",
+        "subject": "Manutenção programada no servidor de arquivos",
+        "body": "Sábado, das 2h às 4h, o compartilhamento ficará indisponível. Nenhuma ação necessária.",
+        "signals": ["domínio oficial", "aviso informativo", "sem anexo nem link"],
+        "explanation": "Aviso de manutenção com data e escopo definidos, sem pedir nada."
+      },
+      {
+        "id": "lg-treinamento",
+        "from": "Gente e Gestão <treinamentos@redecorp.com.br>",
+        "subject": "Inscrições abertas: trilha de segurança da informação",
+        "body": "As inscrições ficam abertas até o fim do mês no portal interno, acessível pela intranet.",
+        "signals": ["domínio oficial", "direciona para a intranet", "prazo longo"],
+        "explanation": "Convite interno que aponta para o portal da intranet, sem link externo."
+      },
+      {
+        "id": "lg-politica",
+        "from": "Segurança da Informação <seginfo@redecorp.com.br>",
+        "subject": "Nova política de senhas entra em vigor",
+        "body": "Passaremos a exigir frases-senha de 14 caracteres. A troca será solicitada no próximo login, no sistema.",
+        "signals": ["domínio oficial", "a troca acontece no sistema, não por link", "sem anexo"],
+        "explanation": "Mudança anunciada com a ação acontecendo dentro do sistema, não por e-mail."
+      },
+      {
+        "id": "lg-chamado",
+        "from": "Central de Serviços <chamados@redecorp.com.br>",
+        "subject": "Chamado #48213 atualizado",
+        "body": "Seu chamado sobre o teclado foi atendido. Responda este e-mail se o problema persistir.",
+        "signals": ["domínio oficial", "referência a um chamado que você abriu", "não pede dados"],
+        "explanation": "Resposta a um atendimento que você mesmo iniciou, sem pedir credenciais."
+      },
+      {
+        "id": "lg-backup",
+        "from": "Infraestrutura <infra@redecorp.com.br>",
+        "subject": "Backup semanal concluído",
+        "body": "O backup do seu diretório foi concluído com sucesso. Relatório disponível na intranet.",
+        "signals": ["domínio oficial", "relatório na intranet", "apenas informativo"],
+        "explanation": "Notificação automática de rotina, sem ação exigida."
+      }
+    ]
+  },
+  "classify": {
+    "prompt": "Triagem da caixa de entrada: classifique cada mensagem.",
+    "categories": ["Phishing", "Legítima"],
+    "explanation": "Confira o domínio real (o que vem antes da primeira barra, lendo da direita para a esquerda), desconfie de urgência e de qualquer pedido de senha, código de verificação ou pagamento. Mensagem interna legítima aponta para o sistema, não para um link externo.",
+    "hint": "Olhe o domínio do remetente, o que a mensagem pede e o prazo que ela impõe."
+  },
+  "mc": [
+    {
+      "id": "ph-what",
+      "prompt": "O que caracteriza um ataque de phishing?",
+      "correct": "Enganar a pessoa para que ela entregue dados ou execute algo, se passando por alguém confiável",
+      "wrong": [
+        "Explorar uma falha de software para invadir o servidor",
+        "Inundar o serviço com tráfego até ele cair",
+        "Quebrar a senha testando combinações"
+      ],
+      "explanation": "Phishing ataca a pessoa, não o sistema: a defesa é reconhecer os sinais e verificar pelo canal oficial.",
+      "hint": "O alvo é quem lê a mensagem.",
+      "tags": ["phishing"]
+    },
+    {
+      "id": "ph-domain",
+      "prompt": "Em https://redecorp.com.br.pagamentos.net/login, qual é o domínio de verdade?",
+      "correct": "pagamentos.net",
+      "wrong": ["redecorp.com.br", "redecorp.com.br.pagamentos.net/login", "login"],
+      "explanation": "O domínio é lido da direita para a esquerda até o registrável: tudo à esquerda é subdomínio e pode ser escrito à vontade por quem controla pagamentos.net.",
+      "hint": "Leia de trás para frente.",
+      "tags": ["phishing"]
+    },
+    {
+      "id": "ph-verify",
+      "prompt": "Você recebeu uma mensagem suspeita do \"banco\". Qual é a atitude correta?",
+      "correct": "Ignorar o link e procurar o banco pelo canal oficial que você já conhece",
+      "wrong": [
+        "Clicar no link e conferir se a página parece legítima",
+        "Responder pedindo mais detalhes",
+        "Encaminhar para os colegas pedirem opinião"
+      ],
+      "explanation": "Verificação fora de banda: use um canal que você já confiava antes da mensagem. Clicar para \"conferir\" já entrega dados ao atacante.",
+      "tags": ["phishing"]
+    },
+    {
+      "id": "ph-mfa-fatigue",
+      "prompt": "Seu celular recebe vários pedidos de aprovação de login que você não iniciou. O que fazer?",
+      "correct": "Negar todos e trocar a senha: alguém já tem sua credencial",
+      "wrong": [
+        "Aprovar um para parar as notificações",
+        "Desligar o MFA para não receber mais avisos",
+        "Ignorar, pois o MFA já protege"
+      ],
+      "explanation": "É fadiga de MFA. Os pedidos só existem porque a senha vazou — negue, troque a senha e avise a segurança.",
+      "tags": ["phishing", "mfa"]
+    },
+    {
+      "id": "ph-report",
+      "prompt": "Por que denunciar (e não só apagar) um phishing recebido no trabalho?",
+      "correct": "A denúncia permite bloquear o remetente e avisar quem também recebeu",
+      "wrong": [
+        "Porque apagar o e-mail apaga o vírus",
+        "Porque a denúncia recupera o dinheiro automaticamente",
+        "Porque o remetente recebe uma multa"
+      ],
+      "explanation": "Uma campanha de phishing atinge muita gente: o primeiro que denuncia protege todo o resto.",
+      "tags": ["phishing"]
+    }
+  ],
+  "pairsPrompt": "Associe cada sinal de fraude ao que ele indica.",
+  "pairsHint": "Pense no que cada pista revela sobre a intenção da mensagem.",
+  "pairs": [
+    { "left": "Domínio parecido com o oficial", "right": "Typosquatting: imita a marca para enganar o olhar", "tags": ["phishing"] },
+    { "left": "Prazo de poucas horas", "right": "Urgência artificial para impedir a verificação", "tags": ["phishing"] },
+    { "left": "Pedido do código do SMS", "right": "Tentativa de furar o segundo fator", "tags": ["mfa"] },
+    { "left": "Anexo pedindo macros", "right": "Execução de código no seu computador", "tags": ["phishing"] },
+    { "left": "Prêmio com taxa antecipada", "right": "Fraude de pagamento adiantado", "tags": ["phishing"] },
+    { "left": "Página de login fora do domínio", "right": "Captura de credenciais", "tags": ["phishing"] }
+  ]
+}

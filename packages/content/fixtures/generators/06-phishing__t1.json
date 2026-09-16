@@ -1,0 +1,1798 @@
+{
+ "source": "06-phishing/t1",
+ "generator": "mc_pool",
+ "params": {
+  "pool": "phishing",
+  "counterTags": [
+   "phishing"
+  ]
+ },
+ "seeds": [
+  {
+   "seed": 2654435761,
+   "sha256": "e68fdbf8fd8fe77780d79073c744e087067f14c3d81045387d54f6257fbfc07c"
+  },
+  {
+   "seed": 1013904226,
+   "sha256": "df5b8bc3e6c19b507d9927306677979cfabedbaea8475d1c438aad7a6034bf69"
+  },
+  {
+   "seed": 3668339987,
+   "sha256": "d7f13fc39257e5c2a36c4de2f0906d257c169e6fee1add8303008a02c2508dde"
+  },
+  {
+   "seed": 2027808452,
+   "sha256": "7341a0908f9f33508236e6bd35f0b5d68b6371bcbeb710c25ea0e489e13c95d4"
+  },
+  {
+   "seed": 387276917,
+   "sha256": "5034c2177d9ee5227fc8c684904404681032186abd8787f3e56238c29d93de93"
+  },
+  {
+   "seed": 3041712678,
+   "sha256": "235837643c5f8b7127800cac9a24669c3e200a7f1e8546ff107db68de0ac0f67"
+  },
+  {
+   "seed": 1401181143,
+   "sha256": "c8d857af54b54cba1d9b4bb0b0fdf64b236a53b2fd47673365836a841dfc627b"
+  },
+  {
+   "seed": 4055616904,
+   "sha256": "b190930362f4a59b5b9adadeb69d345b2d89e49c7e2a9a514a49197853838950"
+  },
+  {
+   "seed": 2415085369,
+   "sha256": "3b439cf16a1588cd0122b0cdec0ff646769a5cb02d954f645e18207ad06547ba"
+  },
+  {
+   "seed": 774553834,
+   "sha256": "bfd6ee5fb49352f4c136a734da1ea9223238faf66e662032783efecbb455f322"
+  },
+  {
+   "seed": 3428989595,
+   "sha256": "8c5db83bebaad3b0b32753ac7e35f96afd4864fc561989f3a142a56d83f4d6cf"
+  },
+  {
+   "seed": 1788458060,
+   "sha256": "2851b771c61ddf746aa09cd7de93b4c6d7205f69480c7571da509a5122b2e33a"
+  },
+  {
+   "seed": 147926525,
+   "sha256": "836830a6cf2f12e91c6df1ae82b809dc1fbea85d2e42b9d46dcf8009e70f1c19"
+  },
+  {
+   "seed": 2802362286,
+   "sha256": "e480db37334cd28dff3053b1b8a1172ceb93c1d05b0aca0e42367827d6e4a13d"
+  },
+  {
+   "seed": 1161830751,
+   "sha256": "d8f686ddc2e3dc5dd942e177706b15b0f12bf00e2710a1f9bc9ff1812e142ed1"
+  },
+  {
+   "seed": 3816266512,
+   "sha256": "aab767480fa83c0faf73abffdaca37177c07606fa75823005ee47e1ae4294783"
+  },
+  {
+   "seed": 2175734977,
+   "sha256": "e0593de46fcfa13ef2b8efdccaa7ac6f487d882e50fa0b472503e686e385f9ab"
+  },
+  {
+   "seed": 535203442,
+   "sha256": "75a39ea786e16655b3d98dfff2065e2a5f276821d8c3602431075e86ca42b8f5"
+  },
+  {
+   "seed": 3189639203,
+   "sha256": "8f18eda043c811971199366df7686369781bff0d4e33b7bc3495000dcd20fd47"
+  },
+  {
+   "seed": 1549107668,
+   "sha256": "443597964a2d6aced590926c759e604d81ca35089c96d2399347fcb0d9468a69"
+  },
+  {
+   "seed": 4203543429,
+   "sha256": "72957b8f3110dc4e0b3913aee5f46f0a95fe099c17ae1d469ae851daa9ef17a9"
+  },
+  {
+   "seed": 2563011894,
+   "sha256": "15ca49080eaa662a218a1dcb552f8fe9898910af60edbcb068b98feddb152832"
+  },
+  {
+   "seed": 922480359,
+   "sha256": "0eea2bf8a00817a34afd109626d79af436f30bd8265394c5b7117dc17c435f16"
+  },
+  {
+   "seed": 3576916120,
+   "sha256": "24c606c90b25a6e5277fa6a70379168b123834bd6eccc389547b0e2f0696459e"
+  },
+  {
+   "seed": 1936384585,
+   "sha256": "495c9e94fb17de1c882f2bebba42b3b2cb096bf2c5aa8c160befd8b897453a0d"
+  },
+  {
+   "seed": 295853050,
+   "sha256": "b98084702d8e1c8e344d4fdac124943907f3cae917372a26c2d2fe073f583992"
+  },
+  {
+   "seed": 2950288811,
+   "sha256": "eabce6b257852498f76fd00b9f1a2ca889975525126daacee7228a0a6f40e290"
+  },
+  {
+   "seed": 1309757276,
+   "sha256": "e7f5957c0686a96978501129bb4d61943d97dfb7ee2362ab5d9c8b8f0a416da0"
+  },
+  {
+   "seed": 3964193037,
+   "sha256": "87cff0ec7260cea2a355830401e5c5b331e98cff201f57eaa3b49058b486cbd9"
+  },
+  {
+   "seed": 2323661502,
+   "sha256": "d8ca1e669886e54aa0085e6cd06605f4c99bc71e6b465b1f0a5a9a9be0defca7"
+  },
+  {
+   "seed": 683129967,
+   "sha256": "36dfaa723471a5fe4c5f9e0d2b6b4ccff501654c4ef1fa591aa04f63136e2d10"
+  },
+  {
+   "seed": 3337565728,
+   "sha256": "a46e9bd5605494e8a2019093ef453e5da047ff4424849cc724942d19573932b8"
+  },
+  {
+   "seed": 1697034193,
+   "sha256": "ce8278584104ab82ef2e4abdba1b4bad36c64fb5274504e3eef0bd2409ded0f6"
+  },
+  {
+   "seed": 56502658,
+   "sha256": "e0ff6e644c3aeff01ed27b33870cb6049ecc69703479abc7dd09e6966e23aa5f"
+  },
+  {
+   "seed": 2710938419,
+   "sha256": "cfe186e8c90abd2c5e34f062160928ed64a6f1cdc970b0be72861df85e1f5b52"
+  },
+  {
+   "seed": 1070406884,
+   "sha256": "787b25482387b89286a1abeca6d3f68f2334feffc5e3127ad12bab480f324a76"
+  },
+  {
+   "seed": 3724842645,
+   "sha256": "c20321b2315154255fdb80d2d1b3b68f6d18d6b4d270bba25dabe1eb12bf1de1"
+  },
+  {
+   "seed": 2084311110,
+   "sha256": "7ea31234c4d71ecc1a443daeab6a446f44f061c6f06e24fc9b1fbcff7df884e6"
+  },
+  {
+   "seed": 443779575,
+   "sha256": "73445c72480f13c8f34357e0e7e2d9850d86365655391b5c44a7d9c5ff5499cb"
+  },
+  {
+   "seed": 3098215336,
+   "sha256": "3dd64b773757eced62f5c3800cb92f19b93186b8b53465ad2995d31d26fbf39e"
+  },
+  {
+   "seed": 1457683801,
+   "sha256": "8b18d1065fbf252bf4b8a7cd95fd2ccbfa846ab0b10da6874c624de9a9dfd039"
+  },
+  {
+   "seed": 4112119562,
+   "sha256": "e5d791833a75388116931ad80074655ecca6b69c0604a24af663ffdcda00831e"
+  },
+  {
+   "seed": 2471588027,
+   "sha256": "7c3e0a9eacc186825ba63ed54bb3a3f396d7eba5b3867a1efea82079be180d9f"
+  },
+  {
+   "seed": 831056492,
+   "sha256": "b70dd1ab3504ff6dd702be6efa7655ffc5732e7926bb274cac0b9eeed8f986c5"
+  },
+  {
+   "seed": 3485492253,
+   "sha256": "d1eec6de8ef4d6b345e4713813965f7bbb433247173642043eac762516916cb0"
+  },
+  {
+   "seed": 1844960718,
+   "sha256": "81727950ac8d640c0f88c567149c84bbde2fe9b77d192e060058e317d9169398"
+  },
+  {
+   "seed": 204429183,
+   "sha256": "88de45ffe061f1ce58846ec4f8c46eee627df5f3f1e450d5f1bb5dcf12adbfe1"
+  },
+  {
+   "seed": 2858864944,
+   "sha256": "3ecf1a7938dd9535b2ef05ffcaf3d50af0c5bfb93574ed9616d9fd9c62b5f6dd"
+  },
+  {
+   "seed": 1218333409,
+   "sha256": "98b64d0be7bbfc60829bf5bbb05af5433ae426e4de1c6514e8d0be5aa0d9d9a5"
+  },
+  {
+   "seed": 3872769170,
+   "sha256": "b0a26501e43d8f2800a99588941d9de7c8fe414324aab928b11fb6c5aa8638af"
+  },
+  {
+   "seed": 2232237635,
+   "sha256": "b6e6be6cdf0f6cdcc88366f6212cbe0d76d7bf391fb49d12a20417895569d364"
+  },
+  {
+   "seed": 591706100,
+   "sha256": "e3da7b825ae879a8284999c6cc62976ad454fb50da00d5d42e737bfb86d6d468"
+  },
+  {
+   "seed": 3246141861,
+   "sha256": "91f6b6d0e1883becaeca6e4e205c4e72904b486ef60e9db17b4fc818e6d45129"
+  },
+  {
+   "seed": 1605610326,
+   "sha256": "f7120435ecd56dd483dbef82a72dabd2de9e4ace10ece118783ea7c20f5327b3"
+  },
+  {
+   "seed": 4260046087,
+   "sha256": "e0ace95660405235f680a83c54c871ce3037cb0c426ecc2c0bd6e17e222dd1b0"
+  },
+  {
+   "seed": 2619514552,
+   "sha256": "f8718db00db2683d9a1428cedfe743a04e87f0663f295ffcd5927432730c68a4"
+  },
+  {
+   "seed": 978983017,
+   "sha256": "2a345794166b62ad6525300de9caa474dd3947101a8fec27afeda190990f4a5e"
+  },
+  {
+   "seed": 3633418778,
+   "sha256": "df4b52814bcd61dfb43a7913b699ac5e1ece49a8723facda340ef99257c3ee9c"
+  },
+  {
+   "seed": 1992887243,
+   "sha256": "4e1cbef5d37d84c31800cc22d8a1e78d144d94707725cadfad6e0e8c8af794c5"
+  },
+  {
+   "seed": 352355708,
+   "sha256": "53a2e44f5bf7d18ed6e01971c6079474dca0a0915c23f944baa7356f80f16029"
+  },
+  {
+   "seed": 3006791469,
+   "sha256": "d0ddd2a04e5a78d8d1b6398d9bfc7909434df8edfd72ef79ef0fa2b2dbbf6155"
+  },
+  {
+   "seed": 1366259934,
+   "sha256": "f14b0c5c2d091590896f444646bdceedd7454684e3b002d77f84c0ebcd888502"
+  },
+  {
+   "seed": 4020695695,
+   "sha256": "e5f9d100f7de78cdfe8c2c85fbbce381d3fe40afd2d86f27e3a6fded5c443942"
+  },
+  {
+   "seed": 2380164160,
+   "sha256": "b3078491b23a19545b86bcead5b73863d32cf961b8f7b32bd798c43ad2af3416"
+  },
+  {
+   "seed": 739632625,
+   "sha256": "739c9feb1d383af02064f56d27627591ff599c8f7b3b1a207816d153d3dc42c7"
+  },
+  {
+   "seed": 3394068386,
+   "sha256": "60056927118959869d8b23c53139ccfb8d9787ee333e4416e8e96b0d71bef0fe"
+  },
+  {
+   "seed": 1753536851,
+   "sha256": "28034b3a9633482519e62cda1b4e94c469721c56d4eead63ade1c69159994a62"
+  },
+  {
+   "seed": 113005316,
+   "sha256": "cd673ba9a5cc2c9a7cf50e08de037990cc9fae38500f09b5494d6cc8432c3409"
+  },
+  {
+   "seed": 2767441077,
+   "sha256": "ca3f2f5d14f3916494ae947c45afd61aace152f62707e90b42da6b38c8fa209d"
+  },
+  {
+   "seed": 1126909542,
+   "sha256": "d81841e4a2c863b3731e6020ffbb2d436c6c2bb5c6cda4b6be8e4d2552041abc"
+  },
+  {
+   "seed": 3781345303,
+   "sha256": "6c07e3076f609e9ef403559ca836ab7976ccc1f785a61a33767503929be6a41d"
+  },
+  {
+   "seed": 2140813768,
+   "sha256": "9c48be301a20e654465a3f3164ed7f8a2ddaa40a249be204962df89338a175a3"
+  },
+  {
+   "seed": 500282233,
+   "sha256": "e5312f9c52b9f758c12980b681b13a356a021856f11d33f4e043a747b30c78ed"
+  },
+  {
+   "seed": 3154717994,
+   "sha256": "07568529d585005cf67e3945c77c3ea1f7fb74dd895b649d60207ec3224e0632"
+  },
+  {
+   "seed": 1514186459,
+   "sha256": "bfcee7473fade63d6e5191164c4fbc25851a4cfe308ebbe2add757fe0a008de9"
+  },
+  {
+   "seed": 4168622220,
+   "sha256": "3d997a5a2a68a916d3e2787b3729e5fadc646272dc50f9f23496f918f69a49f8"
+  },
+  {
+   "seed": 2528090685,
+   "sha256": "8f6350fb8c6851678a6ad1dbb037e848373ea02f6aa999ddcd652d56aaa80b10"
+  },
+  {
+   "seed": 887559150,
+   "sha256": "1a360be6b1621bd823e6885a62e312c731665baef69990a6512dbee1a7ff74d1"
+  },
+  {
+   "seed": 3541994911,
+   "sha256": "47b4f3efb79d476c7271f781a17c3c087333dc40914e516804da838265e9e660"
+  },
+  {
+   "seed": 1901463376,
+   "sha256": "a8464693e80174a5bc504333f4028ed05cafcc1088e1a77304613334f77441f8"
+  },
+  {
+   "seed": 260931841,
+   "sha256": "36a7a69a27a8469557be7d0c8772d32cf62cdf2910fd8993874a7710f7c1ae28"
+  },
+  {
+   "seed": 2915367602,
+   "sha256": "0af2afdec63a707db16c5fca83aecc288b5dd669d8177d63e5d381962eed8557"
+  },
+  {
+   "seed": 1274836067,
+   "sha256": "c59cc393c8e0a9bc193fec34944c187abc4ace8c70d6813eefc2dc0bbc508281"
+  },
+  {
+   "seed": 3929271828,
+   "sha256": "cf1b3fdafcb1947664ac6af053029c9a11c217827d4005c9fb7c01da3e26f619"
+  },
+  {
+   "seed": 2288740293,
+   "sha256": "1466c3fffad6a7267dffe9231f080e7a5d036b1008699105bdb312331846661b"
+  },
+  {
+   "seed": 648208758,
+   "sha256": "a3b75891ee4b251ca5f2345f584be571708e4ee2b3a343a461d555241b51898d"
+  },
+  {
+   "seed": 3302644519,
+   "sha256": "7961f35621156a053679ef2d9a26510a980efa6f51e71652802368b19eb43477"
+  },
+  {
+   "seed": 1662112984,
+   "sha256": "bffc2c95b579d6771d47432b2720059b482e3eb0ed0a45f4c3325db76761d5ef"
+  },
+  {
+   "seed": 21581449,
+   "sha256": "6a2c18b4e7cd3ef3d80075a60f5f51e8548ea635829f2df00ac4abcd1e6e8032"
+  },
+  {
+   "seed": 2676017210,
+   "sha256": "060d6b592ad09f7566736685e489d18b613642b957cacfba71997b9ad394aa16"
+  },
+  {
+   "seed": 1035485675,
+   "sha256": "96242bc4f0e6f761bd687283327b4bc8dbfc148206235669c48ddf79515d19db"
+  },
+  {
+   "seed": 3689921436,
+   "sha256": "380d3f60a90aeb327848f16de8a3bc07548695f96913573952217b2708593286"
+  },
+  {
+   "seed": 2049389901,
+   "sha256": "767b2b75eb5c202dc15ebb89d1693fb26dfcd9c0badc0127500bf773acd41f02"
+  },
+  {
+   "seed": 408858366,
+   "sha256": "1200bab3cb591dbb7ac061301464fd05e1eecb592692f31b655191615da006c0"
+  },
+  {
+   "seed": 3063294127,
+   "sha256": "b6dc7ab13354337a41e1977657a5e8850d93f8704e89f029b5267b3613230990"
+  },
+  {
+   "seed": 1422762592,
+   "sha256": "79a060abaf8dabd8636eb57bd95ef4fa5fad4e7f7971983b54b1bd7f43ebac5c"
+  },
+  {
+   "seed": 4077198353,
+   "sha256": "7d9e45cfc02299b4c2c47001f265fe0afd226beb781ab447681fe8653756a794"
+  },
+  {
+   "seed": 2436666818,
+   "sha256": "c6d9aa5f57d8c8ee1e12345c3fad873ab76fbb264bed3d27c366d74bd1c2e925"
+  },
+  {
+   "seed": 796135283,
+   "sha256": "654a3f8909ba74182f81bd727db7fbc792e49ebeab907abc80827685a89fff0a"
+  },
+  {
+   "seed": 3450571044,
+   "sha256": "ab0b9a59bd9d3b7da2a2ed5909a6e004991a556ab4b5da4fad914ba139a17a1d"
+  },
+  {
+   "seed": 1810039509,
+   "sha256": "d371f8ba04ecb08cfb409e300a9c161171557098761329a3905db0d947fb08ee"
+  },
+  {
+   "seed": 169507974,
+   "sha256": "6aa88ee63651a4c1eb3c1a48832ae1dc1d564fd7831a71068289f1c1d8738834"
+  },
+  {
+   "seed": 2823943735,
+   "sha256": "d606a0d0d7ad1f2b209e5c776e7e76129ae854b95545314fc7e259b31933169b"
+  },
+  {
+   "seed": 1183412200,
+   "sha256": "5343a3e8bcc3526a2f108fc1442dba145cc2ff1c9de413a318a5e1d6f7f7d4e6"
+  },
+  {
+   "seed": 3837847961,
+   "sha256": "cf3b3f838e36849327cfa41b2c1adcf647c9d53dadb6f25f9bca0413a2871eb2"
+  },
+  {
+   "seed": 2197316426,
+   "sha256": "2b3fbf5017087927b445af43ab7f518c14652fb11ce028bdda60fedf00ed6fbd"
+  },
+  {
+   "seed": 556784891,
+   "sha256": "0182a6e2adb657d7a7f03ddb49e0b055d2fbead48775d07c9baeea0bc4d34a43"
+  },
+  {
+   "seed": 3211220652,
+   "sha256": "93ae9f16c4b08db3446d96d64c5b87058c7c5e5e8dd4e1cf90d69e4ba7c7eab2"
+  },
+  {
+   "seed": 1570689117,
+   "sha256": "08855807bd226ff435c7e1f1fb2d9fbf476b7467a7fe3810e394c8a61593a30e"
+  },
+  {
+   "seed": 4225124878,
+   "sha256": "22b934289199849f1866774023bb8b6504c8468495faefe51f9c0eacf453af7a"
+  },
+  {
+   "seed": 2584593343,
+   "sha256": "a1fbb4ffc76435b40ae53232bf85e473a1708cad4ef848d7b310360894e3a34b"
+  },
+  {
+   "seed": 944061808,
+   "sha256": "5563de6cc13e06e7f67d82ea987d0d744adfb5564094123224164689bdb7646d"
+  },
+  {
+   "seed": 3598497569,
+   "sha256": "a72028a15380900f217f549c222eaed0f14676a67e5fc497b494847939e656b8"
+  },
+  {
+   "seed": 1957966034,
+   "sha256": "1b2b48d56384a4c1107038cb4d8bc651e4da21c3c5008a06cddcf34fa13b3099"
+  },
+  {
+   "seed": 317434499,
+   "sha256": "47cd9d6538b1b8e899a88b83567166803dbe77ffd6b9e2a0eff1a8ae11c32623"
+  },
+  {
+   "seed": 2971870260,
+   "sha256": "cddb9401aeb55f8f4b8c7a6ede1f33a3c145a51410f3d0cb0059a961ce0437ea"
+  },
+  {
+   "seed": 1331338725,
+   "sha256": "b07a4fce0e4c4c11e1c08f1e7beeac42df854d17d3caa47fdea5b8db52134e5c"
+  },
+  {
+   "seed": 3985774486,
+   "sha256": "f339a33fe403a76b081cec4e3839db1467be34c4f170aa180ef18f826a6130c1"
+  },
+  {
+   "seed": 2345242951,
+   "sha256": "7015785698e068ba9820295ee321aac3aa311f3abfb2be8e2c993da3b70bc391"
+  },
+  {
+   "seed": 704711416,
+   "sha256": "415702fb6826c810aefc6679ffb059a1b85bf156e7dc21f815cc1286852416f2"
+  },
+  {
+   "seed": 3359147177,
+   "sha256": "572ee4e308eba5d02730dce8f867251396e298470a08d52a5e9b4c260458f736"
+  },
+  {
+   "seed": 1718615642,
+   "sha256": "10533ea2afe67401e73bb6c6bac6077b2572e4d5e99eb63e493b8f229a2ee592"
+  },
+  {
+   "seed": 78084107,
+   "sha256": "622b62475d436a35e55c78dca942332b1f3d06edb784e7429cbd42e1954be2ca"
+  },
+  {
+   "seed": 2732519868,
+   "sha256": "bb671212698e014cc3766daa7e8c71bb554f8ebf7f84e09b11ba829879b3934e"
+  },
+  {
+   "seed": 1091988333,
+   "sha256": "47eebd503fa7d09c0b229e68462d637fd77d428457cd173601e1a7229c90a7d9"
+  },
+  {
+   "seed": 3746424094,
+   "sha256": "83b8ceb66b7467e3385d17bc06cbceaf02ba109fa7adfff119d02f662274e526"
+  },
+  {
+   "seed": 2105892559,
+   "sha256": "2b7ac7cb716311b3b68f1647508c0e33cdd6171d3282d22c38bf61bbe4c5fc87"
+  },
+  {
+   "seed": 465361024,
+   "sha256": "00583d3cc146f2fc5f5e54c035fb5d5689fb5ba5424d3648f931996fc08ca0be"
+  },
+  {
+   "seed": 3119796785,
+   "sha256": "3688de691f68b6add98f16f49a5452d665c0d909ee868e7839ca367a6213b20b"
+  },
+  {
+   "seed": 1479265250,
+   "sha256": "1305c3e994d19cfa44837e349deb67eda5d9975cc86faef2b1311b7a21b73a43"
+  },
+  {
+   "seed": 4133701011,
+   "sha256": "297c3b00ce6964380a43fa9014d3e7d908901b7b929badbed1370c4e86f3ff12"
+  },
+  {
+   "seed": 2493169476,
+   "sha256": "d4c6b08982871a6123adb888aaf21e121e76e40a60b1db5a9b7d49a3e69b24c6"
+  },
+  {
+   "seed": 852637941,
+   "sha256": "6f62c493284489746a1e17211cdc33d8adfcd2fc0fce46027731143df179017c"
+  },
+  {
+   "seed": 3507073702,
+   "sha256": "b9d69614ac834fc6534e2a3cb0c9eb91825d2d02f900595f525a81ac2a32cc9c"
+  },
+  {
+   "seed": 1866542167,
+   "sha256": "d35c08f7c7621ff955ccdcb71f7a7b73d444e970689fbe75461f3b15cacca87c"
+  },
+  {
+   "seed": 226010632,
+   "sha256": "571ce897c4ebce506356bbf3a52247600aaedfa4e7f320b04a9c41757eaf2f12"
+  },
+  {
+   "seed": 2880446393,
+   "sha256": "20e8f8fe1ea9c33d91367d1e333dab07973cbb7381f140b1297848eed5070747"
+  },
+  {
+   "seed": 1239914858,
+   "sha256": "27b41bd452f8077073dc2195e585eff5b15400a9b50ea64a1e74ae2a437db389"
+  },
+  {
+   "seed": 3894350619,
+   "sha256": "0bd2fda3efb7e73d120c3d85ce6561353f0ee3069b54c3c57c43fa6096d76a17"
+  },
+  {
+   "seed": 2253819084,
+   "sha256": "c1625b32f7e28c691721fa8dba5272ff69dc77cf6e48bf3fc713aaf000c2e9c5"
+  },
+  {
+   "seed": 613287549,
+   "sha256": "71de63522b0e60f521f0907d4c3023756219f76762c2e5babfcdf5d99b55d6e2"
+  },
+  {
+   "seed": 3267723310,
+   "sha256": "1ff6fdd1053aa54d6f7f4edf6dbdc8e0e713a0121e4c091dda85dd294851d00b"
+  },
+  {
+   "seed": 1627191775,
+   "sha256": "490396ec9d293c48683f1192ce5a30d44e8f07a5be0fba4c210eff76c473bf69"
+  },
+  {
+   "seed": 4281627536,
+   "sha256": "9d3b3055601b7bd892be73949d242ea6408b203e85e8abc9b877995ec406dbee"
+  },
+  {
+   "seed": 2641096001,
+   "sha256": "49cae91436ed585f8807fbd7450f0d495c17c50b7b469bbd70dbe4a206a31794"
+  },
+  {
+   "seed": 1000564466,
+   "sha256": "70feafd9d2357c55741bdc5a4f34dd05e1dcf123566d12a82e1ea7da5ac72be4"
+  },
+  {
+   "seed": 3655000227,
+   "sha256": "0f290b1760d38adcd1942becfe2af9a2655c6f772a3ccc2e4855c6a09612aecf"
+  },
+  {
+   "seed": 2014468692,
+   "sha256": "1db68d9a99f437338cf0455d0259ea317f3c91a0adbb1c1ceb7724fcf4d41ee9"
+  },
+  {
+   "seed": 373937157,
+   "sha256": "8165f241c27d7a4821aac29bbe816c552f68353f1fd486e41227aa2da3988cbc"
+  },
+  {
+   "seed": 3028372918,
+   "sha256": "6b99f4a722c75b079551c303fe06fd14b9180af761dae55c42d81436ce8fc784"
+  },
+  {
+   "seed": 1387841383,
+   "sha256": "889e1f5a6fe15e4571e0ec56ed7c8faeb759977d8bf9305ed3e43b23bbf16bec"
+  },
+  {
+   "seed": 4042277144,
+   "sha256": "ed88cd5c9cab98934281d2c694986427f20771fe17b35f7c070aaa9b948ddf7e"
+  },
+  {
+   "seed": 2401745609,
+   "sha256": "2f05c23d60d7257ab38683cffeb8f430ae0e85b7d0043d4db31fb71cfefa4cf4"
+  },
+  {
+   "seed": 761214074,
+   "sha256": "e3acef76a4ae120e25b1dc7fdbddd48df341fa054be37ef6f19cd1f172c3db2b"
+  },
+  {
+   "seed": 3415649835,
+   "sha256": "a5ef34ef6a98bb997eb3d1d6c3f28946db0e67bb5a2bbea4cd857d88d12aaa7e"
+  },
+  {
+   "seed": 1775118300,
+   "sha256": "9fbb5cb328e2cabe11c41b0e4eb00696efd46cf5f389364c538a99adbf4404b3"
+  },
+  {
+   "seed": 134586765,
+   "sha256": "dea067e9b49e835a37a14bb9ca130a9f5c5c83f09a8d6be3a6a0b9c7ebfeada3"
+  },
+  {
+   "seed": 2789022526,
+   "sha256": "aa06a8b6e655b6d6814f514de56356c1eb0aa720cb66bf709e5d7f9dfe998312"
+  },
+  {
+   "seed": 1148490991,
+   "sha256": "3c3f71e0b65707f2b70b42dbc8fbc564246ee7424afcb7d449e7c70fcfcaee0c"
+  },
+  {
+   "seed": 3802926752,
+   "sha256": "e10c3c6314f72c45e5357c653b074ed3bf663f9781e9aa050001fbc73057400d"
+  },
+  {
+   "seed": 2162395217,
+   "sha256": "6990381ffd90bcc49237a24538c573115c097e1029ec1844ec1e7b4ba0748d2b"
+  },
+  {
+   "seed": 521863682,
+   "sha256": "77b1503e8baa62c128ab1495a79eff5ae4466a912b66f7c7c9793cf632efd559"
+  },
+  {
+   "seed": 3176299443,
+   "sha256": "51c3b685dc68b4f90633ab84841656a77613d8fbaa26f59346b44f5a1572c02e"
+  },
+  {
+   "seed": 1535767908,
+   "sha256": "83da473dc6ec2b84476686412c3888b7e5dea0e967b35fae4da87be6ad647241"
+  },
+  {
+   "seed": 4190203669,
+   "sha256": "1f773bd026e01093843eb634f18385e00979eff1b841f09a747ebc2fb06e4e9d"
+  },
+  {
+   "seed": 2549672134,
+   "sha256": "bc1cc6420e69e9752c32f5cb3b6aa74ee502dc37d156f4236c439798fbf2ad9d"
+  },
+  {
+   "seed": 909140599,
+   "sha256": "3b5049eda7f1146aaa0c694b22bf6ea4441be0f863ef7610e6ce0a3e1a8a5954"
+  },
+  {
+   "seed": 3563576360,
+   "sha256": "a964cb140bf74373d733ce940383de7abcdd1962771cf21c5c088cfeec2e19c9"
+  },
+  {
+   "seed": 1923044825,
+   "sha256": "b6cfdfdf54ca46716d4f79f7c7ac39d2a2f338a87ef9ea31ca9dbb1d65a005c5"
+  },
+  {
+   "seed": 282513290,
+   "sha256": "af89fbf4efc3427ca30eb362586b92049576436453042400fed843d3168683f0"
+  },
+  {
+   "seed": 2936949051,
+   "sha256": "2e76b6911b573f16ae067d72c93feaaa2940f5eef13c0c8236d35eef999be93b"
+  },
+  {
+   "seed": 1296417516,
+   "sha256": "d4af4872819855527283b05f5ee1f2554409e518850fa759e4c3c12e4caacd1e"
+  },
+  {
+   "seed": 3950853277,
+   "sha256": "0baa36bd7e5269847974df98ac2380608237975addb833390946429cfebe4f7d"
+  },
+  {
+   "seed": 2310321742,
+   "sha256": "9696c2277f906e973823499e7d339c5d52f248f2a8917bcc7da3abd87861712f"
+  },
+  {
+   "seed": 669790207,
+   "sha256": "1c49ec9d764b238bc97571d82ba215fc8034a0399779e2dcfdb9b6a1d2c059ab"
+  },
+  {
+   "seed": 3324225968,
+   "sha256": "d7c209370cdc084da5ac3c3e460b31567f857fa0e27a650fefa5f49978b6a73a"
+  },
+  {
+   "seed": 1683694433,
+   "sha256": "eef4048dc3340d882bb1f0810b06ecb74aa0bea5134b7be5116694c37f0b51eb"
+  },
+  {
+   "seed": 43162898,
+   "sha256": "91d0d9027cc920e4f25a72f88076070827a316963ed30628d14484c5b51de934"
+  },
+  {
+   "seed": 2697598659,
+   "sha256": "905d718f282d5dae72b6989789b42ec3200da21f362f65f48e51246d3e6b295b"
+  },
+  {
+   "seed": 1057067124,
+   "sha256": "c4469b6fe5cc45f471572e231bc776e1fbae0d48896fc9bc1ae5dc9e62b868cf"
+  },
+  {
+   "seed": 3711502885,
+   "sha256": "a448acb0e408baa1ba0eff5db4d7774e84947452476f0aebfd65737e2a471b2c"
+  },
+  {
+   "seed": 2070971350,
+   "sha256": "3d7a2d377bcdd8c0887bc570a4f4dccf039f63c9726bf6e12fbc828987f91fa9"
+  },
+  {
+   "seed": 430439815,
+   "sha256": "0b9a9b8f2a4ea94036489ac757f423946fb2e479f7d0d35348e092e6a461c0c3"
+  },
+  {
+   "seed": 3084875576,
+   "sha256": "de0801fcb83f51b1fcb6748299fab3bc2ebb4d9eac555999add3ba6bdd2a88f8"
+  },
+  {
+   "seed": 1444344041,
+   "sha256": "b7a9f654613ee750d3d0dc0c4124ece40810ff3767e9e5a1c3ce4d7d11fc71f4"
+  },
+  {
+   "seed": 4098779802,
+   "sha256": "bc47ce991a561a1c3017cd3dc60ec60b09dcdbe1a0553e5dbe43632550159af2"
+  },
+  {
+   "seed": 2458248267,
+   "sha256": "7980a01ef8ddc0b0902795057106daa42c5c80cabde2da83505f9646e91c26df"
+  },
+  {
+   "seed": 817716732,
+   "sha256": "a7135846ef62dfd9fb92d5a8029219224d2495f4990921494597b0d4aabc00c9"
+  },
+  {
+   "seed": 3472152493,
+   "sha256": "45b7e3ce14ee8f26e39a72551cfde03bbf30ad6e8872f07b3f61b8ad604ac584"
+  },
+  {
+   "seed": 1831620958,
+   "sha256": "9a25decac4a9b9a0c48b8c362b64884d372a84f65ce1e542af03c95a75a8dc39"
+  },
+  {
+   "seed": 191089423,
+   "sha256": "b74ad3632ef6e7aef6ee9fff3744690f97a5a001320e0b691a8b3d582b18fab6"
+  },
+  {
+   "seed": 2845525184,
+   "sha256": "8d438fd64bacda8ada69ccc4896c85c8fb9f6ddd910819d8a2bf3af484c85fe6"
+  },
+  {
+   "seed": 1204993649,
+   "sha256": "dd78fe3a42603a367b3a06cd41ba8e8878273eed049c1ba3a120d25c9edab2f0"
+  },
+  {
+   "seed": 3859429410,
+   "sha256": "a742725a32a1266319fb0dc5ad23faa04ab4aad3b311252176aa50d30af7f839"
+  },
+  {
+   "seed": 2218897875,
+   "sha256": "043b7399a21bb3d9274703899cfc2f22120cbd1f548ca05646090e671cb17490"
+  },
+  {
+   "seed": 578366340,
+   "sha256": "54dfbef2d822ca7d93ed2251039345d5b7db484eda89097461090db2f71be27d"
+  },
+  {
+   "seed": 3232802101,
+   "sha256": "7713834840e56d122dcd5d7237cfd8691a14f3fce9f45b1cb80d06a4cd981a5b"
+  },
+  {
+   "seed": 1592270566,
+   "sha256": "6e2ea4bd8a57a969be23fe5dfacdcc5b6fbd404b29b01d5198631cd0b3c7fc38"
+  },
+  {
+   "seed": 4246706327,
+   "sha256": "c99f2e529f747a552b78f58b1901dfcbd8005a100424bcf6ee0def8efcdda414"
+  },
+  {
+   "seed": 2606174792,
+   "sha256": "2d6516e77c191161f6c4310beb83f7884353048076add99ead38b900516d5c1c"
+  }
+ ],
+ "samples": [
+  {
+   "seed": 2654435761,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 2654435761,
+    "context": [],
+    "tags": [
+     "phishing"
+    ],
+    "kind": "mc",
+    "prompt": "Você recebeu uma mensagem suspeita do \"banco\". Qual é a atitude correta?",
+    "options": [
+     "Ignorar o link e procurar o banco pelo canal oficial que você já conhece",
+     "Encaminhar para os colegas pedirem opinião",
+     "Responder pedindo mais detalhes",
+     "Clicar no link e conferir se a página parece legítima"
+    ],
+    "answer": 0,
+    "explanation": "Verificação fora de banda: use um canal que você já confiava antes da mensagem. Clicar para \"conferir\" já entrega dados ao atacante.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 0,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1013904226,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 1013904226,
+    "context": [],
+    "tags": [
+     "phishing"
+    ],
+    "kind": "mc",
+    "prompt": "Por que denunciar (e não só apagar) um phishing recebido no trabalho?",
+    "options": [
+     "Porque apagar o e-mail apaga o vírus",
+     "A denúncia permite bloquear o remetente e avisar quem também recebeu",
+     "Porque a denúncia recupera o dinheiro automaticamente",
+     "Porque o remetente recebe uma multa"
+    ],
+    "answer": 1,
+    "explanation": "Uma campanha de phishing atinge muita gente: o primeiro que denuncia protege todo o resto.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3668339987,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 3668339987,
+    "context": [],
+    "tags": [
+     "phishing"
+    ],
+    "kind": "mc",
+    "prompt": "Em https://redecorp.com.br.pagamentos.net/login, qual é o domínio de verdade?",
+    "options": [
+     "redecorp.com.br.pagamentos.net/login",
+     "redecorp.com.br",
+     "pagamentos.net",
+     "login"
+    ],
+    "answer": 2,
+    "explanation": "O domínio é lido da direita para a esquerda até o registrável: tudo à esquerda é subdomínio e pode ser escrito à vontade por quem controla pagamentos.net.",
+    "hint": "Leia de trás para frente."
+   },
+   "checks": [
+    {
+     "answer": 2,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2027808452,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 2027808452,
+    "context": [],
+    "tags": [
+     "phishing"
+    ],
+    "kind": "mc",
+    "prompt": "Seu celular recebe vários pedidos de aprovação de login que você não iniciou. O que fazer?",
+    "options": [
+     "Desligar o MFA para não receber mais avisos",
+     "Aprovar um para parar as notificações",
+     "Ignorar, pois o MFA já protege",
+     "Negar todos e trocar a senha: alguém já tem sua credencial"
+    ],
+    "answer": 3,
+    "explanation": "É fadiga de MFA. Os pedidos só existem porque a senha vazou — negue, troque a senha e avise a segurança.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 387276917,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 387276917,
+    "context": [],
+    "tags": [
+     "phishing"
+    ],
+    "kind": "mc",
+    "prompt": "Em https://redecorp.com.br.pagamentos.net/login, qual é o domínio de verdade?",
+    "options": [
+     "redecorp.com.br.pagamentos.net/login",
+     "redecorp.com.br",
+     "login",
+     "pagamentos.net"
+    ],
+    "answer": 3,
+    "explanation": "O domínio é lido da direita para a esquerda até o registrável: tudo à esquerda é subdomínio e pode ser escrito à vontade por quem controla pagamentos.net.",
+    "hint": "Leia de trás para frente."
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3041712678,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 3041712678,
+    "context": [],
+    "tags": [
+     "phishing"
+    ],
+    "kind": "mc",
+    "prompt": "O que caracteriza um ataque de phishing?",
+    "options": [
+     "Explorar uma falha de software para invadir o servidor",
+     "Inundar o serviço com tráfego até ele cair",
+     "Quebrar a senha testando combinações",
+     "Enganar a pessoa para que ela entregue dados ou execute algo, se passando por alguém confiável"
+    ],
+    "answer": 3,
+    "explanation": "Phishing ataca a pessoa, não o sistema: a defesa é reconhecer os sinais e verificar pelo canal oficial.",
+    "hint": "O alvo é quem lê a mensagem."
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1401181143,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 1401181143,
+    "context": [],
+    "tags": [
+     "phishing"
+    ],
+    "kind": "mc",
+    "prompt": "Por que denunciar (e não só apagar) um phishing recebido no trabalho?",
+    "options": [
+     "Porque o remetente recebe uma multa",
+     "Porque apagar o e-mail apaga o vírus",
+     "Porque a denúncia recupera o dinheiro automaticamente",
+     "A denúncia permite bloquear o remetente e avisar quem também recebeu"
+    ],
+    "answer": 3,
+    "explanation": "Uma campanha de phishing atinge muita gente: o primeiro que denuncia protege todo o resto.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 4055616904,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 4055616904,
+    "context": [],
+    "tags": [
+     "phishing"
+    ],
+    "kind": "mc",
+    "prompt": "Seu celular recebe vários pedidos de aprovação de login que você não iniciou. O que fazer?",
+    "options": [
+     "Negar todos e trocar a senha: alguém já tem sua credencial",
+     "Ignorar, pois o MFA já protege",
+     "Aprovar um para parar as notificações",
+     "Desligar o MFA para não receber mais avisos"
+    ],
+    "answer": 0,
+    "explanation": "É fadiga de MFA. Os pedidos só existem porque a senha vazou — negue, troque a senha e avise a segurança.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 0,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2415085369,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 2415085369,
+    "context": [],
+    "tags": [
+     "phishing"
+    ],
+    "kind": "mc",
+    "prompt": "Seu celular recebe vários pedidos de aprovação de login que você não iniciou. O que fazer?",
+    "options": [
+     "Aprovar um para parar as notificações",
+     "Negar todos e trocar a senha: alguém já tem sua credencial",
+     "Ignorar, pois o MFA já protege",
+     "Desligar o MFA para não receber mais avisos"
+    ],
+    "answer": 1,
+    "explanation": "É fadiga de MFA. Os pedidos só existem porque a senha vazou — negue, troque a senha e avise a segurança.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 774553834,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 774553834,
+    "context": [],
+    "tags": [
+     "phishing"
+    ],
+    "kind": "mc",
+    "prompt": "Seu celular recebe vários pedidos de aprovação de login que você não iniciou. O que fazer?",
+    "options": [
+     "Negar todos e trocar a senha: alguém já tem sua credencial",
+     "Desligar o MFA para não receber mais avisos",
+     "Ignorar, pois o MFA já protege",
+     "Aprovar um para parar as notificações"
+    ],
+    "answer": 0,
+    "explanation": "É fadiga de MFA. Os pedidos só existem porque a senha vazou — negue, troque a senha e avise a segurança.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 0,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3428989595,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 3428989595,
+    "context": [],
+    "tags": [
+     "phishing"
+    ],
+    "kind": "mc",
+    "prompt": "Por que denunciar (e não só apagar) um phishing recebido no trabalho?",
+    "options": [
+     "Porque o remetente recebe uma multa",
+     "A denúncia permite bloquear o remetente e avisar quem também recebeu",
+     "Porque a denúncia recupera o dinheiro automaticamente",
+     "Porque apagar o e-mail apaga o vírus"
+    ],
+    "answer": 1,
+    "explanation": "Uma campanha de phishing atinge muita gente: o primeiro que denuncia protege todo o resto.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1788458060,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 1788458060,
+    "context": [],
+    "tags": [
+     "phishing"
+    ],
+    "kind": "mc",
+    "prompt": "Em https://redecorp.com.br.pagamentos.net/login, qual é o domínio de verdade?",
+    "options": [
+     "redecorp.com.br",
+     "pagamentos.net",
+     "login",
+     "redecorp.com.br.pagamentos.net/login"
+    ],
+    "answer": 1,
+    "explanation": "O domínio é lido da direita para a esquerda até o registrável: tudo à esquerda é subdomínio e pode ser escrito à vontade por quem controla pagamentos.net.",
+    "hint": "Leia de trás para frente."
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  }
+ ]
+}

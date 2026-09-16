@@ -183,18 +183,14 @@ async def complete_phase(client: AsyncClient, phase_id: str, content, *, elapsed
     await backdate_session(s["sessionId"], elapsed + 20)
     await solve_terminals(client, s["sessionId"], s["seed"], phase, content)
     if phase["exit"]["requires"].get("bossDefeated"):
-        await client.post(
+        # o cliente envia o tipo do inimigo; aqui vem do próprio layout da fase
+        legend_enemies = [e["enemy"] for e in phase["legend"].values() if e["type"] == "enemy"]
+        boss = next((e for e in legend_enemies if e in phase.get("introducesEnemies", [])), legend_enemies[0])
+        res = await client.post(
             f"/api/v1/sessions/{s['sessionId']}/events",
-            json={
-                "events": [
-                    {
-                        "type": "boss_defeated",
-                        "clientTs": None,
-                        "payload": {"t": elapsed - 5, "boss": phase["exit"]["requires"]["bossDefeated"]},
-                    }
-                ]
-            },
+            json={"events": [{"type": "boss_defeated", "clientTs": None, "payload": {"t": elapsed - 5, "boss": boss}}]},
         )
+        assert res.json()["rejected"] == [], res.text
     res = await client.post(
         f"/api/v1/sessions/{s['sessionId']}/complete",
         json={

@@ -1,0 +1,158 @@
+{
+  "id": "08-injection",
+  "version": 1,
+  "order": 8,
+  "title": "Entrada Não Confiável",
+  "subtitle": "Injeção, validação e sanitização",
+  "concepts": ["Injeção de SQL", "XSS", "Validação no servidor", "Menor privilégio"],
+  "learningObjectives": [
+    "Explicar como dado do usuário se transforma em comando quando é concatenado",
+    "Reconhecer a defesa certa: consulta parametrizada e escape na saída",
+    "Entender por que a validação precisa acontecer no servidor",
+    "Relacionar menor privilégio no banco à redução do dano de uma injeção"
+  ],
+  "briefing": {
+    "lines": [
+      { "speaker": "SOC", "text": "Camada de aplicação. Injectors estão enviando entradas maliciosas aos nossos terminais." },
+      { "speaker": "SOC", "text": "Terminal corrompido fica inutilizável: o enunciado vira lixo e você não consegue responder." },
+      { "speaker": "SOC", "text": "Liberamos o Sanitizer (tecla 5): feixe de validação de entrada. Ele limpa o terminal corrompido e fere o Injector (2,5×)." },
+      { "speaker": "SOC", "text": "Levar dano interrompe a injeção deles — atire antes de a barra encher." },
+      { "speaker": "SOC", "text": "A lição vale para o código: separe comando de dado e valide no servidor, nunca só no navegador." }
+    ]
+  },
+  "debriefing": {
+    "summary": [
+      "Injeção acontece quando o dado do usuário é concatenado em um comando: o banco não distingue dado de instrução.",
+      "A defesa é estrutural: consulta parametrizada para SQL, escape na saída para XSS — não listas de palavras proibidas.",
+      "Validação no cliente é conveniência; a autoridade é o servidor, porque o cliente pode ser modificado.",
+      "Menor privilégio no banco limita o estrago quando uma injeção passa."
+    ]
+  },
+  "parTime": 840,
+  "minTime": 120,
+  "limits": { "maxKills": 110, "maxBytes": 340 },
+  "tags": [],
+  "weaponsAvailable": ["patch_pistol", "scanner", "vpn_shield", "firewall_cannon", "sanitizer"],
+  "introducesWeapon": "sanitizer",
+  "introducesEnemies": ["injector"],
+  "ambient": { "accent": "#ff3df0", "fogDensity": 0.032 },
+  "layout": {
+    "cellSize": 2,
+    "wallHeight": 3.4,
+    "rows": [
+      "##################################",
+      "#.........#....m....#............#",
+      "#..P......#...n.....#............#",
+      "#....1....#.........#......X.....#",
+      "#.........a.........#............#",
+      "#.........a....2....#.....y......#",
+      "#.........#.........#............#",
+      "#...T.....#......U..#............#",
+      "###########bb########dd###########",
+      "#.......h.......#................#",
+      "#...n...........#...AAAAAAAAAA...#",
+      "#.......s.......c...AAAAAAAAAA...#",
+      "#....3..........c...AAAAAAAAAA...#",
+      "#...............#...AAAAAAAAAA..e#",
+      "#..........V....#.......4.......z#",
+      "##################################"
+    ]
+  },
+  "legend": {
+    "P": { "type": "player" },
+    "1": { "type": "sign", "text": "Sanitizer (5): feixe de validação. Limpa terminal corrompido e fere o Injector (2,5×)." },
+    "2": { "type": "sign", "text": "Dado concatenado em comando vira comando. Parametrize a consulta." },
+    "3": { "type": "sign", "text": "Validação no navegador é conveniência. A autoridade é o servidor." },
+    "4": { "type": "sign", "text": "Banco de dados. Usuário da aplicação sem DDL = injeção com alcance curto." },
+    "T": { "type": "terminal", "id": "t1" },
+    "U": { "type": "terminal", "id": "t2" },
+    "V": { "type": "terminal", "id": "t3" },
+    "a": { "type": "door", "id": "d1" },
+    "b": { "type": "door", "id": "d2" },
+    "c": { "type": "door", "id": "d3" },
+    "d": { "type": "door", "id": "d4" },
+    "n": { "type": "enemy", "enemy": "injector", "route": "app" },
+    "s": { "type": "spawner", "id": "s1" },
+    "z": { "type": "spawner", "id": "s2" },
+    "A": { "type": "arena", "id": "a1" },
+    "h": { "type": "pickup", "kind": "health" },
+    "e": { "type": "pickup", "kind": "shield" },
+    "y": { "type": "pickup", "kind": "bytes", "amount": 20 },
+    "m": { "type": "pickup", "kind": "ammo" },
+    "X": { "type": "exit" }
+  },
+  "routes": {
+    "app": [[14, 2], [18, 2], [18, 6], [14, 6]]
+  },
+  "spawners": [
+    { "id": "s1", "enemy": "injector", "every": 24, "max": 2, "active": true, "traffic": 3306 },
+    { "id": "s2", "traffic": 3306 }
+  ],
+  "arenas": [
+    {
+      "id": "a1",
+      "title": "Onda de injeção",
+      "lockDoors": ["d3"],
+      "waves": [
+        {
+          "spawns": [{ "spawner": "s2", "enemy": "injector", "count": 3, "interval": 2.0 }],
+          "delayAfter": 3.0,
+          "message": "Injectors na camada de dados. Interrompa a injeção com dano!"
+        },
+        {
+          "spawns": [
+            { "spawner": "s2", "enemy": "injector", "count": 3, "interval": 1.6 },
+            { "spawner": "s2", "enemy": "rootkit", "count": 2, "interval": 2.0 }
+          ]
+        }
+      ],
+      "onClear": [
+        { "type": "openDoor", "door": "d4" },
+        { "type": "message", "text": "Entradas sanitizadas. Camada de dados estável.", "tone": "success" }
+      ]
+    }
+  ],
+  "terminals": [
+    {
+      "id": "t1",
+      "title": "Injeção",
+      "concept": "SQL, XSS e validação",
+      "generator": "mc_pool",
+      "params": { "pool": "injection", "counterTags": ["injection"] },
+      "challenges": 2,
+      "required": true,
+      "onSolve": [{ "type": "openDoor", "door": "d1" }],
+      "hint": "Onde o dado do usuário encontra o comando?"
+    },
+    {
+      "id": "t2",
+      "title": "Revisão de código",
+      "concept": "Seguro × vulnerável",
+      "generator": "classify_pool",
+      "params": { "pool": "injection", "count": 4, "counterTags": ["injection"] },
+      "challenges": 2,
+      "required": true,
+      "onSolve": [
+        { "type": "openDoor", "door": "d2" },
+        { "type": "message", "text": "Correções aplicadas na camada de consulta.", "tone": "success" }
+      ],
+      "hint": "Concatenação é o sinal; parâmetro é a correção."
+    },
+    {
+      "id": "t3",
+      "title": "Defesas",
+      "concept": "Cada defesa no seu lugar",
+      "generator": "match_pool",
+      "params": { "pool": "injection", "count": 5, "counterTags": ["injection"] },
+      "challenges": 1,
+      "required": true,
+      "onSolve": [
+        { "type": "disableSpawner", "spawner": "s1" },
+        { "type": "openDoor", "door": "d3" },
+        { "type": "message", "text": "Validação no servidor ativada: as injeções pararam de nascer.", "tone": "success" }
+      ],
+      "hint": "Cada ataque tem a defesa da sua camada."
+    }
+  ],
+  "exit": { "requires": { "terminals": ["t1", "t2", "t3"], "arenas": ["a1"] } }
+}

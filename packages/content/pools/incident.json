@@ -1,0 +1,141 @@
+{
+  "mc": [
+    {
+      "id": "ir-ransom-pay",
+      "prompt": "Uma máquina foi criptografada por ransomware. Pagar o resgate é a melhor saída?",
+      "correct": "Não: pagar não garante a chave, financia o crime e não impede uma segunda extorsão",
+      "wrong": [
+        "Sim, é a forma mais rápida e segura de recuperar os dados",
+        "Sim, desde que se negocie um desconto",
+        "Só se o valor for menor que o custo do backup"
+      ],
+      "explanation": "Parte das vítimas que paga não recebe chave funcional, e muitas são extorquidas de novo. A recuperação confiável vem do backup testado e isolado.",
+      "hint": "Quem tem backup não negocia.",
+      "tags": ["incident"]
+    },
+    {
+      "id": "ir-phases",
+      "prompt": "Qual é a ordem das fases da resposta a incidentes?",
+      "correct": "Identificar → conter → erradicar → recuperar → aprender",
+      "wrong": [
+        "Recuperar → identificar → conter → erradicar",
+        "Conter → recuperar → identificar → erradicar",
+        "Erradicar → identificar → recuperar → conter"
+      ],
+      "explanation": "Sem identificar, você contém a coisa errada; sem conter, o incidente se espalha enquanto você investiga; sem erradicar, ele volta na recuperação.",
+      "tags": ["incident"]
+    },
+    {
+      "id": "ir-contain",
+      "prompt": "O que \"conter\" um incidente significa na prática?",
+      "correct": "Isolar o que está comprometido para impedir a propagação, preservando evidências",
+      "wrong": [
+        "Formatar imediatamente todas as máquinas afetadas",
+        "Desligar a internet da empresa inteira por uma semana",
+        "Avisar a imprensa antes de investigar"
+      ],
+      "explanation": "Contenção é cirúrgica: segmentar a rede, revogar credenciais, isolar hosts. Formatar cedo destrói as evidências que dizem como o ataque entrou.",
+      "hint": "Parar a propagação sem apagar as pistas.",
+      "tags": ["incident"]
+    },
+    {
+      "id": "ir-321",
+      "prompt": "O que diz a regra de backup 3-2-1?",
+      "correct": "Três cópias, em dois tipos de mídia, sendo uma fora do local (e idealmente offline)",
+      "wrong": [
+        "Três backups por dia, dois por semana, um por mês",
+        "Três senhas, dois administradores, um cofre",
+        "Três servidores no mesmo rack, com dois discos cada"
+      ],
+      "explanation": "O ransomware moderno procura e criptografa os backups acessíveis pela rede. A cópia isolada (offline ou imutável) é a que sobrevive.",
+      "tags": ["incident", "backup"]
+    },
+    {
+      "id": "ir-test",
+      "prompt": "Por que um backup não testado não conta como backup?",
+      "correct": "Porque só a restauração comprova que os dados voltam e em quanto tempo",
+      "wrong": [
+        "Porque o backup expira depois de 30 dias",
+        "Porque backup em nuvem não é confiável",
+        "Porque o antivírus precisa verificar o arquivo antes"
+      ],
+      "explanation": "Arquivo corrompido, escopo incompleto e restauração lenta só aparecem no teste. Restauração é o único indicador real.",
+      "hint": "Backup se mede restaurando.",
+      "tags": ["incident", "backup"]
+    }
+  ],
+  "pairsPrompt": "Associe cada fase da resposta a incidentes à sua ação principal.",
+  "pairsHint": "Cada fase tem um objetivo distinto: saber, parar, remover, voltar e melhorar.",
+  "pairs": [
+    { "left": "Identificar", "right": "Determinar o que aconteceu, o alcance e a origem", "tags": ["incident"] },
+    { "left": "Conter", "right": "Isolar o comprometido para parar a propagação", "tags": ["incident"] },
+    { "left": "Erradicar", "right": "Remover o acesso do atacante e a causa raiz", "tags": ["incident"] },
+    { "left": "Recuperar", "right": "Restaurar serviços a partir de cópias confiáveis", "tags": ["incident"] },
+    { "left": "Lições aprendidas", "right": "Corrigir processos para o incidente não repetir", "tags": ["incident"] },
+    { "left": "Backup imutável", "right": "Cópia que não pode ser alterada nem apagada por ransomware", "tags": ["backup"] }
+  ],
+  "classify": {
+    "prompt": "A rede está sob ataque de ransomware. Classifique cada ação do plano.",
+    "categories": ["Faz parte da resposta", "Erro de resposta"],
+    "explanation": "Responder a incidente é isolar, preservar evidência, erradicar e restaurar de cópia confiável — com comunicação honesta. Pagar resgate, formatar antes de investigar ou esconder o caso pioram o resultado.",
+    "hint": "Pergunte se a ação para a propagação, preserva evidência ou restaura de forma confiável.",
+    "items": [
+      {
+        "text": "Isolar da rede as máquinas afetadas, mantendo-as ligadas",
+        "category": 0,
+        "explanation": "Contenção que preserva memória e evidências.",
+        "detail": ["Para a propagação", "Preserva evidência"],
+        "tags": ["incident"]
+      },
+      {
+        "text": "Pagar o resgate em criptomoeda para agilizar",
+        "category": 1,
+        "explanation": "Não garante a chave, financia o crime e sinaliza que a vítima paga.",
+        "detail": ["Sem garantia de recuperação"],
+        "tags": ["incident"]
+      },
+      {
+        "text": "Revogar as credenciais e chaves de acesso usadas pelo atacante",
+        "category": 0,
+        "explanation": "Erradicação: sem credencial válida, o acesso morre.",
+        "detail": ["Remove o acesso"],
+        "tags": ["incident"]
+      },
+      {
+        "text": "Formatar todas as máquinas antes de investigar a origem",
+        "category": 1,
+        "explanation": "Destrói as evidências e não impede a reinfecção pela mesma porta.",
+        "detail": ["Perde a causa raiz"],
+        "tags": ["incident"]
+      },
+      {
+        "text": "Restaurar os serviços a partir de backup offline verificado",
+        "category": 0,
+        "explanation": "Recuperação a partir de cópia que o ataque não alcançou.",
+        "detail": ["Cópia isolada", "Integridade verificada"],
+        "tags": ["backup"]
+      },
+      {
+        "text": "Restaurar do backup conectado ao mesmo compartilhamento infectado",
+        "category": 1,
+        "explanation": "Backup alcançável pela rede provavelmente também foi criptografado.",
+        "detail": ["Cópia no alcance do ataque"],
+        "tags": ["backup"]
+      },
+      {
+        "text": "Registrar a linha do tempo e comunicar as partes afetadas",
+        "category": 0,
+        "explanation": "Obrigação legal em muitos casos e base das lições aprendidas.",
+        "detail": ["Transparência", "Documentação"],
+        "tags": ["incident"]
+      },
+      {
+        "text": "Esconder o incidente para evitar desgaste de imagem",
+        "category": 1,
+        "explanation": "Aumenta o dano, impede que as vítimas se protejam e costuma violar a lei.",
+        "detail": ["Omissão de comunicação"],
+        "tags": ["incident"]
+      }
+    ]
+  }
+}

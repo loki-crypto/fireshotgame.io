@@ -1,0 +1,2957 @@
+{
+ "source": "07-trojan/t2",
+ "generator": "classify_pool",
+ "params": {
+  "pool": "malware",
+  "count": 4,
+  "counterTags": [
+   "malware"
+  ]
+ },
+ "seeds": [
+  {
+   "seed": 2654435761,
+   "sha256": "08e1ea30a86451f7c191c000ab9e9fe94e96700a2a0bb4ccc7198d7ebe4d8491"
+  },
+  {
+   "seed": 1013904226,
+   "sha256": "792fbd89ba58b8d0f4d4164d95543e5fdac535a88c1a1f33d51dfd05a8ddd12d"
+  },
+  {
+   "seed": 3668339987,
+   "sha256": "7f4c7e5e003942b9d0bb3a7120c6df154134223c5ade472242a02b951c8cd9b8"
+  },
+  {
+   "seed": 2027808452,
+   "sha256": "a77768a7ced179e400cbc4374697693982de2d7b238483f8ffde86d309dd1022"
+  },
+  {
+   "seed": 387276917,
+   "sha256": "d13a4a3d127f91af36603752bfeb1ddbb49c217ba16e3ad636543588f896adfc"
+  },
+  {
+   "seed": 3041712678,
+   "sha256": "d04dc425528ef2a0f65b586acf9ab7a1c47aa9077a72c2118f07e5bdcb853e69"
+  },
+  {
+   "seed": 1401181143,
+   "sha256": "dd3556850f776bde4bc96001d7a4d5215708a1b70ef9eb1fd4b2d048ae3ce905"
+  },
+  {
+   "seed": 4055616904,
+   "sha256": "4aa0044bb9ce6ae9283d420d81242d714e16c8529bd79e023496688864cafb12"
+  },
+  {
+   "seed": 2415085369,
+   "sha256": "26e2d5432e38642aab4630ab6bb1e1141066742434e3e4f7b8e7410ee4e88a51"
+  },
+  {
+   "seed": 774553834,
+   "sha256": "e6bd1b9453e18871c6f4408daea211ff50e27e9cb69f2d983151266cfa564720"
+  },
+  {
+   "seed": 3428989595,
+   "sha256": "b0cb7885a6b5f96ef1d03e06a4460aa27231de2d3a12aeeaf67bf5ee2315b462"
+  },
+  {
+   "seed": 1788458060,
+   "sha256": "ca03748ec0ed6b09d6f34713a5f07161ab2e29b2acdc41f45e370df05e6c1ab5"
+  },
+  {
+   "seed": 147926525,
+   "sha256": "6a13abc948c603a6d426b2d8cd6538e1bacf7dff8c2314b4f8ac9e91c1e40361"
+  },
+  {
+   "seed": 2802362286,
+   "sha256": "35562cbe0e44aa96863515c5440fe301b324e0fe8b4847838221a272c71dc88b"
+  },
+  {
+   "seed": 1161830751,
+   "sha256": "3442adbe85707c13ffc4025bf58a501fbe04abe4c4b529035b10cdc7f3d9ab7e"
+  },
+  {
+   "seed": 3816266512,
+   "sha256": "89452cb2f035ccf705e431999ffff6951f9821cf8112b2d85969a570870f9070"
+  },
+  {
+   "seed": 2175734977,
+   "sha256": "1a32f0b36237a4b38b8894eebd37c3856b70e96da1255d372120e1810948adeb"
+  },
+  {
+   "seed": 535203442,
+   "sha256": "8bd409e8ab53cfefd8801a595f97c5cc6e7fee29fede218d83c9eca9ebd1809a"
+  },
+  {
+   "seed": 3189639203,
+   "sha256": "29c5f68fd594359358a4d255e4be7b3eb93bcdabb51c9d7da8cefe8d35f447ce"
+  },
+  {
+   "seed": 1549107668,
+   "sha256": "384bb15f3f6c0d7a669a690af33a9b32ae5997137e747378724dfbf29d298f4a"
+  },
+  {
+   "seed": 4203543429,
+   "sha256": "35e7f49c36e392a071887da97b1b2b9784bbfd82bb455c1928455d73db7c4fa3"
+  },
+  {
+   "seed": 2563011894,
+   "sha256": "2481ab1b09163735b396a132eddf9e3a917b45f6a314d32352c2f3b7ae8cc434"
+  },
+  {
+   "seed": 922480359,
+   "sha256": "6bd337f583c61fc18a1c76e8a7d310eba76e68bf95169937b81282024edd15f6"
+  },
+  {
+   "seed": 3576916120,
+   "sha256": "068205a4cc8a35d6f68c295ec40d1c6b292df9ef21eeb8c9077043e0b9e39394"
+  },
+  {
+   "seed": 1936384585,
+   "sha256": "726ca46a8989277a12cc2e932572713704425fe7b975345d92f0a1dbf76ded38"
+  },
+  {
+   "seed": 295853050,
+   "sha256": "81d3b327e2b17f6db52ef95825a7bc14d647faa479d7e06c6bb7e0311db0590a"
+  },
+  {
+   "seed": 2950288811,
+   "sha256": "bb0d342a18d81069dd5fdecce19d8440c0a6680696120286461f186dc54d11fc"
+  },
+  {
+   "seed": 1309757276,
+   "sha256": "df778ce1f310a4f9cd63121bbb2ddf63d5176cf9d869bff7f810f3a23e1f7a79"
+  },
+  {
+   "seed": 3964193037,
+   "sha256": "44c12d13d6d448c537098dea47e60a08ae5b97840a254741dde299cf91792418"
+  },
+  {
+   "seed": 2323661502,
+   "sha256": "346ae1282898fbefb3f1790f333333fe2650a249298d7b302c097890a196703f"
+  },
+  {
+   "seed": 683129967,
+   "sha256": "bb4635f4be9cc6b6009749b00ec112800258bce5cc243e8eae99cc876c63a52a"
+  },
+  {
+   "seed": 3337565728,
+   "sha256": "cd474360037b0813017762571e56651cbb8533a7f5e1f28a01944dc1ea723678"
+  },
+  {
+   "seed": 1697034193,
+   "sha256": "3a2f5836efa83ec629c19bedfe276b4bed40fb675d3d092f4c147c666adc1120"
+  },
+  {
+   "seed": 56502658,
+   "sha256": "916c943434628089647d4d19f9ae27ccd25baf3d06a5961e4e1af5b828878706"
+  },
+  {
+   "seed": 2710938419,
+   "sha256": "d0b817907e8f26883e5556a9d4842370bbd925b08cc75fb525f7cdca1307dbd5"
+  },
+  {
+   "seed": 1070406884,
+   "sha256": "22f8c8f0653961afa838670ca12972e8901f1f314eb43f59f76eff6ecd879086"
+  },
+  {
+   "seed": 3724842645,
+   "sha256": "faac82cba85c2be3370e7be4ddc3680074104ddb46b7e85a110e531bb55b0a22"
+  },
+  {
+   "seed": 2084311110,
+   "sha256": "b1488ecf90ce3208cafcaa92c69dac9a18af3a534f65598909e300045211b95c"
+  },
+  {
+   "seed": 443779575,
+   "sha256": "f49ad437eaa29af6f3f530cdd42fff494be8ba5a59cc5fdc9ce0a588103eba65"
+  },
+  {
+   "seed": 3098215336,
+   "sha256": "f1506c738b8aa2f432ac36d9d95ed1dd4e19102eadb7c8a36618797bbdc3a1cb"
+  },
+  {
+   "seed": 1457683801,
+   "sha256": "ca0fd28d5572872ed4194834b2dc0199bbb3d694a312be450bfe4b68d7ad2b02"
+  },
+  {
+   "seed": 4112119562,
+   "sha256": "660d9f50c60ba45d569f6f0cc121f0df972e54d1e639ee5259c5c6620133588d"
+  },
+  {
+   "seed": 2471588027,
+   "sha256": "5a6cded02d556dd2095d3f207c491c3a3cf127c23ab5447b33f7fc96e80442ac"
+  },
+  {
+   "seed": 831056492,
+   "sha256": "955cd6481a39190cde3f411201b83e93685565bb51467e7633197a96ed503774"
+  },
+  {
+   "seed": 3485492253,
+   "sha256": "da026e7e69e380ce99d7f296d07dd6778c15004354e453146cd997db0694f3a4"
+  },
+  {
+   "seed": 1844960718,
+   "sha256": "9a45b349572505cc1396e2759fa4047d46815f7b1fa992e1532c66b494398b9e"
+  },
+  {
+   "seed": 204429183,
+   "sha256": "c62a242649b8291be3513b7e10f288384558dcc7f55b61435d354cb6a6614abc"
+  },
+  {
+   "seed": 2858864944,
+   "sha256": "3d09cb23aa8bf751c20d80588d9f0ce62f15a15d45129d7162acab602d4a987e"
+  },
+  {
+   "seed": 1218333409,
+   "sha256": "0f0a5455654f9b11840fedce02adebdf050fd53633e980bf1464f1b1890e04a5"
+  },
+  {
+   "seed": 3872769170,
+   "sha256": "b77b37ef3bf7cee4b87b1b89f3962be8adecf7798d03d989daec4df002eeec12"
+  },
+  {
+   "seed": 2232237635,
+   "sha256": "4d2d572a6e9e53051b6fd917faa0a353dc04b6d8482a2044d2ed32b642bee163"
+  },
+  {
+   "seed": 591706100,
+   "sha256": "28d3a1332a0cb443857fe9b161689694fee2c0bc4e1708ec834a316b0b5864aa"
+  },
+  {
+   "seed": 3246141861,
+   "sha256": "894cac43f12b84d66c41244538749f6ade00aceb9fed7349905da06ff1f55d81"
+  },
+  {
+   "seed": 1605610326,
+   "sha256": "032c744175759d091ec34a8dba5b780edb86c42cd193f0d0c0ab5e16908e57e8"
+  },
+  {
+   "seed": 4260046087,
+   "sha256": "85da9815379477b8e69e1450594500e83fd78e6dcbc7dedf2f71798c85ccb356"
+  },
+  {
+   "seed": 2619514552,
+   "sha256": "0dae48ef456364b8310c7254ccef027f643ebd8b219723c8febef212628cd4cb"
+  },
+  {
+   "seed": 978983017,
+   "sha256": "06f88d3a34ec18976a4fffb01e83e095073d80325ec5af5d9fca73ce6b2c283a"
+  },
+  {
+   "seed": 3633418778,
+   "sha256": "d27ffa0205a8e235e573f610c5a3e75f35cf0dbc117628bfe28b37d88684ee58"
+  },
+  {
+   "seed": 1992887243,
+   "sha256": "44cee92d6a83882d93763b33280b8909eb192e0aac343114a076df0503b1a7c1"
+  },
+  {
+   "seed": 352355708,
+   "sha256": "549eb958773cc37c750297c9181bd00626fe5bceece27171f62fa64a0e4c594b"
+  },
+  {
+   "seed": 3006791469,
+   "sha256": "2cfc982f6c71b09d1b666fa35e3c62c92c65da25f74833e9e2a60cd09cfa9b19"
+  },
+  {
+   "seed": 1366259934,
+   "sha256": "1c8f6c8fb62592b66b78ff82904999f7524df9e6af75b9a3e18d7e32c9233258"
+  },
+  {
+   "seed": 4020695695,
+   "sha256": "28a62502393b8f1f339dc13edc698de33edccbb093f7a2c267235c184886529c"
+  },
+  {
+   "seed": 2380164160,
+   "sha256": "58a96a4a449e6116763a0c24de490decd333e3a5c8dfc190a505523c3d674da5"
+  },
+  {
+   "seed": 739632625,
+   "sha256": "189841e6b8100c658b9cb499786519b909115997764b15c560c0bb81d065840d"
+  },
+  {
+   "seed": 3394068386,
+   "sha256": "f0bde0e0c39ada8395acdeadf3f71ffc579892caad5dce697f8f3efa60ce0f79"
+  },
+  {
+   "seed": 1753536851,
+   "sha256": "d200db8ec8d7957a3b106d6d08b5929e0f051b5ffe23edd138df4893db0694a4"
+  },
+  {
+   "seed": 113005316,
+   "sha256": "d3b4b83b31f38f48ff714e2993ac8bce8bbd5153833943601f3371fd9e9bd66d"
+  },
+  {
+   "seed": 2767441077,
+   "sha256": "196be54f2faab4d9c0d8269fb96255e786428b49edb75ab297c36ea8b09024a6"
+  },
+  {
+   "seed": 1126909542,
+   "sha256": "0ea524647340ebf1b177bdff28bcf4093e272c4f75245c4414e3779610b050ad"
+  },
+  {
+   "seed": 3781345303,
+   "sha256": "d42b2aa253ff6a97525864ccf9503d207fff36b45190b7a33aeb2bf30bd13a1d"
+  },
+  {
+   "seed": 2140813768,
+   "sha256": "7a7746b7b4c9cdcb2c1dcace17153bc31668ab44e98cdce6d15c1d18dd58c438"
+  },
+  {
+   "seed": 500282233,
+   "sha256": "f133567983df93eef3ecb418f8ada0489501b268e6848b792002251571acab66"
+  },
+  {
+   "seed": 3154717994,
+   "sha256": "4d4dafb1e13eea35dad573b4f690c37fb2ee805fe829eb91767a889ea4bbe3ec"
+  },
+  {
+   "seed": 1514186459,
+   "sha256": "dd4111a2ddf76a4747147bf69969f90fca59269a08b0ba8c0d237b218c04f06a"
+  },
+  {
+   "seed": 4168622220,
+   "sha256": "5f0e441b6d374a54b4a16c2d6366c98efaa4e8cc8a0eb121ea76e2c0eccda097"
+  },
+  {
+   "seed": 2528090685,
+   "sha256": "f20a829d03358ec6cbcd5f5f213de79c21d499d277b2399a7048d8c2a569b05c"
+  },
+  {
+   "seed": 887559150,
+   "sha256": "8685ce6441a5b5557033c7ceaf398b1ac63f8453ec576d5efe031bc4c6f1c4ae"
+  },
+  {
+   "seed": 3541994911,
+   "sha256": "691c29055da3a513f70ae918c0fdcaa5ea9236472d15639fd0d6d2a065db56b9"
+  },
+  {
+   "seed": 1901463376,
+   "sha256": "c8b8f17405f86d18db2ac5238c3d94d73c8d87c031ded6e9f0fa49bd08ca038b"
+  },
+  {
+   "seed": 260931841,
+   "sha256": "8fcd6ecea9fece82a25c6c4e7f4f7bf38a895b8c5b626485b2924fd2a5f9eece"
+  },
+  {
+   "seed": 2915367602,
+   "sha256": "0e072b2a2b671ea4c262b97d5eb799364a22299f71413a57af8ffd6c7012799f"
+  },
+  {
+   "seed": 1274836067,
+   "sha256": "fef528711ddd1aecd01f72539a60d017566bf68f63c567f7152d7422b37e0e8d"
+  },
+  {
+   "seed": 3929271828,
+   "sha256": "eefb627a464190ca27056c2a773c9b823fe6e6101ef1f6313761a3ef40ee0a53"
+  },
+  {
+   "seed": 2288740293,
+   "sha256": "2aee7ba22bbbb7bc4f6a7d6ce34981f65124138ae8958fa5233a73489c1e5eee"
+  },
+  {
+   "seed": 648208758,
+   "sha256": "91aefe0ebca58d0b590b3bb98556da36583350acde63efc94076223af34718ff"
+  },
+  {
+   "seed": 3302644519,
+   "sha256": "7073942d5d862bec9fd4e5f903d5d57eec0badfc5637dafffb696672158c03b6"
+  },
+  {
+   "seed": 1662112984,
+   "sha256": "f6ac6f9548090232b63d26ea0808d6bb2af6cb206d5888197523e017aedc05af"
+  },
+  {
+   "seed": 21581449,
+   "sha256": "a0e1561eee7ebda75d327a703b92b4e8744d3f219a53d82eb2ece6c11b9691d8"
+  },
+  {
+   "seed": 2676017210,
+   "sha256": "5908431f7d1abc298d2d1cf43b4b372d105d532d1c7ea8cde1868657f5462a62"
+  },
+  {
+   "seed": 1035485675,
+   "sha256": "dc2c7bb4f4e0aca3659a6b65a51e8171a6f5f24560699f7778b70d0213aa15f5"
+  },
+  {
+   "seed": 3689921436,
+   "sha256": "4d3eefaf44ce338bf3c9ba8d33e9a74cb5b91e0522f0431b8e1a5257c98c00a4"
+  },
+  {
+   "seed": 2049389901,
+   "sha256": "a46c688c3626b85be53611459a326cb3fde4ce550deb98af7b694fa763f5f73b"
+  },
+  {
+   "seed": 408858366,
+   "sha256": "2a7da1c7f6b47f79bb4c6e9b95c3741097973d934bc884c6e7085f95e716b922"
+  },
+  {
+   "seed": 3063294127,
+   "sha256": "3d2afc499c470caf44b9729494c648365e8a1ef49062afd06dd20c72b7317c18"
+  },
+  {
+   "seed": 1422762592,
+   "sha256": "19db80100358d50258143d6e40ff4aa2737bad86de47d5295d9e67e827371146"
+  },
+  {
+   "seed": 4077198353,
+   "sha256": "4ac2490ade0227a0d189211793b7ead9f35fced64515c07023a9fc357e14ff0a"
+  },
+  {
+   "seed": 2436666818,
+   "sha256": "476431045f7d4dd5ac91a56e53a6ce5f0d397c6455116d2c57ff9bbd7a18f503"
+  },
+  {
+   "seed": 796135283,
+   "sha256": "72c809222555a4cde06e57cab56f6ca03431dce73033867097bf1bfdf8d3eb34"
+  },
+  {
+   "seed": 3450571044,
+   "sha256": "5d50fb1ec7691ac9bf49e4ddde48f55df5a1100a15c2c406686ace0d35489635"
+  },
+  {
+   "seed": 1810039509,
+   "sha256": "c332f111c1eb480614d59b339477445b8f1ef9660eb138383638b12bf2918464"
+  },
+  {
+   "seed": 169507974,
+   "sha256": "ab984a5cc7fef0616d4a9ccac4d3364f891be523f47291aeeb02ea2b7c529bca"
+  },
+  {
+   "seed": 2823943735,
+   "sha256": "721361b84434957e0405c85676961213bf2fa43102c48666ab1d5b6b5c199179"
+  },
+  {
+   "seed": 1183412200,
+   "sha256": "980b0e9855092daaa9ecc45e51c3d20ce212d2ba5b296a91c28a01a8abf7cc85"
+  },
+  {
+   "seed": 3837847961,
+   "sha256": "22cef84ca07f0bfa22b850a517fe3048e5b66fa4b879a848a68735a7adfd3f96"
+  },
+  {
+   "seed": 2197316426,
+   "sha256": "3a5518d766973055e9e9693d95aa818b2fd980d1c4dea1da1a889a70772749c8"
+  },
+  {
+   "seed": 556784891,
+   "sha256": "741531c852586c78a7f74f5f90c06fd7e542a40097a0da142ef9ea4c86b6fa36"
+  },
+  {
+   "seed": 3211220652,
+   "sha256": "84ea54368dd2be49f1c0b6538d79cf3ad755f56c7a2a417265782e11f88aa892"
+  },
+  {
+   "seed": 1570689117,
+   "sha256": "9b0febd6ce3c564e36a516933b1fc0a1e42e4792cae42b77b62c42ee62326650"
+  },
+  {
+   "seed": 4225124878,
+   "sha256": "d4f918b35b093a9ee74783d37711b5460f45d7176b327bc5c5df703ccca3340f"
+  },
+  {
+   "seed": 2584593343,
+   "sha256": "89fcd04b18f6e61939796c8990d25d6ea5b92c61ae5548b2d3863c358c4d9724"
+  },
+  {
+   "seed": 944061808,
+   "sha256": "1bbc4b0244f7c6a82e3627799093205e467d17863932119ac8e5e001a4a658d5"
+  },
+  {
+   "seed": 3598497569,
+   "sha256": "79911069ca0be0d0a0de02aa659545d3d218f4127fb47db923ab33f3be2a4974"
+  },
+  {
+   "seed": 1957966034,
+   "sha256": "e4e2ec86589d0a22d1ec375b540cd16b7d759c69a7921c9641e81f861b2a2303"
+  },
+  {
+   "seed": 317434499,
+   "sha256": "31919872a2625517370df2f3535405a2e9c53d9f2a44801d30769d7ab75fd270"
+  },
+  {
+   "seed": 2971870260,
+   "sha256": "7a509c89355039fb093b15d941b0f893534253fd867d605b9985f2e8de7f29cc"
+  },
+  {
+   "seed": 1331338725,
+   "sha256": "7cb0b4d7aff8189765355b761927b5edbed273e3df114a97700be009faf22ce7"
+  },
+  {
+   "seed": 3985774486,
+   "sha256": "5173acd05ff83ea4176f1229717433d88a91cab97ba99c159410328efa773424"
+  },
+  {
+   "seed": 2345242951,
+   "sha256": "5d2aff961e393e8d4d49ec5731da21d02f39ee84bbff3a70e13e11b2546fd040"
+  },
+  {
+   "seed": 704711416,
+   "sha256": "4a773adcfae37cae478bde3a31f2d6970fd4204155a0ba6bc079dc3c697f4cf2"
+  },
+  {
+   "seed": 3359147177,
+   "sha256": "574ce0aaf7daeda8b9aa9f1f8180d8c86853ea7911709f58c81289dacf6e2e24"
+  },
+  {
+   "seed": 1718615642,
+   "sha256": "e324d3cda49b839d20161275f7d6e4dc3f8c5f4ed71df658db7a97d8c0b1cb96"
+  },
+  {
+   "seed": 78084107,
+   "sha256": "f898933308335ec6cf8c54dd35510bb578b9fc3c95b7da20140f1629bb140cac"
+  },
+  {
+   "seed": 2732519868,
+   "sha256": "4cf2fa3bf55ae6a243989e5740c60c5eaefbaa782b703e358d687d5dd78066b9"
+  },
+  {
+   "seed": 1091988333,
+   "sha256": "52f93aa0e5613466eb708537065d4e7f0b1ac872849dbeefaf465400b0020da6"
+  },
+  {
+   "seed": 3746424094,
+   "sha256": "874a8f8add8beed113cc8923bb005c522e6cba3b455268baa22e2ab0de013ae1"
+  },
+  {
+   "seed": 2105892559,
+   "sha256": "3f074506a8169f844d31fdf451d02a655638b76e405466b606aafae3b6a9d276"
+  },
+  {
+   "seed": 465361024,
+   "sha256": "842eeea8bc27667160e14aa0814f664d02405d0cf35ea6170017f27d2cd1c4f5"
+  },
+  {
+   "seed": 3119796785,
+   "sha256": "c2c6412a890bc8df44bf045792287c30a7165fab9e10aaaa7b78f0cec4c7a274"
+  },
+  {
+   "seed": 1479265250,
+   "sha256": "c2c25f15367d043e0c406cffb61eee30ed3ab61afcb723ee23a69f1bcb6c08c8"
+  },
+  {
+   "seed": 4133701011,
+   "sha256": "c95dd939b3a418af2f1a10ca4a9bb15af6338ba265256f16fb32f20005001bd5"
+  },
+  {
+   "seed": 2493169476,
+   "sha256": "b5ee01def498b634183461bf600269ed31667e85f2cf2c43779cb54f45e24257"
+  },
+  {
+   "seed": 852637941,
+   "sha256": "632975a8d587094b504ea107b33d930ea48fe0c5387b953701895ffe38e361e7"
+  },
+  {
+   "seed": 3507073702,
+   "sha256": "afb8e989f2c65e296e6858194cbde63bc884f164e3163f46ea1a1e9aa699f34c"
+  },
+  {
+   "seed": 1866542167,
+   "sha256": "9b06e971368883e96b51e40759d2131d92aa8030f5ccc71a7a8b0f13002402d1"
+  },
+  {
+   "seed": 226010632,
+   "sha256": "de25472f3b8612240d6286a8f9a229b3c7cdd78675a3a846b6f7a628a5701433"
+  },
+  {
+   "seed": 2880446393,
+   "sha256": "5404d32816884943f131e5ca96f1421e47fcd9144b651f40dc938189c1aaa8f4"
+  },
+  {
+   "seed": 1239914858,
+   "sha256": "545f4e36cf16a7200da7f6a9ebfca79f9c2aff20eeda2489a77423c11f64be4a"
+  },
+  {
+   "seed": 3894350619,
+   "sha256": "e14589c0e8fa78e83bc1742d592b963a5b9f89fa78f8ddd92e088499783285f8"
+  },
+  {
+   "seed": 2253819084,
+   "sha256": "78dc932634d9c32a925beb6935c1fb271d1e9006971b7061a2b83e26d50f8a46"
+  },
+  {
+   "seed": 613287549,
+   "sha256": "6cc3974cbb7628e9a930d77c7fc00aec0f378e1529906f16504d59262d2bfaf0"
+  },
+  {
+   "seed": 3267723310,
+   "sha256": "8de17751a3f9cb3ada4b118b8aa810a62acd6665c52495524ea6f95022cb87b3"
+  },
+  {
+   "seed": 1627191775,
+   "sha256": "e58e98df762052deb552faf155965c1981c5161eee746c2376c5dc7bb9bfa889"
+  },
+  {
+   "seed": 4281627536,
+   "sha256": "73d9c2a6c67a0a42cb031485e718e50f14293f41e01e56d012fcb8271622de28"
+  },
+  {
+   "seed": 2641096001,
+   "sha256": "d58c6a027241987ed5499de48d76ff797f33219f3224e69e60281da3cfe38bb2"
+  },
+  {
+   "seed": 1000564466,
+   "sha256": "c7b6083611f0bfc1f39fd417617022962b30d6d22b721203509c086b397519e6"
+  },
+  {
+   "seed": 3655000227,
+   "sha256": "a13ab19a5b884449b05ae854a9b787cb91331228f7153a00562f9ad0bc775dfe"
+  },
+  {
+   "seed": 2014468692,
+   "sha256": "be81e275d300b08de821baa950d5bbd306028089ba0ec924f3f9272e92dcca50"
+  },
+  {
+   "seed": 373937157,
+   "sha256": "f8afb71e67d417017e114319320b37fa9efed85d952aebb2fc92a5d4d45f7c92"
+  },
+  {
+   "seed": 3028372918,
+   "sha256": "3d0d49689bcae7a4d18b0db67502e5d21211f31e95cfc4b67343e865e5390225"
+  },
+  {
+   "seed": 1387841383,
+   "sha256": "aabda29ee5db1982cf02bb1afb35f4ca3e5619b8f84ecfd65dcceb9ad9676851"
+  },
+  {
+   "seed": 4042277144,
+   "sha256": "6ee58333dd479c5d0d53fbe046fcc23d8485c3e46f8a63ecb0ba5f2617541d83"
+  },
+  {
+   "seed": 2401745609,
+   "sha256": "b288d113ee6206527ea2481f0e98f90777bed296dc4e6882e67ac9c52d484bb1"
+  },
+  {
+   "seed": 761214074,
+   "sha256": "bc4679df16dd4ea0564c87dfc2f10206338ca2a3ae5cbb4746a175a90967da79"
+  },
+  {
+   "seed": 3415649835,
+   "sha256": "7b2c5848a11637b0fd320e1cf6a6201ead4a266900b9459d6b944121da1b5fe4"
+  },
+  {
+   "seed": 1775118300,
+   "sha256": "d215698801ce8f053834853fe43f83454555bf4c69b2033de3522803587e0a93"
+  },
+  {
+   "seed": 134586765,
+   "sha256": "7b14ce68e9cbbcfe1d9f2876d668461eca3349eb77b3c45bc75cd3b092cf9e4e"
+  },
+  {
+   "seed": 2789022526,
+   "sha256": "65b009a64e88914c1d1e9e5947b7d4b6abc16eb128a9abfc7667a9692d848624"
+  },
+  {
+   "seed": 1148490991,
+   "sha256": "3762c89e965803f80c241cd8210b5e61ee570812a56b20c4d2f875a9734c2654"
+  },
+  {
+   "seed": 3802926752,
+   "sha256": "e56747da15dac6b221344135f74df8b57cc07b0565b10b831190f52856ddd4c9"
+  },
+  {
+   "seed": 2162395217,
+   "sha256": "6089925f9c64a28710de7c06411cb76f44d8c393fefb8a328d7f57509d0b6149"
+  },
+  {
+   "seed": 521863682,
+   "sha256": "d3b4ea9ca12eb93159cdf0acfb1f412972baead5dd6b7e918c05ea6af0b6b103"
+  },
+  {
+   "seed": 3176299443,
+   "sha256": "ee1991606844e9307be3d75120a7e6eb94bae6ca6334586ea1057da64849403c"
+  },
+  {
+   "seed": 1535767908,
+   "sha256": "387b32830eb171898c7b8a9f335e10dc6dccfb8ac488e841d087796db4ef5af0"
+  },
+  {
+   "seed": 4190203669,
+   "sha256": "fe9f596d03be065b2966559c3263fd1a8bb07dbcd14c8e847cde8dd0136a764c"
+  },
+  {
+   "seed": 2549672134,
+   "sha256": "8d8fd7a44c8d14c8e14f0fe560271afb27749b8b43130660f1a28ea53fa9059f"
+  },
+  {
+   "seed": 909140599,
+   "sha256": "0b8a77909df6c24847762905091968229ec9e68601c46a411e5213289bb141e4"
+  },
+  {
+   "seed": 3563576360,
+   "sha256": "94c16043d8427c262ff96ae04006b4c24b16f4f03a9d2d078a3d8bc3bbb30022"
+  },
+  {
+   "seed": 1923044825,
+   "sha256": "8f08ee82a20862a1c6244ec5ca4f114fdae68eddd3474725c35345f6d6473907"
+  },
+  {
+   "seed": 282513290,
+   "sha256": "b3e501d229fced8d6bda9d3c6d02261fff65d0dd58a1464a0a26cbdbc885f7ef"
+  },
+  {
+   "seed": 2936949051,
+   "sha256": "227d22aac38422e359469ac2eda8b0637facb37a3ba35d040145ba00339c5f03"
+  },
+  {
+   "seed": 1296417516,
+   "sha256": "9cfbb5ab2fa9ca9285ac6d81d5b97af0eced5dc1aa017a556c89de673006a9b8"
+  },
+  {
+   "seed": 3950853277,
+   "sha256": "891fe444f5fb0ab9331713f280675dd93453da4222c1250c6588024910404d3c"
+  },
+  {
+   "seed": 2310321742,
+   "sha256": "b922906106a2d471e10638718431f2058206665f76612e4b28b9494ff5cc9b1d"
+  },
+  {
+   "seed": 669790207,
+   "sha256": "756c9c7fb0b33158861a4694d1aa25f9c11424ea0c77c58449b20b28f0d0a0de"
+  },
+  {
+   "seed": 3324225968,
+   "sha256": "aa2f854cd529428421a5c43c170be5786a9ac56144a2f1868b1abc747b35416a"
+  },
+  {
+   "seed": 1683694433,
+   "sha256": "4bd18ab3f2330b749d18eae7f9b6ae1153eead1d1c7700359372dfeedcc519a3"
+  },
+  {
+   "seed": 43162898,
+   "sha256": "ce10ad696fce1fd6a034e9717c2f61a23ff327eff11edbfdb5785de342c76d74"
+  },
+  {
+   "seed": 2697598659,
+   "sha256": "32dedb8187fff778e8e56d0b69618fd7e6df4dc54b71803ea04d861cbb30f2f3"
+  },
+  {
+   "seed": 1057067124,
+   "sha256": "16606dc1664031be3c7f056ee2bab4f2078a10821c8a380394ca097305d9e6cb"
+  },
+  {
+   "seed": 3711502885,
+   "sha256": "4436acea4eea4c092117449f4e625327592ce4b6aed081bcdeb4cd12203d4ee5"
+  },
+  {
+   "seed": 2070971350,
+   "sha256": "c298b507fd3993f73bd7e04b82b792395013e2f3e018c0b9df104ef83a2e4f38"
+  },
+  {
+   "seed": 430439815,
+   "sha256": "cec6d7f7a4746b9b20a46123277ae078fce702bd50fc907af25347a2eee43134"
+  },
+  {
+   "seed": 3084875576,
+   "sha256": "95ca66801eb1136d1208d4cfa844dfced25d228dbb452f20079fdd434d6f376e"
+  },
+  {
+   "seed": 1444344041,
+   "sha256": "93176ee67da324643368c9dd43b84dabae9911e6ec2cb6109dbd2f7db588a4b5"
+  },
+  {
+   "seed": 4098779802,
+   "sha256": "ef0d77cde34c6c9a314a0486a02887bf02a91e92545aa450286df320ff358505"
+  },
+  {
+   "seed": 2458248267,
+   "sha256": "20080471dfdc1436dbe3de7c6ef34df00254ffee7e31db60531b54812fcfe99f"
+  },
+  {
+   "seed": 817716732,
+   "sha256": "f34b0cd08aacf10e345c6a96167c20e4245dfea439fb222a70332a5de4a6a7bc"
+  },
+  {
+   "seed": 3472152493,
+   "sha256": "17b37da97983e29ef42935444f2c59691fc0a50105c5a1775b5733c8004d3e80"
+  },
+  {
+   "seed": 1831620958,
+   "sha256": "f5874bde5ad6d0435ec1a1b6fedbd79b96c4661eef800a2c0bb9cbaa2dc430c4"
+  },
+  {
+   "seed": 191089423,
+   "sha256": "b7599b05863abdbbe0ef786b9ded4e2fe32db49d034f3e3e075470239ded3674"
+  },
+  {
+   "seed": 2845525184,
+   "sha256": "d668b39bbb75095f3e83deff2b35bf44c5c1000b900a88666ca4bd9dfeeff2ae"
+  },
+  {
+   "seed": 1204993649,
+   "sha256": "0633985639c56d6333084e188b84eb4096acebcc1db52f23e701cbef78e6d0c1"
+  },
+  {
+   "seed": 3859429410,
+   "sha256": "a09334825b147f7add5e2605240836b02e6ba98730a268f5cc3916669a27ed1b"
+  },
+  {
+   "seed": 2218897875,
+   "sha256": "9a691546a2b69f57cd2789a0d4e2a3f10f6855d9324f7a8616a0835259b2afc1"
+  },
+  {
+   "seed": 578366340,
+   "sha256": "c9b1bf5ae6b217d980aa1c88d2097ad0e78a994246456e97c0dae2e3e5525d59"
+  },
+  {
+   "seed": 3232802101,
+   "sha256": "0c16a3d635f2131103ecd226bb33ee55e964c0faae5921e6f5793d5daae0641c"
+  },
+  {
+   "seed": 1592270566,
+   "sha256": "01f759429a054af9a86ec50ed0d441a397ea5627f095b5ce3d2fa1c50d9ce6cf"
+  },
+  {
+   "seed": 4246706327,
+   "sha256": "4ea65539fbe2d415e2114296b1a68d820ac275ac1b4d0334ba4310f5b298e3a3"
+  },
+  {
+   "seed": 2606174792,
+   "sha256": "f57d2d627e50d2a91331fb19d732fde7ca2c3fead24d24b7eefdc6057b959832"
+  }
+ ],
+ "samples": [
+  {
+   "seed": 2654435761,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 2654435761,
+    "context": [],
+    "tags": [
+     "malware"
+    ],
+    "kind": "classify",
+    "prompt": "Classifique cada atitude diante de um arquivo ou programa.",
+    "categories": [
+     "Seguro",
+     "Arriscado"
+    ],
+    "items": [
+     {
+      "text": "Manter sistema e aplicativos atualizados automaticamente",
+      "detail": [
+       "Correções aplicadas cedo"
+      ]
+     },
+     {
+      "text": "Instalar um programa baixado do site oficial, conferindo o hash publicado",
+      "detail": [
+       "Fonte oficial",
+       "Hash conferido"
+      ]
+     },
+     {
+      "text": "Abrir um documento em visualização protegida antes de editar",
+      "detail": [
+       "Sem execução de macros"
+      ]
+     },
+     {
+      "text": "Instalar uma extensão de navegador com muitas permissões e sem avaliações",
+      "detail": [
+       "Permissões amplas",
+       "Sem reputação"
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "itemExplanations": [
+     "A maioria das infecções explora falhas já corrigidas: atualizar fecha a porta.",
+     "Fonte oficial e integridade verificada: é o caminho recomendado.",
+     "A visualização protegida impede a execução de código embutido.",
+     "Extensão com acesso a todos os sites lê tudo que você digita."
+    ],
+    "explanation": "O risco vem de executar o que você não pode verificar. Fonte oficial, assinatura conferida e menor privilégio são o que separa uma instalação de um comprometimento.",
+    "hint": "Pergunte: de onde veio, quem assinou e com que privilégio vai rodar?"
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       true,
+       true,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1013904226,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 1013904226,
+    "context": [],
+    "tags": [
+     "malware"
+    ],
+    "kind": "classify",
+    "prompt": "Classifique cada atitude diante de um arquivo ou programa.",
+    "categories": [
+     "Seguro",
+     "Arriscado"
+    ],
+    "items": [
+     {
+      "text": "Abrir um documento em visualização protegida antes de editar",
+      "detail": [
+       "Sem execução de macros"
+      ]
+     },
+     {
+      "text": "Instalar um programa baixado do site oficial, conferindo o hash publicado",
+      "detail": [
+       "Fonte oficial",
+       "Hash conferido"
+      ]
+     },
+     {
+      "text": "Executar um anexo .exe recebido de um remetente desconhecido",
+      "detail": [
+       "Origem desconhecida",
+       "Executável"
+      ]
+     },
+     {
+      "text": "Manter sistema e aplicativos atualizados automaticamente",
+      "detail": [
+       "Correções aplicadas cedo"
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     0,
+     1,
+     0
+    ],
+    "itemExplanations": [
+     "A visualização protegida impede a execução de código embutido.",
+     "Fonte oficial e integridade verificada: é o caminho recomendado.",
+     "Executável de origem desconhecida é a via mais direta de infecção.",
+     "A maioria das infecções explora falhas já corrigidas: atualizar fecha a porta."
+    ],
+    "explanation": "O risco vem de executar o que você não pode verificar. Fonte oficial, assinatura conferida e menor privilégio são o que separa uma instalação de um comprometimento.",
+    "hint": "Pergunte: de onde veio, quem assinou e com que privilégio vai rodar?"
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       true,
+       false,
+       false,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3668339987,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 3668339987,
+    "context": [],
+    "tags": [
+     "malware"
+    ],
+    "kind": "classify",
+    "prompt": "Classifique cada atitude diante de um arquivo ou programa.",
+    "categories": [
+     "Seguro",
+     "Arriscado"
+    ],
+    "items": [
+     {
+      "text": "Desativar o antivírus porque o instalador pediu",
+      "detail": [
+       "Pedido suspeito do instalador"
+      ]
+     },
+     {
+      "text": "Executar um anexo .exe recebido de um remetente desconhecido",
+      "detail": [
+       "Origem desconhecida",
+       "Executável"
+      ]
+     },
+     {
+      "text": "Usar o computador no dia a dia com uma conta sem privilégio de administrador",
+      "detail": [
+       "Menor privilégio"
+      ]
+     },
+     {
+      "text": "Instalar um programa baixado do site oficial, conferindo o hash publicado",
+      "detail": [
+       "Fonte oficial",
+       "Hash conferido"
+      ]
+     }
+    ],
+    "answer": [
+     1,
+     1,
+     0,
+     0
+    ],
+    "itemExplanations": [
+     "Programa legítimo não pede para desligar a proteção; o pedido é o próprio sinal.",
+     "Executável de origem desconhecida é a via mais direta de infecção.",
+     "Menor privilégio limita o que qualquer programa consegue alterar.",
+     "Fonte oficial e integridade verificada: é o caminho recomendado."
+    ],
+    "explanation": "O risco vem de executar o que você não pode verificar. Fonte oficial, assinatura conferida e menor privilégio são o que separa uma instalação de um comprometimento.",
+    "hint": "Pergunte: de onde veio, quem assinou e com que privilégio vai rodar?"
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       true,
+       false,
+       true,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2027808452,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 2027808452,
+    "context": [],
+    "tags": [
+     "malware"
+    ],
+    "kind": "classify",
+    "prompt": "Classifique cada atitude diante de um arquivo ou programa.",
+    "categories": [
+     "Seguro",
+     "Arriscado"
+    ],
+    "items": [
+     {
+      "text": "Desativar o antivírus porque o instalador pediu",
+      "detail": [
+       "Pedido suspeito do instalador"
+      ]
+     },
+     {
+      "text": "Usar o computador no dia a dia com uma conta sem privilégio de administrador",
+      "detail": [
+       "Menor privilégio"
+      ]
+     },
+     {
+      "text": "Habilitar macros em uma planilha para \"ver o conteúdo\"",
+      "detail": [
+       "Código embutido no documento"
+      ]
+     },
+     {
+      "text": "Instalar um programa baixado do site oficial, conferindo o hash publicado",
+      "detail": [
+       "Fonte oficial",
+       "Hash conferido"
+      ]
+     }
+    ],
+    "answer": [
+     1,
+     0,
+     1,
+     0
+    ],
+    "itemExplanations": [
+     "Programa legítimo não pede para desligar a proteção; o pedido é o próprio sinal.",
+     "Menor privilégio limita o que qualquer programa consegue alterar.",
+     "Macro é código: habilitar equivale a executar um programa que veio no anexo.",
+     "Fonte oficial e integridade verificada: é o caminho recomendado."
+    ],
+    "explanation": "O risco vem de executar o que você não pode verificar. Fonte oficial, assinatura conferida e menor privilégio são o que separa uma instalação de um comprometimento.",
+    "hint": "Pergunte: de onde veio, quem assinou e com que privilégio vai rodar?"
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 387276917,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 387276917,
+    "context": [],
+    "tags": [
+     "malware"
+    ],
+    "kind": "classify",
+    "prompt": "Classifique cada atitude diante de um arquivo ou programa.",
+    "categories": [
+     "Seguro",
+     "Arriscado"
+    ],
+    "items": [
+     {
+      "text": "Abrir um documento em visualização protegida antes de editar",
+      "detail": [
+       "Sem execução de macros"
+      ]
+     },
+     {
+      "text": "Manter sistema e aplicativos atualizados automaticamente",
+      "detail": [
+       "Correções aplicadas cedo"
+      ]
+     },
+     {
+      "text": "Usar o computador no dia a dia com uma conta sem privilégio de administrador",
+      "detail": [
+       "Menor privilégio"
+      ]
+     },
+     {
+      "text": "Desativar o antivírus porque o instalador pediu",
+      "detail": [
+       "Pedido suspeito do instalador"
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "itemExplanations": [
+     "A visualização protegida impede a execução de código embutido.",
+     "A maioria das infecções explora falhas já corrigidas: atualizar fecha a porta.",
+     "Menor privilégio limita o que qualquer programa consegue alterar.",
+     "Programa legítimo não pede para desligar a proteção; o pedido é o próprio sinal."
+    ],
+    "explanation": "O risco vem de executar o que você não pode verificar. Fonte oficial, assinatura conferida e menor privilégio são o que separa uma instalação de um comprometimento.",
+    "hint": "Pergunte: de onde veio, quem assinou e com que privilégio vai rodar?"
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       true,
+       true,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3041712678,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 3041712678,
+    "context": [],
+    "tags": [
+     "malware"
+    ],
+    "kind": "classify",
+    "prompt": "Classifique cada atitude diante de um arquivo ou programa.",
+    "categories": [
+     "Seguro",
+     "Arriscado"
+    ],
+    "items": [
+     {
+      "text": "Abrir um documento em visualização protegida antes de editar",
+      "detail": [
+       "Sem execução de macros"
+      ]
+     },
+     {
+      "text": "Instalar uma extensão de navegador com muitas permissões e sem avaliações",
+      "detail": [
+       "Permissões amplas",
+       "Sem reputação"
+      ]
+     },
+     {
+      "text": "Desativar o antivírus porque o instalador pediu",
+      "detail": [
+       "Pedido suspeito do instalador"
+      ]
+     },
+     {
+      "text": "Manter sistema e aplicativos atualizados automaticamente",
+      "detail": [
+       "Correções aplicadas cedo"
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     1,
+     1,
+     0
+    ],
+    "itemExplanations": [
+     "A visualização protegida impede a execução de código embutido.",
+     "Extensão com acesso a todos os sites lê tudo que você digita.",
+     "Programa legítimo não pede para desligar a proteção; o pedido é o próprio sinal.",
+     "A maioria das infecções explora falhas já corrigidas: atualizar fecha a porta."
+    ],
+    "explanation": "O risco vem de executar o que você não pode verificar. Fonte oficial, assinatura conferida e menor privilégio são o que separa uma instalação de um comprometimento.",
+    "hint": "Pergunte: de onde veio, quem assinou e com que privilégio vai rodar?"
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       true,
+       false,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1401181143,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 1401181143,
+    "context": [],
+    "tags": [
+     "malware"
+    ],
+    "kind": "classify",
+    "prompt": "Classifique cada atitude diante de um arquivo ou programa.",
+    "categories": [
+     "Seguro",
+     "Arriscado"
+    ],
+    "items": [
+     {
+      "text": "Desativar o antivírus porque o instalador pediu",
+      "detail": [
+       "Pedido suspeito do instalador"
+      ]
+     },
+     {
+      "text": "Habilitar macros em uma planilha para \"ver o conteúdo\"",
+      "detail": [
+       "Código embutido no documento"
+      ]
+     },
+     {
+      "text": "Instalar uma extensão de navegador com muitas permissões e sem avaliações",
+      "detail": [
+       "Permissões amplas",
+       "Sem reputação"
+      ]
+     },
+     {
+      "text": "Manter sistema e aplicativos atualizados automaticamente",
+      "detail": [
+       "Correções aplicadas cedo"
+      ]
+     }
+    ],
+    "answer": [
+     1,
+     1,
+     1,
+     0
+    ],
+    "itemExplanations": [
+     "Programa legítimo não pede para desligar a proteção; o pedido é o próprio sinal.",
+     "Macro é código: habilitar equivale a executar um programa que veio no anexo.",
+     "Extensão com acesso a todos os sites lê tudo que você digita.",
+     "A maioria das infecções explora falhas já corrigidas: atualizar fecha a porta."
+    ],
+    "explanation": "O risco vem de executar o que você não pode verificar. Fonte oficial, assinatura conferida e menor privilégio são o que separa uma instalação de um comprometimento.",
+    "hint": "Pergunte: de onde veio, quem assinou e com que privilégio vai rodar?"
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       true,
+       true,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 4055616904,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 4055616904,
+    "context": [],
+    "tags": [
+     "malware"
+    ],
+    "kind": "classify",
+    "prompt": "Classifique cada atitude diante de um arquivo ou programa.",
+    "categories": [
+     "Seguro",
+     "Arriscado"
+    ],
+    "items": [
+     {
+      "text": "Instalar uma extensão de navegador com muitas permissões e sem avaliações",
+      "detail": [
+       "Permissões amplas",
+       "Sem reputação"
+      ]
+     },
+     {
+      "text": "Instalar um programa baixado do site oficial, conferindo o hash publicado",
+      "detail": [
+       "Fonte oficial",
+       "Hash conferido"
+      ]
+     },
+     {
+      "text": "Abrir um documento em visualização protegida antes de editar",
+      "detail": [
+       "Sem execução de macros"
+      ]
+     },
+     {
+      "text": "Usar o computador no dia a dia com uma conta sem privilégio de administrador",
+      "detail": [
+       "Menor privilégio"
+      ]
+     }
+    ],
+    "answer": [
+     1,
+     0,
+     0,
+     0
+    ],
+    "itemExplanations": [
+     "Extensão com acesso a todos os sites lê tudo que você digita.",
+     "Fonte oficial e integridade verificada: é o caminho recomendado.",
+     "A visualização protegida impede a execução de código embutido.",
+     "Menor privilégio limita o que qualquer programa consegue alterar."
+    ],
+    "explanation": "O risco vem de executar o que você não pode verificar. Fonte oficial, assinatura conferida e menor privilégio são o que separa uma instalação de um comprometimento.",
+    "hint": "Pergunte: de onde veio, quem assinou e com que privilégio vai rodar?"
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       true,
+       true,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2415085369,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 2415085369,
+    "context": [],
+    "tags": [
+     "malware"
+    ],
+    "kind": "classify",
+    "prompt": "Classifique cada atitude diante de um arquivo ou programa.",
+    "categories": [
+     "Seguro",
+     "Arriscado"
+    ],
+    "items": [
+     {
+      "text": "Instalar uma extensão de navegador com muitas permissões e sem avaliações",
+      "detail": [
+       "Permissões amplas",
+       "Sem reputação"
+      ]
+     },
+     {
+      "text": "Executar um anexo .exe recebido de um remetente desconhecido",
+      "detail": [
+       "Origem desconhecida",
+       "Executável"
+      ]
+     },
+     {
+      "text": "Instalar um programa baixado do site oficial, conferindo o hash publicado",
+      "detail": [
+       "Fonte oficial",
+       "Hash conferido"
+      ]
+     },
+     {
+      "text": "Usar o computador no dia a dia com uma conta sem privilégio de administrador",
+      "detail": [
+       "Menor privilégio"
+      ]
+     }
+    ],
+    "answer": [
+     1,
+     1,
+     0,
+     0
+    ],
+    "itemExplanations": [
+     "Extensão com acesso a todos os sites lê tudo que você digita.",
+     "Executável de origem desconhecida é a via mais direta de infecção.",
+     "Fonte oficial e integridade verificada: é o caminho recomendado.",
+     "Menor privilégio limita o que qualquer programa consegue alterar."
+    ],
+    "explanation": "O risco vem de executar o que você não pode verificar. Fonte oficial, assinatura conferida e menor privilégio são o que separa uma instalação de um comprometimento.",
+    "hint": "Pergunte: de onde veio, quem assinou e com que privilégio vai rodar?"
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       true,
+       false,
+       true,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 774553834,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 774553834,
+    "context": [],
+    "tags": [
+     "malware"
+    ],
+    "kind": "classify",
+    "prompt": "Classifique cada atitude diante de um arquivo ou programa.",
+    "categories": [
+     "Seguro",
+     "Arriscado"
+    ],
+    "items": [
+     {
+      "text": "Instalar um programa baixado do site oficial, conferindo o hash publicado",
+      "detail": [
+       "Fonte oficial",
+       "Hash conferido"
+      ]
+     },
+     {
+      "text": "Manter sistema e aplicativos atualizados automaticamente",
+      "detail": [
+       "Correções aplicadas cedo"
+      ]
+     },
+     {
+      "text": "Habilitar macros em uma planilha para \"ver o conteúdo\"",
+      "detail": [
+       "Código embutido no documento"
+      ]
+     },
+     {
+      "text": "Usar o computador no dia a dia com uma conta sem privilégio de administrador",
+      "detail": [
+       "Menor privilégio"
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     0,
+     1,
+     0
+    ],
+    "itemExplanations": [
+     "Fonte oficial e integridade verificada: é o caminho recomendado.",
+     "A maioria das infecções explora falhas já corrigidas: atualizar fecha a porta.",
+     "Macro é código: habilitar equivale a executar um programa que veio no anexo.",
+     "Menor privilégio limita o que qualquer programa consegue alterar."
+    ],
+    "explanation": "O risco vem de executar o que você não pode verificar. Fonte oficial, assinatura conferida e menor privilégio são o que separa uma instalação de um comprometimento.",
+    "hint": "Pergunte: de onde veio, quem assinou e com que privilégio vai rodar?"
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       true,
+       false,
+       false,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3428989595,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 3428989595,
+    "context": [],
+    "tags": [
+     "malware"
+    ],
+    "kind": "classify",
+    "prompt": "Classifique cada atitude diante de um arquivo ou programa.",
+    "categories": [
+     "Seguro",
+     "Arriscado"
+    ],
+    "items": [
+     {
+      "text": "Habilitar macros em uma planilha para \"ver o conteúdo\"",
+      "detail": [
+       "Código embutido no documento"
+      ]
+     },
+     {
+      "text": "Instalar uma extensão de navegador com muitas permissões e sem avaliações",
+      "detail": [
+       "Permissões amplas",
+       "Sem reputação"
+      ]
+     },
+     {
+      "text": "Instalar um programa baixado do site oficial, conferindo o hash publicado",
+      "detail": [
+       "Fonte oficial",
+       "Hash conferido"
+      ]
+     },
+     {
+      "text": "Manter sistema e aplicativos atualizados automaticamente",
+      "detail": [
+       "Correções aplicadas cedo"
+      ]
+     }
+    ],
+    "answer": [
+     1,
+     1,
+     0,
+     0
+    ],
+    "itemExplanations": [
+     "Macro é código: habilitar equivale a executar um programa que veio no anexo.",
+     "Extensão com acesso a todos os sites lê tudo que você digita.",
+     "Fonte oficial e integridade verificada: é o caminho recomendado.",
+     "A maioria das infecções explora falhas já corrigidas: atualizar fecha a porta."
+    ],
+    "explanation": "O risco vem de executar o que você não pode verificar. Fonte oficial, assinatura conferida e menor privilégio são o que separa uma instalação de um comprometimento.",
+    "hint": "Pergunte: de onde veio, quem assinou e com que privilégio vai rodar?"
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       true,
+       false,
+       true,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1788458060,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 1788458060,
+    "context": [],
+    "tags": [
+     "malware"
+    ],
+    "kind": "classify",
+    "prompt": "Classifique cada atitude diante de um arquivo ou programa.",
+    "categories": [
+     "Seguro",
+     "Arriscado"
+    ],
+    "items": [
+     {
+      "text": "Instalar um programa baixado do site oficial, conferindo o hash publicado",
+      "detail": [
+       "Fonte oficial",
+       "Hash conferido"
+      ]
+     },
+     {
+      "text": "Manter sistema e aplicativos atualizados automaticamente",
+      "detail": [
+       "Correções aplicadas cedo"
+      ]
+     },
+     {
+      "text": "Abrir um documento em visualização protegida antes de editar",
+      "detail": [
+       "Sem execução de macros"
+      ]
+     },
+     {
+      "text": "Desativar o antivírus porque o instalador pediu",
+      "detail": [
+       "Pedido suspeito do instalador"
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "itemExplanations": [
+     "Fonte oficial e integridade verificada: é o caminho recomendado.",
+     "A maioria das infecções explora falhas já corrigidas: atualizar fecha a porta.",
+     "A visualização protegida impede a execução de código embutido.",
+     "Programa legítimo não pede para desligar a proteção; o pedido é o próprio sinal."
+    ],
+    "explanation": "O risco vem de executar o que você não pode verificar. Fonte oficial, assinatura conferida e menor privilégio são o que separa uma instalação de um comprometimento.",
+    "hint": "Pergunte: de onde veio, quem assinou e com que privilégio vai rodar?"
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       true,
+       true,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,2983 @@
+{
+ "source": "06-phishing/t2",
+ "generator": "phishing_classify",
+ "params": {
+  "count": 4
+ },
+ "seeds": [
+  {
+   "seed": 2654435761,
+   "sha256": "808367b81f5634a381c6bbe3f4e6ed5a31c82369a036898b374d15525db9e85f"
+  },
+  {
+   "seed": 1013904226,
+   "sha256": "84b7af527d9ef3b7804c97b17f5af8cee9b7fae8cef35ba3b638222cb98e321c"
+  },
+  {
+   "seed": 3668339987,
+   "sha256": "e527b5f51dd138275331d8f4895f8d51c06c6ba2bf386d1811292a5effdadb16"
+  },
+  {
+   "seed": 2027808452,
+   "sha256": "8a29bcdb302d962a4ea67fdd4f80b2b839b37fe4cc9e453c172cabdb6bf1a6ce"
+  },
+  {
+   "seed": 387276917,
+   "sha256": "b73ce0cc0937e2de831bf8b7846a9ce1917f05c4c7e68e7bc2ecf4cc81587968"
+  },
+  {
+   "seed": 3041712678,
+   "sha256": "88d41cf400103ec585fb82166ed8223f527288f1e5f1f4715ea79d7367f29d7e"
+  },
+  {
+   "seed": 1401181143,
+   "sha256": "7afe8e46171d74315a10847b8b6da18db1e194362170a3a8402265c002206ceb"
+  },
+  {
+   "seed": 4055616904,
+   "sha256": "c1d796fc569459e06e82669c8a9041c81d4a350b4c2baf9d493b4245146e7efd"
+  },
+  {
+   "seed": 2415085369,
+   "sha256": "62f67de7b6e5da03c6cbc8c34ddb50ab2782f587e5429b4a1b76df4fc15fc9f1"
+  },
+  {
+   "seed": 774553834,
+   "sha256": "6d23b5ff460bbce633c732f0d321d777df05b2ebcc4ae08c376d773c14226080"
+  },
+  {
+   "seed": 3428989595,
+   "sha256": "ba219a420224bd5e13b078c8f0a560061a8d71e2d18d1224b37c582e052b2d2a"
+  },
+  {
+   "seed": 1788458060,
+   "sha256": "afc19429dfe589a40d11d1b6f9a84f6cf04da0150e9719cbf05dabe4fbb57d27"
+  },
+  {
+   "seed": 147926525,
+   "sha256": "8bd19b9cf2dbbe7740747665e1208c0d347ec1a1bf5fc13d8d8be83900646a14"
+  },
+  {
+   "seed": 2802362286,
+   "sha256": "41f415a39c6bce042f9fdbc70f36429b225c8dc5cd5bdbcd70decd8fc10927b7"
+  },
+  {
+   "seed": 1161830751,
+   "sha256": "6ba0312e95f2d9c0a7003d1b0a58ed8617d0079525712cc08b347e3ccd8ea225"
+  },
+  {
+   "seed": 3816266512,
+   "sha256": "c3cc965924a8dea3e777f4280be226ac445e72d53a16581dd21a4fcd2de6c3ca"
+  },
+  {
+   "seed": 2175734977,
+   "sha256": "9ffe4f5c76ae0118ce72bc166a936cba24215e65c76c4aa59b7c663973f6e230"
+  },
+  {
+   "seed": 535203442,
+   "sha256": "b925932756281c7f75918f1b0e4065bc71ef89cb0ea1c648f88d283204b8b4e7"
+  },
+  {
+   "seed": 3189639203,
+   "sha256": "df0924ddd00bdf791102886042247504436ffb0144c7aff1f273ae062d8af93e"
+  },
+  {
+   "seed": 1549107668,
+   "sha256": "dc72730f93ee1deb6227b5d924638f600cd876d5398581549c91bf4d13a89024"
+  },
+  {
+   "seed": 4203543429,
+   "sha256": "38428200c9ab697a603f215ceec47ee0c777a27097fe10bf3d06f14b0e8cccfd"
+  },
+  {
+   "seed": 2563011894,
+   "sha256": "d1b8b553bf8e920d60b64dfb4454b86fd59a10b6c48c6cb695623d76a3bc7acd"
+  },
+  {
+   "seed": 922480359,
+   "sha256": "72abc27fe23cf12e52999474d2c34931e28d070d28f935600362471d6b381657"
+  },
+  {
+   "seed": 3576916120,
+   "sha256": "13e066dc65819fc9437f68aa1835cdf9d945d352c465f617c29183c01ec0edc4"
+  },
+  {
+   "seed": 1936384585,
+   "sha256": "378a779c9f3442f98124efbd41eddd120cdf2a0fa2019bc34e7d0248b4b1f4b9"
+  },
+  {
+   "seed": 295853050,
+   "sha256": "7192ebd726447e79e3bc216ab4e5d5c04ed23f7c634884310cb68f68c76aae97"
+  },
+  {
+   "seed": 2950288811,
+   "sha256": "e4949740de9fce9d96a482df7a0087b9884a18326f60ba2613b702643f8b768a"
+  },
+  {
+   "seed": 1309757276,
+   "sha256": "2e976f4eeb9f1332a8df0d58d3fedca1a866303b37dadb4588c4881e371c9661"
+  },
+  {
+   "seed": 3964193037,
+   "sha256": "b60395cbce4f6cd800855999bc4df30f042aab3f90c87b1b12e46006c4029da4"
+  },
+  {
+   "seed": 2323661502,
+   "sha256": "69279cf268bdf69c5c777f0a0469d1bfc8adda702e7372fb7d3180944bfcb84f"
+  },
+  {
+   "seed": 683129967,
+   "sha256": "973c93762a5229f592e3e0ceca52bf25114c2442183e86372eecd5c020ee3e99"
+  },
+  {
+   "seed": 3337565728,
+   "sha256": "190716004c09602d541f53586d3c079c7d2eed6144502ad2a5af56ddbb0b2266"
+  },
+  {
+   "seed": 1697034193,
+   "sha256": "d9641193658d477b11a932da902746eb6fe4a5915a5f7708153ab0e71dc67536"
+  },
+  {
+   "seed": 56502658,
+   "sha256": "7d4fbfd1c35343544bf6f644534ecae18fd4b4b6de143d7007b5bba9d4983866"
+  },
+  {
+   "seed": 2710938419,
+   "sha256": "b5fb43f7946359d2ae882245f4af1daa04d75e5e01ce23f4b211c9b92cf888ed"
+  },
+  {
+   "seed": 1070406884,
+   "sha256": "f54bef74b87973d91d6a28c2f757e653ecd6af066fee71bd23d1648f15e89861"
+  },
+  {
+   "seed": 3724842645,
+   "sha256": "556ba48c340e53d759eed91b36477db40b2efa9fcdbd39eedcaee55bb706bff0"
+  },
+  {
+   "seed": 2084311110,
+   "sha256": "ab9cd801fd151bc9ce3fd874731c2dbe471afc2002318199cd2124dd88046d82"
+  },
+  {
+   "seed": 443779575,
+   "sha256": "ae5aae49b7b823cfa1c7831e43d4575ff8d172f250bd849a4b79da8bc4f93322"
+  },
+  {
+   "seed": 3098215336,
+   "sha256": "37ba0e3eae1a347e9a27cb456176ec0f860d2d293a7d9191290974a867931d73"
+  },
+  {
+   "seed": 1457683801,
+   "sha256": "6f69e3a54639196a84dbc57801c1af713a07e13007eba193f9c9f655ad847533"
+  },
+  {
+   "seed": 4112119562,
+   "sha256": "3f0f5831ba956ee8483d6378a6ae7864a6435b94181ef5395158c1d512aeec38"
+  },
+  {
+   "seed": 2471588027,
+   "sha256": "e81b3040d0ded72525167cef1a038e11b210bd721f15d4522750812aaabe0e28"
+  },
+  {
+   "seed": 831056492,
+   "sha256": "77f921960ea056ccac20f0019775756663dff57a4e78b375b4bff8bdf0583d30"
+  },
+  {
+   "seed": 3485492253,
+   "sha256": "86e86c059776fc7bd6dcae350865119aaddd23f7c11bbe9540351621587be7f5"
+  },
+  {
+   "seed": 1844960718,
+   "sha256": "18b39894b408f69882cfad3f7f4e0c719df94d12ab2da1bf77199ae432456080"
+  },
+  {
+   "seed": 204429183,
+   "sha256": "f3f0543acfc6639ab8f54c4ecd8320c13870e15f6f433f2e68a34e30c5927cfb"
+  },
+  {
+   "seed": 2858864944,
+   "sha256": "93683c0bc558a72c16daa085be3e74fd7f524de435db79108c8a6dc7df2b5d4e"
+  },
+  {
+   "seed": 1218333409,
+   "sha256": "52a21afc6447cb9116e71cdcc2606070a5dbe31bdae191455a57fa7b6b00e23c"
+  },
+  {
+   "seed": 3872769170,
+   "sha256": "805d09e8255e7e08481419234d06ff2fb2682543cb2bb4e3e361b973f7794e96"
+  },
+  {
+   "seed": 2232237635,
+   "sha256": "9b5b56e11596a4892ac7378cad0095576e4cdfdb3f1711b805117d7698c7646f"
+  },
+  {
+   "seed": 591706100,
+   "sha256": "304d64ae1e9d3929b247013611141e631ac26010e77115080e0de81eb8e0b21c"
+  },
+  {
+   "seed": 3246141861,
+   "sha256": "7e57cc576dd7e580d7f53114999a256b7a4e0375bd29552d8f4bdf3f999563b1"
+  },
+  {
+   "seed": 1605610326,
+   "sha256": "de06e5a7cb80e022cc5e3fb3808928f0a5e63fad0d5da24806878ad348bba43c"
+  },
+  {
+   "seed": 4260046087,
+   "sha256": "6624fd73e143ee4f77cb00890077909642228872ced9854a61f6c754c50b4c83"
+  },
+  {
+   "seed": 2619514552,
+   "sha256": "ec1155a25d4f61c43b68a2449ad4a003fb9d714196360917dd1b49382153df79"
+  },
+  {
+   "seed": 978983017,
+   "sha256": "16011b813f25f3269ec844c5a424cb86b3ee43abaa4c0eb23d565dfea9333e23"
+  },
+  {
+   "seed": 3633418778,
+   "sha256": "d2d610290ef32c23aa7b2052c2d767772f3f45cc9357ed854935b0b0b1fffbd3"
+  },
+  {
+   "seed": 1992887243,
+   "sha256": "f16bd559a6ae6abd5fa3e703fe570a3d751d8a28f415a8d592bf00e84a3a7b12"
+  },
+  {
+   "seed": 352355708,
+   "sha256": "ad0ac3d4d77c8611aa15406e03406b5281f9e8646f4c0bdd4fea2bf0be534fe1"
+  },
+  {
+   "seed": 3006791469,
+   "sha256": "f7689fa7c2d459ba1d5087f5415da5eeadb6215cb320427f6b0e168d1b176e15"
+  },
+  {
+   "seed": 1366259934,
+   "sha256": "7409e174ed0bf252f5756ece56359e1fe5b6fad3128bf49509b5cb6b7a8ac856"
+  },
+  {
+   "seed": 4020695695,
+   "sha256": "caeb390a92993f9ad3671a3965e448bafdd8f0525ee11505ae9e65f525e4724f"
+  },
+  {
+   "seed": 2380164160,
+   "sha256": "17ff10054d17fc2c3dfb08ba9c2614df067580d33cf7f27f4c98f53ccaf1f1d5"
+  },
+  {
+   "seed": 739632625,
+   "sha256": "2475ff4e065d9dcb6a7fcf01fd9e0e13f9dc202a7003cabfc3a1f5a5e6ff8fe7"
+  },
+  {
+   "seed": 3394068386,
+   "sha256": "84cfd56991f498a17981d22399d0a17a94689fb397af74ec2c6d8050a162b2a0"
+  },
+  {
+   "seed": 1753536851,
+   "sha256": "21fb11697ae31e18dcb05ac85c3d288eed2da745ba713a918b06165281749ed5"
+  },
+  {
+   "seed": 113005316,
+   "sha256": "2e64d41c3dbaf6bfda2376b2c3609776c6a26a58665a83dafd9e3e3080e55090"
+  },
+  {
+   "seed": 2767441077,
+   "sha256": "919cd75a85d08a46f11f38a4db4cfe974b20d2fca760f3a0089c8c0cfab444c1"
+  },
+  {
+   "seed": 1126909542,
+   "sha256": "8738f6f894eb28e5cec42437e349b641766d53290cc8b22e42223f74de3607ec"
+  },
+  {
+   "seed": 3781345303,
+   "sha256": "7135bcec061db3d078a8d3cb644e5ea6eea56c660e7d37a0dd2d74ca6a466b0b"
+  },
+  {
+   "seed": 2140813768,
+   "sha256": "60b4dd11f7c6a74b61f286b5dde0ac82a6ac443ba473c5e017edbe0575d57a1a"
+  },
+  {
+   "seed": 500282233,
+   "sha256": "af5d05d97c45548f0afe5ec0ccf46119e89e619275fd8856f75d6838bbeb1770"
+  },
+  {
+   "seed": 3154717994,
+   "sha256": "b9a67d2cd626c459ad446661b6eaba30f54f4ccc05d2a93f8eb0a88276f33107"
+  },
+  {
+   "seed": 1514186459,
+   "sha256": "2dee3f83db1d4af356c012963cf11ea4831e3091d425eb295fb6c7ffe8ed58a8"
+  },
+  {
+   "seed": 4168622220,
+   "sha256": "00176359b6f5a0022c82cd8bd248fb8b5cb0e06fdb9e230ec1778307b4e57012"
+  },
+  {
+   "seed": 2528090685,
+   "sha256": "5b51aced6eb63d73f55c92f76521f5b03eb93e73e2f2d9bccc535a2095523bcf"
+  },
+  {
+   "seed": 887559150,
+   "sha256": "3f07f939e7060f7dbf6f4553b998993c0edfd7a8235e09aaefa6c0378da1c7ef"
+  },
+  {
+   "seed": 3541994911,
+   "sha256": "bcc4f7ec863f21586c9e40a3b854f293e7058ee06f5fc27227b5c6fe66dfc8a2"
+  },
+  {
+   "seed": 1901463376,
+   "sha256": "25ea061da6ade4fda5dc5ac01830f2505219007edad7c33f411ad92d336ce6d3"
+  },
+  {
+   "seed": 260931841,
+   "sha256": "4104d9035d6fc68138f412b5fcb489b93302dbd4c004e8f8465c7fa81df54e79"
+  },
+  {
+   "seed": 2915367602,
+   "sha256": "0b487fd0225b3a4e557156cc5d8868e1351844bf9763ddf0a2247f2a237024e7"
+  },
+  {
+   "seed": 1274836067,
+   "sha256": "b709587d23c5fe5591d251761ca46281ecf540870dc5a3dacc6a3ac8426c92ad"
+  },
+  {
+   "seed": 3929271828,
+   "sha256": "8bfcd375d6eb19ab810131d96a0a28a378724f870747db1e1f3eec2432b6a302"
+  },
+  {
+   "seed": 2288740293,
+   "sha256": "1416bd5bb42c135ce5aac5d7a1ff6b7bcb816863fbef95872afd3fc2c88d9b8e"
+  },
+  {
+   "seed": 648208758,
+   "sha256": "9b72262ca8feb5e7802230fb2e06d8ba25a95803ce309ee97d5201d981e21342"
+  },
+  {
+   "seed": 3302644519,
+   "sha256": "56e039c8b9936ab572e69a1c97d5e314f3775181ebf501c86fa263b21f6163e2"
+  },
+  {
+   "seed": 1662112984,
+   "sha256": "17d1c5cde53445910a5e847704b56eb7ce869f225fa7b77aceed07a49da4236f"
+  },
+  {
+   "seed": 21581449,
+   "sha256": "e9925f573c12434d76c6448b50038083c5069b2605394641c736387fa20e1048"
+  },
+  {
+   "seed": 2676017210,
+   "sha256": "c259212c1244d3878b109f4709a07b11a0625bb6013482e03c6eeefa2e8c1155"
+  },
+  {
+   "seed": 1035485675,
+   "sha256": "1168b88b572c305686fea73ac0519d1978c5a0a1637bec55476d8b22269ba411"
+  },
+  {
+   "seed": 3689921436,
+   "sha256": "88d31cbc7111baa19d9a16ef390647cbfe1434666ad2f09dcdb8bb4d4d3ed5db"
+  },
+  {
+   "seed": 2049389901,
+   "sha256": "222fa86151bf40181d6fed24405379e644365d223868dc95aa0c4474f8c106f8"
+  },
+  {
+   "seed": 408858366,
+   "sha256": "d4332d538ac954688f075f6ae223356b5f8eb0eefaadd32de6aecddfe6618c55"
+  },
+  {
+   "seed": 3063294127,
+   "sha256": "cc85aff200ca7180ae43f28833b1d5e6081de570dd39ac9c391af981b9b9949f"
+  },
+  {
+   "seed": 1422762592,
+   "sha256": "6abb31e14a37c08380028ddaee6421f333f664e17268f2c521d55fc84715df4c"
+  },
+  {
+   "seed": 4077198353,
+   "sha256": "b3bb4b105688e610773a929fb0bdf8fcc29b99a4238ded408b1702e7eae19f27"
+  },
+  {
+   "seed": 2436666818,
+   "sha256": "402d37af9bfe33155492d00eb217d09189bb5dcc445eb2d846d52e429ca744e6"
+  },
+  {
+   "seed": 796135283,
+   "sha256": "5d41e23a1148f93b3325af65c5cb07d80f7719f144b1555008c4559e37251925"
+  },
+  {
+   "seed": 3450571044,
+   "sha256": "c6be8a3465ae20074c9a02053a3be303ad110e28fa88884e8b47ed805621d768"
+  },
+  {
+   "seed": 1810039509,
+   "sha256": "43c950e1aa337b50efa84a1bfb60772574dbeb81568ba63ef6455e8cd581c8e7"
+  },
+  {
+   "seed": 169507974,
+   "sha256": "0ba21398f227d29510a393bfead95ec39eedbc4e310713f397212ab852115d88"
+  },
+  {
+   "seed": 2823943735,
+   "sha256": "31fe745b0645c3178a4ec82dbea46355afb49c1a6452bb4c3f6f000fb14c224b"
+  },
+  {
+   "seed": 1183412200,
+   "sha256": "dd498a59e2cf100696b63833d3dbd9eb234ec430d636b25213f63308fcab3f25"
+  },
+  {
+   "seed": 3837847961,
+   "sha256": "9cf12078ea1ad868d15dab1b7da6f8f01e711ffea183353a593617930265142b"
+  },
+  {
+   "seed": 2197316426,
+   "sha256": "02a10f0e47be1ef83343ac18f507cfc3cc71ba9abee44e257495d1a34f798e56"
+  },
+  {
+   "seed": 556784891,
+   "sha256": "dfe282274a5bfe87957978a0bbbbdd123c5b24663913bfcbd39fbbcc25ef8fda"
+  },
+  {
+   "seed": 3211220652,
+   "sha256": "12b939b740920225b0301b64e12a283b850631fde803785f50c32a76583723d7"
+  },
+  {
+   "seed": 1570689117,
+   "sha256": "8dda270a60168bef61c2c4324ae5224f4dc8f7c45f7591f5b2ba5e2bea293dfb"
+  },
+  {
+   "seed": 4225124878,
+   "sha256": "0bc72a89346e80a4bedf0866af99ac364d9cf57e04cbda38f45127e584ed5b7c"
+  },
+  {
+   "seed": 2584593343,
+   "sha256": "387a19ee3c40efc46f62331e734b6f2a474968372631ca7c190d9eb3c737a675"
+  },
+  {
+   "seed": 944061808,
+   "sha256": "f7762382e2d47cc6849979fd3297331f23a667fa987377531f331e10ea62349f"
+  },
+  {
+   "seed": 3598497569,
+   "sha256": "c19bef07471a00bae4c319cbac130cdb88fdf74325c21c26f87f259e93451be4"
+  },
+  {
+   "seed": 1957966034,
+   "sha256": "3a84fcefd0df702a28aac0af921676bf3e9c13aa01df3da52148e02410906270"
+  },
+  {
+   "seed": 317434499,
+   "sha256": "6510baf2cde9e2c75d4613f44a444c90b329adf1107e532317b467bf55cb1b78"
+  },
+  {
+   "seed": 2971870260,
+   "sha256": "8b76c6f1b0b44aea707342b40d9c49d48ee238af36376770995370cbad972816"
+  },
+  {
+   "seed": 1331338725,
+   "sha256": "3ae19de49fcfb52ca9955ca4e3f65ea96699fe56139e3741ea3f5b77438cbc53"
+  },
+  {
+   "seed": 3985774486,
+   "sha256": "4f0193c9c42314fef4e52151fcedd1ba40f3f765fee3c9216d5c4e21deca0154"
+  },
+  {
+   "seed": 2345242951,
+   "sha256": "90def5917a894aad26e6703850fa85ad1303469d6a8e5da47a45ae325049226b"
+  },
+  {
+   "seed": 704711416,
+   "sha256": "2e9d24ae930cfa28de18d4d5c2ed499e8b0bb56d9e2b76de97706487f5f1fc81"
+  },
+  {
+   "seed": 3359147177,
+   "sha256": "e543ac9f0eb7ecdbf7e6a8315c8bae7d3e9bc7df070ab63b84978f8ad15c932f"
+  },
+  {
+   "seed": 1718615642,
+   "sha256": "ad8cbdbd600f56dcd0e5be9441fb2ed96fc0fd869074201a3859f0c814cd1946"
+  },
+  {
+   "seed": 78084107,
+   "sha256": "913b871050e8f159d1beef57773a7fbc48938b8cdc71188a7f3e192605af9b29"
+  },
+  {
+   "seed": 2732519868,
+   "sha256": "cf2735bd06891d80ce11ad100c930478582446716707cca27f7f490efb0588af"
+  },
+  {
+   "seed": 1091988333,
+   "sha256": "8c2142c633b5e318fbcb690d079811b3e95a06926e85033878554c72d87787b5"
+  },
+  {
+   "seed": 3746424094,
+   "sha256": "7d0fba86d4f36ae1aeb99aa709df911de6d82e0da03e9feb936ef3e6b6180255"
+  },
+  {
+   "seed": 2105892559,
+   "sha256": "0044bf47828d125480cd370104bc53f13d5ae5bdc30a914699db224196150764"
+  },
+  {
+   "seed": 465361024,
+   "sha256": "09416866bb93fd609eafde3d4500b2167a42319a6ace9e3fe6001478dc147d8e"
+  },
+  {
+   "seed": 3119796785,
+   "sha256": "e30f4377abcce5375f4c55d58b7c0b7fc8f193769b83bac4555071ce6d0218e5"
+  },
+  {
+   "seed": 1479265250,
+   "sha256": "9be00ad86604d0b95f1749f823b4955da668259378e3c6eca0e5fab34bea5fe5"
+  },
+  {
+   "seed": 4133701011,
+   "sha256": "c342f79114b2637c85461a1f9e7343b8100a790d305aedb891881bf69eac1b5e"
+  },
+  {
+   "seed": 2493169476,
+   "sha256": "0559f7fdab8cf08b0081d9e372df90b0b4942deac3d84886caba3f15ce535076"
+  },
+  {
+   "seed": 852637941,
+   "sha256": "3a0e5a76c43a13364933282c1bc6fdfdf9a76ed016b72ad9e326f6869c771153"
+  },
+  {
+   "seed": 3507073702,
+   "sha256": "b15b5dc141861824b3b5c0edafa4da64c38654d7b5b18a4565fb8e815c2462d1"
+  },
+  {
+   "seed": 1866542167,
+   "sha256": "279456bddbea6a2d0728e8bb080eba0d929783156836d4284e418788a1c072a0"
+  },
+  {
+   "seed": 226010632,
+   "sha256": "47ee1ef56f6a6d6f3301c004919f9419474dc1c6a5e98bd2209a4202fbcff0b0"
+  },
+  {
+   "seed": 2880446393,
+   "sha256": "a4dc8f532afbda37cb2dc725b2b9f967a24269de967dfe309a60479443b8f435"
+  },
+  {
+   "seed": 1239914858,
+   "sha256": "1fea0f9d559d614ed5e689d03b4759d7f1ef3c855d2041f4bdcfe559dd238fa1"
+  },
+  {
+   "seed": 3894350619,
+   "sha256": "d056eda789cb98bf12b4a0aa83daf0093a655566bb07907dd924230cc80bc6de"
+  },
+  {
+   "seed": 2253819084,
+   "sha256": "4be4f5a1cd07940e9b4ed27300b0895968559b36fc335adeac122a1447f2bd7f"
+  },
+  {
+   "seed": 613287549,
+   "sha256": "4927180e527a9ef0f9676f313a516ee718cd5567aa7cb097d2b6d5aa09ec47ea"
+  },
+  {
+   "seed": 3267723310,
+   "sha256": "6107ed8da00f1d8420d7fd2313e4333354144d545c0a4ae95ed786e55a4866f0"
+  },
+  {
+   "seed": 1627191775,
+   "sha256": "9ad7365e08107b3908c30079f3f3342b8b5f2b30b3d6f9256237c636dfc2960d"
+  },
+  {
+   "seed": 4281627536,
+   "sha256": "790df1013bb1e8612558fb5b4cd4379d7ca7d4520a0bceb219db0814a8c57c76"
+  },
+  {
+   "seed": 2641096001,
+   "sha256": "0f99c5cf49a0b455559ddb3d5be7a00de5a56579aa3a175684537545bc2edf86"
+  },
+  {
+   "seed": 1000564466,
+   "sha256": "07eac1b3a206298a9f01733e283e116c2c01f0c3e6c32d1563ef70c7076434f1"
+  },
+  {
+   "seed": 3655000227,
+   "sha256": "4874d448e254e9d6bad6167e6171f5ec48631591ef5c08f8a2886f722a7ffbfa"
+  },
+  {
+   "seed": 2014468692,
+   "sha256": "94db0ea4a1c5c1a0728016f4e974a0e018e82c9cccbb0d5df2b87a89a5de593f"
+  },
+  {
+   "seed": 373937157,
+   "sha256": "83d26fbb7fe2b2b3e978b983120da13f7599507518c491f7aadbaa618fcebf78"
+  },
+  {
+   "seed": 3028372918,
+   "sha256": "184d65b28baf128961309a08d0e0d839574215b797e530f2147970a878cd0a7e"
+  },
+  {
+   "seed": 1387841383,
+   "sha256": "1027678841c60ccda72e4c7e5981955612e9f33ccb2b4529ae6617a5e57be144"
+  },
+  {
+   "seed": 4042277144,
+   "sha256": "8aab39327e214b4ed94f6b83c3b680ecaf6df0ef0d260f42d015cda614710098"
+  },
+  {
+   "seed": 2401745609,
+   "sha256": "f1ba3cc018174ca11b6c24ee7001cd3584e8526b05f665ef935d65a9a9cd131e"
+  },
+  {
+   "seed": 761214074,
+   "sha256": "c90b25240c68007441790a7ab5d16725ba7a0add4a55132ba266e6d6e023317e"
+  },
+  {
+   "seed": 3415649835,
+   "sha256": "684a4f40f335aca09bc02cd6ebf545783a694f5d28339984f063d59da317376b"
+  },
+  {
+   "seed": 1775118300,
+   "sha256": "45dc93049454eb815a9a938ff26b101f52cd7ae41b1f3462b596eb22a5808f21"
+  },
+  {
+   "seed": 134586765,
+   "sha256": "303c8e5642a20bfeb1ebfbe8bf0fb2e7033292381e781429a7f10d03b83096f7"
+  },
+  {
+   "seed": 2789022526,
+   "sha256": "f9ba89602e3a0e5ec052bf3744d51be41f59003c267798b7e4600de55a7cae79"
+  },
+  {
+   "seed": 1148490991,
+   "sha256": "4d64d0c67ecfc02bc0a7eff84b791f8a1715a104822bb21fd521bdb3e0f8cb6f"
+  },
+  {
+   "seed": 3802926752,
+   "sha256": "cc82c478bda8b7f29cefbc1803e365af55cddd193e2288d9f82d4c743bab154a"
+  },
+  {
+   "seed": 2162395217,
+   "sha256": "bc6c7baed4185502b1517069c9314918563b2a8d2f324cd490c35708a5408bc7"
+  },
+  {
+   "seed": 521863682,
+   "sha256": "047b3d995b36a040cab23573aa4ab63d4fec4c8fbe5c501f64c1b876da51be3b"
+  },
+  {
+   "seed": 3176299443,
+   "sha256": "2ec6435d8b3221b356639199a73e0a158fea65be522eb792ac6f0ae64db5b980"
+  },
+  {
+   "seed": 1535767908,
+   "sha256": "dada5471e5bd928fb72431c0610f83164cecd8f1255ac444531fa2cddb860879"
+  },
+  {
+   "seed": 4190203669,
+   "sha256": "797f121be8670f665303a2c7167ee2ef248bf0a0a9aca633edba9f2c37401105"
+  },
+  {
+   "seed": 2549672134,
+   "sha256": "9afe93146bcdbe6b8eae6461b483e191b6dca81710931961fa270d288ec64b15"
+  },
+  {
+   "seed": 909140599,
+   "sha256": "9690224fd6fd4d2730a432fdcbf2702cc9b399c7c6f0f53dfe3bd9f9a1647a2d"
+  },
+  {
+   "seed": 3563576360,
+   "sha256": "ce0281a164fda931bd431faa5fbc6b40092dcaeee81a1f40c50e9333be0da1e1"
+  },
+  {
+   "seed": 1923044825,
+   "sha256": "c70d7759dcbae02ac721f99c46de7a08e7f5a0123008485db67e5681587ded0b"
+  },
+  {
+   "seed": 282513290,
+   "sha256": "1532907eac74c3d0d07429e7956f54933b79a00925d18e67870db8c711011356"
+  },
+  {
+   "seed": 2936949051,
+   "sha256": "271fdf0ec8f2d286f0182e74f52cc8109bc29b5f9d1370eec7a4b5d9c1416b9a"
+  },
+  {
+   "seed": 1296417516,
+   "sha256": "9d5817472cc4e6b1fad138778dacd17daecd8bc690ace86ce30aad372ae19b54"
+  },
+  {
+   "seed": 3950853277,
+   "sha256": "ad916e87aea225dc35e632666f8913b4b102ec61f1ac0591e74fc9c1913ed48e"
+  },
+  {
+   "seed": 2310321742,
+   "sha256": "a9cc2f2fd9e32eaf1a7943478a8f177eeaa7ef0a786f2010446862c9b38fb4a8"
+  },
+  {
+   "seed": 669790207,
+   "sha256": "b81d70bb8c1ac43eb483f142cb219825cdd55148849e166758adc59f3a2f63fd"
+  },
+  {
+   "seed": 3324225968,
+   "sha256": "51f3e7d5a7c0ac052e83b10c6320343e2142c870d529809078d27e59b4ec5eb8"
+  },
+  {
+   "seed": 1683694433,
+   "sha256": "19479c909982e5aad869a4e04f218096707b18ac43b738176b56936ff123763c"
+  },
+  {
+   "seed": 43162898,
+   "sha256": "172858b60f11f7dee292374022b54d0ee968d38edd39faf83a7667bc5ca09cb6"
+  },
+  {
+   "seed": 2697598659,
+   "sha256": "cf60d11421c74b7f3e4bfb47d7ee805426ec3dc050375750f259ecd34d039301"
+  },
+  {
+   "seed": 1057067124,
+   "sha256": "9a6f14de65ad5f635aef8cfafc2cd7b7996d59dbe4cb8741059b6b71c7666b1d"
+  },
+  {
+   "seed": 3711502885,
+   "sha256": "25f020875ff8d8c5ce34138362b8ebbf0fdf14a5c5d3c3cd97a3340c339835e6"
+  },
+  {
+   "seed": 2070971350,
+   "sha256": "082ce992ced0f1423cc9ac004bff29fb8e3f561f0ee082e9de5e8f5727b04d35"
+  },
+  {
+   "seed": 430439815,
+   "sha256": "b172f2580f64a460a87a33dacb26be4c5ced2b8e67d9d87e276f18b6f1c962d6"
+  },
+  {
+   "seed": 3084875576,
+   "sha256": "d3b3127cde6f4066df3e742aff66819a899b2a38869545027d4ad35a13923e7f"
+  },
+  {
+   "seed": 1444344041,
+   "sha256": "0abfdb41498f037241f65e66beef96090a9086cedce6fe657fd79866f7f73c49"
+  },
+  {
+   "seed": 4098779802,
+   "sha256": "b98812e7901543553ebb31475b6216e333ef1967ed24093155f7d2f87854c7ff"
+  },
+  {
+   "seed": 2458248267,
+   "sha256": "58fb6b9705ef9def4de9791dbb72dc4b94db177ee2b41f7f126244b87141f1fb"
+  },
+  {
+   "seed": 817716732,
+   "sha256": "8cfb28cdae845368ede3a3f975bededccbe6aebb51cd6b8e3a79f00efb3b6ba1"
+  },
+  {
+   "seed": 3472152493,
+   "sha256": "77987cda6402c6bf577b0d0ccfdd5f8200c4b65acd593951165fbb6ef5abbfa7"
+  },
+  {
+   "seed": 1831620958,
+   "sha256": "61c7e4c2a644c6b3374287ed0c83e5ba4f950eb4d9283b9e9f3d59155b26227e"
+  },
+  {
+   "seed": 191089423,
+   "sha256": "444ab3077542be842fe8e9daa74fcae249f0e1db2ffa4ed22b67c6b4b0c643ff"
+  },
+  {
+   "seed": 2845525184,
+   "sha256": "f522886472d58e3d8f3a4aeea5bc57d75d7a97520c12bdc69b3927c597408eb5"
+  },
+  {
+   "seed": 1204993649,
+   "sha256": "b1fae4aae0a468513f032cbca9e4861386b6433733f3ea79738988584404abd3"
+  },
+  {
+   "seed": 3859429410,
+   "sha256": "90d4d3412589b9d57a77b3dd6c23f987f126791763e0786770f2eef9d554f42e"
+  },
+  {
+   "seed": 2218897875,
+   "sha256": "2f0b1551f08b3d6c3cf817f1a4895da9eb213087b714d6a924adbf8b85a09725"
+  },
+  {
+   "seed": 578366340,
+   "sha256": "080fa8c3221b9dca0d778de75a9bfe979ce71d9dfc3ed57675e2729d3a9892de"
+  },
+  {
+   "seed": 3232802101,
+   "sha256": "ba4478f1e507c3c2f52af3b40b05b6298339705d04fe4ab4bcf0d1c7a6a69ea1"
+  },
+  {
+   "seed": 1592270566,
+   "sha256": "5ddc63c0150e852f3a4848badcf3a03499b210ebd3f6bbf901e3cb53ac5574fc"
+  },
+  {
+   "seed": 4246706327,
+   "sha256": "ec4495f6ec7e546bdd46044c254442874cdcdf1fbf4a5409775d2ccb79a80a30"
+  },
+  {
+   "seed": 2606174792,
+   "sha256": "fede561471682fc0955f37e89e1337f8c6b50735d2a69f54f02404529e03229e"
+  }
+ ],
+ "samples": [
+  {
+   "seed": 2654435761,
+   "question": {
+    "generator": "phishing_classify",
+    "seed": 2654435761,
+    "context": [],
+    "tags": [
+     "phishing_items"
+    ],
+    "kind": "classify",
+    "prompt": "Triagem da caixa de entrada: classifique cada mensagem.",
+    "categories": [
+     "Phishing",
+     "Legítima"
+    ],
+    "items": [
+     {
+      "text": "Aprove o acesso que acabamos de detectar",
+      "detail": [
+       "De: Segurança da Conta <no-reply@verificacao-dupla.app>",
+       "Se não foi você, aprove este pedido no aplicativo para cancelar a tentativa de acesso."
+      ]
+     },
+     {
+      "text": "Backup semanal concluído",
+      "detail": [
+       "De: Infraestrutura <infra@redecorp.com.br>",
+       "O backup do seu diretório foi concluído com sucesso. Relatório disponível na intranet."
+      ]
+     },
+     {
+      "text": "Chamado #48213 atualizado",
+      "detail": [
+       "De: Central de Serviços <chamados@redecorp.com.br>",
+       "Seu chamado sobre o teclado foi atendido. Responda este e-mail se o problema persistir."
+      ]
+     },
+     {
+      "text": "URGENTE: sua conta será desativada em 2 horas",
+      "detail": [
+       "De: Suporte TI <suporte@redecorp-seguranca.co>",
+       "Confirme sua senha no link para manter o acesso. Após o prazo, a conta será removida definitivamente."
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     1,
+     1,
+     0
+    ],
+    "itemExplanations": [
+     "É fadiga de MFA: o atacante já tem a senha e insiste até alguém aprovar. Aprovar nunca cancela nada. Sinais: instrução invertida: pede aprovar para \"cancelar\"; pressão psicológica; remetente desconhecido.",
+     "Notificação automática de rotina, sem ação exigida. Sinais: domínio oficial; relatório na intranet; apenas informativo.",
+     "Resposta a um atendimento que você mesmo iniciou, sem pedir credenciais. Sinais: domínio oficial; referência a um chamado que você abriu; não pede dados.",
+     "Setor de TI nunca pede senha por e-mail, e o domínio não é o oficial. Sinais: domínio parecido, mas diferente do oficial (redecorp-seguranca.co); urgência artificial com prazo curto; pede a senha."
+    ],
+    "explanation": "Confira o domínio real (o que vem antes da primeira barra, lendo da direita para a esquerda), desconfie de urgência e de qualquer pedido de senha, código de verificação ou pagamento. Mensagem interna legítima aponta para o sistema, não para um link externo.",
+    "hint": "Olhe o domínio do remetente, o que a mensagem pede e o prazo que ela impõe."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       true,
+       false,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1013904226,
+   "question": {
+    "generator": "phishing_classify",
+    "seed": 1013904226,
+    "context": [],
+    "tags": [
+     "phishing_items"
+    ],
+    "kind": "classify",
+    "prompt": "Triagem da caixa de entrada: classifique cada mensagem.",
+    "categories": [
+     "Phishing",
+     "Legítima"
+    ],
+    "items": [
+     {
+      "text": "Chamado #48213 atualizado",
+      "detail": [
+       "De: Central de Serviços <chamados@redecorp.com.br>",
+       "Seu chamado sobre o teclado foi atendido. Responda este e-mail se o problema persistir."
+      ]
+     },
+     {
+      "text": "Contrato compartilhado com você: assine agora",
+      "detail": [
+       "De: Compartilhamento <docs@drive-corporativo-share.com>",
+       "Faça login com seu e-mail corporativo para visualizar o documento compartilhado."
+      ]
+     },
+     {
+      "text": "Backup semanal concluído",
+      "detail": [
+       "De: Infraestrutura <infra@redecorp.com.br>",
+       "O backup do seu diretório foi concluído com sucesso. Relatório disponível na intranet."
+      ]
+     },
+     {
+      "text": "URGENTE: sua conta será desativada em 2 horas",
+      "detail": [
+       "De: Suporte TI <suporte@redecorp-seguranca.co>",
+       "Confirme sua senha no link para manter o acesso. Após o prazo, a conta será removida definitivamente."
+      ]
+     }
+    ],
+    "answer": [
+     1,
+     0,
+     1,
+     0
+    ],
+    "itemExplanations": [
+     "Resposta a um atendimento que você mesmo iniciou, sem pedir credenciais. Sinais: domínio oficial; referência a um chamado que você abriu; não pede dados.",
+     "Roubo de credenciais por página falsa de login: confira o domínio antes de digitar a senha. Sinais: página de login fora do domínio oficial; documento inesperado; urgência para assinar.",
+     "Notificação automática de rotina, sem ação exigida. Sinais: domínio oficial; relatório na intranet; apenas informativo.",
+     "Setor de TI nunca pede senha por e-mail, e o domínio não é o oficial. Sinais: domínio parecido, mas diferente do oficial (redecorp-seguranca.co); urgência artificial com prazo curto; pede a senha."
+    ],
+    "explanation": "Confira o domínio real (o que vem antes da primeira barra, lendo da direita para a esquerda), desconfie de urgência e de qualquer pedido de senha, código de verificação ou pagamento. Mensagem interna legítima aponta para o sistema, não para um link externo.",
+    "hint": "Olhe o domínio do remetente, o que a mensagem pede e o prazo que ela impõe."
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3668339987,
+   "question": {
+    "generator": "phishing_classify",
+    "seed": 3668339987,
+    "context": [],
+    "tags": [
+     "phishing_items"
+    ],
+    "kind": "classify",
+    "prompt": "Triagem da caixa de entrada: classifique cada mensagem.",
+    "categories": [
+     "Phishing",
+     "Legítima"
+    ],
+    "items": [
+     {
+      "text": "Reajuste salarial: confira o valor em anexo",
+      "detail": [
+       "De: RH Folha <rh-folha@redecorp.com.br.pagamentos.net>",
+       "Abra a planilha anexa e habilite as macros para visualizar o novo valor do seu salário."
+      ]
+     },
+     {
+      "text": "Nova política de senhas entra em vigor",
+      "detail": [
+       "De: Segurança da Informação <seginfo@redecorp.com.br>",
+       "Passaremos a exigir frases-senha de 14 caracteres. A troca será solicitada no próximo login, no sistema."
+      ]
+     },
+     {
+      "text": "Suprimentos liberados no setor",
+      "detail": [
+       "De: SOC <soc@redecorp.com.br>",
+       "Deixamos um pacote de suprimentos no ponto marcado. Nenhuma ação adicional é necessária."
+      ]
+     },
+     {
+      "text": "Sua chave PIX foi bloqueada por segurança",
+      "detail": [
+       "De: Banco Central de Pagamentos <atendimento@bcp-regularize.net>",
+       "Regularize seus dados em 24h para desbloquear a chave. Informe CPF, senha do app e código recebido por SMS."
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     1,
+     1,
+     0
+    ],
+    "itemExplanations": [
+     "O domínio verdadeiro é o final: redecorp.com.br.pagamentos.net pertence a pagamentos.net. Macro em anexo é vetor clássico de malware. Sinais: subdomínio enganoso (o domínio real é pagamentos.net); anexo pedindo macros; assunto que atiça curiosidade.",
+     "Mudança anunciada com a ação acontecendo dentro do sistema, não por e-mail. Sinais: domínio oficial; a troca acontece no sistema, não por link; sem anexo.",
+     "Comunicado interno do domínio oficial, sem link nem pedido de dados. Sinais: domínio oficial; não pede credenciais; sem urgência.",
+     "Nenhuma instituição pede o código do SMS: ele é exatamente o segundo fator que protege a conta. Sinais: pede senha e código de verificação; remetente não é o banco; ameaça de bloqueio."
+    ],
+    "explanation": "Confira o domínio real (o que vem antes da primeira barra, lendo da direita para a esquerda), desconfie de urgência e de qualquer pedido de senha, código de verificação ou pagamento. Mensagem interna legítima aponta para o sistema, não para um link externo.",
+    "hint": "Olhe o domínio do remetente, o que a mensagem pede e o prazo que ela impõe."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       true,
+       false,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2027808452,
+   "question": {
+    "generator": "phishing_classify",
+    "seed": 2027808452,
+    "context": [],
+    "tags": [
+     "phishing_items"
+    ],
+    "kind": "classify",
+    "prompt": "Triagem da caixa de entrada: classifique cada mensagem.",
+    "categories": [
+     "Phishing",
+     "Legítima"
+    ],
+    "items": [
+     {
+      "text": "Reajuste salarial: confira o valor em anexo",
+      "detail": [
+       "De: RH Folha <rh-folha@redecorp.com.br.pagamentos.net>",
+       "Abra a planilha anexa e habilite as macros para visualizar o novo valor do seu salário."
+      ]
+     },
+     {
+      "text": "Chamado #48213 atualizado",
+      "detail": [
+       "De: Central de Serviços <chamados@redecorp.com.br>",
+       "Seu chamado sobre o teclado foi atendido. Responda este e-mail se o problema persistir."
+      ]
+     },
+     {
+      "text": "Sua encomenda está retida na alfândega",
+      "detail": [
+       "De: Entregas Express <rastreio@entrega-pendente.info>",
+       "Clique para pagar a taxa de liberação. O pacote será devolvido em 12 horas."
+      ]
+     },
+     {
+      "text": "Manutenção programada no servidor de arquivos",
+      "detail": [
+       "De: Infraestrutura <infra@redecorp.com.br>",
+       "Sábado, das 2h às 4h, o compartilhamento ficará indisponível. Nenhuma ação necessária."
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     1,
+     0,
+     1
+    ],
+    "itemExplanations": [
+     "O domínio verdadeiro é o final: redecorp.com.br.pagamentos.net pertence a pagamentos.net. Macro em anexo é vetor clássico de malware. Sinais: subdomínio enganoso (o domínio real é pagamentos.net); anexo pedindo macros; assunto que atiça curiosidade.",
+     "Resposta a um atendimento que você mesmo iniciou, sem pedir credenciais. Sinais: domínio oficial; referência a um chamado que você abriu; não pede dados.",
+     "A transportadora real informa o rastreio no site oficial e não cobra taxa por e-mail. Sinais: encomenda que você não comprou; link de pagamento imediato; domínio genérico (.info).",
+     "Aviso de manutenção com data e escopo definidos, sem pedir nada. Sinais: domínio oficial; aviso informativo; sem anexo nem link."
+    ],
+    "explanation": "Confira o domínio real (o que vem antes da primeira barra, lendo da direita para a esquerda), desconfie de urgência e de qualquer pedido de senha, código de verificação ou pagamento. Mensagem interna legítima aponta para o sistema, não para um link externo.",
+    "hint": "Olhe o domínio do remetente, o que a mensagem pede e o prazo que ela impõe."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 387276917,
+   "question": {
+    "generator": "phishing_classify",
+    "seed": 387276917,
+    "context": [],
+    "tags": [
+     "phishing_items"
+    ],
+    "kind": "classify",
+    "prompt": "Triagem da caixa de entrada: classifique cada mensagem.",
+    "categories": [
+     "Phishing",
+     "Legítima"
+    ],
+    "items": [
+     {
+      "text": "Contrato compartilhado com você: assine agora",
+      "detail": [
+       "De: Compartilhamento <docs@drive-corporativo-share.com>",
+       "Faça login com seu e-mail corporativo para visualizar o documento compartilhado."
+      ]
+     },
+     {
+      "text": "Aprove o acesso que acabamos de detectar",
+      "detail": [
+       "De: Segurança da Conta <no-reply@verificacao-dupla.app>",
+       "Se não foi você, aprove este pedido no aplicativo para cancelar a tentativa de acesso."
+      ]
+     },
+     {
+      "text": "Manutenção programada no servidor de arquivos",
+      "detail": [
+       "De: Infraestrutura <infra@redecorp.com.br>",
+       "Sábado, das 2h às 4h, o compartilhamento ficará indisponível. Nenhuma ação necessária."
+      ]
+     },
+     {
+      "text": "Backup semanal concluído",
+      "detail": [
+       "De: Infraestrutura <infra@redecorp.com.br>",
+       "O backup do seu diretório foi concluído com sucesso. Relatório disponível na intranet."
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "itemExplanations": [
+     "Roubo de credenciais por página falsa de login: confira o domínio antes de digitar a senha. Sinais: página de login fora do domínio oficial; documento inesperado; urgência para assinar.",
+     "É fadiga de MFA: o atacante já tem a senha e insiste até alguém aprovar. Aprovar nunca cancela nada. Sinais: instrução invertida: pede aprovar para \"cancelar\"; pressão psicológica; remetente desconhecido.",
+     "Aviso de manutenção com data e escopo definidos, sem pedir nada. Sinais: domínio oficial; aviso informativo; sem anexo nem link.",
+     "Notificação automática de rotina, sem ação exigida. Sinais: domínio oficial; relatório na intranet; apenas informativo."
+    ],
+    "explanation": "Confira o domínio real (o que vem antes da primeira barra, lendo da direita para a esquerda), desconfie de urgência e de qualquer pedido de senha, código de verificação ou pagamento. Mensagem interna legítima aponta para o sistema, não para um link externo.",
+    "hint": "Olhe o domínio do remetente, o que a mensagem pede e o prazo que ela impõe."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       true,
+       false,
+       true,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3041712678,
+   "question": {
+    "generator": "phishing_classify",
+    "seed": 3041712678,
+    "context": [],
+    "tags": [
+     "phishing_items"
+    ],
+    "kind": "classify",
+    "prompt": "Triagem da caixa de entrada: classifique cada mensagem.",
+    "categories": [
+     "Phishing",
+     "Legítima"
+    ],
+    "items": [
+     {
+      "text": "Sua declaração caiu na malha fina",
+      "detail": [
+       "De: Receita Federal <malha-fina@receita-consulta.org>",
+       "Baixe o programa de regularização em anexo e execute como administrador para corrigir as pendências."
+      ]
+     },
+     {
+      "text": "Suprimentos liberados no setor",
+      "detail": [
+       "De: SOC <soc@redecorp.com.br>",
+       "Deixamos um pacote de suprimentos no ponto marcado. Nenhuma ação adicional é necessária."
+      ]
+     },
+     {
+      "text": "Contrato compartilhado com você: assine agora",
+      "detail": [
+       "De: Compartilhamento <docs@drive-corporativo-share.com>",
+       "Faça login com seu e-mail corporativo para visualizar o documento compartilhado."
+      ]
+     },
+     {
+      "text": "Manutenção programada no servidor de arquivos",
+      "detail": [
+       "De: Infraestrutura <infra@redecorp.com.br>",
+       "Sábado, das 2h às 4h, o compartilhamento ficará indisponível. Nenhuma ação necessária."
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     1,
+     0,
+     1
+    ],
+    "itemExplanations": [
+     "Órgãos públicos usam domínios gov.br e não enviam programas por e-mail. Sinais: órgão público em domínio .org; executável em anexo; pede privilégio de administrador.",
+     "Comunicado interno do domínio oficial, sem link nem pedido de dados. Sinais: domínio oficial; não pede credenciais; sem urgência.",
+     "Roubo de credenciais por página falsa de login: confira o domínio antes de digitar a senha. Sinais: página de login fora do domínio oficial; documento inesperado; urgência para assinar.",
+     "Aviso de manutenção com data e escopo definidos, sem pedir nada. Sinais: domínio oficial; aviso informativo; sem anexo nem link."
+    ],
+    "explanation": "Confira o domínio real (o que vem antes da primeira barra, lendo da direita para a esquerda), desconfie de urgência e de qualquer pedido de senha, código de verificação ou pagamento. Mensagem interna legítima aponta para o sistema, não para um link externo.",
+    "hint": "Olhe o domínio do remetente, o que a mensagem pede e o prazo que ela impõe."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1401181143,
+   "question": {
+    "generator": "phishing_classify",
+    "seed": 1401181143,
+    "context": [],
+    "tags": [
+     "phishing_items"
+    ],
+    "kind": "classify",
+    "prompt": "Triagem da caixa de entrada: classifique cada mensagem.",
+    "categories": [
+     "Phishing",
+     "Legítima"
+    ],
+    "items": [
+     {
+      "text": "Manutenção programada no servidor de arquivos",
+      "detail": [
+       "De: Infraestrutura <infra@redecorp.com.br>",
+       "Sábado, das 2h às 4h, o compartilhamento ficará indisponível. Nenhuma ação necessária."
+      ]
+     },
+     {
+      "text": "Reajuste salarial: confira o valor em anexo",
+      "detail": [
+       "De: RH Folha <rh-folha@redecorp.com.br.pagamentos.net>",
+       "Abra a planilha anexa e habilite as macros para visualizar o novo valor do seu salário."
+      ]
+     },
+     {
+      "text": "Parabéns! Você foi sorteado com um notebook",
+      "detail": [
+       "De: Promoções <voce-ganhou@sorteio-corporativo.com>",
+       "Para receber o prêmio, informe seus dados e pague a taxa de frete de R$ 39,90 hoje."
+      ]
+     },
+     {
+      "text": "Backup semanal concluído",
+      "detail": [
+       "De: Infraestrutura <infra@redecorp.com.br>",
+       "O backup do seu diretório foi concluído com sucesso. Relatório disponível na intranet."
+      ]
+     }
+    ],
+    "answer": [
+     1,
+     0,
+     0,
+     1
+    ],
+    "itemExplanations": [
+     "Aviso de manutenção com data e escopo definidos, sem pedir nada. Sinais: domínio oficial; aviso informativo; sem anexo nem link.",
+     "O domínio verdadeiro é o final: redecorp.com.br.pagamentos.net pertence a pagamentos.net. Macro em anexo é vetor clássico de malware. Sinais: subdomínio enganoso (o domínio real é pagamentos.net); anexo pedindo macros; assunto que atiça curiosidade.",
+     "Prêmio inesperado que exige pagamento é a fraude mais antiga da internet. Sinais: prêmio que você não disputou; cobrança antecipada de taxa; domínio sem relação com a empresa.",
+     "Notificação automática de rotina, sem ação exigida. Sinais: domínio oficial; relatório na intranet; apenas informativo."
+    ],
+    "explanation": "Confira o domínio real (o que vem antes da primeira barra, lendo da direita para a esquerda), desconfie de urgência e de qualquer pedido de senha, código de verificação ou pagamento. Mensagem interna legítima aponta para o sistema, não para um link externo.",
+    "hint": "Olhe o domínio do remetente, o que a mensagem pede e o prazo que ela impõe."
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       true,
+       false,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 4055616904,
+   "question": {
+    "generator": "phishing_classify",
+    "seed": 4055616904,
+    "context": [],
+    "tags": [
+     "phishing_items"
+    ],
+    "kind": "classify",
+    "prompt": "Triagem da caixa de entrada: classifique cada mensagem.",
+    "categories": [
+     "Phishing",
+     "Legítima"
+    ],
+    "items": [
+     {
+      "text": "Suprimentos liberados no setor",
+      "detail": [
+       "De: SOC <soc@redecorp.com.br>",
+       "Deixamos um pacote de suprimentos no ponto marcado. Nenhuma ação adicional é necessária."
+      ]
+     },
+     {
+      "text": "Inscrições abertas: trilha de segurança da informação",
+      "detail": [
+       "De: Gente e Gestão <treinamentos@redecorp.com.br>",
+       "As inscrições ficam abertas até o fim do mês no portal interno, acessível pela intranet."
+      ]
+     },
+     {
+      "text": "URGENTE: sua conta será desativada em 2 horas",
+      "detail": [
+       "De: Suporte TI <suporte@redecorp-seguranca.co>",
+       "Confirme sua senha no link para manter o acesso. Após o prazo, a conta será removida definitivamente."
+      ]
+     },
+     {
+      "text": "Sua declaração caiu na malha fina",
+      "detail": [
+       "De: Receita Federal <malha-fina@receita-consulta.org>",
+       "Baixe o programa de regularização em anexo e execute como administrador para corrigir as pendências."
+      ]
+     }
+    ],
+    "answer": [
+     1,
+     1,
+     0,
+     0
+    ],
+    "itemExplanations": [
+     "Comunicado interno do domínio oficial, sem link nem pedido de dados. Sinais: domínio oficial; não pede credenciais; sem urgência.",
+     "Convite interno que aponta para o portal da intranet, sem link externo. Sinais: domínio oficial; direciona para a intranet; prazo longo.",
+     "Setor de TI nunca pede senha por e-mail, e o domínio não é o oficial. Sinais: domínio parecido, mas diferente do oficial (redecorp-seguranca.co); urgência artificial com prazo curto; pede a senha.",
+     "Órgãos públicos usam domínios gov.br e não enviam programas por e-mail. Sinais: órgão público em domínio .org; executável em anexo; pede privilégio de administrador."
+    ],
+    "explanation": "Confira o domínio real (o que vem antes da primeira barra, lendo da direita para a esquerda), desconfie de urgência e de qualquer pedido de senha, código de verificação ou pagamento. Mensagem interna legítima aponta para o sistema, não para um link externo.",
+    "hint": "Olhe o domínio do remetente, o que a mensagem pede e o prazo que ela impõe."
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       true,
+       false,
+       true,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2415085369,
+   "question": {
+    "generator": "phishing_classify",
+    "seed": 2415085369,
+    "context": [],
+    "tags": [
+     "phishing_items"
+    ],
+    "kind": "classify",
+    "prompt": "Triagem da caixa de entrada: classifique cada mensagem.",
+    "categories": [
+     "Phishing",
+     "Legítima"
+    ],
+    "items": [
+     {
+      "text": "Sua chave PIX foi bloqueada por segurança",
+      "detail": [
+       "De: Banco Central de Pagamentos <atendimento@bcp-regularize.net>",
+       "Regularize seus dados em 24h para desbloquear a chave. Informe CPF, senha do app e código recebido por SMS."
+      ]
+     },
+     {
+      "text": "Manutenção programada no servidor de arquivos",
+      "detail": [
+       "De: Infraestrutura <infra@redecorp.com.br>",
+       "Sábado, das 2h às 4h, o compartilhamento ficará indisponível. Nenhuma ação necessária."
+      ]
+     },
+     {
+      "text": "Suprimentos liberados no setor",
+      "detail": [
+       "De: SOC <soc@redecorp.com.br>",
+       "Deixamos um pacote de suprimentos no ponto marcado. Nenhuma ação adicional é necessária."
+      ]
+     },
+     {
+      "text": "Sua declaração caiu na malha fina",
+      "detail": [
+       "De: Receita Federal <malha-fina@receita-consulta.org>",
+       "Baixe o programa de regularização em anexo e execute como administrador para corrigir as pendências."
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     1,
+     1,
+     0
+    ],
+    "itemExplanations": [
+     "Nenhuma instituição pede o código do SMS: ele é exatamente o segundo fator que protege a conta. Sinais: pede senha e código de verificação; remetente não é o banco; ameaça de bloqueio.",
+     "Aviso de manutenção com data e escopo definidos, sem pedir nada. Sinais: domínio oficial; aviso informativo; sem anexo nem link.",
+     "Comunicado interno do domínio oficial, sem link nem pedido de dados. Sinais: domínio oficial; não pede credenciais; sem urgência.",
+     "Órgãos públicos usam domínios gov.br e não enviam programas por e-mail. Sinais: órgão público em domínio .org; executável em anexo; pede privilégio de administrador."
+    ],
+    "explanation": "Confira o domínio real (o que vem antes da primeira barra, lendo da direita para a esquerda), desconfie de urgência e de qualquer pedido de senha, código de verificação ou pagamento. Mensagem interna legítima aponta para o sistema, não para um link externo.",
+    "hint": "Olhe o domínio do remetente, o que a mensagem pede e o prazo que ela impõe."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       true,
+       false,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 774553834,
+   "question": {
+    "generator": "phishing_classify",
+    "seed": 774553834,
+    "context": [],
+    "tags": [
+     "phishing_items"
+    ],
+    "kind": "classify",
+    "prompt": "Triagem da caixa de entrada: classifique cada mensagem.",
+    "categories": [
+     "Phishing",
+     "Legítima"
+    ],
+    "items": [
+     {
+      "text": "Aprove o acesso que acabamos de detectar",
+      "detail": [
+       "De: Segurança da Conta <no-reply@verificacao-dupla.app>",
+       "Se não foi você, aprove este pedido no aplicativo para cancelar a tentativa de acesso."
+      ]
+     },
+     {
+      "text": "Inscrições abertas: trilha de segurança da informação",
+      "detail": [
+       "De: Gente e Gestão <treinamentos@redecorp.com.br>",
+       "As inscrições ficam abertas até o fim do mês no portal interno, acessível pela intranet."
+      ]
+     },
+     {
+      "text": "URGENTE: sua conta será desativada em 2 horas",
+      "detail": [
+       "De: Suporte TI <suporte@redecorp-seguranca.co>",
+       "Confirme sua senha no link para manter o acesso. Após o prazo, a conta será removida definitivamente."
+      ]
+     },
+     {
+      "text": "Manutenção programada no servidor de arquivos",
+      "detail": [
+       "De: Infraestrutura <infra@redecorp.com.br>",
+       "Sábado, das 2h às 4h, o compartilhamento ficará indisponível. Nenhuma ação necessária."
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     1,
+     0,
+     1
+    ],
+    "itemExplanations": [
+     "É fadiga de MFA: o atacante já tem a senha e insiste até alguém aprovar. Aprovar nunca cancela nada. Sinais: instrução invertida: pede aprovar para \"cancelar\"; pressão psicológica; remetente desconhecido.",
+     "Convite interno que aponta para o portal da intranet, sem link externo. Sinais: domínio oficial; direciona para a intranet; prazo longo.",
+     "Setor de TI nunca pede senha por e-mail, e o domínio não é o oficial. Sinais: domínio parecido, mas diferente do oficial (redecorp-seguranca.co); urgência artificial com prazo curto; pede a senha.",
+     "Aviso de manutenção com data e escopo definidos, sem pedir nada. Sinais: domínio oficial; aviso informativo; sem anexo nem link."
+    ],
+    "explanation": "Confira o domínio real (o que vem antes da primeira barra, lendo da direita para a esquerda), desconfie de urgência e de qualquer pedido de senha, código de verificação ou pagamento. Mensagem interna legítima aponta para o sistema, não para um link externo.",
+    "hint": "Olhe o domínio do remetente, o que a mensagem pede e o prazo que ela impõe."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3428989595,
+   "question": {
+    "generator": "phishing_classify",
+    "seed": 3428989595,
+    "context": [],
+    "tags": [
+     "phishing_items"
+    ],
+    "kind": "classify",
+    "prompt": "Triagem da caixa de entrada: classifique cada mensagem.",
+    "categories": [
+     "Phishing",
+     "Legítima"
+    ],
+    "items": [
+     {
+      "text": "Chamado #48213 atualizado",
+      "detail": [
+       "De: Central de Serviços <chamados@redecorp.com.br>",
+       "Seu chamado sobre o teclado foi atendido. Responda este e-mail se o problema persistir."
+      ]
+     },
+     {
+      "text": "Sua declaração caiu na malha fina",
+      "detail": [
+       "De: Receita Federal <malha-fina@receita-consulta.org>",
+       "Baixe o programa de regularização em anexo e execute como administrador para corrigir as pendências."
+      ]
+     },
+     {
+      "text": "Parabéns! Você foi sorteado com um notebook",
+      "detail": [
+       "De: Promoções <voce-ganhou@sorteio-corporativo.com>",
+       "Para receber o prêmio, informe seus dados e pague a taxa de frete de R$ 39,90 hoje."
+      ]
+     },
+     {
+      "text": "Inscrições abertas: trilha de segurança da informação",
+      "detail": [
+       "De: Gente e Gestão <treinamentos@redecorp.com.br>",
+       "As inscrições ficam abertas até o fim do mês no portal interno, acessível pela intranet."
+      ]
+     }
+    ],
+    "answer": [
+     1,
+     0,
+     0,
+     1
+    ],
+    "itemExplanations": [
+     "Resposta a um atendimento que você mesmo iniciou, sem pedir credenciais. Sinais: domínio oficial; referência a um chamado que você abriu; não pede dados.",
+     "Órgãos públicos usam domínios gov.br e não enviam programas por e-mail. Sinais: órgão público em domínio .org; executável em anexo; pede privilégio de administrador.",
+     "Prêmio inesperado que exige pagamento é a fraude mais antiga da internet. Sinais: prêmio que você não disputou; cobrança antecipada de taxa; domínio sem relação com a empresa.",
+     "Convite interno que aponta para o portal da intranet, sem link externo. Sinais: domínio oficial; direciona para a intranet; prazo longo."
+    ],
+    "explanation": "Confira o domínio real (o que vem antes da primeira barra, lendo da direita para a esquerda), desconfie de urgência e de qualquer pedido de senha, código de verificação ou pagamento. Mensagem interna legítima aponta para o sistema, não para um link externo.",
+    "hint": "Olhe o domínio do remetente, o que a mensagem pede e o prazo que ela impõe."
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       true,
+       false,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1788458060,
+   "question": {
+    "generator": "phishing_classify",
+    "seed": 1788458060,
+    "context": [],
+    "tags": [
+     "phishing_items"
+    ],
+    "kind": "classify",
+    "prompt": "Triagem da caixa de entrada: classifique cada mensagem.",
+    "categories": [
+     "Phishing",
+     "Legítima"
+    ],
+    "items": [
+     {
+      "text": "Nova política de senhas entra em vigor",
+      "detail": [
+       "De: Segurança da Informação <seginfo@redecorp.com.br>",
+       "Passaremos a exigir frases-senha de 14 caracteres. A troca será solicitada no próximo login, no sistema."
+      ]
+     },
+     {
+      "text": "URGENTE: sua conta será desativada em 2 horas",
+      "detail": [
+       "De: Suporte TI <suporte@redecorp-seguranca.co>",
+       "Confirme sua senha no link para manter o acesso. Após o prazo, a conta será removida definitivamente."
+      ]
+     },
+     {
+      "text": "Aprove o acesso que acabamos de detectar",
+      "detail": [
+       "De: Segurança da Conta <no-reply@verificacao-dupla.app>",
+       "Se não foi você, aprove este pedido no aplicativo para cancelar a tentativa de acesso."
+      ]
+     },
+     {
+      "text": "Suprimentos liberados no setor",
+      "detail": [
+       "De: SOC <soc@redecorp.com.br>",
+       "Deixamos um pacote de suprimentos no ponto marcado. Nenhuma ação adicional é necessária."
+      ]
+     }
+    ],
+    "answer": [
+     1,
+     0,
+     0,
+     1
+    ],
+    "itemExplanations": [
+     "Mudança anunciada com a ação acontecendo dentro do sistema, não por e-mail. Sinais: domínio oficial; a troca acontece no sistema, não por link; sem anexo.",
+     "Setor de TI nunca pede senha por e-mail, e o domínio não é o oficial. Sinais: domínio parecido, mas diferente do oficial (redecorp-seguranca.co); urgência artificial com prazo curto; pede a senha.",
+     "É fadiga de MFA: o atacante já tem a senha e insiste até alguém aprovar. Aprovar nunca cancela nada. Sinais: instrução invertida: pede aprovar para \"cancelar\"; pressão psicológica; remetente desconhecido.",
+     "Comunicado interno do domínio oficial, sem link nem pedido de dados. Sinais: domínio oficial; não pede credenciais; sem urgência."
+    ],
+    "explanation": "Confira o domínio real (o que vem antes da primeira barra, lendo da direita para a esquerda), desconfie de urgência e de qualquer pedido de senha, código de verificação ou pagamento. Mensagem interna legítima aponta para o sistema, não para um link externo.",
+    "hint": "Olhe o domínio do remetente, o que a mensagem pede e o prazo que ela impõe."
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       true,
+       false,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

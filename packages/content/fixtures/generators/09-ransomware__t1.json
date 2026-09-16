@@ -1,0 +1,1798 @@
+{
+ "source": "09-ransomware/t1",
+ "generator": "mc_pool",
+ "params": {
+  "pool": "incident",
+  "counterTags": [
+   "incident"
+  ]
+ },
+ "seeds": [
+  {
+   "seed": 2654435761,
+   "sha256": "98e4eac587ebf994b4b3a170950b22dc7405609d753d986d77a62529e3393ced"
+  },
+  {
+   "seed": 1013904226,
+   "sha256": "2d26c7ec7290a9943638728f5f8ec1a120705e0564246d56b6a48c0ccbeb07b0"
+  },
+  {
+   "seed": 3668339987,
+   "sha256": "3b656c0a268a4f1a3141b9cd961223eba6ab5e823d0f7d354890131655748574"
+  },
+  {
+   "seed": 2027808452,
+   "sha256": "79020a3f64042dabdcfbe7ecbc47107d5c24af4ac5876ba931a8561baf634488"
+  },
+  {
+   "seed": 387276917,
+   "sha256": "1160e369f05c76768bebf77692330d0a1b6cf25c91d20e7252665124a9b7e263"
+  },
+  {
+   "seed": 3041712678,
+   "sha256": "39ed26ecde8d6b4f6e493d584681c4540b8e30012806c4f2b637218f512b3917"
+  },
+  {
+   "seed": 1401181143,
+   "sha256": "ec20f2c0a024b8851a4cda531c4037cd826f760907a1bc2bcb258624da0b5b26"
+  },
+  {
+   "seed": 4055616904,
+   "sha256": "232204b5246a5e97c607f08928180fc5fd8479e6c8fdf9a10e23bf071decf25c"
+  },
+  {
+   "seed": 2415085369,
+   "sha256": "a6c34cf2fb5316ca9c087e6e00024e58f57982ae2d31014d37079e6a1b656fea"
+  },
+  {
+   "seed": 774553834,
+   "sha256": "724f0628e2625729b002b7c42acacfa6dca6f089ec59ca2215689334c6778410"
+  },
+  {
+   "seed": 3428989595,
+   "sha256": "978a99f41834074d8613fd4ccdf6d0ff45aa6ff95ea288c159ac87e7081b4648"
+  },
+  {
+   "seed": 1788458060,
+   "sha256": "44b639cb2261f9981f848f2c1469031ba0f62e8a0b16a4454b374f2c0dd26742"
+  },
+  {
+   "seed": 147926525,
+   "sha256": "183c495e6b61b72d1bbc4c6a177bca1687de9557d3158edfe35303d120234b11"
+  },
+  {
+   "seed": 2802362286,
+   "sha256": "8e349415aaa87827429e09a98473d0fe68a28570da0f8f156b8f9c2a91037c19"
+  },
+  {
+   "seed": 1161830751,
+   "sha256": "250393b0be7e742d4ff1e664b0d3b75ede35b51cf9540096faf6f5b6b844a726"
+  },
+  {
+   "seed": 3816266512,
+   "sha256": "69500a423245ccb46e3bf151ce9058997e1e0edffe708a65eeb908cabca35dd9"
+  },
+  {
+   "seed": 2175734977,
+   "sha256": "e15823bbe4d12b10de18a96a98163b85017ec6d1a19f66314eb892e0f80ad882"
+  },
+  {
+   "seed": 535203442,
+   "sha256": "95a6a8b331cc8fc0c8a012b03ae64c5a68f77db5ba1cf47e0ba411a3df4830c6"
+  },
+  {
+   "seed": 3189639203,
+   "sha256": "b8129bcd532a580a2f05caf92d6d74e2a1d44b79c960b87bf750fe27b8433b0c"
+  },
+  {
+   "seed": 1549107668,
+   "sha256": "d06c60630d9af672a8186942ce1d106c44800bd055c3b3d09f6820eba0a4c825"
+  },
+  {
+   "seed": 4203543429,
+   "sha256": "a3d7006356c77182d5e2b6f9c600cddb0fa2a28c34ab823b2b32d0a6d8a0dbd3"
+  },
+  {
+   "seed": 2563011894,
+   "sha256": "6feefaf0c17dd8cb70b626b03b3706ae12aa6d569fec7a65d624fa550de62d7a"
+  },
+  {
+   "seed": 922480359,
+   "sha256": "a01914f28dff56408fabfe313a21ceddf4fd74ca09fc54decfec2a6148c38f52"
+  },
+  {
+   "seed": 3576916120,
+   "sha256": "1c5dcb7440afc4a68bce3f9361bcc0a9f129e2b5626339d7258494fbf5f46a1d"
+  },
+  {
+   "seed": 1936384585,
+   "sha256": "1f5aa98f33523bc61c113fa27c3661fe408e774ee51896cbd60c94f88e0e4c89"
+  },
+  {
+   "seed": 295853050,
+   "sha256": "72aca55c7d3285d61a6b4c156d2c009b9dd099b453b57b9111791d3a91cb29e8"
+  },
+  {
+   "seed": 2950288811,
+   "sha256": "7f10513998a1d1b0760987414e53c17976513c82fb4eb478b9e22bdbf2e6ffd4"
+  },
+  {
+   "seed": 1309757276,
+   "sha256": "ee58a884c1f2d7ca5bc9e2d0854368dd0bb3a77a5f7a4425adee3a101eaa7ba4"
+  },
+  {
+   "seed": 3964193037,
+   "sha256": "dd6411df8afb780ce0cc56f391f14ed536005024befd48f68387af2127672bac"
+  },
+  {
+   "seed": 2323661502,
+   "sha256": "6cdec64468b3cab4f30cbad40feaa1529fe3908e45ae162359abcabb26691436"
+  },
+  {
+   "seed": 683129967,
+   "sha256": "8247b2be14cdea0cb5f5aded9646b73e390cc9e36b91660bf20f63acf70b0ff7"
+  },
+  {
+   "seed": 3337565728,
+   "sha256": "a624504bbac721d80249c82d831f22bd94384b3cd8c48c7fec20a88ae6fc6a0b"
+  },
+  {
+   "seed": 1697034193,
+   "sha256": "063851c71921f7c095756940ff68693373d66a95191aeed8426ec2cb56b416cd"
+  },
+  {
+   "seed": 56502658,
+   "sha256": "9fd3d1853adb9221916998ed637ee3932046b199a080d1ae6bd2903e28843dc2"
+  },
+  {
+   "seed": 2710938419,
+   "sha256": "dca917ef40b271dc141933c7103f3c5c11c1bde62c118ab4a4ea206e324151de"
+  },
+  {
+   "seed": 1070406884,
+   "sha256": "54fc8b8a2a24545b641f5a4b53b65410681da72358fb60ca0ad3c57ef93c4e0f"
+  },
+  {
+   "seed": 3724842645,
+   "sha256": "2f3a51905e42c6ce6d883bb85bfdc768863b62be00554bed065daf196e93ea90"
+  },
+  {
+   "seed": 2084311110,
+   "sha256": "f5d561ee4de79d24573f15c9ca608fad01a08fc08ca4919c0926ae7964f75380"
+  },
+  {
+   "seed": 443779575,
+   "sha256": "5b4a98d3963b2ff4445f72b823194d21ef2b10b036c34e7aa10fad0fb92b4fa4"
+  },
+  {
+   "seed": 3098215336,
+   "sha256": "cd6dd29c60079e6a9f4d775ed3e7110deca1145090023fe8b71e3430e67316fe"
+  },
+  {
+   "seed": 1457683801,
+   "sha256": "18d89ec3396ef94ad767c8b05ed6f4e227c3b1a0d406e36301b582f1006dc230"
+  },
+  {
+   "seed": 4112119562,
+   "sha256": "22abfb472f88ad3d0bcba4d5faa6c49fe7c81f9e91673f391af217bc168c1085"
+  },
+  {
+   "seed": 2471588027,
+   "sha256": "8385934b790d3a10813ccd94f4bc84db604710558359a8151b922072267aad7e"
+  },
+  {
+   "seed": 831056492,
+   "sha256": "1cb58547011469ce94b0d62c90e36cd53454ffc3b1c92da6a0f06cce738b46c6"
+  },
+  {
+   "seed": 3485492253,
+   "sha256": "c60a1f30cb7f95a0672151f8e2ed7cc33b7d2677e71fd9406a77db823e9d33c3"
+  },
+  {
+   "seed": 1844960718,
+   "sha256": "4b42d9087cc36b696d60223e09e46ff8439d1aaeca09740c640966921a80245d"
+  },
+  {
+   "seed": 204429183,
+   "sha256": "23cc6680c71fe1507c5c9f2d3333ef51b61756c7dfd9022e50c03332d9798bae"
+  },
+  {
+   "seed": 2858864944,
+   "sha256": "475676773bb1ba04c9274db31d9bc95cdd5f2270aefce696ea3cc03421913163"
+  },
+  {
+   "seed": 1218333409,
+   "sha256": "35311d084bc10c88aec262e93729083bf3f2b30f0c4b04110ce4f4280244dd37"
+  },
+  {
+   "seed": 3872769170,
+   "sha256": "a8fe8f5a3a8b4910c092b51d52ff0dc640a6b3011c0e8454ff4305b0a61af383"
+  },
+  {
+   "seed": 2232237635,
+   "sha256": "88437bfae0b60d612c940d0d1f297f9fc60d94ba80dd7445303f20e234cdb226"
+  },
+  {
+   "seed": 591706100,
+   "sha256": "d20e769ebfadb0e5e14c5c32cdfb237047d8cd30e225fbf5596c16b32cbecbbb"
+  },
+  {
+   "seed": 3246141861,
+   "sha256": "b919a3ea1285f786543e48a60c67dc7bf9d11f405787049908c2a43508ded71b"
+  },
+  {
+   "seed": 1605610326,
+   "sha256": "81ffa50880af9fb24f79973bf99531890ed786d419ea072a9d737c58c3bf95ad"
+  },
+  {
+   "seed": 4260046087,
+   "sha256": "b9ca13b48a0cfbffceca059f89d8e283865ce9a8b428bad00fbbd7fcf77c702d"
+  },
+  {
+   "seed": 2619514552,
+   "sha256": "f9fabb3fdd06b7d0b090b516b0ab3d6127e302c1300e49dcb961208561faaa04"
+  },
+  {
+   "seed": 978983017,
+   "sha256": "6e016d25b6b1a0102f220e4962ad7b27f7b9fdfe6bc023b7a41608cc5aff6804"
+  },
+  {
+   "seed": 3633418778,
+   "sha256": "09240ba6dad2172a148426553984b2a57d537625321856e69dd4c528eeb7d77a"
+  },
+  {
+   "seed": 1992887243,
+   "sha256": "34fd19b6625ff5f2380b39ad9925427514d2398a26c3e8b692977f420107cabb"
+  },
+  {
+   "seed": 352355708,
+   "sha256": "68dea25a3e574a602cebbf14503967a51dbd4abf16d5228eba13023947801ea6"
+  },
+  {
+   "seed": 3006791469,
+   "sha256": "c56c2bef7a9136fea63a57d3cd44867bb0aff65fc9d972d164a68a4d9567ffa5"
+  },
+  {
+   "seed": 1366259934,
+   "sha256": "c640c90cbe52f5aa899a675561ac9da98aef807e2be265680f0d11f19d2be4cc"
+  },
+  {
+   "seed": 4020695695,
+   "sha256": "dec2500352767bb54e6e4ca46e21bfc1c0b5ac70658b89862aebc0a36ceb207c"
+  },
+  {
+   "seed": 2380164160,
+   "sha256": "1d64dbe159356cb7cc8b0f4d7c84bbdf894b04f303cb5e99f13a175dca7d239f"
+  },
+  {
+   "seed": 739632625,
+   "sha256": "21c5cb9d7f5adacf8c03fe635a4cf4535424f06c6f3faccc4de90bdc58b6115e"
+  },
+  {
+   "seed": 3394068386,
+   "sha256": "5d5e082c929ace17e571c88d71f575ba5019218eb2f2204155a95e2d2488d759"
+  },
+  {
+   "seed": 1753536851,
+   "sha256": "fc9658d16568dbc813442c69a5010d4fd68b64d96bbd40a65e446f76207a2b34"
+  },
+  {
+   "seed": 113005316,
+   "sha256": "42f44c79f12a7c3bbc570c515f2bed0ef7b4f9812681ef30f1f87d074883e42a"
+  },
+  {
+   "seed": 2767441077,
+   "sha256": "73cb2cb67eecb8e6b201ef814bf109dce74c4aca48f245fa1bcbafa0933adfd3"
+  },
+  {
+   "seed": 1126909542,
+   "sha256": "65cd06588f53e9823af10d548f2bab4fdf7a7b6362683b2b070d2803c50ee1e4"
+  },
+  {
+   "seed": 3781345303,
+   "sha256": "c38fbcf4b0aa35823bfc8c8919cc20cae3088d730fcbb5d84c62537290a421be"
+  },
+  {
+   "seed": 2140813768,
+   "sha256": "3401a706fc237d965ae593a8e1e45f33c09aea98a3c453afbec340010981fb83"
+  },
+  {
+   "seed": 500282233,
+   "sha256": "33144184e240841fe7c2518e68b9f1c3a0622e2042faa99c23f0290be4719212"
+  },
+  {
+   "seed": 3154717994,
+   "sha256": "1f56fe0f40c316f96852d6850a62729ff8f0a99a10ff0970fdf4dbbbcc107be6"
+  },
+  {
+   "seed": 1514186459,
+   "sha256": "35da0afb2728b430f11512850de1733b9f051fd44619ec48ad778eaf0cfbc046"
+  },
+  {
+   "seed": 4168622220,
+   "sha256": "074b69be35939aaf956edc90b68dffcf7bcf8351ce6b702185582ce1b96b9acc"
+  },
+  {
+   "seed": 2528090685,
+   "sha256": "249457fce48340afc1cf3642b6a73b98594e3fed4eae62abfa5825b2099e912b"
+  },
+  {
+   "seed": 887559150,
+   "sha256": "941a5496ca18859a5f0b79c6e5fcbc12bca4a6188494235e5c563c0b13c73830"
+  },
+  {
+   "seed": 3541994911,
+   "sha256": "d85f748b2e6bfae5df018f553f53f45540a49cc7f426e5a4a1cda882313c8bc1"
+  },
+  {
+   "seed": 1901463376,
+   "sha256": "6cf5c010673bd7881a92e80e44e98e12e98260e0271ee9333245188bad8c8272"
+  },
+  {
+   "seed": 260931841,
+   "sha256": "8ea1ffe1e92f26f50ea4aa24bdaf1204651d0b81787c5a67f4221f7af784819b"
+  },
+  {
+   "seed": 2915367602,
+   "sha256": "20e7fffecf11ea93b7da2f7052e20af687654d3f65067eaf9d932b6398ddc6b9"
+  },
+  {
+   "seed": 1274836067,
+   "sha256": "ab58c9f58bf13182b303e52542f23345c31da4584fcac134bdccf12dc3d0dd54"
+  },
+  {
+   "seed": 3929271828,
+   "sha256": "f7bc2cdd9104384d58de824620e57478490a5097db356074d3685810bfda6302"
+  },
+  {
+   "seed": 2288740293,
+   "sha256": "d3741b689bf7286e7fe72f35e6207561951e9ee74699dab9ee6f6f551ed45135"
+  },
+  {
+   "seed": 648208758,
+   "sha256": "8d848574a92616b706b35a0da9a79bd5bf529f621bba8ca96a597da80fb450ee"
+  },
+  {
+   "seed": 3302644519,
+   "sha256": "22cdd6bce65b55074a138a915fb6aaa3a554638447df1c44fa8d2612cc27110c"
+  },
+  {
+   "seed": 1662112984,
+   "sha256": "4ef3be5ef78fcdd7acec4b28c5837d4461abc895ffa02015153d92b9b392cf28"
+  },
+  {
+   "seed": 21581449,
+   "sha256": "1126f08844bf025fc2e341f50e898060af702c55472e149df8af5b46798c8a03"
+  },
+  {
+   "seed": 2676017210,
+   "sha256": "2a59bf44b349f9dc30596947f44ccd4db20b0cc83a404ba84a476d453dab7398"
+  },
+  {
+   "seed": 1035485675,
+   "sha256": "2083b0e2773136b8cffafb42a1f3afc91336d6682c139a2cf5767b75f56bd005"
+  },
+  {
+   "seed": 3689921436,
+   "sha256": "99af4212db508915c7fc3bb795a0e031ad3ce71518bc60b1aed5f3a159ec779a"
+  },
+  {
+   "seed": 2049389901,
+   "sha256": "17bb2c1d919e5c3b7cf8fa2337301cb6563adf335b9f9f761440052d390cf2bb"
+  },
+  {
+   "seed": 408858366,
+   "sha256": "183260db7241cb05b55d1c98aa2a6e2dc33e7fc7e0e0cf32f74c1867a3b424ff"
+  },
+  {
+   "seed": 3063294127,
+   "sha256": "9f6f020f8e4eaad763f8693ac491486815043c5a85c52d12cf2924f2c7833122"
+  },
+  {
+   "seed": 1422762592,
+   "sha256": "94d7738b333eec59db7a1f6083642b0fe4341914d4b52b2561eb57001ecaff44"
+  },
+  {
+   "seed": 4077198353,
+   "sha256": "1b57a7cb98d3e2981461e200469783cb0e0c7e6868efa31a7e54fb1474cce720"
+  },
+  {
+   "seed": 2436666818,
+   "sha256": "e4759d324c8e04bf26f41334cb6e101bf2562c5b5f4e1833b8c5fe893421efa8"
+  },
+  {
+   "seed": 796135283,
+   "sha256": "a7cd92f7d2fe7dfe38c6d48cc545a86b84077aefab556e6ca92e06a747fc1724"
+  },
+  {
+   "seed": 3450571044,
+   "sha256": "00a6e9c1c7a31e714222217e9b43b4e50f92bb85537d4e6025924e12955a6231"
+  },
+  {
+   "seed": 1810039509,
+   "sha256": "4ad46cc1019609c27dad45b9104f2c07b4ee964c98b6d834731761d477f9436b"
+  },
+  {
+   "seed": 169507974,
+   "sha256": "0462af27d481c733e5db016ea70c2342c2256fe227e66528bdc03c4d98d23d19"
+  },
+  {
+   "seed": 2823943735,
+   "sha256": "cad8cfb02f18a99c9ad8727b6977f40064abf891495acc589f617962eabbfb82"
+  },
+  {
+   "seed": 1183412200,
+   "sha256": "96bb900662258e205d43df50b219945692eac16ff76cd91c62d86634dfae7259"
+  },
+  {
+   "seed": 3837847961,
+   "sha256": "5edcff6bea45cd7b30f6b2519ad1b268a04e7a4ee5e58cb6286856b4d49da668"
+  },
+  {
+   "seed": 2197316426,
+   "sha256": "325988ce9d18d383ba41742ff19659862e0b54cd430dba2e441efe20713eb8fc"
+  },
+  {
+   "seed": 556784891,
+   "sha256": "13151bc121d66a2901646f475be8f8229f0fc03afde85baf01d8c1ccf0c71e21"
+  },
+  {
+   "seed": 3211220652,
+   "sha256": "3b8f0faf8aa2eec57b53d48a047358285aa7a0ec7d15fdab5ffa39eac5aca6dd"
+  },
+  {
+   "seed": 1570689117,
+   "sha256": "1f3945a046ebfb5ca1ef9cf1d58fa3ceae426909b520b892485dc6782237a07c"
+  },
+  {
+   "seed": 4225124878,
+   "sha256": "950e07c7d16777ababc31fad63bee49a33413dee72f5e936deb59121edc3d9f8"
+  },
+  {
+   "seed": 2584593343,
+   "sha256": "f5b724547cefedd39eff45381203bf4f967d2d4a0e43f430afcdda165d92ab7f"
+  },
+  {
+   "seed": 944061808,
+   "sha256": "5840c4e271a9bf2aa38b8c185da13818b52064101b3d61361b54f48c0d90d3f3"
+  },
+  {
+   "seed": 3598497569,
+   "sha256": "d2fa4182e135b028665d4b0ab07baf4eb6a800ea24a12b63705eadb7f4f3b10e"
+  },
+  {
+   "seed": 1957966034,
+   "sha256": "31e926221e5f91e64b4f7eba67fceadb03d54727267557ecb6972013fbbe8c5b"
+  },
+  {
+   "seed": 317434499,
+   "sha256": "d909daeba64c66c85928ee28b70070ed1d2eacc03c93db29f2acd33f94f9a0b4"
+  },
+  {
+   "seed": 2971870260,
+   "sha256": "acccc74c7e73fffd9c062a193ce52f6b8dbb3e8570a268fc1e30bf777f34404b"
+  },
+  {
+   "seed": 1331338725,
+   "sha256": "0d52ed84ebfed3489d3738ea1018cc343854af756052fd0308aaa0985238db20"
+  },
+  {
+   "seed": 3985774486,
+   "sha256": "df62c300623bb52be670aef43e8a58f45d54b7bca607b4a0f8aeb2d3106f6976"
+  },
+  {
+   "seed": 2345242951,
+   "sha256": "30cd5593ebcfa263375b6714d78c3cc42cc80a3272ad418336ec32705b4a3d90"
+  },
+  {
+   "seed": 704711416,
+   "sha256": "7aa57d13ffef223596d63391c31c2724dcffd63caa1a62456e2d76fae594add3"
+  },
+  {
+   "seed": 3359147177,
+   "sha256": "47ca469cd63a84c7aed6c58be4f3e1b5c46ad32ac5092f00ce455243ca1afab9"
+  },
+  {
+   "seed": 1718615642,
+   "sha256": "6c04b7da6397bdf9ab66963a327be035732ae19c09130d98aafc196962e6fc39"
+  },
+  {
+   "seed": 78084107,
+   "sha256": "f80592954a7ccbefaa0db4192b369c6ad31cb4abbd94b413646d955e0e4549f6"
+  },
+  {
+   "seed": 2732519868,
+   "sha256": "58ca209e61d51a97f081a7ce0f401e017fb322f698bd5580b71e8acbf7c9d739"
+  },
+  {
+   "seed": 1091988333,
+   "sha256": "165e4b992ba3538ae1396a9d1960c01ec0064c5cc40bf6ec1cb2d600f82e4267"
+  },
+  {
+   "seed": 3746424094,
+   "sha256": "32a3dcbc5727934e4b0755b391140bf126e40e479118823dd187e77a757d9fd9"
+  },
+  {
+   "seed": 2105892559,
+   "sha256": "3139286460010b49aa2f1000d4ade2d589021ddfa239e5dda4d3c347ec3e5eb1"
+  },
+  {
+   "seed": 465361024,
+   "sha256": "618dd3ad8fb53f944f564da837d64ba004629e71bc26f1e7bc9b5c47fc07b1c2"
+  },
+  {
+   "seed": 3119796785,
+   "sha256": "f70365386249773c1f4e67f99d8199c11b4680cf52f78c9216fc8a28fb5a8c76"
+  },
+  {
+   "seed": 1479265250,
+   "sha256": "77014061b251c68f507b613f65bd32103d559b98ba6dfd59d5a186eed3ad9b61"
+  },
+  {
+   "seed": 4133701011,
+   "sha256": "41516a0cdd3e89ab4923d03b10f0cfcee9b203b03cb257c9c252c132185524ca"
+  },
+  {
+   "seed": 2493169476,
+   "sha256": "04e13eb2e51f0e12539703b00a9b28df1b38e566772a96653ba907414c42d1b1"
+  },
+  {
+   "seed": 852637941,
+   "sha256": "83825447d12568a76d064b0e28798bbf9f5f6e0f3c8e191df3740db7d316a683"
+  },
+  {
+   "seed": 3507073702,
+   "sha256": "2b6117bd01ae444722e3ef320aecd0c43adde159a67e71081cd67d88452ce2b5"
+  },
+  {
+   "seed": 1866542167,
+   "sha256": "e5901f9e81fc01aa866b3a25e962e072bc1ee9155315a7336c88877a8131c2ed"
+  },
+  {
+   "seed": 226010632,
+   "sha256": "e2e6a9c6dcbe0d5fd2e70a1182df00b4a1d2693d5abbdfa9868377ac79779760"
+  },
+  {
+   "seed": 2880446393,
+   "sha256": "bae349a52583eaf33af1a6f6c47bfcf7de59a46be250927627d268e7688d249b"
+  },
+  {
+   "seed": 1239914858,
+   "sha256": "0790500eeef9e0035d388288e9857ae062aea5c892bfc5a50b12bf164646f18c"
+  },
+  {
+   "seed": 3894350619,
+   "sha256": "0798b30a11f26d02279743aef5b51f3b81c01c4bee04aaa35446ae9c6194f8a1"
+  },
+  {
+   "seed": 2253819084,
+   "sha256": "96dadbced07f82c64faa1d6e924976511161fb8e0b00ee3f26f773549ec14dc5"
+  },
+  {
+   "seed": 613287549,
+   "sha256": "0246031d7efa650c390b23e437ee3573a3b6f08a619f62b5334a45bd8da7beba"
+  },
+  {
+   "seed": 3267723310,
+   "sha256": "28a7790df366c4aa29647b30ddceeb972fa98dee1ce258c40de421e16f089435"
+  },
+  {
+   "seed": 1627191775,
+   "sha256": "adeed109428030ab6002fdce79d6721b190b93246159f60ce4088c93b2b5810a"
+  },
+  {
+   "seed": 4281627536,
+   "sha256": "2ba8fd4c87e0854c5c4095311abd34db2b8df9d87044bad369f949e099e0722e"
+  },
+  {
+   "seed": 2641096001,
+   "sha256": "c5b6e9931c3d3df303226738fddbebf6f52c3627101f97c7b0618f39d4e6858a"
+  },
+  {
+   "seed": 1000564466,
+   "sha256": "020f1e2059949bdf015ad30377bbed80b3c92d9758a141cfd23ed83208e8cac0"
+  },
+  {
+   "seed": 3655000227,
+   "sha256": "000eefd61f81627835749c125b0fc068aaf4fb0ede0b00b7eaffd7bf34ba7b1a"
+  },
+  {
+   "seed": 2014468692,
+   "sha256": "294a11f32047a3197fda73d051d14fb6e36b05df4ad4ce1731a4b9edbce112e1"
+  },
+  {
+   "seed": 373937157,
+   "sha256": "5873e991387dd863c76241c97ab6f16cc574b4b52468b2d69e14cf056f316572"
+  },
+  {
+   "seed": 3028372918,
+   "sha256": "add3e5714c6cd2c0d43ca0fd1a2392a003e5d576f08ea148d72650945d0ea59b"
+  },
+  {
+   "seed": 1387841383,
+   "sha256": "0d713c8f00e2408878592f98d8d6ff701d6f8f51bdd0a86db98e54d8d5fbb942"
+  },
+  {
+   "seed": 4042277144,
+   "sha256": "3bda5603bdf5ca05784cbc57b958de0ffcaab0129741e85a1a08fc3597342960"
+  },
+  {
+   "seed": 2401745609,
+   "sha256": "c0100470f7f7995d355b758dbb8f3016fc054210948b05096ae02d0b7c10f934"
+  },
+  {
+   "seed": 761214074,
+   "sha256": "a46d6cfb1c7f920f9f645af13e7a31650ac34a4c988e421ef5bdc42f92fefdb5"
+  },
+  {
+   "seed": 3415649835,
+   "sha256": "b4b2ecb1b96864d721c254b704133438a97fb93460e7dbd7e480278296c8995f"
+  },
+  {
+   "seed": 1775118300,
+   "sha256": "6b6495031ee254eae4b79ae9abf02923cb6a90442a207f91717027af25541340"
+  },
+  {
+   "seed": 134586765,
+   "sha256": "ddbdcff14088211889ba4bf77fe6eed9673278b12f3e955bdb5b2474470d5fae"
+  },
+  {
+   "seed": 2789022526,
+   "sha256": "a9c721ed5c2025662dba838d32e081d5457903aa3a5b56f1ed2e6056ec77dfaf"
+  },
+  {
+   "seed": 1148490991,
+   "sha256": "88afe078e6a5a313a8298791c7158230217d39ea3c87b7b2e282160aced32dea"
+  },
+  {
+   "seed": 3802926752,
+   "sha256": "8a1f385d734dfb659f5d59875037c43fda4d1862b7b4382aaf3636487b69fa7d"
+  },
+  {
+   "seed": 2162395217,
+   "sha256": "e4c6bd8bb976875a3af8ed9906d772cc6d1ba120b96e74838f83c66d22e06855"
+  },
+  {
+   "seed": 521863682,
+   "sha256": "078eae55913383acb2ec1f0960246e7ff503b6e8c4f88a0daaa233246467d5b8"
+  },
+  {
+   "seed": 3176299443,
+   "sha256": "fc41f15029462e99926e781dc5c1d34ab2c504896f6bb40e1b5004d61151f5d3"
+  },
+  {
+   "seed": 1535767908,
+   "sha256": "9d3b4eb9ccd2797d086c71ad1d7173f2a59b025c4f4b3257717e8ac4288832f0"
+  },
+  {
+   "seed": 4190203669,
+   "sha256": "b1adebe388cdde50874d61c7aa83d276c75c6712432ed630401ac12c20c40d5c"
+  },
+  {
+   "seed": 2549672134,
+   "sha256": "b1f0a6cc6ad41bf12ec0e4568cb6a223fa8414562dd5dedbe64713886e6f28ca"
+  },
+  {
+   "seed": 909140599,
+   "sha256": "6332c3cf9d4f149376a84112dba9d57550ae7a19b9c8ef93f799af8bcaa2d0cd"
+  },
+  {
+   "seed": 3563576360,
+   "sha256": "2f782541f0fdc4fc859d8d5047118db72033a4f464a30494255006b48edadd33"
+  },
+  {
+   "seed": 1923044825,
+   "sha256": "eb37fa31b52f2d513ec9905bebd7f0e598fb983f06b952661d767c32b0e8e9a1"
+  },
+  {
+   "seed": 282513290,
+   "sha256": "478cdf3d96732c3ac231181a913700ef210eeb2facad03c15c931185f8b62d53"
+  },
+  {
+   "seed": 2936949051,
+   "sha256": "7f2affbc1df993d5e50174dcbbb8657c5eb5907347d5b67dfdb5229714132cf3"
+  },
+  {
+   "seed": 1296417516,
+   "sha256": "3acee7d54693f3ae7e23e20a3b1e6f1c3f6344726469d467ef50dd59d8d4ce0d"
+  },
+  {
+   "seed": 3950853277,
+   "sha256": "1b59f850fca331dc758945983828e6ff9244914e2c549c03a433921b13578bb7"
+  },
+  {
+   "seed": 2310321742,
+   "sha256": "e5c022699a59f2b587a2e9bd393f89c27660a709307aa69074eaa15d3c9e9cd7"
+  },
+  {
+   "seed": 669790207,
+   "sha256": "33f431473e4d250ed63ca825b8eb68e6ba171e3d3e58734801ef5ecb9607e184"
+  },
+  {
+   "seed": 3324225968,
+   "sha256": "0bd2273a12d19f25886c76d2853f861618a7ce92258c0a1e4712a6fcebded832"
+  },
+  {
+   "seed": 1683694433,
+   "sha256": "b0d35ecc38600ee84b0befd33323714585fd7279ff041a14a20c7ed099affa65"
+  },
+  {
+   "seed": 43162898,
+   "sha256": "08e2d83062e85145786d081be885fd1bdb7ebb80e4278570614ce0828b10bb00"
+  },
+  {
+   "seed": 2697598659,
+   "sha256": "d967989eb69b53fa85a2730010407c528b0b083f5e1e287b1e69c1d1354ce590"
+  },
+  {
+   "seed": 1057067124,
+   "sha256": "ec9eb1a14202b086a98237c667d5fa9c0314898ae4e222b2957abb0965f9550e"
+  },
+  {
+   "seed": 3711502885,
+   "sha256": "86b24cbdd21e43b6f6f757fcdb01305a835f124cddcda24554202ffa86a80c63"
+  },
+  {
+   "seed": 2070971350,
+   "sha256": "e8ee986c72d5311a6647e937a3a5b02c9e469cefeaab76e044dd1169836682d8"
+  },
+  {
+   "seed": 430439815,
+   "sha256": "1f99097061e6bfc19c5256a6b70c753d667d2846235b6117231e35abb52ba99b"
+  },
+  {
+   "seed": 3084875576,
+   "sha256": "442e0973916ef122bf881985217049ec1e86ac340c6e88d350a10d3de1a94b0c"
+  },
+  {
+   "seed": 1444344041,
+   "sha256": "e7135980f1214c15b87fe98e2c6502878012508f554777ff378f62304060fe8c"
+  },
+  {
+   "seed": 4098779802,
+   "sha256": "04ad84b3b4a780832a6eedc5646df54f1ef0c07cfa22870ccb8714bdbad0e17a"
+  },
+  {
+   "seed": 2458248267,
+   "sha256": "e8117f13a74f639b3e766091cc67e5bd566ad56ad988867ca6863b9c2529d3e7"
+  },
+  {
+   "seed": 817716732,
+   "sha256": "71a2b72df5dbc8fc1ddffe335770c6ab8e166f0b36fa6432dbc3361436e3c6b2"
+  },
+  {
+   "seed": 3472152493,
+   "sha256": "d914d46c3be55f0a5be1dba378d24cb4c4d423eb18d7d192510b03731193b693"
+  },
+  {
+   "seed": 1831620958,
+   "sha256": "09467ce867f11a6684a32f447b04880044788e05cc0e71dcb853a9b61d85ba8c"
+  },
+  {
+   "seed": 191089423,
+   "sha256": "92207ca72f49100404b75c50cd00b279d4d8373fa281af1548270339164a4c2e"
+  },
+  {
+   "seed": 2845525184,
+   "sha256": "8613361dd24dbc386b3e61dcdbc9d2ad5dda44dab4ce8765bee866470c2ae201"
+  },
+  {
+   "seed": 1204993649,
+   "sha256": "68639d36f9d9162b3e2caedf29c2c60096236dfa9515b56dedbc56135c238555"
+  },
+  {
+   "seed": 3859429410,
+   "sha256": "c05d834aa47065c42555640654b2d712f62efa12eb1fb0fd947c6f69fe720b9e"
+  },
+  {
+   "seed": 2218897875,
+   "sha256": "67659895f6460c55f9088bbd6d47dd8dc30115e0d0a6068dabaafb3bf58b94d2"
+  },
+  {
+   "seed": 578366340,
+   "sha256": "79a17d45ec2277a93d4c3ebbe3e129b061bf13c54283596338399f78161fabee"
+  },
+  {
+   "seed": 3232802101,
+   "sha256": "e1d32672453058e366ca78b2a67e931acb415eefdb640c639c496329377ab135"
+  },
+  {
+   "seed": 1592270566,
+   "sha256": "bc4261c136ce3e1b529f274462094f4a2e3691fdc9382c0c9ec6f514348bc1b6"
+  },
+  {
+   "seed": 4246706327,
+   "sha256": "771004a306a8d1f9b1e0087ed950a4c436516a2b79ebc62a251e4d6a25de989c"
+  },
+  {
+   "seed": 2606174792,
+   "sha256": "7acb7dc5b6204693547bc6fb0f5392a58d4a63fc9d53735bd29069c30f3fe3b7"
+  }
+ ],
+ "samples": [
+  {
+   "seed": 2654435761,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 2654435761,
+    "context": [],
+    "tags": [
+     "incident"
+    ],
+    "kind": "mc",
+    "prompt": "O que \"conter\" um incidente significa na prática?",
+    "options": [
+     "Isolar o que está comprometido para impedir a propagação, preservando evidências",
+     "Avisar a imprensa antes de investigar",
+     "Desligar a internet da empresa inteira por uma semana",
+     "Formatar imediatamente todas as máquinas afetadas"
+    ],
+    "answer": 0,
+    "explanation": "Contenção é cirúrgica: segmentar a rede, revogar credenciais, isolar hosts. Formatar cedo destrói as evidências que dizem como o ataque entrou.",
+    "hint": "Parar a propagação sem apagar as pistas."
+   },
+   "checks": [
+    {
+     "answer": 0,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1013904226,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 1013904226,
+    "context": [],
+    "tags": [
+     "incident"
+    ],
+    "kind": "mc",
+    "prompt": "Por que um backup não testado não conta como backup?",
+    "options": [
+     "Porque o backup expira depois de 30 dias",
+     "Porque só a restauração comprova que os dados voltam e em quanto tempo",
+     "Porque backup em nuvem não é confiável",
+     "Porque o antivírus precisa verificar o arquivo antes"
+    ],
+    "answer": 1,
+    "explanation": "Arquivo corrompido, escopo incompleto e restauração lenta só aparecem no teste. Restauração é o único indicador real.",
+    "hint": "Backup se mede restaurando."
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3668339987,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 3668339987,
+    "context": [],
+    "tags": [
+     "incident"
+    ],
+    "kind": "mc",
+    "prompt": "Qual é a ordem das fases da resposta a incidentes?",
+    "options": [
+     "Conter → recuperar → identificar → erradicar",
+     "Recuperar → identificar → conter → erradicar",
+     "Identificar → conter → erradicar → recuperar → aprender",
+     "Erradicar → identificar → recuperar → conter"
+    ],
+    "answer": 2,
+    "explanation": "Sem identificar, você contém a coisa errada; sem conter, o incidente se espalha enquanto você investiga; sem erradicar, ele volta na recuperação.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 2,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2027808452,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 2027808452,
+    "context": [],
+    "tags": [
+     "incident"
+    ],
+    "kind": "mc",
+    "prompt": "O que diz a regra de backup 3-2-1?",
+    "options": [
+     "Três senhas, dois administradores, um cofre",
+     "Três backups por dia, dois por semana, um por mês",
+     "Três servidores no mesmo rack, com dois discos cada",
+     "Três cópias, em dois tipos de mídia, sendo uma fora do local (e idealmente offline)"
+    ],
+    "answer": 3,
+    "explanation": "O ransomware moderno procura e criptografa os backups acessíveis pela rede. A cópia isolada (offline ou imutável) é a que sobrevive.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 387276917,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 387276917,
+    "context": [],
+    "tags": [
+     "incident"
+    ],
+    "kind": "mc",
+    "prompt": "Qual é a ordem das fases da resposta a incidentes?",
+    "options": [
+     "Conter → recuperar → identificar → erradicar",
+     "Recuperar → identificar → conter → erradicar",
+     "Erradicar → identificar → recuperar → conter",
+     "Identificar → conter → erradicar → recuperar → aprender"
+    ],
+    "answer": 3,
+    "explanation": "Sem identificar, você contém a coisa errada; sem conter, o incidente se espalha enquanto você investiga; sem erradicar, ele volta na recuperação.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3041712678,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 3041712678,
+    "context": [],
+    "tags": [
+     "incident"
+    ],
+    "kind": "mc",
+    "prompt": "Uma máquina foi criptografada por ransomware. Pagar o resgate é a melhor saída?",
+    "options": [
+     "Sim, é a forma mais rápida e segura de recuperar os dados",
+     "Sim, desde que se negocie um desconto",
+     "Só se o valor for menor que o custo do backup",
+     "Não: pagar não garante a chave, financia o crime e não impede uma segunda extorsão"
+    ],
+    "answer": 3,
+    "explanation": "Parte das vítimas que paga não recebe chave funcional, e muitas são extorquidas de novo. A recuperação confiável vem do backup testado e isolado.",
+    "hint": "Quem tem backup não negocia."
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1401181143,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 1401181143,
+    "context": [],
+    "tags": [
+     "incident"
+    ],
+    "kind": "mc",
+    "prompt": "Por que um backup não testado não conta como backup?",
+    "options": [
+     "Porque o antivírus precisa verificar o arquivo antes",
+     "Porque o backup expira depois de 30 dias",
+     "Porque backup em nuvem não é confiável",
+     "Porque só a restauração comprova que os dados voltam e em quanto tempo"
+    ],
+    "answer": 3,
+    "explanation": "Arquivo corrompido, escopo incompleto e restauração lenta só aparecem no teste. Restauração é o único indicador real.",
+    "hint": "Backup se mede restaurando."
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 4055616904,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 4055616904,
+    "context": [],
+    "tags": [
+     "incident"
+    ],
+    "kind": "mc",
+    "prompt": "O que diz a regra de backup 3-2-1?",
+    "options": [
+     "Três cópias, em dois tipos de mídia, sendo uma fora do local (e idealmente offline)",
+     "Três servidores no mesmo rack, com dois discos cada",
+     "Três backups por dia, dois por semana, um por mês",
+     "Três senhas, dois administradores, um cofre"
+    ],
+    "answer": 0,
+    "explanation": "O ransomware moderno procura e criptografa os backups acessíveis pela rede. A cópia isolada (offline ou imutável) é a que sobrevive.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 0,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2415085369,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 2415085369,
+    "context": [],
+    "tags": [
+     "incident"
+    ],
+    "kind": "mc",
+    "prompt": "O que diz a regra de backup 3-2-1?",
+    "options": [
+     "Três backups por dia, dois por semana, um por mês",
+     "Três cópias, em dois tipos de mídia, sendo uma fora do local (e idealmente offline)",
+     "Três servidores no mesmo rack, com dois discos cada",
+     "Três senhas, dois administradores, um cofre"
+    ],
+    "answer": 1,
+    "explanation": "O ransomware moderno procura e criptografa os backups acessíveis pela rede. A cópia isolada (offline ou imutável) é a que sobrevive.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 774553834,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 774553834,
+    "context": [],
+    "tags": [
+     "incident"
+    ],
+    "kind": "mc",
+    "prompt": "O que diz a regra de backup 3-2-1?",
+    "options": [
+     "Três cópias, em dois tipos de mídia, sendo uma fora do local (e idealmente offline)",
+     "Três senhas, dois administradores, um cofre",
+     "Três servidores no mesmo rack, com dois discos cada",
+     "Três backups por dia, dois por semana, um por mês"
+    ],
+    "answer": 0,
+    "explanation": "O ransomware moderno procura e criptografa os backups acessíveis pela rede. A cópia isolada (offline ou imutável) é a que sobrevive.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 0,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3428989595,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 3428989595,
+    "context": [],
+    "tags": [
+     "incident"
+    ],
+    "kind": "mc",
+    "prompt": "Por que um backup não testado não conta como backup?",
+    "options": [
+     "Porque o antivírus precisa verificar o arquivo antes",
+     "Porque só a restauração comprova que os dados voltam e em quanto tempo",
+     "Porque backup em nuvem não é confiável",
+     "Porque o backup expira depois de 30 dias"
+    ],
+    "answer": 1,
+    "explanation": "Arquivo corrompido, escopo incompleto e restauração lenta só aparecem no teste. Restauração é o único indicador real.",
+    "hint": "Backup se mede restaurando."
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1788458060,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 1788458060,
+    "context": [],
+    "tags": [
+     "incident"
+    ],
+    "kind": "mc",
+    "prompt": "Qual é a ordem das fases da resposta a incidentes?",
+    "options": [
+     "Recuperar → identificar → conter → erradicar",
+     "Identificar → conter → erradicar → recuperar → aprender",
+     "Erradicar → identificar → recuperar → conter",
+     "Conter → recuperar → identificar → erradicar"
+    ],
+    "answer": 1,
+    "explanation": "Sem identificar, você contém a coisa errada; sem conter, o incidente se espalha enquanto você investiga; sem erradicar, ele volta na recuperação.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  }
+ ]
+}

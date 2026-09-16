@@ -1,0 +1,137 @@
+{
+  "id": "09-ransomware",
+  "version": 1,
+  "order": 9,
+  "title": "Resgate",
+  "subtitle": "Ransomware e resposta a incidentes",
+  "concepts": ["Ransomware", "Resposta a incidentes", "Backup 3-2-1", "Extorsão"],
+  "learningObjectives": [
+    "Seguir o ciclo de resposta: identificar, conter, erradicar, recuperar e aprender",
+    "Entender por que pagar o resgate não é recuperação",
+    "Aplicar a regra 3-2-1 e saber por que a cópia isolada é a que salva",
+    "Reconhecer que backup não testado não é backup"
+  ],
+  "briefing": {
+    "lines": [
+      { "speaker": "SOC", "text": "Incidente em andamento no núcleo. Ransomware ativo: ele criptografa seus upgrades e invoca reforços pela rede." },
+      { "speaker": "SOC", "text": "Enquanto não estiver identificado, ele fica oculto e recebe metade do dano. Sem contenção, continua chamando reforços." },
+      { "speaker": "SOC", "text": "Siga o ciclo: identificar no primeiro terminal, conter no segundo, erradicar no terceiro. Só então ele fica exposto (2,5×)." },
+      { "speaker": "SOC", "text": "Se ele criptografar seus upgrades, você perde os bônus por alguns segundos. Vai passar — não pague nada." },
+      { "speaker": "SOC", "text": "Se aparecer um pedido de resgate no HUD, a resposta é ignorar e restaurar do Backup. Pagar não devolve os dados." }
+    ]
+  },
+  "debriefing": {
+    "summary": [
+      "Resposta a incidente tem ordem: identificar o que aconteceu, conter para parar a propagação, erradicar o acesso, recuperar de cópia confiável e aprender.",
+      "Pagar resgate não garante a chave, financia o crime e costuma render uma segunda extorsão.",
+      "Backup 3-2-1 — três cópias, dois tipos de mídia, uma fora do local e idealmente offline — é o que o ransomware não alcança.",
+      "Backup só conta depois de restaurado em teste: é a restauração que prova o tempo e a integridade."
+    ]
+  },
+  "parTime": 900,
+  "minTime": 140,
+  "limits": { "maxKills": 140, "maxBytes": 400 },
+  "tags": [],
+  "weaponsAvailable": ["patch_pistol", "scanner", "vpn_shield", "firewall_cannon", "sanitizer"],
+  "introducesEnemies": ["ransomware"],
+  "ambient": { "accent": "#ff2d55", "fogDensity": 0.036 },
+  "layout": {
+    "cellSize": 2,
+    "wallHeight": 4.0,
+    "rows": [
+      "##################################",
+      "#.........#....m....#............#",
+      "#..P......#.........#............#",
+      "#....1....#....2....#......X.....#",
+      "#.........a.........#............#",
+      "#.........a.........#.....y......#",
+      "#.........#.........#............#",
+      "#...T.....#......U..#............#",
+      "###########bb########dd###########",
+      "#.......h.......#..p..........q..#",
+      "#...............#................#",
+      "#....3..........c.......R........#",
+      "#...............c................#",
+      "#.......V.......#................#",
+      "#...............#....4......e....#",
+      "##################################"
+    ]
+  },
+  "legend": {
+    "P": { "type": "player" },
+    "1": { "type": "sign", "text": "Ciclo de resposta: identificar → conter → erradicar → recuperar → aprender." },
+    "2": { "type": "sign", "text": "Oculto: recebe 0,5×. Contido: para de invocar reforços. Erradicado: exposto, 2,5×." },
+    "3": { "type": "sign", "text": "Backup 3-2-1: três cópias, duas mídias, uma fora do local e offline." },
+    "4": { "type": "sign", "text": "Pedido de resgate no HUD? Ignore. Pagar não devolve os dados — restaurar devolve." },
+    "T": { "type": "terminal", "id": "t1" },
+    "U": { "type": "terminal", "id": "t2" },
+    "V": { "type": "terminal", "id": "t3" },
+    "a": { "type": "door", "id": "d1" },
+    "b": { "type": "door", "id": "d2" },
+    "c": { "type": "door", "id": "d3" },
+    "d": { "type": "door", "id": "d4" },
+    "R": { "type": "enemy", "enemy": "ransomware" },
+    "p": { "type": "spawner", "id": "boss1" },
+    "q": { "type": "spawner", "id": "boss2" },
+    "h": { "type": "pickup", "kind": "health" },
+    "e": { "type": "pickup", "kind": "shield" },
+    "y": { "type": "pickup", "kind": "bytes", "amount": 24 },
+    "m": { "type": "pickup", "kind": "ammo" },
+    "X": { "type": "exit" }
+  },
+  "spawners": [
+    { "id": "boss1", "traffic": 445 },
+    { "id": "boss2", "traffic": 3389 }
+  ],
+  "terminals": [
+    {
+      "id": "t1",
+      "title": "Identificar",
+      "concept": "Ciclo de resposta a incidentes",
+      "generator": "mc_pool",
+      "params": { "pool": "incident", "counterTags": ["incident"] },
+      "challenges": 2,
+      "required": true,
+      "onSolve": [
+        { "type": "setFlag", "flag": "identified" },
+        { "type": "openDoor", "door": "d1" },
+        { "type": "message", "text": "Incidente identificado: o Ransomware saiu da ocultação.", "tone": "success" }
+      ],
+      "hint": "Sem identificar, você contém a coisa errada."
+    },
+    {
+      "id": "t2",
+      "title": "Conter",
+      "concept": "Plano de resposta: certo × errado",
+      "generator": "classify_pool",
+      "params": { "pool": "incident", "count": 4, "counterTags": ["incident"] },
+      "challenges": 2,
+      "required": true,
+      "requires": ["t1"],
+      "onSolve": [
+        { "type": "setFlag", "flag": "contained" },
+        { "type": "openDoor", "door": "d2" },
+        { "type": "message", "text": "Segmentos isolados: os reforços pararam de chegar.", "tone": "success" }
+      ],
+      "hint": "Conter é isolar sem destruir evidência."
+    },
+    {
+      "id": "t3",
+      "title": "Erradicar",
+      "concept": "Fases da resposta e backup",
+      "generator": "match_pool",
+      "params": { "pool": "incident", "count": 5, "counterTags": ["incident"] },
+      "challenges": 2,
+      "required": true,
+      "requires": ["t2"],
+      "onSolve": [
+        { "type": "setFlag", "flag": "eradicated" },
+        { "type": "openDoor", "door": "d3" },
+        { "type": "openDoor", "door": "d4" },
+        { "type": "message", "text": "Acesso do atacante revogado: o Ransomware está exposto (2,5×).", "tone": "success" }
+      ],
+      "hint": "Saber, parar, remover, voltar e melhorar."
+    }
+  ],
+  "exit": { "requires": { "terminals": ["t1", "t2", "t3"], "bossDefeated": true, "flags": ["eradicated"] } }
+}

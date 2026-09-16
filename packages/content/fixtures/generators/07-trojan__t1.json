@@ -1,0 +1,1798 @@
+{
+ "source": "07-trojan/t1",
+ "generator": "mc_pool",
+ "params": {
+  "pool": "malware",
+  "counterTags": [
+   "malware"
+  ]
+ },
+ "seeds": [
+  {
+   "seed": 2654435761,
+   "sha256": "4257c8cf19923d368e8e534a3e77e62dd9b04e33c0891aee0c51ed81051ab827"
+  },
+  {
+   "seed": 1013904226,
+   "sha256": "59e4cc0b4a1daeeb20b669b819578d6b74450d297d1438952f215fc3a3a1914e"
+  },
+  {
+   "seed": 3668339987,
+   "sha256": "063fcfb1feecdbe48faed483c73f683df5e2393e6f47b40d2d6b86ca01ac55bc"
+  },
+  {
+   "seed": 2027808452,
+   "sha256": "608498caf91f310fe5340a96fcdfdbab5f37848441e0803dd95e711d35165aed"
+  },
+  {
+   "seed": 387276917,
+   "sha256": "ebebf21e4590ec5d77db0899dcf52c42d852e03d07bf004beee38bf32736c880"
+  },
+  {
+   "seed": 3041712678,
+   "sha256": "88889a6756dc184c6732ded7974c47f76978438831f9d9f4ed6cff2089902460"
+  },
+  {
+   "seed": 1401181143,
+   "sha256": "b98ea5fc84d6adcc7e2d7292d30228fff6a0383b1ae8718339ea1463baf4a79d"
+  },
+  {
+   "seed": 4055616904,
+   "sha256": "a02f24360b35b1853b9d471fc28ddcf9ff6de1ed6a27fa4141257605f81a63fa"
+  },
+  {
+   "seed": 2415085369,
+   "sha256": "68c628aacb619357a3c926221e8e91d27ea8638ae3f1f9772cffcf8a6984bc30"
+  },
+  {
+   "seed": 774553834,
+   "sha256": "ba7d65fe28717affa4c4c942c278f63d07c80bcbe47113ed94fbb92499cea898"
+  },
+  {
+   "seed": 3428989595,
+   "sha256": "52066a6f39dba82e015482a88217b42ed0170161179e3c0f7b481b526cb42e73"
+  },
+  {
+   "seed": 1788458060,
+   "sha256": "9e88d32947109859597d7c73b11630906b0365d628768ec58a5cfb2dc7cc1bc8"
+  },
+  {
+   "seed": 147926525,
+   "sha256": "e81bae242afd0f8a8121d3c15aa138d44edff01d142a300c3626801e911dd370"
+  },
+  {
+   "seed": 2802362286,
+   "sha256": "91e8f37c39c425b69ce037a99b9a1a69f16d981078b6b0412d1f33ca4d239f9d"
+  },
+  {
+   "seed": 1161830751,
+   "sha256": "2b9f04cb9af9234eb58668c89ee685ee8a6867ab795b29b39ade1d41f8deaf77"
+  },
+  {
+   "seed": 3816266512,
+   "sha256": "ad7b557ae4121812071d96342d5585e313b4c3a13991fa828c1b8c022c31db59"
+  },
+  {
+   "seed": 2175734977,
+   "sha256": "e3d1631afca857da14272b350ccc96abfb4dff6fea32d45371b751041afcc254"
+  },
+  {
+   "seed": 535203442,
+   "sha256": "9f9fa89f4e8447ab568c7c816a81a069d5338c86d6ff38f898a0e0ae4f92e850"
+  },
+  {
+   "seed": 3189639203,
+   "sha256": "7aaa62851ec7a069608acff88a71228b5f8727010473d182d76d334bd0f15f28"
+  },
+  {
+   "seed": 1549107668,
+   "sha256": "13b40c9bfada48f8e8f629d32e71bdaaa1e17d5a2c3e70d89818c65842780148"
+  },
+  {
+   "seed": 4203543429,
+   "sha256": "adcbe7cecbd5501b9dd1db0f1c87eaae4a659f33c2be2560580cb7425f10cc86"
+  },
+  {
+   "seed": 2563011894,
+   "sha256": "eb2322a13b1401158abeb5b64ecdddf153f5a60307d31b6ad7d1bb9fdc6d4f35"
+  },
+  {
+   "seed": 922480359,
+   "sha256": "004b9ca754793209d46d3b5e42b8c5087fae4e6d6c98cf882638673574a038ae"
+  },
+  {
+   "seed": 3576916120,
+   "sha256": "b220c4ed241904b33782a2be9368f53f573410db440edf36bd29625e49ecc784"
+  },
+  {
+   "seed": 1936384585,
+   "sha256": "d56932ee7cca16127c04aa51ab066fea4ab0c20ef5675746e54185c7dbb86f5f"
+  },
+  {
+   "seed": 295853050,
+   "sha256": "eb11289d3a862cee9277d3a5dc36066feca761bb6aaa419c1b651f09865357ec"
+  },
+  {
+   "seed": 2950288811,
+   "sha256": "fd046a2d8714776e9b220ca2c62928ab9b17101fd1a0f80320a0d7546d6680ef"
+  },
+  {
+   "seed": 1309757276,
+   "sha256": "8538b6745bf0fa93a954166629bf61b37c30a2357d127568aa301d9dd6d299fd"
+  },
+  {
+   "seed": 3964193037,
+   "sha256": "e191a0b1b3e2c7494d6f4c9a79483ce9649983c71c9082bb264cfa38488e8598"
+  },
+  {
+   "seed": 2323661502,
+   "sha256": "1534257336dd1179c5f94fde48f5113b1c20a179b4e7b431c6dddd343eebc067"
+  },
+  {
+   "seed": 683129967,
+   "sha256": "94335df57485086dd826389474096fa5d1e352080f38f6462320fbf57bc1661f"
+  },
+  {
+   "seed": 3337565728,
+   "sha256": "353a4c9deab7732e3b57691009da3fcf9ae92cd70a5d51ea01b04eaec67cc505"
+  },
+  {
+   "seed": 1697034193,
+   "sha256": "d4ef32168c857b011746c7efcbbb416a08f5883725a22956a05851d155a229c3"
+  },
+  {
+   "seed": 56502658,
+   "sha256": "fa88da80646e314ba6e4a57f0b34343eb1ec8b0553f26ca796a7a0757943867c"
+  },
+  {
+   "seed": 2710938419,
+   "sha256": "cd5c58e241a6204e93f2f912ca71aa52332c1819c38d547b90e261d2e5634041"
+  },
+  {
+   "seed": 1070406884,
+   "sha256": "9a588b981539784aedfbab121e3e88c8c0092c8f9842d7e19f0ddb91ee87b9d4"
+  },
+  {
+   "seed": 3724842645,
+   "sha256": "44a67e3263b29ee53c4f7069950c19b52f42506353457a76f76af1371aa8c4c9"
+  },
+  {
+   "seed": 2084311110,
+   "sha256": "e5010cdee178b379372dcb89641645cc09b14ad4d17f80b3d3c79c84f0928264"
+  },
+  {
+   "seed": 443779575,
+   "sha256": "ef0bf032d4f8d8b57eb788c98bc0a1cb1edc54fcb0bc67c2b9ae20623b56636d"
+  },
+  {
+   "seed": 3098215336,
+   "sha256": "d89721d463c225b955f8ae4e7becfaf4a055ca22b7b269b0aa9051edea7433a2"
+  },
+  {
+   "seed": 1457683801,
+   "sha256": "71cca282d56c1d3e771c7d828be5878cc9e57f66481c141f5f9772515dd692e9"
+  },
+  {
+   "seed": 4112119562,
+   "sha256": "a5016019ac2e493d872e1f7c77670ed4c6138a67ab9b2bdcf8266adcabea70e2"
+  },
+  {
+   "seed": 2471588027,
+   "sha256": "ba49d26246827cc11128ed66690f6b7bba36fb8362de717502a4501ed5496878"
+  },
+  {
+   "seed": 831056492,
+   "sha256": "6f72a646c7bd848b2b58003095f415164a8d11c9105aa4e48b063915b567fe6e"
+  },
+  {
+   "seed": 3485492253,
+   "sha256": "9fd82ef562caaf8b41848829ae4b0bab8b1c62e9bc1d7f44cc5d404317ec037f"
+  },
+  {
+   "seed": 1844960718,
+   "sha256": "0b63363e8fd5c459a11023823166c02378e0aa638dde3c477d7c14271ac1dd93"
+  },
+  {
+   "seed": 204429183,
+   "sha256": "948530f439b63d19d3e9e16da2fc37f1682452d5ce3b9ea692da413b6634a827"
+  },
+  {
+   "seed": 2858864944,
+   "sha256": "f3cddc0547ebc631b365b1688e357bcbd263c94b32ef2556d945e5e9304bfd49"
+  },
+  {
+   "seed": 1218333409,
+   "sha256": "72b44486e14819edbb0dccdd98ad81f2554f5ebbd17f6c9548d25ae0fd9c7b85"
+  },
+  {
+   "seed": 3872769170,
+   "sha256": "0fd80acb9c5ca59fddff52e5d7df51449615da78b4f3b99be0dad8bc31387d35"
+  },
+  {
+   "seed": 2232237635,
+   "sha256": "b60d20858d3b499841b9f00adbd68811f289242fd0c66c84c0a97f624c66e781"
+  },
+  {
+   "seed": 591706100,
+   "sha256": "516f511671ed67749ae0eef6d0ef3c0d7fd51de5d53cfffa8cf53db1655ec534"
+  },
+  {
+   "seed": 3246141861,
+   "sha256": "f561350354de47fe7faaad97ece46b490a880e87c7f1873a92fc56e54ee54462"
+  },
+  {
+   "seed": 1605610326,
+   "sha256": "edd9e656f3abbd9af0352ff8807637145d2da297663cac850257f588f1918f9c"
+  },
+  {
+   "seed": 4260046087,
+   "sha256": "315f084b713db3142fca5e1dd6b06764dc6f835dd24c2e7a115c1241f30409ca"
+  },
+  {
+   "seed": 2619514552,
+   "sha256": "608c270af40a23db4587349a824aa822489976af6b7c6b51fc5979b906f1d25b"
+  },
+  {
+   "seed": 978983017,
+   "sha256": "2afef43dcdb5538953b77a257afb76bd467766fd02f63ab7285e5db0f5843e08"
+  },
+  {
+   "seed": 3633418778,
+   "sha256": "58ded33920fb55433cb8611ff3007a78c09a033ba4893122f47dc30458524aa8"
+  },
+  {
+   "seed": 1992887243,
+   "sha256": "d368da82c80d3658289177ead23a0a1788697144abe054051a3a491d4c418a81"
+  },
+  {
+   "seed": 352355708,
+   "sha256": "7d870d1c451d69fc8aaa1b79c4a6d9044f4b0110981a778061aed55570f08d63"
+  },
+  {
+   "seed": 3006791469,
+   "sha256": "a4428a65779413fd5cdff5b3edd399bc2d1209849dca776ac47624da3f6553c4"
+  },
+  {
+   "seed": 1366259934,
+   "sha256": "514ac44671343a0c4fd372745ec6fb6da6e6ab8a83704940d5a28a1d94da69ff"
+  },
+  {
+   "seed": 4020695695,
+   "sha256": "a6861b965787ae8636bce205d58fec755c893d544c49b5060facca1ee4f50265"
+  },
+  {
+   "seed": 2380164160,
+   "sha256": "9be2cb730f5a41765e3380fe7aef9cae239a6e7cb4fae5316ae7baf19e052f75"
+  },
+  {
+   "seed": 739632625,
+   "sha256": "4c6b971c1a70aa00732c4e081c6f00bb95ecbea4e854655194e6b4c0f9bf3b40"
+  },
+  {
+   "seed": 3394068386,
+   "sha256": "2e5f10604d8e64e0b0147e4499b7f31c91630d7f1c20a6ec7f64526301e130f3"
+  },
+  {
+   "seed": 1753536851,
+   "sha256": "ff11579b84ea3ae296e5fad4e3d24e045b3325efba3f67edf84e4b45bbbd3388"
+  },
+  {
+   "seed": 113005316,
+   "sha256": "6e46346505fa8c3cc2eb1ed5aa69aa97288ea3bb11294e0e2706b6d1d237b9fc"
+  },
+  {
+   "seed": 2767441077,
+   "sha256": "16a3f54213ed43d00a391e6f466265e5a6f6561c64610494d04c0e33016e1af7"
+  },
+  {
+   "seed": 1126909542,
+   "sha256": "f8de385f710a5d26e3759f68f9b9b3bbea9899ab98dc9465066d65486f0680ef"
+  },
+  {
+   "seed": 3781345303,
+   "sha256": "1333a188c1ee89477f3e524fd50d5adbe100be923f07b520d164e0a7f08a3d01"
+  },
+  {
+   "seed": 2140813768,
+   "sha256": "9384a190f82b4cf3c9482d4ae79d606d56aed057f66e8ec277f0be83ac2bb541"
+  },
+  {
+   "seed": 500282233,
+   "sha256": "56a514223c9217c8af11c8bbaabdc5cce221395ede57f042085f607b0659ed1c"
+  },
+  {
+   "seed": 3154717994,
+   "sha256": "e430642f0ac285f402b5bcc7a07a51e4f71ce1d1924c27d5f24ee04b77266242"
+  },
+  {
+   "seed": 1514186459,
+   "sha256": "51fd052ca03a525f2032fa7a8053d97216614e0c1cdf0bef9ec62eb49c8ce4e7"
+  },
+  {
+   "seed": 4168622220,
+   "sha256": "8ec137e0d03b1cbd3e20e6f4ef11a707e6a244fbe5227cfb0d4fa8b997177cc7"
+  },
+  {
+   "seed": 2528090685,
+   "sha256": "c246e29ad8dbebe5759d2b5a54b352ad391c3b56830b07cb94346b1b54a150c8"
+  },
+  {
+   "seed": 887559150,
+   "sha256": "c6f2578486195abf8e702d1085c514a568d9cb42e8dc61fe87cc99b97bf444be"
+  },
+  {
+   "seed": 3541994911,
+   "sha256": "d92ac6b188f1a656ffe7d4bc731a2aa1106b71cdfb17e9cb7eecb36ce0f4e565"
+  },
+  {
+   "seed": 1901463376,
+   "sha256": "5e3b4c20d9d148bcf2f2c1646691eb6c444c00fd495eef255a32cf280383799a"
+  },
+  {
+   "seed": 260931841,
+   "sha256": "152fcd4295424504bef899cac9af25b705246c0144c762de06050e494307bbe0"
+  },
+  {
+   "seed": 2915367602,
+   "sha256": "e35369effb16879d102fd149499384223a2fafd0a2486f71d851ba66e81ea43c"
+  },
+  {
+   "seed": 1274836067,
+   "sha256": "2118eacaca274893a48c4c4073085fe150f88be29a7efb2bdf0482cbb8098ae7"
+  },
+  {
+   "seed": 3929271828,
+   "sha256": "cd4307b3edea3edcf677355cdb498cda34319762d270e91db48f0994daf7a10a"
+  },
+  {
+   "seed": 2288740293,
+   "sha256": "5c12a6ab39894109dfc006e9cc3db8fd456409e1c90c9e839bca6896718e4de7"
+  },
+  {
+   "seed": 648208758,
+   "sha256": "9e1f1cda038a19da2dacc0c5167a38ba41c97e75c394412c14b04dd9c0991c03"
+  },
+  {
+   "seed": 3302644519,
+   "sha256": "b278627fc5ab71bde87bf6afa0cc5591c083344de625a791bea0cf5f57b215ee"
+  },
+  {
+   "seed": 1662112984,
+   "sha256": "f2c49f5c33cdc9ce309543be6f7e040f3e9cb03a992abdab5694819bab4555e4"
+  },
+  {
+   "seed": 21581449,
+   "sha256": "131bd7ba9a318381162fa3a3016bf28eef2b93451cdc6da6c85a7c40d08ce20e"
+  },
+  {
+   "seed": 2676017210,
+   "sha256": "f85871cf033c1026f234fd50afa58966842917e5e0c001bfee84a91a86456aad"
+  },
+  {
+   "seed": 1035485675,
+   "sha256": "8c14b7f204b8137fe20efd96e5d8a31f8801496d834ce74123bd1cf086200051"
+  },
+  {
+   "seed": 3689921436,
+   "sha256": "c6b901c81aa9818c5b7365c5b4b4111f10b78dc5dc81a4706088acf4087d3ef0"
+  },
+  {
+   "seed": 2049389901,
+   "sha256": "8ba4d0077218f9b686e8405f579c73c4d8bd010b1d0604d7bf65f32d43ad1d0c"
+  },
+  {
+   "seed": 408858366,
+   "sha256": "5e9623249876b6b95bac60d5f2c787632cafb4b10f701e25a014e545b62169e7"
+  },
+  {
+   "seed": 3063294127,
+   "sha256": "2f6013ef71349e95739315818a615d6f744aff522b8e11b8a5bca058f25555de"
+  },
+  {
+   "seed": 1422762592,
+   "sha256": "86c8e69331854bd8702dd9fbed5efbbaded7c66a3cd947e8e9ca6a6ffca716e9"
+  },
+  {
+   "seed": 4077198353,
+   "sha256": "e453f259077f2752e537b004b3d26d087714ffb4af0f0615f64e76bf1ac314a7"
+  },
+  {
+   "seed": 2436666818,
+   "sha256": "00ee0e18e57c824ce235ece8fdc871e55834d94b0c62b343fc8ad7a7175cf327"
+  },
+  {
+   "seed": 796135283,
+   "sha256": "d4f19ea7e6ea8b6285b899a6511fd400f7debe5db2d81fb0d700cbaa97a3e3b5"
+  },
+  {
+   "seed": 3450571044,
+   "sha256": "a5dd7daeb7f54e2feb29ce34c6c9558897ae9a5c6540d39da8b6cd4466cb7314"
+  },
+  {
+   "seed": 1810039509,
+   "sha256": "120883e10b5bb39699bdea5cd5a45c47aff807842c7beaff8e90bac0b4fe9b86"
+  },
+  {
+   "seed": 169507974,
+   "sha256": "ae0c98de971ed3541bc26db83b7202e248a8383281eaf4b3fe7a567b111078af"
+  },
+  {
+   "seed": 2823943735,
+   "sha256": "63fc5d5cf6fda88e0389d09782becaf6366849bc4ae0b3654f60ffe325061889"
+  },
+  {
+   "seed": 1183412200,
+   "sha256": "352d67200a80edab359d16ad824f235b0acf6e8e99ed7371c7f750c7f8804103"
+  },
+  {
+   "seed": 3837847961,
+   "sha256": "2a25d6734f1673939ca62648d5e0ffa2a68cf092881ea2c78c0f25c585cc2a04"
+  },
+  {
+   "seed": 2197316426,
+   "sha256": "26ce16e9402bcfb44ab4dae109ef6d1c878c1d72fe0afe42d599c322fa262636"
+  },
+  {
+   "seed": 556784891,
+   "sha256": "1c28186bd0c74b7f28490a284398e526f2089447ca7110430c54d2c16efc552e"
+  },
+  {
+   "seed": 3211220652,
+   "sha256": "8ddb0936d47ce5e95b04a532a8b91555cd47fad9c8e8a203ac68044a3ecbada7"
+  },
+  {
+   "seed": 1570689117,
+   "sha256": "8fdf9d20879d535a7fb30388d14a64309acda4cf74ce57bfd832743a8c855118"
+  },
+  {
+   "seed": 4225124878,
+   "sha256": "b37815d1c8a7a0156b2463ab7ca45a6ef3c218eed1ea2e2e3229a66c5a054f90"
+  },
+  {
+   "seed": 2584593343,
+   "sha256": "1945046365aacb96c70feb2fd89b8469ffe15ac8e5a4226bf74ee9723625ab9a"
+  },
+  {
+   "seed": 944061808,
+   "sha256": "9c05b54c66205d808fdf89a00003c0c623c8e818e387a8119c1aa31a0c59377e"
+  },
+  {
+   "seed": 3598497569,
+   "sha256": "99342bf8e27bbfbc4c00c0245348858c4fa3a949b0e29444081778c4f658a285"
+  },
+  {
+   "seed": 1957966034,
+   "sha256": "e0636938b42e9582f4f782a02801390b0dae6b626ad241269bd6c9768ad93ab1"
+  },
+  {
+   "seed": 317434499,
+   "sha256": "157547c1dbddd08bd83dcf71d6b842a2ff412bc8de6df47321bf758180b9324a"
+  },
+  {
+   "seed": 2971870260,
+   "sha256": "40db4a81f48519261c9b9d19e035215c1f7224ff7ee47954275d3674abd5ca6a"
+  },
+  {
+   "seed": 1331338725,
+   "sha256": "d22c684a7404a786a14a4f9b163c01fc23173e1ae49f9b064accc907594bbf72"
+  },
+  {
+   "seed": 3985774486,
+   "sha256": "ae4e519171dcb1cbed9ea23b4561fbcd2e1c94669b3d76aab361dd362cdb2b2d"
+  },
+  {
+   "seed": 2345242951,
+   "sha256": "b4040b0350d85e4d36a8958c18e8ef8be52283404beabdac328aabc387004b70"
+  },
+  {
+   "seed": 704711416,
+   "sha256": "c8d7de478eead35c9260100c319e6ef08f62468d1bdf504331ac89a0c416d152"
+  },
+  {
+   "seed": 3359147177,
+   "sha256": "e39810dcff338caec31d91b813acc0ac060097767ed2c7f8ede7d26defd058d5"
+  },
+  {
+   "seed": 1718615642,
+   "sha256": "fc1f920a4a5094d981559af637b1d68b807043a27eb6804ce443034f656fd28f"
+  },
+  {
+   "seed": 78084107,
+   "sha256": "4aee4c198cab21e4b03018017bba96614b0fdb3078c7ad0962b907fc1ee3e674"
+  },
+  {
+   "seed": 2732519868,
+   "sha256": "2df7896a5572307ffafff8f4b99d3b8d40277081a70d29228fd5f1db4f5098ef"
+  },
+  {
+   "seed": 1091988333,
+   "sha256": "212fe72f05ac2c293da4082f5dfdfc9ccdc4ca48be2ad52a434b8df2828480a8"
+  },
+  {
+   "seed": 3746424094,
+   "sha256": "6cbeb15b19a6ade8829979c597f2ce5bebcb986085148683e1cc4f584a646c37"
+  },
+  {
+   "seed": 2105892559,
+   "sha256": "54f20f091faca3c28ced29418ec52806b2e644cf8f10a8cbe18a970b7ed82d19"
+  },
+  {
+   "seed": 465361024,
+   "sha256": "cf3e2429f5c6c7382a47b8926ed2929d654935441ce7d874c0eae56e12bf5746"
+  },
+  {
+   "seed": 3119796785,
+   "sha256": "a85d3988c4df27a40a524898dfec9f378de1432fde802171cc2d56944e387c92"
+  },
+  {
+   "seed": 1479265250,
+   "sha256": "201123170ff5bb30a8ad2692a22c9eeca1f632cdf1a017be93286b4bd4d2514b"
+  },
+  {
+   "seed": 4133701011,
+   "sha256": "c66f9d88127d46cee1fc7b364cfccc703955e862b8c0158b3694698571934491"
+  },
+  {
+   "seed": 2493169476,
+   "sha256": "232868c9372fe21ed4c90e2380f550fdb284efeb8c9bbb3b8e26a03b742423ab"
+  },
+  {
+   "seed": 852637941,
+   "sha256": "d5c3510734feeb0b163cf891e6f77001fc815caa3a719ce27fbd10211030f2b8"
+  },
+  {
+   "seed": 3507073702,
+   "sha256": "d176ac7530fcb261582b0bed2989f721c14fcae8df031668d0d90c450959cb7d"
+  },
+  {
+   "seed": 1866542167,
+   "sha256": "caac40b3f516d98589f270d4daad6db7d744db450dddc891327986ab3697b37c"
+  },
+  {
+   "seed": 226010632,
+   "sha256": "bba2aab40cc33b5323151f2d2d38032f57390580141ba9cad3f4405c16824fc2"
+  },
+  {
+   "seed": 2880446393,
+   "sha256": "a7004ec0b3abe7ff874b8f5d60667c8eb7ab03acfc580b7cdea4f9fe88c328d8"
+  },
+  {
+   "seed": 1239914858,
+   "sha256": "65cb819ee3abba885d33ec14e554d0e77141ae439ed0e402c4cdb9ee13bc81e2"
+  },
+  {
+   "seed": 3894350619,
+   "sha256": "3654b343e11021a7f0b5223a654079e320ce64c29920b17459239e788c83a90c"
+  },
+  {
+   "seed": 2253819084,
+   "sha256": "8d902dc657109db4240b0fe070fe61075becef85adda25e84e1d90f5382b327a"
+  },
+  {
+   "seed": 613287549,
+   "sha256": "50cc5793806f2c8ae5c446ce78859249bcf3305cca23a7f4b48d8243e2546356"
+  },
+  {
+   "seed": 3267723310,
+   "sha256": "147c8e03424203d592957b870df37321e640ef4e3641fa2323c57a8f449a627d"
+  },
+  {
+   "seed": 1627191775,
+   "sha256": "cab7cd6c961bfa119969c3c2cb5c5e08d2db8f094bfd47e76d95c9ddab932f39"
+  },
+  {
+   "seed": 4281627536,
+   "sha256": "3b14468d4e3573fb6a4d32e7f7a19b79d5ae5708ebd46f34cc8e6641f716e814"
+  },
+  {
+   "seed": 2641096001,
+   "sha256": "d567f1df8950572f1ca58ceffd28a948d45c5f122eececce2335566b2dc75a0e"
+  },
+  {
+   "seed": 1000564466,
+   "sha256": "128d53462a05b12d3dec704f3d28abca22e2af750ba8e492768ebe8a3faf41a0"
+  },
+  {
+   "seed": 3655000227,
+   "sha256": "4dc115e27e2a0b9693b2fc812e9a997142aa988883877c56964f71936db36981"
+  },
+  {
+   "seed": 2014468692,
+   "sha256": "1829508ebb5c1b9b791c8c30a4527a1f3ffb35e5a1056a0e36749b9a5ac16f2b"
+  },
+  {
+   "seed": 373937157,
+   "sha256": "2b30602f66ddff947fa0f0e7c65dea59f34c20a801ca404e46d3f10cba9d6472"
+  },
+  {
+   "seed": 3028372918,
+   "sha256": "8751bf098fe1ccab1069060d5713dd1ad8d6863425141879774767309b7d60e7"
+  },
+  {
+   "seed": 1387841383,
+   "sha256": "5d8ff719b27aaafc4125a1a3d3a18ac01d352a54036979e1807f87e398596467"
+  },
+  {
+   "seed": 4042277144,
+   "sha256": "108389fee30bc958a0fcd608529d4ca0b6ac4ac6d2552cdd7e70a39415a8f378"
+  },
+  {
+   "seed": 2401745609,
+   "sha256": "e69ddfd2ca0c8df486e273b5fd0db17e17f45a382933ef6f7dc8e98a1773ffa0"
+  },
+  {
+   "seed": 761214074,
+   "sha256": "2dab57be7ec25a0dd7d2da303c9e0734ee3e8cbea3246a38947986dfe574eaff"
+  },
+  {
+   "seed": 3415649835,
+   "sha256": "4774b822901539043bbeab3433d14551d5dc63e78e7a6082fdc03188d64f23da"
+  },
+  {
+   "seed": 1775118300,
+   "sha256": "c4dc27369b847922e9dddddb65a486306a6e6ae9a2a9ab170677ec0a48385a78"
+  },
+  {
+   "seed": 134586765,
+   "sha256": "32d9c7a78c83833b71a176f8f7e04fb23784741ed0b1fe4fc86d2ce1b400dcb0"
+  },
+  {
+   "seed": 2789022526,
+   "sha256": "e16c686cf05f017c266f146d28a98c5e81d29c48bdbde7ef9c8318d8171641ce"
+  },
+  {
+   "seed": 1148490991,
+   "sha256": "412a5ec8ee968da4ae5747d0c7488060c2ece5e141091e114dd7b03fe48ecdee"
+  },
+  {
+   "seed": 3802926752,
+   "sha256": "628226b96cd4a79044798be4494ddf21eeab50c51f3f363357455bb853cb7ecf"
+  },
+  {
+   "seed": 2162395217,
+   "sha256": "9d4f678da5fd114dcf28386d7ec02c3ac64cc5f2e5c976ebb2ff428cb5f4c3de"
+  },
+  {
+   "seed": 521863682,
+   "sha256": "61f00bf7d3dd269a7de83f099676878e3c6eb352ccfbb9e042ca05aedbf8b39a"
+  },
+  {
+   "seed": 3176299443,
+   "sha256": "e23564d84451b90c83530a9352d98c41a201550d41e8d6489a66e07798e7ba5f"
+  },
+  {
+   "seed": 1535767908,
+   "sha256": "fca2674bbd8d4dfb41dcff090489403a08754df3aff7479867930bb8aad6144f"
+  },
+  {
+   "seed": 4190203669,
+   "sha256": "9dab8b70fc24566434d3005c4b27145cadb01a72f6a2250001b3b380a8d70412"
+  },
+  {
+   "seed": 2549672134,
+   "sha256": "07653c9b83c3b6ac7a685e5172442abc870e64848552701e8b1c2f608212bc33"
+  },
+  {
+   "seed": 909140599,
+   "sha256": "991de6af08f6a11caf811c96b19f02948f902f3631722708e6c47375579478b5"
+  },
+  {
+   "seed": 3563576360,
+   "sha256": "27c44d1d38266bc6f9a3841bcda129828c8dda832990a47a22f989c96d387d36"
+  },
+  {
+   "seed": 1923044825,
+   "sha256": "fd06813d5fb4fce89f223311d7ded3f568c2bd78181f94ffc81cb4d27a59d48b"
+  },
+  {
+   "seed": 282513290,
+   "sha256": "89c15efa47e01cdc1039b122e3498f5deb1212d34cb4b63e59cb8e2f171d7ccc"
+  },
+  {
+   "seed": 2936949051,
+   "sha256": "302e6d73947218c1ff4fd8ffbd5c4c6d45a8ccf6451f3f832fa3692762cedb40"
+  },
+  {
+   "seed": 1296417516,
+   "sha256": "ba8100f4ee534a14ed31636d1865484e4efedf9b73525bec7720acee9fb1f3fc"
+  },
+  {
+   "seed": 3950853277,
+   "sha256": "96c4081657f1d0bdd4d7930b1b8b3ece3c05f645da689fa82e38e79e8305974f"
+  },
+  {
+   "seed": 2310321742,
+   "sha256": "3c1f17cf209ce01a02cd74abaea722be566e135b86f55b9f0dc4309c38451be8"
+  },
+  {
+   "seed": 669790207,
+   "sha256": "c9de1fce26745ef1e35493a4845ea97b1ffb7fa917902425ca8caef2e86ab3a5"
+  },
+  {
+   "seed": 3324225968,
+   "sha256": "f771c1e0504d2d6dbafcc268bf263a2c3f9ea0eb2316b57c20955fbce4eb7f89"
+  },
+  {
+   "seed": 1683694433,
+   "sha256": "9d48e5183689b0d0fe72d0b5479031690f2d83f0f75e6be7a7d0a88c289cddee"
+  },
+  {
+   "seed": 43162898,
+   "sha256": "0dc50774a0100b81f291cf8087efcace43e8bfc9a53375a8f036fa9aea3a9e2f"
+  },
+  {
+   "seed": 2697598659,
+   "sha256": "3b9875298d697d3a58a51a871e844e63b1ebf98bd4d59f29fa2dae1bfc3b05e2"
+  },
+  {
+   "seed": 1057067124,
+   "sha256": "1288b3165174d493af2d37f58168e18a775bbb6db2e5ae26216ae8fa53e26dbb"
+  },
+  {
+   "seed": 3711502885,
+   "sha256": "12ad789f36c834ca9eaf530ce6fec49a82368a430e65e4b864a25d84d5fe2e6d"
+  },
+  {
+   "seed": 2070971350,
+   "sha256": "3c49171bcc54072c200f2f06421be0aa4898a7551be65ff7a6452d6a63bcd6a7"
+  },
+  {
+   "seed": 430439815,
+   "sha256": "c7c66b1dae441f3fa2c0e62eda7b0a0254a11277e76ae98f29775ee50ae95d7a"
+  },
+  {
+   "seed": 3084875576,
+   "sha256": "e479c5e9057d0bc6d688958420c1db53952e934e060e4159b30ae5f174ecb7dc"
+  },
+  {
+   "seed": 1444344041,
+   "sha256": "28c21701b90148e4634e576bf99ae89cc3e7a71c996631b5df5cbce527aae61c"
+  },
+  {
+   "seed": 4098779802,
+   "sha256": "1ad8aab0fa3c06a19b4a5116ef948cc5378e7c97784e9e5386a422b77d23cf71"
+  },
+  {
+   "seed": 2458248267,
+   "sha256": "a9d41f59f777e8e30fd3b6652325457afd54555df272f7373fbc328fbb8b1ff5"
+  },
+  {
+   "seed": 817716732,
+   "sha256": "8d5bedbce58af224a560e5f8d183816742bfeb4f3ff8710044b6b16ee631a722"
+  },
+  {
+   "seed": 3472152493,
+   "sha256": "fa1b197a4d383db1eb5ed3c8abba18e22456cd921c79610caf8a59e9ec7f0757"
+  },
+  {
+   "seed": 1831620958,
+   "sha256": "858f7a630459077b72ca0ab76dfde4a8efe5de337aa0b46e7b64ce5eb3ddaffe"
+  },
+  {
+   "seed": 191089423,
+   "sha256": "f5dd508712d8a135ba9b7e2068cf7506a67456b3b15b4b272e9802e46f37cb6a"
+  },
+  {
+   "seed": 2845525184,
+   "sha256": "3dba2eeff6826347a50c7bfb986979cfcb19d0f93300c8f97289f79368babec2"
+  },
+  {
+   "seed": 1204993649,
+   "sha256": "622d6b2c2aa41b7e6fa9b44c71112dad2323740e961babfafe622a5ac4af2f70"
+  },
+  {
+   "seed": 3859429410,
+   "sha256": "d5af68dc5d94233b2c9eacd106dc5b07f1c66d69791d937bb29e19fba80bae7f"
+  },
+  {
+   "seed": 2218897875,
+   "sha256": "7ece33847f34d4f9e16ffb46f0c6c62e0ef851295b646e8cb8b8bf868dd2874d"
+  },
+  {
+   "seed": 578366340,
+   "sha256": "59f36aeec0ddc6411a779a6e7be4635708c741242c8f190af67877eb9bdef9e7"
+  },
+  {
+   "seed": 3232802101,
+   "sha256": "dd923ef5cd9fe78de6c24a6b9a18b75176ade27a2d12f3d84698fb55d71a5519"
+  },
+  {
+   "seed": 1592270566,
+   "sha256": "96d2646f7ad03645ced8b970c679ba21c5c8b118d2cfe73a1929a6f41f5f0bb2"
+  },
+  {
+   "seed": 4246706327,
+   "sha256": "af3035f99690074cfe777e9caeb6ede4db32ecce10bcccd5b1d7a4beb2db453d"
+  },
+  {
+   "seed": 2606174792,
+   "sha256": "6f0bc14adba0f559bc1fc46ad9132add02240aacc9c92ed68409e5d2eddba119"
+  }
+ ],
+ "samples": [
+  {
+   "seed": 2654435761,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 2654435761,
+    "context": [],
+    "tags": [
+     "malware"
+    ],
+    "kind": "mc",
+    "prompt": "Por que usar o computador com uma conta sem privilégio de administrador reduz o dano de um malware?",
+    "options": [
+     "O programa herda os privilégios do usuário: sem administrador, ele não altera o sistema",
+     "Porque a conta comum criptografa os arquivos",
+     "Porque o malware não roda em contas novas",
+     "Porque o antivírus só funciona em contas comuns"
+    ],
+    "answer": 0,
+    "explanation": "Princípio do menor privilégio: cada processo recebe apenas o necessário. É a diferença entre um arquivo infectado e um sistema inteiro comprometido.",
+    "hint": "Quem executa empresta seus poderes."
+   },
+   "checks": [
+    {
+     "answer": 0,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1013904226,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 1013904226,
+    "context": [],
+    "tags": [
+     "malware"
+    ],
+    "kind": "mc",
+    "prompt": "Um item no chão parece munição, mas brilha de forma irregular. O que isso indica no jogo — e na vida real?",
+    "options": [
+     "Que o item vale o dobro",
+     "Pode ser um disfarce: vale verificar com uma ferramenta antes de interagir",
+     "Que a placa de vídeo está com defeito",
+     "Que o item vai desaparecer em segundos"
+    ],
+    "answer": 1,
+    "explanation": "Aparência quase certa é a marca do disfarce. O Scanner revela o Trojan antes do contato, como um antivírus analisando o arquivo antes da execução.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3668339987,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 3668339987,
+    "context": [],
+    "tags": [
+     "malware"
+    ],
+    "kind": "mc",
+    "prompt": "Qual afirmação separa corretamente vírus, worm e trojan?",
+    "options": [
+     "Os três precisam de um hospedeiro para funcionar",
+     "Os três se propagam sozinhos pela rede",
+     "Vírus precisa de um arquivo hospedeiro, worm se propaga sozinho, trojan precisa que você execute",
+     "Vírus e worm são a mesma coisa; trojan é um antivírus falso"
+    ],
+    "answer": 2,
+    "explanation": "A diferença está no mecanismo de propagação, não no dano: por isso as defesas também são diferentes.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 2,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2027808452,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 2027808452,
+    "context": [],
+    "tags": [
+     "malware"
+    ],
+    "kind": "mc",
+    "prompt": "Qual prática reduz mais o risco ao instalar um programa?",
+    "options": [
+     "Desativar o antivírus durante a instalação",
+     "Baixar do primeiro resultado do buscador",
+     "Instalar a versão \"crackeada\" para não expor o cartão",
+     "Baixar da fonte oficial e conferir a assinatura ou o hash do arquivo"
+    ],
+    "answer": 3,
+    "explanation": "Fonte oficial + verificação de integridade (hash/assinatura) garante que o binário é o que o fabricante publicou. Instalador pirata é o veículo clássico de trojan.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 387276917,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 387276917,
+    "context": [],
+    "tags": [
+     "malware"
+    ],
+    "kind": "mc",
+    "prompt": "Qual afirmação separa corretamente vírus, worm e trojan?",
+    "options": [
+     "Os três precisam de um hospedeiro para funcionar",
+     "Os três se propagam sozinhos pela rede",
+     "Vírus e worm são a mesma coisa; trojan é um antivírus falso",
+     "Vírus precisa de um arquivo hospedeiro, worm se propaga sozinho, trojan precisa que você execute"
+    ],
+    "answer": 3,
+    "explanation": "A diferença está no mecanismo de propagação, não no dano: por isso as defesas também são diferentes.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3041712678,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 3041712678,
+    "context": [],
+    "tags": [
+     "malware"
+    ],
+    "kind": "mc",
+    "prompt": "O que define um cavalo de Troia (trojan)?",
+    "options": [
+     "Um programa que se copia sozinho pela rede",
+     "Um ataque que inunda o servidor de requisições",
+     "Uma falha de configuração do firewall",
+     "Um programa que se apresenta como algo útil e esconde função maliciosa"
+    ],
+    "answer": 3,
+    "explanation": "O trojan depende de você executá-lo: a isca é a aparência legítima. Quem se copia sozinho é o worm.",
+    "hint": "O nome vem do presente grego."
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1401181143,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 1401181143,
+    "context": [],
+    "tags": [
+     "malware"
+    ],
+    "kind": "mc",
+    "prompt": "Um item no chão parece munição, mas brilha de forma irregular. O que isso indica no jogo — e na vida real?",
+    "options": [
+     "Que o item vai desaparecer em segundos",
+     "Que o item vale o dobro",
+     "Que a placa de vídeo está com defeito",
+     "Pode ser um disfarce: vale verificar com uma ferramenta antes de interagir"
+    ],
+    "answer": 3,
+    "explanation": "Aparência quase certa é a marca do disfarce. O Scanner revela o Trojan antes do contato, como um antivírus analisando o arquivo antes da execução.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 3,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 3.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 4055616904,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 4055616904,
+    "context": [],
+    "tags": [
+     "malware"
+    ],
+    "kind": "mc",
+    "prompt": "Qual prática reduz mais o risco ao instalar um programa?",
+    "options": [
+     "Baixar da fonte oficial e conferir a assinatura ou o hash do arquivo",
+     "Instalar a versão \"crackeada\" para não expor o cartão",
+     "Baixar do primeiro resultado do buscador",
+     "Desativar o antivírus durante a instalação"
+    ],
+    "answer": 0,
+    "explanation": "Fonte oficial + verificação de integridade (hash/assinatura) garante que o binário é o que o fabricante publicou. Instalador pirata é o veículo clássico de trojan.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 0,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2415085369,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 2415085369,
+    "context": [],
+    "tags": [
+     "malware"
+    ],
+    "kind": "mc",
+    "prompt": "Qual prática reduz mais o risco ao instalar um programa?",
+    "options": [
+     "Baixar do primeiro resultado do buscador",
+     "Baixar da fonte oficial e conferir a assinatura ou o hash do arquivo",
+     "Instalar a versão \"crackeada\" para não expor o cartão",
+     "Desativar o antivírus durante a instalação"
+    ],
+    "answer": 1,
+    "explanation": "Fonte oficial + verificação de integridade (hash/assinatura) garante que o binário é o que o fabricante publicou. Instalador pirata é o veículo clássico de trojan.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 774553834,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 774553834,
+    "context": [],
+    "tags": [
+     "malware"
+    ],
+    "kind": "mc",
+    "prompt": "Qual prática reduz mais o risco ao instalar um programa?",
+    "options": [
+     "Baixar da fonte oficial e conferir a assinatura ou o hash do arquivo",
+     "Desativar o antivírus durante a instalação",
+     "Instalar a versão \"crackeada\" para não expor o cartão",
+     "Baixar do primeiro resultado do buscador"
+    ],
+    "answer": 0,
+    "explanation": "Fonte oficial + verificação de integridade (hash/assinatura) garante que o binário é o que o fabricante publicou. Instalador pirata é o veículo clássico de trojan.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 0,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 0.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3428989595,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 3428989595,
+    "context": [],
+    "tags": [
+     "malware"
+    ],
+    "kind": "mc",
+    "prompt": "Um item no chão parece munição, mas brilha de forma irregular. O que isso indica no jogo — e na vida real?",
+    "options": [
+     "Que o item vai desaparecer em segundos",
+     "Pode ser um disfarce: vale verificar com uma ferramenta antes de interagir",
+     "Que a placa de vídeo está com defeito",
+     "Que o item vale o dobro"
+    ],
+    "answer": 1,
+    "explanation": "Aparência quase certa é a marca do disfarce. O Scanner revela o Trojan antes do contato, como um antivírus analisando o arquivo antes da execução.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1788458060,
+   "question": {
+    "generator": "mc_pool",
+    "seed": 1788458060,
+    "context": [],
+    "tags": [
+     "malware"
+    ],
+    "kind": "mc",
+    "prompt": "Qual afirmação separa corretamente vírus, worm e trojan?",
+    "options": [
+     "Os três se propagam sozinhos pela rede",
+     "Vírus precisa de um arquivo hospedeiro, worm se propaga sozinho, trojan precisa que você execute",
+     "Vírus e worm são a mesma coisa; trojan é um antivírus falso",
+     "Os três precisam de um hospedeiro para funcionar"
+    ],
+    "answer": 1,
+    "explanation": "A diferença está no mecanismo de propagação, não no dano: por isso as defesas também são diferentes.",
+    "hint": ""
+   },
+   "checks": [
+    {
+     "answer": 1,
+     "result": {
+      "correct": true,
+      "items": []
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 2,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": 1.5,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    },
+    {
+     "answer": true,
+     "result": {
+      "correct": false,
+      "items": []
+     }
+    }
+   ]
+  }
+ ]
+}

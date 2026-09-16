@@ -1,0 +1,2960 @@
+{
+ "source": "09-ransomware/t2",
+ "generator": "classify_pool",
+ "params": {
+  "pool": "incident",
+  "count": 4,
+  "counterTags": [
+   "incident"
+  ]
+ },
+ "seeds": [
+  {
+   "seed": 2654435761,
+   "sha256": "2e155c8739ce78c75ca6ec1f1bf422219415f12cc2bacbcecd9fe5de6b159e6b"
+  },
+  {
+   "seed": 1013904226,
+   "sha256": "caadb20c5fb4f42d1e230cbe7c0250b4b901df83ae3c1d050d18d7231a17bcf3"
+  },
+  {
+   "seed": 3668339987,
+   "sha256": "bd0b8235d32566d60072a9f96214cf73ce0ee3cd35ddc4bd605f8b2b79921ba1"
+  },
+  {
+   "seed": 2027808452,
+   "sha256": "5b9d2278f9c3ea3a67e1370eedfcd67de7873b70c8b813b840836ffc133af3ae"
+  },
+  {
+   "seed": 387276917,
+   "sha256": "05ed8f47dbbe6b31f2eef759b38b7aa59f4a5925baeb223f11361c0c1ad38697"
+  },
+  {
+   "seed": 3041712678,
+   "sha256": "4e0ae9d2350eddab557c05b74e4ec40fc02e5480b4d050d4e7fae75c26aac320"
+  },
+  {
+   "seed": 1401181143,
+   "sha256": "64513451183d5762ea846da3849f23a5228756bbb80b1a55c4d23df593b8fefb"
+  },
+  {
+   "seed": 4055616904,
+   "sha256": "4ba2b7d597172ba12074fa6bf1d256b4cc347d236726462a4a98e9ba605d3190"
+  },
+  {
+   "seed": 2415085369,
+   "sha256": "09c179ef49833bd7c46f60e5a5cdb9f445e6843989f9073d8acd592f60f7db9d"
+  },
+  {
+   "seed": 774553834,
+   "sha256": "12c4bc94209f1984b4b972316e31d961f17efb597a3ef514b6680d5a335d8445"
+  },
+  {
+   "seed": 3428989595,
+   "sha256": "a5d5b345483480a20fbff4708b24135c4906afce969a548a80e9d62bb5cb0bfa"
+  },
+  {
+   "seed": 1788458060,
+   "sha256": "60f6274c5d049c729cc382c6967986da4f627a933baafba67ea4971bb2367e2f"
+  },
+  {
+   "seed": 147926525,
+   "sha256": "72e3cda19478f6036f8ab813efaa9fdab778b03bee79879621f1a2814e49320f"
+  },
+  {
+   "seed": 2802362286,
+   "sha256": "171e2a9190a91ed1c95dc1e9d25894a2e6b6631e15d0f059da484900d1bd73a1"
+  },
+  {
+   "seed": 1161830751,
+   "sha256": "4a3113c113e3cb3a7500b2b9880eafd89deef152652a8b767b9f6981e9c0ab00"
+  },
+  {
+   "seed": 3816266512,
+   "sha256": "b18d29b4251f6c5ddad7184cfe42ed35971bc1e16454c3d7df6d0bae0cdb0621"
+  },
+  {
+   "seed": 2175734977,
+   "sha256": "c08e0fe4c1e597f9a689b61aeb75f5eff268b4c9387ffc865753ca566d0a8551"
+  },
+  {
+   "seed": 535203442,
+   "sha256": "a41eeb04ccece03b71265a3822ad1809bb5089471d6c618613e2a8bae802e57f"
+  },
+  {
+   "seed": 3189639203,
+   "sha256": "e3e5fa0e2047556049ec01dd8d56417f35f4020b8bf3e80c5d8f375ced48629b"
+  },
+  {
+   "seed": 1549107668,
+   "sha256": "3a66c6f9b6fcb377fffc2536fd7d2ad146078dba09e012b5d1d7791476a3cfb8"
+  },
+  {
+   "seed": 4203543429,
+   "sha256": "67b97ac960bdd0d2fa120023e3ddb30c1e3b67092f46449dfb1ebb6d02b6334d"
+  },
+  {
+   "seed": 2563011894,
+   "sha256": "d5c3dd1595d61bf1882a1f5c5f4803327dba7d58050dab801510fc618d8e52a5"
+  },
+  {
+   "seed": 922480359,
+   "sha256": "c8a759ffc5f666c1a8bf05ea673b3c84438109365e4045daccb5cb52ea31b1da"
+  },
+  {
+   "seed": 3576916120,
+   "sha256": "dfd48d0b70863845467ee5ea54a5ca94fd4fa7336d82ce903e42cf80fe7a2add"
+  },
+  {
+   "seed": 1936384585,
+   "sha256": "3fc37a09baa0e5439d1633bba6197b5fb13a36eec761a0b512d0e061a6c5f83f"
+  },
+  {
+   "seed": 295853050,
+   "sha256": "fa8d2968e3d93b0157009460bddd841fe5fae4f8fda9f3843d919c64f60a43a1"
+  },
+  {
+   "seed": 2950288811,
+   "sha256": "b1127e3ba3423bbbc01f7897c366de82706a078fe833fef3ef8feef735dc99c1"
+  },
+  {
+   "seed": 1309757276,
+   "sha256": "ac516c52f19dce29c794f6392b57da362405a78d4e53d9c3cd7b74dfc0eaf2bb"
+  },
+  {
+   "seed": 3964193037,
+   "sha256": "b714910cffcca2e42f091a8bb36943d4591d30849699ef54e57f4bfd177e3144"
+  },
+  {
+   "seed": 2323661502,
+   "sha256": "a3d2b4bea2fced71b38be5ceac9db136ade90ae19fcfe5487313d149608fe002"
+  },
+  {
+   "seed": 683129967,
+   "sha256": "cc380e5f936ffc684702b1542ffec97ff98936731d15b967ee1cfb26e5caf7e9"
+  },
+  {
+   "seed": 3337565728,
+   "sha256": "8fc4c83d7c13fa1b8eadcca475b72ae153f8b055d3f6d67cfb354acc9a5701bc"
+  },
+  {
+   "seed": 1697034193,
+   "sha256": "34b6f41239dfeda623745741baa4110ad494f9fe15d38ec43ffa470e8c897b0e"
+  },
+  {
+   "seed": 56502658,
+   "sha256": "f59110c2bb4087ddec58c81362e4db5f6935d26ac427c893e07e7f8ac8976c64"
+  },
+  {
+   "seed": 2710938419,
+   "sha256": "7f7bdf521c691c1b24ff7384390b5b97f4e8ea276f47e862757b2a678d5e7057"
+  },
+  {
+   "seed": 1070406884,
+   "sha256": "68624ac7f2ae04fbb30d1d792ce58a8ed4016ebf923257ce12f1d6c0ea9e72c5"
+  },
+  {
+   "seed": 3724842645,
+   "sha256": "153e909602c7add575e93036c021704fc4e8cc0d5f2d35f30c0017315790d455"
+  },
+  {
+   "seed": 2084311110,
+   "sha256": "348f45b0c691fe3e3a8e7a4a983b95da54d55b64e6e6ca76ff01d8f14e28db65"
+  },
+  {
+   "seed": 443779575,
+   "sha256": "739c428e9398dbafb1c9b8cd8436d2dc80ff4d3eab07aebab277c412770b0c2b"
+  },
+  {
+   "seed": 3098215336,
+   "sha256": "a768e59c20aa2b98ec5804e80d57d1cb2dc34f64d7a5ac74f1624adf50404a6d"
+  },
+  {
+   "seed": 1457683801,
+   "sha256": "77200c237d9320de3c243a4456d92645e14168f161f5823a35d7c7dfd9d9d925"
+  },
+  {
+   "seed": 4112119562,
+   "sha256": "efbba2d8094b0c4fa020e18cd1951d41b46e73c0f1cd45c5f8fd1270371757b4"
+  },
+  {
+   "seed": 2471588027,
+   "sha256": "239b72e031871997c9076f78e91edf55ef9d403e2fac50be5dd34d1a3b3c4554"
+  },
+  {
+   "seed": 831056492,
+   "sha256": "4918bfd47b4f10f62de16c2c7d918673562d5bf6b0503ea2acc4c40ba9a21815"
+  },
+  {
+   "seed": 3485492253,
+   "sha256": "cb3012ac19f489c18fb131765988e7d2676e3316c8600c400278fe7a22f4a37c"
+  },
+  {
+   "seed": 1844960718,
+   "sha256": "51523e32e94dbb63aff2403ce37b8e9aa1a3e0ad549be87f76e49fa13e862fd1"
+  },
+  {
+   "seed": 204429183,
+   "sha256": "c82718b5bdb667a771f78cb2e929ee76c0e3320e21a522b4c86040e4d08aec28"
+  },
+  {
+   "seed": 2858864944,
+   "sha256": "20fe41fe2358ffab358a8349991cdc00d5781bf52e0e1d0cb0bca8194bffe5c5"
+  },
+  {
+   "seed": 1218333409,
+   "sha256": "e66b824f9acd7a7facee31bf3115053f80420e970f9192b2fe33285395b1902d"
+  },
+  {
+   "seed": 3872769170,
+   "sha256": "431700973d3622c6fa1b3d4477c92363bf3c2f5af5e59f2e685cae4c5eb29616"
+  },
+  {
+   "seed": 2232237635,
+   "sha256": "a2628b2e6585061173fd85a873d76566662a03b2e9ab004456450265b87d2acc"
+  },
+  {
+   "seed": 591706100,
+   "sha256": "0b0a3ca00067c41f999cef136287ddcf32031ef95ae29816b146dafb413bc4d7"
+  },
+  {
+   "seed": 3246141861,
+   "sha256": "0290564ec90af4f0e99b7492436e88806346992b8de258c585e12ed940cc4476"
+  },
+  {
+   "seed": 1605610326,
+   "sha256": "db45fcea59bfd87bd3b85438de37241eb0594f32acd7ac5b47ca4acd74667529"
+  },
+  {
+   "seed": 4260046087,
+   "sha256": "52c5fc230c0d82a06782f48aff9ca44fa883e2d4c1e5dd10157ab9deba822d50"
+  },
+  {
+   "seed": 2619514552,
+   "sha256": "f444e15ebd296bf58c8102d2f721a09f2aaed231c8079d31df7673846d8bc01e"
+  },
+  {
+   "seed": 978983017,
+   "sha256": "585a7005d904672d5c3019f67004c98fd583a046fefc49d3708bf5b419aa00da"
+  },
+  {
+   "seed": 3633418778,
+   "sha256": "827608e56349b9e3d10b1bd474bd85e81540bac923929b8ae2e06b3023bb0c4d"
+  },
+  {
+   "seed": 1992887243,
+   "sha256": "015c0eb2d5b927aba30458da297d93a95449f2987ddcd8817a6a1f8b733933b6"
+  },
+  {
+   "seed": 352355708,
+   "sha256": "e1a639148bee8d3720bb1017706a4534543e9531a9043dac6518ed88da4cd7ad"
+  },
+  {
+   "seed": 3006791469,
+   "sha256": "62b5b94eb0bfc973fa0ee5f12069cf47f7e518d4482472571d4a0bb4d2e7d53f"
+  },
+  {
+   "seed": 1366259934,
+   "sha256": "1eed44c9430dacf9e0609ca79d3fb8ae969aaab4527efe2c09f4d31e0da6c610"
+  },
+  {
+   "seed": 4020695695,
+   "sha256": "ee84dd8cba40499bb8d205ac97ad74d3a82e55e6a85df010cedc0a0b8247cbcf"
+  },
+  {
+   "seed": 2380164160,
+   "sha256": "71eb3bd2b88306673e0456866eb5db8adf26b8de3366827d7cf64a4800974e8c"
+  },
+  {
+   "seed": 739632625,
+   "sha256": "8a25b71f20427ee3d2163dced653386db6ed6b5152ec68153841cdac827ceb01"
+  },
+  {
+   "seed": 3394068386,
+   "sha256": "7e6a02e3a3978e35e6c3e21bb9146a74d2216136055a88c052f6969a235cfa19"
+  },
+  {
+   "seed": 1753536851,
+   "sha256": "b7de3353ac37989772b85ae004797da31fec73939b2424f824295d2e7d400639"
+  },
+  {
+   "seed": 113005316,
+   "sha256": "5ee3e8621a9b5fb30ff821e34f4a35873ecb18dc0ad75bb7205033a72a24544d"
+  },
+  {
+   "seed": 2767441077,
+   "sha256": "3662210e2f15c290842700f174aedf57a42051e66b449d1454f86365cd55ca55"
+  },
+  {
+   "seed": 1126909542,
+   "sha256": "21b24d0a46a755d7d602409d1a03734d594e64b3397f12ad76a9147a8785551e"
+  },
+  {
+   "seed": 3781345303,
+   "sha256": "59c562514cb7ea76bf9143074423c4613c88b79e8bb063512b64d07bf4556016"
+  },
+  {
+   "seed": 2140813768,
+   "sha256": "c722c9200e4bd5928385ceff01bb08506f3895d250337c05d30d1dd2f7b0051b"
+  },
+  {
+   "seed": 500282233,
+   "sha256": "98292ca981fec10e5e3179cf4fa105b99ee45cb9b23bb9a22ec77e2d42b63a08"
+  },
+  {
+   "seed": 3154717994,
+   "sha256": "b606945af15bbf8b3a410f0a90d711ba1bb2f341f824dcbfad2ca4e25349e0e0"
+  },
+  {
+   "seed": 1514186459,
+   "sha256": "b072e57e09cec894bfc32ffd8f9afe20095619cb77175ea26cd16fcc78516db2"
+  },
+  {
+   "seed": 4168622220,
+   "sha256": "dfd5c6edf97c4f965b0d848bbc37743c2f33d4f4a51d43ffcc5ae04c933aa660"
+  },
+  {
+   "seed": 2528090685,
+   "sha256": "482620532195e3756246dbaa0e96eb7dea8ec23523c957e4ed9a9ef054e7ea2b"
+  },
+  {
+   "seed": 887559150,
+   "sha256": "bdb23a5c28ddcee73693baca5b560672ea35b9896183a8296e0d769d13ca495a"
+  },
+  {
+   "seed": 3541994911,
+   "sha256": "98e21277a38b23fcb7c0b8e92b0630bef65eb2f4c4291eceda74fb80b319b639"
+  },
+  {
+   "seed": 1901463376,
+   "sha256": "9fcb1725bc3b21a903c8b35c7bf1aa47c63619fcaaec6f0b3d915594e65df7bd"
+  },
+  {
+   "seed": 260931841,
+   "sha256": "d3f023b4dceb375370ae4c1375c19ef066141d413339eefe57b1f69e4a180ecb"
+  },
+  {
+   "seed": 2915367602,
+   "sha256": "c54d6789a834d5c036cad403a2f4d0f0194e2868634cb34eba779f76f8047fdd"
+  },
+  {
+   "seed": 1274836067,
+   "sha256": "6e04723dca6c7a350bbbfdda633c927ded59938e4db4ea229e1bf39f6b84ef61"
+  },
+  {
+   "seed": 3929271828,
+   "sha256": "97698f408d107e0909362a6d83cb1546bb0702bef49f1a244b9196904ed747f8"
+  },
+  {
+   "seed": 2288740293,
+   "sha256": "9c95103ca015a8313071aefb8f08793221db0af39bbde4120357cc7c1c56b272"
+  },
+  {
+   "seed": 648208758,
+   "sha256": "f765219d93265a90b8ff89a786167f3ecd7556676b780119c9fb108987017b7d"
+  },
+  {
+   "seed": 3302644519,
+   "sha256": "e567a4faa2e2d121342f9491a8cb9f42cc073489c6b14f03a545eb831d5c2e78"
+  },
+  {
+   "seed": 1662112984,
+   "sha256": "7bc28d241273a7b8834c9b30bdb75fcfc29646d451b8dbf47577050c3d084aff"
+  },
+  {
+   "seed": 21581449,
+   "sha256": "b765098da80ac3c329750c7bd93dc0d6b7429d6a59340199125f4ac41d056325"
+  },
+  {
+   "seed": 2676017210,
+   "sha256": "7d7b1152f7deaa1ff5e21ec9ecd3ecb787a966f24daed0351e14dafc7a433413"
+  },
+  {
+   "seed": 1035485675,
+   "sha256": "b82d09fd69630ecf52e020b5f172cafcf26eba22963d4abc138ed105b9b1645a"
+  },
+  {
+   "seed": 3689921436,
+   "sha256": "8df0348f2048480444313f73f5fc73f0f5aba0e8810fdb35c7ec5a7c953ea92e"
+  },
+  {
+   "seed": 2049389901,
+   "sha256": "e6c01c2b54a6b6c3fa774df1fba1703e3069d419ea1d6b49417ac63242b62dff"
+  },
+  {
+   "seed": 408858366,
+   "sha256": "b61168a8c7738ede77c4b84e8c76801439e099b40f77d0a25585d0d09f0ed726"
+  },
+  {
+   "seed": 3063294127,
+   "sha256": "b710cd6056771f7fdecb195816fc99f580b87337c2230dcada95a7d01f99abf2"
+  },
+  {
+   "seed": 1422762592,
+   "sha256": "59e5784661ed73f80423949cd44ae4573baa63f915b2964a56caebe867738df1"
+  },
+  {
+   "seed": 4077198353,
+   "sha256": "86c8b3bf3fa9ae76c4e1fc052d29b5003bf948cbdfafd56a7f1a5e435e451336"
+  },
+  {
+   "seed": 2436666818,
+   "sha256": "845e696e0a94e3e63dd3635391126a76042bbd4593b9488f88fb30d9bb58283e"
+  },
+  {
+   "seed": 796135283,
+   "sha256": "8685284a50faa319a1bd8404e100cf72d1aa7f85e1b01c86b4cb45ffcb0e4367"
+  },
+  {
+   "seed": 3450571044,
+   "sha256": "ba978a287306e9a51d48b3b0bc5df3cb6865dbc5842afb5fd4412a1a9a5ae324"
+  },
+  {
+   "seed": 1810039509,
+   "sha256": "c1427bae07bc8e5d49055d4dcf13b1762fd71441a01a9db2d94d8a3cb3388413"
+  },
+  {
+   "seed": 169507974,
+   "sha256": "ffe99314e860fb50918fab740562142031969096f3ae8d8571c5bde2dda99163"
+  },
+  {
+   "seed": 2823943735,
+   "sha256": "6dad52b7b34cb66ae11b0216f4084660206c9f0eb0a0eb42cb92c280f8683a9f"
+  },
+  {
+   "seed": 1183412200,
+   "sha256": "f6a43e9cd9f2a69512ff3cf463cd3f63549c9d447e583182c8d4421daa27fb68"
+  },
+  {
+   "seed": 3837847961,
+   "sha256": "4f1f25c16b8c66818418fe6e61c93738eb573277150ca23cfb569c277ba2a06d"
+  },
+  {
+   "seed": 2197316426,
+   "sha256": "4c1b34ccb838de60923b4c3f39bd0467fe4fe07e345d9065f12d616d860e00d5"
+  },
+  {
+   "seed": 556784891,
+   "sha256": "ab9b4ddf9d3278cb53a4f0f8b07c94b13be4e69ce7ff053b214b1fc4fc96cf43"
+  },
+  {
+   "seed": 3211220652,
+   "sha256": "757e1f1f01fe9c518a60db2cf2563bb16d1e8431b0fa028107bb1a2f112e9930"
+  },
+  {
+   "seed": 1570689117,
+   "sha256": "e0c4a282230e0c947cc932a9fee31bec84d19b2d5bd0d2149840cc14533ae5a3"
+  },
+  {
+   "seed": 4225124878,
+   "sha256": "8cffd61352360f3fcce9eadb26d14f173a0a24549dcfbc98eda8f2146320cbee"
+  },
+  {
+   "seed": 2584593343,
+   "sha256": "876ba1ac228461c77145b5817bc8457bca85e5018189895141bae0734b51a95a"
+  },
+  {
+   "seed": 944061808,
+   "sha256": "dc555bbc7b8bbe0da695a7570f63fbeb1b9cf41beab113c816080ff89518fad9"
+  },
+  {
+   "seed": 3598497569,
+   "sha256": "baa819c881b1c60bde2a1bef94fa52c57be0758089c5f1f2e356bc23cb63e9de"
+  },
+  {
+   "seed": 1957966034,
+   "sha256": "151b616239386e794b080d06f57d652a6c7013cb39b1cf2aee8d375c4a3b95ee"
+  },
+  {
+   "seed": 317434499,
+   "sha256": "e15959d5e902173f91a8e1e7681849e0d077f3fe0358624c246043012b8ab322"
+  },
+  {
+   "seed": 2971870260,
+   "sha256": "00044eab6f46301b9f3c9e699300b8fdd7ebbbd9863a42ec38cd2eed59dd35a6"
+  },
+  {
+   "seed": 1331338725,
+   "sha256": "a7aa0187e9395f2c767d112433b0f5bab5de900b621a6ac4d2d6e0ef56edecdd"
+  },
+  {
+   "seed": 3985774486,
+   "sha256": "608094b89d273eced3a5fa5fc894a21cab7fa13ee76af8ab50968f504c163598"
+  },
+  {
+   "seed": 2345242951,
+   "sha256": "ef6947bcbfbf43a0996a6c721a328ea9897dbc6fe725756156a88672c0e9dd21"
+  },
+  {
+   "seed": 704711416,
+   "sha256": "62ef9098283fe1ddce2cde27dcea7e19c94a6f913d9b8c691a94d142b5fba55d"
+  },
+  {
+   "seed": 3359147177,
+   "sha256": "ff2e1540323041fe84eef174253a451669c3d68a73db6a20176cd3b1938b8eae"
+  },
+  {
+   "seed": 1718615642,
+   "sha256": "a4e1c3d01245e88c14fb2bd982fc476787700a3164439a36f66d9022c2961924"
+  },
+  {
+   "seed": 78084107,
+   "sha256": "a6e6ad957fd8a5138faad428d21e756aa73e52a759f551cf53ca316d20063e2a"
+  },
+  {
+   "seed": 2732519868,
+   "sha256": "dedf272e7a481a10aa48293b057594bff7cc8e45b0eac5a2455775c300b82ea3"
+  },
+  {
+   "seed": 1091988333,
+   "sha256": "b3cc2f54010ded858f3ae6b7a7b567998a9d36011dda719053d70453aa4b5735"
+  },
+  {
+   "seed": 3746424094,
+   "sha256": "3a15b0a4de2c2fe22cf65ae862a9f00a58ff614398c7ec8c4b35055f28a34b4f"
+  },
+  {
+   "seed": 2105892559,
+   "sha256": "61691373eb97330e4152ac1d66a46d2d369617ea00aa8d76ce2ac1987753158c"
+  },
+  {
+   "seed": 465361024,
+   "sha256": "2598a4cbffece6654ddd770e1af60c69f5835726509aa0ffc4045884628199b2"
+  },
+  {
+   "seed": 3119796785,
+   "sha256": "0bb95ec43b93cdc7d74c035dd511b8d4a73681d1f62adc7ee1c13d84d8167804"
+  },
+  {
+   "seed": 1479265250,
+   "sha256": "e4ba5b3ad194652517d2f4dedfffce640ae2527855ef8f06a0d35ac6e955d1b2"
+  },
+  {
+   "seed": 4133701011,
+   "sha256": "f5d92f61b497274975bca8b8933da3664b44873f37a51d0a422da7ea55040d4e"
+  },
+  {
+   "seed": 2493169476,
+   "sha256": "425e1a852ca3c05cd633215e170e972839ed29d53583c8c8aa55f9bdf2069146"
+  },
+  {
+   "seed": 852637941,
+   "sha256": "86624c226c1b1d892e5714b69c69d593e46a069796de585bd642af118c02205c"
+  },
+  {
+   "seed": 3507073702,
+   "sha256": "2e51705dc9220398a7bb49e7242f1b476fa1b706b271e1b4cac878c668a0234d"
+  },
+  {
+   "seed": 1866542167,
+   "sha256": "f981e8a7d3eddae3cf31681ece388ff11b2cf527210f5237eb757bce0af016ae"
+  },
+  {
+   "seed": 226010632,
+   "sha256": "3db373b28224e5fc1f90da7645407864f94bcf29bac9043d0cb3b91b664d3ffc"
+  },
+  {
+   "seed": 2880446393,
+   "sha256": "62fda1e59eb2ef99d17d4aace5c37a93da380adcb3531c4a1162eeea7ab7550a"
+  },
+  {
+   "seed": 1239914858,
+   "sha256": "b486d0c4a2b75956bb291490c79aac6de5e8611561d3dca8714a657a69375597"
+  },
+  {
+   "seed": 3894350619,
+   "sha256": "e1479fea6fc59e5a12538a9a7831a2be94370e54144e9f91e8f2decfbbeecaf3"
+  },
+  {
+   "seed": 2253819084,
+   "sha256": "129df16646564eb04a3699a57b875926337df26e8466244b70183b5cc6e84759"
+  },
+  {
+   "seed": 613287549,
+   "sha256": "f9f0d3cb43edcd867ab4666b162cf515749e10b83e12998f31f60b8a7772337f"
+  },
+  {
+   "seed": 3267723310,
+   "sha256": "108fd66744409beaaf8e23921664947b569b04461c3c99e1b239ddbe534ee54c"
+  },
+  {
+   "seed": 1627191775,
+   "sha256": "9b21be4ca2a964e0864051be88f12113373f000589b3713c5f3406532e8f1196"
+  },
+  {
+   "seed": 4281627536,
+   "sha256": "2be2f47b284389b5e6d88a979485dc2146ab4e53ca69d70dc6ff2924aeda53ae"
+  },
+  {
+   "seed": 2641096001,
+   "sha256": "1158d2a0e78d4c7854e840bf517eea6c37331e31d82126cbbe685038a88d7a7d"
+  },
+  {
+   "seed": 1000564466,
+   "sha256": "760ba84177b302d62f6f34b5b554dfe200a164a1857370fae09a91a414a6b214"
+  },
+  {
+   "seed": 3655000227,
+   "sha256": "d04543bd8eec9b723a65c481c44b218429dcc61d57ad7c40fb1cef6d0e7246ce"
+  },
+  {
+   "seed": 2014468692,
+   "sha256": "3596ae4cab45e9ad7f7f5431359a6d6de679cd38fadf81f44e2c2f7b23414853"
+  },
+  {
+   "seed": 373937157,
+   "sha256": "42bd17855c399879277f112b6722fafc677cf6804a32f3ee5b6d15988a703452"
+  },
+  {
+   "seed": 3028372918,
+   "sha256": "aa520cfeab7ad5ffdaeb4ab7361660e2bfc082e5293f38e932f170ea579d7f7a"
+  },
+  {
+   "seed": 1387841383,
+   "sha256": "854c035193a12de913554e89cf8fc87df433fcdebfc0c4b657646e8468147590"
+  },
+  {
+   "seed": 4042277144,
+   "sha256": "036388b3082c896d863c7964591eaf897a3b546cd147ae69167b6084675fe363"
+  },
+  {
+   "seed": 2401745609,
+   "sha256": "c56330c02d7fe38029c5777e4891c1ab64e7e552accdc00081b0b593937a24e6"
+  },
+  {
+   "seed": 761214074,
+   "sha256": "81bbc901852c935cb3404c2344fea63efba765be3f33fe38767647c0b67d02c9"
+  },
+  {
+   "seed": 3415649835,
+   "sha256": "e417645743b0d7b56b7fae4481245467040d3b4b1b63540621780cda47f5ba32"
+  },
+  {
+   "seed": 1775118300,
+   "sha256": "7a9181df7424e7b03a55f892b46c00640801819682c97077d44ff7822d21700f"
+  },
+  {
+   "seed": 134586765,
+   "sha256": "7a6fa45259522201dae84379783d24e6d940058b9e2cd93165b8eade8609f655"
+  },
+  {
+   "seed": 2789022526,
+   "sha256": "00c4a0d817259eb74f761c2633d7bb5fdd3320b7a4584c79d255ad3709853690"
+  },
+  {
+   "seed": 1148490991,
+   "sha256": "d4cc8d0e74a06d6488b30b5769fd3f3b9ca3a48c3b337c2bf7cc151be9ae7f6b"
+  },
+  {
+   "seed": 3802926752,
+   "sha256": "175bc46464bf62c61758a1d7dc632c4f47904493bee4e5a76a730b4c600306cf"
+  },
+  {
+   "seed": 2162395217,
+   "sha256": "f712f0d76b1fdd23de05ea897386ad63cf870668b2ac8642b65137c0a9086f81"
+  },
+  {
+   "seed": 521863682,
+   "sha256": "627a35cad8266aac5f46042587fcf6840aabecf0a30e023782e26966174003e7"
+  },
+  {
+   "seed": 3176299443,
+   "sha256": "a3ec60253de22c3e20151fd5e2697d3275f01dbd61598726a89931deede12e02"
+  },
+  {
+   "seed": 1535767908,
+   "sha256": "3c0cfcdfc9af843b2ff81d14e4eb123d44ebb5b430bcb606566c3c5fef3c1f8e"
+  },
+  {
+   "seed": 4190203669,
+   "sha256": "feedfb0f0805b124cbd17ef1dcfcac87fb0564a8e29f2a2d32c97b4046738d81"
+  },
+  {
+   "seed": 2549672134,
+   "sha256": "848877005f61cf67888e76ebe22b959ef40bfe3d2959aced3b4235605732992a"
+  },
+  {
+   "seed": 909140599,
+   "sha256": "3d3840370d88d6c692ee7a080e48b67cd9181a52f71032038410a11795637847"
+  },
+  {
+   "seed": 3563576360,
+   "sha256": "8ef93b2e1b8ff0ac1a74e6b40aeb258fb0501aab2520250f9623fe8b589d3df8"
+  },
+  {
+   "seed": 1923044825,
+   "sha256": "5a42ceef5d3292c4b457f9787479d0fc62d599ff34a7f07f1f65625603cea0de"
+  },
+  {
+   "seed": 282513290,
+   "sha256": "dcb4ab27abc9cbf61aee4c2d40279236f02949fb58e591d722191c3fdd07e7ce"
+  },
+  {
+   "seed": 2936949051,
+   "sha256": "f3fcbd10a5ff92922a3fe22752d74e36c5c26349c1b044934ea282d9b1f43068"
+  },
+  {
+   "seed": 1296417516,
+   "sha256": "bb21b066f378b9fe62cbcc442fbcc1c5352405d0ca6d14440282076d27133fa5"
+  },
+  {
+   "seed": 3950853277,
+   "sha256": "d099bd84ffbd880b635d609735dad60cd42148e778e1285ef2c6ef92fc5b8a68"
+  },
+  {
+   "seed": 2310321742,
+   "sha256": "6e6cd8121a76e9364e66fd746a83e95c0b648b4dd61f5473301b0a90d77ac2fa"
+  },
+  {
+   "seed": 669790207,
+   "sha256": "f0973ae3d960350b7ca5840dee5160bbfea1311bc3b1d828df8e68b9be47c8ab"
+  },
+  {
+   "seed": 3324225968,
+   "sha256": "1e4f08b205e3e3dacf46c709f0b654af8b65cd53b6acf1abdb5b6ded76318f95"
+  },
+  {
+   "seed": 1683694433,
+   "sha256": "43611f4c3e4c87d5fced04db2d69956b4baa881eac8d171b5e552ad419c28ee9"
+  },
+  {
+   "seed": 43162898,
+   "sha256": "fd678243a08d392c14312dad3d3532dc3c140406832b13a758f15129bf04b08f"
+  },
+  {
+   "seed": 2697598659,
+   "sha256": "b8e90b3e9182ea44005277b38fec2d2586c49fc60773ec211761126b4c00f91d"
+  },
+  {
+   "seed": 1057067124,
+   "sha256": "25f73629c570605f7050e0adf692ded0b3546a07c26916f8e7fd6cde45a30138"
+  },
+  {
+   "seed": 3711502885,
+   "sha256": "3faff06fe9a102c694846cb72d816260b6aa30e79caa2dd338609a1c7b5bb4cd"
+  },
+  {
+   "seed": 2070971350,
+   "sha256": "732967386484be052a19898644d473c8834b0458184093a3d48774e3a0dc8074"
+  },
+  {
+   "seed": 430439815,
+   "sha256": "bd5793a0fa1fca8a1def4a312652cca86b6f227ba143b29e27054222cb32931b"
+  },
+  {
+   "seed": 3084875576,
+   "sha256": "2f980c3722a9b459013cf4a9637a4119fc5e362efc3ad9118a5ffb36c736439f"
+  },
+  {
+   "seed": 1444344041,
+   "sha256": "a2df6e8288318983f319557db6dbe0d0fa240a60d6686a4812b744591d5d7b80"
+  },
+  {
+   "seed": 4098779802,
+   "sha256": "d8f7a4adf28ba7aaaea9768a28dea39fa6be65cc258ffeb2a5600dc82ffcc721"
+  },
+  {
+   "seed": 2458248267,
+   "sha256": "37b2f00ba09c9ab6d7b61243943000046562708e2457d24bd32d0882e14d37f2"
+  },
+  {
+   "seed": 817716732,
+   "sha256": "c5781955d8b30eb881059f4dc440bb26f4d5c2edb7820f3d39f87a6b62355b46"
+  },
+  {
+   "seed": 3472152493,
+   "sha256": "cc4453110a4982c864206d039c0b3da1dcecbf8d3c99d2a568aeb13100a71d56"
+  },
+  {
+   "seed": 1831620958,
+   "sha256": "d2af25ddcfa391f2dbb52808c3b97854b1c3be65e7f0309b00ad9f78389e1af4"
+  },
+  {
+   "seed": 191089423,
+   "sha256": "51cb2783f4b3f478c9a52e9b1b135e22a78b319604fe0ce95441d7c797265e29"
+  },
+  {
+   "seed": 2845525184,
+   "sha256": "4a9163628989689513df23b658187a60e57707adb9054e1632a74b445995347d"
+  },
+  {
+   "seed": 1204993649,
+   "sha256": "c39d0544ad3726a3f76e93bdcbc2c58b6d2817d4a1450491f025a602e3fa2aac"
+  },
+  {
+   "seed": 3859429410,
+   "sha256": "614ce20c29e9c6ce70242b12f39166b960f9a28ba98ebb7c71f00ac0eadf0d2e"
+  },
+  {
+   "seed": 2218897875,
+   "sha256": "4b64d1f0bcbdcb4602aab025e1e4a2bfca876436a1e165728b20980dadc28d38"
+  },
+  {
+   "seed": 578366340,
+   "sha256": "f1fe3c52351aea603d5a9d8e5803ba060530d7ba47ae630ddee36468071c9c47"
+  },
+  {
+   "seed": 3232802101,
+   "sha256": "3182abe22f73f26f7db40000032e6fe5a90ed44a6f41fdf5b867f01c55e99a6c"
+  },
+  {
+   "seed": 1592270566,
+   "sha256": "019f67dcfed5ab2020b19418a21f7ee1be7db69f2cfe18d760d6a71dd67b30fd"
+  },
+  {
+   "seed": 4246706327,
+   "sha256": "413c241a02b3c865b493f1f5c9b789cb0b5896c29aaad7ae66a7d6b4639a618e"
+  },
+  {
+   "seed": 2606174792,
+   "sha256": "4270a3c111b5efc7f9b3269742453191da173b4a19594e05415add0daea45c80"
+  }
+ ],
+ "samples": [
+  {
+   "seed": 2654435761,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 2654435761,
+    "context": [],
+    "tags": [
+     "incident"
+    ],
+    "kind": "classify",
+    "prompt": "A rede está sob ataque de ransomware. Classifique cada ação do plano.",
+    "categories": [
+     "Faz parte da resposta",
+     "Erro de resposta"
+    ],
+    "items": [
+     {
+      "text": "Restaurar do backup conectado ao mesmo compartilhamento infectado",
+      "detail": [
+       "Cópia no alcance do ataque"
+      ]
+     },
+     {
+      "text": "Isolar da rede as máquinas afetadas, mantendo-as ligadas",
+      "detail": [
+       "Para a propagação",
+       "Preserva evidência"
+      ]
+     },
+     {
+      "text": "Esconder o incidente para evitar desgaste de imagem",
+      "detail": [
+       "Omissão de comunicação"
+      ]
+     },
+     {
+      "text": "Registrar a linha do tempo e comunicar as partes afetadas",
+      "detail": [
+       "Transparência",
+       "Documentação"
+      ]
+     }
+    ],
+    "answer": [
+     1,
+     0,
+     1,
+     0
+    ],
+    "itemExplanations": [
+     "Backup alcançável pela rede provavelmente também foi criptografado.",
+     "Contenção que preserva memória e evidências.",
+     "Aumenta o dano, impede que as vítimas se protejam e costuma violar a lei.",
+     "Obrigação legal em muitos casos e base das lições aprendidas."
+    ],
+    "explanation": "Responder a incidente é isolar, preservar evidência, erradicar e restaurar de cópia confiável — com comunicação honesta. Pagar resgate, formatar antes de investigar ou esconder o caso pioram o resultado.",
+    "hint": "Pergunte se a ação para a propagação, preserva evidência ou restaura de forma confiável."
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1013904226,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 1013904226,
+    "context": [],
+    "tags": [
+     "incident"
+    ],
+    "kind": "classify",
+    "prompt": "A rede está sob ataque de ransomware. Classifique cada ação do plano.",
+    "categories": [
+     "Faz parte da resposta",
+     "Erro de resposta"
+    ],
+    "items": [
+     {
+      "text": "Esconder o incidente para evitar desgaste de imagem",
+      "detail": [
+       "Omissão de comunicação"
+      ]
+     },
+     {
+      "text": "Isolar da rede as máquinas afetadas, mantendo-as ligadas",
+      "detail": [
+       "Para a propagação",
+       "Preserva evidência"
+      ]
+     },
+     {
+      "text": "Pagar o resgate em criptomoeda para agilizar",
+      "detail": [
+       "Sem garantia de recuperação"
+      ]
+     },
+     {
+      "text": "Restaurar do backup conectado ao mesmo compartilhamento infectado",
+      "detail": [
+       "Cópia no alcance do ataque"
+      ]
+     }
+    ],
+    "answer": [
+     1,
+     0,
+     1,
+     1
+    ],
+    "itemExplanations": [
+     "Aumenta o dano, impede que as vítimas se protejam e costuma violar a lei.",
+     "Contenção que preserva memória e evidências.",
+     "Não garante a chave, financia o crime e sinaliza que a vítima paga.",
+     "Backup alcançável pela rede provavelmente também foi criptografado."
+    ],
+    "explanation": "Responder a incidente é isolar, preservar evidência, erradicar e restaurar de cópia confiável — com comunicação honesta. Pagar resgate, formatar antes de investigar ou esconder o caso pioram o resultado.",
+    "hint": "Pergunte se a ação para a propagação, preserva evidência ou restaura de forma confiável."
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      1,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3668339987,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 3668339987,
+    "context": [],
+    "tags": [
+     "incident"
+    ],
+    "kind": "classify",
+    "prompt": "A rede está sob ataque de ransomware. Classifique cada ação do plano.",
+    "categories": [
+     "Faz parte da resposta",
+     "Erro de resposta"
+    ],
+    "items": [
+     {
+      "text": "Restaurar os serviços a partir de backup offline verificado",
+      "detail": [
+       "Cópia isolada",
+       "Integridade verificada"
+      ]
+     },
+     {
+      "text": "Pagar o resgate em criptomoeda para agilizar",
+      "detail": [
+       "Sem garantia de recuperação"
+      ]
+     },
+     {
+      "text": "Formatar todas as máquinas antes de investigar a origem",
+      "detail": [
+       "Perde a causa raiz"
+      ]
+     },
+     {
+      "text": "Isolar da rede as máquinas afetadas, mantendo-as ligadas",
+      "detail": [
+       "Para a propagação",
+       "Preserva evidência"
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     1,
+     1,
+     0
+    ],
+    "itemExplanations": [
+     "Recuperação a partir de cópia que o ataque não alcançou.",
+     "Não garante a chave, financia o crime e sinaliza que a vítima paga.",
+     "Destrói as evidências e não impede a reinfecção pela mesma porta.",
+     "Contenção que preserva memória e evidências."
+    ],
+    "explanation": "Responder a incidente é isolar, preservar evidência, erradicar e restaurar de cópia confiável — com comunicação honesta. Pagar resgate, formatar antes de investigar ou esconder o caso pioram o resultado.",
+    "hint": "Pergunte se a ação para a propagação, preserva evidência ou restaura de forma confiável."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       true,
+       false,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2027808452,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 2027808452,
+    "context": [],
+    "tags": [
+     "incident"
+    ],
+    "kind": "classify",
+    "prompt": "A rede está sob ataque de ransomware. Classifique cada ação do plano.",
+    "categories": [
+     "Faz parte da resposta",
+     "Erro de resposta"
+    ],
+    "items": [
+     {
+      "text": "Restaurar os serviços a partir de backup offline verificado",
+      "detail": [
+       "Cópia isolada",
+       "Integridade verificada"
+      ]
+     },
+     {
+      "text": "Formatar todas as máquinas antes de investigar a origem",
+      "detail": [
+       "Perde a causa raiz"
+      ]
+     },
+     {
+      "text": "Revogar as credenciais e chaves de acesso usadas pelo atacante",
+      "detail": [
+       "Remove o acesso"
+      ]
+     },
+     {
+      "text": "Isolar da rede as máquinas afetadas, mantendo-as ligadas",
+      "detail": [
+       "Para a propagação",
+       "Preserva evidência"
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     1,
+     0,
+     0
+    ],
+    "itemExplanations": [
+     "Recuperação a partir de cópia que o ataque não alcançou.",
+     "Destrói as evidências e não impede a reinfecção pela mesma porta.",
+     "Erradicação: sem credencial válida, o acesso morre.",
+     "Contenção que preserva memória e evidências."
+    ],
+    "explanation": "Responder a incidente é isolar, preservar evidência, erradicar e restaurar de cópia confiável — com comunicação honesta. Pagar resgate, formatar antes de investigar ou esconder o caso pioram o resultado.",
+    "hint": "Pergunte se a ação para a propagação, preserva evidência ou restaura de forma confiável."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 387276917,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 387276917,
+    "context": [],
+    "tags": [
+     "incident"
+    ],
+    "kind": "classify",
+    "prompt": "A rede está sob ataque de ransomware. Classifique cada ação do plano.",
+    "categories": [
+     "Faz parte da resposta",
+     "Erro de resposta"
+    ],
+    "items": [
+     {
+      "text": "Esconder o incidente para evitar desgaste de imagem",
+      "detail": [
+       "Omissão de comunicação"
+      ]
+     },
+     {
+      "text": "Restaurar do backup conectado ao mesmo compartilhamento infectado",
+      "detail": [
+       "Cópia no alcance do ataque"
+      ]
+     },
+     {
+      "text": "Formatar todas as máquinas antes de investigar a origem",
+      "detail": [
+       "Perde a causa raiz"
+      ]
+     },
+     {
+      "text": "Restaurar os serviços a partir de backup offline verificado",
+      "detail": [
+       "Cópia isolada",
+       "Integridade verificada"
+      ]
+     }
+    ],
+    "answer": [
+     1,
+     1,
+     1,
+     0
+    ],
+    "itemExplanations": [
+     "Aumenta o dano, impede que as vítimas se protejam e costuma violar a lei.",
+     "Backup alcançável pela rede provavelmente também foi criptografado.",
+     "Destrói as evidências e não impede a reinfecção pela mesma porta.",
+     "Recuperação a partir de cópia que o ataque não alcançou."
+    ],
+    "explanation": "Responder a incidente é isolar, preservar evidência, erradicar e restaurar de cópia confiável — com comunicação honesta. Pagar resgate, formatar antes de investigar ou esconder o caso pioram o resultado.",
+    "hint": "Pergunte se a ação para a propagação, preserva evidência ou restaura de forma confiável."
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       true,
+       true,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3041712678,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 3041712678,
+    "context": [],
+    "tags": [
+     "incident"
+    ],
+    "kind": "classify",
+    "prompt": "A rede está sob ataque de ransomware. Classifique cada ação do plano.",
+    "categories": [
+     "Faz parte da resposta",
+     "Erro de resposta"
+    ],
+    "items": [
+     {
+      "text": "Esconder o incidente para evitar desgaste de imagem",
+      "detail": [
+       "Omissão de comunicação"
+      ]
+     },
+     {
+      "text": "Registrar a linha do tempo e comunicar as partes afetadas",
+      "detail": [
+       "Transparência",
+       "Documentação"
+      ]
+     },
+     {
+      "text": "Restaurar os serviços a partir de backup offline verificado",
+      "detail": [
+       "Cópia isolada",
+       "Integridade verificada"
+      ]
+     },
+     {
+      "text": "Restaurar do backup conectado ao mesmo compartilhamento infectado",
+      "detail": [
+       "Cópia no alcance do ataque"
+      ]
+     }
+    ],
+    "answer": [
+     1,
+     0,
+     0,
+     1
+    ],
+    "itemExplanations": [
+     "Aumenta o dano, impede que as vítimas se protejam e costuma violar a lei.",
+     "Obrigação legal em muitos casos e base das lições aprendidas.",
+     "Recuperação a partir de cópia que o ataque não alcançou.",
+     "Backup alcançável pela rede provavelmente também foi criptografado."
+    ],
+    "explanation": "Responder a incidente é isolar, preservar evidência, erradicar e restaurar de cópia confiável — com comunicação honesta. Pagar resgate, formatar antes de investigar ou esconder o caso pioram o resultado.",
+    "hint": "Pergunte se a ação para a propagação, preserva evidência ou restaura de forma confiável."
+   },
+   "checks": [
+    {
+     "answer": [
+      1,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       true,
+       false,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1401181143,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 1401181143,
+    "context": [],
+    "tags": [
+     "incident"
+    ],
+    "kind": "classify",
+    "prompt": "A rede está sob ataque de ransomware. Classifique cada ação do plano.",
+    "categories": [
+     "Faz parte da resposta",
+     "Erro de resposta"
+    ],
+    "items": [
+     {
+      "text": "Restaurar os serviços a partir de backup offline verificado",
+      "detail": [
+       "Cópia isolada",
+       "Integridade verificada"
+      ]
+     },
+     {
+      "text": "Revogar as credenciais e chaves de acesso usadas pelo atacante",
+      "detail": [
+       "Remove o acesso"
+      ]
+     },
+     {
+      "text": "Registrar a linha do tempo e comunicar as partes afetadas",
+      "detail": [
+       "Transparência",
+       "Documentação"
+      ]
+     },
+     {
+      "text": "Restaurar do backup conectado ao mesmo compartilhamento infectado",
+      "detail": [
+       "Cópia no alcance do ataque"
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "itemExplanations": [
+     "Recuperação a partir de cópia que o ataque não alcançou.",
+     "Erradicação: sem credencial válida, o acesso morre.",
+     "Obrigação legal em muitos casos e base das lições aprendidas.",
+     "Backup alcançável pela rede provavelmente também foi criptografado."
+    ],
+    "explanation": "Responder a incidente é isolar, preservar evidência, erradicar e restaurar de cópia confiável — com comunicação honesta. Pagar resgate, formatar antes de investigar ou esconder o caso pioram o resultado.",
+    "hint": "Pergunte se a ação para a propagação, preserva evidência ou restaura de forma confiável."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       true,
+       true,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 4055616904,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 4055616904,
+    "context": [],
+    "tags": [
+     "incident"
+    ],
+    "kind": "classify",
+    "prompt": "A rede está sob ataque de ransomware. Classifique cada ação do plano.",
+    "categories": [
+     "Faz parte da resposta",
+     "Erro de resposta"
+    ],
+    "items": [
+     {
+      "text": "Registrar a linha do tempo e comunicar as partes afetadas",
+      "detail": [
+       "Transparência",
+       "Documentação"
+      ]
+     },
+     {
+      "text": "Isolar da rede as máquinas afetadas, mantendo-as ligadas",
+      "detail": [
+       "Para a propagação",
+       "Preserva evidência"
+      ]
+     },
+     {
+      "text": "Esconder o incidente para evitar desgaste de imagem",
+      "detail": [
+       "Omissão de comunicação"
+      ]
+     },
+     {
+      "text": "Formatar todas as máquinas antes de investigar a origem",
+      "detail": [
+       "Perde a causa raiz"
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "itemExplanations": [
+     "Obrigação legal em muitos casos e base das lições aprendidas.",
+     "Contenção que preserva memória e evidências.",
+     "Aumenta o dano, impede que as vítimas se protejam e costuma violar a lei.",
+     "Destrói as evidências e não impede a reinfecção pela mesma porta."
+    ],
+    "explanation": "Responder a incidente é isolar, preservar evidência, erradicar e restaurar de cópia confiável — com comunicação honesta. Pagar resgate, formatar antes de investigar ou esconder o caso pioram o resultado.",
+    "hint": "Pergunte se a ação para a propagação, preserva evidência ou restaura de forma confiável."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       true,
+       false,
+       true,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      1,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 2415085369,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 2415085369,
+    "context": [],
+    "tags": [
+     "incident"
+    ],
+    "kind": "classify",
+    "prompt": "A rede está sob ataque de ransomware. Classifique cada ação do plano.",
+    "categories": [
+     "Faz parte da resposta",
+     "Erro de resposta"
+    ],
+    "items": [
+     {
+      "text": "Registrar a linha do tempo e comunicar as partes afetadas",
+      "detail": [
+       "Transparência",
+       "Documentação"
+      ]
+     },
+     {
+      "text": "Pagar o resgate em criptomoeda para agilizar",
+      "detail": [
+       "Sem garantia de recuperação"
+      ]
+     },
+     {
+      "text": "Isolar da rede as máquinas afetadas, mantendo-as ligadas",
+      "detail": [
+       "Para a propagação",
+       "Preserva evidência"
+      ]
+     },
+     {
+      "text": "Formatar todas as máquinas antes de investigar a origem",
+      "detail": [
+       "Perde a causa raiz"
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     1,
+     0,
+     1
+    ],
+    "itemExplanations": [
+     "Obrigação legal em muitos casos e base das lições aprendidas.",
+     "Não garante a chave, financia o crime e sinaliza que a vítima paga.",
+     "Contenção que preserva memória e evidências.",
+     "Destrói as evidências e não impede a reinfecção pela mesma porta."
+    ],
+    "explanation": "Responder a incidente é isolar, preservar evidência, erradicar e restaurar de cópia confiável — com comunicação honesta. Pagar resgate, formatar antes de investigar ou esconder o caso pioram o resultado.",
+    "hint": "Pergunte se a ação para a propagação, preserva evidência ou restaura de forma confiável."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 774553834,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 774553834,
+    "context": [],
+    "tags": [
+     "incident"
+    ],
+    "kind": "classify",
+    "prompt": "A rede está sob ataque de ransomware. Classifique cada ação do plano.",
+    "categories": [
+     "Faz parte da resposta",
+     "Erro de resposta"
+    ],
+    "items": [
+     {
+      "text": "Isolar da rede as máquinas afetadas, mantendo-as ligadas",
+      "detail": [
+       "Para a propagação",
+       "Preserva evidência"
+      ]
+     },
+     {
+      "text": "Restaurar do backup conectado ao mesmo compartilhamento infectado",
+      "detail": [
+       "Cópia no alcance do ataque"
+      ]
+     },
+     {
+      "text": "Revogar as credenciais e chaves de acesso usadas pelo atacante",
+      "detail": [
+       "Remove o acesso"
+      ]
+     },
+     {
+      "text": "Formatar todas as máquinas antes de investigar a origem",
+      "detail": [
+       "Perde a causa raiz"
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     1,
+     0,
+     1
+    ],
+    "itemExplanations": [
+     "Contenção que preserva memória e evidências.",
+     "Backup alcançável pela rede provavelmente também foi criptografado.",
+     "Erradicação: sem credencial válida, o acesso morre.",
+     "Destrói as evidências e não impede a reinfecção pela mesma porta."
+    ],
+    "explanation": "Responder a incidente é isolar, preservar evidência, erradicar e restaurar de cópia confiável — com comunicação honesta. Pagar resgate, formatar antes de investigar ou esconder o caso pioram o resultado.",
+    "hint": "Pergunte se a ação para a propagação, preserva evidência ou restaura de forma confiável."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 3428989595,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 3428989595,
+    "context": [],
+    "tags": [
+     "incident"
+    ],
+    "kind": "classify",
+    "prompt": "A rede está sob ataque de ransomware. Classifique cada ação do plano.",
+    "categories": [
+     "Faz parte da resposta",
+     "Erro de resposta"
+    ],
+    "items": [
+     {
+      "text": "Revogar as credenciais e chaves de acesso usadas pelo atacante",
+      "detail": [
+       "Remove o acesso"
+      ]
+     },
+     {
+      "text": "Registrar a linha do tempo e comunicar as partes afetadas",
+      "detail": [
+       "Transparência",
+       "Documentação"
+      ]
+     },
+     {
+      "text": "Isolar da rede as máquinas afetadas, mantendo-as ligadas",
+      "detail": [
+       "Para a propagação",
+       "Preserva evidência"
+      ]
+     },
+     {
+      "text": "Restaurar do backup conectado ao mesmo compartilhamento infectado",
+      "detail": [
+       "Cópia no alcance do ataque"
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "itemExplanations": [
+     "Erradicação: sem credencial válida, o acesso morre.",
+     "Obrigação legal em muitos casos e base das lições aprendidas.",
+     "Contenção que preserva memória e evidências.",
+     "Backup alcançável pela rede provavelmente também foi criptografado."
+    ],
+    "explanation": "Responder a incidente é isolar, preservar evidência, erradicar e restaurar de cópia confiável — com comunicação honesta. Pagar resgate, formatar antes de investigar ou esconder o caso pioram o resultado.",
+    "hint": "Pergunte se a ação para a propagação, preserva evidência ou restaura de forma confiável."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      0,
+      0,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       true,
+       true,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "seed": 1788458060,
+   "question": {
+    "generator": "classify_pool",
+    "seed": 1788458060,
+    "context": [],
+    "tags": [
+     "incident"
+    ],
+    "kind": "classify",
+    "prompt": "A rede está sob ataque de ransomware. Classifique cada ação do plano.",
+    "categories": [
+     "Faz parte da resposta",
+     "Erro de resposta"
+    ],
+    "items": [
+     {
+      "text": "Isolar da rede as máquinas afetadas, mantendo-as ligadas",
+      "detail": [
+       "Para a propagação",
+       "Preserva evidência"
+      ]
+     },
+     {
+      "text": "Restaurar do backup conectado ao mesmo compartilhamento infectado",
+      "detail": [
+       "Cópia no alcance do ataque"
+      ]
+     },
+     {
+      "text": "Esconder o incidente para evitar desgaste de imagem",
+      "detail": [
+       "Omissão de comunicação"
+      ]
+     },
+     {
+      "text": "Restaurar os serviços a partir de backup offline verificado",
+      "detail": [
+       "Cópia isolada",
+       "Integridade verificada"
+      ]
+     }
+    ],
+    "answer": [
+     0,
+     1,
+     1,
+     0
+    ],
+    "itemExplanations": [
+     "Contenção que preserva memória e evidências.",
+     "Backup alcançável pela rede provavelmente também foi criptografado.",
+     "Aumenta o dano, impede que as vítimas se protejam e costuma violar a lei.",
+     "Recuperação a partir de cópia que o ataque não alcançou."
+    ],
+    "explanation": "Responder a incidente é isolar, preservar evidência, erradicar e restaurar de cópia confiável — com comunicação honesta. Pagar resgate, formatar antes de investigar ou esconder o caso pioram o resultado.",
+    "hint": "Pergunte se a ação para a propagação, preserva evidência ou restaura de forma confiável."
+   },
+   "checks": [
+    {
+     "answer": [
+      0,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": true,
+      "items": [
+       true,
+       true,
+       true,
+       true
+      ]
+     }
+    },
+    {
+     "answer": null,
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": "x",
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": {
+      "defaultPolicy": "allow"
+     },
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      0,
+      0,
+      1
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    },
+    {
+     "answer": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       true,
+       false,
+       true
+      ]
+     }
+    },
+    {
+     "answer": [
+      true,
+      1,
+      1,
+      0
+     ],
+     "result": {
+      "correct": false,
+      "items": [
+       false,
+       false,
+       false,
+       false
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}
