@@ -32,7 +32,10 @@ docker compose up --build                                # → http://localhost:
 ```
 
 O nginx serve a SPA, a página pública `/verificar/{codigo}` e faz proxy de `/api` para a API.
-A API roda `alembic upgrade head` no start.
+A API roda `alembic upgrade head` no start. `WEB_PORT` troca a porta publicada (padrão 8080).
+
+A imagem de produção **não** inclui os ganchos de teste (`window.__fireshot`), que dependem de
+`VITE_E2E=1` no build — contra a pilha do compose rodam apenas os specs que não dirigem o jogo.
 
 ## Desenvolvimento
 

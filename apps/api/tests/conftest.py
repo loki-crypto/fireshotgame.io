@@ -9,16 +9,39 @@ from __future__ import annotations
 import os
 import subprocess
 import sys
+import tempfile
 from collections.abc import AsyncIterator, Iterator
 from pathlib import Path
 
 API_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_URL = "postgresql+asyncpg://fireshot:fireshot@localhost:55432/fireshot"
 
+
+def _test_signing_key() -> str:
+    """Chave Ed25519 própria dos testes: o .env do desenvolvedor não deve influenciar."""
+    from cryptography.hazmat.primitives import serialization
+    from cryptography.hazmat.primitives.asymmetric.ed25519 import Ed25519PrivateKey
+
+    path = Path(tempfile.gettempdir()) / "fireshot-test-cert-key.pem"
+    if not path.exists():
+        pem = Ed25519PrivateKey.generate().private_bytes(
+            serialization.Encoding.PEM,
+            serialization.PrivateFormat.PKCS8,
+            serialization.NoEncryption(),
+        )
+        path.write_bytes(pem)
+    return str(path)
+
+
+# variáveis de ambiente têm precedência sobre o .env do repositório: os testes ficam isolados
 os.environ["DATABASE_URL"] = os.environ.get("TEST_DATABASE_URL", DEFAULT_URL)
-os.environ.setdefault("JWT_SECRET", "test-secret-nao-usar-em-producao")
-os.environ.setdefault("RATE_LIMIT_ENABLED", "false")
-os.environ.setdefault("COOKIE_SECURE", "false")
+os.environ["JWT_SECRET"] = os.environ.get("JWT_SECRET", "test-secret-nao-usar-em-producao")
+os.environ["RATE_LIMIT_ENABLED"] = "false"
+os.environ["COOKIE_SECURE"] = "false"
+os.environ["MIN_TIME_SCALE"] = "1"
+os.environ["CERT_MIN_ACTIVE_HOURS"] = "3"
+os.environ["CERT_MIN_ACCURACY"] = "0.70"
+os.environ["CERT_PRIVATE_KEY_FILE"] = _test_signing_key()
 
 import pytest  # noqa: E402
 from httpx import ASGITransport, AsyncClient  # noqa: E402

@@ -25,6 +25,7 @@ services:
     environment:
       DATABASE_URL: ${DATABASE_URL:-postgresql+asyncpg://fireshot:fireshot@db:5432/fireshot}
       CERT_PRIVATE_KEY_FILE: /run/secrets/cert-key.pem
+      CONTENT_DIR: /srv/packages/content
     volumes:
       - ./infra/cert-key.pem:/run/secrets/cert-key.pem:ro
     depends_on:

@@ -8,7 +8,21 @@ from pathlib import Path
 from pydantic import Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
-REPO_ROOT = Path(__file__).resolve().parents[3]
+
+def _discover_root(start: Path) -> Path:
+    """Raiz do monorepo (onde vive pnpm-workspace.yaml).
+
+    Em desenvolvimento o arquivo está em `<repo>/apps/api/app/config.py`; na imagem Docker o
+    serviço é copiado para `/srv/app`, sem o repositório em volta — aí a raiz é `/srv`, que é
+    onde o Dockerfile coloca `packages/content`.
+    """
+    for candidate in (start, *start.parents):
+        if (candidate / "pnpm-workspace.yaml").is_file():
+            return candidate
+    return start.parent
+
+
+REPO_ROOT = _discover_root(Path(__file__).resolve().parent)
 
 
 class Settings(BaseSettings):

@@ -20,10 +20,10 @@ RUN uv sync --frozen --no-dev
 COPY apps/api/app app
 COPY apps/api/alembic alembic
 COPY apps/api/alembic.ini ./
-COPY packages/content /srv/content
+# mesmo caminho relativo do repositório: o default de CONTENT_DIR continua valendo
+COPY packages/content /srv/packages/content
 
-ENV PATH="/srv/.venv/bin:$PATH" \
-    CONTENT_DIR=/srv/content
+ENV PATH="/srv/.venv/bin:$PATH"
 
 EXPOSE 8000
 CMD ["sh", "-c", "alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port 8000 --proxy-headers --forwarded-allow-ips='*'"]

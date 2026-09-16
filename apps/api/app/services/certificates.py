@@ -13,6 +13,7 @@ import logging
 import secrets
 import uuid
 from datetime import UTC, datetime
+from pathlib import Path
 from typing import Any
 
 from cryptography.exceptions import InvalidSignature
@@ -44,8 +45,10 @@ def signing_key() -> Ed25519PrivateKey:
     global _ephemeral_key
     s = get_settings()
     if s.cert_private_key_file:
-        data = s.cert_private_key_file.read_bytes()
-        key = serialization.load_pem_private_key(data, password=None)
+        path = Path(s.cert_private_key_file)
+        if not path.is_file():
+            raise ApiError("unknown", f"Chave do certificado não encontrada em {path}.")
+        key = serialization.load_pem_private_key(path.read_bytes(), password=None)
         if not isinstance(key, Ed25519PrivateKey):
             raise ApiError("unknown", "A chave do certificado não é Ed25519.")
         return key
