@@ -4,11 +4,10 @@ from __future__ import annotations
 
 import re
 from dataclasses import dataclass, field
-from typing import Any, TypeVar
+from typing import Any
 
 from ..rng import Rng
 
-T = TypeVar("T")
 _VAR = re.compile(r"\{([A-Za-z0-9_]+)\}")  # \w do JavaScript (sem flag u)
 
 
@@ -46,7 +45,7 @@ def pool(ctx: GenContext, name: str) -> dict[str, Any]:
     return p
 
 
-def param(ctx: GenContext, key: str, fallback: T) -> T:
+def param[T](ctx: GenContext, key: str, fallback: T) -> T:
     v = ctx.params.get(key)
     return fallback if v is None else v
 

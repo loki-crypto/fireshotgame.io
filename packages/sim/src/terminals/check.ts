@@ -71,3 +71,17 @@ export function checkAnswer(q: Question, a: AnswerValue | unknown): CheckResult 
     }
   }
 }
+
+/** Gabarito no formato em que o cliente envia a resposta (ganchos de teste e fixtures). */
+export function canonicalAnswer(q: Question): AnswerValue {
+  switch (q.kind) {
+    case "mc":
+      return q.answer;
+    case "match":
+    case "classify":
+    case "numeric":
+      return q.answer;
+    case "rules":
+      return { defaultPolicy: "deny", rules: q.answer.allowed.map((port) => ({ port, action: "allow" as const })) };
+  }
+}

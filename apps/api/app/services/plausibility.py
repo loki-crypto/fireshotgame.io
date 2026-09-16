@@ -143,7 +143,8 @@ def check_completion(
 ) -> list[str]:
     """Motivos para rejeitar a conclusão (lista vazia = aceita)."""
     reasons: list[str] = []
-    if elapsed_real_s + 1 < phase.get("minTime", 0):
+    min_time = phase.get("minTime", 0) * get_settings().min_time_scale
+    if elapsed_real_s + 1 < min_time:
         reasons.append("too_fast")
     if not clock_skew_ok(client_ts):
         reasons.append("clock_skew")

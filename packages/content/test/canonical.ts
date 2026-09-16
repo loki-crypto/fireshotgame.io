@@ -1,5 +1,7 @@
 import { createHash } from "node:crypto";
-import type { Question } from "@fireshot/sim";
+import { canonicalAnswer, type Question } from "@fireshot/sim";
+
+export { canonicalAnswer };
 
 /**
  * JSON canônico: chaves ordenadas, sem espaços, sem `undefined`.
@@ -14,17 +16,6 @@ export function canonicalJson(v: unknown): string {
 }
 
 export const sha256 = (s: string): string => createHash("sha256").update(s, "utf8").digest("hex");
-
-/** Resposta canônica de uma questão (o gabarito no formato que o cliente envia). */
-export function canonicalAnswer(q: Question): unknown {
-  switch (q.kind) {
-    case "mc": return q.answer;
-    case "match":
-    case "classify": return q.answer;
-    case "numeric": return q.answer;
-    case "rules": return { defaultPolicy: "deny", rules: q.answer.allowed.map((port) => ({ port, action: "allow" })) };
-  }
-}
 
 /** Respostas variadas (certa, errada, malformada) para comparar a correção entre TS e Python. */
 export function sampleAnswers(q: Question): unknown[] {

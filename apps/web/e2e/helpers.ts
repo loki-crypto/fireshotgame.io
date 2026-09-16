@@ -5,6 +5,7 @@ export interface FireshotDebug {
   mode(): string;
   forceLock(): void;
   solveAll(): void;
+  answerAll(): Promise<void>;
   clearArenas(): void;
   defeatBoss(): void;
   finish(): void;

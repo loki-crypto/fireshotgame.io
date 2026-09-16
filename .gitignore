@@ -8,3 +8,10 @@ playwright-report/
 apps/web/e2e/.cache/
 __pycache__/
 .venv/
+
+# backend
+apps/api/.pytest_cache/
+apps/api/.venv/
+apps/api/__pycache__/
+**/__pycache__/
+infra/cert-key.pem

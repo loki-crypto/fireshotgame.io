@@ -47,6 +47,9 @@ class Settings(BaseSettings):
     # ── plausibilidade ────────────────────────────────────────────────────
     max_clock_skew_seconds: int = 300
     event_time_tolerance_seconds: int = 15
+    min_time_scale: float = 1.0
+    """Escala aplicada ao `minTime` das fases. 0 desliga a checagem — só para testes
+    automatizados (o E2E conclui uma fase em segundos); nunca use em produção."""
     max_events_per_batch: int = Field(default=100, ge=1, le=500)
 
     @property

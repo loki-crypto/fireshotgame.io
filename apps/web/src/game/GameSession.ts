@@ -2,7 +2,7 @@ import { signal } from "@preact/signals";
 import { PointerLockControls } from "three/examples/jsm/controls/PointerLockControls.js";
 import * as THREE from "three";
 import {
-  FIXED_DT, applyEffects, applyTerminalResult, checkAnswer, createWorld, damagePlayer, findWeaponDef, generateQuestion, killEnemy, mulberry32, openDoor,
+  FIXED_DT, applyEffects, applyTerminalResult, canonicalAnswer, checkAnswer, createWorld, damagePlayer, findWeaponDef, generateQuestion, killEnemy, mulberry32, openDoor,
   phaseSummary, questionSeed, respawn, stepWorld, tamperQuestion, terminalAccess,
   type AnswerValue, type CheckResult, type ContentRegistry, type EnemyDef, type PhaseSummary, type Question, type RulesAnswer, type SimEvent,
   type Tampered, type World,
@@ -574,6 +574,22 @@ export class GameSession {
             applyTerminalResult(this.world, term.id, true, false);
           }
         }
+        this.processEvents();
+      },
+      answerAll: async () => {
+        // caminho real de resposta (passa pelo servidor quando online), ao contrário de solveAll
+        for (const term of this.world.terminals) {
+          for (let guard = 0; !term.solved && guard < 40; guard++) {
+            term.corrupted = false;
+            this.openTerminal(term.id);
+            const st = this.terminal.value;
+            if (!st || st.terminalId !== term.id) break;
+            this.submitAnswer(canonicalAnswer(st.question));
+            while (this.terminal.value?.pending) await new Promise((r) => setTimeout(r, 20));
+            this.continueTerminal();
+          }
+        }
+        await this.flushAnswers();
         this.processEvents();
       },
       clearArenas: () => {
