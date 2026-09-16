@@ -1,5 +1,9 @@
 # Fireshot: Defesa de Rede
 
+**Jogue agora: <https://fireshot.vercel.app>** — no computador, com teclado e mouse.
+
+![Tela inicial do Fireshot: escolha do agente em pixel art e as 10 fases da campanha](docs/tela-inicial.png)
+
 FPS educacional de redes e cibersegurança. Cada setor da rede corporativa é uma fase com um
 conceito (LAN, sub-redes, DNS/HTTPS, firewall, senhas, phishing…), uma ameaça que encarna esse
 conceito e uma contramedida que só funciona se você entendeu a ideia. Entre os combates há
@@ -11,6 +15,25 @@ firewall e DDoS (Botnet/Firewall Cannon), autenticação (Brute Forcer/lockout),
 trojan, injeção (Injector/Sanitizer) e o chefe Ransomware com ciclo de resposta a incidentes.
 UI e conteúdo em **pt-BR**.
 
+Com conta, você escolhe um agente em pixel art, sobe de nível, compra upgrades, disputa o rank
+(geral e por fase) e, ao concluir o percurso, emite um certificado verificável. Sem conta dá para
+jogar o tutorial e o laboratório de treino.
+
+## Como jogar
+
+| Ação | Tecla |
+|---|---|
+| Mover / pular / correr | `W` `A` `S` `D` / `Espaço` / `Shift` |
+| Atirar / mirar | botão esquerdo / botão direito do mouse |
+| Recarregar / interagir com terminal | `R` / `E` |
+| Trocar de arma | `1` a `5` |
+| Denunciar phishing / backup | `F` / `B` |
+| Pausar | `P` |
+
+Todas as teclas podem ser trocadas em **Configurações**, que também tem sensibilidade, campo de
+visão, narração e "reduzir movimento". Em celular e tablet o site mostra um aviso: as fases não
+funcionam com toque.
+
 ## Pilha
 
 | Parte | Tecnologia |
@@ -20,8 +43,7 @@ UI e conteúdo em **pt-BR**.
 | `apps/web` | Preact + signals, Three.js (render neon procedural), Vite |
 | `apps/api` | FastAPI + SQLAlchemy 2 async + PostgreSQL, Alembic, argon2id, JWT em cookie, WeasyPrint |
 
-Monorepo pnpm. `PLAN.md` tem o plano completo (arquitetura, modelo de dados, contratos, marcos);
-`CLAUDE_CHECKPOINT.md` registra o estado de cada sessão de trabalho.
+Monorepo pnpm. `PLAN.md` tem o plano de arquitetura (modelo de dados, contratos e marcos).
 
 ## Rodando com Docker
 
@@ -99,7 +121,7 @@ pnpm -r test                     # sim (101) + content (99) + web (34)
 cd apps/api && uv run pytest -q  # 110 testes (conformidade TS↔Python, auth, sessão, loja, certificado, rank, segurança)
 cd apps/api && uv run ruff check .
 
-cd apps/web && npx playwright test                 # E2E sem backend
+cd apps/web && npx playwright test                 # E2E sem backend (inclui o aviso em celular)
 E2E_API=1 npx playwright test e2e/api.spec.ts      # E2E com a API no ar
 ```
 
@@ -221,3 +243,9 @@ emissão dizem isso explicitamente.
 - **Cor**: cada ameaça tem forma geométrica própria além da cor (um teste garante formas e cores
   únicas), e a HUD usa contraste alto com rótulos textuais.
 - **Desempenho**: modo de qualidade reduzida para máquinas sem GPU dedicada.
+
+## Contato
+
+Dúvidas, sugestões, pedidos sobre dados pessoais (LGPD) e relatos de falhas de segurança:
+**fireshotIO@gmail.com**. Se encontrar uma vulnerabilidade, escreva antes de divulgá-la — o
+contato também está em [`/.well-known/security.txt`](https://fireshot.vercel.app/.well-known/security.txt).
